@@ -33,8 +33,9 @@ PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
 ALLSPHINXOPTS   = -b $(BUILDER) -d build/doctrees $(PAPEROPT_$(PAPER)) \
                   $(SPHINXOPTS) $(SOURCES) build/$(BUILDER)
+I18NSPHINXOPTS  = $(SPHINXOPTS) ./source
 
-.PHONY: help checkout update images build view html htmlview htmlhelp latex pdf linkcheck clean upload
+.PHONY: help checkout update images build view html htmlview htmlhelp latex pdf linkcheck clean upload gettext
 
 
 help:
@@ -122,6 +123,10 @@ linkcheck: BUILDER = linkcheck
 linkcheck: build
 	@echo "Link check complete; look for any errors in the above output " \
 	      "or in build/$(BUILDER)/output.txt."
+gettext:
+	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) build/locale
+	@echo
+	@echo "Build finished. The message catalogs are in build/locale."
 
 clean:
 	-rm -rf build/
