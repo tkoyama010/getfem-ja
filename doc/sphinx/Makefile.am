@@ -132,6 +132,7 @@ gettext:
 
 clean:
 	-rm -rf build/
+	-rm -rf locale/
 	-rm -rf html/
 	-cd $(srcdir)/source/userdoc/images/; make clean
 	-cd $(srcdir)/source/project/images/; make clean
