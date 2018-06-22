@@ -124,9 +124,9 @@ linkcheck: build
 	@echo "Link check complete; look for any errors in the above output " \
 	      "or in build/$(BUILDER)/output.txt."
 gettext:
-	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) build/locale
+	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) locale
 	@echo
-	@echo "Build finished. The message catalogs are in build/locale."
+	@echo "Build finished. The message catalogs are in locale."
 
 clean:
 	-rm -rf build/
