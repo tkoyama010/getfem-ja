@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# abf7b78bb1b94c7f91bf9f93986c6ce6
+#: ../source/project/libdesc_model.rst:10
+msgid "Model module"
+msgstr ""
+
+# 537626285ab04ce2bf9fd687ee13844b
+# b0ef3fd8efc74b09b128ee30a2d38cbb
+#: ../source/project/libdesc_model.rst:1 ../source/project/libdesc_model.rst:14
+msgid "Description"
+msgstr ""
+
+# 707c085279ca45daa1f5a6830c02d698
+#: ../source/project/libdesc_model.rst:16
+msgid ""
+"Describe a model (variable, data and equation terms linking the "
+"variables)."
+msgstr ""
+
+# 664ad9d988b54630a04c6e86a76e2b24
+#: ../source/project/libdesc_model.rst:19
+msgid "Files"
+msgstr ""
+
+# 02e848408a6a48d79b1a070424f8d92a
+#: ../source/project/libdesc_model.rst:1
+msgid "File(s)"
+msgstr ""
+
+# 0079af8e50564f02942a5423204c8e8c
+#: ../source/project/libdesc_model.rst:1
+msgid ":file:`getfem_models.h` and :file:`getfem_models.cc`"
+msgstr ""
+
+# ccb47ac53d694b88a647ace23f015627
+#: ../source/project/libdesc_model.rst:1
+msgid ""
+"Defines the object models, its internal and the standard bricks (linear "
+"elasticity, generic elliptic brick, Dirichlet boundary conditions ...)."
+msgstr ""
+
+# d07d6e818ce440a3a8fb68f9b2ac3c4a
+#: ../source/project/libdesc_model.rst:1
+msgid ":file:`getfem_model_solvers.h` and :file:`getfem_model_solvers.cc`"
+msgstr ""
+
+# b45797a57f294ab6aa90c95fd5ca7500
+#: ../source/project/libdesc_model.rst:1
+msgid "Defines the the standard solvers for the model object."
+msgstr ""
+
+# 36cddab0a95a4625bcd641d97033d3dc
+#: ../source/project/libdesc_model.rst:1
+msgid ""
+":file:`getfem_contact_and_friction_common.h` and "
+":file:`getfem_contact_and_friction_common.cc`"
+msgstr ""
+
+# c6473241de5f4ad5915ccc21e180d844
+#: ../source/project/libdesc_model.rst:1
+msgid "Common algorithms for contact/friction conditions on deformable bodies"
+msgstr ""
+
+# ce2eaac3cb944250b8d0898906832b81
+#: ../source/project/libdesc_model.rst:1
+msgid ""
+":file:`getfem_contact_and_friction_integral.h` and "
+":file:`getfem_contact_and_friction_integral.cc`"
+msgstr ""
+
+# b5040e194f81425087aa980f8c267fda
+#: ../source/project/libdesc_model.rst:1
+msgid "Small sliding Contact/friction bricks of integral type."
+msgstr ""
+
+# 4c9a63af33244514bbf109fc1d43149d
+#: ../source/project/libdesc_model.rst:1
+msgid ""
+":file:`getfem_contact_and_friction_large_sliding.h` and "
+":file:`getfem_contact_and_friction_large_sliding.cc`"
+msgstr ""
+
+# a7184b7946564f23aa3f36a31a5a7f45
+#: ../source/project/libdesc_model.rst:1
+msgid "Large sliding contact/friction bricks."
+msgstr ""
+
+# d02d8a43ed8d470a8f66db10ded2a0d1
+#: ../source/project/libdesc_model.rst:1
+msgid ""
+":file:`getfem_contact_and_friction_nodal.h` and "
+":file:`getfem_contact_and_friction_nodal.cc`"
+msgstr ""
+
+# ff0c86c8863f4de7bc350818d42eb431
+#: ../source/project/libdesc_model.rst:1
+msgid "Small sliding nodal Contact/friction bricks."
+msgstr ""
+
+# 1fd8c490419f428e9241fc0dfd08ea47
+#: ../source/project/libdesc_model.rst:1
+msgid ":file:`getfem_Navier_Stokes.h`"
+msgstr ""
+
+# a1b5bcd484564c17b7d4f300b78cae42
+#: ../source/project/libdesc_model.rst:1
+msgid "An attempt for Navier-Stokes bricks. To be improved."
+msgstr ""
+
+# 4421fcfa94e04bdc8d35c6889ff2b798
+#: ../source/project/libdesc_model.rst:1
+msgid ":file:`getfem_fourth_order.h` and :file:`getfem_fourth_order.cc`"
+msgstr ""
+
+# 3459d849a660412bbd3b7bb26c8a56df
+#: ../source/project/libdesc_model.rst:1
+msgid "Bilaplacian and Kirchhoff-Love plate bricks"
+msgstr ""
+
+# d1b8362e6c2a43519043ac346f666afb
+#: ../source/project/libdesc_model.rst:1
+msgid ":file:`getfem_linearized_plates.h` and :file:`getfem_linearized_plates.cc`"
+msgstr ""
+
+# bedaaf3e87bc41c3affcf5779eb24c13
+#: ../source/project/libdesc_model.rst:1
+msgid "Mindlin-Reissner plate brick"
+msgstr ""
+
+# c5538c7ab7fd4e13a92c0a248f202bc1
+#: ../source/project/libdesc_model.rst:1
+msgid ""
+":file:`getfem_nonlinear_elasticity.h` and "
+":file:`getfem_nonlinear_elasticity.cc`"
+msgstr ""
+
+# e257568b6f9b4db2ba1bd8a51425dbe1
+#: ../source/project/libdesc_model.rst:1
+msgid "Large deformation elasticity bricks."
+msgstr ""
+
+# d7d7d1a3e365477d9c8063aca644ca3d
+#: ../source/project/libdesc_model.rst:1
+msgid ":file:`getfem_plasticity.h` and :file:`getfem_plasticity.cc`"
+msgstr ""
+
+# cb4446efa76a4c29a7027d271c1d754a
+#: ../source/project/libdesc_model.rst:1
+msgid "Plasticity bricks."
+msgstr ""
+
+# a8d9623a82244d4c922e75b376730225
+#: ../source/project/libdesc_model.rst:38
+msgid "State"
+msgstr ""
+
+# 928d514a999c4cdeb46df07098d48050
+#: ../source/project/libdesc_model.rst:40
+msgid "Constant evolution to includes nex models."
+msgstr ""
+
+# f652f6936fce4a07906a166b017dd459
+#: ../source/project/libdesc_model.rst:43
+msgid "Perspectives"
+msgstr ""
+
+# dd348974e20d4e1b817f99c86dd9bd16
+#: ../source/project/libdesc_model.rst:45
+msgid "More plate, road and shell bricks, plasticity in large deformation, ..."
+msgstr ""
+

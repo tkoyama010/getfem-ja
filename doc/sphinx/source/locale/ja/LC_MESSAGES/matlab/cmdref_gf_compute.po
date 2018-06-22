@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# d69509bfea3c4b88afbed1fbd428546e
+#: ../source/matlab/cmdref_gf_compute.rst:8
+msgid "gf_compute"
+msgstr ""
+
+# 5cb4dae4f2a84caab17b0d23095a73d9
+#: ../source/matlab/cmdref_gf_compute.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# dbc07d45be934fbcaadfbc248f9e7335
+#: ../source/matlab/cmdref_gf_compute.rst:31
+msgid "**Description :**"
+msgstr ""
+
+# 5653bdc4eea14bc0ab03199746f7ecca
+#: ../source/matlab/cmdref_gf_compute.rst:35
+msgid "Various computations involving the solution U to a finite element problem."
+msgstr ""
+
+# 51c478a868cc4c3aa24eca8a09939f68
+#: ../source/matlab/cmdref_gf_compute.rst:38
+msgid "**Command list :**"
+msgstr ""
+
+# ab482c070c1e41b7bb718e7abf410c16
+#: ../source/matlab/cmdref_gf_compute.rst:42
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'L2 norm', mesh_im mim[, mat "
+"CVids])``"
+msgstr ""
+
+# a2c5d420dea24214a0da0776e2ec37ba
+#: ../source/matlab/cmdref_gf_compute.rst:44
+msgid "Compute the L2 norm of the (real or complex) field `U`."
+msgstr ""
+
+# f7378b9228584abbb08a384c02f7c4ce
+# 367286fa9b314985a41dcc8af07bff64
+# f2f89b131c8f47cc938e704c6d7ec8ce
+# 1e9101ab412941788e495f9799b4c42a
+# 367675e2f69549659ed43d8be7c2f3ed
+# 2680e91c748f42d6acea24b1c70c2a47
+# fc14d43968c6441c9435ac45be08df6b
+#: ../source/matlab/cmdref_gf_compute.rst:46
+#: ../source/matlab/cmdref_gf_compute.rst:54
+#: ../source/matlab/cmdref_gf_compute.rst:62
+#: ../source/matlab/cmdref_gf_compute.rst:70
+#: ../source/matlab/cmdref_gf_compute.rst:78
+#: ../source/matlab/cmdref_gf_compute.rst:86
+#: ../source/matlab/cmdref_gf_compute.rst:94
+msgid ""
+"If `CVids` is given, the norm will be computed only on the listed "
+"elements."
+msgstr ""
+
+# f15b7fdfa4d24042a365b21071eb1f93
+#: ../source/matlab/cmdref_gf_compute.rst:50
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'L2 dist', mesh_im mim, mesh_fem "
+"mf2, vec U2[, mat CVids])``"
+msgstr ""
+
+# 7b257285361e4c8db652b24d09fd71a7
+#: ../source/matlab/cmdref_gf_compute.rst:52
+msgid "Compute the L2 distance between `U` and `U2`."
+msgstr ""
+
+# c4e7449321634b4297c20181e072258b
+#: ../source/matlab/cmdref_gf_compute.rst:58
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'H1 semi norm', mesh_im mim[, mat "
+"CVids])``"
+msgstr ""
+
+# 82bdf3c2091b4feb8b521c5dfb6187b4
+#: ../source/matlab/cmdref_gf_compute.rst:60
+msgid "Compute the L2 norm of grad(`U`)."
+msgstr ""
+
+# 9877d85e8b784117981ac1d944d1cbe4
+#: ../source/matlab/cmdref_gf_compute.rst:66
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'H1 semi dist', mesh_im mim, "
+"mesh_fem mf2, vec U2[, mat CVids])``"
+msgstr ""
+
+# 692b4c7c0ab843b08e40835e54a5ea0a
+#: ../source/matlab/cmdref_gf_compute.rst:68
+msgid "Compute the semi H1 distance between `U` and `U2`."
+msgstr ""
+
+# c25fdc71033d44d4a39233e32199ac1b
+#: ../source/matlab/cmdref_gf_compute.rst:74
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'H1 norm', mesh_im mim[, mat "
+"CVids])``"
+msgstr ""
+
+# d5a5347ebd4847eda567c79c3da9550d
+#: ../source/matlab/cmdref_gf_compute.rst:76
+msgid "Compute the H1 norm of `U`."
+msgstr ""
+
+# c9ddfe9801c04ed887c2f00ce6009b22
+#: ../source/matlab/cmdref_gf_compute.rst:82
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'H2 semi norm', mesh_im mim[, mat "
+"CVids])``"
+msgstr ""
+
+# 4440b827a1484a4bb43d602f9709255d
+#: ../source/matlab/cmdref_gf_compute.rst:84
+msgid "Compute the L2 norm of D^2(`U`)."
+msgstr ""
+
+# 0fe63458590748a38129d5bd61acc880
+#: ../source/matlab/cmdref_gf_compute.rst:90
+msgid ""
+"``n = gf_compute(mesh_fem MF, vec U, 'H2 norm', mesh_im mim[, mat "
+"CVids])``"
+msgstr ""
+
+# 3f2666627f334605831bc7a0484dbcca
+#: ../source/matlab/cmdref_gf_compute.rst:92
+msgid "Compute the H2 norm of `U`."
+msgstr ""
+
+# a023e6d02d304240a356a13293c6b65c
+#: ../source/matlab/cmdref_gf_compute.rst:98
+msgid "``DU = gf_compute(mesh_fem MF, vec U, 'gradient', mesh_fem mf_du)``"
+msgstr ""
+
+# b02f0479432c4a55b77096197d0b5640
+#: ../source/matlab/cmdref_gf_compute.rst:100
+msgid "Compute the gradient of the field `U` defined on mesh_fem `mf_du`."
+msgstr ""
+
+# b36d697578cb4667a9d74ba95cda7b24
+#: ../source/matlab/cmdref_gf_compute.rst:102
+msgid ""
+"The gradient is interpolated on the mesh_fem `mf_du`, and returned in "
+"`DU`. For example, if `U` is defined on a P2 mesh_fem, `DU` should be "
+"evaluated on a P1-discontinuous mesh_fem. `mf` and `mf_du` should share "
+"the same mesh."
+msgstr ""
+
+# 6a6e20d10fa141e489072bbf0719061d
+#: ../source/matlab/cmdref_gf_compute.rst:107
+msgid ""
+"`U` may have any number of dimensions (i.e. this function is not "
+"restricted to the gradient of scalar fields, but may also be used for "
+"tensor fields). However the last dimension of `U` has to be equal to the "
+"number of dof of `mf`. For example, if `U` is a [3x3xNmf] array (where "
+"Nmf is the number of dof of `mf`), `DU` will be a [Nx3x3[xQ]xNmf_du] "
+"array, where N is the dimension of the mesh, Nmf_du is the number of dof "
+"of `mf_du`, and the optional Q dimension is inserted if `Qdim_mf != "
+"Qdim_mf_du`, where Qdim_mf is the Qdim of `mf` and Qdim_mf_du is the Qdim"
+" of `mf_du`."
+msgstr ""
+
+# 8e7ffac1bd3f44feb0409f67bc6a3f1e
+#: ../source/matlab/cmdref_gf_compute.rst:118
+msgid "``HU = gf_compute(mesh_fem MF, vec U, 'hessian', mesh_fem mf_h)``"
+msgstr ""
+
+# ba11b1f65bde4b71a5b92c972c917409
+#: ../source/matlab/cmdref_gf_compute.rst:120
+msgid "Compute the hessian of the field `U` defined on mesh_fem `mf_h`."
+msgstr ""
+
+# 3063ba6809b74d548a5a335e13c9e00b
+#: ../source/matlab/cmdref_gf_compute.rst:122
+msgid "See also gf_compute('gradient', mesh_fem mf_du)."
+msgstr ""
+
+# abb86e9125ca4a0bac9fe93d4b1c1adc
+#: ../source/matlab/cmdref_gf_compute.rst:125
+msgid ""
+"``UP = gf_compute(mesh_fem MF, vec U, 'eval on triangulated surface', int"
+" Nrefine, [vec CVLIST])``"
+msgstr ""
+
+# 37c6b9ace8c34bad8fded02d648a74ea
+#: ../source/matlab/cmdref_gf_compute.rst:127
+msgid ""
+"[OBSOLETE FUNCTION! will be removed in a future release] Utility function"
+" designed for 2D triangular meshes : returns a list of triangles "
+"coordinates with interpolated U values. This can be used for the accurate"
+" visualization of data defined on a discontinous high order element. On "
+"output, the six first rows of UP contains the triangle coordinates, and "
+"the others rows contain the interpolated values of U (one for each "
+"triangle vertex) CVLIST may indicate the list of convex number that "
+"should be consider, if not used then all the mesh convexes will be used. "
+"U should be a row vector."
+msgstr ""
+
+# a32ba1c1e6f1447f941f739f97697218
+#: ../source/matlab/cmdref_gf_compute.rst:140
+msgid ""
+"``Ui = gf_compute(mesh_fem MF, vec U, 'interpolate on', {mesh_fem mfi | "
+"slice sli | vec pts})``"
+msgstr ""
+
+# 268a33626c744e03a621b0dd52f37baa
+#: ../source/matlab/cmdref_gf_compute.rst:142
+msgid "Interpolate a field on another mesh_fem or a slice or a list of points."
+msgstr ""
+
+# 74dad613ba204d0790a963596222e55e
+#: ../source/matlab/cmdref_gf_compute.rst:145
+msgid "Interpolation on another mesh_fem `mfi`:"
+msgstr ""
+
+# ad0f9042ed47415cb412c00360d4049f
+#: ../source/matlab/cmdref_gf_compute.rst:145
+msgid ""
+"`mfi` has to be Lagrangian. If `mf` and `mfi` share the same mesh object,"
+" the interpolation will be much faster."
+msgstr ""
+
+# 311ea104d65a4a23afee10acf13338a5
+#: ../source/matlab/cmdref_gf_compute.rst:150
+msgid "Interpolation on a slice `sli`:"
+msgstr ""
+
+# d4e672069e0c4dffb23ad8dc81c50885
+#: ../source/matlab/cmdref_gf_compute.rst:148
+msgid ""
+"this is similar to interpolation on a refined P1-discontinuous mesh, but "
+"it is much faster. This can also be used with gf_slice('points') to "
+"obtain field values at a given set of points."
+msgstr ""
+
+# 0e0a7f2ba9204dfeba927398d1bbb562
+#: ../source/matlab/cmdref_gf_compute.rst:152
+msgid "Interpolation on a set of points `pts`"
+msgstr ""
+
+# 84b9a5c6f46b4bc38741e2677fe069d0
+#: ../source/matlab/cmdref_gf_compute.rst:154
+msgid "See also gf_asm('interpolation matrix')"
+msgstr ""
+
+# 6bef3cb612404134949c95e29a338a7f
+#: ../source/matlab/cmdref_gf_compute.rst:158
+msgid "``Ue = gf_compute(mesh_fem MF, vec U, 'extrapolate on', mesh_fem mfe)``"
+msgstr ""
+
+# 1c01e88c693742859ac1ddfc698d7ce6
+#: ../source/matlab/cmdref_gf_compute.rst:160
+msgid "Extrapolate a field on another mesh_fem."
+msgstr ""
+
+# 8eacd58200f947d8b87eeb51aff82cf0
+#: ../source/matlab/cmdref_gf_compute.rst:162
+msgid ""
+"If the mesh of `mfe` is stricly included in the mesh of `mf`, this "
+"function does stricly the same job as gf_compute('interpolate_on'). "
+"However, if the mesh of `mfe` is not exactly included in `mf` (imagine "
+"interpolation between a curved refined mesh and a coarse mesh), then "
+"values which are outside `mf` will be extrapolated."
+msgstr ""
+
+# ea6fb1fbfa7d4ed2a22c9815ce7c21fd
+#: ../source/matlab/cmdref_gf_compute.rst:169
+msgid "See also gf_asm('extrapolation matrix')"
+msgstr ""
+
+# a22d2e13413045ac86e1c704ae92bd64
+#: ../source/matlab/cmdref_gf_compute.rst:172
+msgid "``E = gf_compute(mesh_fem MF, vec U, 'error estimate', mesh_im mim)``"
+msgstr ""
+
+# d813e0cb1a4248ffbe9322318a42fa33
+#: ../source/matlab/cmdref_gf_compute.rst:174
+msgid "Compute an a posteriori error estimate."
+msgstr ""
+
+# 0b6cf232305c4be18dfc70fdc10089ee
+# 816e2820699c432797e5808a2b6608bb
+#: ../source/matlab/cmdref_gf_compute.rst:176
+#: ../source/matlab/cmdref_gf_compute.rst:184
+msgid ""
+"Currently there is only one which is available: for each convex, the jump"
+" of the normal derivative is integrated on its faces."
+msgstr ""
+
+# e9b391cac0f14f7fb2ffeaaf766b8259
+#: ../source/matlab/cmdref_gf_compute.rst:180
+msgid ""
+"``E = gf_compute(mesh_fem MF, vec U, 'error estimate nitsche', mesh_im "
+"mim, int GAMMAC, int GAMMAN, scalar lambda_, scalar mu_, scalar gamma0, "
+"scalar f_coeff, scalar vertical_force)``"
+msgstr ""
+
+# 02d241e9d0c644b18a9894c962a715fb
+#: ../source/matlab/cmdref_gf_compute.rst:182
+msgid "Compute an a posteriori error estimate in the case of Nitsche method."
+msgstr ""
+
+# 755e30e8d8654afea7fc2deecb0cc4f6
+#: ../source/matlab/cmdref_gf_compute.rst:188
+msgid ""
+"``gf_compute(mesh_fem MF, vec U, 'convect', mesh_fem mf_v, vec V, scalar "
+"dt, int nt[, string option[, vec per_min, vec per_max]])``"
+msgstr ""
+
+# 7bb7ab9c966e451194d90866d491b13b
+#: ../source/matlab/cmdref_gf_compute.rst:190
+msgid ""
+"Compute a convection of `U` with regards to a steady state velocity field"
+" `V` with a Characteristic-Galerkin method. The result is returned in-"
+"place in `U`. This method is restricted to pure Lagrange fems for U. "
+"`mf_v` should represent a continuous finite element method. `dt` is the "
+"integration time and `nt` is the number of integration step on the "
+"caracteristics. `option` is an option for the part of the boundary where "
+"there is a re-entrant convection. `option = 'extrapolation'` for an "
+"extrapolation on the nearest element, `option = 'unchanged'` for a "
+"constant value on that boundary or `option = 'periodicity'` for a "
+"peridiodic boundary. For this latter option the two vectors per_min, "
+"per_max has to be given and represent the limits of the periodic domain "
+"(on components where per_max[k] < per_min[k] no operation is done). This "
+"method is rather dissipative, but stable."
+msgstr ""
+
+# 949f9def6271428cb5fae6a6bb3e69d7
+#: ../source/matlab/cmdref_gf_compute.rst:208
+msgid ""
+"``[U2[,MF2,[,X[,Y[,Z]]]]] = gf_compute(mesh_fem MF, vec U, 'interpolate "
+"on Q1 grid', {'regular h', hxyz | 'regular N', Nxyz | X[,Y[,Z]]})``"
+msgstr ""
+
+# a30ea7da9bbe4fefa6036dc8b4b0884a
+#: ../source/matlab/cmdref_gf_compute.rst:210
+msgid ""
+"Creates a cartesian Q1 mesh fem and interpolates U on it. The returned "
+"field U2 is organized in a matrix such that in can be drawn via the "
+"MATLAB command 'pcolor'. The first dimension is the Qdim of MF (i.e.  1 "
+"if U is a scalar field)"
+msgstr ""
+
+# d72a50393a9c4acd87e522bd7bab2604
+#: ../source/matlab/cmdref_gf_compute.rst:215
+msgid ""
+"example (mf_u is a 2D mesh_fem): >> Uq=gf_compute(mf_u, U, 'interpolate "
+"on Q1 grid', 'regular h', [.05, .05]); >> pcolor(squeeze(Uq(1,:,:)));"
+msgstr ""
+

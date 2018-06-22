@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# db279034f7a04b4b84553e3af94a0d20
+#: ../source/matlab/cmdref_gf_mesh.rst:8
+msgid "gf_mesh"
+msgstr ""
+
+# f3723ba8f2d64c3c9f1464245f7766e1
+#: ../source/matlab/cmdref_gf_mesh.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# d55b5597357948b0adcd64ae13dfe38d
+#: ../source/matlab/cmdref_gf_mesh.rst:30
+msgid "**Description :**"
+msgstr ""
+
+# 4c1db233e585413a803ba874eaccc6c1
+#: ../source/matlab/cmdref_gf_mesh.rst:33
+msgid "General constructor for mesh objects."
+msgstr ""
+
+# dd6ad8cfb9a3460fbbc1feb82022e8d4
+#: ../source/matlab/cmdref_gf_mesh.rst:35
+msgid ""
+"This object is able to store any element in any dimension even if you mix"
+" elements with different dimensions."
+msgstr ""
+
+# dc66389940994cd3b689baf6daefb084
+#: ../source/matlab/cmdref_gf_mesh.rst:38
+msgid ""
+"Note that for recent (> 6.0) versions of matlab, you should replace the "
+"calls to 'gf_mesh' with 'gfMesh' (this will instruct Matlab to consider "
+"the getfem mesh as a regular matlab object that can be manipulated with "
+"get() and set() methods)."
+msgstr ""
+
+# 627a8cd896d84f7e8fbb5c48f22b4641
+#: ../source/matlab/cmdref_gf_mesh.rst:44
+msgid "**Command list :**"
+msgstr ""
+
+# ce319ff4c406401fa5f7de8cd796553f
+#: ../source/matlab/cmdref_gf_mesh.rst:48
+msgid "``M = gf_mesh('empty', int dim)``"
+msgstr ""
+
+# 321022d5beaf4969ae26f2ee96bcf21b
+#: ../source/matlab/cmdref_gf_mesh.rst:50
+msgid "Create a new empty mesh."
+msgstr ""
+
+# a25420d843b14e6297898c1d33b0b463
+#: ../source/matlab/cmdref_gf_mesh.rst:53
+msgid "``M = gf_mesh('cartesian', vec X[, vec Y[, vec Z,..]])``"
+msgstr ""
+
+# 14e47233182440848d36e488c05837db
+#: ../source/matlab/cmdref_gf_mesh.rst:55
+msgid "Build quickly a regular mesh of quadrangles, cubes, etc."
+msgstr ""
+
+# 10e14f88908d4c488185d8bdc4966c36
+#: ../source/matlab/cmdref_gf_mesh.rst:58
+msgid "``M = gf_mesh('pyramidal', vec X[, vec Y[, vec Z,..]])``"
+msgstr ""
+
+# 96cf2ecffd304a65bf9ddb5c75563e16
+#: ../source/matlab/cmdref_gf_mesh.rst:60
+msgid "Build quickly a regular mesh of pyramids, etc."
+msgstr ""
+
+# 897d473d04b24a1c88616567c06144b3
+#: ../source/matlab/cmdref_gf_mesh.rst:63
+msgid "``M = gf_mesh('cartesian Q1', vec X, vec Y[, vec Z,..])``"
+msgstr ""
+
+# 159eef1127d542e2aad6de2c450207bb
+#: ../source/matlab/cmdref_gf_mesh.rst:65
+msgid "Build quickly a regular mesh of quadrangles, cubes, etc. with Q1 elements."
+msgstr ""
+
+# a59a2e57976741d29035290b65cb96e5
+#: ../source/matlab/cmdref_gf_mesh.rst:69
+msgid "``M = gf_mesh('triangles grid', vec X, vec Y)``"
+msgstr ""
+
+# e9dc48802207417c886ee1f9c91a536b
+#: ../source/matlab/cmdref_gf_mesh.rst:71
+msgid "Build quickly a regular mesh of triangles."
+msgstr ""
+
+# 2b5b533dada84b4f8f4a99ed084a6a7e
+#: ../source/matlab/cmdref_gf_mesh.rst:73
+msgid ""
+"This is a very limited and somehow deprecated function (See also "
+"``gf_mesh('ptND')``, ``gf_mesh('regular simplices')`` and "
+"``gf_mesh('cartesian')``)."
+msgstr ""
+
+# 6b4b5b15b66d4e0bb4642dda4280f1b3
+#: ../source/matlab/cmdref_gf_mesh.rst:78
+msgid ""
+"``M = gf_mesh('regular simplices', vec X[, vec Y[, vec Z,...]]['degree', "
+"int k]['noised'])``"
+msgstr ""
+
+# f519a7a8212d435eb8d6678bfd12562b
+#: ../source/matlab/cmdref_gf_mesh.rst:80
+msgid ""
+"Mesh a n-dimensionnal parallelepipeded with simplices (triangles, "
+"tetrahedrons etc) ."
+msgstr ""
+
+# dbc5a06d25a349bfbe5454dfb1485a09
+#: ../source/matlab/cmdref_gf_mesh.rst:83
+msgid ""
+"The optional degree may be used to build meshes with non linear geometric"
+" transformations."
+msgstr ""
+
+# f63ff338fa114bc7b734fdd5b80e1dfd
+#: ../source/matlab/cmdref_gf_mesh.rst:87
+msgid "``M = gf_mesh('curved', mesh m, vec F)``"
+msgstr ""
+
+# db68d5a44fad4ad490288e13ef7d16b2
+#: ../source/matlab/cmdref_gf_mesh.rst:89
+msgid "Build a curved (n+1)-dimensions mesh from a n-dimensions mesh `m`."
+msgstr ""
+
+# 2893603ed56949299b3289e1bceb4566
+#: ../source/matlab/cmdref_gf_mesh.rst:91
+msgid ""
+"The points of the new mesh have one additional coordinate, given by the "
+"vector `F`. This can be used to obtain meshes for shells. `m` may be a "
+"mesh_fem object, in that case its linked mesh will be used."
+msgstr ""
+
+# 72d2c0ed98604ac4b8d52d15d84ff1eb
+#: ../source/matlab/cmdref_gf_mesh.rst:96
+msgid "``M = gf_mesh('prismatic', mesh m, int nl[, int degree])``"
+msgstr ""
+
+# b364dda39c5b4cf18af7155f2c8975fd
+#: ../source/matlab/cmdref_gf_mesh.rst:98
+msgid "Extrude a prismatic mesh `M` from a mesh `m`."
+msgstr ""
+
+# 0ee868e424ad4b08847776080521be3e
+#: ../source/matlab/cmdref_gf_mesh.rst:100
+msgid ""
+"In the additional dimension there are `nl` layers of elements distributed"
+" from ``0`` to ``1``. If the optional parameter `degree` is provided with"
+" a value greater than the default value of ``1``, a non-linear "
+"transformation of corresponding degree is considered in the extrusion "
+"direction."
+msgstr ""
+
+# dfbaf3d5bbf542dc9083c185885420d1
+#: ../source/matlab/cmdref_gf_mesh.rst:107
+msgid "``M = gf_mesh('pt2D', mat P, imat T[, int n])``"
+msgstr ""
+
+# 3e7d394810b548928309cc1cfb0dd5d4
+#: ../source/matlab/cmdref_gf_mesh.rst:109
+msgid "Build a mesh from a 2D triangulation."
+msgstr ""
+
+# 55fb4cfda71f45c1b38c1ae67f43797e
+#: ../source/matlab/cmdref_gf_mesh.rst:111
+msgid ""
+"Each column of `P` contains a point coordinate, and each column of `T` "
+"contains the point indices of a triangle. `n` is optional and is a zone "
+"number. If `n` is specified then only the zone number `n` is converted "
+"(in that case, `T` is expected to have 4 rows, the fourth containing "
+"these zone numbers)."
+msgstr ""
+
+# 004c9df55f35485f879132f940b9c225
+#: ../source/matlab/cmdref_gf_mesh.rst:117
+msgid ""
+"Can be used to Convert a \"pdetool\" triangulation exported in variables "
+"P and T into a GETFEM mesh."
+msgstr ""
+
+# 3fd13b9af074460fb2b8cd184740659e
+#: ../source/matlab/cmdref_gf_mesh.rst:121
+msgid "``M = gf_mesh('ptND', mat P, imat T)``"
+msgstr ""
+
+# c0ca5e865f3f4940874bfd6cbb400b49
+#: ../source/matlab/cmdref_gf_mesh.rst:123
+msgid "Build a mesh from a n-dimensional \"triangulation\"."
+msgstr ""
+
+# 3d0c8660d2404d099fb0c771587207d5
+#: ../source/matlab/cmdref_gf_mesh.rst:125
+msgid ""
+"Similar function to 'pt2D', for building simplexes meshes from a "
+"triangulation given in `T`, and a list of points given in `P`. The "
+"dimension of the mesh will be the number of rows of `P`, and the "
+"dimension of the simplexes will be the number of rows of `T`."
+msgstr ""
+
+# 9a7d6206459948db9ea8d4cd464dbeaf
+#: ../source/matlab/cmdref_gf_mesh.rst:131
+msgid "``M = gf_mesh('load', string filename)``"
+msgstr ""
+
+# 8a40679b152b4278a3d97ad6b4644008
+#: ../source/matlab/cmdref_gf_mesh.rst:133
+msgid "Load a mesh from a getfem++ ascii mesh file."
+msgstr ""
+
+# 20e3b85d08b44048b9dbaf25bdc7d4b4
+#: ../source/matlab/cmdref_gf_mesh.rst:135
+msgid "See also ``gf_mesh_get(mesh M, 'save', string filename)``."
+msgstr ""
+
+# 2a5f81963ba24d3e8dd2cdb3855b5259
+#: ../source/matlab/cmdref_gf_mesh.rst:138
+msgid "``M = gf_mesh('from string', string s)``"
+msgstr ""
+
+# 0c0a577d5f0d4f19be18f639721e61e4
+#: ../source/matlab/cmdref_gf_mesh.rst:140
+msgid "Load a mesh from a string description."
+msgstr ""
+
+# 7e5489ef5efa4c658c532a382c2d3f4b
+#: ../source/matlab/cmdref_gf_mesh.rst:142
+msgid "For example, a string returned by ``gf_mesh_get(mesh M, 'char')``."
+msgstr ""
+
+# cdd2868d2fa845ec8a0343b0713dfdb4
+#: ../source/matlab/cmdref_gf_mesh.rst:145
+msgid "``M = gf_mesh('import', string format, string filename)``"
+msgstr ""
+
+# 947b121dac554683849edee3adc1267f
+#: ../source/matlab/cmdref_gf_mesh.rst:147
+msgid "Import a mesh."
+msgstr ""
+
+# 226c94aff2f44cccb305dc1b90968bc6
+#: ../source/matlab/cmdref_gf_mesh.rst:149
+msgid "`format` may be:"
+msgstr ""
+
+# 9a092bbaff13455e914a9b3cbae510df
+#: ../source/matlab/cmdref_gf_mesh.rst:151
+msgid "'gmsh' for a mesh created with `Gmsh`"
+msgstr ""
+
+# a4b510c44b0a4ff582a9590c74b4b4d3
+#: ../source/matlab/cmdref_gf_mesh.rst:152
+msgid "'gid' for a mesh created with `GiD`"
+msgstr ""
+
+# 665d52c107bb438f9383d6f6dcca67ba
+#: ../source/matlab/cmdref_gf_mesh.rst:153
+msgid "'cdb' for a mesh created with `ANSYS`"
+msgstr ""
+
+# 807852c307bd4622be54c3bb97373e14
+#: ../source/matlab/cmdref_gf_mesh.rst:154
+msgid "'am_fmt' for a mesh created with `EMC2`"
+msgstr ""
+
+# 00c75dc8f1d94dfe8503c3264a0b5273
+#: ../source/matlab/cmdref_gf_mesh.rst:157
+msgid "``M = gf_mesh('clone', mesh m2)``"
+msgstr ""
+
+# 1798f767989540f0b327d7d8eb0d1f33
+#: ../source/matlab/cmdref_gf_mesh.rst:159
+msgid "Create a copy of a mesh."
+msgstr ""
+
+# 3a82679ac77f416e8265fd2b8230dddb
+#: ../source/matlab/cmdref_gf_mesh.rst:162
+msgid ""
+"``M = gf_mesh('generate', mesher_object mo, scalar h[, int K = 1[, mat "
+"vertices]])``"
+msgstr ""
+
+# 6ead427746d44c72a869442e54d0b9fc
+#: ../source/matlab/cmdref_gf_mesh.rst:164
+msgid ""
+"Call the experimental mesher of Getfem on the geometry represented by "
+"`mo`. please control the conformity of the produced mesh. You can help "
+"the mesher by adding a priori vertices in the array `vertices` which "
+"should be of size ``n x m`` where ``n`` n is the dimension of the mesh "
+"and ``m`` the number of points. `h` is approximate diameter of the "
+"elements. `K` is the degree of the mesh ( > 1 for curved boundaries).  "
+"The mesher try to optimize the quality of the elements. This operation "
+"may be time consuming. Note that if the mesh generation fails, because of"
+" some random procedure used, it can be run again since it will not give "
+"necessarily the same result due to random procedures used. The messages "
+"send to the console by the mesh generation can be desactivated using "
+"`gf_util('trace level', 2)`. More information can be obtained by "
+"`gf_util('trace level', 4)`. See ``gf_mesher_object`` to manipulate "
+"geometric primitives in order to desribe the geometry."
+msgstr ""
+

@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 6f894dea1a9b48e39f5432a4a17f8100
+#: ../source/userdoc/model_fourier_robin.rst:15
+msgid "Fourier-Robin brick"
+msgstr ""
+
+# f5d7dff7b2774eaba7389364ca039832
+#: ../source/userdoc/model_fourier_robin.rst:17
+msgid ""
+"This brick can be used to add boundary conditions of Fourier-Robin type "
+"like:"
+msgstr ""
+
+# 94e19873e37d4f7a8438086c2e27ec41
+#: ../source/userdoc/model_fourier_robin.rst:23
+msgid "for scalar problems, or"
+msgstr ""
+
+# f1b7ca082e164dba9a9f25f81b3c9e86
+#: ../source/userdoc/model_fourier_robin.rst:29
+msgid ""
+"for linearized elasticity problems. ``Q`` is a scalar field in the scalar"
+" case or a matrix field in the vectorial case. This brick works for both "
+"real or complex terms in scalar or vectorial problems."
+msgstr ""
+
+# 8118c9a67b424240a377018626d17cc8
+#: ../source/userdoc/model_fourier_robin.rst:33
+msgid "The function adding this brick to a model is::"
+msgstr ""
+
+# b6a8e2c87e4b4de79084c6aa6f364853
+#: ../source/userdoc/model_fourier_robin.rst:37
+msgid ""
+"where ``dataexpr`` is the data of the model which represents the "
+"coefficient :math:`Q`.  It can be an arbitrary valid expression of the "
+"weak form language (except for the complex version for which it should be"
+" a data of the model)"
+msgstr ""
+
+# 5dde77f21ebc4639bebb9802830e2da2
+#: ../source/userdoc/model_fourier_robin.rst:40
+msgid ""
+"Note that an additional right hand side can be added with a source term "
+"brick."
+msgstr ""
+
+# aefb66250677475f9b79d7143764f58e
+#: ../source/userdoc/model_fourier_robin.rst:7
+msgid "models"
+msgstr ""
+
+# aefb66250677475f9b79d7143764f58e
+#: ../source/userdoc/model_fourier_robin.rst:7
+msgid "model bricks"
+msgstr ""
+

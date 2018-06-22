@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# a3c49a39a6d54d54b96384397ce6941c
+#: ../source/userdoc/model_Mindlin_plate.rst:12
+msgid "Mindlin-Reissner plate model"
+msgstr ""
+
+# fbb53263a1fa4cd38ba8be68bff37825
+#: ../source/userdoc/model_Mindlin_plate.rst:14
+msgid ""
+"This brick implements the classical Mindlin-Reissner bending model for "
+"isotropic plates."
+msgstr ""
+
+# f36dd51f498c4cffacca00834d9fabe7
+#: ../source/userdoc/model_Mindlin_plate.rst:17
+msgid "The Mindlin-Reissner plate model"
+msgstr ""
+
+# db33f4cfa26c44e289ffef690cd8f09e
+#: ../source/userdoc/model_Mindlin_plate.rst:19
+msgid ""
+"Let :math:`\\Omega \\subset \\R^2` be the reference configuration of the "
+"mid-plane of a plate of thickness :math:`\\epsilon`."
+msgstr ""
+
+# f5115e4453d7417691a7515ffd0a3567
+#: ../source/userdoc/model_Mindlin_plate.rst:21
+msgid ""
+"The weak formulation of the Mindlin-Reissner model for isotropic material"
+" can be written as follows for :math:`u_3` the transverse displacement "
+"and :math:`\\theta` the rotation of fibers normal to the mid-plane:"
+msgstr ""
+
+# dcd10505c74a4659af84db164cde9df5
+#: ../source/userdoc/model_Mindlin_plate.rst:28
+msgid ""
+"for all admissible test functions :math:`v_3 : \\Omega \\rightarrow \\R,$"
+" $\\psi : \\Omega \\rightarrow \\R^2` and where:"
+msgstr ""
+
+# 32af18e36f1a4ace82e829f49fee77e2
+#: ../source/userdoc/model_Mindlin_plate.rst:36
+msgid ""
+":math:`f` being a volumic force applied inside the three dimensional "
+"plate, :math:`g^+` and :math:`g^-` a force applied on the top and bottom "
+"surface of the plate, :math:`E` Young's modulus, :math:`\\nu` Poisson's "
+"ratio and :math:`\\kappa` the shear correction factor (usually set to "
+"5/6)."
+msgstr ""
+
+# bac346b30021448c8cae85f034f1fbf8
+#: ../source/userdoc/model_Mindlin_plate.rst:38
+msgid "The classical boundary conditions are the following:"
+msgstr ""
+
+# 0e047b83f72344e49b3756fd494471ff
+#: ../source/userdoc/model_Mindlin_plate.rst:40
+msgid "Simple support :  a dirichlet condition on :math:`u_3`."
+msgstr ""
+
+# be40c7c902614fac9ac4350a94dc8ead
+#: ../source/userdoc/model_Mindlin_plate.rst:42
+msgid ""
+"Clamped support : a dirichlet condition on both :math:`u_3` and "
+":math:`\\theta`."
+msgstr ""
+
+# 621cc56af8e84a339b181bae077dffda
+#: ../source/userdoc/model_Mindlin_plate.rst:44
+msgid "Prescribed transverse force : boundary source term on :math:`u_3`."
+msgstr ""
+
+# 82888601802b49a692c525cfd5ba94f0
+#: ../source/userdoc/model_Mindlin_plate.rst:46
+msgid "Prescribed moment : boundary source term on :math:`\\theta`."
+msgstr ""
+
+# 4e407229d038461a9f45355ef04dbf07
+#: ../source/userdoc/model_Mindlin_plate.rst:49
+msgid ""
+"An important issue of this model is that it is subjected to the so called"
+" shear locking so that a direct Galerkin procedure do not give a "
+"satisfactory approximation. There is several ways to circumvent the shear"
+" locking problem : reduced integration, projection of the transverse "
+"shear term, mixed methods. The two first method are proposed."
+msgstr ""
+
+# 06a5ca3ce31f4c40aadbd0fe44f0105a
+#: ../source/userdoc/model_Mindlin_plate.rst:53
+msgid "Reduced integration of the transverse shear term"
+msgstr ""
+
+# 80a5f967027544f7be44179018eeefbb
+#: ../source/userdoc/model_Mindlin_plate.rst:55
+msgid ""
+"This strategy consists simply to use a lower order integration method to "
+"numerically compute the term"
+msgstr ""
+
+# 12612759693a48d7bef1c9c4ea3e241f
+#: ../source/userdoc/model_Mindlin_plate.rst:61
+msgid ""
+"This strategy is working properly at least when both the rotation and the"
+" transverse displacement is approximated with Q1 quadrilateral element "
+"with a degree one reduced integration method (the so-called QUAD4 "
+"element)."
+msgstr ""
+
+# eee4bb6d83c347e8887b61ecc0ffd9c5
+#: ../source/userdoc/model_Mindlin_plate.rst:64
+msgid "Projection of the transverse shear term"
+msgstr ""
+
+# d13961592e9045af892197f5c620f06e
+#: ../source/userdoc/model_Mindlin_plate.rst:66
+msgid ""
+"Another strategy comes from the MITC elements (Mixed Interpolation of "
+"Tensorial Components) which correspond to a re-interpretation in terms of"
+" projection of some mixed methods. The most popular element of this type "
+"is the MITC4 which correspond to the quadrilateral element Q1 with a "
+"projection of the transverse shear term on a rotated Raviart-Thomas "
+"element of lowest degree (RT0) (see [ba-dv1985]_, [br-ba-fo1989]_). This "
+"means that the transverse shear term becomes"
+msgstr ""
+
+# 2ba0af5a7d764fc29972c57426a3b725
+#: ../source/userdoc/model_Mindlin_plate.rst:72
+msgid ""
+"where :math:`P^h(T)` is the elementwize :math:`L^2`-projection onto the "
+"rotated RT0 space.  For the moment, the only projection implemented is "
+"the previous described one (projection on rotated RT0 space for "
+"quadrilateral element). Higher degree elements and triangular elements "
+"can be found in the litterature (see [Mi-Zh2002]_, [br-ba-fo1989]_, "
+"[Duan2014]_) and will be under consideration for a future implementation."
+" Note also that since :math:`P^h(\\nabla u_3) = \\nabla u_3`, the term "
+"reduces to"
+msgstr ""
+
+# dc8014c61c214e90bd1856408e385004
+#: ../source/userdoc/model_Mindlin_plate.rst:78
+msgid ""
+"The principle of the definition of an elementary projection is explained "
+"if the description of the weak form language (see :ref:`ud-gasm-high-"
+"elem-trans`) and an example can be found in the file "
+":file:`src/getfem_linearized_plates.cc`."
+msgstr ""
+
+# 97033853e4c343a2a89fe2eae6325107
+#: ../source/userdoc/model_Mindlin_plate.rst:83
+msgid "Add a Mindlin-Reissner plate model brick to a model"
+msgstr ""
+
+# 4526c403ed4e498bb8a14bf3678626da
+#: ../source/userdoc/model_Mindlin_plate.rst:85
+msgid ""
+"The following function defined in "
+":file:`src/getfem/getfem_linearized_plates.h` allows to add a Mindlin-"
+"Reissner plate model term to a transverse displacement `u3` and a "
+"rotation `theta`::"
+msgstr ""
+
+# 917da4b7999d41aa821e549b6d3868dd
+#: ../source/userdoc/model_Mindlin_plate.rst:91
+msgid ""
+"where `name_u3` is name of the variable which represents the transverse "
+"displacmenent, `name_theta` the variable which represents the rotation, "
+"'param_E' the Young Modulus, `param_nu` the poisson ratio, "
+"`param_epsilon` the plate thickness, `param_kappa` the shear correction "
+"factor. Note that since this brick uses the weak form language, the "
+"parameter can be regular expression of this language. There are three "
+"variants. `variant = 0` corresponds to the an unreduced formulation and "
+"in that case only the integration method `mim` is used. Practically this "
+"variant is not usable since it is subject to a strong locking phenomenon."
+" `variant = 1` corresponds to a reduced integration where `mim` is used "
+"for the rotation term and `mim_reduced` for the transverse shear term. "
+"`variant = 2` (default) corresponds to the projection onto a rotated RT0 "
+"element of the transverse shear term. For the moment, this is adapted to "
+"quadrilateral only (because it is not sufficient to remove the locking "
+"phenomenon on triangle elements). Note also that if you use high order "
+"elements, the projection on RT0 will reduce the order of the "
+"approximation. Returns the brick index in the model."
+msgstr ""
+
+# a5442ccbf6c44a19b2cd8eacfacdf3fd
+#: ../source/userdoc/model_Mindlin_plate.rst:112
+msgid ""
+"The projection on rotated RTO element can be added to a model thanks to "
+"the following function::"
+msgstr ""
+
+# b33cf87cc4a94cfdb6d285c3c1a03ab8
+#: ../source/userdoc/model_Mindlin_plate.rst:7
+msgid "models"
+msgstr ""
+
+# b33cf87cc4a94cfdb6d285c3c1a03ab8
+#: ../source/userdoc/model_Mindlin_plate.rst:7
+msgid "model bricks"
+msgstr ""
+

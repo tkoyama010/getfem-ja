@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# dd9d6943f50d46ff9baff22165030faf
+#: ../source/scilab/cmdref_gf_util.rst:8
+msgid "gf_util"
+msgstr ""
+
+# 62eb08478f8a41dab3ba3cb5747de68c
+#: ../source/scilab/cmdref_gf_util.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 2bb6e296012241ebbdccd7c03c881c0c
+#: ../source/scilab/cmdref_gf_util.rst:19
+msgid "**Description :**"
+msgstr ""
+
+# 03e18b301a604223866261a3ac00d22d
+#: ../source/scilab/cmdref_gf_util.rst:22
+msgid "Performs various operations which do not fit elsewhere."
+msgstr ""
+
+# b13999e404ad4568890df55433bb3c2a
+#: ../source/scilab/cmdref_gf_util.rst:25
+msgid "**Command list :**"
+msgstr ""
+
+# 6167193b547546eca423e010acbc2b6d
+#: ../source/scilab/cmdref_gf_util.rst:29
+msgid "``gf_util('save matrix', string FMT, string FILENAME, mat A)``"
+msgstr ""
+
+# 64ee0be82a0b4cd5bc3738388fad18a8
+#: ../source/scilab/cmdref_gf_util.rst:31
+msgid ""
+"Exports a sparse matrix into the file named FILENAME, using Harwell-"
+"Boeing (FMT='hb') or Matrix-Market (FMT='mm') formatting."
+msgstr ""
+
+# cd108e2f68f54aee9cf2f186577fc7fe
+#: ../source/scilab/cmdref_gf_util.rst:35
+msgid "``A = gf_util('load matrix', string FMT, string FILENAME)``"
+msgstr ""
+
+# a5d4ca5565164d019fa55c2ba850c0a7
+#: ../source/scilab/cmdref_gf_util.rst:37
+msgid "Imports a sparse matrix from a file."
+msgstr ""
+
+# 026c0fa6f9d849b8863b8f97e22d9643
+#: ../source/scilab/cmdref_gf_util.rst:40
+msgid "``tl = gf_util('trace level' [, int level])``"
+msgstr ""
+
+# 7e685bbe7fe2423183f2ee965cd6eb37
+#: ../source/scilab/cmdref_gf_util.rst:42
+msgid "Set the verbosity of some getfem++ routines."
+msgstr ""
+
+# 6a6173bf81e147f9b3dd5f0e00853c2a
+#: ../source/scilab/cmdref_gf_util.rst:44
+msgid ""
+"Typically the messages printed by the model bricks, 0 means no trace "
+"message (default is 3). if no level is given, the current trace level is "
+"returned."
+msgstr ""
+
+# f891597ef60947cfac1db4e3f7c7bc0d
+#: ../source/scilab/cmdref_gf_util.rst:49
+msgid "``tl = gf_util('warning level', int level)``"
+msgstr ""
+
+# a9879f5457b14ac48fdb15844c902ea5
+#: ../source/scilab/cmdref_gf_util.rst:51
+msgid "Filter the less important warnings displayed by getfem."
+msgstr ""
+
+# bc66c706f87c42e792ee1234c396aa58
+#: ../source/scilab/cmdref_gf_util.rst:53
+msgid ""
+"0 means no warnings, default level is 3. if no level is given, the "
+"current warning level is returned."
+msgstr ""
+

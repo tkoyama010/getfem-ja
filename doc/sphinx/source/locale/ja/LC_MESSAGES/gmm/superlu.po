@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# dd824132b51245a7adab68ac0c9d5ad9
+#: ../source/gmm/superlu.rst:11
+msgid "Interface with SuperLU"
+msgstr ""
+
+# bf5639e203ee47d2b5b219e00bd5ad5a
+#: ../source/gmm/superlu.rst:14
+msgid ""
+"It is possible to call SuperLU 3.0 "
+"(http://crd.lbl.gov/\\verb\\~\\xiaoye/SuperLU/) from |gmm|. The following"
+" function defined in the file ``gmm/gmm_superlu_interface.h`` is "
+"available::"
+msgstr ""
+
+# f6ac73146e0f4d3cad8b6adca5e3d807
+#: ../source/gmm/superlu.rst:18
+msgid ""
+"solves the system ``AX = B`` where A is a sparse matrix of base type "
+"``float, double, std::complex<float>, or std::complex<double>``. "
+"``permc_spec`` should be 0, 1 or 2 for respectively use the natural "
+"ordering, use minimum degree ordering on structure of ``A'A`` or use "
+"minimum degree ordering on structure of ``A'+A`` (1 is the default "
+"value), ``condest`` should be a reference on a double, it returns an "
+"estimate of the condition number of the matrix ``A``."
+msgstr ""
+
+# 3cf1686c792941f6afe998a074e32a8e
+#: ../source/gmm/superlu.rst:20
+msgid ""
+"To use these functions, you need to install SuperLU and compile your code"
+" with the additional options::"
+msgstr ""
+
+# fe0146b6bb0843da89e203c4d6a354a5
+#: ../source/gmm/superlu.rst:24
+msgid "Some other functionalities of SuperLU can be interfaced."
+msgstr ""
+

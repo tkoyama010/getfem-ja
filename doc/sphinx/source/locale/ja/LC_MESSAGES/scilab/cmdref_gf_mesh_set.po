@@ -1,0 +1,353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3005fdcc6f1440df9eb7dbafe1b98821
+#: ../source/scilab/cmdref_gf_mesh_set.rst:8
+msgid "gf_mesh_set"
+msgstr ""
+
+# 48491521f5aa4dfdb743e2df24851130
+#: ../source/scilab/cmdref_gf_mesh_set.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# a172b7207ec54615b386e2804bcc4cb1
+#: ../source/scilab/cmdref_gf_mesh_set.rst:34
+msgid "**Description :**"
+msgstr ""
+
+# 01c526eb927943cc8908d40b19ce3694
+#: ../source/scilab/cmdref_gf_mesh_set.rst:37
+msgid "General function for modification of a mesh object."
+msgstr ""
+
+# 078beaef105a4cc397f00ed13b8951d1
+#: ../source/scilab/cmdref_gf_mesh_set.rst:40
+msgid "**Command list :**"
+msgstr ""
+
+# d43877da808f403fa03f1d8237abf065
+#: ../source/scilab/cmdref_gf_mesh_set.rst:44
+msgid "``PIDs = gf_mesh_set(mesh M, 'pts', mat PTS)``"
+msgstr ""
+
+# 32644a48562b4206b8334e149867b612
+#: ../source/scilab/cmdref_gf_mesh_set.rst:46
+msgid ""
+"Replace the coordinates of the mesh points with those given in "
+"<literal>PTS</literal>."
+msgstr ""
+
+# f36ee62a986d41109f9941b0f3a63b01
+#: ../source/scilab/cmdref_gf_mesh_set.rst:49
+msgid "``PIDs = gf_mesh_set(mesh M, 'add point', mat PTS)``"
+msgstr ""
+
+# 6113521c9a28416487e04db212020337
+#: ../source/scilab/cmdref_gf_mesh_set.rst:51
+msgid "Insert new points in the mesh and return their #ids."
+msgstr ""
+
+# 01f2f10debfb4abc9c291dfe6e4e9acb
+#: ../source/scilab/cmdref_gf_mesh_set.rst:53
+msgid ""
+"<literal>PTS</literal> should be an "
+"<literal></literal>nxm<literal></literal> matrix , where "
+"<literal></literal>n<literal></literal> is the mesh dimension, and "
+"<literal></literal>m<literal></literal> is the number of points that will"
+" be added to the mesh. On output, <literal>PIDs</literal> contains the "
+"point #ids of these new points."
+msgstr ""
+
+# f0b1d7da178643cbae246b108c05a633
+#: ../source/scilab/cmdref_gf_mesh_set.rst:58
+msgid ""
+"Remark: if some points are already part of the mesh (with a small "
+"tolerance of approximately <literal></literal>1e-8<literal></literal>), "
+"they won't be inserted again, and <literal>PIDs</literal> will contain "
+"the previously assigned #ids of these points."
+msgstr ""
+
+# ae13ebcf8b67482d82d8446d4e0abbb5
+#: ../source/scilab/cmdref_gf_mesh_set.rst:64
+msgid "``gf_mesh_set(mesh M, 'del point', ivec PIDs)``"
+msgstr ""
+
+# f0a9f302c67f404288d1cecc2b4b54a8
+#: ../source/scilab/cmdref_gf_mesh_set.rst:66
+msgid "Removes one or more points from the mesh."
+msgstr ""
+
+# a531792fdc23432b94307e8e905fc33c
+#: ../source/scilab/cmdref_gf_mesh_set.rst:68
+msgid ""
+"<literal>PIDs</literal> should contain the point #ids, such as the one "
+"returned by the 'add point' command."
+msgstr ""
+
+# a207a0abda9a42b98a2b92cf92112884
+#: ../source/scilab/cmdref_gf_mesh_set.rst:72
+msgid "``CVIDs = gf_mesh_set(mesh M, 'add convex', geotrans GT, mat PTS)``"
+msgstr ""
+
+# d870acfe943d48049b44aa28d0c48925
+#: ../source/scilab/cmdref_gf_mesh_set.rst:74
+msgid "Add a new convex into the mesh."
+msgstr ""
+
+# daf706bf632b4e94b7edbd2ed5434308
+#: ../source/scilab/cmdref_gf_mesh_set.rst:76
+msgid ""
+"The convex structure (triangle, prism,...) is given by "
+"<literal>GT</literal> (obtained with gf_geotrans('...')), and its points "
+"are given by the columns of <literal>PTS</literal>. On return, "
+"<literal>CVIDs</literal> contains the convex #ids. <literal>PTS</literal>"
+" might be a 3-dimensional array in order to insert more than one convex "
+"(or a two dimensional array correctly shaped according to Fortran "
+"ordering)."
+msgstr ""
+
+# 5057d5213da54954a27b046549319f3f
+#: ../source/scilab/cmdref_gf_mesh_set.rst:84
+msgid "``gf_mesh_set(mesh M, 'del convex', mat CVIDs)``"
+msgstr ""
+
+# a5cde6eaba0942f6b92eebff92b73d7d
+#: ../source/scilab/cmdref_gf_mesh_set.rst:86
+msgid "Remove one or more convexes from the mesh."
+msgstr ""
+
+# 12f95f3903ad4676b9825a3b651afc27
+#: ../source/scilab/cmdref_gf_mesh_set.rst:88
+msgid ""
+"<literal>CVIDs</literal> should contain the convexes #ids, such as the "
+"ones returned by the 'add convex' command."
+msgstr ""
+
+# 89bc8789f6bf4777955d356ed364e388
+#: ../source/scilab/cmdref_gf_mesh_set.rst:92
+msgid "``gf_mesh_set(mesh M, 'del convex of dim', ivec DIMs)``"
+msgstr ""
+
+# 9ec5b9bd3cbc4ed08c6f427bfd7938ae
+#: ../source/scilab/cmdref_gf_mesh_set.rst:94
+msgid "Remove all convexes of dimension listed in <literal>DIMs</literal>."
+msgstr ""
+
+# d41e7582571e4d02a88385136bab9113
+#: ../source/scilab/cmdref_gf_mesh_set.rst:96
+msgid ""
+"For example; <literal></literal>gf_mesh_set(mesh M, 'del convex of dim', "
+"[1,2])<literal></literal> remove all line segments, triangles and "
+"quadrangles."
+msgstr ""
+
+# bc6dc77ad07745838253070e96a734b3
+#: ../source/scilab/cmdref_gf_mesh_set.rst:100
+msgid "``gf_mesh_set(mesh M, 'translate', vec V)``"
+msgstr ""
+
+# c5fab9b4dbe148d1857980cb48468f33
+#: ../source/scilab/cmdref_gf_mesh_set.rst:102
+msgid "Translates each point of the mesh from <literal>V</literal>."
+msgstr ""
+
+# 12d294c3a9db4e928da7458d5f7a0b77
+#: ../source/scilab/cmdref_gf_mesh_set.rst:105
+msgid "``gf_mesh_set(mesh M, 'transform', mat T)``"
+msgstr ""
+
+# 7dd3671ae98e47f28405d1b81c3c04fd
+#: ../source/scilab/cmdref_gf_mesh_set.rst:107
+msgid "Applies the matrix <literal>T</literal> to each point of the mesh."
+msgstr ""
+
+# ed62291693594219b42d6ec261eee6f6
+#: ../source/scilab/cmdref_gf_mesh_set.rst:109
+msgid ""
+"Note that <literal>T</literal> is not required to be a "
+"<literal></literal>NxN<literal></literal> matrix (with "
+"<literal></literal>N = gf_mesh_get(mesh M, 'dim')<literal></literal>). "
+"Hence it is possible to transform a 2D mesh into a 3D one (and "
+"reciprocally)."
+msgstr ""
+
+# 6f5f9b680ae24f5e917ae01ffc48a767
+#: ../source/scilab/cmdref_gf_mesh_set.rst:114
+msgid "``gf_mesh_set(mesh M, 'boundary', int rnum, mat CVFIDs)``"
+msgstr ""
+
+# 3864977444b64a9cb7f946935c4fecde
+#: ../source/scilab/cmdref_gf_mesh_set.rst:116
+msgid "DEPRECATED FUNCTION. Use 'region' instead."
+msgstr ""
+
+# d7bcbe7d0a0a4134b7aa42912edcd966
+#: ../source/scilab/cmdref_gf_mesh_set.rst:119
+msgid "``gf_mesh_set(mesh M, 'region', int rnum, mat CVFIDs)``"
+msgstr ""
+
+# cdc4d80878844a7bb62d40c2ec71742d
+#: ../source/scilab/cmdref_gf_mesh_set.rst:121
+msgid ""
+"Assigns the region number <literal>rnum</literal> to the set of convexes "
+"or/and convex faces provided in the matrix <literal>CVFIDs</literal>."
+msgstr ""
+
+# 67ba4709c14b40f69c3e615a4197a225
+#: ../source/scilab/cmdref_gf_mesh_set.rst:124
+msgid ""
+"The first row of <literal>CVFIDs</literal> contains convex #ids, and the "
+"second row contains a face number in the convex (or 0 for the whole "
+"convex (regions are usually used to store a list of convex faces, but you"
+" may also use them to store a list of convexes)."
+msgstr ""
+
+# 75707263bcde4c79a7828ec7d58a5bb3
+#: ../source/scilab/cmdref_gf_mesh_set.rst:129
+msgid ""
+"If a vector is provided (or a one row matrix) the region will represent "
+"the corresponding set of convex."
+msgstr ""
+
+# 7d9114e1a81a4a128aec094e535887f4
+#: ../source/scilab/cmdref_gf_mesh_set.rst:133
+msgid "``gf_mesh_set(mesh M, 'extend region', int rnum, mat CVFIDs)``"
+msgstr ""
+
+# 2fcf4f7afc03420faa62d52edbfa17ae
+#: ../source/scilab/cmdref_gf_mesh_set.rst:135
+msgid ""
+"Extends the region identified by the region number "
+"<literal>rnum</literal> to include the set of convexes or/and convex "
+"faces provided in the matrix <literal>CVFIDs</literal>, see also "
+"<literal></literal>gf_mesh_set(mesh M, 'set region)<literal></literal>."
+msgstr ""
+
+# 3dede038d9ce4be98d538d5445b19071
+#: ../source/scilab/cmdref_gf_mesh_set.rst:140
+msgid "``gf_mesh_set(mesh M, 'region intersect', int r1, int r2)``"
+msgstr ""
+
+# e76321f4aacb4fa5b12aec4d98d05709
+#: ../source/scilab/cmdref_gf_mesh_set.rst:142
+msgid ""
+"Replace the region number <literal>r1</literal> with its intersection "
+"with region number <literal>r2</literal>."
+msgstr ""
+
+# 051b424ec7144c2997528a1a19456296
+#: ../source/scilab/cmdref_gf_mesh_set.rst:145
+msgid "``gf_mesh_set(mesh M, 'region merge', int r1, int r2)``"
+msgstr ""
+
+# e9be7b4bf50d41b3bbc6c345a2a5d179
+#: ../source/scilab/cmdref_gf_mesh_set.rst:147
+msgid ""
+"Merge region number <literal>r2</literal> into region number "
+"<literal>r1</literal>."
+msgstr ""
+
+# 6f7f9babe00349c38b14e74cb2cd394d
+#: ../source/scilab/cmdref_gf_mesh_set.rst:150
+msgid "``gf_mesh_set(mesh M, 'region subtract', int r1, int r2)``"
+msgstr ""
+
+# 67b5355114c34b458220028b3ae984ad
+#: ../source/scilab/cmdref_gf_mesh_set.rst:152
+msgid ""
+"Replace the region number <literal>r1</literal> with its difference with "
+"region number <literal>r2</literal>."
+msgstr ""
+
+# 94c5fa9914d74906bb245550aebba6f8
+#: ../source/scilab/cmdref_gf_mesh_set.rst:156
+msgid "``gf_mesh_set(mesh M, 'delete boundary', int rnum, mat CVFIDs)``"
+msgstr ""
+
+# 3ad70ca7a0d0419382886196c7629ee6
+#: ../source/scilab/cmdref_gf_mesh_set.rst:158
+msgid "DEPRECATED FUNCTION. Use 'delete region' instead."
+msgstr ""
+
+# f545844aed2e4ed0a1c78b839e03fce2
+#: ../source/scilab/cmdref_gf_mesh_set.rst:161
+msgid "``gf_mesh_set(mesh M, 'delete region', ivec RIDs)``"
+msgstr ""
+
+# f9250fc7745d48b092210ebd9330dc7f
+#: ../source/scilab/cmdref_gf_mesh_set.rst:163
+msgid "Remove the regions whose #ids are listed in <literal>RIDs</literal>"
+msgstr ""
+
+# af9a86ac86724df3b6be670ca2d1fe1d
+#: ../source/scilab/cmdref_gf_mesh_set.rst:166
+msgid "``gf_mesh_set(mesh M, 'merge', mesh m2[, scalar  tol])``"
+msgstr ""
+
+# 50e0ac5dae814893a27072669cfed8c9
+#: ../source/scilab/cmdref_gf_mesh_set.rst:168
+msgid "Merge with the mesh <literal>m2</literal>."
+msgstr ""
+
+# 9ca6ebb714ca4efa973cdddeeeed054f
+#: ../source/scilab/cmdref_gf_mesh_set.rst:170
+msgid ""
+"Overlapping points, within a tolerance radius <literal>tol</literal>, "
+"will not be duplicated. If <literal>m2</literal> is a mesh_fem object, "
+"its linked mesh will be used."
+msgstr ""
+
+# d1559cd1a36943db9ebfc30c24384502
+#: ../source/scilab/cmdref_gf_mesh_set.rst:174
+msgid "``gf_mesh_set(mesh M, 'optimize structure'[, int with_renumbering])``"
+msgstr ""
+
+# a5aa5b3d11ae47a4bb57e91166ff2ff7
+#: ../source/scilab/cmdref_gf_mesh_set.rst:176
+msgid "Reset point and convex numbering."
+msgstr ""
+
+# 7eea80af950a49299aad5017d8b661bf
+#: ../source/scilab/cmdref_gf_mesh_set.rst:178
+msgid ""
+"After optimisation, the points (resp. convexes) will be consecutively "
+"numbered from 1 to gf_mesh_get(mesh M, 'max pid') (resp. gf_mesh_get(mesh"
+" M, 'max cvid'))."
+msgstr ""
+
+# b9d9b67866c14252b11a8ea7dbfb3c65
+#: ../source/scilab/cmdref_gf_mesh_set.rst:183
+msgid "``gf_mesh_set(mesh M, 'refine'[, ivec CVIDs])``"
+msgstr ""
+
+# d9f3b8dfc3fb449b9b5133bac3bded74
+#: ../source/scilab/cmdref_gf_mesh_set.rst:185
+msgid "Use a Bank strategy for mesh refinement."
+msgstr ""
+
+# 1162f748380a474c8624e206d8816bf7
+#: ../source/scilab/cmdref_gf_mesh_set.rst:187
+msgid ""
+"If <literal>CVIDs</literal> is not given, the whole mesh is refined. Note"
+" that the regions, and the finite element methods and integration methods"
+" of the mesh_fem and mesh_im objects linked to this mesh will be "
+"automagically refined."
+msgstr ""
+

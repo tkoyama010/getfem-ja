@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# b4a74022177640c0b1713b65cfdd1b27
+#: ../source/scilab/scilabgf.rst:10
+msgid "|gfm| organization"
+msgstr ""
+
+# fdc2b1d9dae64657a36d48937d4992ec
+#: ../source/scilab/scilabgf.rst:12
+msgid ""
+"This part of the |sci| |gf| documentation is to be adapted (comes frome "
+"the | |Mlab| |gf| one)."
+msgstr ""
+
+# 318c563c4f094aa7b68b147e1107e891
+#: ../source/scilab/scilabgf.rst:17
+msgid ""
+"The |gfm| toolbox is just a convenient interface to the |gf| library: you"
+" must have a working |gf| installed on your computer. All the functions "
+"of |gfm| are prefixed by ``gf_`` (hence typing ``gf_`` at the |sci| "
+"prompt and then pressing the ``<tab>`` key is a quick way to obtain the "
+"list of getfem functions)."
+msgstr ""
+
+# 13cabff4944a453bb624bff431beb602
+#: ../source/scilab/scilabgf.rst:25
+msgid "Functions"
+msgstr ""
+
+# c22b44eea0824325b91b8e5aa4398961
+#: ../source/scilab/scilabgf.rst:27
+msgid "``gf_workspace`` : workspace management."
+msgstr ""
+
+# 7b15c730c41047f983eea3cbb47ec685
+#: ../source/scilab/scilabgf.rst:28
+msgid "``gf_util`` : miscellanous utility functions."
+msgstr ""
+
+# ff81ea79b9df4452a225a571898cf30e
+#: ../source/scilab/scilabgf.rst:29
+msgid ""
+"``gf_delete`` : destroy a |gf| object (|mlab_m| , |mlab_mf| , |mlab_mim| "
+"etc.)."
+msgstr ""
+
+# 7be3b1e8aff54a86b01e20db3c0a8582
+#: ../source/scilab/scilabgf.rst:30
+msgid "``gf_cvstruct_get`` : retrieve informations from a |mlab_cs| object."
+msgstr ""
+
+# a226678aed094113b4c06fc6ff3163c6
+#: ../source/scilab/scilabgf.rst:31
+msgid "``gf_geotrans`` : define a geometric transformation."
+msgstr ""
+
+# f0f1bab7fe464ac1b085b4590ae614ce
+#: ../source/scilab/scilabgf.rst:32
+msgid "``gf_geotrans_get`` : retrieve informations from a |mlab_gt| object."
+msgstr ""
+
+# e1aff925cfa84a5294654ba2e1c567d3
+#: ../source/scilab/scilabgf.rst:33
+msgid "``gf_mesh`` : creates a new |mlab_m| object."
+msgstr ""
+
+# 03f20e889ed64d29b74c1c43e7208a01
+#: ../source/scilab/scilabgf.rst:34
+msgid "``gf_mesh_get`` : retrieve informations from a |mlab_m| object."
+msgstr ""
+
+# cabad1f15a0243e1810556e989c02696
+#: ../source/scilab/scilabgf.rst:35
+msgid "``gf_mesh_set`` : modify a |mlab_m| object."
+msgstr ""
+
+# ad201ee86eaf4179a8a4c10a0d3f42e5
+#: ../source/scilab/scilabgf.rst:36
+msgid "``gf_eltm`` : define an elementary matrix."
+msgstr ""
+
+# 33f2217f7a0541e397d1afb1f536a5a3
+#: ../source/scilab/scilabgf.rst:37
+msgid "``gf_fem`` : define a |mlab_fem|."
+msgstr ""
+
+# 8b93be1caba540d3ba76c4e07c4e1205
+#: ../source/scilab/scilabgf.rst:38
+msgid "``gf_fem_get`` : retrieve informations from a |mlab_fem| object."
+msgstr ""
+
+# a1a327215d9449d58257e33fd3510377
+#: ../source/scilab/scilabgf.rst:39
+msgid "``gf_integ`` : define a integration method."
+msgstr ""
+
+# c766657593504a03a09b684f738a8eee
+#: ../source/scilab/scilabgf.rst:40
+msgid "``gf_integ_get`` : retrieve informations from an |mlab_int| object."
+msgstr ""
+
+# ce6aee95db53438799ca4face4cb0612
+#: ../source/scilab/scilabgf.rst:41
+msgid "``gf_mesh_fem`` : creates a new |mlab_mf| object."
+msgstr ""
+
+# 2b1af7c650d04cd8ba5a91b15e355618
+#: ../source/scilab/scilabgf.rst:42
+msgid "``gf_mesh_fem_get`` : retrieve informations from a |mlab_mf| object."
+msgstr ""
+
+# 40355d736b144fde9dbdd1f1fb9d813b
+#: ../source/scilab/scilabgf.rst:43
+msgid "``gf_mesh_fem_set`` : modify a |mlab_mf| object."
+msgstr ""
+
+# 628f22e3fd054ab1a1f5ae0859349ad3
+#: ../source/scilab/scilabgf.rst:44
+msgid "``gf_mesh_im`` : creates a new |mlab_mim| object."
+msgstr ""
+
+# c9d32576728f4b53b34c186e05588841
+#: ../source/scilab/scilabgf.rst:45
+msgid "``gf_mesh_im_get`` : retrieve informations from a |mlab_mim| object."
+msgstr ""
+
+# c2526c8595fb4393bc9384efbcce6907
+#: ../source/scilab/scilabgf.rst:46
+msgid "``gf_mesh_im_set`` : modify a |mlab_mim| object."
+msgstr ""
+
+# 949303af32d64209a53af22007bc0968
+#: ../source/scilab/scilabgf.rst:47
+msgid "``gf_slice`` : create a new |mlab_sl| object."
+msgstr ""
+
+# 8bcd2e204fb0474da7d85ae30561d1d5
+#: ../source/scilab/scilabgf.rst:48
+msgid "``gf_slice_get`` : retrieve informations from a |mlab_sl| object."
+msgstr ""
+
+# 4ba93baefa7644d38c9c2479aec8151b
+#: ../source/scilab/scilabgf.rst:49
+msgid "``gf_slice_set`` : modify a |mlab_sl| object."
+msgstr ""
+
+# 19a1ae77b6e24b45a4d683350b435783
+#: ../source/scilab/scilabgf.rst:50
+msgid "``gf_spmat`` : create a |mlab_sm| object."
+msgstr ""
+
+# 19b3dfa01cf949a387dc817b5010ec69
+#: ../source/scilab/scilabgf.rst:51
+msgid "``gf_spmat_get`` : perform computations with the |mlab_sm|."
+msgstr ""
+
+# c12b4d023c874acda67688f8b383d5fe
+#: ../source/scilab/scilabgf.rst:52
+msgid "``gf_spmat_set`` : modify the |mlab_sm|."
+msgstr ""
+
+# d58eb90c969c4db98be115ae7e27649e
+#: ../source/scilab/scilabgf.rst:53
+msgid "``gf_precond`` : create a |mlab_pc| object."
+msgstr ""
+
+# 26d5e052507a41da8be247211e9993af
+#: ../source/scilab/scilabgf.rst:54
+msgid "``gf_precond_get`` : perform computations with the |mlab_pc|."
+msgstr ""
+
+# 55320d2d12c0435c8a833cbc2f1309cb
+#: ../source/scilab/scilabgf.rst:55
+msgid ""
+"``gf_linsolve`` : interface to various linear solvers provided by getfem "
+"(|sLU|, conjugated gradient, etc.)."
+msgstr ""
+
+# 10718f8acb424a048ffce1350f11fbbd
+#: ../source/scilab/scilabgf.rst:57
+msgid "``gf_asm`` : assembly routines."
+msgstr ""
+
+# 38b615479b604befbd47d9cf7aec6002
+#: ../source/scilab/scilabgf.rst:58
+msgid ""
+"``gf_solve`` : various solvers for usual PDEs (obsoleted by the "
+"|mlab_mbr| objects)."
+msgstr ""
+
+# 8233b339de8c44caa418825ee0cb35c1
+#: ../source/scilab/scilabgf.rst:60
+msgid ""
+"``gf_compute`` : computations involving the solution of a PDE (norm, "
+"derivative, etc.)."
+msgstr ""
+
+# 1d6e30afc8cf45928bec335cb0dbce3f
+#: ../source/scilab/scilabgf.rst:62
+msgid "``gf_mdbrick`` : create a (\"model brick\") |mlab_mbr| object."
+msgstr ""
+
+# a8b0ddea10a542d2b47aa30d0d918768
+#: ../source/scilab/scilabgf.rst:63
+msgid "``gf_mdbrick_get`` : retrieve information from a |mlab_mbr| object."
+msgstr ""
+
+# d758b573befd41199abd9f28334e41a8
+#: ../source/scilab/scilabgf.rst:64
+msgid "``gf_mdbrick_set`` : modify a |mlab_mbr| object."
+msgstr ""
+
+# e6b59a51f38d4d3aa05472e472fddf9a
+#: ../source/scilab/scilabgf.rst:65
+msgid "``gf_mdstate`` : create a (\"model state\") |mlab_ms| object."
+msgstr ""
+
+# e51797af824247388f13a09ebbc82cb6
+#: ../source/scilab/scilabgf.rst:66
+msgid "``gf_mdstate_get`` : retrieve information from a |mlab_ms| object."
+msgstr ""
+
+# 311e3bf7a3074f969a095366b8ee8793
+#: ../source/scilab/scilabgf.rst:67
+msgid "``gf_mdstate_set`` : modify a |mlab_ms| object."
+msgstr ""
+
+# 5b2e3094fb54492fa8b5309a171b8eec
+#: ../source/scilab/scilabgf.rst:68
+msgid "``gf_model`` : create a |mlab_md| object."
+msgstr ""
+
+# 26196b08c71949d2a86c8b682552daf2
+#: ../source/scilab/scilabgf.rst:69
+msgid "``gf_model_get`` : retrieve information from a |mlab_md| object."
+msgstr ""
+
+# 09229aea2bed4a519a40ca01203921d7
+#: ../source/scilab/scilabgf.rst:70
+msgid "``gf_model_set`` : modify a |mlab_md| object."
+msgstr ""
+
+# 0e416c009f2a45caadeca40bb839c7c5
+#: ../source/scilab/scilabgf.rst:71
+msgid "``gf_global_function`` : create a gfGlobalFunction object."
+msgstr ""
+
+# 651a10e739b44ebb9d86b7198d924d3d
+#: ../source/scilab/scilabgf.rst:72
+msgid "``gf_model_get`` : retrieve information from a gfGlobalFunction object."
+msgstr ""
+
+# c68e1e6102004cc98460acc530d92595
+#: ../source/scilab/scilabgf.rst:73
+msgid "``gf_model_set`` : modify a GlobalFunction object."
+msgstr ""
+
+# e16aeb0fdf5a4dc2b2f7d96f3819b957
+#: ../source/scilab/scilabgf.rst:74
+msgid "``gf_plot_mesh`` : plotting of mesh."
+msgstr ""
+
+# 18a57056fe16450aa7d40226bb8049a6
+#: ../source/scilab/scilabgf.rst:75
+msgid "``gf_plot`` : plotting of 2D and 3D fields."
+msgstr ""
+
+# b325bc60f5094698bbda6788e9309518
+#: ../source/scilab/scilabgf.rst:76
+msgid "``gf_plot_1D`` : plotting of 1D fields."
+msgstr ""
+
+# ce66165758454a128fb27cc331d07ba5
+#: ../source/scilab/scilabgf.rst:77
+msgid "``gf_plot_slice`` : plotting of a mesh slice."
+msgstr ""
+
+# c9e078c19dd74e4ab5dc1b788fb271ca
+#: ../source/scilab/scilabgf.rst:81
+msgid "Objects"
+msgstr ""
+
+# e8b11e8aa1fd4668ba83f561cd1aff92
+#: ../source/scilab/scilabgf.rst:83
+msgid ""
+"Various \"objects\" can be manipulated by the |gfm| toolbox, see fig. "
+":ref:`scilab-fig-hierarchy`. The MESH and MESHFEM objects are the two "
+"most important objects."
+msgstr ""
+
+# 07ad35bf33b24405bf27ee68fc98576e
+#: ../source/scilab/scilabgf.rst:91
+msgid "|gfm| objects hierarchy."
+msgstr ""
+
+# 0002b587146a4ea6bb85006bf70c6133
+#: ../source/scilab/scilabgf.rst:94
+msgid ""
+":envvar:`gfGeoTrans`: geometric transformations (defines the "
+"shape/position of the convexes), created with ``gf_geotrans``"
+msgstr ""
+
+# cd6b5d0be8fe4ee8864e1925c1b59bc6
+#: ../source/scilab/scilabgf.rst:96
+msgid ""
+":envvar:`gfGlobalFunction`: represent a global function for the "
+"enrichment of finite element methods."
+msgstr ""
+
+# 7bcff8e29aaa49db92031f26dc3193b7
+#: ../source/scilab/scilabgf.rst:97
+msgid ""
+":envvar:`gfMesh` : mesh structure (nodes, convexes, geometric "
+"transformations for each convex), created with ``gf_mesh``"
+msgstr ""
+
+# ad2ca68c3a234117b26d89a8329fdb83
+#: ../source/scilab/scilabgf.rst:99
+msgid ""
+":envvar:`gfInteg` : integration method (exact, quadrature formula...).  "
+"Although not linked directly to GEOTRANS, an integration method is "
+"usually specific to a given convex structure. Created with ``gf_integ``"
+msgstr ""
+
+# 076bb15d3786436bacdf0b061513a5a5
+#: ../source/scilab/scilabgf.rst:102
+msgid ""
+":envvar:`gfFem` : the finite element method (one per convex, can be PK, "
+"QK, HERMITE, etc.). Created with ``gf_fem``"
+msgstr ""
+
+# c4b8dd8d71b94ac7a8349d8296e7bbf8
+#: ../source/scilab/scilabgf.rst:104
+msgid ""
+":envvar:`gfCvStruct` : stores formal information convex structures (nb. "
+"of points, nb. of faces which are themselves convex structures)."
+msgstr ""
+
+# 7f4257439e9c44c0b4a6ffcaa31a0928
+#: ../source/scilab/scilabgf.rst:106
+msgid ""
+":envvar:`gfMeshFem` : object linked to a mesh, where each convex has been"
+" assigned a FEM. Created with ``gf_mesh_fem``."
+msgstr ""
+
+# 0f4fe39cf6ae426989a6e33dd6f52360
+#: ../source/scilab/scilabgf.rst:108
+msgid ""
+":envvar:`gfMeshImM` : object linked to a mesh, where each convex has been"
+" assigned an integration method. Created with ``gf_mesh_im``."
+msgstr ""
+
+# 4557e7f573af4e6f8bbd461c9c522f56
+#: ../source/scilab/scilabgf.rst:110
+msgid ""
+":envvar:`gfMeshSlice` : object linked to a mesh, very similar to a "
+"P1-discontinuous |mlab_mf|. Used for fast interpolation and plotting."
+msgstr ""
+
+# dc7398d828504ceeae87e51b0b07aba0
+#: ../source/scilab/scilabgf.rst:112
+msgid ""
+":envvar:`gfMdBrick` : |mlab_mbr| , an abstraction of a part of solver "
+"(for example, the part which build the tangent matrix, the part which "
+"handles the dirichlet conditions, etc.). These objects are stacked to "
+"build a complete solver for a wide variety of problems. They typically "
+"use a number of |mlab_mf|, |mlab_mim| etc. Deprecated object, replaced "
+"now by gfModel."
+msgstr ""
+
+# 8cf5edd68a75436a8af8950dfc838893
+#: ../source/scilab/scilabgf.rst:117
+msgid ""
+":envvar:`gfMdState` : \"model state\", holds the global data for a stack "
+"of mdbricks (global tangent matrix, right hand side etc.). Deprecated "
+"object, replaced now by gfModel."
+msgstr ""
+
+# 784108499734488f95c3bff0ea4296a1
+#: ../source/scilab/scilabgf.rst:119
+msgid ""
+":envvar:`gfModel` : \"model\", holds the global data, variables and "
+"description of a model. Evolution of \"model state\" object for 4.0 "
+"version of |gf|."
+msgstr ""
+
+# b88c52bd0dcb4784bb1a56bd3b450b8e
+#: ../source/scilab/scilabgf.rst:122
+msgid ""
+"The |gfm| toolbox uses its own :envvar:`memory management`. Hence |gf| "
+"objects are not cleared when a::"
+msgstr ""
+
+# 17f783513dcf4b92bc284a9fa4aa1559
+#: ../source/scilab/scilabgf.rst:127
+msgid "is issued at the |sci| prompt, but instead the function::"
+msgstr ""
+
+# 02717b0efa6946a59f30daff1a0fc21f
+#: ../source/scilab/scilabgf.rst:131
+msgid ""
+"should be used. The various |gfm| object can be accessed via *handles* "
+"(or *descriptors*), which are just |sci| structures containing 32-bits "
+"integer identifiers to the real objects. Hence the |sci| command::"
+msgstr ""
+
+# b8220092d5184c0caa3c79ef80d2ec5e
+#: ../source/scilab/scilabgf.rst:137
+msgid ""
+"does not report the memory consumption of |gf| objects (except the "
+"marginal space used by the handle). Instead, you should use::"
+msgstr ""
+
+# a1ea9741215f4c849b8acf948a17e274
+#: ../source/scilab/scilabgf.rst:142
+msgid "There are two kinds of |gfm| objects:"
+msgstr ""
+
+# 3593f53a856c4de09b51bb0d43b4f8e4
+#: ../source/scilab/scilabgf.rst:144
+msgid ""
+"static ones, which can not be deleted: ELTM, FEM, INTEG, GEOTRANS and "
+"CVSTRUCT. Hopefully their memory consumption is very low."
+msgstr ""
+
+# 46f44799fda94d1d8c5d9357fa7415db
+#: ../source/scilab/scilabgf.rst:146
+msgid ""
+"dynamic ones, which can be destroyed, and are handled by the "
+"``gf_workspace`` function: MESH, MESHFEM, MESHIM, SLICE, SPMAT, PRECOND."
+msgstr ""
+
+# d94df570417b4920a26bf6541f55a402
+#: ../source/scilab/scilabgf.rst:149
+msgid ""
+"The objects MESH and MESHFEM are not independent: a MESHFEM object is "
+"always linked to a MESH object, and a MESH object can be used by several "
+"MESHFEM objects. Hence when you request the destruction of a MESH object,"
+" its destruction might be delayed until it is not used anymore by any "
+"MESHFEM (these objects waiting for deletion are listed in the *anonymous "
+"workspace* section of ``gf_workspace('stats')``)."
+msgstr ""
+

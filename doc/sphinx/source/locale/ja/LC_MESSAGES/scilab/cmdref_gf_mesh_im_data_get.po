@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3adb62f85ed34806990ee58d5fbedf27
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:8
+msgid "gf_mesh_im_data_get"
+msgstr ""
+
+# 2377c34c8bd34b16beb95b6f4f1e9172
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 2ef9b18b1a6a48dc93a0ab9f0f7c732b
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:21
+msgid "**Description :**"
+msgstr ""
+
+# d84a244f2e494a76868b2942014e654e
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:24
+msgid "General function extracting information from mesh_im_data objects."
+msgstr ""
+
+# 9d33991fc2f84d61a460bffe4f172db8
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:27
+msgid "**Command list :**"
+msgstr ""
+
+# acb894f223554689a75e9255ec935a44
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:31
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'region')``"
+msgstr ""
+
+# 9b20e85f7308488588490cf6e754ffa8
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:33
+msgid "Output the region that the mesh_imd is restricted to."
+msgstr ""
+
+# 2cee11f8e711404d90fd0cd6909cdb8c
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:37
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'nbpts')``"
+msgstr ""
+
+# 881aa057cccc489a9e3483d3c19d014f
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:39
+msgid ""
+"Output the number of integration points (filtered in the considered "
+"region)."
+msgstr ""
+
+# 6dff37a4a3d74a2789f68781e28f4758
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:43
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'nb tensor elements')``"
+msgstr ""
+
+# c4a77952c9724f8c9b36b64f3aeedf19
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:45
+msgid "Output the size of the stored data (per integration point)."
+msgstr ""
+
+# d621278b22d949e08feee4fa29d13989
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:49
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'tensor size')``"
+msgstr ""
+
+# a15e77f200af49ca80801307a8bacd1c
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:51
+msgid "Output the dimensions of the stored data (per integration point)."
+msgstr ""
+
+# 0c08137ebe864c9982cc2db75fdef038
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:55
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'display')``"
+msgstr ""
+
+# 927d9244c46d47cf8870c1480c1a3b29
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:57
+msgid "displays a short summary for a mesh_imd object."
+msgstr ""
+
+# 269dc0d053b046a6844b48d0e5e24dba
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:60
+msgid "``m = gf_mesh_im_data_get(mesh_im_data MID, 'linked mesh')``"
+msgstr ""
+
+# d8c53067440044c2b39d6bad110ef618
+#: ../source/scilab/cmdref_gf_mesh_im_data_get.rst:62
+msgid "Returns a reference to the mesh object linked to <literal>mim</literal>."
+msgstr ""
+

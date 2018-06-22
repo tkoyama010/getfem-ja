@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 14c7957b36984ffd8a8f04862418cc3f
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:8
+msgid "gf_mesher_object_get"
+msgstr ""
+
+# 34f8c2138cde4dfeab7748d28f8d468a
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 07ca69c9a22843c7babd92af3a5a6caf
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:17
+msgid "**Description :**"
+msgstr ""
+
+# 681058be64724a87b20b158825f61fe8
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:20
+msgid "General function for querying information about mesher_object objects."
+msgstr ""
+
+# 560f554fb9e543ff9da93308349b7283
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:23
+msgid "**Command list :**"
+msgstr ""
+
+# 3bbbf3d520da43dd99217d01b2f56627
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:27
+msgid "``s = gf_mesher_object_get(mesher_object MO, 'char')``"
+msgstr ""
+
+# 787a144beefe4f9984594c03a0f32923
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:29
+msgid "Output a (unique) string representation of the mesher_object."
+msgstr ""
+
+# f8713da5cf604e20b530517679c0ac21
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:31
+msgid ""
+"This can be used to perform comparisons between two different "
+"mesher_object objects. This function is to be completed."
+msgstr ""
+
+# b2a0489b2d0f4f2182eaa16085849014
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:37
+msgid "``gf_mesher_object_get(mesher_object MO, 'display')``"
+msgstr ""
+
+# ef516d8f42174142ad7865fc4390dd7e
+#: ../source/matlab/cmdref_gf_mesher_object_get.rst:39
+msgid "displays a short summary for a mesher_object object."
+msgstr ""
+

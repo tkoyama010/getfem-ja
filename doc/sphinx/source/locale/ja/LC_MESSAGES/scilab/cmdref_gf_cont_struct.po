@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 43bf01135e1e4f59810f08955651025d
+#: ../source/scilab/cmdref_gf_cont_struct.rst:8
+msgid "gf_cont_struct"
+msgstr ""
+
+# 5db7294e653f447893f949f136b7706f
+#: ../source/scilab/cmdref_gf_cont_struct.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# ccdb9d006dc647e4aebd0743b1156263
+#: ../source/scilab/cmdref_gf_cont_struct.rst:16
+msgid "**Description :**"
+msgstr ""
+
+# 9de7c97a278f41ea9e3a654bd7202efb
+#: ../source/scilab/cmdref_gf_cont_struct.rst:19
+msgid "General constructor for cont_struct objects."
+msgstr ""
+
+# e92a7085330648818739cbd03abb038d
+#: ../source/scilab/cmdref_gf_cont_struct.rst:21
+msgid ""
+"This object serves for storing parameters and data used in numerical "
+"continuation of solution branches of models (for more details about "
+"continuation see the GetFEM++ user documentation)."
+msgstr ""
+
+# 9a29811e9dd84d96b35ac6aafdb71f33
+#: ../source/scilab/cmdref_gf_cont_struct.rst:26
+msgid "**Command list :**"
+msgstr ""
+
+# 0c2d957ca32446b185ff0776c87a81aa
+#: ../source/scilab/cmdref_gf_cont_struct.rst:30
+msgid ""
+"``S = gf_cont_struct(model md, string dataname_parameter[,string "
+"dataname_init, string dataname_final, string dataname_current], scalar "
+"sc_fac[, ...])``"
+msgstr ""
+
+# 89e96a14fe974279a45c0c4b77f309eb
+#: ../source/scilab/cmdref_gf_cont_struct.rst:32
+msgid ""
+"The variable <literal>dataname_parameter</literal> should parametrise the"
+" model given by <literal>md</literal>. If the parametrisation is done via"
+" a vector datum, <literal>dataname_init</literal> and "
+"<literal>dataname_final</literal> should store two given values of this "
+"datum determining the parametrisation, and "
+"<literal>dataname_current</literal> serves for actual values of this "
+"datum. <literal>sc_fac</literal> is a scale factor involved in the "
+"weighted norm used in the continuation."
+msgstr ""
+
+# bd91842f40784d54876c0dd9400079ff
+#: ../source/scilab/cmdref_gf_cont_struct.rst:39
+msgid "Additional options:"
+msgstr ""
+
+# f24aa8a57d2d46ba8ecc004b9aedb70d
+#: ../source/scilab/cmdref_gf_cont_struct.rst:44
+msgid "'lsolver', string SOLVER_NAME"
+msgstr ""
+
+# 07bcc3896edd49a58f76eb1b04ed3f6a
+#: ../source/scilab/cmdref_gf_cont_struct.rst:42
+msgid ""
+"name of the solver to be used for the incorporated linear systems (the "
+"default value is 'auto', which lets getfem choose itself); possible "
+"values are 'superlu', 'mumps' (if supported), 'cg/ildlt', 'gmres/ilu' and"
+" 'gmres/ilut';"
+msgstr ""
+
+# b65f31ca946f4127990efbb954fed1bd
+#: ../source/scilab/cmdref_gf_cont_struct.rst:46
+msgid "'h_init', scalar HIN"
+msgstr ""
+
+# c0ade8f879bd4e8eaf55c330f0c5f51b
+#: ../source/scilab/cmdref_gf_cont_struct.rst:47
+msgid "initial step size (the default value is 1e-2);"
+msgstr ""
+
+# 4cece0b39ea54ebebb306d618a741463
+#: ../source/scilab/cmdref_gf_cont_struct.rst:48
+msgid "'h_max', scalar HMAX"
+msgstr ""
+
+# 89fb2b981a854a09aeda48ea88ca79d6
+#: ../source/scilab/cmdref_gf_cont_struct.rst:49
+msgid "maximum step size (the default value is 1e-1);"
+msgstr ""
+
+# 6beb70253f8b4d78a81a439975eda79d
+#: ../source/scilab/cmdref_gf_cont_struct.rst:50
+msgid "'h_min', scalar HMIN"
+msgstr ""
+
+# 7bad2e49347e4254a89ccbfa19d4be4f
+#: ../source/scilab/cmdref_gf_cont_struct.rst:51
+msgid "minimum step size (the default value is 1e-5);"
+msgstr ""
+
+# 1ace1dffa1154900956bc5b4e5985fd5
+#: ../source/scilab/cmdref_gf_cont_struct.rst:52
+msgid "'h_inc', scalar HINC"
+msgstr ""
+
+# 4984e7fba99a404ebffb0a28cc8d59cf
+#: ../source/scilab/cmdref_gf_cont_struct.rst:53
+msgid "factor for enlarging the step size (the default value is 1.3);"
+msgstr ""
+
+# 32cf8078b55143a2b5fd66cef3ad7766
+#: ../source/scilab/cmdref_gf_cont_struct.rst:54
+msgid "'h_dec', scalar HDEC"
+msgstr ""
+
+# 4e138a3f73c44004bd31485e9735ab71
+#: ../source/scilab/cmdref_gf_cont_struct.rst:55
+msgid "factor for diminishing the step size (the default value is 0.5);"
+msgstr ""
+
+# d31a7fd0047d4442badb3db4f5ac8a3d
+#: ../source/scilab/cmdref_gf_cont_struct.rst:57
+msgid "'max_iter', int MIT"
+msgstr ""
+
+# 4df6c649522a4c058a30665b9d59e402
+#: ../source/scilab/cmdref_gf_cont_struct.rst:57
+msgid ""
+"maximum number of iterations allowed in the correction (the default value"
+" is 10);"
+msgstr ""
+
+# 1db0b3641aed4a93b471adbb893c0f34
+#: ../source/scilab/cmdref_gf_cont_struct.rst:60
+msgid "'thr_iter', int TIT"
+msgstr ""
+
+# c19f464084234d25b5600e2cf925acd4
+#: ../source/scilab/cmdref_gf_cont_struct.rst:60
+msgid ""
+"threshold number of iterations of the correction for enlarging the step "
+"size (the default value is 4);"
+msgstr ""
+
+# fce005195c1648049c6fe9adfe3d99e2
+#: ../source/scilab/cmdref_gf_cont_struct.rst:63
+msgid "'max_res', scalar RES"
+msgstr ""
+
+# 4b9f199c511c4bfe881aa54df5fa8bb8
+#: ../source/scilab/cmdref_gf_cont_struct.rst:63
+msgid ""
+"target residual value of a new point on the solution curve (the default "
+"value is 1e-6);"
+msgstr ""
+
+# 88d4def33cef482598c8127ef116dc30
+#: ../source/scilab/cmdref_gf_cont_struct.rst:66
+msgid "'max_diff', scalar DIFF"
+msgstr ""
+
+# 6bdf478a3370487d9479f91a4549539c
+#: ../source/scilab/cmdref_gf_cont_struct.rst:66
+msgid ""
+"determines a convergence criterion for two consecutive points (the "
+"default value is 1e-6);"
+msgstr ""
+
+# a80132ddb67243da9d7bea362a9c40a8
+#: ../source/scilab/cmdref_gf_cont_struct.rst:70
+msgid "'min_cos', scalar MCOS"
+msgstr ""
+
+# 4da921ccdbb84fe9a9be2361c585dd12
+#: ../source/scilab/cmdref_gf_cont_struct.rst:69
+msgid ""
+"minimal value of the cosine of the angle between tangents to the solution"
+" curve at an old point and a new one (the default value is 0.9);"
+msgstr ""
+
+# 97935e06956c4eacb87836e8b77929f0
+#: ../source/scilab/cmdref_gf_cont_struct.rst:73
+msgid "'max_res_solve', scalar RES_SOLVE"
+msgstr ""
+
+# 34fbe01129c34e28abf9e1c6f60e6b02
+#: ../source/scilab/cmdref_gf_cont_struct.rst:73
+msgid ""
+"target residual value for the linear systems to be solved (the default "
+"value is 1e-8);"
+msgstr ""
+
+# 63a525b76f32451f8d18a50bfe78de6f
+#: ../source/scilab/cmdref_gf_cont_struct.rst:77
+msgid "'singularities', int SING"
+msgstr ""
+
+# 37a2f8da401547879fad2c793ea73d9c
+#: ../source/scilab/cmdref_gf_cont_struct.rst:76
+msgid ""
+"activates tools for detection and treatment of singular points (1 for "
+"limit points, 2 for bifurcation points and points requiring special "
+"branching techniques);"
+msgstr ""
+
+# 7d96722d02794a59b7af112700faf722
+#: ../source/scilab/cmdref_gf_cont_struct.rst:80
+msgid "'non-smooth'"
+msgstr ""
+
+# 656f3ecd40b64744acf84679934fc43b
+#: ../source/scilab/cmdref_gf_cont_struct.rst:80
+msgid "determines that some special methods for non-smooth problems can be used;"
+msgstr ""
+
+# 837af8401d51422d96924f2b7e29a18d
+#: ../source/scilab/cmdref_gf_cont_struct.rst:84
+msgid "'delta_max', scalar DMAX"
+msgstr ""
+
+# 3fe13ed9a100404385c0e5ae35aeffa5
+#: ../source/scilab/cmdref_gf_cont_struct.rst:83
+msgid ""
+"maximum size of division for evaluating the test function on the convex "
+"combination of two augmented Jacobians that belong to different smooth "
+"pieces (the default value is 0.005);"
+msgstr ""
+
+# d949df75de874d218350acffa0978fbc
+#: ../source/scilab/cmdref_gf_cont_struct.rst:87
+msgid "'delta_min', scalar DMIN"
+msgstr ""
+
+# da34fffb043b4c39a36154b4f819ef7f
+#: ../source/scilab/cmdref_gf_cont_struct.rst:87
+msgid ""
+"minimum size of division for evaluating the test function on the convex "
+"combination (the default value is 0.00012);"
+msgstr ""
+
+# 44bd756f9d204b4e9f46f0279abb9f09
+#: ../source/scilab/cmdref_gf_cont_struct.rst:90
+msgid "'thr_var', scalar TVAR"
+msgstr ""
+
+# dc83bd4e03b34b978a28af9985db5a0a
+#: ../source/scilab/cmdref_gf_cont_struct.rst:90
+msgid "threshold variation for refining the division (the default value is 0.02);"
+msgstr ""
+
+# ab1442b118d14d45b3d816858b56cf44
+#: ../source/scilab/cmdref_gf_cont_struct.rst:94
+msgid "'nb_dir', int NDIR"
+msgstr ""
+
+# 8964efc60957419496d711654a023e26
+#: ../source/scilab/cmdref_gf_cont_struct.rst:93
+msgid ""
+"total number of the linear combinations of one couple of reference "
+"vectors when searching for new tangent predictions during location of new"
+" one-sided branches (the default value is 40);"
+msgstr ""
+
+# a3a53403886f4b3b8c41ec90951b1f0a
+#: ../source/scilab/cmdref_gf_cont_struct.rst:97
+msgid "'nb_span', int NSPAN"
+msgstr ""
+
+# 126bcec1e49342ec9bd5b1d69ef2ad8a
+#: ../source/scilab/cmdref_gf_cont_struct.rst:97
+msgid ""
+"total number of the couples of the reference vectors forming the linear "
+"combinations (the default value is 1);"
+msgstr ""
+
+# dfd63041315448678b74c14c95406a48
+#: ../source/scilab/cmdref_gf_cont_struct.rst:101
+msgid "'noisy' or 'very_noisy'"
+msgstr ""
+
+# f8dfcc76955f468883a4f9c8442677fe
+#: ../source/scilab/cmdref_gf_cont_struct.rst:100
+msgid ""
+"determines how detailed information has to be displayed during the "
+"continuation process (residual values etc.)."
+msgstr ""
+

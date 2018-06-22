@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3604f332b5ea4b0f9f488b5427027800
+#: ../source/matlab/cmdref_gf_slice_set.rst:8
+msgid "gf_slice_set"
+msgstr ""
+
+# ceaf09a5a66a4d3b8d7e8466878a6b5d
+#: ../source/matlab/cmdref_gf_slice_set.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# da165ba4560246ee8b5143fb32c6d917
+#: ../source/matlab/cmdref_gf_slice_set.rst:16
+msgid "**Description :**"
+msgstr ""
+
+# d1d7b88ef09c495cbeee4e0438219f9f
+#: ../source/matlab/cmdref_gf_slice_set.rst:19
+msgid "Edition of mesh slices."
+msgstr ""
+
+# f116e2351689492391ade65c136620e0
+#: ../source/matlab/cmdref_gf_slice_set.rst:22
+msgid "**Command list :**"
+msgstr ""
+
+# bd27c3a3a71c4f16aeae3fa55677d1e8
+#: ../source/matlab/cmdref_gf_slice_set.rst:26
+msgid "``gf_slice_set(slice S, 'pts', mat P)``"
+msgstr ""
+
+# 8f50815837bd4ef4a6df26c998d9b76e
+#: ../source/matlab/cmdref_gf_slice_set.rst:28
+msgid "Replace the points of the slice."
+msgstr ""
+
+# 48a2dc6d7fdb429e9bab417482f8f1ab
+#: ../source/matlab/cmdref_gf_slice_set.rst:30
+msgid ""
+"The new points `P` are stored in the columns the matrix. Note that you "
+"can use the function to apply a deformation to a slice, or to change the "
+"dimension of the slice (the number of rows of `P` is not required to be "
+"equal to gf_slice_get(slice S, 'dim'))."
+msgstr ""
+

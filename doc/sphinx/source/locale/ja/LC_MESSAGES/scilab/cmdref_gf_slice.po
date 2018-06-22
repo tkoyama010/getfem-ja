@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 905aad762770465b9db3f5439e2a5181
+#: ../source/scilab/cmdref_gf_slice.rst:8
+msgid "gf_slice"
+msgstr ""
+
+# acef3478ccab4b17ac07ff7d54022391
+#: ../source/scilab/cmdref_gf_slice.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# bdada61109454b2c8f899fa368af297a
+#: ../source/scilab/cmdref_gf_slice.rst:19
+msgid "**Description :**"
+msgstr ""
+
+# 9bf5dce0df0942df8b9a035615016894
+#: ../source/scilab/cmdref_gf_slice.rst:22
+msgid "General constructor for slice objects."
+msgstr ""
+
+# acf84a26fbca4f37b85d7ee7dd27d8dd
+#: ../source/scilab/cmdref_gf_slice.rst:24
+msgid ""
+"Creation of a mesh slice. Mesh slices are very similar to a "
+"P1-discontinuous mesh_fem on which interpolation is very fast. The slice "
+"is built from a mesh object, and a description of the slicing operation, "
+"for example::"
+msgstr ""
+
+# 6e3df1320cbc4507ae830e6821046a57
+#: ../source/scilab/cmdref_gf_slice.rst:31
+msgid ""
+"cuts the original mesh with the half space {y>0}. Each convex of the "
+"original mesh <literal>m</literal> is simplexified (for example a "
+"quadrangle is splitted into 2 triangles), and each simplex is refined 5 "
+"times."
+msgstr ""
+
+# 564e6597880a404ebccbc15ea37e6226
+#: ../source/scilab/cmdref_gf_slice.rst:35
+msgid "Slicing operations can be:"
+msgstr ""
+
+# 5a655571ac85461b8f76020474ed8bdd
+#: ../source/scilab/cmdref_gf_slice.rst:37
+msgid "cutting with a plane, a sphere or a cylinder"
+msgstr ""
+
+# a6f8aa401ac542e7b070dabd00e341ff
+#: ../source/scilab/cmdref_gf_slice.rst:38
+msgid "intersection or union of slices"
+msgstr ""
+
+# 822b62b03b25460a8066b790aa4c29fb
+#: ../source/scilab/cmdref_gf_slice.rst:39
+msgid "isovalues surfaces/volumes"
+msgstr ""
+
+# 764e3dbf718c49f0be6aa92c143a8869
+#: ../source/scilab/cmdref_gf_slice.rst:40
+msgid "\"points\", \"streamlines\" (see below)"
+msgstr ""
+
+# 966f5847561040e896f46037e4056789
+#: ../source/scilab/cmdref_gf_slice.rst:42
+msgid ""
+"If the first argument is a mesh_fem <literal>mf</literal> instead of a "
+"mesh, and if it is followed by a <literal>mf</literal>-field "
+"<literal>u</literal>, then the deformation <literal>u</literal> will be "
+"applied to the mesh before the slicing operation."
+msgstr ""
+
+# 6a1b08a18ef84461bac953880c1cccf8
+#: ../source/scilab/cmdref_gf_slice.rst:46
+msgid "The first argument can also be a slice."
+msgstr ""
+
+# 0a4b2a23061d4b3ea821643500744695
+#: ../source/scilab/cmdref_gf_slice.rst:49
+msgid "**Command list :**"
+msgstr ""
+
+# d947937f7bfa49128bae33c6778fde7c
+#: ../source/scilab/cmdref_gf_slice.rst:53
+msgid ""
+"``sl = gf_slice(sliceop, {slice sl|{mesh m| mesh_fem mf, vec U}, int "
+"refine}[, mat CVfids])``"
+msgstr ""
+
+# 7e0de4f5d9d64300b0f2a7f5e33aef36
+#: ../source/scilab/cmdref_gf_slice.rst:55
+msgid "Create a slice using <literal>sliceop</literal> operation."
+msgstr ""
+
+# 6a74dd08741d4c14ae68dcda595ced99
+#: ../source/scilab/cmdref_gf_slice.rst:57
+msgid ""
+"<literal>sliceop</literal> operation is specified with Scilab CELL arrays"
+" (i.e. with braces) . The first element is the name of the operation, "
+"followed the slicing options:"
+msgstr ""
+
+# 53f3dd6c9ec14bf382aabf38d555343e
+#: ../source/scilab/cmdref_gf_slice.rst:60
+msgid "{'none'} : Does not cut the mesh."
+msgstr ""
+
+# db60b7ca8439476fac1ae6e861775ae6
+#: ../source/scilab/cmdref_gf_slice.rst:63
+msgid ""
+"{'planar', int orient, vec p, vec n} : Planar cut. <literal>p</literal> "
+"and <literal>n</literal> define a half-space, <literal>p</literal> being "
+"a point belong to the boundary of the half-space, and "
+"<literal>n</literal> being its normal. If <literal>orient</literal> is "
+"equal to -1 (resp. 0, +1), then the slicing operation will cut the mesh "
+"with the \"interior\" (resp. \"boundary\", \"exterior\") of the half-"
+"space. <literal>orient</literal> may also be set to +2 which means that "
+"the mesh will be sliced, but both the outer and inner parts will be kept."
+msgstr ""
+
+# 7f1aa2be92dc43b6947cd01c7c08dac0
+#: ../source/scilab/cmdref_gf_slice.rst:71
+msgid ""
+"{'ball', int orient, vec c, scalar r} : Cut with a ball of center "
+"<literal>c</literal> and radius <literal>r</literal>."
+msgstr ""
+
+# 8ef74e474e6f46f6bcd84d7fdf99b53e
+#: ../source/scilab/cmdref_gf_slice.rst:74
+msgid ""
+"{'cylinder', int orient, vec p1, vec p2, scalar r} : Cut with a cylinder "
+"whose axis is the line <literal>(p1, p2)</literal> and whose radius is "
+"<literal>r</literal>."
+msgstr ""
+
+# 740e6efa896b4c9799596a1e5bfab665
+#: ../source/scilab/cmdref_gf_slice.rst:78
+msgid ""
+"{'isovalues', int orient, mesh_fem mf, vec U, scalar s} : Cut using the "
+"isosurface of the field <literal>U</literal> (defined on the mesh_fem "
+"<literal>mf</literal>). The result is the set <literal>{x such that "
+"<latex style=\"text\"><![CDATA[U(x) \\leq s]]></latex>}</literal> or "
+"<literal>{x such that "
+"</literal>U<literal>(x)=</literal>s<literal>}</literal> or <literal>{x "
+"such that </literal>U<literal>(x) >= </literal>s<literal>}</literal> "
+"depending on the value of <literal>orient</literal>."
+msgstr ""
+
+# e9408805bb434448930c4cf4e86c54ad
+#: ../source/scilab/cmdref_gf_slice.rst:84
+msgid ""
+"{'boundary'[, SLICEOP]} : Return the boundary of the result of SLICEOP, "
+"where SLICEOP is any slicing operation. If SLICEOP is not specified, then"
+" the whole mesh is considered (i.e. it is equivalent to "
+"{'boundary',{'none'}})."
+msgstr ""
+
+# 32b71b49b8e347c8af5dda1524a0616c
+#: ../source/scilab/cmdref_gf_slice.rst:89
+msgid ""
+"{'explode', mat Coef} : Build an 'exploded' view of the mesh: each convex"
+" is shrinked (<latex style=\"text\"><![CDATA[0 < \\text{Coef} \\leq "
+"1]]></latex>). In the case of 3D convexes, only their faces are kept."
+msgstr ""
+
+# 3a816e5c02b64b16b4645caadbfed392
+#: ../source/scilab/cmdref_gf_slice.rst:93
+msgid "{'union', SLICEOP1, SLICEOP2} : Returns the union of slicing operations."
+msgstr ""
+
+# fdc291f5133045c6af3975b219afa884
+#: ../source/scilab/cmdref_gf_slice.rst:96
+msgid ""
+"{'intersection', SLICEOP1, SLICEOP2} : Returns the intersection of "
+"slicing operations, for example::"
+msgstr ""
+
+# 231a94afeb5d4479b7d6efd937cb4d03
+#: ../source/scilab/cmdref_gf_slice.rst:102
+msgid "{'comp', SLICEOP} : Returns the complementary of slicing operations."
+msgstr ""
+
+# 69178a13f63740dc963c8db0ddba6c76
+#: ../source/scilab/cmdref_gf_slice.rst:105
+msgid ""
+"{'diff', SLICEOP1, SLICEOP2} : Returns the difference of slicing "
+"operations."
+msgstr ""
+
+# e47f4a837974401aac24def5283416ce
+#: ../source/scilab/cmdref_gf_slice.rst:108
+msgid ""
+"{'mesh', mesh m} : Build a slice which is the intersection of the sliced "
+"mesh with another mesh. The slice is such that all of its simplexes are "
+"stricly contained into a convex of each mesh."
+msgstr ""
+
+# 4dcdf0e2af3448da8c9dcb59c7bcfe48
+#: ../source/scilab/cmdref_gf_slice.rst:115
+msgid "``sl = gf_slice('streamlines', mesh_fem mf, mat U, mat S)``"
+msgstr ""
+
+# 6d31d9402c4248799e7e1dac8a68c5d4
+#: ../source/scilab/cmdref_gf_slice.rst:117
+msgid ""
+"Compute streamlines of the (vector) field <literal>U</literal>, with seed"
+" points given by the columns of <literal>S</literal>."
+msgstr ""
+
+# b36621bcc04a455f9992d0067962ceb7
+#: ../source/scilab/cmdref_gf_slice.rst:121
+msgid "``sl = gf_slice('points', mesh m, mat Pts)``"
+msgstr ""
+
+# 4dc80f003be542ad89ea280c39a05cae
+#: ../source/scilab/cmdref_gf_slice.rst:123
+msgid ""
+"Return the \"slice\" composed of points given by the columns of "
+"<literal>Pts</literal> (useful for interpolation on a given set of sparse"
+" points, see <literal></literal>gf_compute('interpolate "
+"on',sl)<literal></literal>."
+msgstr ""
+
+# 3bb542f6e0d646829f192a8081da9b50
+#: ../source/scilab/cmdref_gf_slice.rst:128
+msgid "``sl = gf_slice('load', string filename[, mesh m])``"
+msgstr ""
+
+# 0b95cf58ecac47fea02d02f6d05bbca6
+#: ../source/scilab/cmdref_gf_slice.rst:130
+msgid ""
+"Load the slice (and its linked mesh if it is not given as an argument) "
+"from a text file."
+msgstr ""
+

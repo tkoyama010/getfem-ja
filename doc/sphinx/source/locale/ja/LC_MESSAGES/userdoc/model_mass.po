@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 8b847439b9ab46639c29319fab5006f5
+#: ../source/userdoc/model_mass.rst:13
+msgid "Mass brick"
+msgstr ""
+
+# e7b1813f72e742a8a39ee8bdcfc442de
+#: ../source/userdoc/model_mass.rst:15
+msgid "This brick represents a weak term of the form"
+msgstr ""
+
+# fe1796b9456140a58d81d61d9c488ce6
+#: ../source/userdoc/model_mass.rst:21
+msgid ""
+"It mainly represents a mass term for transient problems but can also be "
+"used for other applications (it can be used on a boundary). Basically, "
+"this brick adds a mass matrix on the tangent linear system with respect "
+"to a certain variable."
+msgstr ""
+
+# 538b44fe49f240b297be4b742a6f0295
+#: ../source/userdoc/model_mass.rst:25
+msgid "The function which adds this brick to a model is::"
+msgstr ""
+
+# a272c784c9754cc790a3d72c63c6ae44
+#: ../source/userdoc/model_mass.rst:30
+msgid ""
+"where ``dataexpr_rho`` is an optional expression representing the density"
+" :math:`\\rho`. If it is omitted, the density is assumed to be equal to "
+"one."
+msgstr ""
+
+# ffb29f518bd944c699d6a61ef761872c
+#: ../source/userdoc/model_mass.rst:7
+msgid "models"
+msgstr ""
+
+# ffb29f518bd944c699d6a61ef761872c
+#: ../source/userdoc/model_mass.rst:7
+msgid "model bricks"
+msgstr ""
+

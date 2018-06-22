@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 378e2113a08448958fc56fb38b0882ea
+#: ../source/whatsnew/5.3.rst:5
+msgid "What's New in |gf| 5.3"
+msgstr ""
+
+# 8f78865699ed4a47bfcf6a4bda239b54
+#: ../source/whatsnew/5.3.rst:7
+msgid ""
+"The main contribution of this version is the extension of the language "
+"allowing macro definition and explicit differentiation."
+msgstr ""
+
+# 443049dc60df48109f6f005256845507
+#: ../source/whatsnew/5.3.rst:9
+msgid "Released version, 2018/06/20."
+msgstr ""
+
+# 38e60d946d5c4f1cad12258fa7bf4994
+#: ../source/whatsnew/5.3.rst:11
+msgid "The main changes are:"
+msgstr ""
+
+# 905294f28a884c3985f7439301181f1a
+#: ../source/whatsnew/5.3.rst:13
+msgid "The weak form language now supports macro with parameters"
+msgstr ""
+
+# d951e8e212c44cbe90ce8397863d854a
+#: ../source/whatsnew/5.3.rst:15
+msgid ""
+"The weak form language has been extended with Grad(expression), the "
+"spatial gradient and Diff(expression, variable, direction) which performs"
+" a directional derivative. A few more tensor contraction operations has "
+"been added on this occasion."
+msgstr ""
+
+# c6956c7d6daf43f593b4f962ea7be854
+#: ../source/whatsnew/5.3.rst:20
+msgid "The support for pyramidal has been extended and stabilized."
+msgstr ""
+
+# ac4ef46ab70348d195a6923379e58ea2
+#: ../source/whatsnew/5.3.rst:22
+msgid ""
+"Incomplete pyramidal (13-node) and incomplete prism (15-node) elements "
+"have been added."
+msgstr ""
+
+# c593886919864e138c8a4c3181cb4916
+#: ../source/whatsnew/5.3.rst:25
+msgid "Importing meshes from ANSYS has been improved/extended."
+msgstr ""
+

@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 1c31cc4407b742b3ba98f4173eb918de
+#: ../source/whatsnew/3.1.rst:5
+msgid "What's New in |gf| 3.1"
+msgstr ""
+
+# 8796fbb5ce734ab48cdb1e2a944083ee
+#: ../source/whatsnew/3.1.rst:7
+msgid "Minor version, 2008/09/09:"
+msgstr ""
+
+# 85b2c3cb3e3943ca86d1011defd6c6b5
+#: ../source/whatsnew/3.1.rst:9
+msgid "A certain number of small bug fixed in |gf| and Gmm++."
+msgstr ""
+
+# 8ccafc15f6774449ac95863080c3baac
+#: ../source/whatsnew/3.1.rst:11
+msgid "Clarification of copyrights."
+msgstr ""
+

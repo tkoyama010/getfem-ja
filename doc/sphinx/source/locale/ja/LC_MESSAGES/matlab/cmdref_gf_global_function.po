@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# e8ae61b7da6b4b2590b3a95ba0220bf1
+#: ../source/matlab/cmdref_gf_global_function.rst:8
+msgid "gf_global_function"
+msgstr ""
+
+# 1bc65db9c3a24932a42b633291e1803a
+#: ../source/matlab/cmdref_gf_global_function.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 5b4fbf541e8f4e7da4a83975d2c989e7
+#: ../source/matlab/cmdref_gf_global_function.rst:20
+msgid "**Description :**"
+msgstr ""
+
+# e68aca57f684400295a26196ccb8432c
+#: ../source/matlab/cmdref_gf_global_function.rst:23
+msgid "General constructor for global_function objects."
+msgstr ""
+
+# 8720865e5b2e4c30855a5ecf84b430c4
+#: ../source/matlab/cmdref_gf_global_function.rst:25
+msgid "Global function object is represented by three functions:"
+msgstr ""
+
+# 687c22e95e95411c9bc3f412b0d4595d
+#: ../source/matlab/cmdref_gf_global_function.rst:27
+msgid "The function `val`."
+msgstr ""
+
+# a3ffefdad57741ef9c363ca16bbf7d05
+#: ../source/matlab/cmdref_gf_global_function.rst:28
+msgid "The function gradient `grad`."
+msgstr ""
+
+# e2d1dce5f3bb406895e71553973777af
+#: ../source/matlab/cmdref_gf_global_function.rst:29
+msgid "The function Hessian `hess`."
+msgstr ""
+
+# de591b73d43c44e2ba4214930d957863
+#: ../source/matlab/cmdref_gf_global_function.rst:31
+msgid ""
+"this type of function is used as local and global enrichment function. "
+"The global function Hessian is an optional parameter (only for fourth "
+"order derivative problems)."
+msgstr ""
+
+# c3084b4708f14c6c8fac45d7e1b7981c
+#: ../source/matlab/cmdref_gf_global_function.rst:35
+msgid "**Command list :**"
+msgstr ""
+
+# 8e48274acb0348ec8d86abdf13b8425f
+#: ../source/matlab/cmdref_gf_global_function.rst:39
+msgid ""
+"``GF = gf_global_function('cutoff', int fn, scalar r, scalar r1, scalar "
+"r0)``"
+msgstr ""
+
+# 84f6e0d8791b412e830e78abb8cda0c1
+#: ../source/matlab/cmdref_gf_global_function.rst:41
+msgid "Create a cutoff global function."
+msgstr ""
+
+# 7122638512c347c8955180c37a399880
+#: ../source/matlab/cmdref_gf_global_function.rst:44
+msgid "``GF = gf_global_function('crack', int fn)``"
+msgstr ""
+
+# 945784156de54922a429e87920b3fd02
+#: ../source/matlab/cmdref_gf_global_function.rst:46
+msgid "Create a near-tip asymptotic global function for modelling cracks."
+msgstr ""
+
+# df8ccc1a803a4c8091416f99d47d3305
+#: ../source/matlab/cmdref_gf_global_function.rst:49
+msgid ""
+"``GF = gf_global_function('parser', string val[, string grad[, string "
+"hess]])``"
+msgstr ""
+
+# 9ceef029263042b795b706c28db905d1
+#: ../source/matlab/cmdref_gf_global_function.rst:51
+msgid ""
+"Create a global function from strings `val`, `grad` and `hess`. This "
+"function could be improved by using the derivation of the generic "
+"assembly language ... to be done."
+msgstr ""
+
+# f2667a12b9a94d1da8442e542a614fa7
+#: ../source/matlab/cmdref_gf_global_function.rst:56
+msgid ""
+"``GF = gf_global_function('product', global_function F, global_function "
+"G)``"
+msgstr ""
+
+# 32059ade8c544bb5abff26c871030bbf
+#: ../source/matlab/cmdref_gf_global_function.rst:58
+msgid "Create a product of two global functions."
+msgstr ""
+
+# d43ff57628064df3a2f6209c19f932e2
+#: ../source/matlab/cmdref_gf_global_function.rst:61
+msgid ""
+"``GF = gf_global_function('add', global_function gf1, global_function "
+"gf2)``"
+msgstr ""
+
+# 839f245f1cf2419b827187885174ad22
+#: ../source/matlab/cmdref_gf_global_function.rst:63
+msgid "Create a add of two global functions."
+msgstr ""
+

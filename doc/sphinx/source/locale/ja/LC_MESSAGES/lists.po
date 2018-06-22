@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# fdefd25fa72a4212a0ca7363e4d139f6
+#: ../source/lists.rst:7
+msgid "GetFEM++ Mailing Lists"
+msgstr ""
+
+# 1ccaa6a898884f53bc6e547a0afd4747
+#: ../source/lists.rst:9
+msgid ""
+"GetFEM++ is maintened on the `Savannah <http://Savannah.gnu.org>`_ "
+"collaborative development platform for free software. See "
+"https://savannah.nongnu.org/projects/getfem for additional information on"
+" GetFEM++ development."
+msgstr ""
+
+# aefb025891074b5ab883e319674feb60
+#: ../source/lists.rst:13
+msgid ""
+"The mailing lists of GetFEM++ are listed on the page `getfem mailing "
+"lists <https://savannah.nongnu.org/mail/?group=getfem>`_"
+msgstr ""
+
+# 776ed1cd9c5c49d0ad22e3c88ef2657c
+#: ../source/lists.rst:15
+msgid ""
+"The main mainling list is the `user one "
+"<https://lists.nongnu.org/mailman/listinfo/getfem-users>`_. All kind of "
+"problems or questions about using, install or improve GetFEM++ can be "
+"posted there. Don't forget to register to the list before to post a "
+"message."
+msgstr ""
+
+# ac1c2d80a9254cd5b2d0670ac95e90f4
+#: ../source/lists.rst:18
+msgid ""
+"If you make contributions to Getfem, you should register to the `getfem-"
+"commits mailing list <https://lists.nongnu.org/mailman/listinfo/getfem-"
+"commits>`_."
+msgstr ""
+
+# b19e7f4924c644b4beff47d5ddb06336
+#: ../source/lists.rst:2
+msgid "mailing lists"
+msgstr ""
+
