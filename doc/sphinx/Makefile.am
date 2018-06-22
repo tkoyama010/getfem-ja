@@ -23,6 +23,7 @@ PYTHON        = python
 SPHINXROOT    = http://svn.python.org/projects
 SPHINXOPTS    =
 SPHINXBUILD   = $(PYTHON) tools/sphinx-build.py
+SPHINXINTL    = sphinx-intl
 PAPER         =
 SOURCES       = $(srcdir)/source
 DISTVERSION   = @VERSION@
@@ -125,6 +126,7 @@ linkcheck: build
 	      "or in build/$(BUILDER)/output.txt."
 gettext:
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) locale
+	$(SPHINXINTL) update -p locale -l ja
 	@echo
 	@echo "Build finished. The message catalogs are in locale."
 
