@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 9e701a00a2ee4fe088e1344d313b8236
+#: ../source/project/appendixA.rst:10
+msgid "Appendix A. Some basic computations between reference and real elements"
+msgstr ""
+
+# 6987973a48bd4beb86ec05be4da61665
+#: ../source/project/appendixA.rst:13
+msgid "Volume integral"
+msgstr ""
+
+# df3cc20a30df4f08a0147a0b46f81b10
+# c0dc5364e55d49f48306cb419dd2fc54
+#: ../source/project/appendixA.rst:15 ../source/project/appendixA.rst:77
+msgid "One has"
+msgstr ""
+
+# 59afd2949fd243ea8c896a4f18cf4952
+#: ../source/project/appendixA.rst:28
+msgid "Denoting :math:`J_{\\tau}(\\widehat{x})` the jacobian"
+msgstr ""
+
+# ca039c736ce3436fb123f970125fbab4
+#: ../source/project/appendixA.rst:41
+msgid "one finally has"
+msgstr ""
+
+# 50a05c0b6dda47069faf07017529c6e8
+#: ../source/project/appendixA.rst:47
+msgid ""
+"When :math:`P = N`, the expression of the jacobian reduces to "
+":math:`J_{\\tau}(\\widehat{x}) = |\\mbox{det}(K(\\widehat{x}))|`."
+msgstr ""
+
+# 9733279e7072411cae7d6fee264eab31
+#: ../source/project/appendixA.rst:52
+msgid "Surface integral"
+msgstr ""
+
+# 98e4b0e34b234d6a9ddb6635c07a4fea
+#: ../source/project/appendixA.rst:54
+msgid ""
+"With :math:`\\Gamma` a part of the boundary of :math:`T` a real element "
+"and :math:`\\widehat{\\Gamma}` the corresponding boundary on the "
+"reference element :math:`\\widehat{T}`, one has"
+msgstr ""
+
+# 1d23f46efdee45a48b9587df0442f9f1
+#: ../source/project/appendixA.rst:63
+msgid ""
+"where :math:`\\widehat{n}` is the unit normal to :math:`\\widehat{T}` on "
+":math:`\\widehat{\\Gamma}`. In a same way"
+msgstr ""
+
+# f37dc9ef7f964ece9e74995ba33df33f
+#: ../source/project/appendixA.rst:71
+msgid "For :math:`n` the unit normal to :math:`T` on :math:`\\Gamma`."
+msgstr ""
+
+# 6ac2a98620b146b580c7d3bf7072eaba
+#: ../source/project/appendixA.rst:75
+msgid "Derivative computation"
+msgstr ""
+
+# 1f90d98c50254cc5b06b85e0300b46fd
+#: ../source/project/appendixA.rst:85
+msgid "Second derivative computation"
+msgstr ""
+
+# 727903e5be294e6ab57ba44bf14db002
+#: ../source/project/appendixA.rst:87
+msgid "Denoting"
+msgstr ""
+
+# 09558b1786764634bdf3ecb63bc73ac9
+#: ../source/project/appendixA.rst:94
+msgid "the :math:`N \\times N` matrix and"
+msgstr ""
+
+# b972c85592e6454e97e2637c5fbd228c
+#: ../source/project/appendixA.rst:103
+msgid "the :math:`P \\times P` matrix, then"
+msgstr ""
+
+# 9ef8779267c84ff488a47f722fbe6847
+#: ../source/project/appendixA.rst:109
+msgid "and thus"
+msgstr ""
+
+# 951b09012df94ae68b1ddfe42515c8f9
+#: ../source/project/appendixA.rst:115
+msgid ""
+"In order to have uniform methods for the computation of elementary "
+"matrices, the Hessian is computed as a column vector :math:`H f` whose "
+"components are :math:`\\frac{\\partial^2 f}{\\partial x^2_0}, "
+"\\frac{\\partial^2 f}{\\partial x_1\\partial x_0},\\ldots, "
+"\\frac{\\partial^2 f}{\\partial x^2_{N-1}}`. Then, with :math:`B_2` the "
+":math:`P^2 \\times P` matrix defined as"
+msgstr ""
+
+# fe2127d770dd449b90be4a06343a40d2
+#: ../source/project/appendixA.rst:128
+msgid "and :math:`B_3` the :math:`N^2 \\times P^2` matrix defined as"
+msgstr ""
+
+# eec87dc212d04bf9ba310f431be67c97
+#: ../source/project/appendixA.rst:135
+msgid "one has"
+msgstr ""
+
+# 7e474de5900e44e7b442a8152c0c8d42
+#: ../source/project/appendixA.rst:144
+msgid "Example of elementary matrix"
+msgstr ""
+
+# f9c8fb1538554cd0954bfb96b1739bfe
+#: ../source/project/appendixA.rst:146
+msgid "Assume one needs to compute the elementary \"matrix\":"
+msgstr ""
+
+# 3e506e1cd0974a50b5fdc31f44ac0242
+#: ../source/project/appendixA.rst:155
+msgid "The computations to be made on the reference elements are"
+msgstr ""
+
+# 4a86dd4a945244ebb3d6e35e2ff06dfe
+#: ../source/project/appendixA.rst:164
+msgid "and"
+msgstr ""
+
+# db7a19b209ed41c689106a92eeb1575c
+#: ../source/project/appendixA.rst:173
+msgid ""
+"Those two tensor can be computed once on the whole reference element if "
+"the geometric transformation is linear (because :math:`J(\\widehat{x})` "
+"is constant). If the geometric transformation is non-linear, what has to "
+"be stored is the value on each integration point. To compute the integral"
+" on the real element a certain number of reductions have to be made:"
+msgstr ""
+
+# 92f6bff63c1545c8afb51d6470c248dc
+#: ../source/project/appendixA.rst:179
+msgid "Concerning the first term (:math:`\\varphi_{i_1}^{i_0}`) nothing."
+msgstr ""
+
+# 5f34395fbbf74586bd199f1b995a1e43
+#: ../source/project/appendixA.rst:181
+msgid ""
+"Concerning the second term (:math:`\\partial_{i_4}\\varphi_{i_3}^{i_2}`) "
+"a reduction with respect to :math:`i_4` with the matrix :math:`B`."
+msgstr ""
+
+# 3e43cd7b86194dc8a6451bad841b0eee
+#: ../source/project/appendixA.rst:184
+msgid ""
+"Concerning the third term (:math:`\\partial^2_{i_7 / P, i_7\\mbox{ mod "
+"}P} \\varphi_{i_6}^{i_5}`)` a reduction of :math:`\\widehat{t}_0` with "
+"respect to :math:`i_7` with the matrix :math:`B_3` and a reduction of "
+":math:`\\widehat{t}_1` with respect also to :math:`i_7` with the matrix "
+":math:`B_3 B_2`"
+msgstr ""
+
+# bdc8af2d8582443584657134481035a2
+#: ../source/project/appendixA.rst:190
+msgid ""
+"The reductions are to be made on each integration point if the geometric "
+"transformation is non-linear. Once those reductions are done, an addition"
+" of all the tensor resulting of those reductions is made (with a factor "
+"equal to the load of each integration point if the geometric "
+"transformation is non-linear)."
+msgstr ""
+
+# 2873e033ddc5491ea1505315885ac7a0
+#: ../source/project/appendixA.rst:195
+msgid ""
+"If the finite element is non-:math:`\\tau`-equivalent, a supplementary "
+"reduction of the resulting tensor with the matrix :math:`M` has to be "
+"made."
+msgstr ""
+

@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# d0bf3b6c52bf486ba9071e6465bbca7a
+#: ../source/scilab/cmdref_gf_delete.rst:8
+msgid "gf_delete"
+msgstr ""
+
+# f6b44f8cbbe34e1f9a457f7fd7a92b7c
+#: ../source/scilab/cmdref_gf_delete.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 20a7cae85e4c40bc8e5a739cbd396dd0
+#: ../source/scilab/cmdref_gf_delete.rst:16
+msgid "**Description :**"
+msgstr ""
+
+# be87f0046fc24bc49ae36aa6e1b55501
+#: ../source/scilab/cmdref_gf_delete.rst:19
+msgid "Delete an existing getfem object from memory (mesh, mesh_fem, etc.)."
+msgstr ""
+
+# c8822b852343428db3375563e995d618
+#: ../source/scilab/cmdref_gf_delete.rst:23
+msgid "SEE ALSO:"
+msgstr ""
+
+# 2c4512b98b444e96a0932631963a034d
+#: ../source/scilab/cmdref_gf_delete.rst:22
+msgid "gf_workspace, gf_mesh, gf_mesh_fem."
+msgstr ""
+
+# c94138112d714aeeb2d6e8df66217b12
+#: ../source/scilab/cmdref_gf_delete.rst:25
+msgid "**Command list :**"
+msgstr ""
+
+# 180d7203f2bd49bfbb3142bca95cabed
+#: ../source/scilab/cmdref_gf_delete.rst:29
+msgid "``gf_delete(I[, J, K,...])``"
+msgstr ""
+
+# 1853c18122df4fb5937914fcdf9b03af
+#: ../source/scilab/cmdref_gf_delete.rst:31
+msgid "I should be a descriptor given by gf_mesh(), gf_mesh_im(), gf_slice() etc."
+msgstr ""
+
+# 88f2029b9a74448a8c13f73112bcb12a
+#: ../source/scilab/cmdref_gf_delete.rst:34
+msgid ""
+"Note that if another object uses I, then object I will be deleted only "
+"when both have been asked for deletion."
+msgstr ""
+
+# 43d88df43303476aa6b3fc13c25c5277
+#: ../source/scilab/cmdref_gf_delete.rst:37
+msgid ""
+"Only objects listed in the output of gf_workspace('stats') can be deleted"
+" (for example gf_fem objects cannot be destroyed)."
+msgstr ""
+
+# 4c15152fa65f43bf93e77b1702581956
+#: ../source/scilab/cmdref_gf_delete.rst:40
+msgid "You may also use gf_workspace('clear all') to erase everything at once."
+msgstr ""
+

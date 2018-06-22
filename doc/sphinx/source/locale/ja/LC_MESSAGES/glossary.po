@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# ef68a023b6f54ea7bbfc0f86db6ab875
+#: ../source/glossary.rst:8
+msgid "Glossary"
+msgstr ""
+
+# 516e04468f3047f79cfdc256ed8f3255
+#: ../source/glossary.rst:13
+msgid "Convex"
+msgstr ""
+
+# 7ba166adb5484c00a1c7d9476e44252c
+#: ../source/glossary.rst:15
+msgid "See **element**"
+msgstr ""
+
+# 0acf806ebf8b4f66bf22bb4bda3fc6b6
+#: ../source/glossary.rst:16
+msgid "Cubature method"
+msgstr ""
+
+# 858879ea2db047e1814d86114a695153
+#: ../source/glossary.rst:18
+msgid ""
+"A cubature method on an **element** consists in a set of nodes (generally"
+" called gauss points) and corresponding loads which define a approximated"
+" integration method. In |Gf| it is defined on the **reference elements**."
+msgstr ""
+
+# 97b5ea6d9bad48f19c3a57f2cb58eebe
+#: ../source/glossary.rst:22
+msgid "Degree of freedom"
+msgstr ""
+
+# b6fe1c59ffda4a6eaaeeb18c34ffd4db
+#: ../source/glossary.rst:24
+msgid ""
+"The degrees of freedom for a finite element method is the coefficients "
+"which multiply the shape functions in order to describe a (scalar or "
+"vector) field. Generally, they are the unknowns of the problem in "
+"general."
+msgstr ""
+
+# e382a8765b10415ea34bb9853c2653e4
+#: ../source/glossary.rst:28
+msgid "Element"
+msgstr ""
+
+# 0c3899b973544a56a3ace68a8d81e3c0
+#: ../source/glossary.rst:30
+msgid ""
+"A element is a small piece of a domain with a special shape (a segment, a"
+" triangle, a quadrilateron, an tetrahedron, a hexahedron or a prism for "
+"dimensions less or equal to three. A mesh is the union of non "
+"intersecting elements."
+msgstr ""
+
+# cf7a97b741cd47cf85dd007a5eea7404
+#: ../source/glossary.rst:34
+msgid "Finite element method (fem)"
+msgstr ""
+
+# 6476824a6b0f4b6ab269047cc8db2403
+#: ../source/glossary.rst:36
+msgid ""
+"A finite element method is defined on a real element. It consist on a "
+"certain number of degrees of freedom linked to the corresponding shape "
+"functions and a manner to glue the degrees of freedom from a element to a"
+" neighbour element."
+msgstr ""
+
+# 670c693f87b044d78e122c0d783abd4d
+#: ../source/glossary.rst:40
+msgid "Integration method"
+msgstr ""
+
+# 0091b208a10645dc84ba587c76701dc1
+# 9914c904505f41529e138afd834433d3
+#: ../source/glossary.rst:42 ../source/glossary.rst:45
+msgid "See **cubature method**."
+msgstr ""
+
+# 2cbc11efdf6b42ff918221cce713c751
+#: ../source/glossary.rst:43
+msgid "Quadrature method"
+msgstr ""
+
+# 190df796bede4afe826071a04fc9c2ac
+#: ../source/glossary.rst:46
+msgid "Mesh"
+msgstr ""
+
+# 674f824b760343b084f8a55d7012b8e1
+#: ../source/glossary.rst:48
+msgid ""
+"The mesh is composed of **elements**. in |gf|, these elements are often "
+"called **convexes**. A mesh can be composed of elements of different "
+"dimensions (triangles, segments, quadrilaters, tetrahedra, hexahedra "
+"...)."
+msgstr ""
+
+# 332d9649d9b1406d87f00b2f1c157ac8
+#: ../source/glossary.rst:52
+msgid "Mesh_Fem"
+msgstr ""
+
+# dfadf49bf3c3408785f0430e091357bf
+#: ../source/glossary.rst:54
+msgid ""
+"The mesh_fem object is a mesh with a **finite element method** defined on"
+" each **element**. This represent a finite element space on which a "
+"unknown or a data on the considered domain will be discribed."
+msgstr ""
+
+# 24b0f1481f4943288abbe0e241d46e34
+#: ../source/glossary.rst:58
+msgid "Mesh_Im"
+msgstr ""
+
+# e98b6d2df3b94acab73bf26b7a19b6af
+#: ../source/glossary.rst:60
+msgid ""
+"The mesh_im object is a mesh with a **cubature method** defined on each "
+"**element**. It is used in assembly procedures."
+msgstr ""
+
+# 4e355fe751074076a0af38e1c3f977e9
+#: ../source/glossary.rst:62
+msgid "Reference element"
+msgstr ""
+
+# 229a95c8475640fe9cf00302ddd8c912
+#: ../source/glossary.rst:64
+msgid ""
+"A reference element or a convex of reference is a special **element** on "
+"which the elmentary computations (integrals) are performed. For instance,"
+" the reference segment in |gf| is the segment [0,1]. The reference "
+"triangle is the triangle (0,0), (0,1), (1,0). etc."
+msgstr ""
+

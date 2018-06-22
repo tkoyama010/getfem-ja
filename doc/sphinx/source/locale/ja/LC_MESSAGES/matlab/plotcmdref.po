@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 4c0a7636700444b2a4e80b80b77e14ff
+#: ../source/matlab/plotcmdref.rst:13
+msgid "Draw Command reference"
+msgstr ""
+
+# 0dcf103b2128462394129da99eded1d6
+#: ../source/matlab/plotcmdref.rst:17
+msgid "gf_colormap"
+msgstr ""
+
+# b599794fdf5141f380fd046cf24871ca
+# d7a0d22a00804d07b5a1cfd52ceba514
+# bbc7b1ab0d8c45b8af60b1742f5b4243
+# 43bd1750bbad49f5908e660f843ffc27
+# 9bb5b8d4d50a490da1bf16e16599ebd5
+#: ../source/matlab/plotcmdref.rst:19 ../source/matlab/plotcmdref.rst:36
+#: ../source/matlab/plotcmdref.rst:96 ../source/matlab/plotcmdref.rst:120
+#: ../source/matlab/plotcmdref.rst:158
+msgid "**Synopsis**"
+msgstr ""
+
+# ec20407b67644d98b2215f458528b171
+# f658ecd4770a4f5cb7687572a4edbef6
+# 784bbad748744a18b560e4d36e18335e
+# 02e3dec0ff8a403b95dfc63163d2403e
+# 1fb30eeb91624cf8bd011661df307e2e
+#: ../source/matlab/plotcmdref.rst:26 ../source/matlab/plotcmdref.rst:67
+#: ../source/matlab/plotcmdref.rst:111 ../source/matlab/plotcmdref.rst:142
+#: ../source/matlab/plotcmdref.rst:190
+msgid "**Description :**"
+msgstr ""
+
+# 2b4892243dc04850a44ee1f2a13c23c7
+#: ../source/matlab/plotcmdref.rst:28
+msgid ""
+"return a colormap, or change the current colormap. name can be: 'tripod',"
+" 'chouette', 'froid', 'tank' or 'earth'."
+msgstr ""
+
+# 8c07cca67c3a44818e8b91678b403a91
+#: ../source/matlab/plotcmdref.rst:34
+msgid "gf_plot"
+msgstr ""
+
+# aea3778e3a5a41f29fff919cde5241bd
+#: ../source/matlab/plotcmdref.rst:70
+msgid ""
+"The function expects ``U`` to be a row vector. If ``U`` is a scalar "
+"field, then ``gf\\_plot(mf,U)`` will fill the mesh with colors "
+"representing the values of ``U``. If ``U`` is a vector field, then the "
+"default behavior of ``gf_plot`` is to draw vectors representing the "
+"values of ``U``."
+msgstr ""
+
+# 320f952a343743f2b54da875e236bae6
+#: ../source/matlab/plotcmdref.rst:76
+msgid ""
+"On output, this function returns the handles to the various graphical "
+"objects created: ``hmesh`` is the handles to the mesh lines, ``hbound`` "
+"is the handles to the edges of the boundaries, ``hfill`` is the handle of"
+" the patch objects of faces, ``hvert`` (resp ``hconv``, ``hdof``) is the "
+"handles of the vertices (resp. convexes, dof) labels."
+msgstr ""
+
+# 466472101fc548a79a4a6ac741b9de6c
+#: ../source/matlab/plotcmdref.rst:83
+msgid ""
+"For example, plotting a scalar field on the border of a 3D mesh can be "
+"done with ::"
+msgstr ""
+
+# 1abae03871764eb686a473b566b0d6d7
+#: ../source/matlab/plotcmdref.rst:94
+msgid "gf_plot_1D"
+msgstr ""
+
+# 16b19f0d6f084b37b43bbef02ddf0b5a
+#: ../source/matlab/plotcmdref.rst:114
+msgid "This function plots a 1D finite elements field."
+msgstr ""
+
+# 6050ac1bca2a4b27b9d19a4fc176b291
+#: ../source/matlab/plotcmdref.rst:118
+msgid "gf_plot_mesh"
+msgstr ""
+
+# 2bf7948c85d44ab1ae6abb3dd9f7011f
+#: ../source/matlab/plotcmdref.rst:144
+msgid "This function is used to display a mesh."
+msgstr ""
+
+# b347268201294849a70a4a1a6090f4b1
+#: ../source/matlab/plotcmdref.rst:146
+msgid "Example ::"
+msgstr ""
+
+# 88a3d04c74f74bbd9fa4b788ac09c01f
+#: ../source/matlab/plotcmdref.rst:156
+msgid "gf_plot_slice"
+msgstr ""
+
+# f2908d16993944c18a28146976eaae75
+#: ../source/matlab/plotcmdref.rst:192
+msgid ""
+"This function can be used to plot mesh slices. It is also used by the "
+"``gf_plot_mesh`` and ``gf_plot`` functions."
+msgstr ""
+
+# b7e834a4456d4cdf8e310bf28f826e27
+#: ../source/matlab/plotcmdref.rst:195
+msgid ""
+"Example : consider that you have a 3D mesh_fem ``mf`` and a vector field "
+"``U`` defined on this mesh_fem, solution of the Stokes problem in a tank "
+"(see the demo ``demo_stokes_3D_tank_draw.m`` in the tests directory). ::"
+msgstr ""
+

@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# e727827e302848abb31581527d8fb735
+#: ../source/tutorial/basic_usage.rst:10
+msgid "Basic Usage of |gf|"
+msgstr ""
+
+# 03e78636fe844303a2b73f0631278f85
+#: ../source/tutorial/basic_usage.rst:12
+msgid "A |gf| structure can be summarized as follows"
+msgstr ""
+
+# 8cedda49cd3d40efa2bfcebf5956e34d
+#: ../source/tutorial/basic_usage.rst:19
+msgid "A program using getfem will often have the following structure ::"
+msgstr ""
+
+# 37717245c90a4d7dbd831e439a80ec44
+#: ../source/tutorial/basic_usage.rst:41
+msgid ""
+"Note that instead of defining your pde terms with the weak form language "
+"(see :ref:`ud-gasm-high` for more details on the syntaxt of the weak form"
+" language), you can use predefined bricks for standard terms : generic "
+"eliptic term, linearized or finite strain elasticity, standard boundary "
+"conditions ..."
+msgstr ""
+

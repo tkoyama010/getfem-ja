@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 57ea0075553d4a0080b99284ffef964e
+#: ../source/project/libdesc_mesh.rst:11
+msgid "Mesh module"
+msgstr ""
+
+# 537f22842d934a9582a9598747d0d9db
+# 026680ec9ace42709ff54589d54e2d13
+#: ../source/project/libdesc_mesh.rst:1 ../source/project/libdesc_mesh.rst:16
+msgid "Description"
+msgstr ""
+
+# 2224f6baa87246a0b0205ac5cfc5e92a
+#: ../source/project/libdesc_mesh.rst:18
+msgid ""
+"This part of the library has the role to store and manage the meshes, "
+"i.e. a collection of elements (real elements) connected to each other by "
+"some of their faces. For that, it develops concepts of elements, elements"
+" of reference, structure of meshes, collection of nodes, geometric "
+"transformations, subpart of the boundary or subzone of the mesh."
+msgstr ""
+
+# 6b6297c24fe34f2bbdd97fde9f36a847
+#: ../source/project/libdesc_mesh.rst:24
+msgid ""
+"There is no really effective meshing capabilities available for the "
+"moment in |gf|. The meshes of complex objects must be imported from "
+"existing meshers such as `Gmsh`_ or `GiD`_. Some importing functions of "
+"meshes have been written and can be easily extended for other formats."
+msgstr ""
+
+# 4c843317e59848b1b6a84eee088e0205
+#: ../source/project/libdesc_mesh.rst:29
+msgid ""
+"The object which represents a mesh declared in the file "
+":file:`getfem_mesh.h` and which is used as a basis for handling of the "
+"meshes in |gf| manages also the possibility for the structures depending "
+"on a mesh (see MESHFEM and MESHIM modules) to react to the evolution of "
+"the mesh (addition or removal of elements, etc.)."
+msgstr ""
+
+# fba08fd2a265413aae84585f35e385a3
+#: ../source/project/libdesc_mesh.rst:37
+msgid "Files"
+msgstr ""
+
+# 17c481af112842a7b4603686cce83163
+#: ../source/project/libdesc_mesh.rst:1
+msgid "File(s)"
+msgstr ""
+
+# 12e5f33b49a1477dbc9a1bc5cdbdc1b9
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_convex_structure.h` and :file:`bgeot_convex_structure.cc`"
+msgstr ""
+
+# 8264f7f862f24c368b5ac5df59fdc762
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"Describes the structure of an element disregarding the coordinates of its"
+" vertices."
+msgstr ""
+
+# 166b1d651284426ca7361c501640691c
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_mesh_structure.h` and :file:`bgeot_mesh_structure.cc`"
+msgstr ""
+
+# 448f52020452473887fa8b2aaf4841d7
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"Describes the structure of a mesh disregarding the coordinates of the "
+"nodes."
+msgstr ""
+
+# e2ea8ce4bf3e422d9b3299bdf6d40524
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_node_tab.h` and :file:`bgeot_node_tab.cc`"
+msgstr ""
+
+# e61e1307373144c4b63a658be90c0f27
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"A node container allowing the fast search of a node and store nodes "
+"identifying the too much close nodes."
+msgstr ""
+
+# 02de3aeadf674606bcc358430a4d4a21
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_convex.h`"
+msgstr ""
+
+# 0360dcece1bf4352bf55b26075b1fe12
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Describes an element with its vertices."
+msgstr ""
+
+# d504023a8273401ca21bfe9491f86762
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+":file:`bgeot_convex_ref.h` and :file:`bgeot_convex_ref.cc` and "
+":file:`bgeot_convex_structure.cc`"
+msgstr ""
+
+# 08e8307678b7404f85bfbdf83f789e23
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Describe reference elements."
+msgstr ""
+
+# 4a545409d7394b9395970e79b37ac461
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_mesh.h`"
+msgstr ""
+
+# 40d0d1d2ae894c59b6ca645786dafc5c
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"Describes a mesh with the collection of node (but without the description"
+" of geometric transformations)."
+msgstr ""
+
+# 32645a48a444450f91e0add2c1c38be4
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_mesh_region.h` and :file:`getfem_mesh_region.cc`"
+msgstr ""
+
+# ebef6775f0684f758632c77732674846
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Object representing a mesh region (boundary or part of a mesh)."
+msgstr ""
+
+# ed57263c480847aca3638ef2c5ce9b68
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_geometric_trans.h` and :file:`bgeot_geometric_trans.cc`"
+msgstr ""
+
+# c4bf0b9f7cd74a4a995629c67bb16bd3
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Describes geometric transformations."
+msgstr ""
+
+# 0b441dc7d5d54f3eb69954f5abfaa48d
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`bgeot_geotrans_inv.h` and :file:`bgeot_geotrans_inv.cc`"
+msgstr ""
+
+# 384ca85e8ec44b7db762551c02e1c129
+#: ../source/project/libdesc_mesh.rst:1
+msgid "A tool to invert geometric transformations."
+msgstr ""
+
+# 07fbb468af9f45b0a0ff0deebd3e864e
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_mesh.h` and :file:`getfem_mesh.cc`"
+msgstr ""
+
+# b792703da2a44e839bcf42d8ee131d09
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"Fully describes a mesh (with the geometric transformations, subparts of "
+"the mesh, support for parallelization). Includes the Bank algorithm to "
+"refine a mesh."
+msgstr ""
+
+# 9efbc53042a94e659f06c236824feda3
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_deformable_mesh.h`"
+msgstr ""
+
+# 860f3e3a727d47beb8e9ce58cce2af7c
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"defines an object capable to deform a mesh with respect to a displacement"
+" field and capable to restore it"
+msgstr ""
+
+# 24d1bfeba834431eaa0c2323d735a482
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_mesher.h` and :file:`getfem_mesher.cc`"
+msgstr ""
+
+# 1d7b1ec95b5b4a649417791f55d4aa67
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"An experimental mesher, in arbitrary dimension. To be used with care and"
+"  quite slow (because of node optimization). it meshes geometries defined"
+" by some level sets."
+msgstr ""
+
+# 91cf049232694398818045716074f7df
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_import.h` and :file:`getfem_import.cc`"
+msgstr ""
+
+# 1602ce35b385454cbd111bc4a1cb6740
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Import mesh files in various formats"
+msgstr ""
+
+# a2fcd694ca00454ebce70aac8aa96d44
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_regular_meshes.h` and :file:`getfem_regular_meshes.cc`"
+msgstr ""
+
+# 1a3ae692a3a54e0b84498d8513708e87
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Produces structured meshes"
+msgstr ""
+
+# 33b74f52b6c2409fa7ff73c013b6e98b
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_mesh_slicers.h` and :file:`getfem_mesh_slicers.cc`"
+msgstr ""
+
+# 2bc9231d284a43e58a2298c141970174
+#: ../source/project/libdesc_mesh.rst:1
+msgid ""
+"A slice is built from a mesh, by applying some slicing operations (cut "
+"the mesh with a plane, intersect with a sphere, take the boundary faces, "
+"etc..). They are used for post-treatment (exportation of results to VTK "
+"or OpenDX,  etc.)."
+msgstr ""
+
+# 338e3446f53e449282ab54a015c5dd55
+#: ../source/project/libdesc_mesh.rst:1
+msgid ":file:`getfem_mesh_slice.h` and :file:`getfem_mesh_slice.cc`"
+msgstr ""
+
+# 233aee10445649449ab59ed689ca1ab7
+#: ../source/project/libdesc_mesh.rst:1
+msgid "Store mesh slices."
+msgstr ""
+
+# 8cee5f0bb9164e5b954d63492b796009
+#: ../source/project/libdesc_mesh.rst:62
+msgid "State"
+msgstr ""
+
+# d63d79c1c33e4141ae1dc7ac06a49ef8
+#: ../source/project/libdesc_mesh.rst:64
+msgid "Stable and not evolving so much."
+msgstr ""
+
+# 9a891ee41def492fad56757fc934dc73
+#: ../source/project/libdesc_mesh.rst:67
+msgid "Perspectives"
+msgstr ""
+
+# 67dd40381dba4c72aa1eed79acd29077
+#: ../source/project/libdesc_mesh.rst:69
+msgid ""
+"For the moment, the module is split into two parts which lie into two "
+"different namespaces. Of course, It would be more coherent to gather the "
+"module in only one namespace (``getfem``)."
+msgstr ""
+
+# 5a90bd77ebc24235a281921d432c9287
+#: ../source/project/libdesc_mesh.rst:75
+msgid ""
+"The file :file:`bgeot_mesh.h` could be renamed "
+":file:`getfem_basic_mesh.h`."
+msgstr ""
+
+# 53a030355ac9497a89acb1545ef0dc21
+#: ../source/project/libdesc_mesh.rst:77
+msgid ""
+"A  bibliographical review on how to efficiently store a mesh and "
+"implement the main opertions (add a node, an element, deal with faces, "
+"find the neighbour elements, the isolated faces ...) would be interesting"
+" to make the mesh structure evolve."
+msgstr ""
+
+# 7eeebcd5b9584a1c85a41b262380afff
+#: ../source/project/libdesc_mesh.rst:79
+msgid ""
+"A senstive algorithm is the one (in bgeot_node_tab.cc) which identify the"
+" too much close nodes. More investigations (and documentation) are "
+"probably necessary."
+msgstr ""
+

@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 85b91e2a528a461ca9f3dfc880533f20
+#: ../source/matlab/cmdref.rst:13
+msgid "Command reference"
+msgstr ""
+
+# 686824f38eaf48a38388cdd734e160fd
+#: ../source/matlab/cmdref.rst:15
+msgid ""
+"Please remember that this documentation is not self contained. You should"
+" in particular refer to the `user documentation`_ to have a more "
+"extensive description of the structures algorithms and concepts used."
+msgstr ""
+
+# 9dc20b98b03e4462b1b979fcd8ad39b6
+#: ../source/matlab/cmdref.rst:21
+msgid ""
+"The expected type of each function argument is indicated in this "
+"reference. Here is a list of these types:"
+msgstr ""
+
+# cc60a754a33d4bca9a68b25156bb8a29
+#: ../source/matlab/cmdref.rst:25
+msgid "`int`"
+msgstr ""
+
+# 6be990b1629441f9bb152a6326ad4ee5
+#: ../source/matlab/cmdref.rst:25
+msgid "integer value"
+msgstr ""
+
+# 670cedaa74334ddb8fdfea06ea7591b6
+#: ../source/matlab/cmdref.rst:26
+msgid "`hobj`"
+msgstr ""
+
+# f28c1de7f2f24600842cff868a5d9942
+#: ../source/matlab/cmdref.rst:26
+msgid "a handle for any GetFEM++ object"
+msgstr ""
+
+# 865eda0defb14b46a8822d3492ae43e8
+#: ../source/matlab/cmdref.rst:27
+msgid "`scalar`"
+msgstr ""
+
+# 976a5ca3e6a14a93b1abcabc8a8f3d27
+#: ../source/matlab/cmdref.rst:27
+msgid "scalar value"
+msgstr ""
+
+# be73120445c74a5f8392562c0d998c2d
+#: ../source/matlab/cmdref.rst:28
+msgid "`string`"
+msgstr ""
+
+# 05bd73a7ab1142bb9dcb2ba4716a7b62
+#: ../source/matlab/cmdref.rst:28
+msgid "string"
+msgstr ""
+
+# fa499ec84c634eeba949b4348c9d5972
+#: ../source/matlab/cmdref.rst:29
+msgid "`ivec`"
+msgstr ""
+
+# df2b33142482459b9c1caf0387bad5bd
+#: ../source/matlab/cmdref.rst:29
+msgid "vector of integer values"
+msgstr ""
+
+# 7159b29d67614b98aa3e204689818ddd
+#: ../source/matlab/cmdref.rst:30
+msgid "`vec`"
+msgstr ""
+
+# 9f0294f30ee54b61a7536131cc2b6caf
+#: ../source/matlab/cmdref.rst:30
+msgid "vector"
+msgstr ""
+
+# e553b8b24f7c4efeb2284f0605c3dbf3
+#: ../source/matlab/cmdref.rst:31
+msgid "`imat`"
+msgstr ""
+
+# f38e9b12c5714280b20d9e1c3998f2a5
+#: ../source/matlab/cmdref.rst:31
+msgid "matrix of integer values"
+msgstr ""
+
+# dcfcdc9e027e4db8bd3143ad023eeeed
+#: ../source/matlab/cmdref.rst:32
+msgid "`mat`"
+msgstr ""
+
+# 28e9dce96eaf4151a753d00b96e8cbe5
+#: ../source/matlab/cmdref.rst:32
+msgid "matrix"
+msgstr ""
+
+# 251f2953d1bb47d79f7dcb349e03376b
+#: ../source/matlab/cmdref.rst:33
+msgid "`spmat`"
+msgstr ""
+
+# 83722979ff304fb79cca06aea40ffa7b
+#: ../source/matlab/cmdref.rst:33
+msgid ""
+"sparse matrix (both matlab native sparse matrices, and GetFEM sparse "
+"matrices)"
+msgstr ""
+
+# 313f00e012ad41d89f2ff5316f3a9357
+#: ../source/matlab/cmdref.rst:35
+msgid "`precond`"
+msgstr ""
+
+# 5a4d159438af4c35bd9d55e3fbfd4716
+#: ../source/matlab/cmdref.rst:35
+msgid "GetFEM preconditioner object"
+msgstr ""
+
+# 6fa0c7fa043f49ffa5a252c11ea600c7
+#: ../source/matlab/cmdref.rst:36
+msgid "`mesh mesh`"
+msgstr ""
+
+# 63911db626ef4682b8a0f693ee30adff
+#: ../source/matlab/cmdref.rst:36
+msgid "object descriptor (or gfMesh object)"
+msgstr ""
+
+# ec4d02278dca4ac4b184a1df9ee00e07
+#: ../source/matlab/cmdref.rst:37
+msgid "`mesh_fem`"
+msgstr ""
+
+# c8964040ec364532b6c49b6ce08e9399
+#: ../source/matlab/cmdref.rst:37
+msgid "mesh fem object descriptor (or gfMeshFem object)"
+msgstr ""
+
+# 3baaf4a4aee34533ab06453b8e612fee
+#: ../source/matlab/cmdref.rst:38
+msgid "`mesh_im`"
+msgstr ""
+
+# 328fa595f3b2423f974845836b67de38
+#: ../source/matlab/cmdref.rst:38
+msgid "mesh im object descriptor (or gfMeshIm object)"
+msgstr ""
+
+# 163261d0bbfc416dbac67b209589e403
+#: ../source/matlab/cmdref.rst:39
+msgid "`mesh_im_data`"
+msgstr ""
+
+# 51b08b9cb83a4cbe986fc6700c937ef4
+#: ../source/matlab/cmdref.rst:39
+msgid "mesh im data object descriptor (or gfMeshImData object)"
+msgstr ""
+
+# f0f509181820434bafde876984b62467
+#: ../source/matlab/cmdref.rst:40
+msgid "`mesh_slice`"
+msgstr ""
+
+# 7ff6b270fe84432f812d452ceecab56c
+#: ../source/matlab/cmdref.rst:40
+msgid "mesh slice object descriptor (or gfSlice object)"
+msgstr ""
+
+# 124fa0b924fd4fd0b8688dccbca0cbd6
+#: ../source/matlab/cmdref.rst:41
+msgid "`cvstruct`"
+msgstr ""
+
+# 6da59d450e44414ab6ec0209fb6929bd
+#: ../source/matlab/cmdref.rst:41
+msgid "convex structure descriptor (or gfCvStruct object)"
+msgstr ""
+
+# 1864135799c2480bbe92bee85505300d
+#: ../source/matlab/cmdref.rst:42
+msgid "`geotrans`"
+msgstr ""
+
+# a10df6256a8c413d9f5903dcbaa9bdfa
+#: ../source/matlab/cmdref.rst:42
+msgid "geometric transformation descriptor (or gfGeoTrans object)"
+msgstr ""
+
+# b684b83353704c589eceaced23d22448
+#: ../source/matlab/cmdref.rst:44
+msgid "`fem`"
+msgstr ""
+
+# 88cf1ec5252d44bca08bfa23af1ff15a
+#: ../source/matlab/cmdref.rst:44
+msgid "fem descriptor (or gfFem object)"
+msgstr ""
+
+# c818ce91accb428ba3ae2357c5471bbd
+#: ../source/matlab/cmdref.rst:45
+msgid "`eltm`"
+msgstr ""
+
+# a2a159475729408ba9105ee6227a030f
+#: ../source/matlab/cmdref.rst:45
+msgid "elementary matrix descriptor (or gfEltm object)"
+msgstr ""
+
+# f3538bdad0094d519754711bf122dd9b
+#: ../source/matlab/cmdref.rst:46
+msgid "`integ`"
+msgstr ""
+
+# 44ae99a4a12b4b87895c98058d1f550a
+#: ../source/matlab/cmdref.rst:46
+msgid "integration method descriptor (or gfInteg object)"
+msgstr ""
+
+# 72e533fae49d45c8acf3d0187639c05d
+#: ../source/matlab/cmdref.rst:47
+msgid "`model`"
+msgstr ""
+
+# ca6bd55711124143b67a619fbb15d285
+#: ../source/matlab/cmdref.rst:47
+msgid "model descriptor (or gfModel object)"
+msgstr ""
+
+# 633a2cbe54c44cf1922be01d776ca69f
+#: ../source/matlab/cmdref.rst:48
+msgid "`global_function`"
+msgstr ""
+
+# 3aa4328f6a98466ebedb94ecc472cb18
+#: ../source/matlab/cmdref.rst:48
+msgid "global function descriptor"
+msgstr ""
+
+# 0ecf935137954a9a85a505227449e756
+#: ../source/matlab/cmdref.rst:49
+msgid "`mesher_object`"
+msgstr ""
+
+# 337dfc7bced84780bc3f46099f24830a
+#: ../source/matlab/cmdref.rst:49
+msgid "mesher object descriptor"
+msgstr ""
+
+# 71992fb638fe42ea985212e15525ce15
+#: ../source/matlab/cmdref.rst:50
+msgid "`cont_struct`"
+msgstr ""
+
+# e5acf8e10e584ae9870cc5d9125136c2
+#: ../source/matlab/cmdref.rst:50
+msgid "continuation-structure descriptor"
+msgstr ""
+
+# f413727170db4bf9ac3307e10b65a0c6
+#: ../source/matlab/cmdref.rst:53
+msgid ""
+"Arguments listed between square brackets are optional. Lists between "
+"braces indicate that the argument must match one of the elements of the "
+"list. For example::"
+msgstr ""
+
+# 8295aea7431141be8f259138489f4e25
+#: ../source/matlab/cmdref.rst:57
+msgid ""
+"means that the dummy function takes two or three arguments, its first "
+"being an integer value, the second a string which is either 'foo' or "
+"'bar', and a third optional argument. It returns two values (with the "
+"usual matlab meaning, i.e. the caller can always choose to ignore them)."
+msgstr ""
+

@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 7a65a06f2e1542559984f23753a7414e
+#: ../source/scilab/cmdref_gf_slice_set.rst:8
+msgid "gf_slice_set"
+msgstr ""
+
+# c34132ff2875480cb7edd44e119de4f2
+#: ../source/scilab/cmdref_gf_slice_set.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 096bb339bfac47fcb554ae67e70a6627
+#: ../source/scilab/cmdref_gf_slice_set.rst:16
+msgid "**Description :**"
+msgstr ""
+
+# b1772913467c48b188cedd52999a9258
+#: ../source/scilab/cmdref_gf_slice_set.rst:19
+msgid "Edition of mesh slices."
+msgstr ""
+
+# 886edeb8e053470891cd32e6e2ff5d28
+#: ../source/scilab/cmdref_gf_slice_set.rst:22
+msgid "**Command list :**"
+msgstr ""
+
+# f2f14bd5d9b349e095c53d3737af5aac
+#: ../source/scilab/cmdref_gf_slice_set.rst:26
+msgid "``gf_slice_set(slice S, 'pts', mat P)``"
+msgstr ""
+
+# 1c747d427d574139b18d79d2f3ffc097
+#: ../source/scilab/cmdref_gf_slice_set.rst:28
+msgid "Replace the points of the slice."
+msgstr ""
+
+# 67aa97a758ba49078937f2db5bd7485e
+#: ../source/scilab/cmdref_gf_slice_set.rst:30
+msgid ""
+"The new points <literal>P</literal> are stored in the columns the matrix."
+" Note that you can use the function to apply a deformation to a slice, or"
+" to change the dimension of the slice (the number of rows of "
+"<literal>P</literal> is not required to be equal to gf_slice_get(slice S,"
+" 'dim'))."
+msgstr ""
+

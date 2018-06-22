@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3131c396548c44d6a2562152ab7faa7f
+#: ../source/whatsnew/1.2.rst:5
+msgid "What's New in |gf| 1.2"
+msgstr ""
+
+# 258d6540b6a845028ef52e45c8024aec
+#: ../source/whatsnew/1.2.rst:7
+msgid "Released, 2002/08/21:"
+msgstr ""
+
+# 4d55467b411240a1b1398bdec1ec3649
+#: ../source/whatsnew/1.2.rst:9
+msgid "Introduction of the Hermite element (not fully working)."
+msgstr ""
+
+# d72d9082b9474f4590820ec800677dc5
+#: ../source/whatsnew/1.2.rst:11
+msgid "Support for non-tau-equivalent elements."
+msgstr ""
+
+# 55c8ccc682954ff3aed16bb52888f02b
+#: ../source/whatsnew/1.2.rst:13
+msgid ""
+"Introduction of a consistent naming system for FEMs, geometric "
+"transformations and integration methods."
+msgstr ""
+

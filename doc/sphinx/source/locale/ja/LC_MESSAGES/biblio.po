@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3dd01df715044ba892ceb58e1eaa9fe8
+#: ../source/biblio.rst:6
+msgid "References"
+msgstr ""
+
+# 7ceb5ca0cdc840798bfca887d7e1a226
+#: ../source/biblio.rst:8
+msgid ""
+"P. Alart, A. Curnier. *A mixed formulation for frictional contact "
+"problems prone to newton like solution methods*. Comput. Methods Appl. "
+"Mech. Engrg. 92, 353--375, 1991."
+msgstr ""
+
+# 53dfbe96a6044ce4a25b10972ee7dc9c
+#: ../source/biblio.rst:11
+msgid ""
+"E.L. Allgower and K. Georg. *Numerical Path Following*, Handbook of "
+"Numerical Analysis, Vol. V (P.G. Ciarlet and J.L. Lions, eds.). Elsevier,"
+" pp. 3-207, 1997."
+msgstr ""
+
+# 5d1fcec638e64d2fbd154b8c78d9f086
+#: ../source/biblio.rst:14
+msgid ""
+"S. Amdouni, M. Moakher, Y. Renard, *A local projection stabilization of "
+"fictitious domain method for elliptic boundary value problems*. Appl. "
+"Numer. Math., 76:60-75, 2014."
+msgstr ""
+
+# f80c8f68910f43a3942de493845661b0
+#: ../source/biblio.rst:17
+msgid ""
+"S. Amdouni, M. Moakher, Y. Renard. *A stabilized Lagrange multiplier "
+"method for the enriched finite element approximation of Tresca contact "
+"problems of cracked elastic bodies*. Comput. Methods Appl. Mech. Engrg., "
+"270:178-200, 2014."
+msgstr ""
+
+# b26a2620601d4eec8fcde49b6538d840
+#: ../source/biblio.rst:20
+msgid ""
+"R.E. Bank, A.H. Sherman, A. Weiser. *Refinement algorithms and data "
+"structures for regular local mesh refinement*. In Scientific Computing "
+"IMACS, Amsterdam, North-Holland, pp 3-17, 1983."
+msgstr ""
+
+# 7b73508e7a49428e9f7d20a5dbae578d
+#: ../source/biblio.rst:23
+msgid ""
+"K.J. Bathe, E.N. Dvorkin, *A four-node plate bending element based on "
+"Mindlin-Reissner plate theory and a mixed interpolation*. Internat. J. "
+"Numer. Methods Engrg., 21, 367-383, 1985."
+msgstr ""
+
+# 842d53fcba244b0aa5cfae6b605b7bc3
+#: ../source/biblio.rst:26
+msgid ""
+"Bechet E, Minnebo H, |moes| N, Burgardt B. *Improved implementation and "
+"robustness study of the X-FEM for stress analysis around cracks*. "
+"Internat. J. Numer. Methods Engrg., 64, 1033-1056, 2005."
+msgstr ""
+
+# f633fdf4cbcd41518d650218107a4313
+#: ../source/biblio.rst:30
+msgid ""
+"M. Bergot, G. Cohen, M. |durufle|. *Higher-order finite elements for "
+"hybrid meshes using new nodal pyramidal elements* J. Sci. Comput., 42, "
+"345-381, 2010."
+msgstr ""
+
+# e64f2f78f4034b989875c5e13923bd4e
+#: ../source/biblio.rst:34
+msgid ""
+"F. Brezzi, K.J. Bathe, M. Fortin. *Mixed-interpolated element for "
+"Reissner-Mindlin plates*. Internat. J. Numer. Methods Engrg., 28, "
+"1787-1801, 1989."
+msgstr ""
+
+# 9fc0883960644f84ad0a02a1d7d7884b
+#: ../source/biblio.rst:37
+msgid ""
+"E. Burman, P. Hansbo. *Fictitious domain finite element methods using cut"
+" elements: I. A stabilized Lagrange multiplier method*. Computer Methods "
+"in Applied Mechanics, 199:41-44, 2680-2686, 2010."
+msgstr ""
+
+# 3f06c657ef984ee795dc84fcadf0afe5
+#: ../source/biblio.rst:40
+msgid ""
+"D. Calvetti, L. Reichel and D.C. Sorensen. *An implicitely restarted "
+"Lanczos method for large symmetric eigenvalue problems*. Electronic "
+"Transaction on Numerical Analysis}. 2:1-21, 1994."
+msgstr ""
+
+# 474af4ff8d9744d79499f82e0a9c94c5
+#: ../source/biblio.rst:43
+msgid ""
+"E. Chahine, P. Laborde, Y. Renard. *Crack-tip enrichment in the Xfem "
+"method using a cut-off function*. Int. J. Numer. Meth. Engng., "
+"75(6):629-646, 2008."
+msgstr ""
+
+# 72eddb73c4b840eca21c63cade3dfe04
+#: ../source/biblio.rst:46
+msgid ""
+"E. Chahine, P. Laborde, Y. Renard. *A non-conformal eXtended Finite "
+"Element approach: Integral matching Xfem*. Applied Numerical Mathematics,"
+" 61:322-343, 2011."
+msgstr ""
+
+# 4dff89ae7715408cb7cb98cc07515e59
+#: ../source/biblio.rst:49
+msgid ""
+"P.G. Ciarlet. *The finite element method for elliptic problems*. Studies "
+"in Mathematics and its Applications vol. 4, North-Holland, 1978."
+msgstr ""
+
+# dd98b44d636346f78d22aadc5da40cb7
+#: ../source/biblio.rst:52
+msgid ""
+"P.G. Ciarlet. *Mathematical Elasticity*. Volume 1: Three-Dimensional "
+"Elasticity. North-Holland, 1988."
+msgstr ""
+
+# 3e1f34c1d6e14ce3b8586160ba6e198f
+#: ../source/biblio.rst:56
+msgid ""
+"R. Cools, `An Encyclopedia of Cubature Formulas "
+"<http://www.cs.kuleuven.ac.be/~ines/research/ecf/ecf.html>`_, J. "
+"Complexity."
+msgstr ""
+
+# f3ebfaeb7c064080ac7ab8ed7dbe4401
+#: ../source/biblio.rst:59
+msgid ""
+"G. Dhatt, G. Touzot. *The Finite Element Method Displayed*. J. Wiley & "
+"Sons, New York, 1984."
+msgstr ""
+
+# 3369edb5c6ad41bdb7d4c3c6ee4c3309
+#: ../source/biblio.rst:62
+msgid ""
+"A. Dhooge, W. Govaerts and Y. A. Kuznetsov. *MATCONT: A MATLAB Package "
+"for Numerical Bifurcation Analysis of ODEs*. ACM Trans. Math. Software "
+"31, 141-164, 2003."
+msgstr ""
+
+# 06f7f5bfc4c345a1802b928e8d97b6c4
+#: ../source/biblio.rst:66
+msgid ""
+"H. Duan. *A finite element method for Reissner-Mindlin plates*. Math. "
+"Comp., 83:286, 701-733, 2014."
+msgstr ""
+
+# 6b642f4c216c4880a8ddb135b6b36b0b
+#: ../source/biblio.rst:70
+msgid ""
+"A. Draganis, F. Larsson, A. Ekberg. *Finite element analysis of transient"
+" thermomechanical rolling contact using an efficient arbitrary "
+"Lagrangian-Eulerian description*. Comput. Mech., 54, 389-405, 2014."
+msgstr ""
+
+# 4a68d5ecffec489388efd7adeb7b9db3
+#: ../source/biblio.rst:75
+msgid ""
+"M. Fabre, J. Pousin, Y. Renard. *A fictitious domain method for "
+"frictionless contact problems in elasticity using Nitsche's method*. "
+"preprint, https://hal.archives-ouvertes.fr/hal-00960996v1"
+msgstr ""
+
+# 8d36985a8e9f42229284b8d7a9d99099
+#: ../source/biblio.rst:78
+msgid ""
+"F. Facchinei and J.-S. Pang. *Finite-Dimensional Variational Inequalities"
+" and Complementarity Problems, Vol. II*. Springer Series in Operations "
+"Research, Springer, New York, 2003."
+msgstr ""
+
+# aa9f56dddd2d4e81a6c7e8a5a71dd7d7
+#: ../source/biblio.rst:82
+msgid ""
+"K. Georg. *Matrix-free numerical continuation and bifurcation*. Numer. "
+"Funct. Anal. Optimization 22, 303-320, 2001."
+msgstr ""
+
+# 6b1f047836eb478c862c5503459cbfc4
+#: ../source/biblio.rst:85
+msgid ""
+"R.D. Graglia, I.-L. Gheorma. *Higher order interpolatory vector bases on "
+"pyramidal elements* IEEE transactions on antennas and propagation, 47:5, "
+"775-782, 1999."
+msgstr ""
+
+# 2b01d47df29a4713a9a62a3f64fd5ef6
+#: ../source/biblio.rst:89
+msgid ""
+"D. Grandi, U. Stefanelli. *The Souza-Auricchio model for shape-memory "
+"alloys* Discrete and Continuous Dynamical Systems, Series S, "
+"8(4):723-747, 2015."
+msgstr ""
+
+# 6f9e2785f50641598f360f23496e73b4
+#: ../source/biblio.rst:93
+msgid ""
+"C. Hager, B.I. Wohlmuth. *Nonlinear complementarity functions for "
+"plasticity problems with frictional contact*. Comput. Methods Appl. Mech."
+" Engrg., 198:3411-3427, 2009"
+msgstr ""
+
+# 8b93a1e830ea4459bd833a37bada9066
+#: ../source/biblio.rst:96
+msgid ""
+"A Hansbo, P Hansbo. *A finite element method for the simulation of strong"
+" and weak discontinuities in solid mechanics*. Comput. Methods Appl. "
+"Mech. Engrg. 193 (33-35), 3523-3540, 2004."
+msgstr ""
+
+# 36f956e06702491498759e131529c855
+#: ../source/biblio.rst:99
+msgid ""
+"J. Haslinger, Y. Renard. *A new fictitious domain approach inspired by "
+"the extended finite element method*. Siam J. on Numer. Anal., "
+"47(2):1474-1499, 2009."
+msgstr ""
+
+# 2717d6b3e09c400e95d5799e83612589
+#: ../source/biblio.rst:102
+msgid ""
+"Hild P., Renard Y. *Stabilized lagrange multiplier method for the finite "
+"element approximation of contact problems in elastostatics*. Numer. Math."
+" 15:1, 101--129, 2010."
+msgstr ""
+
+# 17ade4f2a0f5456d85b1d3dd62b46393
+#: ../source/biblio.rst:105
+msgid ""
+"Khenous H., Pommier J., Renard Y. *Hybrid discretization of the Signorini"
+" problem with Coulomb friction, theoretical aspects and comparison of "
+"some numerical solvers*. Applied Numerical Mathematics, 56/2:163-192, "
+"2006."
+msgstr ""
+
+# 8fd3b962c30b478bb9ba3b103953cbe6
+#: ../source/biblio.rst:108
+msgid "N. Kikuchi, J.T. Oden. *Contact problems in elasticity*. SIAM, 1988."
+msgstr ""
+
+# f930666367ec4628be8ab5ae098cd819
+#: ../source/biblio.rst:111
+msgid ""
+"Laborde P., Pommier J., Renard Y., Salaun M. *High order extended finite "
+"element method for cracked domains*. Int. J. Numer. Meth. Engng., "
+"64:354-381, 2005."
+msgstr ""
+
+# 7cdde70446c848608acd23ab26af9254
+#: ../source/biblio.rst:114
+msgid ""
+"J. Lasry, Y. Renard, M. Salaun. *eXtended Finite Element Method for thin "
+"cracked plates with Kirchhoff-Love theory*. Int. J. Numer. Meth. Engng., "
+"84(9):1115-1138, 2010."
+msgstr ""
+
+# 5f0ad6d7c24c4c7eb49ef0a7e1cf32fa
+#: ../source/biblio.rst:117
+msgid ""
+"K. Poulios, Y. Renard, *An unconstrained integral approximation of large "
+"sliding frictional contact between deformable solids*. Computers and "
+"Structures, 153:75-90, 2015."
+msgstr ""
+
+# 5028b2ecda724ffbb03ded216bf17fc9
+#: ../source/biblio.rst:120
+msgid ""
+"P. Laborde, Y. Renard. *Fixed point strategies for elastostatic "
+"frictional contact problems*. Math. Meth. Appl. Sci., 31:415-441, 2008."
+msgstr ""
+
+# 221d8dddc7bf4c4f969d0f16b30a0404
+#: ../source/biblio.rst:123
+msgid ""
+"T. |ligursky| and Y. Renard. *A Continuation Problem for Computing "
+"Solutions of Discretised Evolution Problems with Application to Plane "
+"Quasi-Static Contact Problems with Friction*. Comput. Methods Appl. Mech."
+" Engrg. 280, 222-262, 2014."
+msgstr ""
+
+# 2ce0c5841c0b4c4985e94d5e35515592
+#: ../source/biblio.rst:126
+msgid ""
+"T. |ligursky| and Y. Renard. *Bifurcations in Piecewise-Smooth Steady-"
+"State Problems: Abstract Study and Application to Plane Contact Problems "
+"with Friction*. Computational Mechanics, 56:1:39-62, 2015."
+msgstr ""
+
+# 28d922ba05584957862b6069bba74be4
+#: ../source/biblio.rst:129
+msgid ""
+"T. |ligursky| and Y. Renard. *A Method of Piecewise-Smooth Numerical "
+"Branching*. Z. Angew. Math. Mech., 97:7:815--827, 2017."
+msgstr ""
+
+# 21c2031d9ff8460583ddb7fb639ba0ad
+#: ../source/biblio.rst:132
+msgid ""
+"P. Ming and Z. Shi, *Optimal L2 error bounds for MITC3 type element*. "
+"Numer. Math. 91, 77-91, 2002."
+msgstr ""
+
+# 2bff88f9f6484aeba3bed2defef13793
+#: ../source/biblio.rst:135
+msgid ""
+"N. |moes|, J. Dolbow and T. Belytschko, *A finite element method for "
+"crack growth without remeshing*. Internat. J. Numer. Methods Engrg., 46, "
+"131-150, 1999."
+msgstr ""
+
+# 354bd0ed5c974a0aabaaf9b85fbe8c0f
+#: ../source/biblio.rst:139
+msgid ""
+"U. Nackenhorst, *The ALE formulation of bodies in rolling contact. "
+"Theoretical foundation and finite element approach*. Comput. Methods "
+"Appl. Mech. Engrg., 193:4299-4322, 2004."
+msgstr ""
+
+# 2dc1c0ae84e14959b38478f4d8244530
+#: ../source/biblio.rst:144
+msgid ""
+"J.-C. Nedelec. *Notions sur les techniques d'elements finis*. Ellipses, "
+"SMAI, Mathematiques & Applications no 7, 1991."
+msgstr ""
+
+# dcd16999f56142a39c301f04f1f47d53
+#: ../source/biblio.rst:147
+msgid ""
+"S. Nicaise, Y. Renard, E. Chahine, *Optimal convergence analysis for the "
+"eXtended Finite Element Method*. Int. J. Numer. Meth. Engng., 86:528-548,"
+" 2011."
+msgstr ""
+
+# 478ab4c4a10d4829ba0ea9086fa0f467
+#: ../source/biblio.rst:150
+msgid ""
+"O. Pantz *The Modeling of Deformable Bodies with Frictionless "
+"(Self-)Contacts*. Archive for Rational Mechanics and Analysis, Volume "
+"188, Issue 2, pp 183-212, 2008."
+msgstr ""
+
+# 0f987ecdef024dbb9d13a525c5387a25
+#: ../source/biblio.rst:153
+msgid ""
+"L.F. Pavarino. *Domain decomposition algorithms for the p-version finite "
+"element method for elliptic problems*. Luca F. Pavarino. PhD thesis, "
+"Courant Institute of Mathematical Sciences}. 1992."
+msgstr ""
+
+# 41490f8325754231a159d0c9b8e8bd06
+#: ../source/biblio.rst:156
+msgid ""
+"K. Poulios, C.F. Niordson, *Homogenization of long fiber reinforced "
+"composites including fiber bending effects*. Journal of the Mechanics and"
+" Physics od Solids, 94, pp 433-452, 2016."
+msgstr ""
+
+# 2d5eca5b5c034e3ba22f64ce75cefd8e
+#: ../source/biblio.rst:159
+msgid ""
+"J-F. Remacle, M. Shephard, *An algorithm oriented database*.  Internat. "
+"J. Numer. Methods Engrg., 58, 349-374, 2003."
+msgstr ""
+
+# 588fead6e30b46f598d67ec91efcce50
+#: ../source/biblio.rst:162
+msgid ""
+"A. Seitz, A. Popp, W.A. Wall, *A semi-smooth Newton method for "
+"orthotropic plasticity and frictional contact at finite strains*. Comput."
+" Methods Appl. Mech. Engrg. 285:228-254, 2015."
+msgstr ""
+
+# 1f9727ca63e145099c3ae7df20d94e40
+#: ../source/biblio.rst:165
+msgid ""
+"J.C. Simo, T.J.R. Hughes. *Computational Inelasticity*. Interdisciplinary"
+" Applied Mathematics, vol 7, Springer, New York 1998."
+msgstr ""
+
+# 4992f8c164e24b99a079e103c7dac4b7
+#: ../source/biblio.rst:168
+msgid ""
+"P. |solin|, K. Segeth, I. |dolezel| , *Higher-Order Finite Element "
+"Methods*. Chapman and Hall/CRC, Studies in advanced mathematics, 2004."
+msgstr ""
+
+# 8336124187b841e88f86c222d08f4066
+#: ../source/biblio.rst:171
+msgid ""
+"E.A. de Souza Neto, D |peric|, D.R.J. Owen. *Computational methods for "
+"plasticity*. J. Wiley & Sons, New York, 2008."
+msgstr ""
+
+# 916cd9c317104b58afa6af0d981c2f1d
+#: ../source/biblio.rst:174
+msgid ""
+"Y. Renard, *Generalized Newton's methods for the approximation and "
+"resolution of frictional contact problems in elasticity*.  Comput. "
+"Methods Appl. Mech. Engrg., 256:38-55, 2013."
+msgstr ""
+
+# 8e19c93b48934daaba3b2bb9dfbb0f3e
+#: ../source/biblio.rst:177
+msgid ""
+"Sukumar N., Chopp D.L., |moes| N., Belytschko T. *Modeling holes and "
+"inclusions by level sets in the extended finite-element method*. Comput. "
+"Methods Appl. Mech. Engrg., 190:46-47, 2001."
+msgstr ""
+
+# d910a4137e624ea080a9895706240832
+#: ../source/biblio.rst:180
+msgid ""
+"Zienkiewicz and Taylor. *The finite element method*. 5th edition, volume "
+"3 : Fluids Dynamics."
+msgstr ""
+

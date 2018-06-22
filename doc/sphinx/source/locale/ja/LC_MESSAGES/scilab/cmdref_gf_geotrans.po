@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 75361a05a1494164a9aa3faa6e61d651
+#: ../source/scilab/cmdref_gf_geotrans.rst:8
+msgid "gf_geotrans"
+msgstr ""
+
+# c930ffc31a0e4158a02de28f379ace18
+#: ../source/scilab/cmdref_gf_geotrans.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 0b2f9e7bc5d444b0bb42f68a545bbea3
+#: ../source/scilab/cmdref_gf_geotrans.rst:16
+msgid "**Description :**"
+msgstr ""
+
+# 55fd26dc44084b1e8e7d6e8ece1444d4
+#: ../source/scilab/cmdref_gf_geotrans.rst:19
+msgid "General constructor for geotrans objects."
+msgstr ""
+
+# 78e1f7b42b874e4d84e3705edce94518
+#: ../source/scilab/cmdref_gf_geotrans.rst:21
+msgid ""
+"The geometric transformation must be used when you are building a custom "
+"mesh convex by convex (see the add_convex() function of mesh): it also "
+"defines the kind of convex (triangle, hexahedron, prism, etc..)"
+msgstr ""
+
+# 5a1953f7f1984a7a8e4b33f61dbada8e
+#: ../source/scilab/cmdref_gf_geotrans.rst:26
+msgid "**Command list :**"
+msgstr ""
+
+# cf9745b85f2e437eaedc93882be444cd
+#: ../source/scilab/cmdref_gf_geotrans.rst:30
+msgid "``GT = gf_geotrans(string name)``"
+msgstr ""
+
+# 9669c0fb1ac341a8afd94d17a0948d90
+#: ../source/scilab/cmdref_gf_geotrans.rst:32
+msgid ""
+"The name argument contains the specification of the geometric "
+"transformation as a string, which may be:"
+msgstr ""
+
+# dd9be08157994caf8c9fc28993c9adad
+#: ../source/scilab/cmdref_gf_geotrans.rst:35
+msgid ""
+"GT_PK(n,k) : Transformation on simplexes, dim <literal>n</literal>, "
+"degree <literal>k</literal>."
+msgstr ""
+
+# 721086271e4e4a0dbf6fc31e8b60ceb0
+#: ../source/scilab/cmdref_gf_geotrans.rst:37
+msgid ""
+"GT_QK(n,k) : Transformation on parallelepipeds, dim <literal>n</literal>,"
+" degree <literal>k</literal>."
+msgstr ""
+
+# 19be9be2b51a4ae69395af261f08f21e
+#: ../source/scilab/cmdref_gf_geotrans.rst:39
+msgid ""
+"GT_PRISM(n,k) : Transformation on prisms, dim <literal>n</literal>, "
+"degree <literal>k</literal>."
+msgstr ""
+
+# efce0153861b411c8480d9d7b6c6814b
+#: ../source/scilab/cmdref_gf_geotrans.rst:41
+msgid "GT_PRODUCT(A,B) : Tensorial product of two transformations."
+msgstr ""
+
+# 4c7f07ad2ebd414595e8a39e139c4d48
+#: ../source/scilab/cmdref_gf_geotrans.rst:43
+msgid ""
+"GT_LINEAR_PRODUCT(geotrans gt1,geotrans gt2) : Linear tensorial product "
+"of two transformations"
+msgstr ""
+

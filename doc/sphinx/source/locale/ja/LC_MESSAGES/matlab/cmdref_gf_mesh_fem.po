@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3c330489964041f6bd9fb238eac5b81e
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:8
+msgid "gf_mesh_fem"
+msgstr ""
+
+# 193b66c7b16a4f37b7bf6c8a0069bf41
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 21327c97ce69479481f25d1ec1aee7b9
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:24
+msgid "**Description :**"
+msgstr ""
+
+# 22c3c9608baa4352bda8cd2cbde012af
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:27
+msgid "General constructor for mesh_fem objects."
+msgstr ""
+
+# edd39ae0d9e7413c803a5c29da8a899e
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:29
+msgid "This object represents a finite element method defined on a whole mesh."
+msgstr ""
+
+# e936b649adaa4b059a8c5dcc6e4f911d
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:32
+msgid "**Command list :**"
+msgstr ""
+
+# 45f83b6a8fbc446cae8a15f68aa3ddc1
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:36
+msgid "``MF = gf_mesh_fem(mesh m[, int Qdim1=1[, int Qdim2=1, ...]])``"
+msgstr ""
+
+# 49c9dd6db6e141aea09dea8d190e86b0
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:38
+msgid "Build a new mesh_fem object."
+msgstr ""
+
+# e643812daf06453ab49ba2d26dda83c0
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:40
+msgid ""
+"The `Qdim` parameters specifies the dimension of the field represented by"
+" the finite element method. Qdim1 = 1 for a scalar field, Qdim1 = n for a"
+" vector field off size n, Qdim1=m, Qdim2=n for a matrix field of size mxn"
+" ... Returns the handle of the created object."
+msgstr ""
+
+# baed6540c5314209aa3ff6ea5edc1b7a
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:47
+msgid "``MF = gf_mesh_fem('load', string fname[, mesh m])``"
+msgstr ""
+
+# 5cc41cf0fa6d4e61b4fc4782b65d5b27
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:49
+msgid "Load a mesh_fem from a file."
+msgstr ""
+
+# ff5294a502ef4a209c79d2bf8e160a61
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:51
+msgid ""
+"If the mesh `m` is not supplied (this kind of file does not store the "
+"mesh), then it is read from the file `fname` and its descriptor is "
+"returned as the second output argument."
+msgstr ""
+
+# 77ea8435a15b437d8317e3896b3545d3
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:56
+msgid "``MF = gf_mesh_fem('from string', string s[, mesh m])``"
+msgstr ""
+
+# 453eceb6c28640788d9452c3b28f5135
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:58
+msgid "Create a mesh_fem object from its string description."
+msgstr ""
+
+# 0befb321d6564358b4dc75e658b0af68
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:60
+msgid "See also ``gf_mesh_fem_get(mesh_fem MF, 'char')``"
+msgstr ""
+
+# 9ec8731bed214ae2b8f4b8a9edcce3ba
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:63
+msgid "``MF = gf_mesh_fem('clone', mesh_fem mf)``"
+msgstr ""
+
+# 2bea27346557438ea5d2256ae2389c9a
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:65
+msgid "Create a copy of a mesh_fem."
+msgstr ""
+
+# 164dbd2419c74a80bddb181341c396cf
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:68
+msgid ""
+"``MF = gf_mesh_fem('sum', mesh_fem mf1, mesh_fem mf2[, mesh_fem mf3[, "
+"...]])``"
+msgstr ""
+
+# 8ac78bafeb4f43e1b98c85265ce12633
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:70
+msgid "Create a mesh_fem that spans two (or more) mesh_fem's."
+msgstr ""
+
+# 97aa52c6c6f84dcebc50dffd5b165c05
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:72
+msgid "All mesh_fem must share the same mesh."
+msgstr ""
+
+# 9274f29ac78a4ee38c373a86177d9c1a
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:74
+msgid "After that, you should not modify the FEM of `mf1`, `mf2` etc."
+msgstr ""
+
+# 9bacfc6c18a04d56882b66a114c94cab
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:77
+msgid "``MF = gf_mesh_fem('product', mesh_fem mf1, mesh_fem mf2)``"
+msgstr ""
+
+# bee60a777d3c42a2a1edc9d22e6461a6
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:79
+msgid ""
+"Create a mesh_fem that spans all the product of a selection of shape "
+"functions of `mf1` by all shape functions of `mf2`. Designed for Xfem "
+"enrichment."
+msgstr ""
+
+# 72358430124546599385e3dd74087c58
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:83
+msgid "`mf1` and `mf2` must share the same mesh."
+msgstr ""
+
+# 7b625848e66e48a2ad06b55baa08021e
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:85
+msgid "After that, you should not modify the FEM of `mf1`, `mf2`."
+msgstr ""
+
+# caebf72762f94445bf87c53a4e2f50bc
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:88
+msgid "``MF = gf_mesh_fem('levelset', mesh_levelset mls, mesh_fem mf)``"
+msgstr ""
+
+# 90d894a0211a49af9ae7d532f3370183
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:90
+msgid ""
+"Create a mesh_fem that is conformal to implicit surfaces defined in "
+"mesh_levelset."
+msgstr ""
+
+# cc315f0240f4461d834ad62b15b0abc2
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:94
+msgid ""
+"``MF = gf_mesh_fem('global function', mesh m, levelset ls, "
+"{global_function GF1,...}[, int Qdim_m])``"
+msgstr ""
+
+# d60136de9aab44aa882a7ce533c4b607
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:96
+msgid ""
+"Create a mesh_fem whose base functions are global function given by the "
+"user in the system of coordinate defined by the iso-values of the two "
+"level-set function of `ls`."
+msgstr ""
+
+# 6ee423256e7e4f89b8e63dbd758a2b1b
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:101
+msgid "``MF = gf_mesh_fem('partial', mesh_fem mf, ivec DOFs[, ivec RCVs])``"
+msgstr ""
+
+# 5de5bbb643974ffeafda8355fac178e0
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:103
+msgid ""
+"Build a restricted mesh_fem by keeping only a subset of the degrees of "
+"freedom of `mf`."
+msgstr ""
+
+# e1b788704e334c47bfd3611e2bb5fa47
+#: ../source/matlab/cmdref_gf_mesh_fem.rst:106
+msgid "If `RCVs` is given, no FEM will be put on the convexes listed in `RCVs`."
+msgstr ""
+

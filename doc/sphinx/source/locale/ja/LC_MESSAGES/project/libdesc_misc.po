@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 8d69e38befd444fca2a6559b80c379c7
+#: ../source/project/libdesc_misc.rst:11
+msgid "Miscellaneous algorithms"
+msgstr ""
+
+# 151b365a9bb94fbeafb46fca5bfe2cd4
+# 12c237a6dfb048309d333cc36746a487
+#: ../source/project/libdesc_misc.rst:1 ../source/project/libdesc_misc.rst:14
+msgid "Description"
+msgstr ""
+
+# 20b65ec82b9c41ae9aa0d6a277ba9a95
+#: ../source/project/libdesc_misc.rst:16
+msgid "A set of miscellaneous basic algorithms and definitions used in |gf|."
+msgstr ""
+
+# fe3ed897e57845d9b6793905cd3d7f77
+#: ../source/project/libdesc_misc.rst:19
+msgid "Files"
+msgstr ""
+
+# 3da8ea172f5f4f6e91618dbe1f517b63
+#: ../source/project/libdesc_misc.rst:1
+msgid "File(s)"
+msgstr ""
+
+# 2c7851513cc14b92a918eddf125abcde
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_comma_init.h`"
+msgstr ""
+
+# 30d4cc26c42b403c998d71a23b25a632
+#: ../source/project/libdesc_misc.rst:1
+msgid "Allow to init  container with a list of values, from boost init.hpp."
+msgstr ""
+
+# a416213047bd4cd1b4fd2f4d5aed8462
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_ftool.h` and :file:`bgeot_ftool.cc`"
+msgstr ""
+
+# 9bc800eb724846aa99682458b990d6a4
+#: ../source/project/libdesc_misc.rst:1
+msgid ""
+"Small language allowing to read a parameter file with a Matlab syntax "
+"like. Used also for structured meshes."
+msgstr ""
+
+# f17e7a60577f43f2b598ef8593836f72
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_kdtree.h` and :file:`bgeot_kdtree.cc`"
+msgstr ""
+
+# bdd33b74c4ed4135958a46d8395969b8
+#: ../source/project/libdesc_misc.rst:1
+msgid ""
+"Balanced N-dimensional tree. Store a list of points and allows a quick "
+"search of points lying in a given box."
+msgstr ""
+
+# b589c142f64f4c39840b452d0525fd9b
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_rtree.h` and :file:`bgeot_rtree.cc`"
+msgstr ""
+
+# 675c8d93b1f7487088d8b3a0b22862ce
+#: ../source/project/libdesc_misc.rst:1
+msgid ""
+"Rectangle tree. Store a list of N-dimensional rectangles and allows a "
+"quick search of rectangles containing a given point."
+msgstr ""
+
+# 8599c9bcc08d4f15aaeb39ab0bf4f23a
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`permutations.h`"
+msgstr ""
+
+# 1bdbd689012a4624ba921ec565e3c401
+#: ../source/project/libdesc_misc.rst:1
+msgid ""
+"Allows to iterate on permutations. Only used in "
+":file:`getfem_integration.cc`."
+msgstr ""
+
+# d44b08b447a049a28edd17d2c3710755
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_small_vector.h` and :file:`bgeot_small_vector.cc`"
+msgstr ""
+
+# 135399f71e114f0aa35bafcc513a73ca
+#: ../source/project/libdesc_misc.rst:1
+msgid ""
+"Defines a vector of low dimension mainly used to represent mesh nodes. "
+"Optimized operations."
+msgstr ""
+
+# 4bec59561b5c4456bb0bbbc80c4e0de7
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_tensor.h`"
+msgstr ""
+
+# c956bf5784794f1ea33fb7482fb764b9
+#: ../source/project/libdesc_misc.rst:1
+msgid "Arbitrary order tensor. Used in assembly."
+msgstr ""
+
+# c1b65ceb4f3a41bf824db374aa3dde74
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`bgeot_sparse_tensors.h` and :file:`bgeot_sparse_tensors.cc`"
+msgstr ""
+
+# 92255bafb41b4af696c3eaceb934c42d
+#: ../source/project/libdesc_misc.rst:1
+msgid "Arbitrary order sparse tensor. Used in the low-level generic assembly."
+msgstr ""
+
+# 184fa219fedc48a9a777793fbeb3e6d0
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`getfem_omp.h` and :file:`getfem_omp.cc`"
+msgstr ""
+
+# 259af23c2be94b1591a53f5e60551f29
+#: ../source/project/libdesc_misc.rst:1
+msgid "Tools for multithreaded, OpenMP and Boost based parallelization."
+msgstr ""
+
+# ad98f6efac304889a67dd3eb45081ae3
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`getfem_export.h` and :file:`getfem_export.cc`"
+msgstr ""
+
+# a9bfba1587a74b288cf4d8b44bc13dc3
+#: ../source/project/libdesc_misc.rst:1
+msgid "Export in pos and vtk formats"
+msgstr ""
+
+# 58307ca9a41d46b8bbb842cdd860b4a0
+#: ../source/project/libdesc_misc.rst:1
+msgid ":file:`getfem_superlu.h` and :file:`getfem_superlu.cc`"
+msgstr ""
+
+# 586640964921464ba1c018768595e068
+#: ../source/project/libdesc_misc.rst:1
+msgid "Interface with Superlu (the included version or an external one)"
+msgstr ""
+
+# 1930c77dbfba46ac8fa8dbbfffca5c5c
+#: ../source/project/libdesc_misc.rst:41
+msgid "State"
+msgstr ""
+
+# 5259c93e6cef44e9b615331953665ad2
+#: ../source/project/libdesc_misc.rst:46
+msgid "Perspectives"
+msgstr ""
+

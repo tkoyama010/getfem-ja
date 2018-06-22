@@ -1,0 +1,469 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# af5bfa8ce4934b90a683771006244c7b
+#: ../source/python/cmdref_Slice.rst:8
+msgid "Slice"
+msgstr ""
+
+# fe9573637de5443a96bc4ef5152a09ba
+#: getfem.Slice:1 of
+msgid "GeFEM Slice object"
+msgstr ""
+
+# 65775889615f453cb88178df9dd98209
+#: getfem.Slice:3 of
+msgid ""
+"Creation of a mesh slice. Mesh slices are very similar to a "
+"P1-discontinuous MeshFem on which interpolation is very fast. The slice "
+"is built from a mesh object, and a description of the slicing operation, "
+"for example::"
+msgstr ""
+
+# 985dda7b46634ce4ba19a3ae02c89513
+#: getfem.Slice:10 of
+msgid ""
+"cuts the original mesh with the half space {y>0}. Each convex of the "
+"original Mesh `m` is simplexified (for example a quadrangle is splitted "
+"into 2 triangles), and each simplex is refined 5 times."
+msgstr ""
+
+# 6bff9d73612045abac310a0bc5f2ff38
+#: getfem.Slice:14 of
+msgid "Slicing operations can be:"
+msgstr ""
+
+# c28a4c35d30740da97623a20703b5d6b
+#: getfem.Slice:16 of
+msgid "cutting with a plane, a sphere or a cylinder"
+msgstr ""
+
+# 1d8de59a978746ca9bab4bc804b385b4
+#: getfem.Slice:17 of
+msgid "intersection or union of slices"
+msgstr ""
+
+# 4932c1f27a8b4576883ddc5aab7f675d
+#: getfem.Slice:18 of
+msgid "isovalues surfaces/volumes"
+msgstr ""
+
+# 64b77a6b37c04e3882f841718050fd28
+#: getfem.Slice:19 of
+msgid "\"points\", \"streamlines\" (see below)"
+msgstr ""
+
+# f9babc84e4ea44c482b6690f35e4bd31
+#: getfem.Slice:21 of
+msgid ""
+"If the first argument is a MeshFem `mf` instead of a Mesh, and if it is "
+"followed by a `mf`-field `u`, then the deformation `u` will be applied to"
+" the mesh before the slicing operation."
+msgstr ""
+
+# bd7005748b3f463398dd3a256bc78c67
+#: getfem.Slice:25 of
+msgid "The first argument can also be a slice."
+msgstr ""
+
+# 1bb62ec4e8fb42b2896ee9ebb209de85
+#: getfem.Slice:28 of
+msgid "General constructor for Slice objects"
+msgstr ""
+
+# 4a9181609e864fe28af9835123724fde
+#: getfem.Slice:30 of
+msgid ""
+"``sl = Slice(sliceop, {Slice sl|{Mesh m| MeshFem mf, vec U}, int "
+"refine}[, mat CVfids])`` Create a Slice using `sliceop` operation."
+msgstr ""
+
+# 42df9fa3f1b046c88369dc8deb1fc810
+#: getfem.Slice:33 of
+msgid ""
+"`sliceop` operation is specified with  Tuple or List, do not forget the "
+"extra parentheses!. The first element is the name of the operation, "
+"followed the slicing options:"
+msgstr ""
+
+# 8d8aedb9f9f042e78133c968768738ff
+#: getfem.Slice:37 of
+msgid "('none') : Does not cut the mesh."
+msgstr ""
+
+# d82e9c1340a74a43b646efe8d3a1b9a6
+#: getfem.Slice:40 of
+msgid ""
+"('planar', int orient, vec p, vec n) : Planar cut. `p` and `n` define a "
+"half-space, `p` being a point belong to the boundary of the half-space, "
+"and `n` being its normal. If `orient` is equal to -1 (resp. 0, +1), then "
+"the slicing operation will cut the mesh with the \"interior\" (resp. "
+"\"boundary\", \"exterior\") of the half-space. `orient` may also be set "
+"to +2 which means that the mesh will be sliced, but both the outer and "
+"inner parts will be kept."
+msgstr ""
+
+# f02afaddd6cf4f0791fd9ca40f5e252f
+#: getfem.Slice:48 of
+msgid ""
+"('ball', int orient, vec c, scalar r) : Cut with a ball of center `c` and"
+" radius `r`."
+msgstr ""
+
+# d582322af31743fd90d9bcfc9cf3477b
+#: getfem.Slice:51 of
+msgid ""
+"('cylinder', int orient, vec p1, vec p2, scalar r) : Cut with a cylinder "
+"whose axis is the line `(p1, p2)` and whose radius is `r`."
+msgstr ""
+
+# 05a71726a541455cb1a4ff48e2d95e39
+#: getfem.Slice:55 of
+msgid ""
+"('isovalues', int orient, MeshFem mf, vec U, scalar s) : Cut using the "
+"isosurface of the field `U` (defined on the MeshFem `mf`). The result is "
+"the set `{x such that :math:`U(x) \\leq s`}` or `{x such that "
+"`U`(x)=`s`}` or `{x such that `U`(x) >= `s`}` depending on the value of "
+"`orient`."
+msgstr ""
+
+# 5a703106589e4a3b94a5484a8f3ffdf1
+#: getfem.Slice:61 of
+msgid ""
+"('boundary'[, SLICEOP]) : Return the boundary of the result of SLICEOP, "
+"where SLICEOP is any slicing operation. If SLICEOP is not specified, then"
+" the whole mesh is considered (i.e. it is equivalent to "
+"('boundary',{'none'}))."
+msgstr ""
+
+# 0dae9e6a1ef24c47b86b2bdcabed2f9c
+#: getfem.Slice:66 of
+msgid ""
+"('explode', mat Coef) : Build an 'exploded' view of the mesh: each convex"
+" is shrinked (:math:`0 < \\text{Coef} \\leq 1`). In the case of 3D "
+"convexes, only their faces are kept."
+msgstr ""
+
+# 1acae5a027814b70932ef4c9263a4662
+#: getfem.Slice:70 of
+msgid "('union', SLICEOP1, SLICEOP2) : Returns the union of slicing operations."
+msgstr ""
+
+# 196dc60f0c7943ec9173302224eddff1
+#: getfem.Slice:73 of
+msgid ""
+"('intersection', SLICEOP1, SLICEOP2) : Returns the intersection of "
+"slicing operations, for example::"
+msgstr ""
+
+# 324db3b6f4f7499d9b7fc0dbc83124a7
+#: getfem.Slice:79 of
+msgid "('comp', SLICEOP) : Returns the complementary of slicing operations."
+msgstr ""
+
+# 7e9e36e02f1c400896a64dab3186acd2
+#: getfem.Slice:82 of
+msgid ""
+"('diff', SLICEOP1, SLICEOP2) : Returns the difference of slicing "
+"operations."
+msgstr ""
+
+# c400f6d809da4ae9af4839f07515a4a1
+#: getfem.Slice:85 of
+msgid ""
+"('mesh', Mesh m) : Build a slice which is the intersection of the sliced "
+"mesh with another mesh. The slice is such that all of its simplexes are "
+"stricly contained into a convex of each mesh."
+msgstr ""
+
+# 16809b8c30bb4ac780537688b13e784a
+#: getfem.Slice:91 of
+msgid ""
+"``sl = Slice('streamlines', MeshFem mf, mat U, mat S)`` Compute "
+"streamlines of the (vector) field `U`, with seed points given by the "
+"columns of `S`."
+msgstr ""
+
+# 661fc8079c8549e78f02180e4c7d9d6d
+#: getfem.Slice:95 of
+msgid ""
+"``sl = Slice('points', Mesh m, mat Pts)`` Return the \"slice\" composed "
+"of points given by the columns of `Pts` (useful for interpolation on a "
+"given set of sparse points, see ``gf_compute('interpolate on',sl)``."
+msgstr ""
+
+# 29c0176e7b55430caf2554f1f5444b95
+#: getfem.Slice:100 of
+msgid ""
+"``sl = Slice('load', string filename[, Mesh m])`` Load the slice (and its"
+" linked mesh if it is not given as an argument) from a text file."
+msgstr ""
+
+# 365825f8b9174964b0d00f1046a284d8
+#: getfem.Slice.area:1 of
+msgid "Return the area of the slice."
+msgstr ""
+
+# 4111c9924d9944c98b103b718ff62e9e
+#: getfem.Slice.char:1 of
+msgid "Output a (unique) string representation of the Slice."
+msgstr ""
+
+# e28611561a99408da6418b1820eb71c2
+#: getfem.Slice.char:3 of
+msgid ""
+"This can be used to perform comparisons between two different Slice "
+"objects. This function is to be completed."
+msgstr ""
+
+# 2010afe15f104466917246608ed61edc
+#: getfem.Slice.cvs:1 of
+msgid "Return the list of convexes of the original mesh contained in the slice."
+msgstr ""
+
+# 9249b9d0301641b7826782e2bd3feebd
+#: getfem.Slice.dim:1 of
+msgid "Return the dimension of the slice (2 for a 2D mesh, etc..)."
+msgstr ""
+
+# 5feaa9235f3e41ed99b4d85334d465d3
+#: getfem.Slice.display:1 of
+msgid "displays a short summary for a Slice object."
+msgstr ""
+
+# d8384eaa69d74fb7b3ef20f114868cc8
+#: getfem.Slice.edges:1 of
+msgid "Return the edges of the linked mesh contained in the slice."
+msgstr ""
+
+# 58761abf044348e19874c03b40c9a8e8
+#: getfem.Slice.edges:3 of
+msgid ""
+"`P` contains the list of all edge vertices, `E1` contains the indices of "
+"each mesh edge in `P`, and `E2` contains the indices of each \"edges\" "
+"which is on the border of the slice. This function is useless except for "
+"post-processing purposes."
+msgstr ""
+
+# f9b6c93de3e640b78dcb4147ce438ce5
+#: getfem.Slice.export_to_dx:1 of
+msgid "Synopsis: Slice.export_to_dx(self, string filename, ...)"
+msgstr ""
+
+# 67e069c87d6f4e27b67ae2a156eb6f26
+#: getfem.Slice.export_to_dx:3 of
+msgid "Export a slice to OpenDX."
+msgstr ""
+
+# 8726377272194f51b369ae1697237d9d
+# e38acf4aa37b4ab0949148b5da905767
+#: getfem.Slice.export_to_dx:5 getfem.Slice.export_to_vtk:5 of
+msgid "Following the `filename`, you may use any of the following options:"
+msgstr ""
+
+# 2a5bf6b0f80c41768910a7cb0ee55978
+# 667773be3a3c4bb69669b900f51e4c81
+#: getfem.Slice.export_to_dx:8 getfem.Slice.export_to_vtk:7 of
+msgid ""
+"if 'ascii' is not used, the file will contain binary data (non portable, "
+"but fast)."
+msgstr ""
+
+# 50e3a38f82b647f38645dde20b6ae0d8
+# bd2bf2905e9549de949d3a76656f34f3
+#: getfem.Slice.export_to_dx:10 getfem.Slice.export_to_vtk:9 of
+msgid ""
+"if 'edges' is used, the edges of the original mesh will be written "
+"instead of the slice content."
+msgstr ""
+
+# d54b0c53b3704043b11608749a31179d
+#: getfem.Slice.export_to_dx:12 of
+msgid ""
+"if 'append' is used, the opendx file will not be overwritten, and the new"
+" data will be added at the end of the file."
+msgstr ""
+
+# da3223a855f34efa9d8b94b550bde3fa
+# 97db06cf6e38429bb93df59efba39572
+# cbe14f1c7dc149efb91497e0856caae2
+#: getfem.Slice.export_to_dx:15 getfem.Slice.export_to_pos:5
+#: getfem.Slice.export_to_vtk:12 of
+msgid ""
+"More than one dataset may be written, just list them. Each dataset "
+"consists of either:"
+msgstr ""
+
+# 5a657d8a0cb7406b87984263afff7a2a
+# e140c94c121c437ebf3bb2b7001ce9e3
+#: getfem.Slice.export_to_dx:18 getfem.Slice.export_to_vtk:15 of
+msgid ""
+"a field interpolated on the slice (scalar, vector or tensor), followed by"
+" an optional name."
+msgstr ""
+
+# 44648ed4a28149a194218be554c24154
+# 1553e31481ee4e34b388a8fd3f25adaf
+#: getfem.Slice.export_to_dx:20 getfem.Slice.export_to_vtk:17 of
+msgid "a mesh_fem and a field, followed by an optional name."
+msgstr ""
+
+# 66d2bc69adf047da88fe5779d94a082e
+#: getfem.Slice.export_to_pos:1 of
+msgid ""
+"Synopsis: Slice.export_to_pos(self, string filename[, string "
+"name][[,MeshFem mf1], mat U1, string nameU1[[,MeshFem mf1], mat U2, "
+"string nameU2,...])"
+msgstr ""
+
+# eaadad17637e4d65adc2ae753c7eb5e7
+#: getfem.Slice.export_to_pos:3 of
+msgid "Export a slice to Gmsh."
+msgstr ""
+
+# 953932a47b0f477db035c34080651d3e
+#: getfem.Slice.export_to_pos:8 of
+msgid "a field interpolated on the slice (scalar, vector or tensor)."
+msgstr ""
+
+# ade91db0d0a34e9fad2d03d8d7328d73
+#: getfem.Slice.export_to_pos:9 of
+msgid "a mesh_fem and a field."
+msgstr ""
+
+# ec9a4e4963f64d6b9dfcff7788bfaa80
+#: getfem.Slice.export_to_pov:1 of
+msgid "Export a the triangles of the slice to POV-RAY."
+msgstr ""
+
+# 8763489dfe344ed0a65c91acdce11e40
+#: getfem.Slice.export_to_vtk:1 of
+msgid "Synopsis: Slice.export_to_vtk(self, string filename, ...)"
+msgstr ""
+
+# 3f4cc4505ac54b3d89d9b521dc248b2d
+#: getfem.Slice.export_to_vtk:3 of
+msgid "Export a slice to VTK."
+msgstr ""
+
+# f578f9e364a549c9b4853a226c151b48
+#: getfem.Slice.export_to_vtk:19 of
+msgid "Examples:"
+msgstr ""
+
+# 869941428d5040369230496f047e9b0f
+#: getfem.Slice.export_to_vtk:21 of
+msgid ""
+"Slice.export_to_vtk('test.vtk', Usl, 'first_dataset', mf, U2, "
+"'second_dataset')"
+msgstr ""
+
+# 16b92cbeeba543798219373d3c4ef82f
+#: getfem.Slice.export_to_vtk:23 of
+msgid "Slice.export_to_vtk('test.vtk', 'ascii', mf,U2)"
+msgstr ""
+
+# b89de981f30f4ce9ab62fc9bb949674c
+#: getfem.Slice.export_to_vtk:24 of
+msgid "Slice.export_to_vtk('test.vtk', 'edges', 'ascii', Uslice)"
+msgstr ""
+
+# 7153fd8768f54e84a123f5aa14a54a45
+#: getfem.Slice.interpolate_convex_data:1 of
+msgid "Interpolate data given on each convex of the mesh to the slice nodes."
+msgstr ""
+
+# 3b481f436c3a4f47a9ba9504c7a05268
+#: getfem.Slice.interpolate_convex_data:3 of
+msgid ""
+"The input array `Ucv` may have any number of dimensions, but its last "
+"dimension should be equal to Mesh.max_cvid()."
+msgstr ""
+
+# 2750278ccd75498cb762dfef183ce7bc
+#: getfem.Slice.interpolate_convex_data:6 of
+msgid "Example of use: Slice.interpolate_convex_data(Mesh.quality())."
+msgstr ""
+
+# 0eb329ddda364b689e10617a1cbdf9fa
+#: getfem.Slice.linked_mesh:1 of
+msgid "Return the mesh on which the slice was taken."
+msgstr ""
+
+# ede5bd9ff02741bc93c733b1bd74db8f
+#: getfem.Slice.memsize:1 of
+msgid "Return the amount of memory (in bytes) used by the slice object."
+msgstr ""
+
+# 5b58c949f3434ef3800e00e0447d89b1
+#: getfem.Slice.mesh:1 of
+msgid "Return the mesh on which the slice was taken (identical to 'linked mesh')"
+msgstr ""
+
+# 95b1737294b8439d880b2212e11ace4a
+#: getfem.Slice.nbpts:1 of
+msgid "Return the number of points in the slice."
+msgstr ""
+
+# 3a4be05e79044a3c972a70dcf6785528
+#: getfem.Slice.nbsplxs:1 of
+msgid "Return the number of simplexes in the slice."
+msgstr ""
+
+# b2b862e3b73a46798056ab7cf075743e
+#: getfem.Slice.nbsplxs:3 of
+msgid ""
+"Since the slice may contain points (simplexes of dim 0), segments "
+"(simplexes of dimension 1), triangles etc., the result is a vector of "
+"size Slice.dim()+1, except if the optional argument `dim` is used."
+msgstr ""
+
+# 8ddecf63d39d4691a4397ce8b6f2ae1d
+#: getfem.Slice.pts:1 of
+msgid "Return the list of point coordinates."
+msgstr ""
+
+# ec0ae8e594714806bba6eef8e1d9d203
+#: getfem.Slice.set_pts:1 of
+msgid "Replace the points of the slice."
+msgstr ""
+
+# 03ca9aa640164d3bb81d454b100fbedd
+#: getfem.Slice.set_pts:3 of
+msgid ""
+"The new points `P` are stored in the columns the matrix. Note that you "
+"can use the function to apply a deformation to a slice, or to change the "
+"dimension of the slice (the number of rows of `P` is not required to be "
+"equal to Slice.dim())."
+msgstr ""
+
+# 3e6e82af70e74ec7b410b2302d704629
+#: getfem.Slice.splxs:1 of
+msgid "Return the list of simplexes of dimension `dim`."
+msgstr ""
+
+# 7313e9dd04c545999e06b87917dd8e2a
+#: getfem.Slice.splxs:3 of
+msgid ""
+"On output, S has 'dim+1' rows, each column contains the point numbers of "
+"a simplex.  The vector `CV2S` can be used to find the list of simplexes "
+"for any convex stored in the slice. For example 'S[:,CV2S[4]:CV2S[5]]' "
+"gives the list of simplexes for the fourth convex."
+msgstr ""
+

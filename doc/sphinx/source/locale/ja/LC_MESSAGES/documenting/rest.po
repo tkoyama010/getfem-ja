@@ -1,0 +1,409 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 99df3f39995e4ec1a5bc01293269e884
+#: ../source/documenting/rest.rst:4
+msgid "reStructuredText Primer"
+msgstr ""
+
+# 8075999ebd544ba28225c4ce7122fe78
+#: ../source/documenting/rest.rst:6
+msgid ""
+"This section is a brief introduction to reStructuredText (reST) concepts "
+"and syntax, intended to provide authors with enough information to author"
+" documents productively.  Since reST was designed to be a simple, "
+"unobtrusive markup language, this will not take too long."
+msgstr ""
+
+# 295cd8e50e814688a65bb4a611e73c18
+#: ../source/documenting/rest.rst:13
+msgid ""
+"The authoritative `reStructuredText User Documentation "
+"<http://docutils.sourceforge.net/rst.html>`_."
+msgstr ""
+
+# a812e2e24799434fb04e2575346daafb
+#: ../source/documenting/rest.rst:18
+msgid "Paragraphs"
+msgstr ""
+
+# 24ceb007aacb48618f5303cb27160f35
+#: ../source/documenting/rest.rst:20
+msgid ""
+"The paragraph is the most basic block in a reST document.  Paragraphs are"
+" simply chunks of text separated by one or more blank lines.  As in "
+"Python, indentation is significant in reST, so all lines of the same "
+"paragraph must be left-aligned to the same level of indentation."
+msgstr ""
+
+# 4d2b6c47bd644d42a8b6849415bbdeaf
+#: ../source/documenting/rest.rst:27
+msgid "Inline markup"
+msgstr ""
+
+# bdd4379dab344295a13d324a2f602cf0
+#: ../source/documenting/rest.rst:29
+msgid "The standard reST inline markup is quite simple: use"
+msgstr ""
+
+# d976bf1324b8406591c48c37bd96a07b
+#: ../source/documenting/rest.rst:31
+msgid "one asterisk: ``*text*`` for emphasis (italics),"
+msgstr ""
+
+# 767276fc51724f949406775a84872045
+#: ../source/documenting/rest.rst:32
+msgid "two asterisks: ``**text**`` for strong emphasis (boldface), and"
+msgstr ""
+
+# 5ee911d7da06422d8e381d4c28e63410
+#: ../source/documenting/rest.rst:33
+msgid "backquotes: ````text```` for code samples."
+msgstr ""
+
+# b8e1c6d8e9a944ba9a782e15db6e7463
+#: ../source/documenting/rest.rst:35
+msgid ""
+"If asterisks or backquotes appear in running text and could be confused "
+"with inline markup delimiters, they have to be escaped with a backslash."
+msgstr ""
+
+# 14bc7e73080c4a309604832d935675c9
+#: ../source/documenting/rest.rst:38
+msgid "Be aware of some restrictions of this markup:"
+msgstr ""
+
+# d6eb7c0a320b44528544fa39b00dca20
+#: ../source/documenting/rest.rst:40
+msgid "it may not be nested,"
+msgstr ""
+
+# 9daec7088a6a47b2a1b8c591b9966189
+#: ../source/documenting/rest.rst:41
+msgid "content may not start or end with whitespace: ``* text*`` is wrong,"
+msgstr ""
+
+# 9f45acdc2d7a4ba19f971a1406419125
+#: ../source/documenting/rest.rst:42
+msgid ""
+"it must be separated from surrounding text by non-word characters.  Use a"
+" backslash escaped space to work around that: ``thisis\\ *one*\\ word``."
+msgstr ""
+
+# 583ce117718044d8b5cc6fb9c46190c0
+#: ../source/documenting/rest.rst:45
+msgid "These restrictions may be lifted in future versions of the docutils."
+msgstr ""
+
+# f96d760a01a341ba85469931c0cf9f47
+#: ../source/documenting/rest.rst:47
+msgid ""
+"reST also allows for custom \"interpreted text roles\"', which signify "
+"that the enclosed text should be interpreted in a specific way.  Sphinx "
+"uses this to provide semantic markup and cross-referencing of "
+"identifiers, as described in the appropriate section.  The general syntax"
+" is ``:rolename:`content```."
+msgstr ""
+
+# bca33efe7bde41529a21f4038a4f3a20
+#: ../source/documenting/rest.rst:54
+msgid "Lists and Quotes"
+msgstr ""
+
+# 8ef57c3e4a794099ac5b744ca4543c99
+#: ../source/documenting/rest.rst:56
+msgid ""
+"List markup is natural: just place an asterisk at the start of a "
+"paragraph and indent properly.  The same goes for numbered lists; they "
+"can also be autonumbered using a ``#`` sign::"
+msgstr ""
+
+# ee522f42607e496486b678b347a7de82
+#: ../source/documenting/rest.rst:71
+msgid ""
+"Nested lists are possible, but be aware that they must be separated from "
+"the parent list items by blank lines::"
+msgstr ""
+
+# 0e83ac087d0d48e9a17e09db547ba8d9
+#: ../source/documenting/rest.rst:82
+msgid "Definition lists are created as follows::"
+msgstr ""
+
+# 3716b00ff20c44f5bd16083ca0178703
+#: ../source/documenting/rest.rst:93
+msgid ""
+"Paragraphs are quoted by just indenting them more than the surrounding "
+"paragraphs."
+msgstr ""
+
+# c1705ab3611443688a0a553d3d7563ad
+#: ../source/documenting/rest.rst:98
+msgid "Source Code"
+msgstr ""
+
+# 41624c64e7e9430fa8900332845acda1
+#: ../source/documenting/rest.rst:100
+msgid ""
+"Literal code blocks are introduced by ending a paragraph with the special"
+" marker ``::``.  The literal block must be indented::"
+msgstr ""
+
+# 7d965a9f7f95439dbb2f16266e490dd7
+#: ../source/documenting/rest.rst:112
+msgid "The handling of the ``::`` marker is smart:"
+msgstr ""
+
+# 78098e52b97841c7b79558a7858bee04
+#: ../source/documenting/rest.rst:114
+msgid ""
+"If it occurs as a paragraph of its own, that paragraph is completely left"
+" out of the document."
+msgstr ""
+
+# 3eeb649792b340c39153e14078f0ec32
+#: ../source/documenting/rest.rst:116
+msgid "If it is preceded by whitespace, the marker is removed."
+msgstr ""
+
+# 3ff66aaeca97471e95839224a5412c6e
+#: ../source/documenting/rest.rst:117
+msgid ""
+"If it is preceded by non-whitespace, the marker is replaced by a single "
+"colon."
+msgstr ""
+
+# 4706ffa4182342abbe0c98735c98cf43
+#: ../source/documenting/rest.rst:120
+msgid ""
+"That way, the second sentence in the above example's first paragraph "
+"would be rendered as \"The next paragraph is a code sample:\"."
+msgstr ""
+
+# f43137a3dfa845ffb450c01d0dbb853c
+#: ../source/documenting/rest.rst:125
+msgid "Hyperlinks"
+msgstr ""
+
+# 2e308a1ec6b04498beca76ea7b21cdf9
+#: ../source/documenting/rest.rst:128
+msgid "External links"
+msgstr ""
+
+# 4b66000fbd1a4b5e8e4adaf53a8b5ba6
+#: ../source/documenting/rest.rst:130
+msgid ""
+"Use ```Link text <http://target>`_`` for inline web links.  If the link "
+"text should be the web address, you don't need special markup at all, the"
+" parser finds links and mail addresses in ordinary text."
+msgstr ""
+
+# 96474602bf2846778a7be1515d1536ff
+#: ../source/documenting/rest.rst:135
+msgid "Internal links"
+msgstr ""
+
+# 98e4f0a72ac1405398129cf153b0835d
+#: ../source/documenting/rest.rst:137
+msgid ""
+"Internal linking is done via a special reST role, see the section on "
+"specific markup, :ref:`doc-ref-role`."
+msgstr ""
+
+# e6fc9011b198403d824d65023c0314f0
+#: ../source/documenting/rest.rst:142
+msgid "Sections"
+msgstr ""
+
+# 22bbb75b3e4d4074b1fc9ee0f1252b7e
+#: ../source/documenting/rest.rst:144
+msgid ""
+"Section headers are created by underlining (and optionally overlining) "
+"the section title with a punctuation character, at least as long as the "
+"text::"
+msgstr ""
+
+# 980bca6b72c947d684e5f18059a39a97
+#: ../source/documenting/rest.rst:151
+msgid ""
+"Normally, there are no heading levels assigned to certain characters as "
+"the structure is determined from the succession of headings.  However, "
+"for the Python documentation, we use this convention:"
+msgstr ""
+
+# a0de094e055a4dbba8c37eac407bd60e
+#: ../source/documenting/rest.rst:155
+msgid "``#`` with overline, for parts"
+msgstr ""
+
+# 741592d5c9be41f9b85c6a40e71d8c24
+#: ../source/documenting/rest.rst:156
+msgid "``*`` with overline, for chapters"
+msgstr ""
+
+# 24f78dbcaa44424cb59f9ab546946054
+#: ../source/documenting/rest.rst:157
+msgid "``=``, for sections"
+msgstr ""
+
+# 6ff3b7e0694344e5bdf7fb7a8b8599a4
+#: ../source/documenting/rest.rst:158
+msgid "``-``, for subsections"
+msgstr ""
+
+# 0271958637f049f39871f1c6ac6673ce
+#: ../source/documenting/rest.rst:159
+msgid "``^``, for subsubsections"
+msgstr ""
+
+# a77e79e7db8d4f29bcf559f407123fc7
+#: ../source/documenting/rest.rst:160
+msgid "``\"``, for paragraphs"
+msgstr ""
+
+# 9cef75cdb75c4d3aa99a11cf996d8209
+#: ../source/documenting/rest.rst:164
+msgid "Explicit Markup"
+msgstr ""
+
+# e9e9bd4ef0534c98bb876a217933cdbf
+#: ../source/documenting/rest.rst:166
+msgid ""
+"\"Explicit markup\" is used in reST for most constructs that need special"
+" handling, such as footnotes, specially-highlighted paragraphs, comments,"
+" and generic directives."
+msgstr ""
+
+# 4e7a080e6ae94f0cb692577dc175e9ff
+#: ../source/documenting/rest.rst:170
+msgid ""
+"An explicit markup block begins with a line starting with ``..`` followed"
+" by whitespace and is terminated by the next paragraph at the same level "
+"of indentation.  (There needs to be a blank line between explicit markup "
+"and normal paragraphs.  This may all sound a bit complicated, but it is "
+"intuitive enough when you write it.)"
+msgstr ""
+
+# 48407c526ac34daab60ee87b23978560
+#: ../source/documenting/rest.rst:178
+msgid "Directives"
+msgstr ""
+
+# 92f56783ef0f43f6ba9aa660a6912862
+#: ../source/documenting/rest.rst:180
+msgid ""
+"A directive is a generic block of explicit markup.  Besides roles, it is "
+"one of the extension mechanisms of reST, and Sphinx makes heavy use of "
+"it."
+msgstr ""
+
+# 0242575ab3fa47959d9863889791a127
+#: ../source/documenting/rest.rst:183
+msgid ""
+"Basically, a directive consists of a name, arguments, options and "
+"content. (Keep this terminology in mind, it is used in the next chapter "
+"describing custom directives.)  Looking at this example, ::"
+msgstr ""
+
+# d022dfdeefb4421bad4dcb0738a66351
+#: ../source/documenting/rest.rst:193
+msgid ""
+"``function`` is the directive name.  It is given two arguments here, the "
+"remainder of the first line and the second line, as well as one option "
+"``bar`` (as you can see, options are given in the lines immediately "
+"following the arguments and indicated by the colons)."
+msgstr ""
+
+# 832f6cfc13cd402b841858a2f8b7e951
+#: ../source/documenting/rest.rst:198
+msgid ""
+"The directive content follows after a blank line and is indented relative"
+" to the directive start."
+msgstr ""
+
+# d10f5154be714856b35dfaf97c72182a
+#: ../source/documenting/rest.rst:203
+msgid "Footnotes"
+msgstr ""
+
+# eac9e0dfa5df42368bd88a978573ef04
+#: ../source/documenting/rest.rst:205
+msgid ""
+"For footnotes, use ``[#]_`` to mark the footnote location, and add the "
+"footnote body at the bottom of the document after a \"Footnotes\" rubric "
+"heading, like so::"
+msgstr ""
+
+# 61d1d0267f5e458795dcf1ab5ffa4634
+#: ../source/documenting/rest.rst:215
+msgid "You can also explicitly number the footnotes for better context."
+msgstr ""
+
+# bedffd3b0efa42dc99db161641dc0bab
+#: ../source/documenting/rest.rst:219
+msgid "Comments"
+msgstr ""
+
+# 45dd8146e76d43fda983254ea0099922
+#: ../source/documenting/rest.rst:221
+msgid ""
+"Every explicit markup block which isn't a valid markup construct (like "
+"the footnotes above) is regarded as a comment."
+msgstr ""
+
+# 3c3e3bdb39644d568ea9447bee257556
+#: ../source/documenting/rest.rst:226
+msgid "Source encoding"
+msgstr ""
+
+# 8554769bda7c4ceaad8817aef4e462ff
+#: ../source/documenting/rest.rst:228
+msgid ""
+"Since the easiest way to include special characters like em dashes or "
+"copyright signs in reST is to directly write them as Unicode characters, "
+"one has to specify an encoding:"
+msgstr ""
+
+# 2c1e308fb62d49f3afefde8c0d34297a
+#: ../source/documenting/rest.rst:232
+msgid ""
+"All Python documentation source files must be in UTF-8 encoding, and the "
+"HTML documents written from them will be in that encoding as well."
+msgstr ""
+
+# 8e2b061ae0604c6cab9a96b9b11b33b0
+#: ../source/documenting/rest.rst:237
+msgid "Gotchas"
+msgstr ""
+
+# 22146911b0f34880805fe8416ff623f2
+#: ../source/documenting/rest.rst:239
+msgid ""
+"There are some problems one commonly runs into while authoring reST "
+"documents:"
+msgstr ""
+
+# cf714415680c4823a398ee362ca0c1a4
+#: ../source/documenting/rest.rst:241
+msgid ""
+"**Separation of inline markup:** As said above, inline markup spans must "
+"be separated from the surrounding text by non-word characters, you have "
+"to use an escaped space to get around that."
+msgstr ""
+

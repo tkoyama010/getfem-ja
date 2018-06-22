@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 2615b4961c804d77a15cb7588cfd0afe
+#: ../source/python/cmdref_Eltm.rst:8
+msgid "Eltm"
+msgstr ""
+
+# 15645096d1824537840206fd5cd56906
+#: getfem.Eltm:1 of
+msgid "GeFEM Eltm object"
+msgstr ""
+
+# 0562f05b2ebb47d6b356d6ba3d6b1261
+#: getfem.Eltm:4 of
+msgid ""
+"This object represents a type of elementary matrix. In order to obtain a "
+"numerical value of these matrices, see MeshIm.eltm()."
+msgstr ""
+
+# 15df367667f6433497eba79bde3ba055
+#: getfem.Eltm:7 of
+msgid ""
+"If you have very particular assembling needs, or if you just want to "
+"check the content of an elementary matrix, this function might be useful."
+" But the generic assembly abilities of gf_asm(...) should suit most "
+"needs."
+msgstr ""
+
+# 4e6596e55fa649e6b33102274cc00e43
+#: getfem.Eltm:11 of
+msgid "General constructor for Eltm objects"
+msgstr ""
+
+# d7f317b0729b4425a6a2c3343ab50830
+#: getfem.Eltm:13 of
+msgid ""
+"``E = Eltm('base', Fem FEM)`` return a descriptor for the integration of "
+"shape functions on elements, using the Fem `FEM`."
+msgstr ""
+
+# a3ee514e86904b8e95d827a875b5d977
+#: getfem.Eltm:17 of
+msgid ""
+"``E = Eltm('grad', Fem FEM)`` return a descriptor for the integration of "
+"the gradient of shape functions on elements, using the Fem `FEM`."
+msgstr ""
+
+# 6df15b502cee406981b93dd19ae28ee6
+#: getfem.Eltm:21 of
+msgid ""
+"``E = Eltm('hessian', Fem FEM)`` return a descriptor for the integration "
+"of the hessian of shape functions on elements, using the Fem `FEM`."
+msgstr ""
+
+# edc58da5b06a49f7ac14219052f99655
+#: getfem.Eltm:25 of
+msgid ""
+"``E = Eltm('normal')`` return a descriptor for the unit normal of convex "
+"faces."
+msgstr ""
+
+# b4af019999e14493aa3cd6e8956d9fe4
+#: getfem.Eltm:28 of
+msgid ""
+"``E = Eltm('grad_geotrans')`` return a descriptor to the gradient matrix "
+"of the geometric transformation."
+msgstr ""
+
+# a4aa692021244fc4b6e95edd2cf4ccea
+#: getfem.Eltm:32 of
+msgid ""
+"``E = Eltm('grad_geotrans_inv')`` return a descriptor to the inverse of "
+"the gradient matrix of the geometric transformation (this is rarely "
+"used)."
+msgstr ""
+
+# 1f1eb825129347e984f8e99ac677f3b0
+#: getfem.Eltm:36 of
+msgid ""
+"``E = Eltm('product', Eltm A, Eltm B)`` return a descriptor for the "
+"integration of the tensorial product of elementary matrices `A` and `B`."
+msgstr ""
+

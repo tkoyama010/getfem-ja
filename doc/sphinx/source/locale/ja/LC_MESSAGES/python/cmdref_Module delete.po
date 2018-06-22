@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 4810977003f343c0b1feb35acf9e750e
+#: ../source/python/cmdref_Module delete.rst:8
+msgid "Module delete"
+msgstr ""
+
+# a20c0c14cf364cb88d6155cd2ee99a35
+#: getfem.delete:1 of
+msgid "Synopsis: delete(I[, J, K,...])"
+msgstr ""
+
+# 06e7d63c3cfc4fa1a89674adc1caed2b
+#: getfem.delete:3 of
+msgid "I should be a descriptor given by gf_mesh(), gf_mesh_im(), gf_slice() etc."
+msgstr ""
+
+# c59430f183024214b3df778319a9f459
+#: getfem.delete:6 of
+msgid ""
+"Note that if another object uses I, then object I will be deleted only "
+"when both have been asked for deletion."
+msgstr ""
+
+# 5c9220d420254a478b6ec11cd871a273
+#: getfem.delete:9 of
+msgid ""
+"Only objects listed in the output of gf_workspace('stats') can be deleted"
+" (for example gf_fem objects cannot be destroyed)."
+msgstr ""
+
+# 428a48b516ef4c79a5d1b2d299be8cb3
+#: getfem.delete:12 of
+msgid "You may also use gf_workspace('clear all') to erase everything at once."
+msgstr ""
+

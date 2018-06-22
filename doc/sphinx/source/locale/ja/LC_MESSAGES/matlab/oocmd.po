@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 6f8132761f94427fae58755a04c88f85
+#: ../source/matlab/oocmd.rst:10
+msgid "|gfm| OO-commands"
+msgstr ""
+
+# ae4145ea383641489c90cc275c2d780c
+#: ../source/matlab/oocmd.rst:12
+msgid ""
+"The toolbox comes with a set of |Mlab| objects `mathworks-oo`_, (look at "
+"the :file:`@gf*` sub-directories in the toolbox directory). These object "
+"are no more than the getfem object handles, which are flagged by |mlab| "
+"as objects."
+msgstr ""
+
+# af5f770199c64279a07091790b739dff
+#: ../source/matlab/oocmd.rst:16
+msgid ""
+"In order to use these objects, you have to call their constructors: "
+"``gfMesh``, ``gfMeshFem``, ``gfGeoTrans``, ``gfFem``, ``gfInteg``.  These"
+" constructor just call the corresponding |gfm| function (i.e.  "
+"``gf_mesh``, ``gf_mesh_fem``, ...), and convert the structure returned by"
+" these function into a |mlab| object. There is also a ``gfObject`` "
+"function which converts any getfem handle into the corresponding |mlab| "
+"object."
+msgstr ""
+
+# 83afbd57d74d4e95b027c8241e319362
+#: ../source/matlab/oocmd.rst:23
+msgid ""
+"With such object, the most interesting feature is that you do not have to"
+" call the \"long\" functions names ``gf_mesh_fem_get(obj,...)``, "
+"``gf_slice_set(obj,...)`` etc., instead you just call the shorter "
+"``get(obj,...)`` or ``set(obj,...)`` whatever the type of ``obj`` is."
+msgstr ""
+
+# 386250b4db104b40befcab0011ff9c16
+#: ../source/matlab/oocmd.rst:28
+msgid ""
+"A small number of \"pseudo-properties\" are also defined on these "
+"objects, for example if ``m`` is a ``gfMesh`` object, you can use "
+"directly ``m.nbpts`` instead of ``get(m, 'nbpts')``."
+msgstr ""
+
+# ce08e58ea3d443b98ada8a121c7d22d7
+#: ../source/matlab/oocmd.rst:32
+msgid "As an example::"
+msgstr ""
+
+# b400a98e69b54bbda4f62614503d6e5f
+#: ../source/matlab/oocmd.rst:78
+msgid ""
+"Although this interface seems more convenient, you must be aware that "
+"this always induce a call to a mex-file, and additional |mlab| code::"
+msgstr ""
+
+# f33949841afd422c98b873c37a2498e5
+#: ../source/matlab/oocmd.rst:91
+msgid ""
+"Hence you should always try to store data in |mlab| arrays instead of "
+"repetitively calling the getfem functions."
+msgstr ""
+
+# 60c58ffadb9a4c6b9265550178dfdc55
+#: ../source/matlab/oocmd.rst:94
+msgid ""
+"Avalaible object types are :envvar:`gfCvStruct`, :envvar:`gfGeoTrans`, "
+":envvar:`gfEltm`, :envvar:`gfInteg`, :envvar:`gfFem`, :envvar:`gfMesh`, "
+":envvar:`gfMeshFem`, :envvar:`gfMeshIm`, :envvar:`gfMdBrick`, "
+":envvar:`gfMdState`, :envvar:`gfModel`, :envvar:`gfSpmat`, "
+":envvar:`gfPrecond`, and :envvar:`gfSlice`."
+msgstr ""
+

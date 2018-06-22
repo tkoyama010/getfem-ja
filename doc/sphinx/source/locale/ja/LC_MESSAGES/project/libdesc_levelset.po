@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# e4176ba8964744ef94a41af0e6d49d9c
+#: ../source/project/libdesc_levelset.rst:10
+msgid "Level-set module"
+msgstr ""
+
+# 34c6d4ba14d9435a92a9586b077cb9cd
+# 14a03e7b30b9434abd73162d9383c02a
+#: ../source/project/libdesc_levelset.rst:1
+#: ../source/project/libdesc_levelset.rst:13
+msgid "Description"
+msgstr ""
+
+# 28f7d6e92bbb41baab39ea5b6d857253
+#: ../source/project/libdesc_levelset.rst:15
+msgid ""
+"Define level-set objects and cut meshes, integration method and finite "
+"element method with respect to one or several level-set."
+msgstr ""
+
+# fdf0e5174e504077812c3ca9ada46792
+#: ../source/project/libdesc_levelset.rst:18
+msgid "Files"
+msgstr ""
+
+# b12afe91e7c949cc96daf1a4688c6331
+#: ../source/project/libdesc_levelset.rst:1
+msgid "File(s)"
+msgstr ""
+
+# eb394f11b3c942aab466e6ddb23a0a30
+#: ../source/project/libdesc_levelset.rst:1
+msgid ":file:`getfem_level_set.h` and :file:`getfem_level_set.cc`"
+msgstr ""
+
+# 0062765093444513b38268cc39f118c0
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+"Define a level-set function (scalar field defined on a Lagrange fem) with"
+" an optional secondary level-set function."
+msgstr ""
+
+# 453d0382940146ebb52287c0d5137d4a
+#: ../source/project/libdesc_levelset.rst:1
+msgid ":file:`getfem_mesh_level_set.h` and :file:`getfem_mesh_level_set.cc`"
+msgstr ""
+
+# c308c216057147f2b0f782b6b5de82f0
+#: ../source/project/libdesc_levelset.rst:1
+msgid "Cut a mesh with respect to one or several level-sets."
+msgstr ""
+
+# ab20b8b70b744bfca226b2e7b51d1feb
+#: ../source/project/libdesc_levelset.rst:1
+msgid ":file:`getfem_fem_level_set.h` and :file:`getfem_fem_level_set.cc`"
+msgstr ""
+
+# aedfce1d8cec4a1da51ead6f948a5d0c
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+"Define a special finite element method which depends on the element and "
+"which is cut by one or several level-sets."
+msgstr ""
+
+# e8bd10426f744e3bb4d708eb924f86d5
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+":file:`getfem_mesh_fem_level_set.h` and "
+":file:`getfem_mesh_fem_level_set.cc`"
+msgstr ""
+
+# 9fae6570ac0c4158b4cb44f441024a30
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+"Produces a mesh_fem object with shape functions cut by one or several "
+"level-sets."
+msgstr ""
+
+# 6d740f25f806479fa5b13cbe4dd01f09
+#: ../source/project/libdesc_levelset.rst:1
+msgid ":file:`getfem_mesh_im_level_set.h` and :file:`getfem_mesh_im_level_set.cc`"
+msgstr ""
+
+# 181ce92147d1424b898faed85cdfdc49
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+"Produce a mesh_im representing an intergation method cut by the level set"
+" and being on on side of level-set, the oter side, both or only on the "
+"levelset itself."
+msgstr ""
+
+# 2be3986353e747c88b67980e1b1b1689
+#: ../source/project/libdesc_levelset.rst:1
+msgid ":file:`getfem_level_set_contact.h` and :file:`getfem_level_set_contact.cc`"
+msgstr ""
+
+# 68b0a3f635ee4ba3ad6279c5e449a454
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+"A level set based large sliding contact algorithm for an easy analysis of"
+" implant positioning."
+msgstr ""
+
+# 411466855ad248268d31b875f606e056
+#: ../source/project/libdesc_levelset.rst:1
+msgid ":file:`getfem_convect.h`"
+msgstr ""
+
+# 814f1ab948ab4c3884784dfc0536913a
+#: ../source/project/libdesc_levelset.rst:1
+msgid ""
+"Compute the convection of a quantity with respect to a vector field. Used"
+" to computate the evolution of a level-set function for instance. "
+"Galerkin characteristic method."
+msgstr ""
+
+# ef439afb6abe49a7b4ff72ff78e7e219
+#: ../source/project/libdesc_levelset.rst:33
+msgid "State"
+msgstr ""
+
+# a2b2ffde9c8c4a9aaf3db61acef310a7
+#: ../source/project/libdesc_levelset.rst:35
+msgid "Stable."
+msgstr ""
+
+# 7fca5db8fedd4d3582c3300f6904c1f0
+#: ../source/project/libdesc_levelset.rst:40
+msgid "Perspectives"
+msgstr ""
+
+# dca884b08be9402bb764b7aba6068192
+#: ../source/project/libdesc_levelset.rst:42
+msgid "Clarify the alorithm computing the different zones."
+msgstr ""
+

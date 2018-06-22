@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 2799fed00819433eb4137033a50bac81
+#: ../source/python/pygf.rst:4
+msgid "|py| |gf| interface"
+msgstr ""
+
+# df510754741142498788462ae94ef7d8
+#: ../source/python/pygf.rst:7
+msgid "Introduction"
+msgstr ""
+
+# 5d6f676d8550497daf1d0a0508cfe3ad
+#: ../source/python/pygf.rst:9
+msgid ""
+"|gf| provides an interface to the |py| scripting language. |py| is a "
+"nice, cross-platform, and free language. With the addition of the numpy "
+"package, python provides a subset of Matlab functionalities (i.e. dense "
+"arrays). The `VTK`_ toolkit may provide visualization tools via its "
+"python interface (or via `MayaVi`_), and data files for `OpenDX`_  may be"
+" exported. In this guide, nevertheless, to visualize the results, we will"
+" export to `Gmsh`_ post-processing format. The sparse matrix routines are"
+" provided by the getfem interface."
+msgstr ""
+
+# 4cb99b0ffdcf4ee685f9dad9de254480
+#: ../source/python/pygf.rst:18
+msgid ""
+"The python interface is available via a python module getfem.py. In order"
+" to use the interface you have to load it with::"
+msgstr ""
+
+# 3ed430ce44824ac49cb1825376856699
+#: ../source/python/pygf.rst:24
+msgid "or::"
+msgstr ""
+
+# 04a665fe0194431ca7a7baf538530e67
+#: ../source/python/pygf.rst:29
+msgid ""
+"If the getfem.py (and the internal \\_getfem.so) module is not installed "
+"in a standard location for python, you may have to set the ``PYTHONPATH``"
+" environment variable to its location. For example with::"
+msgstr ""
+
+# 63bb2d6f2ef8455783dce0857d3ed978
+#: ../source/python/pygf.rst:38
+msgid "Parallel version"
+msgstr ""
+
+# b91051ed34ec4d75973f7afe34164f18
+#: ../source/python/pygf.rst:40
+msgid ""
+"The python interface is the only one for the moment to interface the mpi "
+"based parallel version of Getfem. See :ref:`ud-parallel`."
+msgstr ""
+
+# 0e239dca84c14bd38c1144b2b205586f
+#: ../source/python/pygf.rst:43
+msgid "Memory Management"
+msgstr ""
+
+# eb5da6aae120493d9c73728a19b5a316
+#: ../source/python/pygf.rst:45
+msgid ""
+"A nice advantage over the Matlab interface is that you do not have to "
+"explicitly delete objects that are not used any more, this is done "
+"automagically. You can however inspect the content of the getfem "
+"workspace with the function ``getfem.memstats()``."
+msgstr ""
+
+# 16882c46c17b4ca6a5ef7c905edb0c5f
+#: ../source/python/pygf.rst:51
+msgid "Documentation"
+msgstr ""
+
+# a8bf07974cae43cf954e6514877b4350
+#: ../source/python/pygf.rst:53
+#, python-format
+msgid ""
+"The `getfem` module is largely documented. This documentation has been "
+"extracted into the :ref:`api`. The getfem-matlab user guide may also be "
+"used, as 95% of its content translates quite directly into python (with "
+"the exception of the plotting functions, which are specific to matlab)."
+msgstr ""
+
+# 927c08193bad4b9d96b3b0450709584e
+#: ../source/python/pygf.rst:59
+msgid "|py| |gf| organization"
+msgstr ""
+
+# 94c55b16894d416fa1890cf4970b9f5e
+#: ../source/python/pygf.rst:61
+msgid "The general organization of the python-interface is the following:"
+msgstr ""
+
+# 3dbae2bb294b4f0b9eb1ece1e1bbe1bc
+#: ../source/python/pygf.rst:63
+msgid ""
+"Each class from the matlab interface has a corresponding class in the "
+"python interface: the gfMesh class becomes the getfem.Mesh class in "
+"python, the gfSlice becomes the getfem.Slice etc."
+msgstr ""
+
+# 5bc9afcadae349a682dfd76de3a0628a
+#: ../source/python/pygf.rst:66
+msgid ""
+"Each get and set method of the matlab interface has been translated into "
+"a method of the corresponding class in the python interface. For "
+"example::"
+msgstr ""
+
+# 343254761a69409880c892eff2ae4eb4
+#: ../source/python/pygf.rst:72
+msgid "becomes::"
+msgstr ""
+
+# 2f6aa2857fd145b688364af2c25d7d6a
+#: ../source/python/pygf.rst:77
+msgid ""
+"Some methods have been renamed when there was ambiguity, for example "
+"``gf_mesh_set(m, 'pts', P)`` is ``m.set_pts(P)``."
+msgstr ""
+
+# 3838ebcedb3b466f9b4222486f6540c8
+#: ../source/python/pygf.rst:79
+msgid ""
+"The other getfem-matlab function have a very simple mapping to their "
+"python equivalent:"
+msgstr ""
+
+# b751debd413e4b118689444fef36c4cc
+#: ../source/python/pygf.rst:83
+msgid "gf_compute(mf,U,'foo',...)"
+msgstr ""
+
+# 3db44841c08d4c5ca827baa2b31d429e
+#: ../source/python/pygf.rst:83
+msgid "getfem.compute_foo(mf,U) or getfem.compute('foo',...)"
+msgstr ""
+
+# 3d0df06ff36a4c8abb2551948019ff73
+#: ../source/python/pygf.rst:86
+msgid "gf_asm('foobar',...)"
+msgstr ""
+
+# 4c010802b8054e99ae2ac1f696962c54
+#: ../source/python/pygf.rst:86
+msgid "getfem.asm_foobar(...) or getfem.asm('foobar',...)"
+msgstr ""
+
+# 8981ef3a61c44dc2a8b8f149a7f7735e
+#: ../source/python/pygf.rst:89
+msgid "gf_linsolve('gmres',...)"
+msgstr ""
+
+# bc292a27feee44c6a3e77efd12e60a7b
+#: ../source/python/pygf.rst:89
+msgid "getfem.linsolve_gmres(...) or getfem.linsolve('gmres',...)"
+msgstr ""
+
+# 34445aa23b014c1b8f113488d9ab3ddc
+#: ../source/python/pygf.rst:97
+msgid "python-getfem interface main objects hierarchy."
+msgstr ""
+
+# 969b568a29f74cf291ea91143e270a61
+#: ../source/python/pygf.rst:101
+msgid ""
+"Descriptor for a convex structure objects, stores formal information "
+"convex structures (nb. of points, nb. of faces which are themselves "
+"convex structures)"
+msgstr ""
+
+# 5ca33d09934c45f3a26fc7772d7d49a0
+#: ../source/python/pygf.rst:107
+msgid ""
+"Descriptor for geometric transformations objects (defines the "
+"shape/position of the convexes)."
+msgstr ""
+
+# bbc683e678994c64966e15b7d56bef96
+#: ../source/python/pygf.rst:112
+msgid ""
+"Descriptor for mesh structure (nodes, convexes, geometric transformations"
+" for each convex)."
+msgstr ""
+
+# e2130a8119c546f9a8e2b90834e2066d
+#: ../source/python/pygf.rst:117
+msgid ""
+"Descriptor for FEM (Finite Element Method) objects (one per convex, can "
+"be PK, QK, HERMITE, etc...)."
+msgstr ""
+
+# 36b8fe541a76408baea340aef8611dd1
+#: ../source/python/pygf.rst:122
+msgid ""
+"Descriptor for Integration Method objects (exact, quadrature "
+"formula\\ldots). Although not linked directly to GeoTrans, an integration"
+" method is usually specific to a given convex structure."
+msgstr ""
+
+# 4fab1c72c3ec456483b95144fb4a7671
+#: ../source/python/pygf.rst:128
+msgid ""
+"Descriptor for object linked to a mesh, where each convex has been "
+"assigned a FEM."
+msgstr ""
+
+# 1952142231524c69bfa03bcad7179358
+#: ../source/python/pygf.rst:133
+msgid ""
+"Descriptor for object linked to a mesh, where each convex has been "
+"assigned an integration method."
+msgstr ""
+
+# 2dcfe976958f4e63bd6a469f26f2af75
+#: ../source/python/pygf.rst:138
+msgid ""
+"Descriptor for *model* object, holds the global data, variables and "
+"description of a model. Evolution of *model state* and *model brick* "
+"object for 4.0 version of |gf|."
+msgstr ""
+

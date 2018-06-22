@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 28d6d37770754cc79f4b4346e74cdae2
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:8
+msgid "gf_mesh_im_data_set"
+msgstr ""
+
+# 88cbdadd9e55428fae5756a9bf170bf8
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# d24a0c38c82949f2883e7b63615d1bfd
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:17
+msgid "**Description :**"
+msgstr ""
+
+# 0872ec124d6d41de81790451ec73762e
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:20
+msgid "General function for modifying mesh_im objects"
+msgstr ""
+
+# 4c6bd19f5bad4fbf924d38cc49e9876f
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:23
+msgid "**Command list :**"
+msgstr ""
+
+# 667dd4b2d88e4b5aaf2316441eafd420
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:27
+msgid "``gf_mesh_im_data_set(mesh_im_data MID, 'region', int rnum)``"
+msgstr ""
+
+# 12e2e46dbe26477286ad7d3546b888c6
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:29
+msgid "Set the considered region to `rnum`."
+msgstr ""
+
+# 775b3e5e899f4992bf757ba746e90e9e
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:33
+msgid "``gf_mesh_im_data_set(mesh_im_data MID, 'tensor size',)``"
+msgstr ""
+
+# f5881b223ae54937a464d94d0c41641c
+#: ../source/matlab/cmdref_gf_mesh_im_data_set.rst:35
+msgid "Set the size of the data per integration point."
+msgstr ""
+

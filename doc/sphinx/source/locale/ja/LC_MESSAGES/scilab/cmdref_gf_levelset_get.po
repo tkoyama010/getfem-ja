@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# da43f5f5c7ea4c879247dcf48c2d4479
+#: ../source/scilab/cmdref_gf_levelset_get.rst:8
+msgid "gf_levelset_get"
+msgstr ""
+
+# a041f9916e82486e99f684344870082d
+#: ../source/scilab/cmdref_gf_levelset_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 72cac261e63a4037ad7b2c253991180c
+#: ../source/scilab/cmdref_gf_levelset_get.rst:21
+msgid "**Description :**"
+msgstr ""
+
+# 9cd59052de854f78982a23062919d06a
+#: ../source/scilab/cmdref_gf_levelset_get.rst:24
+msgid "General function for querying information about LEVELSET objects."
+msgstr ""
+
+# 0ec1b92ff81e448cbe391ce66e02baeb
+#: ../source/scilab/cmdref_gf_levelset_get.rst:27
+msgid "**Command list :**"
+msgstr ""
+
+# 0a935250d55d41f79a16532e514f5ac8
+#: ../source/scilab/cmdref_gf_levelset_get.rst:31
+msgid "``V = gf_levelset_get(levelset LS, 'values', int nls)``"
+msgstr ""
+
+# 8f8ba3d26fc94c0692bf0b6d3adafcd8
+#: ../source/scilab/cmdref_gf_levelset_get.rst:33
+msgid "Return the vector of dof for <literal>nls</literal> funtion."
+msgstr ""
+
+# d6ae0eac703d4df0a72da1d3fbbe18c5
+#: ../source/scilab/cmdref_gf_levelset_get.rst:35
+msgid ""
+"If <literal>nls</literal> is 0, the method return the vector of dof for "
+"the primary level-set funtion. If <literal>nls</literal> is 1, the method"
+" return the vector of dof for the secondary level-set function (if any)."
+msgstr ""
+
+# 984b1fa50d624e7da40adf8272a2321b
+#: ../source/scilab/cmdref_gf_levelset_get.rst:40
+msgid "``d = gf_levelset_get(levelset LS, 'degree')``"
+msgstr ""
+
+# c119ebc588464fcbb0f4074ccafad1e6
+#: ../source/scilab/cmdref_gf_levelset_get.rst:42
+msgid "Return the degree of lagrange representation."
+msgstr ""
+
+# 2a1592c824c94802894ce0be1f1ba3f7
+#: ../source/scilab/cmdref_gf_levelset_get.rst:45
+msgid "``mf = gf_levelset_get(levelset LS, 'mf')``"
+msgstr ""
+
+# e567b3efe5464becb4651613b7a79040
+#: ../source/scilab/cmdref_gf_levelset_get.rst:47
+msgid "Return a reference on the mesh_fem object."
+msgstr ""
+
+# 4b75eb6938db49608954d5e35f28542d
+#: ../source/scilab/cmdref_gf_levelset_get.rst:50
+msgid "``z = gf_levelset_get(levelset LS, 'memsize')``"
+msgstr ""
+
+# d1b36c4242be412083ae673a6d22819b
+#: ../source/scilab/cmdref_gf_levelset_get.rst:52
+msgid "Return the amount of memory (in bytes) used by the level-set."
+msgstr ""
+
+# c450f9b2f7564939897ebf04268db410
+#: ../source/scilab/cmdref_gf_levelset_get.rst:55
+msgid "``s = gf_levelset_get(levelset LS, 'char')``"
+msgstr ""
+
+# 51392e7830444c3eb20c66877bffbc93
+#: ../source/scilab/cmdref_gf_levelset_get.rst:57
+msgid "Output a (unique) string representation of the levelset."
+msgstr ""
+
+# 19c7ef1feb5d49d0ac78839afc65bcf1
+#: ../source/scilab/cmdref_gf_levelset_get.rst:59
+msgid ""
+"This can be used to perform comparisons between two different levelset "
+"objects. This function is to be completed."
+msgstr ""
+
+# ce92a74dfd3f475693b26c334fa275b6
+#: ../source/scilab/cmdref_gf_levelset_get.rst:65
+msgid "``gf_levelset_get(levelset LS, 'display')``"
+msgstr ""
+
+# 8d01555c18b340449e2bc5797d8147fc
+#: ../source/scilab/cmdref_gf_levelset_get.rst:67
+msgid "displays a short summary for a levelset."
+msgstr ""
+

@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# cc32f027932b49748ceb983b449069f1
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:8
+msgid "gf_mesh_im_data_get"
+msgstr ""
+
+# c217c1b8d87e46ad932553a90616a025
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# c9ceea2468b443c3a6d5706c2a287fc2
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:21
+msgid "**Description :**"
+msgstr ""
+
+# 7a57d74af22c45939e189ef0fc05c7e5
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:24
+msgid "General function extracting information from mesh_im_data objects."
+msgstr ""
+
+# ac7543ab800a45e5bc9acde555eee8ef
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:27
+msgid "**Command list :**"
+msgstr ""
+
+# a225e88b437b4b3bb78e9dbc2e3daeeb
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:31
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'region')``"
+msgstr ""
+
+# bbf18712d7f94f53a28912f0ced1b38b
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:33
+msgid "Output the region that the mesh_imd is restricted to."
+msgstr ""
+
+# 559ae5f3b86a4f569bd373b5393b69b6
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:37
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'nbpts')``"
+msgstr ""
+
+# 8759896b7c4f4ea3bfb25ab0239fe810
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:39
+msgid ""
+"Output the number of integration points (filtered in the considered "
+"region)."
+msgstr ""
+
+# 0e4258f357fe448e900a6a9627e1ea2f
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:43
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'nb tensor elements')``"
+msgstr ""
+
+# 53017370952d4abf92ee6d02314aebba
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:45
+msgid "Output the size of the stored data (per integration point)."
+msgstr ""
+
+# 43b92c1150d04e3881afa52be15d131a
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:49
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'tensor size')``"
+msgstr ""
+
+# f778639b43734a3a9141f077d8db0dca
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:51
+msgid "Output the dimensions of the stored data (per integration point)."
+msgstr ""
+
+# 8c6c2968a438416f9895d98e886888a0
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:55
+msgid "``gf_mesh_im_data_get(mesh_im_data MID, 'display')``"
+msgstr ""
+
+# 181757ebce7c467eaa7355a7c4788f4d
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:57
+msgid "displays a short summary for a mesh_imd object."
+msgstr ""
+
+# a70c0d7df5884e7cba79a78c06a3e872
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:60
+msgid "``m = gf_mesh_im_data_get(mesh_im_data MID, 'linked mesh')``"
+msgstr ""
+
+# 5d02080d7eb845cd82d5db0edbb7c154
+#: ../source/matlab/cmdref_gf_mesh_im_data_get.rst:62
+msgid "Returns a reference to the mesh object linked to `mim`."
+msgstr ""
+
