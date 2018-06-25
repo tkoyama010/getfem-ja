@@ -8,43 +8,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GetFEM++ 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"POT-Creation-Date: 2018-06-25 17:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.6.0\n"
 
-# 378e2113a08448958fc56fb38b0882ea
+# 8ac60549cf1d46b3a880ae8bf1c5ee3d
 #: ../source/whatsnew/5.3.rst:5
 msgid "What's New in |gf| 5.3"
 msgstr ""
 
-# 8f78865699ed4a47bfcf6a4bda239b54
+# 5c0c8e0d4a3d499fbf1668ba2945883b
 #: ../source/whatsnew/5.3.rst:7
 msgid ""
 "The main contribution of this version is the extension of the language "
 "allowing macro definition and explicit differentiation."
 msgstr ""
 
-# 443049dc60df48109f6f005256845507
+# 9513f2409ba44db49d0667a6ac965786
 #: ../source/whatsnew/5.3.rst:9
-msgid "Released version, 2018/06/20."
+msgid "Released version, 2018/06/22."
 msgstr ""
 
-# 38e60d946d5c4f1cad12258fa7bf4994
+# bf09e103568e4dff8f4c49af8e0866d9
 #: ../source/whatsnew/5.3.rst:11
 msgid "The main changes are:"
 msgstr ""
 
-# 905294f28a884c3985f7439301181f1a
+# 8574c30db04e4bfbb688b660aa564f0a
 #: ../source/whatsnew/5.3.rst:13
 msgid "The weak form language now supports macro with parameters"
 msgstr ""
 
-# d951e8e212c44cbe90ce8397863d854a
+# c5b0a46860f54e2ca7a94d0d1ce8e780
 #: ../source/whatsnew/5.3.rst:15
 msgid ""
 "The weak form language has been extended with Grad(expression), the "
@@ -53,20 +53,24 @@ msgid ""
 "been added on this occasion."
 msgstr ""
 
-# c6956c7d6daf43f593b4f962ea7be854
+# 7a38a8e89da04d239df735250d2ca9f0
 #: ../source/whatsnew/5.3.rst:20
 msgid "The support for pyramidal has been extended and stabilized."
 msgstr ""
 
-# ac4ef46ab70348d195a6923379e58ea2
+# 7294519815a740c0a66fd07ac19786af
 #: ../source/whatsnew/5.3.rst:22
 msgid ""
 "Incomplete pyramidal (13-node) and incomplete prism (15-node) elements "
 "have been added."
 msgstr ""
 
-# c593886919864e138c8a4c3181cb4916
+# 07735bbc3d9b46a7bf97ab829fa97017
 #: ../source/whatsnew/5.3.rst:25
 msgid "Importing meshes from ANSYS has been improved/extended."
 msgstr ""
+
+# 443049dc60df48109f6f005256845507
+#~ msgid "Released version, 2018/06/20."
+#~ msgstr ""
 
