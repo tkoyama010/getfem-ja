@@ -8,36 +8,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GetFEM++ 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"POT-Creation-Date: 2018-06-25 17:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.6.0\n"
 
-# ef68a023b6f54ea7bbfc0f86db6ab875
+# 0c8455896db34d4083137df8942f34bf
 #: ../source/glossary.rst:8
 msgid "Glossary"
 msgstr ""
 
-# 516e04468f3047f79cfdc256ed8f3255
+# de7060c166f84919a9b898c116b4fc63
 #: ../source/glossary.rst:13
 msgid "Convex"
 msgstr ""
 
-# 7ba166adb5484c00a1c7d9476e44252c
+# f8d65b0a33e843fca7c6dc6f4b5acbb2
 #: ../source/glossary.rst:15
 msgid "See **element**"
 msgstr ""
 
-# 0acf806ebf8b4f66bf22bb4bda3fc6b6
+# 373309892ba844d2b8667ef0b810e677
 #: ../source/glossary.rst:16
 msgid "Cubature method"
 msgstr ""
 
-# 858879ea2db047e1814d86114a695153
+# 580218f9ff634b2d959bdebc5122dc64
 #: ../source/glossary.rst:18
 msgid ""
 "A cubature method on an **element** consists in a set of nodes (generally"
@@ -45,12 +45,12 @@ msgid ""
 " integration method. In |Gf| it is defined on the **reference elements**."
 msgstr ""
 
-# 97b5ea6d9bad48f19c3a57f2cb58eebe
+# 39b7cc3b23154e889cadb2670baf85f6
 #: ../source/glossary.rst:22
 msgid "Degree of freedom"
 msgstr ""
 
-# b6fe1c59ffda4a6eaaeeb18c34ffd4db
+# c71c3fdee264419b8bd4bdb5d209c2ed
 #: ../source/glossary.rst:24
 msgid ""
 "The degrees of freedom for a finite element method is the coefficients "
@@ -59,26 +59,26 @@ msgid ""
 "general."
 msgstr ""
 
-# e382a8765b10415ea34bb9853c2653e4
+# 5c52d6060ee94d48a0005a4ddd80c475
 #: ../source/glossary.rst:28
 msgid "Element"
 msgstr ""
 
-# 0c3899b973544a56a3ace68a8d81e3c0
+# 591786d2c4054ff287deb42c601b395d
 #: ../source/glossary.rst:30
 msgid ""
-"A element is a small piece of a domain with a special shape (a segment, a"
-" triangle, a quadrilateron, an tetrahedron, a hexahedron or a prism for "
+"An element is a small piece of a domain with a special shape (a segment, "
+"a triangle, a quadrilateron, an tetrahedron, a hexahedron or a prism for "
 "dimensions less or equal to three. A mesh is the union of non "
 "intersecting elements."
 msgstr ""
 
-# cf7a97b741cd47cf85dd007a5eea7404
+# 800dc1bcaa61445dba2e08b323119f48
 #: ../source/glossary.rst:34
 msgid "Finite element method (fem)"
 msgstr ""
 
-# 6476824a6b0f4b6ab269047cc8db2403
+# 70f18b0067c140b7bf78dbdfefc251b0
 #: ../source/glossary.rst:36
 msgid ""
 "A finite element method is defined on a real element. It consist on a "
@@ -87,28 +87,28 @@ msgid ""
 " neighbour element."
 msgstr ""
 
-# 670c693f87b044d78e122c0d783abd4d
+# c8d959d2b28b4f4daae54abe9f796342
 #: ../source/glossary.rst:40
 msgid "Integration method"
 msgstr ""
 
-# 0091b208a10645dc84ba587c76701dc1
-# 9914c904505f41529e138afd834433d3
+# 9f6920fc04e74207a7944ed5e11b2cde
+# b95530dc48b54c1cb0a20a14f8450612
 #: ../source/glossary.rst:42 ../source/glossary.rst:45
 msgid "See **cubature method**."
 msgstr ""
 
-# 2cbc11efdf6b42ff918221cce713c751
+# 75ce8294377f48838dace03207b0811e
 #: ../source/glossary.rst:43
 msgid "Quadrature method"
 msgstr ""
 
-# 190df796bede4afe826071a04fc9c2ac
+# 3512eb9b0c404046a369bf53e4bec38e
 #: ../source/glossary.rst:46
 msgid "Mesh"
 msgstr ""
 
-# 674f824b760343b084f8a55d7012b8e1
+# f82e25a8e72045878199334a503928df
 #: ../source/glossary.rst:48
 msgid ""
 "The mesh is composed of **elements**. in |gf|, these elements are often "
@@ -117,12 +117,12 @@ msgid ""
 "...)."
 msgstr ""
 
-# 332d9649d9b1406d87f00b2f1c157ac8
+# 6c4e4cc6673447d995566852730b01b7
 #: ../source/glossary.rst:52
 msgid "Mesh_Fem"
 msgstr ""
 
-# dfadf49bf3c3408785f0430e091357bf
+# 6c4293bc156a4a28847d0918297f8698
 #: ../source/glossary.rst:54
 msgid ""
 "The mesh_fem object is a mesh with a **finite element method** defined on"
@@ -130,29 +130,52 @@ msgid ""
 "unknown or a data on the considered domain will be discribed."
 msgstr ""
 
-# 24b0f1481f4943288abbe0e241d46e34
+# 7615d0b808a344298758f2eda3984432
 #: ../source/glossary.rst:58
 msgid "Mesh_Im"
 msgstr ""
 
-# e98b6d2df3b94acab73bf26b7a19b6af
+# 5b5767d8b31548929ee012b3d2eb7ae1
 #: ../source/glossary.rst:60
 msgid ""
 "The mesh_im object is a mesh with a **cubature method** defined on each "
 "**element**. It is used in assembly procedures."
 msgstr ""
 
-# 4e355fe751074076a0af38e1c3f977e9
+# 3967a81bd27e47fcaea7f5612a5ba365
 #: ../source/glossary.rst:62
 msgid "Reference element"
 msgstr ""
 
-# 229a95c8475640fe9cf00302ddd8c912
+# 9e15c0377bbc48fbbe14cbefe6dbae53
 #: ../source/glossary.rst:64
 msgid ""
 "A reference element or a convex of reference is a special **element** on "
-"which the elmentary computations (integrals) are performed. For instance,"
-" the reference segment in |gf| is the segment [0,1]. The reference "
-"triangle is the triangle (0,0), (0,1), (1,0). etc."
+"which the elementary computations (integrals) are performed. For "
+"instance, the reference segment in |gf| is the segment [0,1]. The "
+"reference triangle is the triangle (0,0), (0,1), (1,0). etc."
 msgstr ""
+
+# 0c3899b973544a56a3ace68a8d81e3c0
+#~ msgid ""
+#~ "A element is a small piece of "
+#~ "a domain with a special shape (a"
+#~ " segment, a triangle, a quadrilateron, "
+#~ "an tetrahedron, a hexahedron or a "
+#~ "prism for dimensions less or equal "
+#~ "to three. A mesh is the union "
+#~ "of non intersecting elements."
+#~ msgstr ""
+
+# 229a95c8475640fe9cf00302ddd8c912
+#~ msgid ""
+#~ "A reference element or a convex of"
+#~ " reference is a special **element** "
+#~ "on which the elmentary computations "
+#~ "(integrals) are performed. For instance, "
+#~ "the reference segment in |gf| is "
+#~ "the segment [0,1]. The reference "
+#~ "triangle is the triangle (0,0), (0,1),"
+#~ " (1,0). etc."
+#~ msgstr ""
 
