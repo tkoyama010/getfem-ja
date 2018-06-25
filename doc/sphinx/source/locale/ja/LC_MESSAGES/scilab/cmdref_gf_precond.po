@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3987846ae2e7402c9b07bf658a9bb191
+#: ../source/scilab/cmdref_gf_precond.rst:8
+msgid "gf_precond"
+msgstr ""
+
+# 8325f8c24e5e4bdeaa14777ddfcb9991
+#: ../source/scilab/cmdref_gf_precond.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 508ed056ff6a477ca23c277beac09724
+#: ../source/scilab/cmdref_gf_precond.rst:24
+msgid "**Description :**"
+msgstr ""
+
+# c9abbb6773b34ca9b569872b53c74bf8
+#: ../source/scilab/cmdref_gf_precond.rst:27
+msgid "General constructor for precond objects."
+msgstr ""
+
+# cc705e7e49104698b1612d54f33f4538
+#: ../source/scilab/cmdref_gf_precond.rst:29
+msgid ""
+"The preconditioners may store REAL or COMPLEX values. They accept getfem "
+"sparse matrices and Matlab sparse matrices."
+msgstr ""
+
+# 270eecb466ad43369c1b50c47f4f73c8
+#: ../source/scilab/cmdref_gf_precond.rst:33
+msgid "**Command list :**"
+msgstr ""
+
+# 76cfb18c0f944082911cd271278f406c
+#: ../source/scilab/cmdref_gf_precond.rst:37
+msgid "``PC = gf_precond('identity')``"
+msgstr ""
+
+# ac4ea5c77c44470fb841ac3c659be8df
+#: ../source/scilab/cmdref_gf_precond.rst:39
+msgid "Create a REAL identity precondioner."
+msgstr ""
+
+# 186d5da79b6c4003bd844f448d70ca29
+#: ../source/scilab/cmdref_gf_precond.rst:42
+msgid "``PC = gf_precond('cidentity')``"
+msgstr ""
+
+# 988189ca0afc474e85fedccb373148d7
+#: ../source/scilab/cmdref_gf_precond.rst:44
+msgid "Create a COMPLEX identity precondioner."
+msgstr ""
+
+# 9fe8396030c34ef39b94d0f42ac5fa71
+#: ../source/scilab/cmdref_gf_precond.rst:47
+msgid "``PC = gf_precond('diagonal', vec D)``"
+msgstr ""
+
+# f4fa019a83d046fdaeafe378e3cc0fe0
+#: ../source/scilab/cmdref_gf_precond.rst:49
+msgid "Create a diagonal precondioner."
+msgstr ""
+
+# c906d6a3c01147d197ec10bf409257d2
+#: ../source/scilab/cmdref_gf_precond.rst:52
+msgid "``PC = gf_precond('ildlt', spmat m)``"
+msgstr ""
+
+# a2b5489a720d41329d31e02b3bb4b2a0
+#: ../source/scilab/cmdref_gf_precond.rst:54
+msgid ""
+"Create an ILDLT (Cholesky) preconditioner for the (symmetric) sparse "
+"matrix <literal>m</literal>. This preconditioner has the same sparsity "
+"pattern than <literal>m</literal> (no fill-in)."
+msgstr ""
+
+# eb7af04a966b4657bfef58d7b0b61f75
+#: ../source/scilab/cmdref_gf_precond.rst:59
+msgid "``PC = gf_precond('ilu', spmat m)``"
+msgstr ""
+
+# b3c21a246c0241ccb2fed6099060c7d0
+#: ../source/scilab/cmdref_gf_precond.rst:61
+msgid ""
+"Create an ILU (Incomplete LU) preconditioner for the sparse matrix "
+"<literal>m</literal>. This preconditioner has the same sparsity pattern "
+"than <literal>m</literal> (no fill-in)."
+msgstr ""
+
+# 3c26a6d050df460fa49b9e34faa22b51
+#: ../source/scilab/cmdref_gf_precond.rst:66
+msgid "``PC = gf_precond('ildltt', spmat m[, int fillin[, scalar threshold]])``"
+msgstr ""
+
+# 3e6bb98c98f14b17993261add142abf4
+#: ../source/scilab/cmdref_gf_precond.rst:68
+msgid ""
+"Create an ILDLTT (Cholesky with filling) preconditioner for the "
+"(symmetric) sparse matrix <literal>m</literal>. The preconditioner may "
+"add at most <literal>fillin</literal> additional non-zero entries on each"
+" line. The default value for <literal>fillin</literal> is 10, and the "
+"default threshold is1e-7."
+msgstr ""
+
+# e0b3cfb409b14d62a4dd2130ed6231e7
+#: ../source/scilab/cmdref_gf_precond.rst:74
+msgid "``PC = gf_precond('ilut', spmat m[, int fillin[, scalar threshold]])``"
+msgstr ""
+
+# 5d99940be083478cbb571f4dff9f66d5
+#: ../source/scilab/cmdref_gf_precond.rst:76
+msgid ""
+"Create an ILUT (Incomplete LU with filling) preconditioner for the sparse"
+" matrix <literal>m</literal>. The preconditioner may add at most "
+"<literal>fillin</literal> additional non-zero entries on each line. The "
+"default value for <literal>fillin</literal> is 10, and the default "
+"threshold is 1e-7."
+msgstr ""
+
+# f53075f5202e48dcb4f7713e08b6e642
+#: ../source/scilab/cmdref_gf_precond.rst:82
+msgid "``PC = gf_precond('superlu', spmat m)``"
+msgstr ""
+
+# 5ff2b133d6234887bcd08e3ced4d0475
+#: ../source/scilab/cmdref_gf_precond.rst:84
+msgid ""
+"Uses SuperLU to build an exact factorization of the sparse matrix "
+"<literal>m</literal>. This preconditioner is only available if the "
+"getfem-interface was built with SuperLU support. Note that LU "
+"factorization is likely to eat all your memory for 3D problems."
+msgstr ""
+
+# ab537f0978fc4accb69cfbd7d9bb6931
+#: ../source/scilab/cmdref_gf_precond.rst:90
+msgid "``PC = gf_precond('spmat', spmat m)``"
+msgstr ""
+
+# 847026f0d15544caab2de1eb776130e7
+#: ../source/scilab/cmdref_gf_precond.rst:92
+msgid "Preconditionner given explicitely by a sparse matrix."
+msgstr ""
+

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 9ef876f9ae4043d3a3cedd55eb9e226f
+#: ../source/whatsnew/5.1.rst:5
+msgid "What's New in |gf| 5.1"
+msgstr ""
+
+# 3572daa02a0c4abbb6223b3919e505a4
+#: ../source/whatsnew/5.1.rst:7
+msgid ""
+"This release consists mainly in continuing to improve the weak form "
+"language and continuing the brick adaptation and development. Some small "
+"incompatibilities are due to the replacement of simple pointers by smart "
+"ones."
+msgstr ""
+
+# e1569970b7aa4b8581ae8d4f8e966645
+#: ../source/whatsnew/5.1.rst:9
+msgid "Released version, 2016/08/18."
+msgstr ""
+
+# 0a18f0ccbd8146bc9e6268eb1a3bcb35
+#: ../source/whatsnew/5.1.rst:11
+msgid "The main changes are:"
+msgstr ""
+
+# 33b470b96a4d4178b064aae80e859fda
+#: ../source/whatsnew/5.1.rst:13
+msgid ""
+"Extensive use of std::shared_ptr and std::unique_ptr in |gf| : almost all"
+" new and delete occurrences have been suppressed. Some small "
+"incompatibilities in the C++ code : most of simple pointers have been "
+"replaced by smart ones."
+msgstr ""
+
+# 24e584560df041daad9e97e3ec5fa419
+#: ../source/whatsnew/5.1.rst:15
+msgid ""
+"Simplification of the python/matlab/scilab interface concerning the "
+"object management."
+msgstr ""
+
+# 8f2823792ac3458b8d1a8d96c80caccb
+#: ../source/whatsnew/5.1.rst:18
+msgid "Evolution of the small strain plasticity bricks."
+msgstr ""
+
+# d6adec2c15cf430cbd32f134c5a5a825
+#: ../source/whatsnew/5.1.rst:20
+msgid "Large strain plasticity bricks (Simo-Miehe model)."
+msgstr ""
+
+# d928061d8dc742baa1e09347a734d2e5
+#: ../source/whatsnew/5.1.rst:22
+msgid ""
+"Redesign of the dof enumeration algorithm: a local sort instead of a "
+"global one (but it still remains to be parallelized !)"
+msgstr ""
+
+# 6d7b236364d644198c48f88157dbdf76
+#: ../source/whatsnew/5.1.rst:24
+msgid "Addition of a local projection generic function on discontinuous fems."
+msgstr ""
+
+# a427506e67ed4694a4a2b085d98b3d02
+#: ../source/whatsnew/5.1.rst:26
+msgid ""
+"Addition of a specific transformation allowing inter-element computation "
+"in the weak form language (in order to compute inter-element jump of any "
+"quantity, average value, error estimator, ...)"
+msgstr ""
+
+# 77c64780d1ce491ab46628adb09d9084
+#: ../source/whatsnew/5.1.rst:28
+msgid ""
+"Addition of a specific tool (Xfem_plus, Xfem_minus) in the weak form "
+"language in order to have access to the jump across an interface when "
+"using fictitious domain tools."
+msgstr ""
+
+# b63fa08e46964c7b950af04becec0503
+#: ../source/whatsnew/5.1.rst:30
+msgid ""
+"Extension and partial re-writing of the support for global functions as "
+"fem basis functions. Now, storing precomputation of values, gradients and"
+" hessians is possible also for global basis functions."
+msgstr ""
+

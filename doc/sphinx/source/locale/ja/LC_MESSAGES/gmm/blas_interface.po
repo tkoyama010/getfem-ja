@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 638dece8d3df4bcc9f984cb48c9c2a70
+#: ../source/gmm/blas_interface.rst:11
+msgid "Interface with BLAS, LAPACK or ATLAS"
+msgstr ""
+
+# 6e31b6ee98af4672b741f075fdcebf2b
+#: ../source/gmm/blas_interface.rst:13
+msgid ""
+"For better performance on dense matrices, it is possible to interface "
+"some operations of the type ``gmm::dense_matrix<T>`` with ``LAPACK`` "
+"(http://www.netlib.org/lapack/) or ``ATLAS`` (http://math-"
+"atlas.sourceforge.net/), for ``T = float, double, std::complex<float> or "
+"std::complex<double>``. In fact, concerning ``ATLAS`` no specific "
+"interface has been made untill now, so the fortran interface of ``ATLAS``"
+" should be used."
+msgstr ""
+
+# e0409039596f4b87af72948054f86b2a
+#: ../source/gmm/blas_interface.rst:15
+msgid ""
+"to use this interface you have first to define ``GMM_USES_LAPACK`` before"
+" including |gmm| \\ files::"
+msgstr ""
+
+# 872c97c0221e4e8cb75341fcce06f8dd
+#: ../source/gmm/blas_interface.rst:23
+msgid ""
+"or specify -DGMM_USES_LAPACK on the command line of your compiler. Of "
+"course, you have also to link ``LAPACK`` or ``ATLAS`` libraries. For "
+"example on a standard linux configuration and g++ compiler the adding "
+"libraries to link ``LAPACK`` are::"
+msgstr ""
+
+# cb5d124dbc814597947f371298dbc00f
+#: ../source/gmm/blas_interface.rst:27
+msgid "and to link  ``ATLAS``::"
+msgstr ""
+
+# db3846d50a5143fc9fd31ad024734639
+#: ../source/gmm/blas_interface.rst:31
+msgid ""
+"The library ``libgfortranbegin`` and ``libgfortran`` are specific to g++ "
+"compiler and may vary for other compilers."
+msgstr ""
+
+# edf92f73ea5543108b7e218ee8e22134
+#: ../source/gmm/blas_interface.rst:34
+msgid "Ask your system administrator if this configuration does not work."
+msgstr ""
+
+# d910bc5f90f64d2c86455f5bacd66a92
+#: ../source/gmm/blas_interface.rst:36
+msgid "The following operations are interfaced::"
+msgstr ""
+
+# d27a5e849cea4aa4b1a1e42c7e076171
+#: ../source/gmm/blas_interface.rst:131
+msgid "Of course, it is not difficult to interface another operation if needed."
+msgstr ""
+
+# bcd0977e118d49bb8c870747396d6135
+#: ../source/gmm/blas_interface.rst:133
+msgid ""
+"The following interface does not correspond to an algorithm existing in "
+"|gmm|:"
+msgstr ""
+
+# 34634053dcbd4e18af8744a4595d415b
+#: ../source/gmm/blas_interface.rst:135
+msgid "The interface to ``gesvd`` (singular value decomposition)::"
+msgstr ""
+

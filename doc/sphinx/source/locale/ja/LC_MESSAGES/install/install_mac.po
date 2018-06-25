@@ -1,0 +1,505 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# e90d1fb75b484a1583feaf03b6367b51
+#: ../source/install/install_mac.rst:10
+msgid "How to install from sources on MacOS X"
+msgstr ""
+
+# a112cd20a5a14a13bc48012a15400b99
+#: ../source/install/install_mac.rst:12
+msgid ""
+"See `download and install <../download.html>`_ page for general "
+"requirements and the download of the last stable version of |gf|."
+msgstr ""
+
+# 9f69a54005f44f91b282841c333d64ea
+#: ../source/install/install_mac.rst:14
+msgid ""
+"First, verify that you have installed the following components on your "
+"system:"
+msgstr ""
+
+# 287fa048298e4451b0eea56668500564
+#: ../source/install/install_mac.rst:16
+msgid "Xcode"
+msgstr ""
+
+# 8ea34bebf6d341ea9c7f2a154fa723cb
+#: ../source/install/install_mac.rst:17
+msgid "Xquartz"
+msgstr ""
+
+# 716bfd6deed54ae5813fcec24db35d9b
+#: ../source/install/install_mac.rst:18
+msgid "Homebrew"
+msgstr ""
+
+# 6b0d2e325ee04600bb878aaa78852d78
+#: ../source/install/install_mac.rst:20
+msgid "(Xquartz is not strictly necessary but more confortable)."
+msgstr ""
+
+# 80d234ad027b4f9689ba697ab2c44fba
+#: ../source/install/install_mac.rst:22
+msgid "Then execute on a console (if not already done),"
+msgstr ""
+
+# fe4f9305532748259bca4310a7e33d1e
+#: ../source/install/install_mac.rst:24
+msgid "$ brew tap homebrew/science"
+msgstr ""
+
+# d6dca4b0efe046daa77f417aa17e6653
+#: ../source/install/install_mac.rst:26
+msgid "Then, if you download the current git version"
+msgstr ""
+
+# 26e15b9a17e74738859800367afbcc40
+#: ../source/install/install_mac.rst:28
+msgid "$ brew install m4"
+msgstr ""
+
+# 926f6e184cb3433281a41bc92f55752f
+#: ../source/install/install_mac.rst:30
+msgid "$ brew install automake"
+msgstr ""
+
+# 6441c774c93f41ccaca9f21820e684eb
+#: ../source/install/install_mac.rst:32
+msgid "$ brew install libtool"
+msgstr ""
+
+# bf1e3eb8729544e79ea868ff4bbb928f
+#: ../source/install/install_mac.rst:34
+msgid "For the sequential mumps,"
+msgstr ""
+
+# 7281ed4b7c8445ea955fd10d5e73324d
+#: ../source/install/install_mac.rst:36
+msgid "$ brew options mumps"
+msgstr ""
+
+# e4573ecc22a34a7ab6af357f9436c951
+#: ../source/install/install_mac.rst:38
+msgid "$ brew install mumps --without-mpi"
+msgstr ""
+
+# f832d6616b0c4c1eb58e94d9858732b0
+#: ../source/install/install_mac.rst:40
+msgid ""
+"For the parallel one, just forget --without-mpi and install also mpi and "
+"metis."
+msgstr ""
+
+# f2a8a776b3bd4fe2bc46b71b7d35c26c
+#: ../source/install/install_mac.rst:42
+msgid "For Qhull"
+msgstr ""
+
+# b48fe35b4a8c42449c74dd4cbf43b80d
+#: ../source/install/install_mac.rst:44
+msgid "$ brew install qhull"
+msgstr ""
+
+# 2d76679a019b4e33888ace594d769ace
+#: ../source/install/install_mac.rst:46
+msgid "For Python"
+msgstr ""
+
+# b569e1972cc84be785e3bc323fb84b52
+#: ../source/install/install_mac.rst:48
+msgid "$ pip install numpy"
+msgstr ""
+
+# 5c0b1d031722426fb75bef5fe15a8252
+#: ../source/install/install_mac.rst:50
+msgid "$ pip install scipy"
+msgstr ""
+
+# 53007608cc5644af974112af3138063f
+#: ../source/install/install_mac.rst:52
+msgid "$ pip install matplotlib"
+msgstr ""
+
+# 39dc74cccb584bb0b58f26d16059f033
+#: ../source/install/install_mac.rst:56
+msgid "Download sources"
+msgstr ""
+
+# a55cc1676591480ebb59555fb06535f0
+#: ../source/install/install_mac.rst:58
+msgid ""
+"There are two ways to get |gf|, either as a compressed package for the "
+"stable release (file getfem-|version|.tar.gz downloadable on the page "
+"`download and install <../download.html>`_)  or via anonymous git access "
+"(current unstable version under development)."
+msgstr ""
+
+# 4cb61ae8ff2842feb0a5c025a3071420
+#: ../source/install/install_mac.rst:61
+msgid "You can get the last stable version directly with"
+msgstr ""
+
+# 56d9992d32374d5192baef0f5da83eeb
+#: ../source/install/install_mac.rst:63
+msgid "download package:"
+msgstr ""
+
+# 5586619319244194b074c736171c054c
+#: ../source/install/install_mac.rst:65
+msgid ""
+"$ curl -# \"http://download-"
+"mirror.savannah.gnu.org/releases/getfem/stable/getfem-|version|.tar.gz\" "
+"-o \"getfem-|version|.tar.gz\""
+msgstr ""
+
+# 36efcaa2bea54ff2ae53f5de332e5e7a
+#: ../source/install/install_mac.rst:67
+msgid "unpack:"
+msgstr ""
+
+# bd3172c579b541e8a886e9ddfa9d769a
+#: ../source/install/install_mac.rst:69
+msgid "$ tar xzf getfem-|version|.tar.gz"
+msgstr ""
+
+# 23e0e571982e435389764fd925e6445c
+#: ../source/install/install_mac.rst:71
+msgid "and go to the root directory of |gf|:"
+msgstr ""
+
+# 9acda2367e3f49419cf21cb27eb643a4
+#: ../source/install/install_mac.rst:73
+msgid "$ cd getfem-|version|/"
+msgstr ""
+
+# 9c2006fd16194d629442cfc05c112913
+#: ../source/install/install_mac.rst:75
+msgid "The current git version is:"
+msgstr ""
+
+# 05682368497743a6b03e414efdb0502e
+#: ../source/install/install_mac.rst:77
+msgid "checkout over GIT protocol::"
+msgstr ""
+
+# 4305a7712f7245b9b171a4749c88abf9
+#: ../source/install/install_mac.rst:81
+msgid "go to the root directory of |gf|::"
+msgstr ""
+
+# 5ff1c98569d14968854de97d0ee799db
+#: ../source/install/install_mac.rst:85
+msgid "and run ``autogen.sh`` script (you need m4, automake and libtool) ::"
+msgstr ""
+
+# 61cf5a827f9147649de461422014b750
+#: ../source/install/install_mac.rst:91
+msgid "Compiling"
+msgstr ""
+
+# 3140699c92a74bfea15d542a3daa670e
+#: ../source/install/install_mac.rst:93
+msgid "Configure with::"
+msgstr ""
+
+# a1005898fd1941aab6aa31e9df63d1ce
+#: ../source/install/install_mac.rst:97
+msgid "then start the compilation with::"
+msgstr ""
+
+# 7a0721bf5ce54190a86be3f34e4bb1af
+#: ../source/install/install_mac.rst:101
+msgid "and finally install with::"
+msgstr ""
+
+# c1d5d6182de5482a85deeaba015fda75
+#: ../source/install/install_mac.rst:106
+msgid "Configure Options"
+msgstr ""
+
+# e44928b645c64c41b2632532dccb9630
+#: ../source/install/install_mac.rst:108
+msgid ""
+"If you want to use a different compiler than the one chosen automatically"
+" by the ``./configure`` script, just specify its name on the command "
+"line::"
+msgstr ""
+
+# 0a785a71157e4a69b3ace5715f27e919
+#: ../source/install/install_mac.rst:114
+msgid "If you want to build one of the interfaces, use::"
+msgstr ""
+
+# d259585ec6b84351aed0880bfbd83593
+#: ../source/install/install_mac.rst:120
+msgid ""
+"depending on the interface you want to build. Note that the python "
+"interface is build by default and for python 2 version. If you want to "
+"build the python 3 interface use::"
+msgstr ""
+
+# d371ad0779a649258c2909eadc33eba8
+#: ../source/install/install_mac.rst:126
+msgid ""
+"In that case, you have of course to install a python 3 version on your "
+"system together with at least ``numpy`` and ``scipy`` packages."
+msgstr ""
+
+# 85f5ca340f974b19aa4c69120a9ada99
+#: ../source/install/install_mac.rst:129
+msgid ""
+"If you want to use a specific **BLAS** library, you may have to supply "
+"the necessary link flags and libs to the configure script with::"
+msgstr ""
+
+# 3b118da70d51452caa800a6697fba613
+#: ../source/install/install_mac.rst:135
+msgid "for example::"
+msgstr ""
+
+# 0996139091b142268494270d0a78b8d1
+#: ../source/install/install_mac.rst:139
+msgid ""
+"If you want to set the prefix directory where to install the library you "
+"can use the ``--prefix`` option (the default prefix directory is "
+"``/usr/local``)::"
+msgstr ""
+
+# 6f105a1d847b4575ad306ab9b835e5f5
+#: ../source/install/install_mac.rst:145
+msgid ""
+"Note that there are other options to the configure script. A "
+"``./configure --help`` will list them."
+msgstr ""
+
+# 7b798d5214284e929639fbd0af1ba7d6
+#: ../source/install/install_mac.rst:151
+msgid "Matlab interface"
+msgstr ""
+
+# e9e41c2da2774d3192c1bbde4e415ad1
+#: ../source/install/install_mac.rst:153
+msgid ""
+"The compilation of the matlab interface (with the ``--enable-matlab`` "
+"option of the ``configure`` script) may fail due to a bad configuration "
+"of the Matlab compiler `mex`."
+msgstr ""
+
+# 6fe3149fe0d14f4abb2b1b20f02b41d2
+#: ../source/install/install_mac.rst:155
+msgid ""
+"First, you need ``matlab`` and ``mex`` commands accessible from your "
+"shell prompt. If not, add ``Applications/MATLAB_RXXXX.app/bin`` on your "
+"path (for instance with ``export "
+"PATH=$PATH:Applications/MATLAB_RXXXX.app/bin`` if your shell is ``bash`` "
+"and for ``XXXX`` your Matlab installed version. Alternatively, you can "
+"make symbolic links to ``matlab`` and ``mex`` executable in "
+"``/usr/local/bin`` thanks to the command ``sudo ln -s "
+"Applications/MATLAB_RXXXX.app/bin/matlab matlab`` and ``sudo ln -s "
+"Applications/MATLAB_RXXXX.app/bin/mex mex``."
+msgstr ""
+
+# 5d77b51cc9b04aeaa8cf320fb9f7a854
+#: ../source/install/install_mac.rst:157
+msgid "Then, you will probably have to run"
+msgstr ""
+
+# bed26a153c06486eb038c926b3f792f4
+#: ../source/install/install_mac.rst:159
+msgid "$ mex -setup"
+msgstr ""
+
+# dc62aa2fe26c4ad09ff5e6d4fa6d1d1c
+#: ../source/install/install_mac.rst:161
+msgid ""
+"To produce the correct ``mexopts.sh`` file in the ``.matlab/`` directory "
+"of your home directory. If it still does not work, then you can try to "
+"modify the ``.matlab/mexopts.sh`` or replace it. Some ``mexopts.sh`` "
+"specially adpated to macOS X/Xcode are available on the internet (See for"
+" instance here for `MATLAB_R2015 "
+"<https://gist.github.com/varunagrawal/811e05ee4ca0f6a9952d>`_)."
+msgstr ""
+
+# cbd09f14e266491db5aaf7627033afa7
+# 3475a5d0af1b4e289d0d781a80768aa3
+#: ../source/install/install_mac.rst:168 ../source/install/install_mac.rst:225
+msgid ""
+"you should have built the |gf| static library (i.e. do not use "
+"``./configure --disable-static`` when building |gf|)."
+msgstr ""
+
+# f28e764b0d6e42fb88c45810d8ca047f
+#: ../source/install/install_mac.rst:171
+msgid ""
+"you should have use the --enable-matlab option to configure the |gf| "
+"sources (i.e. ./configure --enable-matlab ...)"
+msgstr ""
+
+# fe58d7ecf8cd45969f034797d84b4ff1
+#: ../source/install/install_mac.rst:173
+msgid ""
+"You may also use ``--with-matlab-toolbox-dir=toolbox_dir`` to change the "
+"default toolbox installation directory (``gfdest_dir/getfem_toolbox``). "
+"Use ``./configure --help`` for more options."
+msgstr ""
+
+# de1973561eca49a787406f97a3b50295
+#: ../source/install/install_mac.rst:176
+msgid ""
+"With this, since the Matlab interface is contained into the |gf| sources "
+"(in the directory interface/src) you can compile both the |gf| library "
+"and the Matlab interface by ::"
+msgstr ""
+
+# 1af215f19b934080984039644a4a99ed
+#: ../source/install/install_mac.rst:180
+msgid ""
+"An optional step is ``make check`` in order to check the matlab interface"
+" (this sets some environment variables and runs the ``check_all.m`` "
+"script which is the ``tests/matlab`` directory of the distribution) and "
+"install it (the libraries will be copied in ``gfdest_dir/lib``, while the"
+" MEX-File and M-Files will be copied in ``toolbox_dir``)::"
+msgstr ""
+
+# 4e12d458680c442e87b8e8723d524a12
+# 84f76e5201c34384ae422009c1d65987
+#: ../source/install/install_mac.rst:187 ../source/install/install_mac.rst:241
+msgid ""
+"If you want to use a different compiler than the one chosen automatically"
+" by the ``./configure`` script, just specify its name on the command "
+"line: ``./configure CXX=mycompiler``."
+msgstr ""
+
+# 76b8241bc24e4c3c8be69aa75a44ab90
+#: ../source/install/install_mac.rst:189
+msgid ""
+"When the library is installed, you may have to set the "
+"``LD_LIBRARY_PATH`` environment variable to the directory containing the "
+"``libgetfem.so`` and ``libgetfemint.so``, which is ``gfdest_dir/lib``::"
+msgstr ""
+
+# 5776f8cc208b4579833db8d10a9d9d64
+#: ../source/install/install_mac.rst:195
+msgid "The last step is to add the path to the toolbox in the matlab path:"
+msgstr ""
+
+# d9b7adde3c8e4559a70b3a8de39b11d3
+#: ../source/install/install_mac.rst:197
+msgid ""
+"you can set the environment variable ``MATLABPATH`` to ``toolbox_dir`` "
+"(``export MATLABPATH=toolbox_dir`` for example)."
+msgstr ""
+
+# 5a42c74e2dff47d48ef33365e020f387
+#: ../source/install/install_mac.rst:199
+msgid "you can put ``addpath('toolbox_dir')`` to your ``$HOME/matlab/startup.m``"
+msgstr ""
+
+# f57973a0421d431cbd02531b28b6781c
+#: ../source/install/install_mac.rst:201
+msgid ""
+"You can then try to execute one of the demo program in "
+"``getfem_root_directory/interface/tests/matlab``."
+msgstr ""
+
+# 1176bd39689947e8a8bce0c539e66420
+#: ../source/install/install_mac.rst:204
+msgid ""
+"A few precompiled versions of the Matlab interface are available on the "
+"`download and install <../download.html>`_ page of |gf|."
+msgstr ""
+
+# b439bb53413e4c558dc5baeb7dd4d94d
+#: ../source/install/install_mac.rst:215
+msgid "Scilab interface"
+msgstr ""
+
+# f535b2acc52349fb9b7034e6b99e47f8
+#: ../source/install/install_mac.rst:217
+msgid ""
+"The installation of the |sci| |gf| toolbox can be somewhat tricky, since "
+"it combines a C++ compiler, libraries and |sci| interaction. In case of "
+"troubles with a non-GNU compiler, gcc/g++ (>= 4.8) should be a safe "
+"solution."
+msgstr ""
+
+# 10801cdaa236478ca50ca8e2c4e66fa3
+#: ../source/install/install_mac.rst:223
+msgid "The minimal |sci| release is the 5.2.2."
+msgstr ""
+
+# 06a3950e2f9546d7a7cabb17ee3fb956
+#: ../source/install/install_mac.rst:228
+msgid ""
+"you should have use the ``--enable-scilab`` option to configure the |gf| "
+"sources (i.e. ``./configure --enable-scilab`` ...)"
+msgstr ""
+
+# f5680b002b5843598ff06d677b34243f
+#: ../source/install/install_mac.rst:230
+msgid ""
+"You may also use ``--with-scilab-toolbox-dir=toolbox_dir`` to change the "
+"default toolbox installation directory (``gfdest_dir/getfem_toolbox``). "
+"Use ``./configure --help`` for more options."
+msgstr ""
+
+# 745e4c33d1334ddca8c5485fe51adca1
+#: ../source/install/install_mac.rst:233
+msgid ""
+"With this, since the Scilab interface is contained into the |gf| sources "
+"(in the directory interface/src) you can compile both the |gf| library "
+"and the Scilab interface by ::"
+msgstr ""
+
+# 640652cba3e2426180c534bf8926bddc
+#: ../source/install/install_mac.rst:237
+msgid "Optionally, you can install it with ::"
+msgstr ""
+
+# 762c3f9758fd47d6b1be06683ab97291
+#: ../source/install/install_mac.rst:244
+msgid "Once getfem is compiled:"
+msgstr ""
+
+# 92bf47c50064425fa9eac6cbbe2df3a7
+#: ../source/install/install_mac.rst:246
+msgid ""
+"Go to the scilab getfem++ interface install directory "
+"(interface/src/scilab if the installation is not done)"
+msgstr ""
+
+# b7deee68f1104b37a64dccbdd0ca08fb
+#: ../source/install/install_mac.rst:248
+msgid "launch scilab"
+msgstr ""
+
+# 09476cfda97440108cca9ed47823271b
+#: ../source/install/install_mac.rst:250
+msgid "load the getfem++ toolbox with: ``exec loader.sce;``"
+msgstr ""
+
+# adf9a7258c7149f6886584030aa64bca
+#: ../source/install/install_mac.rst:253
+msgid ""
+"You can try to launch a demo with: ``cd demos;`` ``exec "
+"demo_static_contact.sce;``"
+msgstr ""
+

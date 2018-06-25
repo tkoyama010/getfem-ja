@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 7935083519a342c49ea6f2e28d401e28
+#: ../source/scilab/cmdref_gf_precond_get.rst:8
+msgid "gf_precond_get"
+msgstr ""
+
+# 46e3ec69872a45698f9bb8e79ba775c7
+#: ../source/scilab/cmdref_gf_precond_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 86e58da0b4d44ebc82dbd3fdae0ac5db
+#: ../source/scilab/cmdref_gf_precond_get.rst:22
+msgid "**Description :**"
+msgstr ""
+
+# 5c1776f6f6034dc0ab67f943d2d71fbd
+#: ../source/scilab/cmdref_gf_precond_get.rst:25
+msgid "General function for querying information about precond objects."
+msgstr ""
+
+# 01dfca6013fa483796f134f0f869ba32
+#: ../source/scilab/cmdref_gf_precond_get.rst:28
+msgid "**Command list :**"
+msgstr ""
+
+# 6ce426ec443944d7bda29096caac2104
+#: ../source/scilab/cmdref_gf_precond_get.rst:32
+msgid "``gf_precond_get(precond P, 'mult', vec V)``"
+msgstr ""
+
+# 712437faaa794ea494308833d9e6c539
+#: ../source/scilab/cmdref_gf_precond_get.rst:34
+msgid "Apply the preconditioner to the supplied vector."
+msgstr ""
+
+# 9606ad5c54ed46eeba79439a645b8429
+#: ../source/scilab/cmdref_gf_precond_get.rst:37
+msgid "``gf_precond_get(precond P, 'tmult', vec V)``"
+msgstr ""
+
+# 69f785c0d99747f2888432daaebdd2be
+#: ../source/scilab/cmdref_gf_precond_get.rst:39
+msgid "Apply the transposed preconditioner to the supplied vector."
+msgstr ""
+
+# d67f6479cbe24d68ace83369261dab48
+#: ../source/scilab/cmdref_gf_precond_get.rst:42
+msgid "``gf_precond_get(precond P, 'type')``"
+msgstr ""
+
+# 04d9cc43f3f04170b02189a7b6da4af4
+#: ../source/scilab/cmdref_gf_precond_get.rst:44
+msgid ""
+"Return a string describing the type of the preconditioner ('ilu', "
+"'ildlt',..)."
+msgstr ""
+
+# 714d1060c3864c4d8a59e0ec72f63c1d
+#: ../source/scilab/cmdref_gf_precond_get.rst:47
+msgid "``gf_precond_get(precond P, 'size')``"
+msgstr ""
+
+# f499f29c23124d4b876ca0a8954d6e29
+#: ../source/scilab/cmdref_gf_precond_get.rst:49
+msgid "Return the dimensions of the preconditioner."
+msgstr ""
+
+# 54e92e86291a4e3c9d5f44e52446e525
+#: ../source/scilab/cmdref_gf_precond_get.rst:52
+msgid "``gf_precond_get(precond P, 'is_complex')``"
+msgstr ""
+
+# 6034d9dd150145e599acd30b9e2c43a9
+#: ../source/scilab/cmdref_gf_precond_get.rst:54
+msgid "Return 1 if the preconditioner stores complex values."
+msgstr ""
+
+# f15d9b14bf62493f855af11c8b93b3c8
+#: ../source/scilab/cmdref_gf_precond_get.rst:57
+msgid "``s = gf_precond_get(precond P, 'char')``"
+msgstr ""
+
+# 4a1b37d5536645febadb77be24fa080e
+#: ../source/scilab/cmdref_gf_precond_get.rst:59
+msgid "Output a (unique) string representation of the precond."
+msgstr ""
+
+# 96f9bbea3bb54ca687f55ab525a7ed4a
+#: ../source/scilab/cmdref_gf_precond_get.rst:61
+msgid ""
+"This can be used to perform comparisons between two different precond "
+"objects. This function is to be completed."
+msgstr ""
+
+# a125432d962b4684a1e2864d9e18f665
+#: ../source/scilab/cmdref_gf_precond_get.rst:67
+msgid "``gf_precond_get(precond P, 'display')``"
+msgstr ""
+
+# a87454f771cf4e7c9aebbbe9cfc61be4
+#: ../source/scilab/cmdref_gf_precond_get.rst:69
+msgid "displays a short summary for a precond object."
+msgstr ""
+

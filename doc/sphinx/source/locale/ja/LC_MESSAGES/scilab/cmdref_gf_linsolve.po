@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 7bc6349331f04763a5468ad3bd9c53f8
+#: ../source/scilab/cmdref_gf_linsolve.rst:8
+msgid "gf_linsolve"
+msgstr ""
+
+# ec546b5040f54415a4c15c5f95569eb5
+#: ../source/scilab/cmdref_gf_linsolve.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# c87865dc020e4ed3a9c98711a0ac88c6
+#: ../source/scilab/cmdref_gf_linsolve.rst:21
+msgid "**Description :**"
+msgstr ""
+
+# 4a3ef6a97af74a9d926ed3504ce445eb
+#: ../source/scilab/cmdref_gf_linsolve.rst:24
+msgid "Various linear system solvers."
+msgstr ""
+
+# 649477c9885b460fbe00972be3ff76d0
+#: ../source/scilab/cmdref_gf_linsolve.rst:27
+msgid "**Command list :**"
+msgstr ""
+
+# 49492bf4398848969608b1f4f5ac6786
+#: ../source/scilab/cmdref_gf_linsolve.rst:31
+msgid ""
+"``X = gf_linsolve('gmres', spmat M, vec b[, int restart][, precond "
+"P][,'noisy'][,'res', r][,'maxiter', n])``"
+msgstr ""
+
+# a8b8e945e09340bfbfb64fdc681ba091
+#: ../source/scilab/cmdref_gf_linsolve.rst:33
+msgid ""
+"Solve <literal>M.X = b</literal> with the generalized minimum residuals "
+"method."
+msgstr ""
+
+# f0f4ed098f6c4eb397c233ea6b6a9acd
+#: ../source/scilab/cmdref_gf_linsolve.rst:35
+msgid ""
+"Optionally using <literal>P</literal> as preconditioner. The default "
+"value of the restart parameter is 50."
+msgstr ""
+
+# ccfc59bb1b7a4b6ba54105da8f7467ee
+#: ../source/scilab/cmdref_gf_linsolve.rst:39
+msgid ""
+"``X = gf_linsolve('cg', spmat M, vec b [, precond P][,'noisy'][,'res', "
+"r][,'maxiter', n])``"
+msgstr ""
+
+# e52b1942db104a38808fc0c869423dc5
+#: ../source/scilab/cmdref_gf_linsolve.rst:41
+msgid "Solve <literal>M.X = b</literal> with the conjugated gradient method."
+msgstr ""
+
+# 862a0a97ec7047f898768e274a1feeaf
+#: ../source/scilab/cmdref_gf_linsolve.rst:43
+msgid "Optionally using <literal>P</literal> as preconditioner."
+msgstr ""
+
+# fcd958c1475d44edaba8e6b7c563a96a
+#: ../source/scilab/cmdref_gf_linsolve.rst:46
+msgid ""
+"``X = gf_linsolve('bicgstab', spmat M, vec b [, precond "
+"P][,'noisy'][,'res', r][,'maxiter', n])``"
+msgstr ""
+
+# ca514a0fae2f427e901e8f6f0c5c6883
+#: ../source/scilab/cmdref_gf_linsolve.rst:48
+msgid ""
+"Solve <literal>M.X = b</literal> with the bi-conjugated gradient "
+"stabilized method."
+msgstr ""
+
+# f5526b5409a24aea8421d7ae34c2e0e8
+#: ../source/scilab/cmdref_gf_linsolve.rst:50
+msgid "Optionally using <literal>P</literal> as a preconditioner."
+msgstr ""
+
+# 2a6da424eabc4e6785df1448f7bc2a95
+#: ../source/scilab/cmdref_gf_linsolve.rst:53
+msgid "``{U, cond} = gf_linsolve('lu', spmat M, vec b)``"
+msgstr ""
+
+# f0a278bcb9444440aa936479d3021c80
+#: ../source/scilab/cmdref_gf_linsolve.rst:55
+msgid "Alias for gf_linsolve('superlu',...)"
+msgstr ""
+
+# ddc8557aad3b42f4b5417b2c96f87fbb
+#: ../source/scilab/cmdref_gf_linsolve.rst:58
+msgid "``{U, cond} = gf_linsolve('superlu', spmat M, vec b)``"
+msgstr ""
+
+# afbf6993fbc9438e8a9e834ae847de72
+#: ../source/scilab/cmdref_gf_linsolve.rst:60
+msgid ""
+"Solve <literal>M.U = b</literal> apply the SuperLU solver (sparse LU "
+"factorization)."
+msgstr ""
+
+# f138830525cd43608ac9dd1431701ebc
+#: ../source/scilab/cmdref_gf_linsolve.rst:62
+msgid ""
+"The condition number estimate <literal>cond</literal> is returned with "
+"the solution <literal>U</literal>."
+msgstr ""
+
+# 3c101f5f38cb4c678ec414ee25e900d6
+#: ../source/scilab/cmdref_gf_linsolve.rst:65
+msgid "``{U, cond} = gf_linsolve('mumps', spmat M, vec b)``"
+msgstr ""
+
+# c8825b4dc3dd44fdaf07d942c7eb825a
+#: ../source/scilab/cmdref_gf_linsolve.rst:67
+msgid "Solve <literal>M.U = b</literal> using the MUMPS solver."
+msgstr ""
+

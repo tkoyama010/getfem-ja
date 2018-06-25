@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# a27376f5e9554c8eb9d2ed3b4a8f48fe
+#: ../source/whatsnew/5.0.rst:5
+msgid "What's New in |gf| 5.0"
+msgstr ""
+
+# 4d1d216977a04da1a056d17d34ad4930
+#: ../source/whatsnew/5.0.rst:7
+msgid ""
+"This is a major release of |gf|. The main evolution is the generalization"
+" of the use of the high-level generic assembly for a more easy writting "
+"of nonlinear coupled problems. The few incompatibilities come from the "
+"fact that a certain number of tools have been re-designed (mainly "
+"Nitsche's bricks and time integration schemes) and the old brick system "
+"(from 1.7 release) have been definitevely unplugged."
+msgstr ""
+
+# 51e8ff6c8fb24119bcc54657e192a735
+#: ../source/whatsnew/5.0.rst:9
+msgid "Released version, 2015/07/29."
+msgstr ""
+
+# 6acc12095544491b8bcebd667cfc3ec8
+#: ../source/whatsnew/5.0.rst:11
+msgid "The main changes are:"
+msgstr ""
+
+# 05d4315594eb471f8acd2cf3ca6bb8a1
+#: ../source/whatsnew/5.0.rst:13
+msgid ""
+"Standard bricks (generic elliptic, elasticity ...) are now based on the "
+"high-level generic assembly."
+msgstr ""
+
+# 5506fb754af6490eacd217ce72be7ae0
+#: ../source/whatsnew/5.0.rst:16
+msgid "Nitsche's bricks have been re-designed."
+msgstr ""
+
+# a55d69617a8246338c598dbcb27b3d8e
+#: ../source/whatsnew/5.0.rst:18
+msgid "The support for time integration schemes has been re-designed."
+msgstr ""
+
+# 672a3aa929674ec4af4945679162d9d3
+#: ../source/whatsnew/5.0.rst:20
+msgid ""
+"The support for large sliding contact has been improved (still a work in "
+"progress)."
+msgstr ""
+
+# b2447f1dc7db437298f3e80375ae5d7a
+#: ../source/whatsnew/5.0.rst:23
+msgid "Import of GMSH meshes has been improved."
+msgstr ""
+
+# 43f9bd3ba20f4d8692c151753835d528
+#: ../source/whatsnew/5.0.rst:25
+msgid "New tutorial and new Python/Scilab/Matlab demos."
+msgstr ""
+
+# 10b534c6f46344e3a9f44aa641326f9a
+#: ../source/whatsnew/5.0.rst:27
+msgid "Allowing tensor field for model data."
+msgstr ""
+
+# eabf8b2a023f45ebb120ba5d04d74885
+#: ../source/whatsnew/5.0.rst:29
+msgid "Cleaning/deletion of some obsolete files, including the old brick system."
+msgstr ""
+
+# 5adcc68b69e14e84a01602d39e2757b2
+#: ../source/whatsnew/5.0.rst:31
+msgid "MPI and OpenMP parallelization of the high-level generic assembly."
+msgstr ""
+
+# 1892fc9a6717436c8dedd55830c79c59
+#: ../source/whatsnew/5.0.rst:33
+msgid ""
+"The use of mu_parser have been replaced by the use of the weak form "
+"language. mu_parser in no longer a dependence of |gf|."
+msgstr ""
+
+# 69039f11ed7c4c9b81e149a68ac00e94
+#: ../source/whatsnew/5.0.rst:36
+msgid ""
+"Add of \"elementary transformations\" in the weak form language to allow "
+"for instance a local projection of a finite element on a lower level "
+"element to perform a reduction such as the one used in MITC element."
+msgstr ""
+
+# 9c3422e3096349bab1c714ef42583ad1
+#: ../source/whatsnew/5.0.rst:40
+msgid "Macro definition in the weak form language."
+msgstr ""
+
+# 6cf612e0acd147b994c335671df5c7aa
+#: ../source/whatsnew/5.0.rst:42
+msgid "Numerical continuation/bifurcation detection/branching improved."
+msgstr ""
+
+# 1e2da8a6d61e4a4986785eef88a68856
+#: ../source/whatsnew/5.0.rst:44
+msgid ""
+"Matrix exponential and logarithm operators added to the weak form "
+"language."
+msgstr ""
+
+# ecdd39f4ac354dfcaf8d6c7db8ba76b2
+#: ../source/whatsnew/5.0.rst:46
+msgid "Allowing the use of C++11 feature."
+msgstr ""
+
+# 05484439d8e94ea19ba4bae6d9a0e4fe
+#: ../source/whatsnew/5.0.rst:48
+msgid ""
+"New im_data object version to store and interpolate data on the gauss "
+"points of a boundary."
+msgstr ""
+

@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# d656e3b96e594da09007143047904fc1
+#: ../source/matlab/cmdref_gf_poly.rst:8
+msgid "gf_poly"
+msgstr ""
+
+# 1af1d4868de54cbfb01ce59a611ca4d6
+#: ../source/matlab/cmdref_gf_poly.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 7146f81ee683412e8f45ba7652f2f2aa
+#: ../source/matlab/cmdref_gf_poly.rst:17
+msgid "**Description :**"
+msgstr ""
+
+# 65f95883bdd2418996369b9b0d4d8951
+#: ../source/matlab/cmdref_gf_poly.rst:21
+msgid "Performs various operations on the polynom POLY."
+msgstr ""
+
+# 4b27e7286af140d2989712ac8296c7ff
+#: ../source/matlab/cmdref_gf_poly.rst:24
+msgid "**Command list :**"
+msgstr ""
+
+# 5d61478213ef4a7685409edf4688a7e5
+#: ../source/matlab/cmdref_gf_poly.rst:28
+msgid "``gf_poly(poly P, 'print')``"
+msgstr ""
+
+# 3bb461d2a3094a0a81b27de64b1cc296
+#: ../source/matlab/cmdref_gf_poly.rst:30
+msgid "Prints the content of P."
+msgstr ""
+
+# e31a29d499874446b5483f0ef0455bed
+#: ../source/matlab/cmdref_gf_poly.rst:34
+msgid "``gf_poly(poly P, 'product')``"
+msgstr ""
+
+# 1f12c15ff98844e79aa99f94077b1966
+#: ../source/matlab/cmdref_gf_poly.rst:36
+msgid "To be done ... !"
+msgstr ""
+

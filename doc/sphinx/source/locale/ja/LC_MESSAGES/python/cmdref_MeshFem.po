@@ -1,0 +1,700 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 21b2630ddad44d0e90b394d9aea8bb21
+#: ../source/python/cmdref_MeshFem.rst:8
+msgid "MeshFem"
+msgstr ""
+
+# e1f5695d93454201bc5a28e48eadbd21
+#: getfem.MeshFem:1 of
+msgid "GeFEM MeshFem object"
+msgstr ""
+
+# 174340b2b085403582a746b1416bf780
+#: getfem.MeshFem:3 of
+msgid "This object represents a finite element method defined on a whole mesh."
+msgstr ""
+
+# 0d744f93d8974a0b81252c2040d449da
+#: getfem.MeshFem:6 of
+msgid "General constructor for MeshFem objects"
+msgstr ""
+
+# a60cb8f4742649d8b526892799333add
+#: getfem.MeshFem:8 of
+msgid ""
+"``MF = MeshFem(Mesh m[, int Qdim1=1[, int Qdim2=1, ...]])`` Build a new "
+"MeshFem object."
+msgstr ""
+
+# 50295d1c68a54eb0a597e66965d48a1b
+#: getfem.MeshFem:11 of
+msgid ""
+"The `Qdim` parameters specifies the dimension of the field represented by"
+" the finite element method. Qdim1 = 1 for a scalar field, Qdim1 = n for a"
+" vector field off size n, Qdim1=m, Qdim2=n for a matrix field of size mxn"
+" ... Returns the handle of the created object."
+msgstr ""
+
+# c026c5bef2a2462d802606679e677b8c
+#: getfem.MeshFem:17 of
+msgid ""
+"``MF = MeshFem('load', string fname[, Mesh m])`` Load a MeshFem from a "
+"file."
+msgstr ""
+
+# 0f9c02f818124b3381746ec802c30793
+#: getfem.MeshFem:20 of
+msgid ""
+"If the mesh `m` is not supplied (this kind of file does not store the "
+"mesh), then it is read from the file `fname` and its descriptor is "
+"returned as the second output argument."
+msgstr ""
+
+# 70e75506044f44baa85894d4f0b58835
+#: getfem.MeshFem:24 of
+msgid ""
+"``MF = MeshFem('from string', string s[, Mesh m])`` Create a MeshFem "
+"object from its string description."
+msgstr ""
+
+# 108c8a854d2a4f5c8cc90c1ecfe61e62
+#: getfem.MeshFem:27 of
+msgid "See also ``MeshFem.char()``"
+msgstr ""
+
+# 877e6100a43940a4a59a7905eba2efa0
+#: getfem.MeshFem:29 of
+msgid "``MF = MeshFem('clone', MeshFem mf)`` Create a copy of a MeshFem."
+msgstr ""
+
+# d22a59626e204cd88c67ace53f56f77f
+#: getfem.MeshFem:32 of
+msgid ""
+"``MF = MeshFem('sum', MeshFem mf1, MeshFem mf2[, MeshFem mf3[, ...]])`` "
+"Create a MeshFem that spans two (or more) MeshFem's."
+msgstr ""
+
+# 628cd834ce4c46d4812e33590082eab2
+#: getfem.MeshFem:35 of
+msgid "All MeshFem must share the same mesh."
+msgstr ""
+
+# 75ccc7aa63864de087ea6c538e9bc83e
+#: getfem.MeshFem:37 of
+msgid "After that, you should not modify the FEM of `mf1`, `mf2` etc."
+msgstr ""
+
+# 93666194ce554f68b2e993f579666700
+#: getfem.MeshFem:39 of
+msgid ""
+"``MF = MeshFem('product', MeshFem mf1, MeshFem mf2)`` Create a MeshFem "
+"that spans all the product of a selection of shape functions of `mf1` by "
+"all shape functions of `mf2`. Designed for Xfem enrichment."
+msgstr ""
+
+# c3734175ffac45ecaa4969dd4dc18d6f
+#: getfem.MeshFem:44 of
+msgid "`mf1` and `mf2` must share the same mesh."
+msgstr ""
+
+# 3feebab1529d4169bbe2202b486b3158
+#: getfem.MeshFem:46 of
+msgid "After that, you should not modify the FEM of `mf1`, `mf2`."
+msgstr ""
+
+# c0928d965c4142cb882e7f07d74e0d16
+#: getfem.MeshFem:48 of
+msgid ""
+"``MF = MeshFem('levelset', MeshLevelSet mls, MeshFem mf)`` Create a "
+"MeshFem that is conformal to implicit surfaces defined in MeshLevelSet."
+msgstr ""
+
+# 162135a3576240739a49a659b432057d
+#: getfem.MeshFem:52 of
+msgid ""
+"``MF = MeshFem('global function', Mesh m, LevelSet ls, (GlobalFunction "
+"GF1,...)[, int Qdim_m])`` Create a MeshFem whose base functions are "
+"global function given by the user in the system of coordinate defined by "
+"the iso-values of the two level-set function of `ls`."
+msgstr ""
+
+# d7113bed00cb434eaacd7b1896d87d2d
+#: getfem.MeshFem:57 of
+msgid ""
+"``MF = MeshFem('partial', MeshFem mf, ivec DOFs[, ivec RCVs])`` Build a "
+"restricted MeshFem by keeping only a subset of the degrees of freedom of "
+"`mf`."
+msgstr ""
+
+# 88b8c18d58c747088fcf5aa8452d13bd
+# fc1c24f983c945adb5a6b6a7aa37073d
+#: getfem.MeshFem:61 getfem.MeshFem.set_partial:4 of
+msgid "If `RCVs` is given, no FEM will be put on the convexes listed in `RCVs`."
+msgstr ""
+
+# 103f2fc0fbf14c8f8d7ddcb56771cac6
+#: getfem.MeshFem.adapt:1 of
+msgid ""
+"For a MeshFem levelset object only. Adapt the mesh_fem object to a change"
+" of the levelset function."
+msgstr ""
+
+# 673426d8e8984d37a114c2f81cf2f6c4
+#: getfem.MeshFem.basic_dof_from_cv:1 of
+msgid "Return the dof of the convexes listed in `CVids`."
+msgstr ""
+
+# 063026489f684d89babcfb7c5fde5bd3
+#: getfem.MeshFem.basic_dof_from_cv:3 of
+msgid ""
+"WARNING: the Degree of Freedom might be returned in ANY order, do not use"
+" this function in your assembly routines. Use 'basic dof from cvid' "
+"instead, if you want to be able to map a convex number with its "
+"associated degrees of freedom."
+msgstr ""
+
+# 6b3647a0d5d04518a7d7e8790254a71a
+#: getfem.MeshFem.basic_dof_from_cv:8 of
+msgid ""
+"One can also get the list of basic dof on a set on convex faces, by "
+"indicating on the second row of `CVids` the faces numbers (with respect "
+"to the convex number on the first row)."
+msgstr ""
+
+# cd844e83263b473390d3580e34139d37
+#: getfem.MeshFem.basic_dof_from_cvid:1 of
+msgid "Return the degrees of freedom attached to each convex of the mesh."
+msgstr ""
+
+# b38c8bb374e244feaa1c81fa4479c3eb
+#: getfem.MeshFem.basic_dof_from_cvid:3 of
+msgid ""
+"If `CVids` is omitted, all the convexes will be considered (equivalent to"
+" `CVids = 1 ... Mesh.max_cvid()`)."
+msgstr ""
+
+# 4d88dfd37cf64803ba2a3ce7c2f05a5a
+#: getfem.MeshFem.basic_dof_from_cvid:6 of
+msgid ""
+"`IDx` is a vector, `length(IDx) = length(CVids)+1`. `DOFs` is a vector "
+"containing the concatenated list of dof of each convex in `CVids`. Each "
+"entry of `IDx` is the position of the corresponding convex point list in "
+"`DOFs`. Hence, for example, the list of points of the second convex is "
+"DOFs[IDx(2):IDx(3)]."
+msgstr ""
+
+# 34723cd075764fdfba82b11e9b49c4b1
+#: getfem.MeshFem.basic_dof_from_cvid:12 of
+msgid ""
+"If `CVids` contains convex #id which do not exist in the mesh, their "
+"point list will be empty."
+msgstr ""
+
+# 61108946ec904f7b98d7d0ed88cb0385
+#: getfem.MeshFem.basic_dof_nodes:1 of
+msgid "Get location of basic degrees of freedom."
+msgstr ""
+
+# bdf9e998ab5844d696ef7ed161dac72e
+#: getfem.MeshFem.basic_dof_nodes:3 of
+msgid ""
+"Return the list of interpolation points for the specified dof #IDs in "
+"`DOFids` (if `DOFids` is omitted, all basic dof are considered)."
+msgstr ""
+
+# c53660305a0e4dc7837783417bded51a
+#: getfem.MeshFem.basic_dof_on_region:1 of
+msgid ""
+"Return the list of basic dof (before the optional reduction) lying on one"
+" of the mesh regions listed in `Rs`."
+msgstr ""
+
+# 54755a46a42047acbc81a39f3d83ec1f
+# dc60852fd65b49db97757a4bfe955d92
+#: getfem.MeshFem.basic_dof_on_region:4 getfem.MeshFem.dof_on_region:4 of
+msgid ""
+"More precisely, this function returns the basic dof whose support is non-"
+"null on one of regions whose #ids are listed in `Rs` (note that for "
+"boundary regions, some dof nodes may not lie exactly on the boundary, for"
+" example the dof of Pk(n,0) lies on the center of the convex, but the "
+"base function in not null on the convex border)."
+msgstr ""
+
+# ff504302dba6496084dbcf64b6fda8e3
+#: getfem.MeshFem.char:1 of
+msgid "Output a string description of the MeshFem."
+msgstr ""
+
+# 16719bc045e846fd96a32bb1cff30bc8
+#: getfem.MeshFem.char:3 of
+msgid ""
+"By default, it does not include the description of the linked mesh "
+"object, except if `opt` is 'with_mesh'."
+msgstr ""
+
+# 46a31a8426454109a7e95a9607ae30a0
+#: getfem.MeshFem.convex_index:1 of
+msgid "Return the list of convexes who have a FEM."
+msgstr ""
+
+# fc4f8e0739764e1c9cf5718b25d2926a
+#: getfem.MeshFem.display:1 of
+msgid "displays a short summary for a MeshFem object."
+msgstr ""
+
+# 548926da45cd45558be3ab49710d0434
+#: getfem.MeshFem.dof_from_cv:1 of
+msgid "Deprecated function. Use MeshFem.basic_dof_from_cv() instead."
+msgstr ""
+
+# c34a383c5ad241a5b74a4e8ae7b75b1d
+#: getfem.MeshFem.dof_from_cvid:1 of
+msgid "Deprecated function. Use MeshFem.basic_dof_from_cvid() instead."
+msgstr ""
+
+# e02bd74fec474786a8924daa0473b050
+#: getfem.MeshFem.dof_from_im:1 of
+msgid ""
+"Return a selection of dof who contribute significantly to the mass-matrix"
+" that would be computed with `mf` and the integration method `mim`."
+msgstr ""
+
+# 26308da5049a42c486adba8b11fa701a
+#: getfem.MeshFem.dof_from_im:5 of
+msgid ""
+"`p` represents the dimension on what the integration method operates "
+"(default `p = mesh dimension`)."
+msgstr ""
+
+# 6a3997689c944ba5852617b9ac6e8225
+#: getfem.MeshFem.dof_from_im:8 of
+msgid ""
+"IMPORTANT: you still have to set a valid integration method on the "
+"convexes which are not crosses by the levelset!"
+msgstr ""
+
+# 287204fbcf8f4cd78e73a0d704733f66
+#: getfem.MeshFem.dof_nodes:1 of
+msgid "Deprecated function. Use MeshFem.basic_dof_nodes() instead."
+msgstr ""
+
+# c88add1097824233aee44dd589e514d4
+#: getfem.MeshFem.dof_on_region:1 of
+msgid ""
+"Return the list of dof (after the optional reduction) lying on one of the"
+" mesh regions listed in `Rs`."
+msgstr ""
+
+# d490a3aed7814520ba2cce9784207a07
+#: getfem.MeshFem.dof_on_region:11 of
+msgid ""
+"For a reduced mesh_fem a dof is lying on a region if its potential "
+"corresponding shape function is nonzero on this region. The extension "
+"matrix is used to make the correspondance between basic and reduced dofs."
+msgstr ""
+
+# 858e7c93dc9846b4ac3add6013fb1dfa
+#: getfem.MeshFem.dof_partition:1 of
+msgid "Get the 'dof_partition' array."
+msgstr ""
+
+# 00cdae89ee74484a91f84cc09e339e6c
+#: getfem.MeshFem.dof_partition:3 of
+msgid ""
+"Return the array which associates an integer (the partition number) to "
+"each convex of the MeshFem. By default, it is an all-zero array. The "
+"degrees of freedom of each convex of the MeshFem are connected only to "
+"the dof of neighbouring convexes which have the same partition number, "
+"hence it is possible to create partially discontinuous MeshFem very "
+"easily."
+msgstr ""
+
+# a71105f4c93d441b82c13d5a36322004
+#: getfem.MeshFem.eval:1 of
+msgid "interpolate an expression on the (lagrangian) MeshFem."
+msgstr ""
+
+# afdd689fe2e4402f805d8c599c254656
+#: getfem.MeshFem.eval:3 of
+msgid "Examples::"
+msgstr ""
+
+# 5ad3a6adee0b42989417f5870bcfebf8
+#: getfem.MeshFem.export_to_dx:1 of
+msgid ""
+"Synopsis: MeshFem.export_to_dx(self,string filename, ...['as', string "
+"mesh_name][,'edges']['serie',string serie_name][,'ascii'][,'append'], U, "
+"'name'...)"
+msgstr ""
+
+# 1654a685707d4d1599094fb4837a4e97
+#: getfem.MeshFem.export_to_dx:3 of
+msgid "Export a MeshFem and some fields to an OpenDX file."
+msgstr ""
+
+# 947b7b67c99645d39818c3cfb4e19869
+#: getfem.MeshFem.export_to_dx:5 of
+msgid ""
+"This function will fail if the MeshFem mixes different convex types (i.e."
+" quads and triangles), or if OpenDX does not handle a specific element "
+"type (i.e. prism connections are not known by OpenDX)."
+msgstr ""
+
+# cbbf13fb48b74eacaed0ab026849e18d
+#: getfem.MeshFem.export_to_dx:9 of
+msgid ""
+"The FEM will be mapped to order 1 Pk (or Qk) FEMs. If you need to "
+"represent high-order FEMs or high-order geometric transformations, you "
+"should consider Slice.export_to_dx()."
+msgstr ""
+
+# 296e6fe359724f17a9717ec9c157840e
+#: getfem.MeshFem.export_to_pos:1 of
+msgid ""
+"Synopsis: MeshFem.export_to_pos(self,string filename[, string "
+"name][[,MeshFem mf1], mat U1, string nameU1[[,MeshFem mf2], mat U2, "
+"string nameU2,...]])"
+msgstr ""
+
+# 765f252fd718488a953cb92fdf7e7ff1
+#: getfem.MeshFem.export_to_pos:3 of
+msgid "Export a MeshFem and some fields to a pos file."
+msgstr ""
+
+# 8ea3717d03364c97a7f1e3194047b64c
+#: getfem.MeshFem.export_to_pos:5 of
+msgid ""
+"The FEM and geometric transformations will be mapped to order 1 "
+"isoparametric Pk (or Qk) FEMs (as GMSH does not handle higher order "
+"elements)."
+msgstr ""
+
+# bc809fb33dd942379429d21f97a363b2
+#: getfem.MeshFem.export_to_vtk:1 of
+msgid ""
+"Synopsis: MeshFem.export_to_vtk(self,string filename, ... ['ascii'], U, "
+"'name'...)"
+msgstr ""
+
+# 0a8ae0d22c5548ddaf8a6ee1df8fa3bc
+#: getfem.MeshFem.export_to_vtk:3 of
+msgid "Export a MeshFem and some fields to a vtk file."
+msgstr ""
+
+# 4dab33d90af84c58a02449a4227881c5
+#: getfem.MeshFem.export_to_vtk:5 of
+msgid ""
+"The FEM and geometric transformations will be mapped to order 1 or 2 "
+"isoparametric Pk (or Qk) FEMs (as VTK does not handle higher order "
+"elements). If you need to represent high-order FEMs or high-order "
+"geometric transformations, you should consider Slice.export_to_vtk()."
+msgstr ""
+
+# 21e1aae8175e48f3912c7da6a6b205c9
+#: getfem.MeshFem.extend_vector:1 of
+msgid "Multiply the provided vector V with the reduction matrix of the MeshFem."
+msgstr ""
+
+# c01412c38d0d4411826e65db319b4be5
+#: getfem.MeshFem.extension_matrix:1 of
+msgid "Return the optional extension matrix."
+msgstr ""
+
+# b13c086bd4cf44f8bfdd1c687885b68e
+#: getfem.MeshFem.fem:1 of
+msgid "Return a list of FEM used by the MeshFem."
+msgstr ""
+
+# dfd19156a4b44190bcd0897abccb4181
+#: getfem.MeshFem.fem:3 of
+msgid ""
+"`FEMs` is an array of all Fem objects found in the convexes given in "
+"`CVids`. If `CV2F` was supplied as an output argument, it contains, for "
+"each convex listed in `CVids`, the index of its correspounding FEM in "
+"`FEMs`."
+msgstr ""
+
+# fcabaf54919047c6ad2f04f4a6bdd5c9
+#: getfem.MeshFem.fem:8 of
+msgid ""
+"Convexes which are not part of the mesh, or convexes which do not have "
+"any FEM have their correspounding entry in `CV2F` set to -1."
+msgstr ""
+
+# a1a35915938c4f7e8c20614b7b157b9c
+#: getfem.MeshFem.has_linked_mesh_levelset:1 of
+msgid "Is a mesh_fem_level_set or not."
+msgstr ""
+
+# 86e2dff40e054ecb9319944cfbdc7d36
+#: getfem.MeshFem.interpolate_convex_data:1 of
+msgid ""
+"Interpolate data given on each convex of the mesh to the MeshFem dof. The"
+" MeshFem has to be lagrangian, and should be discontinuous (typically a "
+"FEM_PK(N,0) or FEM_QK(N,0) should be used)."
+msgstr ""
+
+# cadc21cd080447cfb0b3372b03bc2d2b
+#: getfem.MeshFem.interpolate_convex_data:5 of
+msgid ""
+"The last dimension of the input vector Ucv should have Mesh.max_cvid() "
+"elements."
+msgstr ""
+
+# 276c5035ee084e26aa76335a693e8364
+#: getfem.MeshFem.interpolate_convex_data:8 of
+msgid "Example of use: MeshFem.interpolate_convex_data(Mesh.quality())"
+msgstr ""
+
+# 63855e8e028f4320b2bbe76849d160e4
+#: getfem.MeshFem.is_equivalent:1 of
+msgid "Test if the MeshFem is equivalent."
+msgstr ""
+
+# db7d875cb9444046839861b145386231
+# 9e0418b62f4b42c78113f72ecba8c684
+#: getfem.MeshFem.is_equivalent:3 getfem.MeshFem.is_polynomial:3 of
+msgid "See MeshFem.is_lagrangian()"
+msgstr ""
+
+# 10b20f25fb0640f49d3dbadcb6ba20e2
+#: getfem.MeshFem.is_lagrangian:1 of
+msgid "Test if the MeshFem is Lagrangian."
+msgstr ""
+
+# f4c876e9d267458992fd8556d9521e3a
+#: getfem.MeshFem.is_lagrangian:3 of
+msgid ""
+"Lagrangian means that each base function Phi[i] is such that Phi[i](P[j])"
+" = delta(i,j), where P[j] is the dof location of the jth base function, "
+"and delta(i,j) = 1 if i==j, else 0."
+msgstr ""
+
+# 7bd2aeb31c6a467cbabf9ff85954a818
+#: getfem.MeshFem.is_lagrangian:7 of
+msgid ""
+"If `CVids` is omitted, it returns 1 if all convexes in the mesh are "
+"Lagrangian. If `CVids` is used, it returns the convex indices (with "
+"respect to `CVids`) which are Lagrangian."
+msgstr ""
+
+# 51f515ee0e66409287d5713656303ecc
+#: getfem.MeshFem.is_polynomial:1 of
+msgid "Test if all base functions are polynomials."
+msgstr ""
+
+# 5e10ebe471ce4a7ebae325b6b2d423d6
+#: getfem.MeshFem.is_reduced:1 of
+msgid "Return 1 if the optional reduction matrix is applied to the dofs."
+msgstr ""
+
+# a3b2aa9b8d6443479a0d367dc1ec3a40
+#: getfem.MeshFem.linked_mesh:1 of
+msgid "Return a reference to the Mesh object linked to `mf`."
+msgstr ""
+
+# 967d805012ae4d07ba70b91ba1afae8d
+#: getfem.MeshFem.linked_mesh_levelset:1 of
+msgid "if it is a mesh_fem_level_set gives the linked mesh_level_set."
+msgstr ""
+
+# 7ccce49da17c452a866e4c2ad79d8bb7
+#: getfem.MeshFem.memsize:1 of
+msgid "Return the amount of memory (in bytes) used by the mesh_fem object."
+msgstr ""
+
+# a9cd4b5aa9374e60953055098088857c
+#: getfem.MeshFem.memsize:3 of
+msgid "The result does not take into account the linked mesh object."
+msgstr ""
+
+# b97d9dabe2604eb49401da48d4b2fe16
+#: getfem.MeshFem.mesh:1 of
+msgid ""
+"Return a reference to the Mesh object linked to `mf`. (identical to "
+"Mesh.linked_mesh())"
+msgstr ""
+
+# 931a17c9419b40bb994fa6375b5bf3cc
+#: getfem.MeshFem.nb_basic_dof:1 of
+msgid "Return the number of basic degrees of freedom (dof) of the MeshFem."
+msgstr ""
+
+# fb759189e5fa461eab769e557d8598a4
+#: getfem.MeshFem.nbdof:1 of
+msgid "Return the number of degrees of freedom (dof) of the MeshFem."
+msgstr ""
+
+# faea0808cbcc4d41a7ab0a9d67e15625
+#: getfem.MeshFem.non_conformal_basic_dof:1 of
+msgid "Return partially linked degrees of freedom."
+msgstr ""
+
+# 381c10be4c7a4288b7112d4216de949b
+#: getfem.MeshFem.non_conformal_basic_dof:3 of
+msgid ""
+"Return the basic dof located on the border of a convex and which belong "
+"to only one convex, except the ones which are located on the border of "
+"the mesh.  For example, if the convex 'a' and 'b' share a common face, "
+"'a' has a P1 FEM, and 'b' has a P2 FEM, then the basic dof on the middle "
+"of the face will be returned by this function (this can be useful when "
+"searching the interfaces between classical FEM and hierarchical FEM)."
+msgstr ""
+
+# 641d3ee7a3fd4a3a85965e27a5e01ce1
+#: getfem.MeshFem.non_conformal_dof:1 of
+msgid "Deprecated function. Use MeshFem.non_conformal_basic_dof() instead."
+msgstr ""
+
+# de2e36ab2c6e4e1abc75e6305c3fc52f
+#: getfem.MeshFem.qdim:1 of
+msgid "Return the dimension Q of the field interpolated by the MeshFem."
+msgstr ""
+
+# 53f3c711f3914c21b42280269bc58367
+#: getfem.MeshFem.qdim:3 of
+msgid "By default, Q=1 (scalar field). This has an impact on the dof numbering."
+msgstr ""
+
+# 5080c9ad7e454591ba64571bca86abb5
+#: getfem.MeshFem.reduce_meshfem:1 of
+msgid ""
+"Set reduction mesh fem This function selects the degrees of freedom of "
+"the finite element method by selecting a set of independent vectors of "
+"the matrix RM. The numer of columns of RM should corresponds to the "
+"number of degrees of fredoom of the finite element method."
+msgstr ""
+
+# de12780c83e04641b8cd33adfac4688c
+#: getfem.MeshFem.reduce_vector:1 of
+msgid "Multiply the provided vector V with the extension matrix of the MeshFem."
+msgstr ""
+
+# 727742eed6514945ba9cf92d9199c337
+#: getfem.MeshFem.reduction:1 of
+msgid "Set or unset the use of the reduction/extension matrices."
+msgstr ""
+
+# 55f77fd2c3594a5d9cc0ccf07e641f0a
+#: getfem.MeshFem.reduction_matrices:1 of
+msgid "Set the reduction and extension matrices and valid their use."
+msgstr ""
+
+# 7c2456d3ef5744efbd0a16ca50a977e1
+#: getfem.MeshFem.reduction_matrix:1 of
+msgid "Return the optional reduction matrix."
+msgstr ""
+
+# 52e68c7ff85849ec855f739f6c50248e
+#: getfem.MeshFem.save:1 of
+msgid ""
+"Save a MeshFem in a text file (and optionaly its linked mesh object if "
+"`opt` is the string 'with_mesh')."
+msgstr ""
+
+# 8e58d1ab02dc459688cfb32519d0020b
+#: getfem.MeshFem.set_classical_discontinuous_fem:1 of
+msgid ""
+"Synopsis: MeshFem.set_classical_discontinuous_fem(self, int K[, @tscalar "
+"alpha[, ivec CVIDX]])"
+msgstr ""
+
+# 34d1eb38630e4b20bd5a75831d21d342
+#: getfem.MeshFem.set_classical_discontinuous_fem:3 of
+msgid "Assigns a classical (Lagrange polynomial) discontinuous fem or order K."
+msgstr ""
+
+# 1766ad5e11c94b0ba28f081cf6ba9896
+#: getfem.MeshFem.set_classical_discontinuous_fem:5 of
+msgid ""
+"Similar to MeshFem.set_classical_fem() except that FEM_PK_DISCONTINUOUS "
+"is used. Param `alpha` the node inset, :math:`0 \\leq alpha < 1`, where 0"
+" implies usual dof nodes, greater values move the nodes toward the center"
+" of gravity, and 1 means that all degrees of freedom collapse on the "
+"center of gravity."
+msgstr ""
+
+# 86b20c466e824a4e9432e5d73f0d5cd8
+#: getfem.MeshFem.set_classical_fem:1 of
+msgid "Assign a classical (Lagrange polynomial) fem of order `k` to the MeshFem."
+msgstr ""
+
+# 952110ee55b04705a3e37c9cfd96f898
+#: getfem.MeshFem.set_classical_fem:3 of
+msgid "Uses FEM_PK for simplexes, FEM_QK for parallelepipeds etc."
+msgstr ""
+
+# 80b4cc64e7844704b243d46924fbc0e6
+#: getfem.MeshFem.set_dof_partition:1 of
+msgid "Change the 'dof_partition' array."
+msgstr ""
+
+# 4004d15f75b54e648550e799abc969ba
+#: getfem.MeshFem.set_dof_partition:3 of
+msgid ""
+"`DOFP` is a vector holding a integer value for each convex of the "
+"MeshFem. See MeshFem.dof_partition() for a description of \"dof "
+"partition\"."
+msgstr ""
+
+# cca4126e332b494b95b05a4eb2180bc6
+#: getfem.MeshFem.set_enriched_dofs:1 of
+msgid ""
+"For a MeshFem product object only. Set te enriched dofs and adapt the "
+"MeshFem product."
+msgstr ""
+
+# 725eea32ee1f4d689143eb981f4ea1f8
+#: getfem.MeshFem.set_fem:1 of
+msgid "Set the Finite Element Method."
+msgstr ""
+
+# a3981e9a203249118b47512c8765245c
+#: getfem.MeshFem.set_fem:3 of
+msgid ""
+"Assign a FEM `f` to all convexes whose #ids are listed in `CVids`. If "
+"`CVids` is not given, the integration is assigned to all convexes."
+msgstr ""
+
+# a90275a670364939b2472bd73f63e8e7
+#: getfem.MeshFem.set_fem:6 of
+msgid "See the help of Fem to obtain a list of available FEM methods."
+msgstr ""
+
+# 87adef15ade24ca98be47c0fcdc8b297
+#: getfem.MeshFem.set_partial:1 of
+msgid ""
+"Can only be applied to a partial MeshFem. Change the subset of the "
+"degrees of freedom of `mf`."
+msgstr ""
+
+# 338cdd69277d4997ac35615b2dfcb8f1
+#: getfem.MeshFem.set_qdim:1 of
+msgid "Change the `Q` dimension of the field that is interpolated by the MeshFem."
+msgstr ""
+
+# 4cdff58fe6a541a99b2f75bffb7015e9
+#: getfem.MeshFem.set_qdim:3 of
+msgid ""
+"`Q = 1` means that the MeshFem describes a scalar field, `Q = N` means "
+"that the MeshFem describes a vector field of dimension N."
+msgstr ""
+

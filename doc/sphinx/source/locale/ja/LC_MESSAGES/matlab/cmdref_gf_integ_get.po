@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# e0f602f3ef744a5fb766c9e47654befd
+#: ../source/matlab/cmdref_gf_integ_get.rst:8
+msgid "gf_integ_get"
+msgstr ""
+
+# dd217bc246af42418aae501ba5f7b497
+#: ../source/matlab/cmdref_gf_integ_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# e415af48a5d64a24bf75b4692f6abcb5
+#: ../source/matlab/cmdref_gf_integ_get.rst:24
+msgid "**Description :**"
+msgstr ""
+
+# d616b912cdab473887e58c2d21261c8a
+#: ../source/matlab/cmdref_gf_integ_get.rst:27
+msgid ""
+"General function for querying information about integration method "
+"objects."
+msgstr ""
+
+# cc4dd8d8d33145d4ac0d5f6f19c47400
+#: ../source/matlab/cmdref_gf_integ_get.rst:30
+msgid "**Command list :**"
+msgstr ""
+
+# 785c336c098645d0b4183eb13a703f85
+#: ../source/matlab/cmdref_gf_integ_get.rst:34
+msgid "``b = gf_integ_get(integ I, 'is_exact')``"
+msgstr ""
+
+# 7fd13ebd3cd24dc2864a55d5157d9dbc
+#: ../source/matlab/cmdref_gf_integ_get.rst:36
+msgid "Return 0 if the integration is an approximate one."
+msgstr ""
+
+# 0e237c67cc89494ab77f2372bbebbf56
+#: ../source/matlab/cmdref_gf_integ_get.rst:39
+msgid "``d = gf_integ_get(integ I, 'dim')``"
+msgstr ""
+
+# f9c1db40475d40f7a201bf6b44104919
+#: ../source/matlab/cmdref_gf_integ_get.rst:41
+msgid "Return the dimension of the reference convex of the method."
+msgstr ""
+
+# 30f781024dd9460286a0b098f91647ce
+#: ../source/matlab/cmdref_gf_integ_get.rst:45
+msgid "``n = gf_integ_get(integ I, 'nbpts')``"
+msgstr ""
+
+# a6f23781afb24f50bc79feef4e9d3e63
+#: ../source/matlab/cmdref_gf_integ_get.rst:47
+msgid "Return the total number of integration points."
+msgstr ""
+
+# 0712cd71b8fa4d1383c904776f15023b
+#: ../source/matlab/cmdref_gf_integ_get.rst:49
+msgid ""
+"Count the points for the volume integration, and points for surface "
+"integration on each face of the reference convex."
+msgstr ""
+
+# b882e40d719748e6b91aedc8cd907590
+# 4af1451ddfbe4cab8c1f9c026aa1e500
+# a6c10d5d665f488ea73568439b50a1ce
+# a002d7189c4f4407b259acab6fb45815
+# 70f99fdb0a7b4c1b9c1df3027a539546
+#: ../source/matlab/cmdref_gf_integ_get.rst:52
+#: ../source/matlab/cmdref_gf_integ_get.rst:60
+#: ../source/matlab/cmdref_gf_integ_get.rst:68
+#: ../source/matlab/cmdref_gf_integ_get.rst:76
+#: ../source/matlab/cmdref_gf_integ_get.rst:84
+msgid ""
+"Only for approximate methods, this has no meaning for exact integration "
+"methods!"
+msgstr ""
+
+# 3b9952cb45cb4df4af5c79aa0f9448c6
+#: ../source/matlab/cmdref_gf_integ_get.rst:56
+msgid "``Pp = gf_integ_get(integ I, 'pts')``"
+msgstr ""
+
+# e947b818874b4fb3ac16296f5158f67b
+#: ../source/matlab/cmdref_gf_integ_get.rst:58
+msgid "Return the list of integration points"
+msgstr ""
+
+# 0df884be009d43eebca53b5fd7b316ec
+#: ../source/matlab/cmdref_gf_integ_get.rst:64
+msgid "``Pf = gf_integ_get(integ I, 'face_pts',F)``"
+msgstr ""
+
+# c94913da22574a1489aea874b9c91f5e
+#: ../source/matlab/cmdref_gf_integ_get.rst:66
+msgid "Return the list of integration points for a face."
+msgstr ""
+
+# 585f599e544942f99bae63cb8f3cefd0
+#: ../source/matlab/cmdref_gf_integ_get.rst:72
+msgid "``Cp = gf_integ_get(integ I, 'coeffs')``"
+msgstr ""
+
+# 75f1bf6c445a4de3b072fbb65e0b47f6
+#: ../source/matlab/cmdref_gf_integ_get.rst:74
+msgid "Returns the coefficients associated to each integration point."
+msgstr ""
+
+# d12b6ad01bff421cbbae50f141cdfc74
+#: ../source/matlab/cmdref_gf_integ_get.rst:80
+msgid "``Cf = gf_integ_get(integ I, 'face_coeffs',F)``"
+msgstr ""
+
+# fb53794166a64939a45be0638582238e
+#: ../source/matlab/cmdref_gf_integ_get.rst:82
+msgid "Returns the coefficients associated to each integration of a face."
+msgstr ""
+
+# 38313fe5aea840caab158b1bc01a0f08
+#: ../source/matlab/cmdref_gf_integ_get.rst:88
+msgid "``s = gf_integ_get(integ I, 'char')``"
+msgstr ""
+
+# 7d5db969730348fbacbd277255da7f66
+#: ../source/matlab/cmdref_gf_integ_get.rst:90
+msgid "Ouput a (unique) string representation of the integration method."
+msgstr ""
+
+# 0811e8584f8a4a75af0a39b5120d2feb
+#: ../source/matlab/cmdref_gf_integ_get.rst:92
+msgid "This can be used to  comparisons between two different integ objects."
+msgstr ""
+
+# 352d60ef30a44064a7bc143f62dad50e
+#: ../source/matlab/cmdref_gf_integ_get.rst:96
+msgid "``gf_integ_get(integ I, 'display')``"
+msgstr ""
+
+# 9e7be367bba541c9b5e8fdbfef0c2a9a
+#: ../source/matlab/cmdref_gf_integ_get.rst:98
+msgid "displays a short summary for a integ object."
+msgstr ""
+

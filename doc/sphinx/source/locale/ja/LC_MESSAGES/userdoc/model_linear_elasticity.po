@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 3aa6f8b6e45e47f9a30f4f898961e57f
+#: ../source/userdoc/model_linear_elasticity.rst:13
+msgid "Isotropic linearized elasticity brick"
+msgstr ""
+
+# 1e26a001ba3147df86818d415e5edea6
+#: ../source/userdoc/model_linear_elasticity.rst:15
+msgid "This brick represents a term"
+msgstr ""
+
+# 2bdef66dd1cc4df5abb742096f0b429f
+#: ../source/userdoc/model_linear_elasticity.rst:21
+msgid "with"
+msgstr ""
+
+# 4106e17552a0464eb7ca065430e64ded
+#: ../source/userdoc/model_linear_elasticity.rst:28
+msgid ""
+":math:`\\varepsilon(u)` is the small strain tensor, :math:`\\sigma` is "
+"the stress tensor, :math:`\\lambda` and :math:`\\mu` are the |Lame| "
+"coefficients. This represents the system of linearized isotropic "
+"elasticity. It can also be used with :math:`\\lambda=0` together with the"
+" linear incompressible brick to build the Stokes problem."
+msgstr ""
+
+# d46c8c5449c043efad93389eb2579a21
+#: ../source/userdoc/model_linear_elasticity.rst:35
+msgid ""
+"Let us recall that the relation between the |Lame| coefficients an Young "
+"modulus :math:`E` and Poisson ratio :math:`\\nu` is"
+msgstr ""
+
+# ba14b381d68a49e5ab774738bb7353ad
+#: ../source/userdoc/model_linear_elasticity.rst:41
+msgid "except for the plane stress approximation (2D model) where"
+msgstr ""
+
+# e4105c6d815046fa907bcb1c03fa29e7
+#: ../source/userdoc/model_linear_elasticity.rst:48
+msgid ""
+"The function which adds this brick to a model and parametrized with the "
+"|Lame| coefficients is::"
+msgstr ""
+
+# 29dea9803df24dfdad484f86f434a72d
+#: ../source/userdoc/model_linear_elasticity.rst:54
+msgid ""
+"where ``dataname_lambda`` and ``dataname_mu`` are the data of the model "
+"representing the |Lame| coefficients."
+msgstr ""
+
+# f6f6f8912a10427d8c16df066cd7ac1a
+#: ../source/userdoc/model_linear_elasticity.rst:57
+msgid ""
+"The function which adds this brick to a model and parametrized with Young"
+" modulus and Poisson ratio is::"
+msgstr ""
+
+# 304cd7af4344411995260ba600e4e753
+#: ../source/userdoc/model_linear_elasticity.rst:63
+msgid ""
+"This brick represent a plane strain approximation when it is applied to a"
+" 2D mesh (and a standard model on a 3D mesh). in order to obtain a plane "
+"stress approximation for 2D meshes, one can use::"
+msgstr ""
+
+# f1710999e78b4cb3a33b874ddc4f4821
+#: ../source/userdoc/model_linear_elasticity.rst:68
+msgid "For 3D meshes, the two previous bricks give the same result."
+msgstr ""
+
+# 15b2aedbb3e64fd0800a177e30e008b5
+#: ../source/userdoc/model_linear_elasticity.rst:71
+msgid "The function::"
+msgstr ""
+
+# d260ec2ed281415f9e40040cc9577551
+#: ../source/userdoc/model_linear_elasticity.rst:76
+msgid ""
+"compute the Von Mises criterion (or Tresca if ``tresca_flag`` is set to "
+"true) on the displacement field stored in ``varname``. The stress is "
+"evaluated on the |mf| ``mf_vm`` and stored in the vector ``VM``. It is "
+"not valid for 2D plane stress approximation and is parametrized with "
+"|Lame| coefficients. The functions::"
+msgstr ""
+
+# 23e374b2ab0a42ceacec695102ac1023
+#: ../source/userdoc/model_linear_elasticity.rst:86
+msgid ""
+"compute the Von Mises stress, parametrized with Young modulus and Poisson"
+" ratio, the second one being valid for 2D plane stress approximation when"
+" it is applied on a 2D mesh (the two functions give the same result for "
+"3D problems)."
+msgstr ""
+
+# 2a04ba8cb53142888279129253903c77
+#: ../source/userdoc/model_linear_elasticity.rst:91
+msgid ""
+"The program :file:`tests/elastostatic.cc` can be taken as a model of use "
+"of a linearized isotropic elasticity brick."
+msgstr ""
+
+# 9787754b06924cbbbd8d53bb60f2a86e
+#: ../source/userdoc/model_linear_elasticity.rst:95
+msgid "Linear incompressibility (or nearly incompressibility) brick"
+msgstr ""
+
+# 4940377b27a54a5c9ce36302ccda74cd
+#: ../source/userdoc/model_linear_elasticity.rst:97
+msgid ""
+"This brick adds a linear incompressibility condition (or a nearly "
+"incompressible condition) in a problem of type:"
+msgstr ""
+
+# dc437bcd953244be8864d55e2894bb52
+#: ../source/userdoc/model_linear_elasticity.rst:104
+msgid ""
+"This constraint is enforced with Lagrange multipliers representing the "
+"pressure, introduced in a mixed formulation."
+msgstr ""
+
+# ed5bd5fa7cce40d2b744414b6389e604
+#: ../source/userdoc/model_linear_elasticity.rst:107
+msgid "The function adding this incompressibility condition is::"
+msgstr ""
+
+# 49423ab4b0f94139b8f8b449be23d013
+#: ../source/userdoc/model_linear_elasticity.rst:113
+msgid ""
+"where ``varname`` is the variable on which the incompressibility "
+"condition is prescribed, ``multname_pressure`` is a variable which should"
+" be described on a scalar fem representing the multiplier (the pressure) "
+"and ``dataexpr_penal_coeff`` is an optional penalization coefficient for "
+"the nearly incompressible condition."
+msgstr ""
+
+# 56c1cb4535094e329a4875c3bec1ff41
+#: ../source/userdoc/model_linear_elasticity.rst:118
+msgid ""
+"In nearly incompressible homogeneous linearized elasticity, one has "
+":math:`\\varepsilon = 1 / \\lambda` where :math:`\\lambda` is one of the "
+"Lamé coefficient and :math:`\\varepsilon` the penalization coefficient."
+msgstr ""
+
+# 509fb8b6993f4a518863345b4ec4f23a
+#: ../source/userdoc/model_linear_elasticity.rst:122
+msgid ""
+"For instance, the following program defines a Stokes problem with a "
+"source term and an homogeneous Dirichlet condition on boundary 0. "
+"``mf_u``, ``mf_data`` and ``mf_p`` have to be valid finite element "
+"description on the same mesh. ``mim`` should be a valid integration "
+"method on the same mesh::"
+msgstr ""
+
+# b3b883e300974e09829b6964d761e64e
+#: ../source/userdoc/model_linear_elasticity.rst:158
+msgid ""
+"An example for a nearly incompressibility condition can be found in the "
+"program :file:`tests/elastostatic.cc`."
+msgstr ""
+
+# 5a2ae8a27ab24adfa34c76c4bb19c3a3
+#: ../source/userdoc/model_linear_elasticity.rst:7
+msgid "models"
+msgstr ""
+
+# 5a2ae8a27ab24adfa34c76c4bb19c3a3
+#: ../source/userdoc/model_linear_elasticity.rst:7
+msgid "model bricks"
+msgstr ""
+

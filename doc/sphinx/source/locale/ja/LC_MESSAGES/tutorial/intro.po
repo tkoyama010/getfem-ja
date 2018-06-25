@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 28e0040275f54f51b7882a5a492756ad
+#: ../source/tutorial/intro.rst:10
+msgid "Introduction"
+msgstr ""
+
+# be2f9e9267ab4c6591f131811e11d2c6
+#: ../source/tutorial/intro.rst:12
+msgid ""
+"This tutorial is intended to present the main aspects of the |gf| library"
+"  on commented simple examples. |gf| allows numerical modeling of complex"
+" problems including coupled ones. It is relatively simple to add "
+"arbitrary coupling terms thanks to a weak form description language. "
+"Expressions in weak form are then compiled in the form of a list of "
+"optimized instructions that are executed during assembly."
+msgstr ""
+
+# ff09ad668cce4a52b473febf15f716d6
+#: ../source/tutorial/intro.rst:14
+msgid "The main presented functionalities are the following"
+msgstr ""
+
+# 09ea9ee8340a480b9de7abea450ddac2
+#: ../source/tutorial/intro.rst:16
+msgid ""
+"Approximation of multiphysics problems and the use of the generic "
+"assembly."
+msgstr ""
+
+# b22bb756dfe940f696f1db14b37f6bd7
+#: ../source/tutorial/intro.rst:17
+msgid "The use of fixed-size variables."
+msgstr ""
+
+# 6a4b23889365448a9c07025a679276f3
+#: ../source/tutorial/intro.rst:18
+msgid "Contact problems."
+msgstr ""
+
+# 94dd51c253c545bfaba9c3697692db1c
+#: ../source/tutorial/intro.rst:19
+msgid ""
+"Fictitious domain fonctionalities and transformations allowing inter-mesh"
+" or inter-region assembly."
+msgstr ""
+
+# df5bcf4596fe4a879789d07a39eac78b
+#: ../source/tutorial/intro.rst:20
+msgid "Continuation / bifurcation problems."
+msgstr ""
+
+# 7113addd8874414f98ef96a526936448
+#: ../source/tutorial/intro.rst:22
+msgid ""
+"This tutorial does not of course takes the place of the various "
+"documentations. The user documentation (that of the C++ library) is the "
+"reference one concerning the description of implemented methods. "
+"Interfaces documentations describe the use of the different "
+"functionalities from interfaces but do not repeat the description of "
+"methods. 'Developpers's guide' documentation describes more internal "
+"concerning the organization of the library."
+msgstr ""
+
+# 67e2b9d446b849fab41652c03b985f78
+#: ../source/tutorial/intro.rst:24
+msgid ""
+"Gf | is a free collaborative project hosted by the `Savannah "
+"<http://savannah.gnu.org>`_ site (see "
+"https://savannah.nongnu.org/projects/getfem). New contributors are "
+"welcome to all aspects of the project."
+msgstr ""
+
+# 3035b3412e0249a2a2207bfbba6e49ac
+#: ../source/tutorial/intro.rst:29
+msgid "C++, Python, Scilab or Matlab ?"
+msgstr ""
+
+# 9e2853a49bfa4327bd16449ec491164a
+#: ../source/tutorial/intro.rst:33
+msgid ""
+"|gf| is basically a library written in C++. However, it has an interface "
+"that is available in Python, Scilab and Matlab  versions and allows to "
+"use all the advanced features. It is recommended to start by using the "
+"interface with scripting languages, which makes programming easier. The "
+"three versions of the interface differ only by small syntax elements, "
+"except for the graphics post-processing (Scilab and Matlab interfaces "
+"offer the possibility of integrated post-processing while it is necessary"
+" to use dedicated software such as Paraview, Mayavi or gmsh when using "
+"the Python interface or directly the library in C++). The Python "
+"interface is compiled by default along with the C++ library."
+msgstr ""
+
+# dec4455aa066489c88eb0fdabbeb01d1
+#: ../source/tutorial/intro.rst:35
+msgid ""
+"Use |gf| interface is a good strategy even for complex applications, the "
+"performance is comparable to the direct use of the C++ library and it is "
+"more flexible to use. However, only the Python interface allows for the "
+"parallelization (with MPI). The possible addition of functionality to the"
+" interface being a relatively simple operation."
+msgstr ""
+
+# 0ab60626394f4abb99c2f7bbc5e40e3e
+#: ../source/tutorial/intro.rst:37
+msgid ""
+"The first example of the tutorial (thermo-electric coupling elastico) "
+"allows to see the difference in the use of the C++ library and one of the"
+" versions of the interface."
+msgstr ""
+
+# 215f0015193a415ea928317cd446cc38
+#: ../source/tutorial/intro.rst:41
+msgid "Where are demo files ?"
+msgstr ""
+
+# 946cd666745b41258dc0e3e91e17800a
+#: ../source/tutorial/intro.rst:43
+msgid "A large number of demonstration programs can be found"
+msgstr ""
+
+# 3635f0b383594c96ba444d4f49fd168c
+#: ../source/tutorial/intro.rst:45
+msgid "for the C++ examples in directory::"
+msgstr ""
+
+# 3f3ba9e31d98487f8ce36aac36827797
+#: ../source/tutorial/intro.rst:49
+msgid "for the Python interface in the directory::"
+msgstr ""
+
+# 3da5740331b249ed8a0dfce9b0a808d7
+#: ../source/tutorial/intro.rst:53
+msgid "for the Scilab interface in the directory::"
+msgstr ""
+
+# a416bdeecab54804878feb1f952c3804
+#: ../source/tutorial/intro.rst:57
+msgid "and for the Matlab interface in the directory::"
+msgstr ""
+

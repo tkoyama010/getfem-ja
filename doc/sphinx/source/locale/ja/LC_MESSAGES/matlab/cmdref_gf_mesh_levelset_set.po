@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 6621f70633f842fa80dd313d89e7f2c4
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:8
+msgid "gf_mesh_levelset_set"
+msgstr ""
+
+# 5835919db71247d895ad8135d4b1b653
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 6f5c5fb7cabc4efdb066b972f10f256a
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:18
+msgid "**Description :**"
+msgstr ""
+
+# cfa0f896405641bd99ebeef1f31f9e0a
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:21
+msgid "General function for modification of mesh_levelset objects."
+msgstr ""
+
+# 9afcf1cf8cae495abec9c811758fe4de
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:24
+msgid "**Command list :**"
+msgstr ""
+
+# 6cf5ef80f78846e0859d0f92cfaf19c7
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:28
+msgid "``gf_mesh_levelset_set(mesh_levelset MLS, 'add', levelset ls)``"
+msgstr ""
+
+# 07b95798e7f44023a22e7076dbb25746
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:30
+msgid "Add a link to the levelset `ls`."
+msgstr ""
+
+# 7ed4571a91c0419c93ac6d7b124eb430
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:32
+msgid ""
+"Only a reference is kept, no copy is done. In order to indicate that the "
+"linked mesh is cut by a levelset one has to call this method, where `ls` "
+"is an levelset object. An arbitrary number of levelset can be added."
+msgstr ""
+
+# 1789cefd78524c96a72617ae6c4c564c
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:37
+msgid "**WARNING**"
+msgstr ""
+
+# 9e798ccd4f3e47a6bacf923568ae56e6
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:39
+msgid "The mesh of `ls` and the linked mesh must be the same."
+msgstr ""
+
+# f93b5f8b40094f0dbb849d2ba922656f
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:42
+msgid "``gf_mesh_levelset_set(mesh_levelset MLS, 'sup', levelset ls)``"
+msgstr ""
+
+# a26a8199248542d383f21e45dc649a24
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:44
+msgid "Remove a link to the levelset `ls`."
+msgstr ""
+
+# 36d86e8bc0084494b8c325602092dab2
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:47
+msgid "``gf_mesh_levelset_set(mesh_levelset MLS, 'adapt')``"
+msgstr ""
+
+# 28d4240d19f2470fac943123484d71df
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:49
+msgid "Do all the work (cut the convexes with the levelsets)."
+msgstr ""
+
+# 9e7147e34b5b41f7a30304e5d2ff6c5f
+#: ../source/matlab/cmdref_gf_mesh_levelset_set.rst:51
+msgid ""
+"To initialice the mesh_levelset object or to actualize it when the value "
+"of any levelset function is modified, one has to call this method."
+msgstr ""
+

@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 2ccca1a7577d455da82e67bdce0a7815
+#: ../source/whatsnew/2.0.1.rst:5
+msgid "What's New in |gf| 2.0.1"
+msgstr ""
+
+# 372997b8936146c5b52e0b945067f1a7
+#: ../source/whatsnew/2.0.1.rst:7
+msgid "Minor update, 2006/04/06:"
+msgstr ""
+
+# 43000ef5d3504d86b5eadd985ef73976
+#: ../source/whatsnew/2.0.1.rst:9
+msgid ""
+"Two bugs were fixed which could be toggled in particular conditions with "
+"nonlinear terms."
+msgstr ""
+

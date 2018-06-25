@@ -1,0 +1,631 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# c3d26c2802194c04ac16baa32c5e7cf0
+#: ../source/userdoc/model_object.rst:13
+msgid "The model object"
+msgstr ""
+
+# fe36982b7a0640abb86b9add114c8a02
+#: ../source/userdoc/model_object.rst:15
+msgid ""
+"The aim of the |mo| object, defined in file "
+":file:`getfem/getfem_models.h`, is to globally describe a PDE model. It "
+"mainly contains two lists: a list of variables (related or not to the "
+"|mf| objects) and data (also related or not to the |mf| objects) and a "
+"list of bricks. The role of the |mo| object is to coordinate the module "
+"and make them produce a linear system of equations. If the model is "
+"linear, this will simply be the linear system of equation on the "
+"corresponding dofs. If the model is nonlinear, this will be the tangent "
+"linear system. There are two versions of the |mo| object: a real one and "
+"complex one."
+msgstr ""
+
+# 3758178d13c24c66bda3a474ecf53e86
+#: ../source/userdoc/model_object.rst:23
+msgid "The declaration of a model object is done by::"
+msgstr ""
+
+# bc40588e5df943649a2771ba5ffabc17
+#: ../source/userdoc/model_object.rst:27
+msgid ""
+"The parameter of the constructor is a boolean which determines whether "
+"the model deals with complex number or real numbers. The default is false"
+" for a model dealing with real numbers."
+msgstr ""
+
+# d4619bfbcc3a45b093bd82ce1582e33a
+#: ../source/userdoc/model_object.rst:35
+msgid "The (tangent) linear system"
+msgstr ""
+
+# 6f574ab278a148238f40b47c8a64614f
+#: ../source/userdoc/model_object.rst:37
+msgid ""
+"There are different kinds of variables/data in the model. The variables "
+"are the unknown of the model. They will be (generally) computed by "
+"solving the (tangent) linear system built by the model. Generally, the "
+"model will have several variables. Each variable has a certain size "
+"(number of degrees of freedom) and the different variables are sorted in "
+"alphanumeric order to form the global unknown (:math:`U` in Fig. :ref"
+":`ud-fig-syslin`). Each variable will be associated to an interval "
+":math:`I = [n_1, n_2]` which will represent the degrees of freedom "
+"indices corresponding to this variable in the global system. The model "
+"stores also some data (in the same format as the variables). The "
+"difference between data and variables is that data is not an unknown of "
+"the model. The value of the data should be provided. In some cases "
+"(nonlinear models) some variables can be considered as some data for "
+"certain terms. Variables and data are of two kinds. They can have a fixed"
+" size, or they can depend on a finite element method (be the d.o.f. of a "
+"finite element method)."
+msgstr ""
+
+# ad199bb69b984dae9efa6379a8a2ec70
+#: ../source/userdoc/model_object.rst:52
+msgid ""
+"For instance, in the situation described in Fig. :ref:`ud-fig-syslin`, "
+"there are four variables in the model, namely :math:`X, Y, V` and "
+":math:`W`. The role of the model object will be to assemble the linear "
+"system, i.e. to fill the sub matrices corresponding to each variable "
+"(:math:`R_{X,X}, R_{Y,Y}, R_{V,V}`, and :math:`R_{W,W}`) and the coupling"
+" terms between two variables (:math:`R_{X,Y}, R_{X,V}, R_{W,V}, "
+"\\cdots`). This different contributions will be given by the different "
+"bricks added to the model."
+msgstr ""
+
+# 62590138b14044949ba767f024c10c49
+#: ../source/userdoc/model_object.rst:59
+msgid "The main useful methods on a |mo| object are"
+msgstr ""
+
+# 7995f924dd424357b06080e59dfa80da
+#: ../source/userdoc/model_object.rst:63
+msgid ""
+"A boolean which says if the model deals with real or complex unknowns and"
+" data."
+msgstr ""
+
+# 0400719eab5e47b39aa299a893a748b9
+#: ../source/userdoc/model_object.rst:67
+msgid ""
+"Add a variable of fixed size. ``name`` is a string which designate the "
+"variable. ``niter`` is the number of copy of the variable."
+msgstr ""
+
+# 1b04de2028804d1483f6fcf1b3704702
+#: ../source/userdoc/model_object.rst:72
+msgid ""
+"Add a variable of fixed size. ``name`` is a string which designate the "
+"variable. ``sizes`` is a vector of dimension for matrix or tensor fixed "
+"size variables. ``niter`` is the number of copy of the variable."
+msgstr ""
+
+# ada378dac9cf4339b84c43aafbb27c6f
+#: ../source/userdoc/model_object.rst:78
+msgid ""
+"Add a data of fixed size. ``name`` is a string which designate the data. "
+"``niter`` is the number of copy of the data."
+msgstr ""
+
+# f6ba63741e3e4479a225e304da4e7d8f
+#: ../source/userdoc/model_object.rst:83
+msgid ""
+"Add a data of fixed size. ``name`` is a string which designate the data. "
+"``sizes`` is a vector of dimension for matrix or tensor fixed size "
+"variables. ``niter`` is the number of copy of the data."
+msgstr ""
+
+# b735955f6a554dc8956b41ec4860208a
+#: ../source/userdoc/model_object.rst:89
+msgid ""
+"Add a data of fixed size initialized with the given vector ``V``. "
+"``name`` is a string which designate the data."
+msgstr ""
+
+# dfe7298bfaf84f90965aaaaa19aa2db7
+#: ../source/userdoc/model_object.rst:94
+msgid ""
+"Add a data of size 1 initialized with the given scalar value ``e``. "
+"``name`` is a string which designate the data."
+msgstr ""
+
+# 53850cb1c17e48ff8d214296b3008bb2
+#: ../source/userdoc/model_object.rst:99
+msgid ""
+"Add a variable being the dofs of a finite element method ``mf``. ``name``"
+" is a string which designate the variable. ``niter`` is the number of "
+"copy of the variable."
+msgstr ""
+
+# 16a08679578e491c85aa6c0bc546fa12
+#: ../source/userdoc/model_object.rst:105
+msgid ""
+"Add a data being the dofs of a finite element method ``mf``. ``name`` is "
+"a string which designate the data. ``niter`` is the number of copy of the"
+" data."
+msgstr ""
+
+# cbf0d3c37d1149439f9e7f29aee5344e
+#: ../source/userdoc/model_object.rst:110
+msgid ""
+"Add a data being the dofs of a finite element method ``mf`` initialized "
+"with the given vector ``V``. ``name`` is a string which designate the "
+"data. ``niter`` is the number of copy of the data."
+msgstr ""
+
+# cd8b99d3f42649d9a8af4f91d1a05577
+#: ../source/userdoc/model_object.rst:116
+msgid ""
+"Add a special variable linked to the finite element method ``mf`` and "
+"being a multiplier for certain constraints (Dirichlet condition for "
+"instance) on a primal variable ``primal_name``. The most important is "
+"that the degrees of freedom will be filtered thanks to a "
+"``partial_mesh_fem`` object in order to retain only a set of linearly "
+"independent constraints. To ensure this, a call to the bricks having a "
+"term linking the multiplier and the primal variable is done and a special"
+" algorithm is called to extract independent constraints. This algorithm "
+"is optimized for boundary multipliers (see gmm::range_basis). Use it with"
+" care for volumic multipliers. ``niter`` is the number of copy of the "
+"variable. Note that for complex terms, only the real part is considered "
+"to filter the multiplier."
+msgstr ""
+
+# 77253881e4064f1da408ec1fc7a891d6
+#: ../source/userdoc/model_object.rst:130
+msgid "Gives the access to the vector value of a variable or data. Real version."
+msgstr ""
+
+# b99c1527dabc471a8bf3b947bbdb37bc
+#: ../source/userdoc/model_object.rst:134
+msgid ""
+"Gives the access to the vector value of a variable or data. Complex "
+"version."
+msgstr ""
+
+# 3cbaf4daa00847d48ec9d29af60e687c
+#: ../source/userdoc/model_object.rst:138
+msgid ""
+"Gives a reference on the |mf| on which the variable is defined. Throw an "
+"exception if this is not a fem variable."
+msgstr ""
+
+# d4f5832fdde940f48653110e78ebcf34
+#: ../source/userdoc/model_object.rst:143
+msgid ""
+"Gives the access to tangent matrix. Real version. A computation of the "
+"tangent system have to be done first."
+msgstr ""
+
+# c47936f65f5b4bf8a83fb5922e30c004
+#: ../source/userdoc/model_object.rst:148
+msgid ""
+"Gives the access to tangent matrix. Complex version. A computation of the"
+" tangent system have to be done first."
+msgstr ""
+
+# cd8a4bc7f0624293a72ffb91ca581bf9
+#: ../source/userdoc/model_object.rst:153
+msgid ""
+"Gives the access to right hand side vector of the linear system. real "
+"version. A computation of the tangent system have to be done first."
+msgstr ""
+
+# 2192328d5b9a42a784ede5f97c04f0e1
+#: ../source/userdoc/model_object.rst:158
+msgid ""
+"Gives the access to right hand side vector of the linear system. Complex "
+"version. A computation of the tangent system have to be done first."
+msgstr ""
+
+# a5296f9a4a034c2e80bc5483a863bb90
+#: ../source/userdoc/model_object.rst:163
+msgid "The |br| object"
+msgstr ""
+
+# 04941b9184c746ecbed4e93cb5f15433
+#: ../source/userdoc/model_object.rst:165
+msgid ""
+"A model brick is an object that is supposed to represent a part of a "
+"model. It aims to represent some integral terms in a weak formulation of "
+"a PDE model. The model object will contain a list of bricks. All the "
+"terms described by the brick will be finally assembled to build the "
+"linear system to be solved (the tangent linear system for a nonlinear "
+"problem). For instance if a term :math:`\\Delta u` is present on the pde "
+"model (Laplacian of :math:`u`) then the weak formulation will contain the"
+" term :math:`\\int_{\\Omega}\\nabla u\\cdot\\nabla v\\ dx`, where "
+":math:`v` is the test function corresponding to :math:`u`. Then the role "
+"of the corresponding brick is to assemble the term "
+":math:`\\int_{\\Omega}\\nabla\\varphi_i \\cdot\\nabla\\varphi_j\\ dx`, "
+"where :math:`\\varphi_i` and :math:`\\varphi_j` are the shape functions "
+"of the finite element method describing :math:`u`. This term will be "
+"added by the model object to the global linear system on a diagonal block"
+" corresponding to the variable :math:`u`. The only role of the brick is "
+"thus to call the corresponding assembly procedure when the model object "
+"asks for it. The construction of a brick for such a linear term is thus "
+"very simple."
+msgstr ""
+
+# 23123fe197ec4b2fb6da6fab79fb855b
+#: ../source/userdoc/model_object.rst:181
+msgid ""
+"Basically, the brick object will derive from the object ``virtual_brick``"
+" defined in :file:`getfem/getfem_models.h` and should redefine the method"
+" ``asm_real_tangent_terms`` or ``asm_complex_tangent_terms`` depending on"
+" whether it is a real term or an intrinsic complex term."
+msgstr ""
+
+# 2c306d1ba51d4211aff3f9189600b2da
+#: ../source/userdoc/model_object.rst:188
+msgid "How to build a new brick"
+msgstr ""
+
+# 946c888cf8aa4ce88e4ba9dfe7825bb2
+#: ../source/userdoc/model_object.rst:190
+msgid ""
+"Note first that the design of a new brick is only necessary for special "
+"terms not covered by existing bricks and not covered by the wide range of"
+" accessible terms (including complex coupling terms) of the generic "
+"assembly brick (see :ref:`ud-model-generic-assembly`)."
+msgstr ""
+
+# 4ed8879c7b4143a79f0fe20f6960344c
+#: ../source/userdoc/model_object.rst:195
+msgid ""
+"According to the spirit in which the brick has been designed, a brick "
+"should avoid as much as possible to store additional data. The parameters"
+" of a brick should be contained in the variable and data of the model. "
+"For instance, the parameters of a linear elasticity brick are the "
+"elasticity coefficient. This coefficients have to be some data of the "
+"model. When the brick is called by the model object, a list of variables "
+"and data is given to the brick. The great majority of the predefined "
+"bricks do not store any data. This allows to instantiate such a bricks "
+"only once."
+msgstr ""
+
+# 3db426b3c7e84da39f3066cb4b1af4d5
+#: ../source/userdoc/model_object.rst:203
+msgid ""
+"An example of a brick corresponding to the laplacian term is the "
+"following (other examples can be found in the file "
+":file:`getfem_models.cc` which contains the very standard bricks)::"
+msgstr ""
+
+# 378827427b4b471bb9fe02dc49e661d5
+#: ../source/userdoc/model_object.rst:241
+msgid ""
+"The constructor of a brick should call the method ``set_flags``. The "
+"first parameter of this method is a name for the brick (this allows to "
+"list the bricks of a model and facilitate their identification). The "
+"other parameters are some flags, respectively:"
+msgstr ""
+
+# 1ee146cf00a3477bbcbc5c6c6b34b8ba
+#: ../source/userdoc/model_object.rst:246
+msgid "if the brick terms are all linear or not."
+msgstr ""
+
+# 6a383e3e6aa3400aad1b0fcd2e105d98
+#: ../source/userdoc/model_object.rst:248
+msgid ""
+"if the brick terms are globally symmetric (conjugated in the complex "
+"version) or at least do not affect the symmetry. The terms corresponding "
+"to two different variables and declared symmetric are added twice in the "
+"global linear system (the term and the transpose of the term)."
+msgstr ""
+
+# 9d95a852fe8a417b8bb7badd5446c97a
+#: ../source/userdoc/model_object.rst:253
+msgid "if the terms do not affect the coercivity."
+msgstr ""
+
+# 481bb04b0fef47f582e47b578b7046ce
+#: ../source/userdoc/model_object.rst:255
+msgid ""
+"if the terms have a real version or not. If yes, the method "
+"``asm_real_tangent_terms`` should be redefined."
+msgstr ""
+
+# 826ab73643e043bdb2dd877f900d679c
+#: ../source/userdoc/model_object.rst:258
+msgid ""
+"if the terms have a complex version or not. If yes, the method "
+"``asm_complex_tangent_terms`` should be redefined."
+msgstr ""
+
+# 432185bd22ae447c8add34316ff6e633
+#: ../source/userdoc/model_object.rst:261
+msgid ""
+"The method ``asm_real_tangent_terms`` will be called by the model object "
+"for the assembly of the tangent system. The model object gives the whole "
+"framework to the brick to build its terms. The parameter ``md`` of the "
+"``asm_real_tangent_terms`` method is the model that called the brick, "
+"``ib`` being the brick number in the model. The parameter ``varl`` is an "
+"array of variable/data names defined in this model and needed in the "
+"brick. ``mims`` is an array of |mim| pointers. It corresponds to the "
+"integration methods needed to assemble the terms. ``matl`` is an array of"
+" matrices to be computed. ``vecl`` is an array of vectors to be computed "
+"(rhs or residual vectors).  ``vecl_sym`` is an array of vectors to be "
+"computed only for symmetric terms and corresponding to the rhs of the "
+"second variable. A brick can have an arbitrary number of terms. For each "
+"term, at least the corresponding matrix or the corresponding vector has "
+"to be filled (or both the two, but only in the nonlinear case, see the "
+"description of the terms below, next section). ``region`` is a mesh "
+"region number indicated that the terms have to be assembled on a certain "
+"region. ``nl`` is for nonlinear bricks only. It says if the tangent "
+"matrix or the residual or both the two are to be computed (for linear "
+"bricks, all is to be computed at each call)."
+msgstr ""
+
+# 4dd3e93a8d6c411fad111b292dc152d2
+#: ../source/userdoc/model_object.rst:279
+msgid ""
+"For the very simple Laplacian brick defined above, only one variable is "
+"used and no data and there is only one term. The lines::"
+msgstr ""
+
+# 7986cd79ab6b4e9c81d7a3cadda21249
+#: ../source/userdoc/model_object.rst:289
+msgid ""
+"are not mandatory and just verify that the good number of terms (1), "
+"integration methods (1), variables(1), data(0) are passed to the "
+"``asm_real_tangent_terms`` method."
+msgstr ""
+
+# 64c0b7fdeeee4f209825eb3aa4f612c2
+# 96dabd27acdb442c9a59f06d53052f46
+# a97b11da1aad4e73a29271131e806487
+#: ../source/userdoc/model_object.rst:293
+#: ../source/userdoc/model_object.rst:394
+#: ../source/userdoc/model_object.rst:403
+msgid "The lines::"
+msgstr ""
+
+# dd8012f7693d4b80b74ce19a9bce86dc
+#: ../source/userdoc/model_object.rst:298
+msgid ""
+"takes the |mf| object from the variable on which the Laplacian term will "
+"be added and the |mim| object in the list of integrations methods. "
+"Finally, the lines::"
+msgstr ""
+
+# 41d747124b6f48c485a07f754e40dc67
+#: ../source/userdoc/model_object.rst:305
+msgid ""
+"call a standard assembly procedure for the Laplacian term defined in the "
+"file :file:`getfem/getfem_assembling.h`. The clear method is necessary "
+"because although it is guaranteed that the matrices in ``matl`` have good"
+" sizes they maybe not cleared before the call of "
+"``asm_real_tangent_terms``."
+msgstr ""
+
+# 72293f029e4545f8bccf834497ccd056
+#: ../source/userdoc/model_object.rst:310
+msgid ""
+"Note that this simple brick has only one term and is linear. In the case "
+"of a linear birck, either the matrix or the right hand side vector have "
+"to be filled but not both the two. Depending on the declaration of the "
+"term. See below the integration of the brick to the model."
+msgstr ""
+
+# 705f4f67e9e64a38a4aee7605c23b919
+#: ../source/userdoc/model_object.rst:315
+msgid ""
+"Let us see now a second example of a simple brick which prescribes a "
+"Dirichlet condition thanks to the use of a Lagrange multiplier. The "
+"Dirichlet condition is of the form"
+msgstr ""
+
+# 94184f9afaa141f89fa3ed0052284fab
+#: ../source/userdoc/model_object.rst:323
+msgid ""
+"where :math:`u` is the variable, :math:`u_D` is a given value and "
+":math:`\\Gamma` is a part on the boundary of the considered domain. The "
+"weak terms corresponding to this condition prescribed with a Lagrange "
+"multiplier are"
+msgstr ""
+
+# befa4f9806d640ea8589bd2005c8bac4
+#: ../source/userdoc/model_object.rst:331
+msgid ""
+"where :math:`M` is an appropriate multiplier space. The contributions to "
+"the global linear system can be viewed in Fig. :ref:`ud-fig-syslinDir`. "
+"The matrix :math:`B` is the \"mass matrix\" between the finite element "
+"space of the variable :math:`u` and the finite element space of the "
+"multiplier :math:`\\mu`. :math:`L_{u}` is the right hand side "
+"corresponding to the data :math:`u_D`."
+msgstr ""
+
+# f4cb9fb0d4df4c67b772d64e952ea2a0
+#: ../source/userdoc/model_object.rst:342
+msgid "Contributions of the simple Dirichlet brick"
+msgstr ""
+
+# 841dc139dd9345b28313c684d34447f0
+#: ../source/userdoc/model_object.rst:344
+msgid "The brick can be defined as follows::"
+msgstr ""
+
+# c47fa7bd3d7e4c428fe0ffc6df139c37
+#: ../source/userdoc/model_object.rst:387
+msgid ""
+"This brick has again only one term but defines both the matrix and the "
+"right hand side parts. Two variables are concerned, the primal variable "
+"on which the Dirichlet condition is prescribed, and the multiplier "
+"variable which should be defined on a mesh region corresponding to a "
+"boundary (it should be added to the model with the method "
+"``add_multiplier``). The term of the brick will be declared symmetric "
+"(see the next section)."
+msgstr ""
+
+# 7742b6a05d1b4cfda5206aaddaddc9b0
+#: ../source/userdoc/model_object.rst:399
+msgid ""
+"allow to have the access to the value of the data corresponding to the "
+"right hand side of the Dirichlet condition and to the |mf| on which this "
+"data is defined. If the data is constant (not described on a fem) then "
+"``mf_data`` is a null pointer."
+msgstr ""
+
+# 1230efe8b4ea4be9ac3f1b5335128186
+#: ../source/userdoc/model_object.rst:410
+msgid ""
+"make the assembly of the right hand side. The two versions correspond to "
+"a data defined on a finite element method or constant size data."
+msgstr ""
+
+# dd72c26fb778416292f2a2b17fcabab7
+#: ../source/userdoc/model_object.rst:413
+msgid "( + some example with a nonlinear term ... )"
+msgstr ""
+
+# f6ee38fe20894e939460308e1dd14cd0
+#: ../source/userdoc/model_object.rst:417
+msgid "How to add the brick to a model"
+msgstr ""
+
+# d3f0e493c8874881bf6d419bc5976873
+#: ../source/userdoc/model_object.rst:419
+msgid ""
+"In order to add a brick to a model, a certain information have to be "
+"passed to the model:"
+msgstr ""
+
+# 1a8a4a709b2349a7aa4364c004ce3d48
+#: ../source/userdoc/model_object.rst:422
+msgid "A pointer to the brick itself."
+msgstr ""
+
+# 4fcb04c6d6b846769d80a9369889ed99
+#: ../source/userdoc/model_object.rst:423
+msgid "The set of variable names concerned with the terms of the brick."
+msgstr ""
+
+# db37ff673a6c4eb5b42ad994bac637a7
+#: ../source/userdoc/model_object.rst:424
+msgid "The set of data names concerned with the terms of the brick."
+msgstr ""
+
+# 79a887e51926434fa4ce0ce8816c2d04
+#: ../source/userdoc/model_object.rst:425
+msgid "A list of terms description."
+msgstr ""
+
+# 0a1d5239a9d4405e81bafe266abeef41
+#: ../source/userdoc/model_object.rst:426
+msgid "A list of integration methods."
+msgstr ""
+
+# a0247726e37f4c29b43c5ac82ee140e1
+#: ../source/userdoc/model_object.rst:427
+msgid "Eventually the concerned mesh region."
+msgstr ""
+
+# 0b901ce8318d47b5b99014c4c2dbd932
+#: ../source/userdoc/model_object.rst:429
+msgid "This is done by the call of the |mo| object method::"
+msgstr ""
+
+# 81fb333b4c274859b561d10b3703e495
+#: ../source/userdoc/model_object.rst:437
+msgid ""
+"The method returns the index of the brick in the model. The call of this "
+"method is rather complex because it can be adapted to many situations. "
+"The construction of a new brick should be accompagned to the definition "
+"of a function that adds the new brick to the model calling this method "
+"and more simple to use."
+msgstr ""
+
+# e7e80f305a4148c6af43ef4499983677
+#: ../source/userdoc/model_object.rst:442
+msgid ""
+"For instance, for the simple Laplacian brick described above, this "
+"function can be defined as folows::"
+msgstr ""
+
+# dbed94c087b14a4bbd489b245e60fcf2
+#: ../source/userdoc/model_object.rst:457
+msgid ""
+"This function will be called by the user of your brick. The type "
+"``getfem::model::varnamelist`` is a ``std::vector<std::string>`` and "
+"represent an array of variable names. The type ``getfem::model::mimlist``"
+" is a ``std::vector<const getfem::mesh_im *>`` and represent an array of "
+"pointers to integration methods. The type ``getfem::model::termlist`` is "
+"an array of terms description. There is two kind of terms. The terms "
+"adding only a right hand side to the linear (tangent) system which have "
+"to be added to the list by::"
+msgstr ""
+
+# 57ce0d84952c43819b532d4002f00b90
+#: ../source/userdoc/model_object.rst:467
+msgid ""
+"and the terms having a contribution to the matrix of the linear system "
+"which have to be added to the list by::"
+msgstr ""
+
+# 4e08aa94263047b4a887725291de0d1a
+#: ../source/userdoc/model_object.rst:472
+msgid ""
+"In this case, the matrix term is added in the rows corresponding to the "
+"variable ``varname1`` and the columns corresponding to the variable "
+"``varname2``. The boolean being the third parameter is to declare whether"
+" the term is symmetric or not. If it is symmetric and if the two "
+"variables are different then the assembly procedure adds the "
+"corresponding term AND its transpose. The number of terms is arbitrary. "
+"For each term declared, the brick has to fill the corresponding right "
+"hand side vector (parameter ``vecl`` of ``asm_real_tangent_terms`` above)"
+" or/and the matrix term (parameter ``matl`` of "
+"``asm_real_tangent_terms``) depending on the declaration of the term. "
+"Note that for nonlinear bricks, both the matrix and the right hand side "
+"vectors have to be filled. For linear bricks, if the right hand side is "
+"filled for a term declared to be a matrix term, it is IGNORED."
+msgstr ""
+
+# 46647394d23a4f28886872d20f17626f
+#: ../source/userdoc/model_object.rst:484
+msgid ""
+"The variable names and the data names are given in two separate arrays "
+"because the dependence of the brick is not the same in both cases. A "
+"linear term has to be recomputed if the value of a data is changed but "
+"not if the value of a variable is changed."
+msgstr ""
+
+# 0a6054daf9094c1d820d3bd3847f2c1f
+#: ../source/userdoc/model_object.rst:489
+msgid ""
+"The function allowing to add the simple Dirichlet brick described above "
+"can be defined as follows::"
+msgstr ""
+
+# bcd16dc9a68b4112a23730ef70b9bbbe
+#: ../source/userdoc/model_object.rst:507
+msgid ""
+"Again, here, the term is declared symmetric and then the matrix term and "
+"its transpose will be added."
+msgstr ""
+
+# e84ddfcab5ca46fc9bb29e63767c2905
+#: ../source/userdoc/model_object.rst:7
+msgid "models"
+msgstr ""
+
+# e84ddfcab5ca46fc9bb29e63767c2905
+#: ../source/userdoc/model_object.rst:7
+msgid "model bricks"
+msgstr ""
+

@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 0358c9dafe86417e81df9b08ce83f2db
+#: ../source/whatsnew/1.3.rst:5
+msgid "What's New in |gf| 1.3"
+msgstr ""
+
+# 354016064c884849ba53c74c469585f3
+#: ../source/whatsnew/1.3.rst:7
+msgid "Released, 2002/09/24:"
+msgstr ""
+
+# 032400d5abde4e3a80e594e19df44ec4
+#: ../source/whatsnew/1.3.rst:9
+msgid "Introduction of hierarchical and composite FEMs and integration methods."
+msgstr ""
+

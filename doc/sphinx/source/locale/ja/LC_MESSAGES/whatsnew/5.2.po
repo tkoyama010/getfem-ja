@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 5a75fbd21f8248dfac20b068b6f5e569
+#: ../source/whatsnew/5.2.rst:5
+msgid "What's New in |gf| 5.2"
+msgstr ""
+
+# 3896d430674a41df954bae2d093a0c57
+#: ../source/whatsnew/5.2.rst:7
+msgid ""
+"The main contribution of this release is the sharp optimization of the "
+"high level generic assembly. Speed up in assembly time can be very "
+"important. The first pyramidal elements were also designed."
+msgstr ""
+
+# 0c031ed65ac3489980874fbc7c7c7881
+#: ../source/whatsnew/5.2.rst:9
+msgid "Released version, 2017/06/30."
+msgstr ""
+
+# 233d6d1112584853a3c8087d50529291
+#: ../source/whatsnew/5.2.rst:11
+msgid "The main changes are:"
+msgstr ""
+
+# 0bc787487e0a41bd921dcadbd69e081a
+#: ../source/whatsnew/5.2.rst:13
+msgid ""
+"|gf| project is now hosted by `Savannah "
+"<https://savannah.nongnu.org/projects/getfem>`_."
+msgstr ""
+
+# dda7223e643c484a9a31ed2d63dbe410
+#: ../source/whatsnew/5.2.rst:15
+msgid ""
+"Sharp optimization of the high level generic assembly: optimization of "
+"the most used instructions and most used elements, optimization of the "
+"storage into sparse matrix optimization, factorization of some elementary"
+" operations, etc."
+msgstr ""
+
+# 6176d79217de476c9b8df927ddafa3a7
+#: ../source/whatsnew/5.2.rst:20
+msgid ""
+"Isoparametric Lagrange pyramidal elements of degree 1 and 2 have been "
+"added together with corresponding quadrature methods."
+msgstr ""
+
+# 85f263280f9044e5bed492aa896d98fe
+#: ../source/whatsnew/5.2.rst:23
+msgid "Python interface is now compatible with Python 3.x versions."
+msgstr ""
+
+# 11fc59b1b32a4aa99ec477b21b696c83
+#: ../source/whatsnew/5.2.rst:25
+msgid "Import of Ansys meshes."
+msgstr ""
+
+# 25c2a610462343f1a4987477f8c0b10f
+#: ../source/whatsnew/5.2.rst:27
+msgid ""
+"A new transformation has been added to the weak form language for the "
+"extrapolation on a neighbour element."
+msgstr ""
+
+# 3628491119a74b429f34f746fad62d60
+#: ../source/whatsnew/5.2.rst:30
+msgid "Compatibility for Windows and Mac installation has been checked."
+msgstr ""
+
+# 98f343e2d81340d6b0d4e452e22a63d8
+#: ../source/whatsnew/5.2.rst:32
+msgid ""
+"For std::vector<T> the overload of std::cout << V << endl; added to gmm "
+"induces some conflicts. Is has been suppressed. Please use instead "
+"std::cout << gmm::vref(V) << endl;"
+msgstr ""
+

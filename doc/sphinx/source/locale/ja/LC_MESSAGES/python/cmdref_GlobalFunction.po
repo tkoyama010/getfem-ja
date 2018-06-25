@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# d48946c211bc413ba07b920a4774e5c4
+#: ../source/python/cmdref_GlobalFunction.rst:8
+msgid "GlobalFunction"
+msgstr ""
+
+# b6b2046331c74f86bbbcd7517e493328
+#: getfem.GlobalFunction:1 of
+msgid "GeFEM GlobalFunction object"
+msgstr ""
+
+# 7953b6de38164e77bd16455118d3c7c4
+#: getfem.GlobalFunction:3 of
+msgid "Global function object is represented by three functions:"
+msgstr ""
+
+# 373ae62636c64502a0d0e80987cb6bb1
+#: getfem.GlobalFunction:5 of
+msgid "The function `val`."
+msgstr ""
+
+# c2708ce72d4d4bd3b501cbb634e3aef7
+#: getfem.GlobalFunction:6 of
+msgid "The function gradient `grad`."
+msgstr ""
+
+# 64904854118e4788acdc73ebb323b6d9
+#: getfem.GlobalFunction:7 of
+msgid "The function Hessian `hess`."
+msgstr ""
+
+# 26024ad181a54c0684e49ea81f5bf9a2
+#: getfem.GlobalFunction:9 of
+msgid ""
+"this type of function is used as local and global enrichment function. "
+"The global function Hessian is an optional parameter (only for fourth "
+"order derivative problems)."
+msgstr ""
+
+# 727457fe95564a5fa6638b3b564d760b
+#: getfem.GlobalFunction:13 of
+msgid "General constructor for GlobalFunction objects"
+msgstr ""
+
+# 9d60e5b7062448baa50a8e88b75f5942
+#: getfem.GlobalFunction:15 of
+msgid ""
+"``GF = GlobalFunction('cutoff', int fn, scalar r, scalar r1, scalar r0)``"
+" Create a cutoff global function."
+msgstr ""
+
+# 4b3b3c97b6154290839c3973131d9c94
+#: getfem.GlobalFunction:18 of
+msgid ""
+"``GF = GlobalFunction('crack', int fn)`` Create a near-tip asymptotic "
+"global function for modelling cracks."
+msgstr ""
+
+# edce92e0fba545748ee3795cf4e53b5a
+#: getfem.GlobalFunction:21 of
+msgid ""
+"``GF = GlobalFunction('parser', string val[, string grad[, string "
+"hess]])`` Create a global function from strings `val`, `grad` and `hess`."
+" This function could be improved by using the derivation of the generic "
+"assembly language ... to be done."
+msgstr ""
+
+# 8019236156c1414dac6e2a0dfa61b66c
+#: getfem.GlobalFunction:26 of
+msgid ""
+"``GF = GlobalFunction('product', GlobalFunction F, GlobalFunction G)`` "
+"Create a product of two global functions."
+msgstr ""
+
+# 7338ce58533b4d44a293af29e796b4d4
+#: getfem.GlobalFunction:29 of
+msgid ""
+"``GF = GlobalFunction('add', GlobalFunction gf1, GlobalFunction gf2)`` "
+"Create a add of two global functions."
+msgstr ""
+
+# 40746850f77c405faf57c614fa97a3cd
+#: getfem.GlobalFunction.char:1 of
+msgid "Output a (unique) string representation of the GlobalFunction."
+msgstr ""
+
+# f1c91dd0196b452299fa7008aabc5a2b
+#: getfem.GlobalFunction.char:3 of
+msgid ""
+"This can be used to perform comparisons between two different "
+"GlobalFunction objects. This function is to be completed."
+msgstr ""
+
+# 6576261329254e39b2b1629891db9078
+#: getfem.GlobalFunction.display:1 of
+msgid "displays a short summary for a GlobalFunction object."
+msgstr ""
+
+# be3604b9366c46d685817c5eb43e8abc
+#: getfem.GlobalFunction.grad:1 of
+msgid "Return `grad` function evaluation in `PTs` (column points)."
+msgstr ""
+
+# 72afc7c7bb9e4bf08b21a9f70c7adcb2
+#: getfem.GlobalFunction.grad:3 of
+msgid "On return, each column of `GRADs` is of the form [Gx,Gy]."
+msgstr ""
+
+# 95190337c73e463ebfc2ed636c759d6f
+#: getfem.GlobalFunction.hess:1 of
+msgid "Return `hess` function evaluation in `PTs` (column points)."
+msgstr ""
+
+# 4100f8397f294db59505f9202a958388
+#: getfem.GlobalFunction.hess:3 of
+msgid "On return, each column of `HESSs` is of the form [Hxx,Hxy,Hyx,Hyy]."
+msgstr ""
+
+# 67aa8c9760db44d6885b6c1c48cc1c88
+#: getfem.GlobalFunction.val:1 of
+msgid "Return `val` function evaluation in `PTs` (column points)."
+msgstr ""
+

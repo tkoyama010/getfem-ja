@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# b051e47aa98049d28130b4e1564c0f11
+#: ../source/matlab/cmdref_gf_mesh_im.rst:8
+msgid "gf_mesh_im"
+msgstr ""
+
+# 7ee2e1a52def47cfbbbf293f4b8eb293
+#: ../source/matlab/cmdref_gf_mesh_im.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# c35756d3703941e494066adc820435c8
+#: ../source/matlab/cmdref_gf_mesh_im.rst:20
+msgid "**Description :**"
+msgstr ""
+
+# b9dc256e92284e0294525efe7ac17567
+#: ../source/matlab/cmdref_gf_mesh_im.rst:23
+msgid "General constructor for mesh_im objects."
+msgstr ""
+
+# 1075173e93b04b0e9fcec9a9f2e68b75
+#: ../source/matlab/cmdref_gf_mesh_im.rst:25
+msgid ""
+"This object represents an integration method defined on a whole mesh (an "
+"potentialy on its boundaries)."
+msgstr ""
+
+# 4d677142631c40a094b60e6616a5ef4d
+#: ../source/matlab/cmdref_gf_mesh_im.rst:29
+msgid "**Command list :**"
+msgstr ""
+
+# 65723e1d800d4674bf39c27f71714235
+#: ../source/matlab/cmdref_gf_mesh_im.rst:33
+msgid "``MIM = gf_mesh_im('load', string fname[, mesh m])``"
+msgstr ""
+
+# 8a20122d5e1f4347aeb16d085a0d5dab
+#: ../source/matlab/cmdref_gf_mesh_im.rst:35
+msgid "Load a mesh_im from a file."
+msgstr ""
+
+# 13f3be609acc4e77a62495f39ab035d2
+#: ../source/matlab/cmdref_gf_mesh_im.rst:37
+msgid ""
+"If the mesh `m` is not supplied (this kind of file does not store the "
+"mesh), then it is read from the file and its descriptor is returned as "
+"the second output argument."
+msgstr ""
+
+# 2817bf3eba104fe4b43ee40d0d572f52
+#: ../source/matlab/cmdref_gf_mesh_im.rst:42
+msgid "``MIM = gf_mesh_im('from string', string s[, mesh m])``"
+msgstr ""
+
+# de5ec727f2b04833a69b281a85f88e76
+#: ../source/matlab/cmdref_gf_mesh_im.rst:44
+msgid "Create a mesh_im object from its string description."
+msgstr ""
+
+# d26b18ad71b040e8b61f07d3a84fed3c
+#: ../source/matlab/cmdref_gf_mesh_im.rst:46
+msgid "See also ``gf_mesh_im_get(mesh_im MI, 'char')``"
+msgstr ""
+
+# 5786f5f561ba46d486a5d5110b2117d1
+#: ../source/matlab/cmdref_gf_mesh_im.rst:49
+msgid "``MIM = gf_mesh_im('clone', mesh_im mim)``"
+msgstr ""
+
+# 3c345dc0b692402f85c73b5a1fbd6166
+#: ../source/matlab/cmdref_gf_mesh_im.rst:51
+msgid "Create a copy of a mesh_im."
+msgstr ""
+
+# f39f71b62c594ae298e1b8f9bcd6a0a2
+#: ../source/matlab/cmdref_gf_mesh_im.rst:54
+msgid ""
+"``MIM = gf_mesh_im('levelset', mesh_levelset mls, string where, integ "
+"im[, integ im_tip[, integ im_set]])``"
+msgstr ""
+
+# 733207b7b39d4d09b7aad22426de06c3
+#: ../source/matlab/cmdref_gf_mesh_im.rst:56
+msgid ""
+"Build an integration method conformal to a partition defined implicitely "
+"by a levelset."
+msgstr ""
+
+# bda7f1885f7c4ae1923d56079c324d42
+#: ../source/matlab/cmdref_gf_mesh_im.rst:59
+msgid ""
+"The `where` argument define the domain of integration with respect to the"
+" levelset, it has to be chosen among 'ALL', 'INSIDE', 'OUTSIDE' and "
+"'BOUNDARY'."
+msgstr ""
+
+# 9555d2b730464ccf8f1e8f46f17562a0
+#: ../source/matlab/cmdref_gf_mesh_im.rst:63
+msgid ""
+"it can be completed by a string defining the boolean operation to define "
+"the integration domain when there is more than one levelset."
+msgstr ""
+
+# c6e0ed8466084f30ae1ed649acf57914
+#: ../source/matlab/cmdref_gf_mesh_im.rst:66
+msgid "the syntax is very simple, for example if there are 3 different levelset,"
+msgstr ""
+
+# f447a778df654f6ca3e4e47e3bb64635
+#: ../source/matlab/cmdref_gf_mesh_im.rst:69
+msgid ""
+"\"a*b*c\" is the intersection of the domains defined by each levelset "
+"(this is the default behaviour if this function is not called)."
+msgstr ""
+
+# 401e8a707f82444295cfa16451f08802
+#: ../source/matlab/cmdref_gf_mesh_im.rst:73
+msgid "\"a+b+c\" is the union of their domains."
+msgstr ""
+
+# 78e7a281b80d4258ac42fea9f9a5d18c
+#: ../source/matlab/cmdref_gf_mesh_im.rst:75
+msgid ""
+"\"c-(a+b)\" is the domain of the third levelset minus the union of the "
+"domains of the two others."
+msgstr ""
+
+# 12ccba9517b64af69d7a86230ee12e11
+#: ../source/matlab/cmdref_gf_mesh_im.rst:78
+msgid ""
+"\"!a\" is the complementary of the domain of a (i.e. it is the domain "
+"where a(x)>0)"
+msgstr ""
+
+# a09e6a25d86745dea54ce3ef03fe29a7
+#: ../source/matlab/cmdref_gf_mesh_im.rst:81
+msgid ""
+"The first levelset is always referred to with \"a\", the second with "
+"\"b\", and so on."
+msgstr ""
+
+# 0c555d7aa0b24d14a9ac3101a67af582
+#: ../source/matlab/cmdref_gf_mesh_im.rst:84
+msgid "for intance INSIDE(a*b*c)"
+msgstr ""
+
+# 07ff2936cb01409fb33c619b64fe43fa
+#: ../source/matlab/cmdref_gf_mesh_im.rst:86
+msgid ""
+"CAUTION: this integration method will be defined only on the element cut "
+"by the level-set. For the 'ALL', 'INSIDE' and 'OUTSIDE' options it is "
+"mandatory to use the method ``gf_mesh_im_set(mesh_im MI, 'integ')`` to "
+"define the integration method on the remaining elements."
+msgstr ""
+
+# d5448a0c8c3e47729c2129189ad9e17d
+#: ../source/matlab/cmdref_gf_mesh_im.rst:93
+msgid "``MIM = gf_mesh_im(mesh m, [{integ im|int im_degree}])``"
+msgstr ""
+
+# 9abef647618c44a98e3796f8992df8a3
+#: ../source/matlab/cmdref_gf_mesh_im.rst:95
+msgid "Build a new mesh_im object."
+msgstr ""
+
+# 647a817e87d64e68ac4902a25806ca55
+#: ../source/matlab/cmdref_gf_mesh_im.rst:97
+msgid ""
+"For convenience, optional arguments (`im` or `im_degree`) can be "
+"provided, in that case a call to ``gf_mesh_im_get(mesh_im MI, 'integ')`` "
+"is issued with these arguments."
+msgstr ""
+

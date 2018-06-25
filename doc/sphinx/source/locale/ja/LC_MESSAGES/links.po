@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# 60c2b6a0fefc452ea6e372721c0be4c3
+#: ../source/links.rst:9
+msgid "Some related links"
+msgstr ""
+
+# 60be218112e445508b08f71b459964d6
+#: ../source/links.rst:13
+msgid "Jean Garrigues courses (in french)"
+msgstr ""
+
+# 0ff37147fab348dcbc55e42e7b1afab2
+#: ../source/links.rst:18
+msgid "|link1|_"
+msgstr ""
+
+# 901d82cd20284039ae438db16ba7214b
+#: ../source/links.rst:23
+msgid "Internet Finite Element Resources"
+msgstr ""
+
+# 70c85b1d34a848d88c3ab888eda667d6
+#: ../source/links.rst:28
+msgid "|link2|_"
+msgstr ""
+
+# f8d0adc977dd41d49984ccbe0b0dc2b7
+#: ../source/links.rst:32
+msgid "MUMPS: a MUltifrontal Massively Parallel sparse direct Solver"
+msgstr ""
+
+# e6c30876bfce4b129b6a34ccd9b784fd
+#: ../source/links.rst:40
+msgid "|link3|_ or |link4|_"
+msgstr ""
+
+# 527ed09c8b0d4047807952ff021b4c9c
+#: ../source/links.rst:44
+msgid "SuperLu: Sparse Gaussian Elimination on High Performance Computers"
+msgstr ""
+
+# 2edb992e39414abaa5cc9b1194b18ec4
+#: ../source/links.rst:53
+msgid "|link5|_ or |link6|_"
+msgstr ""
+
+# 5da8b077d8fa4833a5c168e41815f91d
+#: ../source/links.rst:57
+msgid "Some project using GetFEM++ and/or Gmm++"
+msgstr ""
+
+# feb3b32aabe34e3b91347b41bcbed9dd
+#: ../source/links.rst:62
+msgid "IceTools: |link7|_."
+msgstr ""
+
+# 27c3ede9438a42ada4bddc0ab08e1b2c
+#: ../source/links.rst:68
+msgid "EChem++: |link7b|_."
+msgstr ""
+
+# 36e4ac8e876c424ca348cb9686d72b83
+#: ../source/links.rst:74
+msgid "SimNIBS: |link7c|_."
+msgstr ""
+
+# 4ab918326a6941ac9f9d9cb177e4582f
+#: ../source/links.rst:78
+msgid "Examples of publications based on GetFEM++"
+msgstr ""
+
+# 71672b04588c43858bffcc8bc079edee
+#: ../source/links.rst:83
+msgid ""
+"Andreykiv A. and Rixen D.J., Numerical modelling of electromechanical "
+"coupling using fictitious domain and level set methods. Int. J. Numer. "
+"Meth. Engng 2009. |link8|_."
+msgstr ""
+
+# 2f0b4e91d49b43c7a2a09d9c0c6ce701
+#: ../source/links.rst:88
+msgid ""
+"Chouly F., Mlika R. and Renard Y.. An unbiased Nitsche's formulation of "
+"large deformation frictional contact and self-contact. Comp. Meth. Appl. "
+"Mech. Engng., 325:265--288, 2017. |link8_1|_."
+msgstr ""
+
+# 7c91c0f92518430683b2bfaac1fe3685
+#: ../source/links.rst:93
+msgid ""
+"Fabre M., Pousin J. and Renard Y. A fictitious domain method for "
+"frictionless contact problems in elasticity using Nitsche's method. SMAI "
+"J. of Comput. Math., 2:19--50, 2016. |link8_2|_."
+msgstr ""
+
+# 21e3f46f60704ac38bc4c5c1ac1e0297
+#: ../source/links.rst:98
+msgid ""
+"Poulios K., Renard Y. An unconstrained integral approximation of large "
+"sliding frictional contact between deformable solids. Computers and "
+"Structures, 153:75--90, 2015. |link8_3|_."
+msgstr ""
+
+# 82e18a7c79c7437abd6e7c42ecaa61fa
+#: ../source/links.rst:103
+msgid ""
+"Poulios K., Niordson C.F., Homogenization of long fiber reinforced "
+"composites including fiber bending effects, Journal of the Mechanics and "
+"Physics of Solids, 94, 433-452, 2016. |link8_5|_."
+msgstr ""
+
+# 052cc767095746f3b77af528cc7ddc92
+#: ../source/links.rst:108
+msgid ""
+"Lozinguez E., Barthélémy J.-F., Bouteiller V. and Desbois T., "
+"Contribution of Sacrificial Anode in reinforced concrete patch repair: "
+"Results of numerical simulations. Construction and Building Materials, "
+"178 (2018) 405–417. |link10|_."
+msgstr ""
+
+# 0896a659bd7b4fbfb34d8835a3556bd5
+#: ../source/links.rst:113
+msgid ""
+"Vtorushin E.V., Application of mixed finite element to spatially non-"
+"local model of inelastic deformations. Int. J. Geomath. 2016. |link11|_."
+msgstr ""
+
+# 475ad4eec72d4c7e89985f60685a36f4
+#: ../source/links.rst:118
+msgid ""
+"Windhoff M., Opitz A., and Thielscher A., Electric Field Calculations in "
+"Brain Stimulation Based on Finite Elements: An Optimized Processing "
+"Pipeline for the Generation and Usage of Accurate Individual Head Models."
+" Human Brain Mapping, 34(4), 923-35, 2013. DOI: 10.1002/hbm.21479. "
+"|link12|_."
+msgstr ""
+
+# 068718a588f544c9b9af29c0d8a49f18
+#: ../source/links.rst:122
+msgid "An evaluation of Gmm++ performance"
+msgstr ""
+
+# c67e68b2ebb1440eba7221507e3d15b1
+#: ../source/links.rst:127
+msgid "|linkalpha|_."
+msgstr ""
+

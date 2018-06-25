@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# eba5fd7e94cf42d89f35fbf23ae3c387
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:8
+msgid "gf_mesh_levelset_get"
+msgstr ""
+
+# f94d4f2cefcc4f18aea489c81f4e49a4
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# 1f2d6947707c4fbd8b72f2b8f2489f20
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:23
+msgid "**Description :**"
+msgstr ""
+
+# 2779b8e8be6e4aa8b90f676ed034961d
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:26
+msgid "General function for querying information about mesh_levelset objects."
+msgstr ""
+
+# c65506f6b2e742a293d9386368ed8651
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:29
+msgid "**Command list :**"
+msgstr ""
+
+# 45066a7648f54939bd5b2b888e80e69c
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:33
+msgid "``M = gf_mesh_levelset_get(mesh_levelset MLS, 'cut_mesh')``"
+msgstr ""
+
+# bc607af1c2b9494baf6eddb603d25b63
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:35
+msgid "Return a mesh cut by the linked levelset's."
+msgstr ""
+
+# d8fb3bed83b14bb794daa7d2c3dab211
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:38
+msgid "``LM = gf_mesh_levelset_get(mesh_levelset MLS, 'linked_mesh')``"
+msgstr ""
+
+# 821fc200fab646548336a3662d56ecae
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:40
+msgid "Return a reference to the linked mesh."
+msgstr ""
+
+# 186005d7fa614d9d9adce1f80a6dfb7b
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:43
+msgid "``nbls = gf_mesh_levelset_get(mesh_levelset MLS, 'nb_ls')``"
+msgstr ""
+
+# a3bdb9c5346848878b346e331873c9f2
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:45
+msgid "Return the number of linked levelset's."
+msgstr ""
+
+# e43006466c374b4dabab88f9508ae25e
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:48
+msgid "``LS = gf_mesh_levelset_get(mesh_levelset MLS, 'levelsets')``"
+msgstr ""
+
+# c062b06046754d5b90d84bdf825edd4a
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:50
+msgid "Return a list of references to the linked levelset's."
+msgstr ""
+
+# a525949da79440fdb9bfcf331b11202a
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:53
+msgid "``CVIDs = gf_mesh_levelset_get(mesh_levelset MLS, 'crack_tip_convexes')``"
+msgstr ""
+
+# 78415ab1f966476cb853cb6479fbbaca
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:55
+msgid ""
+"Return the list of convex #id's of the linked mesh on which have a tip of"
+" any linked levelset's."
+msgstr ""
+
+# 7c5f16aa014b4554ba71dded0307eb2b
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:59
+msgid "``SIZE = gf_mesh_levelset_get(mesh_levelset MLS, 'memsize')``"
+msgstr ""
+
+# 6429e07de6ef46e6916abcb5075430a4
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:61
+msgid "Return the amount of memory (in bytes) used by the mesh_levelset."
+msgstr ""
+
+# a93bd56a54e342b0a2f2949e799a66a5
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:64
+msgid "``s = gf_mesh_levelset_get(mesh_levelset MLS, 'char')``"
+msgstr ""
+
+# 107c7d2642d14a0b89a95e1a849c3f11
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:66
+msgid "Output a (unique) string representation of the mesh_levelsetn."
+msgstr ""
+
+# f99854a8274849aeae7e584961486205
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:68
+msgid ""
+"This can be used to perform comparisons between two different "
+"mesh_levelset objects. This function is to be completed."
+msgstr ""
+
+# b671eb6502c84213b4d3ff7dc5e333b9
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:74
+msgid "``gf_mesh_levelset_get(mesh_levelset MLS, 'display')``"
+msgstr ""
+
+# 975e9852f39d4512b1a590adc5ffc5a2
+#: ../source/matlab/cmdref_gf_mesh_levelset_get.rst:76
+msgid "displays a short summary for a mesh_levelset object."
+msgstr ""
+

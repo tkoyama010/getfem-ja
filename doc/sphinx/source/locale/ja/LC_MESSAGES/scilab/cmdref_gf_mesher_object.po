@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# adf34926a2754dfba6b9b4a1b9a354be
+#: ../source/scilab/cmdref_gf_mesher_object.rst:8
+msgid "gf_mesher_object"
+msgstr ""
+
+# 5a4bc8dff59640448c7c320321f1d540
+#: ../source/scilab/cmdref_gf_mesher_object.rst:10
+msgid "**Synopsis**"
+msgstr ""
+
+# d079f112e44145768d4b1c4a885663db
+#: ../source/scilab/cmdref_gf_mesher_object.rst:24
+msgid "**Description :**"
+msgstr ""
+
+# 9c99790098cb43e6be2df35c09e2b443
+#: ../source/scilab/cmdref_gf_mesher_object.rst:27
+msgid "General constructor for mesher_object objects."
+msgstr ""
+
+# ee9670a99e9345ceb991a3ed5ce215cf
+#: ../source/scilab/cmdref_gf_mesher_object.rst:29
+msgid ""
+"This object represents a geometric object to be meshed by the "
+"experimental meshing procedure of Getfem."
+msgstr ""
+
+# 6d30abda01694de4a9c0cf07461ac8fb
+#: ../source/scilab/cmdref_gf_mesher_object.rst:33
+msgid "**Command list :**"
+msgstr ""
+
+# 42c096c1d3c64c06a411afca9e78d67e
+#: ../source/scilab/cmdref_gf_mesher_object.rst:37
+msgid "``MF = gf_mesher_object('ball', vec center, scalar radius)``"
+msgstr ""
+
+# 3a60becb84794a4599b73fb4645d11a9
+#: ../source/scilab/cmdref_gf_mesher_object.rst:39
+msgid "Represents a ball of corresponding center and radius."
+msgstr ""
+
+# 30858cfbd9974b67a250b5a2395d94bb
+#: ../source/scilab/cmdref_gf_mesher_object.rst:43
+msgid "``MF = gf_mesher_object('half space', vec origin, vec normal_vector)``"
+msgstr ""
+
+# b7e43a0794714fb2a8498873bf589f00
+#: ../source/scilab/cmdref_gf_mesher_object.rst:45
+msgid ""
+"Represents an half space delimited by the plane which contains the origin"
+" and normal to <literal>normal_vector</literal>. The selected part is the"
+" part in the direction of the normal vector. This allows to cut a "
+"geometry with a plane for instance to build a polygon or a polyhedron."
+msgstr ""
+
+# 13f021df2bcc4e2d9ad38f3b2d8ce4d5
+#: ../source/scilab/cmdref_gf_mesher_object.rst:52
+msgid ""
+"``MF = gf_mesher_object('cylinder', vec origin, vec n, scalar length, "
+"scalar radius)``"
+msgstr ""
+
+# 71ca5fdded304e65b747533d87cff2dd
+#: ../source/scilab/cmdref_gf_mesher_object.rst:54
+msgid ""
+"Represents a cylinder (in any dimension) of a certain radius whose axis "
+"is determined by the origin, a vector <literal>n</literal> and a certain "
+"length."
+msgstr ""
+
+# 2779b08b79d5408aa83b3868b171ff99
+#: ../source/scilab/cmdref_gf_mesher_object.rst:59
+msgid ""
+"``MF = gf_mesher_object('cone', vec origin, vec n, scalar length, scalar "
+"half_angle)``"
+msgstr ""
+
+# 9a2f5d4f6946476a9490be3b6ee352b8
+#: ../source/scilab/cmdref_gf_mesher_object.rst:61
+msgid ""
+"Represents a cone (in any dimension) of a certain half-angle (in radians)"
+" whose axis is determined by the origin, a vector <literal>n</literal> "
+"and a certain length."
+msgstr ""
+
+# a1dbbdfd666b44298d85dc98d2b512ba
+#: ../source/scilab/cmdref_gf_mesher_object.rst:66
+msgid "``MF = gf_mesher_object('torus', scalar R, scalar r)``"
+msgstr ""
+
+# 58f9dc1b7f254f91875cab3ca6f6368d
+#: ../source/scilab/cmdref_gf_mesher_object.rst:68
+msgid ""
+"Represents a torus in 3d of axis along the z axis with a great radius "
+"equal to <literal>R</literal> and small radius equal to "
+"<literal>r</literal>. For the moment, the possibility to change the axis "
+"is not given."
+msgstr ""
+
+# 0427e927aa2e4cedab1442ba3eb9c8a9
+#: ../source/scilab/cmdref_gf_mesher_object.rst:74
+msgid "``MF = gf_mesher_object('rectangle', vec rmin, vec rmax)``"
+msgstr ""
+
+# f4161880f8b34f0584dc6ecc629668dc
+#: ../source/scilab/cmdref_gf_mesher_object.rst:76
+msgid "Represents a rectangle (or parallelepiped in 3D) parallel to the axes."
+msgstr ""
+
+# 8f4c837ab07c48b69250d37d2a913a7e
+#: ../source/scilab/cmdref_gf_mesher_object.rst:80
+msgid ""
+"``MF = gf_mesher_object('intersect', mesher_object object1 , "
+"mesher_object object2, ...)``"
+msgstr ""
+
+# 98d7275dc2ee49a4b0be42cf8567dd47
+#: ../source/scilab/cmdref_gf_mesher_object.rst:82
+msgid "Intersection of several objects."
+msgstr ""
+
+# f3dcfd316364482d87d7b0b70f8bb7dc
+#: ../source/scilab/cmdref_gf_mesher_object.rst:86
+msgid ""
+"``MF = gf_mesher_object('union', mesher_object object1 , mesher_object "
+"object2, ...)``"
+msgstr ""
+
+# f448077dc6144254bd60a45122c04db6
+#: ../source/scilab/cmdref_gf_mesher_object.rst:88
+msgid "Union of several objects."
+msgstr ""
+
+# a8d63c5dad384bde99ff2eb43d8dd45c
+#: ../source/scilab/cmdref_gf_mesher_object.rst:92
+msgid ""
+"``MF = gf_mesher_object('set minus', mesher_object object1 , "
+"mesher_object object2)``"
+msgstr ""
+
+# acae20a3fffb464993e127f65a8790cd
+#: ../source/scilab/cmdref_gf_mesher_object.rst:94
+msgid "Geometric object being object1 minus object2."
+msgstr ""
+

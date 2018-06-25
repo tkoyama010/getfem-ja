@@ -1,0 +1,373 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2004-2017 GetFEM++ project
+# This file is distributed under the same license as the GetFEM++ package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GetFEM++ 5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+# bd8fcb7af80d44bbb9892693b42be627
+#: ../source/python/cmdref_Fem.rst:8
+msgid "Fem"
+msgstr ""
+
+# cf879d2f48e946ab860a5062e1c524df
+#: getfem.Fem:1 of
+msgid "GeFEM Fem object"
+msgstr ""
+
+# 0e3d5a541a924d1e92024b1cfddd5632
+#: getfem.Fem:3 of
+msgid "This object represents a finite element method on a reference element."
+msgstr ""
+
+# 2510c16a206f410f847a9ef7e77a8257
+#: getfem.Fem:6 of
+msgid "General constructor for Fem objects"
+msgstr ""
+
+# 7053fe127f424fd5a8f31c5035c2d417
+#: getfem.Fem:8 of
+msgid ""
+"``F = Fem('interpolated_fem', MeshFem mf, MeshIm mim, [ivec "
+"blocked_dof])`` Build a special Fem which is interpolated from another "
+"MeshFem."
+msgstr ""
+
+# d70311dcb8384c98b99e67bdb88cb0e0
+#: getfem.Fem:11 of
+msgid ""
+"Using this special finite element, it is possible to interpolate a given "
+"MeshFem `mf` on another mesh, given the integration method `mim` that "
+"will be used on this mesh."
+msgstr ""
+
+# 8a47cf50ea2348539d5c0f91eab63ee3
+#: getfem.Fem:15 of
+msgid "Note that this finite element may be quite slow, and eats much memory."
+msgstr ""
+
+# ae0f0926032d49cd9e2eabadc248be21
+#: getfem.Fem:18 of
+msgid ""
+"``F = Fem(string fem_name)`` The `fem_name` should contain a description "
+"of the finite element method. Please refer to the getfem++ manual "
+"(especially the description of finite element and integration methods) "
+"for a complete reference. Here is a list of some of them:"
+msgstr ""
+
+# f9a3c29478db4044912de8aeb231c7ca
+#: getfem.Fem:24 of
+msgid "FEM_PK(n,k) : classical Lagrange element Pk on a simplex of dimension `n`."
+msgstr ""
+
+# 653e7f6cd275453dbb31f6e1edcb0587
+#: getfem.Fem:26 of
+msgid ""
+"FEM_PK_DISCONTINUOUS(n,k[,alpha]) : discontinuous Lagrange element Pk on "
+"a simplex of dimension `n`."
+msgstr ""
+
+# 4ceb069c051344c98bb264e8bfd90e01
+#: getfem.Fem:28 of
+msgid ""
+"FEM_QK(n,k) : classical Lagrange element Qk on quadrangles, hexahedrons "
+"etc."
+msgstr ""
+
+# 5d0115eb03c0402bbfd6a87771570129
+#: getfem.Fem:30 of
+msgid ""
+"FEM_QK_DISCONTINUOUS(n,k[,alpha]) : discontinuous Lagrange element Qk on "
+"quadrangles, hexahedrons etc."
+msgstr ""
+
+# df4ba4f0f97745fcad2b20e9b565bed5
+#: getfem.Fem:32 of
+msgid ""
+"FEM_Q2_INCOMPLETE(n) : incomplete Q2 elements with 8 and 20 dof "
+"(serendipity Quad 8 and Hexa 20 elements)."
+msgstr ""
+
+# f003647be7cb44d3ba8429f41036f0ff
+#: getfem.Fem:35 of
+msgid ""
+"FEM_PK_PRISM(n,k) : classical Lagrange element Pk on a prism of dimension"
+" `n`."
+msgstr ""
+
+# 3818e62d43b344cbb0ba4424d4f96c75
+#: getfem.Fem:37 of
+msgid ""
+"FEM_PK_PRISM_DISCONTINUOUS(n,k[,alpha]) : classical discontinuous "
+"Lagrange element Pk on a prism."
+msgstr ""
+
+# 65726e8ebed1487e87fa0a11a0fc3424
+#: getfem.Fem:39 of
+msgid ""
+"FEM_PK_WITH_CUBIC_BUBBLE(n,k) : classical Lagrange element Pk on a "
+"simplex with an additional volumic bubble function."
+msgstr ""
+
+# bdc3de9dfbb64b4db09c40ce1ee7d1ff
+#: getfem.Fem:42 of
+msgid "FEM_P1_NONCONFORMING : non-conforming P1 method on a triangle."
+msgstr ""
+
+# 7fe63cda27c64ccf97a031ec2ebd311b
+#: getfem.Fem:44 of
+msgid ""
+"FEM_P1_BUBBLE_FACE(n) : P1 method on a simplex with an additional bubble "
+"function on face 0."
+msgstr ""
+
+# e40618ce22ea442c8e94c5b5f7ce27cd
+#: getfem.Fem:46 of
+msgid ""
+"FEM_P1_BUBBLE_FACE_LAG : P1 method on a simplex with an additional "
+"lagrange dof on face 0."
+msgstr ""
+
+# b6bfefbe500145b1a2bf7253840f63d7
+#: getfem.Fem:48 of
+msgid "FEM_PK_HIERARCHICAL(n,k) : PK element with a hierarchical basis."
+msgstr ""
+
+# f4c557e7249647a9b9bcdd673004e048
+#: getfem.Fem:50 of
+msgid "FEM_QK_HIERARCHICAL(n,k) : QK element with a hierarchical basis"
+msgstr ""
+
+# c624de3e1a884cd298fa1720273a4bcb
+#: getfem.Fem:52 of
+msgid ""
+"FEM_PK_PRISM_HIERARCHICAL(n,k) : PK element on a prism with a "
+"hierarchical basis."
+msgstr ""
+
+# 8aa37969a0bd4b0a9a178d20f6d7dbe8
+#: getfem.Fem:54 of
+msgid ""
+"FEM_STRUCTURED_COMPOSITE(Fem f,k) : Composite Fem `f` on a grid with `k` "
+"divisions."
+msgstr ""
+
+# d38f948b71c242af92f61f92381978c6
+#: getfem.Fem:56 of
+msgid ""
+"FEM_PK_HIERARCHICAL_COMPOSITE(n,k,s) : Pk composite element on a grid "
+"with `s` subdivisions and with a hierarchical basis."
+msgstr ""
+
+# c98adf0eda8d4fe3a96d3f5e0044febc
+#: getfem.Fem:59 of
+msgid ""
+"FEM_PK_FULL_HIERARCHICAL_COMPOSITE(n,k,s) : Pk composite element with `s`"
+" subdivisions and a hierarchical basis on both degree and subdivision."
+msgstr ""
+
+# 076d370d68884258a365f001238d49ab
+#: getfem.Fem:62 of
+msgid "FEM_PRODUCT(A,B) : tensorial product of two polynomial elements."
+msgstr ""
+
+# e0a2b4e477794f308232156b86680fea
+#: getfem.Fem:64 of
+msgid ""
+"FEM_HERMITE(n) : Hermite element P3 on a simplex of dimension `n = 1, 2, "
+"3`."
+msgstr ""
+
+# 4c3470d955dd4b4da1de7dc8d57afd53
+#: getfem.Fem:66 of
+msgid "FEM_ARGYRIS : Argyris element P5 on the triangle."
+msgstr ""
+
+# 075c41982dfb43d4917ea48fe415e795
+#: getfem.Fem:68 of
+msgid ""
+"FEM_HCT_TRIANGLE : Hsieh-Clough-Tocher element on the triangle (composite"
+" P3 element which is C1), should be used with IM_HCT_COMPOSITE() "
+"integration method."
+msgstr ""
+
+# 6e647f1e900242e08ecf6f5dbb25f45d
+#: getfem.Fem:72 of
+msgid ""
+"FEM_QUADC1_COMPOSITE : Quadrilateral element, composite P3 element and C1"
+" (16 dof)."
+msgstr ""
+
+# 2e6ca1f2aab8437986390349c12ee16b
+#: getfem.Fem:74 of
+msgid ""
+"FEM_REDUCED_QUADC1_COMPOSITE : Quadrilateral element, composite P3 "
+"element and C1 (12 dof)."
+msgstr ""
+
+# b194053d73804ed1bf59b6b69c74ef37
+#: getfem.Fem:76 of
+msgid ""
+"FEM_RT0(n) : Raviart-Thomas element of order 0 on a simplex of dimension "
+"`n`."
+msgstr ""
+
+# f292d3bb889a46938c8ce3adc44fcb34
+#: getfem.Fem:78 of
+msgid ""
+"FEM_NEDELEC(n) : Nedelec edge element of order 0 on a simplex of "
+"dimension `n`."
+msgstr ""
+
+# 91738447106249bca7acffd566343b47
+#: getfem.Fem:81 of
+msgid ""
+"Of course, you have to ensure that the selected fem is compatible with "
+"the geometric transformation: a Pk fem has no meaning on a quadrangle."
+msgstr ""
+
+# 964714d1360f4cb1b5b146031878d998
+#: getfem.Fem.base_value:1 of
+msgid "Evaluate all basis functions of the FEM at point `p`."
+msgstr ""
+
+# b284ad4c0c0b4d7391575d7eaf7062b4
+# 0286d20635854e9a852ead508d84790d
+#: getfem.Fem.base_value:3 getfem.Fem.grad_base_value:3 of
+msgid "`p` is supposed to be in the reference convex!"
+msgstr ""
+
+# 1843e6cc086e46cca7dca0fc0248429e
+#: getfem.Fem.char:1 of
+msgid "Ouput a (unique) string representation of the Fem."
+msgstr ""
+
+# 84ce5b0e72aa41cbb8478dd75b9a5150
+#: getfem.Fem.char:3 of
+msgid "This can be used to perform comparisons between two different Fem objects."
+msgstr ""
+
+# af7d2ea950cc40aab7c912cee43efb84
+#: getfem.Fem.dim:1 of
+msgid "Return the dimension (dimension of the reference convex) of the Fem."
+msgstr ""
+
+# cbe9949f7067426c8bb8c2b1b57672da
+#: getfem.Fem.display:1 of
+msgid "displays a short summary for a Fem object."
+msgstr ""
+
+# 0a7a434f442a419f9bb31887ab885319
+#: getfem.Fem.estimated_degree:1 of
+msgid "Return an estimation of the polynomial degree of the Fem."
+msgstr ""
+
+# 1b473bbab935498b804efd53fdadb6b2
+#: getfem.Fem.estimated_degree:3 of
+msgid "This is an estimation for fem which are not polynomials."
+msgstr ""
+
+# 8a425163ef9b490db4df51e4c36255a2
+#: getfem.Fem.grad_base_value:1 of
+msgid "Evaluate the gradient of all base functions of the Fem at point `p`."
+msgstr ""
+
+# 48eebcf53af04ef0bae93133a568cc61
+#: getfem.Fem.hess_base_value:1 of
+msgid "Evaluate the Hessian of all base functions of the Fem at point `p`."
+msgstr ""
+
+# 3746db97421f43eeb8cf1e8e9b7e6d2a
+#: getfem.Fem.hess_base_value:3 of
+msgid "`p` is supposed to be in the reference convex!."
+msgstr ""
+
+# 9769b1562326413e99d7b7f71d63f041
+#: getfem.Fem.index_of_global_dof:1 of
+msgid "Return the index of global dof for special fems such as interpolated fem."
+msgstr ""
+
+# 5e599e46c33b47a7bc4aba914c86d291
+#: getfem.Fem.is_equivalent:1 of
+msgid "Return 0 if the Fem is not equivalent."
+msgstr ""
+
+# c76caa26102d4d01befd3dad8ab9d628
+#: getfem.Fem.is_equivalent:3 of
+msgid ""
+"Equivalent Fem are evaluated on the reference convex. This is the case of"
+" most classical Fem's."
+msgstr ""
+
+# ccd3ce2614f24eb0a4a4d13a6d31b6b2
+#: getfem.Fem.is_lagrange:1 of
+msgid "Return 0 if the Fem is not of Lagrange type."
+msgstr ""
+
+# 228122c7101e409fa01ea66ba75538f7
+#: getfem.Fem.is_polynomial:1 of
+msgid "Return 0 if the basis functions are not polynomials."
+msgstr ""
+
+# 8dee48fc85b34498a2d62f9d8c95a0b4
+#: getfem.Fem.nbdof:1 of
+msgid "Return the number of dof for the Fem."
+msgstr ""
+
+# 57b08f711b174008b3ef27ee35e957ab
+#: getfem.Fem.nbdof:3 of
+msgid ""
+"Some specific Fem (for example 'interpolated_fem') may require a convex "
+"number `cv` to give their result. In most of the case, you can omit this "
+"convex number."
+msgstr ""
+
+# 1fc05e4947814ec1afbd97ea348f0afb
+#: getfem.Fem.poly_str:1 of
+msgid ""
+"Return the polynomial expressions of its basis functions in the reference"
+" convex."
+msgstr ""
+
+# d5e9a6912b224608a4bac0940d286a26
+#: getfem.Fem.poly_str:4 of
+msgid ""
+"The result is expressed as a tuple of strings. Of course this will fail "
+"on non-polynomial Fem's."
+msgstr ""
+
+# b319ce7e63d44295986f734568931dd7
+#: getfem.Fem.pts:1 of
+msgid "Get the location of the dof on the reference element."
+msgstr ""
+
+# 580402228f564d0b83a1679c3dfd12ae
+#: getfem.Fem.pts:3 of
+msgid ""
+"Some specific Fem may require a convex number `cv` to give their result "
+"(for example 'interpolated_fem'). In most of the case, you can omit this "
+"convex number."
+msgstr ""
+
+# b316648b080946c9a6667a7b1d031de3
+#: getfem.Fem.target_dim:1 of
+msgid "Return the dimension of the target space."
+msgstr ""
+
+# 15f2bc37ad674fe399cceab088e83d8f
+#: getfem.Fem.target_dim:3 of
+msgid "The target space dimension is usually 1, except for vector Fem."
+msgstr ""
+

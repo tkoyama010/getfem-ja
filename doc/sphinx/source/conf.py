@@ -75,6 +75,9 @@ extensions = ['sphinx.ext.pngmath','sphinx.ext.autodoc',
 # relative to the source directory
 #locale_dirs = []
 
+gettext_compact = False
+locale_dirs = ['locale/']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['.templates']
 
