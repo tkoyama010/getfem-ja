@@ -55,7 +55,7 @@ extensions = ['sphinx.ext.pngmath','sphinx.ext.autodoc',
 #source_suffix = '.rst'
 
 # The encoding of source files.
-#source_encoding = 'utf-8'
+source_encoding = 'utf-8'
 
 # The master toctree document.
 #master_doc = 'contents'
@@ -248,6 +248,8 @@ htmlhelp_basename = 'getfem' + release.replace('.', '')
 
 # Options for LaTeX output
 # ------------------------
+
+latex_docclass = {'manual': 'jsbook'}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, document class [howto/manual]).
