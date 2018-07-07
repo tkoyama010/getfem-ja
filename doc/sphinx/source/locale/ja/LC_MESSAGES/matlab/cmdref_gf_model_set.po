@@ -8,124 +8,124 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GetFEM++ 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"POT-Creation-Date: 2018-07-07 10:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.6.0\n"
 
-# 973b2f0eb404451fa2fb2e4bfacef2c4
+# e6979b4f15694180a367fc43c98bd19c
 #: ../source/matlab/cmdref_gf_model_set.rst:8
 msgid "gf_model_set"
 msgstr ""
 
-# 16387398252f48e09364edec6bcb3837
+# 32d8196701924715a234eb0451250330
 #: ../source/matlab/cmdref_gf_model_set.rst:10
 msgid "**Synopsis**"
 msgstr ""
 
-# 428a09a382d64e7d9da3adaa98ecaed9
-#: ../source/matlab/cmdref_gf_model_set.rst:136
+# 985f5719526a4221ab4a06dd93f968f6
+#: ../source/matlab/cmdref_gf_model_set.rst:140
 msgid "**Description :**"
 msgstr ""
 
-# aa76bf0860c943d288b9029ae8d88f56
-#: ../source/matlab/cmdref_gf_model_set.rst:139
+# 20f0ec741eb84a1a83e8de506834871e
+#: ../source/matlab/cmdref_gf_model_set.rst:143
 msgid "Modifies a model object."
 msgstr ""
 
-# d7f32a895329496b955377609bc10946
-#: ../source/matlab/cmdref_gf_model_set.rst:142
+# 7e906700e46b4734a9dd95e30041bd3b
+#: ../source/matlab/cmdref_gf_model_set.rst:146
 msgid "**Command list :**"
 msgstr ""
 
-# f3057236deb945d1ac990509c553f5ba
-#: ../source/matlab/cmdref_gf_model_set.rst:146
+# cb2a0b81a964425da5dde899ed569391
+#: ../source/matlab/cmdref_gf_model_set.rst:150
 msgid "``gf_model_set(model M, 'clear')``"
 msgstr ""
 
-# bac165848f6c45a592be3d2dbfb3bab1
-#: ../source/matlab/cmdref_gf_model_set.rst:148
+# a0b8fda1921146809eede1f520a36b0e
+#: ../source/matlab/cmdref_gf_model_set.rst:152
 msgid "Clear the model."
 msgstr ""
 
-# f1f4cb9899a44512aa602589229735dc
-#: ../source/matlab/cmdref_gf_model_set.rst:151
+# f734177388c64cfe9ce0d5390b76b5f2
+#: ../source/matlab/cmdref_gf_model_set.rst:155
 msgid "``gf_model_set(model M, 'add fem variable', string name, mesh_fem mf)``"
 msgstr ""
 
-# a356ec0dc63344d983a3d91a2b0d3b12
-#: ../source/matlab/cmdref_gf_model_set.rst:153
+# bbe60ccc578b4569942560bda2864f41
+#: ../source/matlab/cmdref_gf_model_set.rst:157
 msgid ""
 "Add a variable to the model linked to a mesh_fem. `name` is the variable "
 "name."
 msgstr ""
 
-# 96c7a132d6b944aba91b3de3308bf943
-#: ../source/matlab/cmdref_gf_model_set.rst:157
+# d0c8aa762c4e4026b6dcd9b131db144d
+#: ../source/matlab/cmdref_gf_model_set.rst:161
 msgid ""
 "``gf_model_set(model M, 'add filtered fem variable', string name, "
 "mesh_fem mf, int region)``"
 msgstr ""
 
-# c568855a67784cfbb0325e9728ada5f6
-#: ../source/matlab/cmdref_gf_model_set.rst:159
+# ff4999c8d710425996471367d2d545cd
+#: ../source/matlab/cmdref_gf_model_set.rst:163
 msgid ""
 "Add a variable to the model linked to a mesh_fem. The variable is "
 "filtered in the sense that only the dof on the region are considered. "
 "`name` is the variable name."
 msgstr ""
 
-# b6e3c275385245b99ced8adc6079d2ee
-#: ../source/matlab/cmdref_gf_model_set.rst:164
+# dc8c827e1d3042c6bd68726ddec0b6dc
+#: ../source/matlab/cmdref_gf_model_set.rst:168
 msgid "``gf_model_set(model M, 'add variable', string name, sizes)``"
 msgstr ""
 
-# fcdb7fd8dfc94016a36eb150de1add9a
-#: ../source/matlab/cmdref_gf_model_set.rst:166
+# 66b2d9013b754b6b8ffeea60539ab55d
+#: ../source/matlab/cmdref_gf_model_set.rst:170
 msgid ""
 "Add a variable to the model of constant sizes. `sizes` is either a "
 "integer (for a scalar or vector variable) or a vector of dimensions for a"
 " tensor variable. `name` is the variable name."
 msgstr ""
 
-# 94683bb114c44a94ab4fb40476672ef7
-#: ../source/matlab/cmdref_gf_model_set.rst:171
+# ecabe9b3aaf94f9fada8b04e57db88a1
+#: ../source/matlab/cmdref_gf_model_set.rst:175
 msgid "``gf_model_set(model M, 'delete variable', string name)``"
 msgstr ""
 
-# 74d7a7762e2f486582e4414332261591
-# 4d9560ae82cb4f9ca07d5b4802c113cc
-#: ../source/matlab/cmdref_gf_model_set.rst:173
-#: ../source/matlab/cmdref_gf_model_set.rst:263
+# db5dc774734441d0a245e498f7701d81
+# 64f6adde932b4775a404f22b51ffa380
+#: ../source/matlab/cmdref_gf_model_set.rst:177
+#: ../source/matlab/cmdref_gf_model_set.rst:267
 msgid "Delete a variable or a data from the model."
 msgstr ""
 
-# 9e749f63fe27413c97a544dd23faae67
-#: ../source/matlab/cmdref_gf_model_set.rst:176
+# 416b1971410e4786be1994549b80faff
+#: ../source/matlab/cmdref_gf_model_set.rst:180
 msgid "``gf_model_set(model M, 'resize variable', string name, sizes)``"
 msgstr ""
 
-# 3a847f2b75e448208aec349bd893f701
-#: ../source/matlab/cmdref_gf_model_set.rst:178
+# cb732b7b4dec4f1b8c7b741f6957f08a
+#: ../source/matlab/cmdref_gf_model_set.rst:182
 msgid ""
 "Resize a  constant size variable of the model.  `sizes` is either a "
 "integer (for a scalar or vector variable) or a vector of dimensions for a"
 " tensor variable. `name` is the variable name."
 msgstr ""
 
-# a341e4944cdb43b7a06f7e057dec4f38
-#: ../source/matlab/cmdref_gf_model_set.rst:183
+# cdb1a83906044df6b6a2ea386847ad95
+#: ../source/matlab/cmdref_gf_model_set.rst:187
 msgid ""
 "``gf_model_set(model M, 'add multiplier', string name, mesh_fem mf, "
 "string primalname[, mesh_im mim, int region])``"
 msgstr ""
 
-# a34c160bae7244ad895ce68e4461d15f
-#: ../source/matlab/cmdref_gf_model_set.rst:185
+# d622c6ad475e4a4a8743dda5e58f0705
+#: ../source/matlab/cmdref_gf_model_set.rst:189
 msgid ""
 "Add a particular variable linked to a fem being a multiplier with respect"
 " to a primal variable. The dof will be filtered with the "
@@ -135,40 +135,40 @@ msgid ""
 "boundary multipliers."
 msgstr ""
 
-# 9c9380875b6b4a1a9eb4035551f84779
-#: ../source/matlab/cmdref_gf_model_set.rst:193
+# 5a905cd03ae6467aac618f4bb05bd449
+#: ../source/matlab/cmdref_gf_model_set.rst:197
 msgid "``gf_model_set(model M, 'add im data', string name, mesh_imd mimd)``"
 msgstr ""
 
-# 7d3cfc4e4c9e4726a521455ae40e4258
-#: ../source/matlab/cmdref_gf_model_set.rst:195
+# 7d220f341698450d8e245915b65130e0
+#: ../source/matlab/cmdref_gf_model_set.rst:199
 msgid "Add a data set to the model linked to a mesh_imd. `name` is the data name."
 msgstr ""
 
-# cf7998661f58459d940ee823931b4d56
-#: ../source/matlab/cmdref_gf_model_set.rst:199
+# e1bb0551531748cd87df18e655a0892a
+#: ../source/matlab/cmdref_gf_model_set.rst:203
 msgid ""
 "``gf_model_set(model M, 'add fem data', string name, mesh_fem mf[, "
 "sizes])``"
 msgstr ""
 
-# 564ddb4304de40e2827884fe0159995b
-#: ../source/matlab/cmdref_gf_model_set.rst:201
+# 799bee6dd83c4a589cab2924a8cc1fcb
+#: ../source/matlab/cmdref_gf_model_set.rst:205
 msgid ""
 "Add a data to the model linked to a mesh_fem. `name` is the data name, "
 "`sizes` an optional parameter which is either an integer  or a vector of "
 "suplementary dimensions with respect to `mf`."
 msgstr ""
 
-# aacf5f164bde4af887395beabf02d4d0
-#: ../source/matlab/cmdref_gf_model_set.rst:206
+# c30f6bc965124bb78543afbe5e41c25b
+#: ../source/matlab/cmdref_gf_model_set.rst:210
 msgid ""
 "``gf_model_set(model M, 'add initialized fem data', string name, mesh_fem"
 " mf, vec V[, sizes])``"
 msgstr ""
 
-# 2f3b85a63feb41798b805edca22fd5c3
-#: ../source/matlab/cmdref_gf_model_set.rst:208
+# 51be2f16e3df4d84901c2d484d69a91c
+#: ../source/matlab/cmdref_gf_model_set.rst:212
 msgid ""
 "Add a data to the model linked to a mesh_fem. `name` is the data name. "
 "The data is initiakized with `V`. The data can be a scalar or vector "
@@ -176,26 +176,26 @@ msgid ""
 "vector of suplementary dimensions with respect to `mf`."
 msgstr ""
 
-# e6cd4212977f4833a68253be17f24a54
-#: ../source/matlab/cmdref_gf_model_set.rst:214
+# 23aa1b9aa250453ab104e194f5567000
+#: ../source/matlab/cmdref_gf_model_set.rst:218
 msgid "``gf_model_set(model M, 'add data', string name, int size)``"
 msgstr ""
 
-# 965bfc3bc72a4892a87483b3c709cde7
-#: ../source/matlab/cmdref_gf_model_set.rst:216
+# d0531f8c05d041a6aee173dc6927e6ad
+#: ../source/matlab/cmdref_gf_model_set.rst:220
 msgid ""
 "Add a fixed size data to the model.  `sizes` is either a integer (for a "
 "scalar or vector data) or a vector of dimensions for a tensor data. "
 "`name` is the data name."
 msgstr ""
 
-# 16aeee50a6144e32a85e596b14af7629
-#: ../source/matlab/cmdref_gf_model_set.rst:221
+# 026fbc36c44b4687b5d2ef77c1a737a3
+#: ../source/matlab/cmdref_gf_model_set.rst:225
 msgid "``gf_model_set(model M, 'add macro', string name, string expr)``"
 msgstr ""
 
-# 7f6ac36990ab44deb0693eafbd6ae73a
-#: ../source/matlab/cmdref_gf_model_set.rst:223
+# e52b9a6156654b519472a56f9fa97572
+#: ../source/matlab/cmdref_gf_model_set.rst:227
 msgid ""
 "Define a new macro for the high generic assembly language. The name "
 "include the parameters. For instance name='sp(a,b)', expr='a.b' is a "
@@ -207,25 +207,25 @@ msgid ""
 "keyword 'Def'."
 msgstr ""
 
-# 6686d6b4616c40d8a462455fde22fe01
-#: ../source/matlab/cmdref_gf_model_set.rst:234
+# 415f2d73ba7e400091627f0459cb34b2
+#: ../source/matlab/cmdref_gf_model_set.rst:238
 msgid "``gf_model_set(model M, 'del macro', string name)``"
 msgstr ""
 
-# 4bc898551ed541a19bc66f4bcca84534
-#: ../source/matlab/cmdref_gf_model_set.rst:236
+# dd251aa0344b4b12a006a9d87ded1752
+#: ../source/matlab/cmdref_gf_model_set.rst:240
 msgid "Delete a previously defined macro for the high generic assembly language."
 msgstr ""
 
-# f93c1bfda78f421fb0c3b47a615163c1
-#: ../source/matlab/cmdref_gf_model_set.rst:240
+# 74e207a7b8b940ddac6a6e7517c4a1f7
+#: ../source/matlab/cmdref_gf_model_set.rst:244
 msgid ""
 "``gf_model_set(model M, 'add initialized data', string name, vec V[, "
 "sizes])``"
 msgstr ""
 
-# 0a4f37303c0b42449749f486cf109efa
-#: ../source/matlab/cmdref_gf_model_set.rst:242
+# c4495f2dc51f4d49979ff40adce67acc
+#: ../source/matlab/cmdref_gf_model_set.rst:246
 msgid ""
 "Add an initialized fixed size data to the model. `sizes` an optional "
 "parameter which is either an integer  or a vector dimensions that "
@@ -234,69 +234,69 @@ msgid ""
 "data."
 msgstr ""
 
-# fe6aea606282473a8b34980fefd3f848
-#: ../source/matlab/cmdref_gf_model_set.rst:249
+# e53f4af20ac34b3fbb8b6fc2e3d6dbdc
+#: ../source/matlab/cmdref_gf_model_set.rst:253
 msgid "``gf_model_set(model M, 'variable', string name, vec V)``"
 msgstr ""
 
-# c6465eca39e64be4b2d29dd2c229ae0a
-#: ../source/matlab/cmdref_gf_model_set.rst:251
+# a0b3ea61a39740ebbdf7cf280b570cbb
+#: ../source/matlab/cmdref_gf_model_set.rst:255
 msgid "Set the value of a variable or data. `name` is the data name."
 msgstr ""
 
-# 920d02fe03d04a56af48130bb2bdb7e9
-#: ../source/matlab/cmdref_gf_model_set.rst:254
+# 9fa25144930842b08270425469217a6f
+#: ../source/matlab/cmdref_gf_model_set.rst:258
 msgid "``gf_model_set(model M, 'to variables', vec V)``"
 msgstr ""
 
-# 197ddc4433ce4cd4912feb38bb1ac28f
-#: ../source/matlab/cmdref_gf_model_set.rst:256
+# 839b7949e4cd407bb34e209f258cdea8
+#: ../source/matlab/cmdref_gf_model_set.rst:260
 msgid ""
 "Set the value of the variables of the model with the vector `V`. "
 "Typically, the vector `V` results of the solve of the tangent linear "
 "system (useful to solve your problem with you own solver)."
 msgstr ""
 
-# 02d1d98e33104410bf20f1b5661a1895
-#: ../source/matlab/cmdref_gf_model_set.rst:261
+# e6a12c1d9d3f44d58b907cdc638b773b
+#: ../source/matlab/cmdref_gf_model_set.rst:265
 msgid "``gf_model_set(model M, 'delete brick', int ind_brick)``"
 msgstr ""
 
-# ecbf6a9ecdb941f8aa845a1d0131d5ff
-#: ../source/matlab/cmdref_gf_model_set.rst:266
+# d8deebbbee6442dcbcf5050eb7cb917b
+#: ../source/matlab/cmdref_gf_model_set.rst:270
 msgid ""
 "``gf_model_set(model M, 'define variable group', string name[, string "
 "varname, ...])``"
 msgstr ""
 
-# 448dd5b7051941d6899d1adb37c2c9cd
-#: ../source/matlab/cmdref_gf_model_set.rst:268
+# 8a6fe38318c141e3a5bc05c2fd383b5c
+#: ../source/matlab/cmdref_gf_model_set.rst:272
 msgid ""
 "Defines a group of variables for the interpolation (mainly for the "
 "raytracing interpolation transformation."
 msgstr ""
 
-# d66935b63a75404fbe22e8708c03303a
-#: ../source/matlab/cmdref_gf_model_set.rst:272
+# fa79b10644d44fc1b6cbf6709b23f46e
+#: ../source/matlab/cmdref_gf_model_set.rst:276
 msgid ""
 "``gf_model_set(model M, 'add elementary rotated RT0 projection', string "
 "transname)``"
 msgstr ""
 
-# 59c84409024e4d82b5b2ee252d600780
-#: ../source/matlab/cmdref_gf_model_set.rst:274
+# 795a719666b44dd7a6352aa4bca4cdd3
+#: ../source/matlab/cmdref_gf_model_set.rst:278
 msgid "Experimental method ..."
 msgstr ""
 
-# ff544ab01d4447669cfc6fca19c94d1c
-#: ../source/matlab/cmdref_gf_model_set.rst:277
+# b73b47517d7e4d438710a878e55aa08a
+#: ../source/matlab/cmdref_gf_model_set.rst:281
 msgid ""
 "``gf_model_set(model M, 'add interpolate transformation from expression',"
 " string transname, mesh source_mesh, mesh target_mesh, string expr)``"
 msgstr ""
 
-# a5f5d68183de4bf4ab62044da96e3926
-#: ../source/matlab/cmdref_gf_model_set.rst:279
+# 622ef3f518ef4971829f0eb340a84f23
+#: ../source/matlab/cmdref_gf_model_set.rst:283
 msgid ""
 "Add a transformation to the model from mesh `source_mesh` to mesh "
 "`target_mesh` given by the expression `expr` which corresponds to a high-"
@@ -307,15 +307,15 @@ msgid ""
 "allowed in the definition of a potential."
 msgstr ""
 
-# fac690df12cf4023b14c9d19861a515d
-#: ../source/matlab/cmdref_gf_model_set.rst:289
+# 2789610471bf402b8916c9bbe5feaaa0
+#: ../source/matlab/cmdref_gf_model_set.rst:293
 msgid ""
 "``gf_model_set(model M, 'add element extrapolation transformation', "
 "string transname, mesh source_mesh, mat elt_corr)``"
 msgstr ""
 
-# 7c0621ddc1b34e13b81f82a9c167cd39
-#: ../source/matlab/cmdref_gf_model_set.rst:291
+# bc9550512e12407bbe1145c2ae8baad6
+#: ../source/matlab/cmdref_gf_model_set.rst:295
 msgid ""
 "Add a special interpolation transformation which represents the identity "
 "transformation but allows to evaluate the expression on another element "
@@ -327,29 +327,46 @@ msgid ""
 "listed in elt_cor the evaluation is just made on the current element."
 msgstr ""
 
-# b3e81adc9ea54961a895abc441ef7921
-#: ../source/matlab/cmdref_gf_model_set.rst:302
+# 16e9ca1f05f847a4b81034e0fc2d974d
+#: ../source/matlab/cmdref_gf_model_set.rst:306
+msgid ""
+"``gf_model_set(model M, 'add standard secondary domain', string name, "
+"mesh_im mim, int region = -1)``"
+msgstr ""
+
+# daee293c5f914ff394dc9c00635a92e7
+#: ../source/matlab/cmdref_gf_model_set.rst:308
+msgid ""
+"Add a secondary domain to the model which can be used in a weak-form "
+"language expression for integration on the product of two domains. `name`"
+" is the name of the secondary domain, `mim` is an integration method on "
+"this domain and `region` the region on which the integration is to be "
+"performed."
+msgstr ""
+
+# 17c49eb951e64063a0114e91701188e4
+#: ../source/matlab/cmdref_gf_model_set.rst:313
 msgid ""
 "``gf_model_set(model M, 'set element extrapolation correspondance', "
 "string transname, mat elt_corr)``"
 msgstr ""
 
-# 0dbc77d2f7584be7bef01199c74e7aac
-#: ../source/matlab/cmdref_gf_model_set.rst:304
+# bed443c0194c4fcfbff8f0354897fd83
+#: ../source/matlab/cmdref_gf_model_set.rst:315
 msgid ""
 "Change the correspondance map of an element extrapolation interpolate "
 "transformation."
 msgstr ""
 
-# c69207bc5c95479d92a54a4155e6185a
-#: ../source/matlab/cmdref_gf_model_set.rst:308
+# 90c7126f02ff4274be5bf679519875f2
+#: ../source/matlab/cmdref_gf_model_set.rst:319
 msgid ""
 "``gf_model_set(model M, 'add raytracing transformation', string "
 "transname, scalar release_distance)``"
 msgstr ""
 
-# 550eefa978a944f6b9f31ce71fb94d3d
-#: ../source/matlab/cmdref_gf_model_set.rst:310
+# ae3a06de934e440d8bce0d69f6e5069f
+#: ../source/matlab/cmdref_gf_model_set.rst:321
 msgid ""
 "Add a raytracing interpolate transformation called `transname` to a model"
 " to be used by the generic assembly bricks. CAUTION: For the moment, the "
@@ -357,60 +374,60 @@ msgid ""
 "solve."
 msgstr ""
 
-# 029dd313fdf444d2bd64e0ecac59c6b2
-#: ../source/matlab/cmdref_gf_model_set.rst:316
+# 66bd8a4ef7e442c08d728ed5e2d4526b
+#: ../source/matlab/cmdref_gf_model_set.rst:327
 msgid ""
 "``gf_model_set(model M, 'add master contact boundary to raytracing "
 "transformation', string transname, mesh m, string dispname, int region)``"
 msgstr ""
 
-# 9a98a58c8e754ec8a04de9f5c3909b17
-#: ../source/matlab/cmdref_gf_model_set.rst:318
+# 1031aa0bc50c4de7b612a6faefa87895
+#: ../source/matlab/cmdref_gf_model_set.rst:329
 msgid ""
 "Add a master contact boundary with corresponding displacement variable "
 "`dispname` on a specific boundary `region` to an existing raytracing "
 "interpolate transformation called `transname`."
 msgstr ""
 
-# bd84897937934cb49bebfeab9ca618ff
-#: ../source/matlab/cmdref_gf_model_set.rst:323
+# f6b8b781a0234933bb27b034127813b5
+#: ../source/matlab/cmdref_gf_model_set.rst:334
 msgid ""
 "``gf_model_set(model M, 'add slave contact boundary to raytracing "
 "transformation', string transname, mesh m, string dispname, int region)``"
 msgstr ""
 
-# 3e5b64e359974982ae4d42938d7856c5
-#: ../source/matlab/cmdref_gf_model_set.rst:325
+# 70be355f509546709e65e03f26b8fc94
+#: ../source/matlab/cmdref_gf_model_set.rst:336
 msgid ""
 "Add a slave contact boundary with corresponding displacement variable "
 "`dispname` on a specific boundary `region` to an existing raytracing "
 "interpolate transformation called `transname`."
 msgstr ""
 
-# a5fd24b0410f45d6b2f1a66097d3345a
-#: ../source/matlab/cmdref_gf_model_set.rst:330
+# b89fbdd81d89441cb33f5139a63ccde5
+#: ../source/matlab/cmdref_gf_model_set.rst:341
 msgid ""
 "``gf_model_set(model M, 'add rigid obstacle to raytracing "
 "transformation', string transname, string expr, int N)``"
 msgstr ""
 
-# a1980990024d4ea7848eeafa7151b985
-#: ../source/matlab/cmdref_gf_model_set.rst:332
+# 68ec104a9a8b43e08702fde18df9c061
+#: ../source/matlab/cmdref_gf_model_set.rst:343
 msgid ""
 "Add a rigid obstacle whose geometry corresponds to the zero level-set of "
 "the high-level generic assembly expression `expr` to an existing "
 "raytracing interpolate transformation called `transname`."
 msgstr ""
 
-# 530d88823fc24d5d9534b3f87fcffc39
-#: ../source/matlab/cmdref_gf_model_set.rst:338
+# f2aa78e94c0440dab3d33c47de4414d0
+#: ../source/matlab/cmdref_gf_model_set.rst:349
 msgid ""
 "``gf_model_set(model M, 'add projection transformation', string "
 "transname, scalar release_distance)``"
 msgstr ""
 
-# f03275061b9e444fa5389376eda69ab8
-#: ../source/matlab/cmdref_gf_model_set.rst:340
+# 6343e7b40bbe4501a807a23df94316c3
+#: ../source/matlab/cmdref_gf_model_set.rst:351
 msgid ""
 "Add a projection interpolate transformation called `transname` to a model"
 " to be used by the generic assembly bricks. CAUTION: For the moment, the "
@@ -418,60 +435,60 @@ msgid ""
 "solve."
 msgstr ""
 
-# a4aef38813284a4996034153479ef8cf
-#: ../source/matlab/cmdref_gf_model_set.rst:346
+# 570da7a38df34501ac1bba970da505b4
+#: ../source/matlab/cmdref_gf_model_set.rst:357
 msgid ""
 "``gf_model_set(model M, 'add master contact boundary to projection "
 "transformation', string transname, mesh m, string dispname, int region)``"
 msgstr ""
 
-# 2f4f1d874f0c41118181610000ffa72f
-#: ../source/matlab/cmdref_gf_model_set.rst:348
+# 17d6bffe27264accaffa05d94efece1f
+#: ../source/matlab/cmdref_gf_model_set.rst:359
 msgid ""
 "Add a master contact boundary with corresponding displacement variable "
 "`dispname` on a specific boundary `region` to an existing projection "
 "interpolate transformation called `transname`."
 msgstr ""
 
-# dd4791e7385c4966868dd9f21e092216
-#: ../source/matlab/cmdref_gf_model_set.rst:353
+# 74b2ce5a7af3447690572eaff56cc136
+#: ../source/matlab/cmdref_gf_model_set.rst:364
 msgid ""
 "``gf_model_set(model M, 'add slave contact boundary to projection "
 "transformation', string transname, mesh m, string dispname, int region)``"
 msgstr ""
 
-# c49e3bede3254ed58fdbc3c672d9c10b
-#: ../source/matlab/cmdref_gf_model_set.rst:355
+# 09c83bc32e5447b5acb06f85f86bf689
+#: ../source/matlab/cmdref_gf_model_set.rst:366
 msgid ""
 "Add a slave contact boundary with corresponding displacement variable "
 "`dispname` on a specific boundary `region` to an existing projection "
 "interpolate transformation called `transname`."
 msgstr ""
 
-# 04e471a45c7a41d7a95609c7bafeae7b
-#: ../source/matlab/cmdref_gf_model_set.rst:360
+# d1e11f24fc144d8f94fad5456bdc8ffc
+#: ../source/matlab/cmdref_gf_model_set.rst:371
 msgid ""
 "``gf_model_set(model M, 'add rigid obstacle to projection "
 "transformation', string transname, string expr, int N)``"
 msgstr ""
 
-# f763b42c172149e182cecb4a7b73c560
-#: ../source/matlab/cmdref_gf_model_set.rst:362
+# 3108e824872c486ea6ffa5790f3e9349
+#: ../source/matlab/cmdref_gf_model_set.rst:373
 msgid ""
 "Add a rigid obstacle whose geometry corresponds to the zero level-set of "
 "the high-level generic assembly expression `expr` to an existing "
 "projection interpolate transformation called `transname`."
 msgstr ""
 
-# b8ce7001deac4acb9aed6f9cb58906db
-#: ../source/matlab/cmdref_gf_model_set.rst:368
+# 3c09f0c917ab463eafa00b555a376a72
+#: ../source/matlab/cmdref_gf_model_set.rst:379
 msgid ""
 "``ind = gf_model_set(model M, 'add linear term', mesh_im mim, string "
 "expression[, int region[, int is_symmetric[, int is_coercive]]])``"
 msgstr ""
 
-# ebc7a7f4e6b743df97356fd1c2793977
-#: ../source/matlab/cmdref_gf_model_set.rst:370
+# e5d28088af34408abe9bc5112c38b2f9
+#: ../source/matlab/cmdref_gf_model_set.rst:381
 msgid ""
 "Adds a matrix term given by the assembly string `expr` which will be "
 "assembled in region `region` and with the integration method `mim`. Only "
@@ -488,28 +505,46 @@ msgid ""
 "`brickname` is an otpional name for the brick."
 msgstr ""
 
-# fa497bcc7d1c464cb843f4250ae40475
-#: ../source/matlab/cmdref_gf_model_set.rst:388
+# df5ee539911342108a90639efccbb3c4
+#: ../source/matlab/cmdref_gf_model_set.rst:399
+msgid ""
+"``ind = gf_model_set(model M, 'add linear twodomain term', mesh_im mim, "
+"string expression, int region, string secondary_domain[, int "
+"is_symmetric[, int is_coercive]])``"
+msgstr ""
+
+# d3c8f3667959496f8ebd9ea844619ec8
+#: ../source/matlab/cmdref_gf_model_set.rst:401
+msgid ""
+"Adds a linear term given by a weak form language expression like "
+"gf_model_set(model M, 'add linear term') but for an integration on a "
+"direct product of two domains, a first specfied by ``mim`` and ``region``"
+" and a second one by ``secondary_domain`` which has to be declared first "
+"into the model."
+msgstr ""
+
+# 5700c0063b264078915d1f05e1ca2678
+#: ../source/matlab/cmdref_gf_model_set.rst:408
 msgid ""
 "``ind = gf_model_set(model M, 'add linear generic assembly brick', "
 "mesh_im mim, string expression[, int region[, int is_symmetric[, int "
 "is_coercive]]])``"
 msgstr ""
 
-# 1b94a1e821ff42abbef2e6b60e97f61a
-#: ../source/matlab/cmdref_gf_model_set.rst:390
+# b3f5f2d11f624123b090c61ec67adcab
+#: ../source/matlab/cmdref_gf_model_set.rst:410
 msgid "Deprecated. Use gf_model_set(model M, 'add linear term') instead."
 msgstr ""
 
-# 6970e7166cd74937bb3247734921e1c7
-#: ../source/matlab/cmdref_gf_model_set.rst:393
+# ebed84acd2ab4b2a8e6545cc804966a5
+#: ../source/matlab/cmdref_gf_model_set.rst:413
 msgid ""
 "``ind = gf_model_set(model M, 'add nonlinear term', mesh_im mim, string "
 "expression[, int region[, int is_symmetric[, int is_coercive]]])``"
 msgstr ""
 
-# 6704128d9a164e32af48e902e680c10c
-#: ../source/matlab/cmdref_gf_model_set.rst:395
+# 4cf94ec4e9c148d28e9f6027200c82ee
+#: ../source/matlab/cmdref_gf_model_set.rst:415
 msgid ""
 "Adds a nonlinear term given by the assembly string `expr` which will be "
 "assembled in region `region` and with the integration method `mim`. The "
@@ -521,28 +556,46 @@ msgid ""
 "non-coercive problems. `brickname` is an otpional name for the brick."
 msgstr ""
 
-# 3e7670c1278246eaabab6f5681eecba9
-#: ../source/matlab/cmdref_gf_model_set.rst:407
+# 2ff5fb2cfaf24de8a9b028ba387ae0f2
+#: ../source/matlab/cmdref_gf_model_set.rst:427
+msgid ""
+"``ind = gf_model_set(model M, 'add nonlinear twodomain term', mesh_im "
+"mim, string expression, int region, string secondary_domain[, int "
+"is_symmetric[, int is_coercive]])``"
+msgstr ""
+
+# 8f0abb973f984ef5a7b46af00ed2771a
+#: ../source/matlab/cmdref_gf_model_set.rst:429
+msgid ""
+"Adds a nonlinear term given by a weak form language expression like "
+"gf_model_set(model M, 'add nonlinear term') but for an integration on a "
+"direct product of two domains, a first specfied by ``mim`` and ``region``"
+" and a second one by ``secondary_domain`` which has to be declared first "
+"into the model."
+msgstr ""
+
+# adb60a09846b4c2580a42c49e3c7a9f9
+#: ../source/matlab/cmdref_gf_model_set.rst:436
 msgid ""
 "``ind = gf_model_set(model M, 'add nonlinear generic assembly brick', "
 "mesh_im mim, string expression[, int region[, int is_symmetric[, int "
 "is_coercive]]])``"
 msgstr ""
 
-# 0379745f10ea459f8ed6b05397dd9355
-#: ../source/matlab/cmdref_gf_model_set.rst:409
+# 267abf75bf134948a5980423ff98fd3c
+#: ../source/matlab/cmdref_gf_model_set.rst:438
 msgid "Deprecated. Use gf_model_set(model M, 'add nonlinear term') instead."
 msgstr ""
 
-# 3625f615aab5453ba38d3c0bb1fbc79b
-#: ../source/matlab/cmdref_gf_model_set.rst:412
+# effdad66ace143ef8b51cfe06235cffc
+#: ../source/matlab/cmdref_gf_model_set.rst:441
 msgid ""
 "``ind = gf_model_set(model M, 'add source term', mesh_im mim, string "
 "expression[, int region])``"
 msgstr ""
 
-# dda139d37d9b45f99dce49f6d32343d1
-#: ../source/matlab/cmdref_gf_model_set.rst:414
+# 6ea8cae972014c448b0fff8747912660
+#: ../source/matlab/cmdref_gf_model_set.rst:443
 msgid ""
 "Adds a source term given by the assembly string `expr` which will be "
 "assembled in region `region` and with the integration method `mim`. Only "
@@ -552,27 +605,44 @@ msgid ""
 "`brickname` is an optional name for the brick."
 msgstr ""
 
-# 2f7d325cd4f74c43a4aa15eaddb24de0
-#: ../source/matlab/cmdref_gf_model_set.rst:423
+# 2a63fb41c9864aba96b8e28fde26afef
+#: ../source/matlab/cmdref_gf_model_set.rst:452
+msgid ""
+"``ind = gf_model_set(model M, 'add twodomain source term', mesh_im mim, "
+"string expression, int region, string secondary_domain)``"
+msgstr ""
+
+# 940643a78a7841e99cf85fc60cbd8495
+#: ../source/matlab/cmdref_gf_model_set.rst:454
+msgid ""
+"Adds a source term given by a weak form language expression like "
+"gf_model_set(model M, 'add source term') but for an integration on a "
+"direct product of two domains, a first specfied by ``mim`` and ``region``"
+" and a second one by ``secondary_domain`` which has to be declared first "
+"into the model."
+msgstr ""
+
+# 715f4b1b48494575878bafa1c686e28f
+#: ../source/matlab/cmdref_gf_model_set.rst:461
 msgid ""
 "``ind = gf_model_set(model M, 'add source term generic assembly brick', "
 "mesh_im mim, string expression[, int region])``"
 msgstr ""
 
-# bfd412561b144e54886cc64b2b2d39f9
-#: ../source/matlab/cmdref_gf_model_set.rst:425
+# da150e7245974a328d4d6b79a7e42c75
+#: ../source/matlab/cmdref_gf_model_set.rst:463
 msgid "Deprecated. Use gf_model_set(model M, 'add source term') instead."
 msgstr ""
 
-# cc43ba7257ca4676b3d7bdcb40efab7c
-#: ../source/matlab/cmdref_gf_model_set.rst:428
+# a7d403e34e2640afbf4a5373f5e2dce0
+#: ../source/matlab/cmdref_gf_model_set.rst:466
 msgid ""
 "``gf_model_set(model M, 'add assembly assignment', string dataname, "
 "string expression[, int region[, int order[, int before]]])``"
 msgstr ""
 
-# f157c90679f146e79987a9e79fa5e3b6
-#: ../source/matlab/cmdref_gf_model_set.rst:430
+# 11f3bda93494432391a1af33714b92e5
+#: ../source/matlab/cmdref_gf_model_set.rst:468
 msgid ""
 "Adds expression `expr` to be evaluated at assembly time and being "
 "assigned to the data `dataname` which has to be of im_data type. This "
@@ -589,25 +659,25 @@ msgid ""
 "assignement is done after the assembly terms."
 msgstr ""
 
-# 3c1f15ff4bbd44c8bb52c744122e5f70
-#: ../source/matlab/cmdref_gf_model_set.rst:447
+# 5c15aa931a9f421f899babc9a7918e38
+#: ../source/matlab/cmdref_gf_model_set.rst:485
 msgid "``gf_model_set(model M, 'clear assembly assignment')``"
 msgstr ""
 
-# 0048f3017c664aa58981b08d24d8aa50
-#: ../source/matlab/cmdref_gf_model_set.rst:449
+# 29a087f1855646dfb87da00d14b54b87
+#: ../source/matlab/cmdref_gf_model_set.rst:487
 msgid "Delete all added assembly assignments"
 msgstr ""
 
-# 2fda0de930984d3a8041071c93be9ced
-#: ../source/matlab/cmdref_gf_model_set.rst:453
+# 66e98fc8dba24a2a8ec2522898ace1dd
+#: ../source/matlab/cmdref_gf_model_set.rst:491
 msgid ""
 "``ind = gf_model_set(model M, 'add Laplacian brick', mesh_im mim, string "
 "varname[, int region])``"
 msgstr ""
 
-# 4a3757d647b342869b1debdea6a98c42
-#: ../source/matlab/cmdref_gf_model_set.rst:455
+# 8b151a4b7a124c13942041e5814b5800
+#: ../source/matlab/cmdref_gf_model_set.rst:493
 msgid ""
 "Add a Laplacian term to the model relatively to the variable `varname` "
 "(in fact with a minus : :math:`-\\text{div}(\\nabla u)`). If this is a "
@@ -617,15 +687,15 @@ msgid ""
 "the model."
 msgstr ""
 
-# 3dd4c9d07a5a4e7eb10259a88d0dc7af
-#: ../source/matlab/cmdref_gf_model_set.rst:463
+# 745fcc19ac5247d7b32150ff6ad630e6
+#: ../source/matlab/cmdref_gf_model_set.rst:501
 msgid ""
 "``ind = gf_model_set(model M, 'add generic elliptic brick', mesh_im mim, "
 "string varname, string dataname[, int region])``"
 msgstr ""
 
-# b14fdb6c498647ebab684d4fcb549292
-#: ../source/matlab/cmdref_gf_model_set.rst:465
+# 1c918de486e34f22b2e508d8a0bd87b5
+#: ../source/matlab/cmdref_gf_model_set.rst:503
 msgid ""
 "Add a generic elliptic term to the model relatively to the variable "
 "`varname`. The shape of the elliptic term depends both on the variable "
@@ -649,15 +719,15 @@ msgid ""
 " even depending on model variables. Return the brick index in the model."
 msgstr ""
 
-# a0b51d33189d41bdb0dfde7b4551ba4d
-#: ../source/matlab/cmdref_gf_model_set.rst:491
+# 6e8444ae1ea84f9a88905cbaebdc14f8
+#: ../source/matlab/cmdref_gf_model_set.rst:529
 msgid ""
 "``ind = gf_model_set(model M, 'add source term brick', mesh_im mim, "
 "string varname, string dataexpr[, int region[, string directdataname]])``"
 msgstr ""
 
-# 171b024a34664e33a5b4fb6811325a67
-#: ../source/matlab/cmdref_gf_model_set.rst:493
+# 3b795c9caeb5481089360c78013b9d93
+#: ../source/matlab/cmdref_gf_model_set.rst:531
 msgid ""
 "Add a source term to the model relatively to the variable `varname`. The "
 "source term is represented by `dataexpr` which could be any regular "
@@ -671,15 +741,15 @@ msgid ""
 " in the model."
 msgstr ""
 
-# ba121c7ed9054a9aba5d6c606a78452e
-#: ../source/matlab/cmdref_gf_model_set.rst:506
+# 51f9dcc0d8864a6f8299fe88b42a4d1e
+#: ../source/matlab/cmdref_gf_model_set.rst:544
 msgid ""
 "``ind = gf_model_set(model M, 'add normal source term brick', mesh_im "
 "mim, string varname, string dataname, int region)``"
 msgstr ""
 
-# 28d2348a3aed48a1a973bb82594337b9
-#: ../source/matlab/cmdref_gf_model_set.rst:508
+# 9b04af6e88d34948a9f48f5d47272591
+#: ../source/matlab/cmdref_gf_model_set.rst:546
 msgid ""
 "Add a source term on the variable `varname` on a boundary `region`. This "
 "region should be a boundary. The source term is represented by the data "
@@ -692,15 +762,15 @@ msgid ""
 " the brick index in the model."
 msgstr ""
 
-# 6fc1d26063474fa6adc2adc79dcdfd65
-#: ../source/matlab/cmdref_gf_model_set.rst:520
+# eba120683b794963b8f6a3d146a5480f
+#: ../source/matlab/cmdref_gf_model_set.rst:558
 msgid ""
 "``ind = gf_model_set(model M, 'add Dirichlet condition with "
 "simplification', string varname, int region[, string dataname])``"
 msgstr ""
 
-# ac2fb9c28f454c3db9937dd208046594
-#: ../source/matlab/cmdref_gf_model_set.rst:522
+# 2d8fb10462dc44f89c2afc9a8115097c
+#: ../source/matlab/cmdref_gf_model_set.rst:560
 msgid ""
 "Adds a (simple) Dirichlet condition on the variable `varname` and the "
 "mesh region `region`. The Dirichlet condition is prescribed by a simple "
@@ -719,16 +789,16 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# 344dc4f6134a4a56861c0cd7052a31c8
-#: ../source/matlab/cmdref_gf_model_set.rst:542
+# 4d2de13010974016af2290a27ed919fe
+#: ../source/matlab/cmdref_gf_model_set.rst:580
 msgid ""
 "``ind = gf_model_set(model M, 'add Dirichlet condition with multipliers',"
 " mesh_im mim, string varname, mult_description, int region[, string "
 "dataname])``"
 msgstr ""
 
-# 7753f13eba2444a9b9351a0efa4217a4
-#: ../source/matlab/cmdref_gf_model_set.rst:544
+# 443805e44f6149d6bbb120792fceface
+#: ../source/matlab/cmdref_gf_model_set.rst:582
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
 "`region`. This region should be a boundary. The Dirichlet condition is "
@@ -748,16 +818,16 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# 2a6bb7d92c2b45678b0fd3ee507d76d7
-#: ../source/matlab/cmdref_gf_model_set.rst:562
+# 9c95c21ab6d14378a611cd9e2ae67411
+#: ../source/matlab/cmdref_gf_model_set.rst:600
 msgid ""
 "``ind = gf_model_set(model M, 'add Dirichlet condition with Nitsche "
 "method', mesh_im mim, string varname, string Neumannterm, string "
 "datagamma0, int region[, scalar theta][, string dataname])``"
 msgstr ""
 
-# e2a4c287dc4945c9989de113903824ba
-#: ../source/matlab/cmdref_gf_model_set.rst:564
+# 17f98316a4d94d0c975411be0d6baa98
+#: ../source/matlab/cmdref_gf_model_set.rst:602
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
 "`region`. This region should be a boundary. `Neumannterm` is the "
@@ -776,16 +846,16 @@ msgid ""
 " brick index in the model."
 msgstr ""
 
-# 1915cbc25ac0495d983a334f83abf9f1
-#: ../source/matlab/cmdref_gf_model_set.rst:583
+# b9337211980e40fcac63d9edc9b41da6
+#: ../source/matlab/cmdref_gf_model_set.rst:621
 msgid ""
 "``ind = gf_model_set(model M, 'add Dirichlet condition with "
 "penalization', mesh_im mim, string varname, scalar coeff, int region[, "
 "string dataname, mesh_fem mf_mult])``"
 msgstr ""
 
-# ccd90fe4c72745798dbde29587e51787
-#: ../source/matlab/cmdref_gf_model_set.rst:585
+# c237f9be4e3a4bab967d40ed915acb7f
+#: ../source/matlab/cmdref_gf_model_set.rst:623
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
 "`region`. This region should be a boundary. The Dirichlet condition is "
@@ -798,16 +868,16 @@ msgid ""
 "specifying a multiplier space. Return the brick index in the model."
 msgstr ""
 
-# 0e43c69011004f28adbd8f99cc1a1e93
-#: ../source/matlab/cmdref_gf_model_set.rst:597
+# 4840a9cb9cab4fb4961934e6d79adb64
+#: ../source/matlab/cmdref_gf_model_set.rst:635
 msgid ""
 "``ind = gf_model_set(model M, 'add normal Dirichlet condition with "
 "multipliers', mesh_im mim, string varname, mult_description, int region[,"
 " string dataname])``"
 msgstr ""
 
-# d479a389a4be4f6bab50a3b2110874af
-#: ../source/matlab/cmdref_gf_model_set.rst:599
+# 4cbf536a31be4ac3b73bbfa957f3c416
+#: ../source/matlab/cmdref_gf_model_set.rst:637
 msgid ""
 "Add a Dirichlet condition to the normal component of the vector (or "
 "tensor) valued variable `varname` and the mesh region `region`. This "
@@ -829,16 +899,16 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# 2e9e6024ed244f01b1aad4b2789dfc33
-#: ../source/matlab/cmdref_gf_model_set.rst:620
+# 42185f4e9ba94ad2a574e89d8ec97d20
+#: ../source/matlab/cmdref_gf_model_set.rst:658
 msgid ""
 "``ind = gf_model_set(model M, 'add normal Dirichlet condition with "
 "penalization', mesh_im mim, string varname, scalar coeff, int region[, "
 "string dataname, mesh_fem mf_mult])``"
 msgstr ""
 
-# e6cf22ea17ec447188459c13051b2542
-#: ../source/matlab/cmdref_gf_model_set.rst:622
+# 8458d7c591944b00b5b2b47fddb44881
+#: ../source/matlab/cmdref_gf_model_set.rst:660
 msgid ""
 "Add a Dirichlet condition to the normal component of the vector (or "
 "tensor) valued variable `varname` and the mesh region `region`. This "
@@ -853,16 +923,16 @@ msgid ""
 "specifying a multiplier space. Returns the brick index in the model."
 msgstr ""
 
-# af486e88683c4ec5a71ed505a981eb3c
-#: ../source/matlab/cmdref_gf_model_set.rst:637
+# 96ea7febf8054c2b84115d61d17bdc74
+#: ../source/matlab/cmdref_gf_model_set.rst:675
 msgid ""
 "``ind = gf_model_set(model M, 'add normal Dirichlet condition with "
 "Nitsche method', mesh_im mim, string varname, string Neumannterm, string "
 "gamma0name, int region[, scalar theta][, string dataname])``"
 msgstr ""
 
-# 77978d7d4f6947428a69fce4c7e72414
-#: ../source/matlab/cmdref_gf_model_set.rst:639
+# 5af37a3830024530b684e5b1e7a8be36
+#: ../source/matlab/cmdref_gf_model_set.rst:677
 msgid ""
 "Add a Dirichlet condition to the normal component of the vector (or "
 "tensor) valued variable `varname` and the mesh region `region`. This "
@@ -883,16 +953,16 @@ msgid ""
 "not fully tested)"
 msgstr ""
 
-# 3684c2917adf46fd898407e0b8530257
-#: ../source/matlab/cmdref_gf_model_set.rst:662
+# 3a0a695e5f474e439e805cbbb01b3fb4
+#: ../source/matlab/cmdref_gf_model_set.rst:700
 msgid ""
 "``ind = gf_model_set(model M, 'add generalized Dirichlet condition with "
 "multipliers', mesh_im mim, string varname, mult_description, int region, "
 "string dataname, string Hname)``"
 msgstr ""
 
-# 50220a76ba46476eb7121f85864e1986
-#: ../source/matlab/cmdref_gf_model_set.rst:664
+# d8f7ff2d469048dd95d2ce66ba076b29
+#: ../source/matlab/cmdref_gf_model_set.rst:702
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
 "`region`.  This version is for vector field. It prescribes a condition "
@@ -914,16 +984,16 @@ msgid ""
 "field `H`. Returns the brick index in the model."
 msgstr ""
 
-# a0b82a47a9714e8084ef783ef51065a9
-#: ../source/matlab/cmdref_gf_model_set.rst:686
+# de5c93025c9d4b7dbd8e0d9b1f9ab780
+#: ../source/matlab/cmdref_gf_model_set.rst:724
 msgid ""
 "``ind = gf_model_set(model M, 'add generalized Dirichlet condition with "
 "penalization', mesh_im mim, string varname, scalar coeff, int region, "
 "string dataname, string Hname[, mesh_fem mf_mult])``"
 msgstr ""
 
-# 88230637b76841c9b48660f920d01aab
-#: ../source/matlab/cmdref_gf_model_set.rst:688
+# 7ba2a0efdd0d4881b80c4d1a501d4c45
+#: ../source/matlab/cmdref_gf_model_set.rst:726
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
 "`region`. This version is for vector field. It prescribes a condition "
@@ -939,16 +1009,16 @@ msgid ""
 "specifying a multiplier space. Return the brick index in the model."
 msgstr ""
 
-# a9b737b750bf435d8daf73628d8ce4ea
-#: ../source/matlab/cmdref_gf_model_set.rst:706
+# 20d9371d2bd94d23ae79f9f1cd1a11d0
+#: ../source/matlab/cmdref_gf_model_set.rst:744
 msgid ""
 "``ind = gf_model_set(model M, 'add generalized Dirichlet condition with "
 "Nitsche method', mesh_im mim, string varname, string Neumannterm, string "
 "gamma0name, int region[, scalar theta], string dataname, string Hname)``"
 msgstr ""
 
-# d7dade92ab9c45f08e11f9f4a22cb991
-#: ../source/matlab/cmdref_gf_model_set.rst:708
+# 9cf29b6df47942b082c2ff32701cf656
+#: ../source/matlab/cmdref_gf_model_set.rst:746
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
 "`region`. This version is for vector field. It prescribes a condition @f$"
@@ -972,16 +1042,16 @@ msgid ""
 "brick index in the model. (This brick is not fully tested)"
 msgstr ""
 
-# 434a5bfa1bfb47a887b25d9b0b28e0ca
-#: ../source/matlab/cmdref_gf_model_set.rst:735
+# 360c3fbed826417a9e8f922f318c1e83
+#: ../source/matlab/cmdref_gf_model_set.rst:773
 msgid ""
 "``ind = gf_model_set(model M, 'add pointwise constraints with "
 "multipliers', string varname, string dataname_pt[, string dataname_unitv]"
 " [, string dataname_val])``"
 msgstr ""
 
-# ebafb7ff69c245e5a13ed60b967fb86a
-#: ../source/matlab/cmdref_gf_model_set.rst:737
+# 18a208387d044e69a0a725a6b8d78424
+#: ../source/matlab/cmdref_gf_model_set.rst:775
 msgid ""
 "Add some pointwise constraints on the variable `varname` using "
 "multiplier. The multiplier variable is automatically added to the model. "
@@ -998,16 +1068,16 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# 56f483fbf8144a649934e9e5f50a435a
-#: ../source/matlab/cmdref_gf_model_set.rst:755
+# 2c53146a3401487aacc0c3ba7d32c7b0
+#: ../source/matlab/cmdref_gf_model_set.rst:793
 msgid ""
 "``ind = gf_model_set(model M, 'add pointwise constraints with given "
 "multipliers', string varname, string multname, string dataname_pt[, "
 "string dataname_unitv] [, string dataname_val])``"
 msgstr ""
 
-# 6ffc1ab360d245d89bcdf6971c28322b
-#: ../source/matlab/cmdref_gf_model_set.rst:757
+# d2f957ea813b4358a77e857df157d077
+#: ../source/matlab/cmdref_gf_model_set.rst:795
 msgid ""
 "Add some pointwise constraints on the variable `varname` using a given "
 "multiplier `multname`. The conditions are prescribed on a set of points "
@@ -1024,16 +1094,16 @@ msgid ""
 "displacement in a Neumann problem. Returns the brick index in the model."
 msgstr ""
 
-# 62b7a586794f40869cff26afaff05465
-#: ../source/matlab/cmdref_gf_model_set.rst:777
+# b873e39b688c45448a9efb6e9486f85a
+#: ../source/matlab/cmdref_gf_model_set.rst:815
 msgid ""
 "``ind = gf_model_set(model M, 'add pointwise constraints with "
 "penalization', string varname, scalar coeff, string dataname_pt[, string "
 "dataname_unitv] [, string dataname_val])``"
 msgstr ""
 
-# 11e3de55c6e04faea3e11f678087065c
-#: ../source/matlab/cmdref_gf_model_set.rst:779
+# db35755084cf489e952c3711c924e1de
+#: ../source/matlab/cmdref_gf_model_set.rst:817
 msgid ""
 "Add some pointwise constraints on the variable `varname` thanks to a "
 "penalization. The penalization coefficient is initially "
@@ -1051,30 +1121,30 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# 8b126435fd1442a08ec7314b94d3deb8
-#: ../source/matlab/cmdref_gf_model_set.rst:798
+# b382fdac3cea4da7b4b5933c248ce2d3
+#: ../source/matlab/cmdref_gf_model_set.rst:836
 msgid ""
 "``gf_model_set(model M, 'change penalization coeff', int ind_brick, "
 "scalar coeff)``"
 msgstr ""
 
-# 60005c9c160344cd89716c590289caeb
-#: ../source/matlab/cmdref_gf_model_set.rst:800
+# 16456d6463aa42ca93c21a387e74ee7b
+#: ../source/matlab/cmdref_gf_model_set.rst:838
 msgid ""
 "Change the penalization coefficient of a Dirichlet condition with "
 "penalization brick. If the brick is not of this kind, this function has "
 "an undefined behavior."
 msgstr ""
 
-# c31109e109c8456caedf3b5ab0b944d5
-#: ../source/matlab/cmdref_gf_model_set.rst:805
+# 24e0cd5bf00b4c1cbec5d3c049a07e8b
+#: ../source/matlab/cmdref_gf_model_set.rst:843
 msgid ""
 "``ind = gf_model_set(model M, 'add Helmholtz brick', mesh_im mim, string "
 "varname, string dataexpr[, int region])``"
 msgstr ""
 
-# 7b22238b4cb54c06b0d2db8ffca311d7
-#: ../source/matlab/cmdref_gf_model_set.rst:807
+# d20736377799484b8c5351f5b3bc9155
+#: ../source/matlab/cmdref_gf_model_set.rst:845
 msgid ""
 "Add a Helmholtz term to the model relatively to the variable `varname`. "
 "`dataexpr` is the wave number. `region` is an optional mesh region on "
@@ -1082,15 +1152,15 @@ msgid ""
 " mesh. Return the brick index in the model."
 msgstr ""
 
-# f2cbd4f0968b4581972aedf9dfd7942e
-#: ../source/matlab/cmdref_gf_model_set.rst:813
+# 6f8ebdd2b0af406485a3874438fa4854
+#: ../source/matlab/cmdref_gf_model_set.rst:851
 msgid ""
 "``ind = gf_model_set(model M, 'add Fourier Robin brick', mesh_im mim, "
 "string varname, string dataexpr, int region)``"
 msgstr ""
 
-# ef530fef621144f492c83a9ab04e995d
-#: ../source/matlab/cmdref_gf_model_set.rst:815
+# 5161dff6d4a34647918537ef657450ca
+#: ../source/matlab/cmdref_gf_model_set.rst:853
 msgid ""
 "Add a Fourier-Robin term to the model relatively to the variable "
 "`varname`. This corresponds to a weak term of the form :math:`\\int "
@@ -1101,15 +1171,15 @@ msgid ""
 "term is added. Return the brick index in the model."
 msgstr ""
 
-# 67f00e91f2ac419b978c5e619225bae0
-#: ../source/matlab/cmdref_gf_model_set.rst:824
+# 462e95b624d9499e86058a6b482e1f22
+#: ../source/matlab/cmdref_gf_model_set.rst:862
 msgid ""
 "``ind = gf_model_set(model M, 'add constraint with multipliers', string "
 "varname, string multname, spmat B, {vec L | string dataname})``"
 msgstr ""
 
-# 68c4cbd6706e465d8daead2f359e737e
-#: ../source/matlab/cmdref_gf_model_set.rst:826
+# c14dff500bdf4e14b006f1131b17271e
+#: ../source/matlab/cmdref_gf_model_set.rst:864
 msgid ""
 "Add an additional explicit constraint on the variable `varname` thank to "
 "a multiplier `multname` peviously added to the model (should be a fixed "
@@ -1121,15 +1191,15 @@ msgid ""
 "given name. Return the brick index in the model."
 msgstr ""
 
-# 3901ce2de77c4ced984654f4acdb5201
-#: ../source/matlab/cmdref_gf_model_set.rst:836
+# bcd51ea15f934036abb041c144d93237
+#: ../source/matlab/cmdref_gf_model_set.rst:874
 msgid ""
 "``ind = gf_model_set(model M, 'add constraint with penalization', string "
 "varname, scalar coeff, spmat B, {vec L | string dataname})``"
 msgstr ""
 
-# fc1d87efabf142998f8573f88d3812ad
-#: ../source/matlab/cmdref_gf_model_set.rst:838
+# 66ad5ddad657490f828adb6561ada779
+#: ../source/matlab/cmdref_gf_model_set.rst:876
 msgid ""
 "Add an additional explicit penalized constraint on the variable "
 "`varname`. The constraint is :math`BU=L` with `B` being a rectangular "
@@ -1142,15 +1212,15 @@ msgid ""
 " model as data with the given name. Return the brick index in the model."
 msgstr ""
 
-# 8c670b1af22d4b9db3c4652623d5ac82
-#: ../source/matlab/cmdref_gf_model_set.rst:851
+# 95b7ff7e79f14bfca251e133737d75be
+#: ../source/matlab/cmdref_gf_model_set.rst:889
 msgid ""
 "``ind = gf_model_set(model M, 'add explicit matrix', string varname1, "
 "string varname2, spmat B[, int issymmetric[, int iscoercive]])``"
 msgstr ""
 
-# 9ae6d26377b44d2787d69999695c378b
-#: ../source/matlab/cmdref_gf_model_set.rst:853
+# f7c52ed054ed4b48ae104cf1eb553feb
+#: ../source/matlab/cmdref_gf_model_set.rst:891
 msgid ""
 "Add a brick representing an explicit matrix to be added to the tangent "
 "linear system relatively to the variables `varname1` and `varname2`. The "
@@ -1164,13 +1234,13 @@ msgid ""
 "the model."
 msgstr ""
 
-# c1677fdb8cf14f3996d0c4e4c87f6f95
-#: ../source/matlab/cmdref_gf_model_set.rst:865
+# 00fb878cdc5c450b9773acdc5b33474c
+#: ../source/matlab/cmdref_gf_model_set.rst:903
 msgid "``ind = gf_model_set(model M, 'add explicit rhs', string varname, vec L)``"
 msgstr ""
 
-# e92953c9a4884df6825cb663f1e1f741
-#: ../source/matlab/cmdref_gf_model_set.rst:867
+# 45275ec154e54d9fa4472e6623691bd5
+#: ../source/matlab/cmdref_gf_model_set.rst:905
 msgid ""
 "Add a brick representing an explicit right hand side to be added to the "
 "right hand side of the tangent linear system relatively to the variable "
@@ -1181,41 +1251,41 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# f7f9c805d12a40fe9f94b690bd4e4c09
-#: ../source/matlab/cmdref_gf_model_set.rst:876
+# 165f0636d7b94208a2a3ae108d4c85c3
+#: ../source/matlab/cmdref_gf_model_set.rst:914
 msgid "``gf_model_set(model M, 'set private matrix', int indbrick, spmat B)``"
 msgstr ""
 
-# fa5f6130b8b745a98dee37492269b3bd
-#: ../source/matlab/cmdref_gf_model_set.rst:878
+# 49715d8444624e00a4b9e4d6ece5c030
+#: ../source/matlab/cmdref_gf_model_set.rst:916
 msgid ""
 "For some specific bricks having an internal sparse matrix (explicit "
 "bricks: 'constraint brick' and 'explicit matrix brick'), set this matrix."
 msgstr ""
 
-# 088bb967345b402cafae7f719dde37a1
-#: ../source/matlab/cmdref_gf_model_set.rst:883
+# aa37396dbf924a52b71aabb4d7176ae9
+#: ../source/matlab/cmdref_gf_model_set.rst:921
 msgid "``gf_model_set(model M, 'set private rhs', int indbrick, vec B)``"
 msgstr ""
 
-# b8edead39f2e41df80f73da9d86f53b7
-#: ../source/matlab/cmdref_gf_model_set.rst:885
+# 5fad187ec4d447febb304d85d420daa5
+#: ../source/matlab/cmdref_gf_model_set.rst:923
 msgid ""
 "For some specific bricks having an internal right hand side vector "
 "(explicit bricks: 'constraint brick' and 'explicit rhs brick'), set this "
 "rhs."
 msgstr ""
 
-# 8d4293e9f72f484d8af0f9e6fb08cd5a
-#: ../source/matlab/cmdref_gf_model_set.rst:890
+# fba487dc296c4943844a0acfc76b556c
+#: ../source/matlab/cmdref_gf_model_set.rst:928
 msgid ""
 "``ind = gf_model_set(model M, 'add isotropic linearized elasticity "
 "brick', mesh_im mim, string varname, string dataname_lambda, string "
 "dataname_mu[, int region])``"
 msgstr ""
 
-# cd9448acd1f1425f9b59013cea2d8ff1
-#: ../source/matlab/cmdref_gf_model_set.rst:892
+# 3a6de793276f4cb1bbe7f5b090fd31e0
+#: ../source/matlab/cmdref_gf_model_set.rst:930
 msgid ""
 "Add an isotropic linearized elasticity term to the model relatively to "
 "the variable `varname`. `dataname_lambda` and `dataname_mu` should "
@@ -1224,16 +1294,16 @@ msgid ""
 " mesh. Return the brick index in the model."
 msgstr ""
 
-# 22c829fb457b46caabe44b6871094e4e
-#: ../source/matlab/cmdref_gf_model_set.rst:899
+# 2115107fae584516b897cf3b822ca0eb
+#: ../source/matlab/cmdref_gf_model_set.rst:937
 msgid ""
 "``ind = gf_model_set(model M, 'add isotropic linearized elasticity brick "
 "pstrain', mesh_im mim, string varname, string data_E, string data_nu[, "
 "int region])``"
 msgstr ""
 
-# d7601973ba7b46bb823f93865725a679
-#: ../source/matlab/cmdref_gf_model_set.rst:901
+# b77d67dc0eff4bd890b5e6dffe9afd22
+#: ../source/matlab/cmdref_gf_model_set.rst:939
 msgid ""
 "Add an isotropic linearized elasticity term to the model relatively to "
 "the variable `varname`. `data_E` and `data_nu` should contain the Young "
@@ -1244,16 +1314,16 @@ msgid ""
 "correspond to the standard model. Return the brick index in the model."
 msgstr ""
 
-# 30742cdcb7a4405191f0f3849b565180
-#: ../source/matlab/cmdref_gf_model_set.rst:913
+# df10c912c5234dbc9dec1774e21f18bb
+#: ../source/matlab/cmdref_gf_model_set.rst:951
 msgid ""
 "``ind = gf_model_set(model M, 'add isotropic linearized elasticity brick "
 "pstress', mesh_im mim, string varname, string data_E, string data_nu[, "
 "int region])``"
 msgstr ""
 
-# 7db08530b64d4e01a1b128101dae4ccf
-#: ../source/matlab/cmdref_gf_model_set.rst:915
+# b3895f28a0984288b02d96fbb9c70d2a
+#: ../source/matlab/cmdref_gf_model_set.rst:953
 msgid ""
 "Add an isotropic linearized elasticity term to the model relatively to "
 "the variable `varname`. `data_E` and `data_nu` should contain the Young "
@@ -1264,16 +1334,16 @@ msgid ""
 "correspond to the standard model. Return the brick index in the model."
 msgstr ""
 
-# 9e9e88f5bab240afafec1772000bace1
-#: ../source/matlab/cmdref_gf_model_set.rst:927
+# 10abf9dacf3f4665b27afa93fc7d0295
+#: ../source/matlab/cmdref_gf_model_set.rst:965
 msgid ""
 "``ind = gf_model_set(model M, 'add linear incompressibility brick', "
 "mesh_im mim, string varname, string multname_pressure[, int region[, "
 "string dataexpr_coeff]])``"
 msgstr ""
 
-# 2ad51de69490492ab6509a4db4a713ff
-#: ../source/matlab/cmdref_gf_model_set.rst:929
+# 6e04ca5df96047fb8b99d81ba3523db1
+#: ../source/matlab/cmdref_gf_model_set.rst:967
 msgid ""
 "Add a linear incompressibility condition on `variable`. "
 "`multname_pressure` is a variable which represent the pressure. Be aware "
@@ -1286,16 +1356,16 @@ msgid ""
 ":math:`\\lambda`. Return the brick index in the model."
 msgstr ""
 
-# b3b727bbee1e419d8bc498846189ec7d
-#: ../source/matlab/cmdref_gf_model_set.rst:940
+# 2fc9e20936f54a32a97d48b240893080
+#: ../source/matlab/cmdref_gf_model_set.rst:978
 msgid ""
 "``ind = gf_model_set(model M, 'add nonlinear elasticity brick', mesh_im "
 "mim, string varname, string constitutive_law, string dataname[, int "
 "region])``"
 msgstr ""
 
-# 1f61e69796c74bff80d16ba5146a9789
-#: ../source/matlab/cmdref_gf_model_set.rst:942
+# e8d4dfb1d5ca41c69fd78d4dc7871d23
+#: ../source/matlab/cmdref_gf_model_set.rst:980
 msgid ""
 "Add a nonlinear elasticity term to the model relatively to the variable "
 "`varname` (deprecated brick, use add_finite_strain_elaticity instead). "
@@ -1318,16 +1388,16 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# 561292316d754d9d91af04f8743eef0f
-#: ../source/matlab/cmdref_gf_model_set.rst:965
+# fbb6980b135e4680bc2dabc2d4b77c29
+#: ../source/matlab/cmdref_gf_model_set.rst:1003
 msgid ""
 "``ind = gf_model_set(model M, 'add finite strain elasticity brick', "
 "mesh_im mim, string constitutive_law, string varname, string params[, int"
 " region])``"
 msgstr ""
 
-# 44d4daff6f4744058d78ae2e17b6c90d
-#: ../source/matlab/cmdref_gf_model_set.rst:967
+# 2f87e778059d489c9e266d84a2fdbe11
+#: ../source/matlab/cmdref_gf_model_set.rst:1005
 msgid ""
 "Add a nonlinear elasticity term to the model relatively to the variable "
 "`varname`. `lawname` is the constitutive law which could be 'SaintVenant "
@@ -1338,8 +1408,8 @@ msgid ""
 "requires one additional material coefficient."
 msgstr ""
 
-# 4229403732e1442ca87295f2d3ade9a8
-#: ../source/matlab/cmdref_gf_model_set.rst:977
+# c27b8a1df5e948e3b74c1ee8cdf82efe
+#: ../source/matlab/cmdref_gf_model_set.rst:1015
 msgid ""
 "IMPORTANT : if the variable is defined on a 2D mesh, the plane strain "
 "approximation is automatically used. `params` is a vector of parameters "
@@ -1351,8 +1421,8 @@ msgid ""
 "the brick index in the model."
 msgstr ""
 
-# 8854175d56104fc08d20e4bb2e62a17c
-#: ../source/matlab/cmdref_gf_model_set.rst:988
+# 0409cbbd220f49c2bb21251b319f242a
+#: ../source/matlab/cmdref_gf_model_set.rst:1026
 msgid ""
 "``ind = gf_model_set(model M, 'add small strain elastoplasticity brick', "
 "mesh_im mim,  string lawname, string unknowns_type [, string varnames, "
@@ -1360,8 +1430,8 @@ msgid ""
 "'timestep']] [, int region = -1])``"
 msgstr ""
 
-# 7898b127319d4035bcbc7349cc5164b3
-#: ../source/matlab/cmdref_gf_model_set.rst:990
+# 98ba5853fe47474bae4585936d23494f
+#: ../source/matlab/cmdref_gf_model_set.rst:1028
 msgid ""
 "Adds a small strain plasticity term to the model `M`. This is the main "
 "GetFEM++ brick for small strain plasticity. `lawname` is the name of an "
@@ -1389,13 +1459,13 @@ msgid ""
 "altered from one iteration to the next one. `region` is a mesh region."
 msgstr ""
 
-# a8bfe5ad53af4dc78c1b27554c4c3062
-#: ../source/matlab/cmdref_gf_model_set.rst:1016
+# 478997ba6f594eed9d731f13dee7f3d0
+#: ../source/matlab/cmdref_gf_model_set.rst:1054
 msgid "The available plasticity laws are:"
 msgstr ""
 
-# 2693f1609e0748e48e22d91e01f5ccd2
-#: ../source/matlab/cmdref_gf_model_set.rst:1018
+# f902e61fa9274674a286a7cec81af89e
+#: ../source/matlab/cmdref_gf_model_set.rst:1056
 msgid ""
 "'Prandtl Reuss' (or 'isotropic perfect plasticity'). Isotropic elasto-"
 "plasticity with no hardening. The variables are the displacement, the "
@@ -1418,16 +1488,16 @@ msgid ""
 "approximation, see below."
 msgstr ""
 
-# 661069a145bc463896aa8265ca208645
-#: ../source/matlab/cmdref_gf_model_set.rst:1037
+# dd255cb10a8b4876880b5b5d5299ab2f
+#: ../source/matlab/cmdref_gf_model_set.rst:1075
 msgid ""
 "\"plane strain Prandtl Reuss\" (or \"plane strain isotropic perfect "
 "plasticity\") The same law as the previous one but adapted to the plane "
 "strain approximation. Can only be used in 2D."
 msgstr ""
 
-# 35d50ef4cdce4958af3cb39b8ab3781a
-#: ../source/matlab/cmdref_gf_model_set.rst:1041
+# 407520bd9c0e4643bd16c44af26e48a6
+#: ../source/matlab/cmdref_gf_model_set.rst:1079
 msgid ""
 "\"Prandtl Reuss linear hardening\" (or \"isotropic plasticity linear "
 "hardening\"). Isotropic elasto-plasticity with linear isotropic and "
@@ -1442,8 +1512,8 @@ msgid ""
 "'timestep');"
 msgstr ""
 
-# a1988650d083478dbafef18dbd66ca40
-#: ../source/matlab/cmdref_gf_model_set.rst:1051
+# c4bfb10422124324b2a14407a7c2fccb
+#: ../source/matlab/cmdref_gf_model_set.rst:1089
 msgid ""
 "\"plane strain Prandtl Reuss linear hardening\" (or \"plane strain "
 "isotropic plasticity linear hardening\"). The same law as the previous "
@@ -1451,8 +1521,8 @@ msgid ""
 "2D."
 msgstr ""
 
-# 0199c68dcf9343ea867dcf8fe99aecb9
-#: ../source/matlab/cmdref_gf_model_set.rst:1056
+# 02fa23490ece4857a468b5db7305d5eb
+#: ../source/matlab/cmdref_gf_model_set.rst:1094
 msgid ""
 "See GetFEM++ user documentation for further explanations on the "
 "discretization of the plastic flow and on the implemented plastic laws. "
@@ -1460,8 +1530,8 @@ msgid ""
 "(integration of transient problems)."
 msgstr ""
 
-# 6360e86842db4777b5e170b236be910c
-#: ../source/matlab/cmdref_gf_model_set.rst:1061
+# 5798f2b2e77c49c7b7bd7e5e3653c2c7
+#: ../source/matlab/cmdref_gf_model_set.rst:1099
 msgid ""
 "IMPORTANT : remember that `small_strain_elastoplasticity_next_iter` has "
 "to be called at the end of each time step, before the next one (and "
@@ -1469,8 +1539,8 @@ msgid ""
 " plastic multiplier)."
 msgstr ""
 
-# 70b77c8e9f8b4206ad89204a831e6bfa
-#: ../source/matlab/cmdref_gf_model_set.rst:1068
+# a9ba79fa4cf74f1bb5c8b9e05077ec30
+#: ../source/matlab/cmdref_gf_model_set.rst:1106
 msgid ""
 "``ind = gf_model_set(model M, 'add elastoplasticity brick', mesh_im mim "
 ",string projname, string varname, string previous_dep_name, string "
@@ -1478,8 +1548,8 @@ msgid ""
 "region])``"
 msgstr ""
 
-# b1f79c378a2646d7aceb7ffb87d3ca65
-#: ../source/matlab/cmdref_gf_model_set.rst:1070
+# b59e1e3a7f4a4f708f95260a1af7463b
+#: ../source/matlab/cmdref_gf_model_set.rst:1108
 msgid ""
 "Old (obsolete) brick which do not use the high level generic assembly. "
 "Add a nonlinear elastoplastic term to the model relatively to the "
@@ -1498,16 +1568,16 @@ msgid ""
 " mesh. Return the brick index in the model."
 msgstr ""
 
-# c1852039bd4846d888409c1ace8e2173
-#: ../source/matlab/cmdref_gf_model_set.rst:1091
+# a56f4127cbcc44f9b92458d46ff94fed
+#: ../source/matlab/cmdref_gf_model_set.rst:1129
 msgid ""
 "``ind = gf_model_set(model M, 'add finite strain elastoplasticity brick',"
 " mesh_im mim , string lawname, string unknowns_type [, string varnames, "
 "...] [, string params, ...] [, int region = -1])``"
 msgstr ""
 
-# 5a62bfb59f2e41e9a39573fe057ca2ee
-#: ../source/matlab/cmdref_gf_model_set.rst:1093
+# 29180cfcba8c44ef9aea9fd6da5487e9
+#: ../source/matlab/cmdref_gf_model_set.rst:1131
 msgid ""
 "Add a finite strain elastoplasticity brick to the model. For the moment "
 "there is only one supported law defined through `lawname` as "
@@ -1519,33 +1589,33 @@ msgid ""
 "that have to be defined as variables in the model:"
 msgstr ""
 
-# b0540c71ff854d5dbff22cb090d8bc08
-#: ../source/matlab/cmdref_gf_model_set.rst:1103
+# 057a96e6169443fbbb89d82d5de167a6
+#: ../source/matlab/cmdref_gf_model_set.rst:1141
 msgid "the displacement variable which has to be defined as an unknown,"
 msgstr ""
 
-# 0179dcc289754ef786a8db96593bf9e1
-#: ../source/matlab/cmdref_gf_model_set.rst:1104
+# b7b6f94aff6d4f488fbd1760d960c91a
+#: ../source/matlab/cmdref_gf_model_set.rst:1142
 msgid "the plastic multiplier which has also defined as an unknown,"
 msgstr ""
 
-# 5fc6ea61c751442593587b8f09cc796a
-#: ../source/matlab/cmdref_gf_model_set.rst:1105
+# 97a0819b729245c89358be06f43638a9
+#: ../source/matlab/cmdref_gf_model_set.rst:1143
 msgid ""
 "optionally the pressure variable for a mixed displacement-pressure "
 "formulation for 'DISPLACEMENT_AND_PLASTIC_MULTIPLIER_AND_PRESSURE' as "
 "`unknowns_type`,"
 msgstr ""
 
-# dae441b07c9f4563ad0fb5f0e6dfe961
-#: ../source/matlab/cmdref_gf_model_set.rst:1108
+# cc9fa53600b7466f96e7bae8c867583b
+#: ../source/matlab/cmdref_gf_model_set.rst:1146
 msgid ""
 "the name of a (scalar) fem_data or im_data field that holds the plastic "
 "strain at the previous time step, and"
 msgstr ""
 
-# fbcf2b2ef13e4c9b84f3bb2530404dce
-#: ../source/matlab/cmdref_gf_model_set.rst:1110
+# 655d59da52214b6fbeea14b60618a93b
+#: ../source/matlab/cmdref_gf_model_set.rst:1148
 msgid ""
 "the name of a fem_data or im_data field that holds all non-repeated "
 "components of the inverse of the plastic right Cauchy-Green tensor at the"
@@ -1553,25 +1623,25 @@ msgid ""
 "problems and a 6 element vector for 3D problems)."
 msgstr ""
 
-# 15bf30c374c24adf8d789d2a22f286f2
-#: ../source/matlab/cmdref_gf_model_set.rst:1116
+# 2f2118a6ff88417b8ebb116fa7887970
+#: ../source/matlab/cmdref_gf_model_set.rst:1154
 msgid ""
 "The  \"Simo_Miehe\" law also expects as `params` a set of the following "
 "three parameters:"
 msgstr ""
 
-# a415882d280545b6a62b506c8fc4f642
-#: ../source/matlab/cmdref_gf_model_set.rst:1119
+# cc563ba700fa4ac7a55fc1d2dcbf75f5
+#: ../source/matlab/cmdref_gf_model_set.rst:1157
 msgid "an expression for the initial bulk modulus K,"
 msgstr ""
 
-# a9b134e899304dada2f779586d4ad417
-#: ../source/matlab/cmdref_gf_model_set.rst:1120
+# 513cefd42a9b4bfab6ccd16259a1da71
+#: ../source/matlab/cmdref_gf_model_set.rst:1158
 msgid "an expression for the initial shear modulus G,"
 msgstr ""
 
-# f02d5de1734e434caa6b8e6e29ed4716
-#: ../source/matlab/cmdref_gf_model_set.rst:1121
+# 02684027ef9840828a97d1001f69460a
+#: ../source/matlab/cmdref_gf_model_set.rst:1159
 msgid ""
 "the name of a user predefined function that decribes the yield limit as a"
 " function of the hardening variable (both the yield limit and the "
@@ -1579,23 +1649,23 @@ msgid ""
 "appropriate stress and strain tensors, respectively)."
 msgstr ""
 
-# cd2e11d5293e4a3b990300aba137ca72
-#: ../source/matlab/cmdref_gf_model_set.rst:1127
+# da7d6896f4d743cc8a68277fa9678aba
+#: ../source/matlab/cmdref_gf_model_set.rst:1165
 msgid ""
 "As usual, `region` is an optional mesh region on which the term is added."
 " If it is not specified, it is added on the whole mesh. Return the brick "
 "index in the model."
 msgstr ""
 
-# 49bb71d0edc6418ea3c5890fd21b7ff2
-#: ../source/matlab/cmdref_gf_model_set.rst:1132
+# 7bc506513f2c4e56931232a199f3b6d0
+#: ../source/matlab/cmdref_gf_model_set.rst:1170
 msgid ""
 "``ind = gf_model_set(model M, 'add nonlinear incompressibility brick', "
 "mesh_im mim, string varname, string multname_pressure[, int region])``"
 msgstr ""
 
-# 8f75dca50d23492c8bd8a38c734feea2
-#: ../source/matlab/cmdref_gf_model_set.rst:1134
+# 1c045effa58347d392064fb9b78d9afc
+#: ../source/matlab/cmdref_gf_model_set.rst:1172
 msgid ""
 "Add a nonlinear incompressibility condition on `variable` (for large "
 "strain elasticity). `multname_pressure` is a variable which represent the"
@@ -1606,16 +1676,16 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# df751d03a743490d9f93b408cde4c3c1
-#: ../source/matlab/cmdref_gf_model_set.rst:1143
+# bd8e4d89784e4f49935a75930250dd69
+#: ../source/matlab/cmdref_gf_model_set.rst:1181
 msgid ""
 "``ind = gf_model_set(model M, 'add finite strain incompressibility "
 "brick', mesh_im mim, string varname, string multname_pressure[, int "
 "region])``"
 msgstr ""
 
-# a5d15a0fad2a43fe8c3430169ebb0fd1
-#: ../source/matlab/cmdref_gf_model_set.rst:1145
+# e47f232280094f9ba70b72d7f851f9c8
+#: ../source/matlab/cmdref_gf_model_set.rst:1183
 msgid ""
 "Add a finite strain incompressibility condition on `variable` (for large "
 "strain elasticity). `multname_pressure` is a variable which represent the"
@@ -1629,15 +1699,15 @@ msgid ""
 "and ``u`` the variable which represent the displacement."
 msgstr ""
 
-# ace25f8797fa4771bc0f379e8454fb32
-#: ../source/matlab/cmdref_gf_model_set.rst:1158
+# 79363e8ce1e24a95af92ecd7ca6ddffa
+#: ../source/matlab/cmdref_gf_model_set.rst:1196
 msgid ""
 "``ind = gf_model_set(model M, 'add bilaplacian brick', mesh_im mim, "
 "string varname, string dataname [, int region])``"
 msgstr ""
 
-# 5b6011091f444212aeb3d9bf834c6ab2
-#: ../source/matlab/cmdref_gf_model_set.rst:1160
+# cdb00717c5c64818a94d8645b53aa6d0
+#: ../source/matlab/cmdref_gf_model_set.rst:1198
 msgid ""
 "Add a bilaplacian brick on the variable `varname` and on the mesh region "
 "`region`. This represent a term :math:`\\Delta(D \\Delta u)`. where "
@@ -1647,16 +1717,16 @@ msgid ""
 " the model."
 msgstr ""
 
-# da66ae3cc97d45f4a83aabe232564d88
-#: ../source/matlab/cmdref_gf_model_set.rst:1169
+# ec752dc1822d4871ac351ce477dbd37c
+#: ../source/matlab/cmdref_gf_model_set.rst:1207
 msgid ""
 "``ind = gf_model_set(model M, 'add Kirchhoff-Love plate brick', mesh_im "
 "mim, string varname, string dataname_D, string dataname_nu [, int "
 "region])``"
 msgstr ""
 
-# 01e63d81abec45e89e7cd1f08f53bb2b
-#: ../source/matlab/cmdref_gf_model_set.rst:1171
+# 1015a10315764385ad5e67824a1f25c8
+#: ../source/matlab/cmdref_gf_model_set.rst:1209
 msgid ""
 "Add a bilaplacian brick on the variable `varname` and on the mesh region "
 "`region`. This represent a term :math:`\\Delta(D \\Delta u)` where "
@@ -1665,37 +1735,37 @@ msgid ""
 "`dataname_nu` the poisson ratio. Return the brick index in the model."
 msgstr ""
 
-# 55106c6a474f4509baa3d58201a47abf
-#: ../source/matlab/cmdref_gf_model_set.rst:1180
+# e4846627500c400ab20f980215707a70
+#: ../source/matlab/cmdref_gf_model_set.rst:1218
 msgid ""
 "``ind = gf_model_set(model M, 'add normal derivative source term brick', "
 "mesh_im mim, string varname, string dataname, int region)``"
 msgstr ""
 
-# 4a0c2ae6785a46b89de1c7ba12046873
-#: ../source/matlab/cmdref_gf_model_set.rst:1182
+# d8b2c17ce8314891ac3f412fb912ff5e
+#: ../source/matlab/cmdref_gf_model_set.rst:1220
 msgid ""
 "Add a normal derivative source term brick :math:`F = \\int b.\\partial_n "
 "v` on the variable `varname` and the mesh region `region`."
 msgstr ""
 
-# a3176b83185d4fd782ce37e3dd6423a4
-#: ../source/matlab/cmdref_gf_model_set.rst:1186
+# 4021803615c84a0da82da148a5684937
+#: ../source/matlab/cmdref_gf_model_set.rst:1224
 msgid ""
 "Update the right hand side of the linear system. `dataname` represents "
 "`b` and `varname` represents `v`. Return the brick index in the model."
 msgstr ""
 
-# eadbd2c254cc460ebee28b2a8243335c
-#: ../source/matlab/cmdref_gf_model_set.rst:1191
+# f3ad402673c3453bad4166ed20a1db55
+#: ../source/matlab/cmdref_gf_model_set.rst:1229
 msgid ""
 "``ind = gf_model_set(model M, 'add Kirchhoff-Love Neumann term brick', "
 "mesh_im mim, string varname, string dataname_M, string dataname_divM, int"
 " region)``"
 msgstr ""
 
-# 116c18866eee48c2acfc8b38788a51bd
-#: ../source/matlab/cmdref_gf_model_set.rst:1193
+# e2b47cabdc184a9ea6836cf474b40b16
+#: ../source/matlab/cmdref_gf_model_set.rst:1231
 msgid ""
 "Add a Neumann term brick for Kirchhoff-Love model on the variable "
 "`varname` and the mesh region `region`. `dataname_M` represents the "
@@ -1703,16 +1773,16 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# a29cca6e76c340a98d3347907569fd9d
-#: ../source/matlab/cmdref_gf_model_set.rst:1200
+# a518df68d99342ccba6e23f636118144
+#: ../source/matlab/cmdref_gf_model_set.rst:1238
 msgid ""
 "``ind = gf_model_set(model M, 'add normal derivative Dirichlet condition "
 "with multipliers', mesh_im mim, string varname, mult_description, int "
 "region [, string dataname, int R_must_be_derivated])``"
 msgstr ""
 
-# 477b376b729f4f609c93840091f5c18e
-#: ../source/matlab/cmdref_gf_model_set.rst:1202
+# abac18b2f2a945d78629a398c7e6425d
+#: ../source/matlab/cmdref_gf_model_set.rst:1240
 msgid ""
 "Add a Dirichlet condition on the normal derivative of the variable "
 "`varname` and on the mesh region `region` (which should be a boundary. "
@@ -1734,16 +1804,16 @@ msgid ""
 "`dataname` is considered. Return the brick index in the model."
 msgstr ""
 
-# fe19ceb7d49341f9b9a599997a86c291
-#: ../source/matlab/cmdref_gf_model_set.rst:1226
+# 8224344b8c9d42ef90f4cf36a7f4f404
+#: ../source/matlab/cmdref_gf_model_set.rst:1264
 msgid ""
 "``ind = gf_model_set(model M, 'add normal derivative Dirichlet condition "
 "with penalization', mesh_im mim, string varname, scalar coeff, int region"
 " [, string dataname, int R_must_be_derivated])``"
 msgstr ""
 
-# 352148a91a58482583e59ec9a0600d5f
-#: ../source/matlab/cmdref_gf_model_set.rst:1228
+# 3331b1873db040df9dc1b00446bb7004
+#: ../source/matlab/cmdref_gf_model_set.rst:1266
 msgid ""
 "Add a Dirichlet condition on the normal derivative of the variable "
 "`varname` and on the mesh region `region` (which should be a boundary. "
@@ -1758,8 +1828,8 @@ msgid ""
 " brick index in the model."
 msgstr ""
 
-# 4b83a6e55c724c22b879620baabdb85c
-#: ../source/matlab/cmdref_gf_model_set.rst:1245
+# 5806ec84a33a40efb260b5595b1507c8
+#: ../source/matlab/cmdref_gf_model_set.rst:1283
 msgid ""
 "``ind = gf_model_set(model M, 'add Mindlin Reissner plate brick', mesh_im"
 " mim, mesh_im mim_reduced, string varname_u3, string varname_theta , "
@@ -1767,8 +1837,8 @@ msgid ""
 " [,int variant [, int region]])``"
 msgstr ""
 
-# 7fdae505a0e94cc9b388bb08b95c6ff4
-#: ../source/matlab/cmdref_gf_model_set.rst:1247
+# ec007200bb334b02b7cb73a9c935d3f8
+#: ../source/matlab/cmdref_gf_model_set.rst:1285
 msgid ""
 "Add a term corresponding to the classical Reissner-Mindlin plate model "
 "for which `varname_u3` is the transverse displacement, `varname_theta` "
@@ -1790,15 +1860,15 @@ msgid ""
 "approximation. Returns the brick index in the model."
 msgstr ""
 
-# d471d275f7cd4733af9dc1dd89983f5e
-#: ../source/matlab/cmdref_gf_model_set.rst:1273
+# 5a0106439c5546529becacfd1689837a
+#: ../source/matlab/cmdref_gf_model_set.rst:1311
 msgid ""
 "``ind = gf_model_set(model M, 'add mass brick', mesh_im mim, string "
 "varname[, string dataexpr_rho[, int region]])``"
 msgstr ""
 
-# 571014ba37b84add9412ed1bee86694c
-#: ../source/matlab/cmdref_gf_model_set.rst:1275
+# 60a6536ace9a41f0955a9308568a8db6
+#: ../source/matlab/cmdref_gf_model_set.rst:1313
 msgid ""
 "Add mass term to the model relatively to the variable `varname`. If "
 "specified, the data `dataexpr_rho` is the density (1 if omitted). "
@@ -1807,13 +1877,13 @@ msgid ""
 "the model."
 msgstr ""
 
-# d74a2369a2bd493a8dfcd85b544c6d27
-#: ../source/matlab/cmdref_gf_model_set.rst:1282
+# f71002adfdee4e07b58eb90adaa52920
+#: ../source/matlab/cmdref_gf_model_set.rst:1320
 msgid "``gf_model_set(model M, 'shift variables for time integration')``"
 msgstr ""
 
-# 1ad150b03bab46a2b0c0bed6727250dd
-#: ../source/matlab/cmdref_gf_model_set.rst:1284
+# 5ede1cc856144424830e0da8d9b3292b
+#: ../source/matlab/cmdref_gf_model_set.rst:1322
 msgid ""
 "Function used to shift the variables of a model to the data corresponding"
 " of ther value on the previous time step for time integration schemes. "
@@ -1822,13 +1892,13 @@ msgid ""
 " between two time steps."
 msgstr ""
 
-# f614ab6ecd804df4b79319f897c4e379
-#: ../source/matlab/cmdref_gf_model_set.rst:1291
+# f279e4f74eed4ef6a5ce31366e36a93f
+#: ../source/matlab/cmdref_gf_model_set.rst:1329
 msgid "``gf_model_set(model M, 'perform init time derivative', scalar ddt)``"
 msgstr ""
 
-# 78ab65774ec74c56bfae5936e7247dc3
-#: ../source/matlab/cmdref_gf_model_set.rst:1293
+# ba158b0ef8a24fe19af9b87a4d778f66
+#: ../source/matlab/cmdref_gf_model_set.rst:1331
 msgid ""
 "By calling this function, indicates that the next solve will compute the "
 "solution for a (very) small time step `ddt` in order to initalize the "
@@ -1838,97 +1908,97 @@ msgid ""
 "next solve will not change the value of the variables."
 msgstr ""
 
-# 6cb89d240dda459bb481b44a80c1fffd
-#: ../source/matlab/cmdref_gf_model_set.rst:1301
+# 83e3d55953f4452e9e2dc0069653c7a2
+#: ../source/matlab/cmdref_gf_model_set.rst:1339
 msgid "``gf_model_set(model M, 'set time step', scalar dt)``"
 msgstr ""
 
-# b59093784de14dbea87c7b8c82e85ed1
-#: ../source/matlab/cmdref_gf_model_set.rst:1303
+# 2569f2e49ca5454ca1c5878450c858a5
+#: ../source/matlab/cmdref_gf_model_set.rst:1341
 msgid ""
 "Set the value of the time step to `dt`. This value can be change from a "
 "step to another for all one-step schemes (i.e for the moment to all "
 "proposed time integration schemes)."
 msgstr ""
 
-# f6dc6248575d49daa321c8a940c331c9
-#: ../source/matlab/cmdref_gf_model_set.rst:1308
+# 3eefee4f42ad469a974888bbe8a4bb43
+#: ../source/matlab/cmdref_gf_model_set.rst:1346
 msgid "``gf_model_set(model M, 'set time', scalar t)``"
 msgstr ""
 
-# f3883273dc184a56a3a98c40ddd00f50
-#: ../source/matlab/cmdref_gf_model_set.rst:1310
+# 5e1b3f204ee9453ca128e27dcfca7979
+#: ../source/matlab/cmdref_gf_model_set.rst:1348
 msgid "Set the value of the data `t` corresponding to the current time to `t`."
 msgstr ""
 
-# e999e5634e9c4b92a705103c07641a8f
-#: ../source/matlab/cmdref_gf_model_set.rst:1314
+# 9c6d0911b4194557897b221bf4b28236
+#: ../source/matlab/cmdref_gf_model_set.rst:1352
 msgid ""
 "``gf_model_set(model M, 'add theta method for first order', string "
 "varname, scalar theta)``"
 msgstr ""
 
-# 5ef63a3eb0e04670a7ba72501b125e58
-#: ../source/matlab/cmdref_gf_model_set.rst:1316
+# 5632a727904c4ee5b4319d243fd83276
+#: ../source/matlab/cmdref_gf_model_set.rst:1354
 msgid ""
 "Attach a theta method for the time discretization of the variable "
 "`varname`. Valid only if there is at most first order time derivative of "
 "the variable."
 msgstr ""
 
-# 8cca4fbbcfc94fc085d2fd0ddfb94f85
-#: ../source/matlab/cmdref_gf_model_set.rst:1321
+# 983329990e454360a6add255b90f35c0
+#: ../source/matlab/cmdref_gf_model_set.rst:1359
 msgid ""
 "``gf_model_set(model M, 'add theta method for second order', string "
 "varname, scalar theta)``"
 msgstr ""
 
-# 238d4c8babf04e43a9f2d3e228ed9c88
-# cba17bab3b6d4186b2a5f4fbb97ab620
-#: ../source/matlab/cmdref_gf_model_set.rst:1323
-#: ../source/matlab/cmdref_gf_model_set.rst:1330
+# 5cf102fca29f4b32a62feb74e0612654
+# 9c2c341b3773449e8b30abbb7e996ffe
+#: ../source/matlab/cmdref_gf_model_set.rst:1361
+#: ../source/matlab/cmdref_gf_model_set.rst:1368
 msgid ""
 "Attach a theta method for the time discretization of the variable "
 "`varname`. Valid only if there is at most second order time derivative of"
 " the variable."
 msgstr ""
 
-# 5459c50223204a0fb057582756b88759
-#: ../source/matlab/cmdref_gf_model_set.rst:1328
+# 2dad14e9c3404dbda3dd09e51a2494bd
+#: ../source/matlab/cmdref_gf_model_set.rst:1366
 msgid ""
 "``gf_model_set(model M, 'add Newmark scheme', string varname, scalar "
 "beta, scalar gamma)``"
 msgstr ""
 
-# 87f80babcb8049529e9b3121868c78cf
-#: ../source/matlab/cmdref_gf_model_set.rst:1335
+# 689a76c705654ec3b43c6fc50b5b5abc
+#: ../source/matlab/cmdref_gf_model_set.rst:1373
 msgid "``gf_model_set(model M, 'disable bricks', ivec bricks_indices)``"
 msgstr ""
 
-# 99b4b5049a7b4660866075228b4969b5
-#: ../source/matlab/cmdref_gf_model_set.rst:1337
+# 93726686aa5443cdaaf6f92df0e22696
+#: ../source/matlab/cmdref_gf_model_set.rst:1375
 msgid ""
 "Disable a brick (the brick will no longer participate to the building of "
 "the tangent linear system)."
 msgstr ""
 
-# 9c371ea158c34bd19b73c931c743a8aa
-#: ../source/matlab/cmdref_gf_model_set.rst:1341
+# b6de3aa181474aefbaa044f13d936fbc
+#: ../source/matlab/cmdref_gf_model_set.rst:1379
 msgid "``gf_model_set(model M, 'enable bricks', ivec bricks_indices)``"
 msgstr ""
 
-# 43f45bac5dc44742be8ea9ada2e8dded
-#: ../source/matlab/cmdref_gf_model_set.rst:1343
+# a1085c47749e4f35b4e427f8a192d6cf
+#: ../source/matlab/cmdref_gf_model_set.rst:1381
 msgid "Enable a disabled brick."
 msgstr ""
 
-# e69cea964e0d4880aad5543f3c59b1e5
-#: ../source/matlab/cmdref_gf_model_set.rst:1346
+# 428fd6da31e549679b5bc05087d3435d
+#: ../source/matlab/cmdref_gf_model_set.rst:1384
 msgid "``gf_model_set(model M, 'disable variable', string varname)``"
 msgstr ""
 
-# 5591e4fc610844279184ac12b2354b00
-#: ../source/matlab/cmdref_gf_model_set.rst:1348
+# ed297331b521483da7e4ff18aabb5fd1
+#: ../source/matlab/cmdref_gf_model_set.rst:1386
 msgid ""
 "Disable a variable for a solve (and its attached multipliers). The next "
 "solve will operate only on the remaining variables. This allows to solve "
@@ -1936,38 +2006,38 @@ msgid ""
 "the variables, a fixed point strategy can the be used."
 msgstr ""
 
-# de0a8945e8e343118174a49121e0d142
-#: ../source/matlab/cmdref_gf_model_set.rst:1355
+# 764090d086434aa5bbda9035578c9be2
+#: ../source/matlab/cmdref_gf_model_set.rst:1393
 msgid "``gf_model_set(model M, 'enable variable', string varname)``"
 msgstr ""
 
-# b2647389a0f345a18607bf50fe29d865
-#: ../source/matlab/cmdref_gf_model_set.rst:1357
+# dcbc62af38de457d88f89dbedaa30b85
+#: ../source/matlab/cmdref_gf_model_set.rst:1395
 msgid "Enable a disabled variable (and its attached multipliers)."
 msgstr ""
 
-# 90a5fbdc684c44d5bd1d780797335255
-#: ../source/matlab/cmdref_gf_model_set.rst:1360
+# 4ef9b015a4734ec8bbf0c62d37aa16c3
+#: ../source/matlab/cmdref_gf_model_set.rst:1398
 msgid "``gf_model_set(model M, 'first iter')``"
 msgstr ""
 
-# a0ea23ba6f46475e9ea8ab72f07588fd
-#: ../source/matlab/cmdref_gf_model_set.rst:1362
+# 95df4afd71394b94a883248c9c8abc2d
+#: ../source/matlab/cmdref_gf_model_set.rst:1400
 msgid "To be executed before the first iteration of a time integration scheme."
 msgstr ""
 
-# 67bbe23de6aa414f922c0be6683b4a2b
-#: ../source/matlab/cmdref_gf_model_set.rst:1366
+# 0f8f895c89bc472f823b4e152cd4c9f5
+#: ../source/matlab/cmdref_gf_model_set.rst:1404
 msgid "``gf_model_set(model M, 'next iter')``"
 msgstr ""
 
-# 68601b2f8bc24ba2959f3a58876c6af9
-#: ../source/matlab/cmdref_gf_model_set.rst:1368
+# e65fd39d4d92434f90de1ce933c7bdbf
+#: ../source/matlab/cmdref_gf_model_set.rst:1406
 msgid "To be executed at the end of each iteration of a time integration scheme."
 msgstr ""
 
-# d1c78efea2684351b6a679cc8c186d1f
-#: ../source/matlab/cmdref_gf_model_set.rst:1372
+# 1ab6633f6a75493c88d1e2d6620b7319
+#: ../source/matlab/cmdref_gf_model_set.rst:1410
 msgid ""
 "``ind = gf_model_set(model M, 'add basic contact brick', string "
 "varname_u, string multname_n[, string multname_t], string dataname_r, "
@@ -1976,8 +2046,8 @@ msgid ""
 "dataname_gamma, string dataname_wt]]])``"
 msgstr ""
 
-# 88c527d411b94ca995c711970c69590e
-#: ../source/matlab/cmdref_gf_model_set.rst:1374
+# 3d1184cfa6594885900080612a7d3d7c
+#: ../source/matlab/cmdref_gf_model_set.rst:1412
 msgid ""
 "Add a contact with or without friction brick to the model. If U is the "
 "vector of degrees of freedom on which the unilateral constraint is "
@@ -2006,8 +2076,8 @@ msgid ""
 "multipliers and De Saxce projection."
 msgstr ""
 
-# 4ca68d8c3fee43ce859f856c7d1d7d51
-#: ../source/matlab/cmdref_gf_model_set.rst:1404
+# 56c9ea2747884fec992417ba1c4da064
+#: ../source/matlab/cmdref_gf_model_set.rst:1442
 msgid ""
 "``ind = gf_model_set(model M, 'add basic contact brick two deformable "
 "bodies', string varname_u1, string varname_u2, string multname_n, string "
@@ -2015,13 +2085,13 @@ msgid ""
 "dataname_alpha[, int augmented_version]]])``"
 msgstr ""
 
-# 86c1accdd374469f92e3195fd34edce1
-#: ../source/matlab/cmdref_gf_model_set.rst:1423
+# 21ce9b69cbee4fce87bd6b3eabba2900
+#: ../source/matlab/cmdref_gf_model_set.rst:1461
 msgid "Add a frictionless contact condition to the model between two deformable"
 msgstr ""
 
-# 97d69b6c71f440c988e2eb00c64691cf
-#: ../source/matlab/cmdref_gf_model_set.rst:1407
+# 66f72d94e6cc48c09d243c00fcd765d2
+#: ../source/matlab/cmdref_gf_model_set.rst:1445
 msgid ""
 "bodies. If U1, U2 are the vector of degrees of freedom on which the "
 "unilateral constraint is applied, the matrices `BN1` and `BN2` have to be"
@@ -2038,28 +2108,28 @@ msgid ""
 "one, 3 for the unsymmetric method with augmented multiplier."
 msgstr ""
 
-# afa5956f5d71415091ee38f53a5a2126
-#: ../source/matlab/cmdref_gf_model_set.rst:1425
+# 6902e09e294d4283a395109377cccc2f
+#: ../source/matlab/cmdref_gf_model_set.rst:1463
 msgid "``gf_model_set(model M, 'contact brick set BN', int indbrick, spmat BN)``"
 msgstr ""
 
-# 15224807f22e4f02895443f0747fd003
-#: ../source/matlab/cmdref_gf_model_set.rst:1427
+# 21f09f722acc453d975b664e3d4f44e8
+#: ../source/matlab/cmdref_gf_model_set.rst:1465
 msgid "Can be used to set the BN matrix of a basic contact/friction brick."
 msgstr ""
 
-# d42ab73184204e0e98e164996e85d970
-#: ../source/matlab/cmdref_gf_model_set.rst:1430
+# fdd55d86bf8e4fc2af3e32dc760302f5
+#: ../source/matlab/cmdref_gf_model_set.rst:1468
 msgid "``gf_model_set(model M, 'contact brick set BT', int indbrick, spmat BT)``"
 msgstr ""
 
-# 26882e54ff014c2ab83b89d6137e933b
-#: ../source/matlab/cmdref_gf_model_set.rst:1432
+# dc47587b50c84c138e48c8d390919fdf
+#: ../source/matlab/cmdref_gf_model_set.rst:1470
 msgid "Can be used to set the BT matrix of a basic contact with friction brick."
 msgstr ""
 
-# 82f970e637f042d1bfa898ee2c3e72a6
-#: ../source/matlab/cmdref_gf_model_set.rst:1436
+# c00b255217c74d1fa2a2748bc3b5dcfb
+#: ../source/matlab/cmdref_gf_model_set.rst:1474
 msgid ""
 "``ind = gf_model_set(model M, 'add nodal contact with rigid obstacle "
 "brick',  mesh_im mim, string varname_u, string multname_n[, string "
@@ -2067,8 +2137,8 @@ msgid ""
 "region, string obstacle[,  int augmented_version])``"
 msgstr ""
 
-# 41066aa0560143c7af4aa6f8fd8e88bc
-#: ../source/matlab/cmdref_gf_model_set.rst:1438
+# 53d97f96d3f940a1adc4b47ed827bf51
+#: ../source/matlab/cmdref_gf_model_set.rst:1476
 msgid ""
 "Add a contact with or without friction condition with a rigid obstacle to"
 " the model. The condition is applied on the variable `varname_u` on the "
@@ -2097,8 +2167,8 @@ msgid ""
 "and alpha and calls the basic contact brick."
 msgstr ""
 
-# fcfc1270fde34061a9fd0f190cecaec0
-#: ../source/matlab/cmdref_gf_model_set.rst:1467
+# 8cc7a4f3219e406093a10b5307cf204e
+#: ../source/matlab/cmdref_gf_model_set.rst:1505
 msgid ""
 "``ind = gf_model_set(model M, 'add contact with rigid obstacle brick',  "
 "mesh_im mim, string varname_u, string multname_n[, string multname_t], "
@@ -2106,15 +2176,15 @@ msgid ""
 "obstacle[,  int augmented_version])``"
 msgstr ""
 
-# 902e3482b7324f79ad63536d8dfc9d22
-#: ../source/matlab/cmdref_gf_model_set.rst:1469
+# f022160361514ff7830f6796a2cdd28c
+#: ../source/matlab/cmdref_gf_model_set.rst:1507
 msgid ""
 "DEPRECATED FUNCTION. Use 'add nodal contact with rigid obstacle brick' "
 "instead."
 msgstr ""
 
-# 78bed1fa94e74041b702963a90ad1dbc
-#: ../source/matlab/cmdref_gf_model_set.rst:1472
+# 2f151926a5e847b39820fb9c2043b3de
+#: ../source/matlab/cmdref_gf_model_set.rst:1510
 msgid ""
 "``ind = gf_model_set(model M, 'add integral contact with rigid obstacle "
 "brick',  mesh_im mim, string varname_u, string multname, string "
@@ -2123,8 +2193,8 @@ msgid ""
 "[, string dataname_gamma [, string dataname_vt]]]]])``"
 msgstr ""
 
-# 97a6c65d4d014fd2a5defdfc58d5c6e4
-#: ../source/matlab/cmdref_gf_model_set.rst:1474
+# 5188a27a066040bdb11cb0d4e2baebee
+#: ../source/matlab/cmdref_gf_model_set.rst:1512
 msgid ""
 "Add a contact with or without friction condition with a rigid obstacle to"
 " the model. This brick adds a contact which is defined in an integral "
@@ -2151,8 +2221,8 @@ msgid ""
 " to the friction condition."
 msgstr ""
 
-# 3ee989a884f54f89bc90b49080394102
-#: ../source/matlab/cmdref_gf_model_set.rst:1501
+# a342b662f7b6495fb483cbe20b78e5b9
+#: ../source/matlab/cmdref_gf_model_set.rst:1539
 msgid ""
 "``ind = gf_model_set(model M, 'add penalized contact with rigid obstacle "
 "brick',  mesh_im mim, string varname_u, string dataname_obstacle, string "
@@ -2160,8 +2230,8 @@ msgid ""
 "dataname_lambda, [, string dataname_alpha [, string dataname_wt]]])``"
 msgstr ""
 
-# 5782a59ea2514866b32c7a2be397881c
-#: ../source/matlab/cmdref_gf_model_set.rst:1503
+# 78521f1ff5b148099882a168849b070d
+#: ../source/matlab/cmdref_gf_model_set.rst:1541
 msgid ""
 "Add a penalized contact with or without friction condition with a rigid "
 "obstacle to the model. The condition is applied on the variable "
@@ -2177,8 +2247,8 @@ msgid ""
 "formulation)"
 msgstr ""
 
-# 107faf5f16904ec4b402b6cb187b471d
-#: ../source/matlab/cmdref_gf_model_set.rst:1520
+# 001802bf6bb0429ab129bca60b18866c
+#: ../source/matlab/cmdref_gf_model_set.rst:1558
 msgid ""
 "``ind = gf_model_set(model M, 'add Nitsche contact with rigid obstacle "
 "brick', mesh_im mim, string varname, string Neumannterm, string "
@@ -2187,8 +2257,8 @@ msgid ""
 "dataname_wt]]])``"
 msgstr ""
 
-# a86db0f35f974826b3cd181ecb5f3043
-#: ../source/matlab/cmdref_gf_model_set.rst:1522
+# a921a2f819ed46fcbdb2f5567eec4bb4
+#: ../source/matlab/cmdref_gf_model_set.rst:1560
 msgid ""
 "Adds a contact condition with or without Coulomb friction on the variable"
 " `varname` and the mesh boundary `region`. The contact condition is "
@@ -2208,8 +2278,8 @@ msgid ""
 "declaring their Neumann terms. Returns the brick index in the model."
 msgstr ""
 
-# f3e1e1ceb01344b39fff5a139f619e0b
-#: ../source/matlab/cmdref_gf_model_set.rst:1544
+# 486b6712828c4952bf28bea9cf29c29a
+#: ../source/matlab/cmdref_gf_model_set.rst:1582
 msgid ""
 "``ind = gf_model_set(model M, 'add Nitsche midpoint contact with rigid "
 "obstacle brick', mesh_im mim, string varname, string Neumannterm, string "
@@ -2218,8 +2288,8 @@ msgid ""
 "string dataname_wt)``"
 msgstr ""
 
-# 65fad12d831f4f85940172ebeb3bdd33
-#: ../source/matlab/cmdref_gf_model_set.rst:1546
+# a70e5ca842354a97bdbde56f4514e66e
+#: ../source/matlab/cmdref_gf_model_set.rst:1584
 msgid ""
 "EXPERIMENTAL BRICK: for midpoint scheme only !! Adds a contact condition "
 "with or without Coulomb friction on the variable `varname` and the mesh "
@@ -2237,8 +2307,8 @@ msgid ""
 "finite element method. Returns the brick index in the model."
 msgstr ""
 
-# 3f2d2852596a47b7aac19bb28c26bc5b
-#: ../source/matlab/cmdref_gf_model_set.rst:1567
+# 280833cdc7cb4b98858f30d70bbaebd7
+#: ../source/matlab/cmdref_gf_model_set.rst:1605
 msgid ""
 "``ind = gf_model_set(model M, 'add Nitsche fictitious domain contact "
 "brick', mesh_im mim, string varname1, string varname2, string "
@@ -2247,8 +2317,8 @@ msgid ""
 "dataname_wt1,string dataname_wt2]]])``"
 msgstr ""
 
-# 14c7fa9a8c6c4f1e8106ee117e64dcc5
-#: ../source/matlab/cmdref_gf_model_set.rst:1569
+# 07179f0b4899492d9e5e83128c758e9a
+#: ../source/matlab/cmdref_gf_model_set.rst:1607
 msgid ""
 "Adds a contact condition with or without Coulomb friction between two "
 "bodies in a fictitious domain. The contact condition is applied on the "
@@ -2271,8 +2341,8 @@ msgid ""
 "declaring their Neumann terms. Returns the brick index in the model."
 msgstr ""
 
-# 2d215e28afe84093820ec91effae4c08
-#: ../source/matlab/cmdref_gf_model_set.rst:1592
+# 957c1a95433747caafe86fe5db363a8d
+#: ../source/matlab/cmdref_gf_model_set.rst:1630
 msgid ""
 "``ind = gf_model_set(model M, 'add nodal contact between nonmatching "
 "meshes brick',  mesh_im mim1[, mesh_im mim2], string varname_u1[, string "
@@ -2281,8 +2351,8 @@ msgid ""
 "augmented_version])``"
 msgstr ""
 
-# 6bdb768b29cf4cfeb7054da45d9fa200
-#: ../source/matlab/cmdref_gf_model_set.rst:1594
+# 703c409fc89340b6ba4eb94110ca12c6
+#: ../source/matlab/cmdref_gf_model_set.rst:1632
 msgid ""
 "Add a contact with or without friction condition between two faces of one"
 " or two elastic bodies. The condition is applied on the variable "
@@ -2315,8 +2385,8 @@ msgid ""
 "calls the basic contact brick."
 msgstr ""
 
-# 15a9b05688e2489e8f91c52d64b421f3
-#: ../source/matlab/cmdref_gf_model_set.rst:1626
+# 51177ed6539042dcbed8d6023e85060d
+#: ../source/matlab/cmdref_gf_model_set.rst:1664
 msgid ""
 "``ind = gf_model_set(model M, 'add nonmatching meshes contact brick',  "
 "mesh_im mim1[, mesh_im mim2], string varname_u1[, string varname_u2], "
@@ -2325,15 +2395,15 @@ msgid ""
 "augmented_version])``"
 msgstr ""
 
-# ec3a33cdf5a5464dbec96479f26eca7a
-#: ../source/matlab/cmdref_gf_model_set.rst:1628
+# f5ba65717c9c42b59ef6cb4c4f0afa98
+#: ../source/matlab/cmdref_gf_model_set.rst:1666
 msgid ""
 "DEPRECATED FUNCTION. Use 'add nodal contact between nonmatching meshes "
 "brick' instead."
 msgstr ""
 
-# 5395d4021a504dd995550640ac650e23
-#: ../source/matlab/cmdref_gf_model_set.rst:1631
+# 3846a75a966e481e86fc00d2ebe8f678
+#: ../source/matlab/cmdref_gf_model_set.rst:1669
 msgid ""
 "``ind = gf_model_set(model M, 'add integral contact between nonmatching "
 "meshes brick',  mesh_im mim, string varname_u1, string varname_u2, string"
@@ -2342,8 +2412,8 @@ msgid ""
 "dataname_wt1 , string dataname_wt2]]])``"
 msgstr ""
 
-# 39e1570ac47e4152bc82a55ff5dbfd44
-#: ../source/matlab/cmdref_gf_model_set.rst:1633
+# 5a63b77a71e84d9cb4264bd8544aed7e
+#: ../source/matlab/cmdref_gf_model_set.rst:1671
 msgid ""
 "Add a contact with or without friction condition between nonmatching "
 "meshes to the model. This brick adds a contact which is defined in an "
@@ -2369,8 +2439,8 @@ msgid ""
 "problems."
 msgstr ""
 
-# b6c7dd5782524e9a92c197e12da9a136
-#: ../source/matlab/cmdref_gf_model_set.rst:1661
+# fa96dd16eb0045e4bbec3e51c605cb4e
+#: ../source/matlab/cmdref_gf_model_set.rst:1699
 msgid ""
 "``ind = gf_model_set(model M, 'add penalized contact between nonmatching "
 "meshes brick',  mesh_im mim, string varname_u1, string varname_u2, string"
@@ -2379,8 +2449,8 @@ msgid ""
 "dataname_wt1, string dataname_wt2]]]])``"
 msgstr ""
 
-# 1633a81de1974ebcb66c811f451c9a60
-#: ../source/matlab/cmdref_gf_model_set.rst:1663
+# f7d466c1520048f69b44d61aaf3ce6b7
+#: ../source/matlab/cmdref_gf_model_set.rst:1701
 msgid ""
 "Add a penalized contact condition with or without friction between "
 "nonmatching meshes to the model. The condition is applied on the "
@@ -2399,16 +2469,16 @@ msgid ""
 "parameters to solve evolutionary friction problems."
 msgstr ""
 
-# d0f207fb2449465b9daca4eee4d7367b
-#: ../source/matlab/cmdref_gf_model_set.rst:1684
+# 9d33338fc2094faca9103a54d9add7f8
+#: ../source/matlab/cmdref_gf_model_set.rst:1722
 msgid ""
 "``ind = gf_model_set(model M, 'add integral large sliding contact brick "
 "raytracing', string dataname_r, scalar release_distance, [, string "
 "dataname_fr[, string dataname_alpha[, int version]]])``"
 msgstr ""
 
-# 3cc2a49ad7d04effb17a0648f7302f35
-#: ../source/matlab/cmdref_gf_model_set.rst:1686
+# 934c19463e654275838771d4a083f7e8
+#: ../source/matlab/cmdref_gf_model_set.rst:1724
 msgid ""
 "Adds a large sliding contact with friction brick to the model. This brick"
 " is able to deal with self-contact, contact between several deformable "
@@ -2423,17 +2493,17 @@ msgid ""
 " symmetric one (not fully symmetric even without friction)."
 msgstr ""
 
-# de4e89e2f964455db8507876dea632d8
-#: ../source/matlab/cmdref_gf_model_set.rst:1701
+# ad7d54c4632e43b48d608e87cb7e9c50
+#: ../source/matlab/cmdref_gf_model_set.rst:1739
 msgid ""
 "``gf_model_set(model M, 'add rigid obstacle to large sliding contact "
 "brick', int indbrick, string expr, int N)``"
 msgstr ""
 
-# 6328d0b0663c4ce6856332b98f9da0f7
-# cd14b7405d924ad79a1fabb9e44a8a69
-#: ../source/matlab/cmdref_gf_model_set.rst:1703
-#: ../source/matlab/cmdref_gf_model_set.rst:1749
+# 4a1b200cf3964a90abfc585ce4f5092d
+# 8540e9ee63894a4cbde6c7b5c38f70ed
+#: ../source/matlab/cmdref_gf_model_set.rst:1741
+#: ../source/matlab/cmdref_gf_model_set.rst:1787
 msgid ""
 "Adds a rigid obstacle to an existing large sliding contact with friction "
 "brick. `expr` is an expression using the high-level generic assembly "
@@ -2441,54 +2511,54 @@ msgid ""
 "signed distance to the obstacle. `N` is the mesh dimension."
 msgstr ""
 
-# dabefa288f6a4d0d8f622683a6d78cf4
-#: ../source/matlab/cmdref_gf_model_set.rst:1710
+# d65122b0a6ec4f09bdfd4d4b5752cde3
+#: ../source/matlab/cmdref_gf_model_set.rst:1748
 msgid ""
 "``gf_model_set(model M, 'add master contact boundary to large sliding "
 "contact brick', int indbrick, mesh_im mim, int region, string dispname[, "
 "string wname])``"
 msgstr ""
 
-# 69ba994a4c87476f9006463a9dc13e9e
-#: ../source/matlab/cmdref_gf_model_set.rst:1712
+# 11ed3f3af19e4e9db7ccb75552d0cc64
+#: ../source/matlab/cmdref_gf_model_set.rst:1750
 msgid ""
 "Adds a master contact boundary to an existing large sliding contact with "
 "friction brick."
 msgstr ""
 
-# 8eae55034e4f4ed1be6594e1cc8487e1
-#: ../source/matlab/cmdref_gf_model_set.rst:1716
+# a7de0d8ddd724e52980d7225f8929beb
+#: ../source/matlab/cmdref_gf_model_set.rst:1754
 msgid ""
 "``gf_model_set(model M, 'add slave contact boundary to large sliding "
 "contact brick', int indbrick, mesh_im mim, int region, string dispname, "
 "string lambdaname[, string wname])``"
 msgstr ""
 
-# 49ed7c31fbdc406aa4e5a8264b98ec63
-#: ../source/matlab/cmdref_gf_model_set.rst:1718
+# 6f3f8d9c4c894fa5b85003f0acb015d1
+#: ../source/matlab/cmdref_gf_model_set.rst:1756
 msgid ""
 "Adds a slave contact boundary to an existing large sliding contact with "
 "friction brick."
 msgstr ""
 
-# dfd336a39f3944c99137e2c0d7c30895
-#: ../source/matlab/cmdref_gf_model_set.rst:1722
+# 83ecb9ef43074325b44489877ab8dab1
+#: ../source/matlab/cmdref_gf_model_set.rst:1760
 msgid ""
 "``gf_model_set(model M, 'add master slave contact boundary to large "
 "sliding contact brick', int indbrick, mesh_im mim, int region, string "
 "dispname, string lambdaname[, string wname])``"
 msgstr ""
 
-# 9b9b934deaf94524b0eecb9fa3069df8
-#: ../source/matlab/cmdref_gf_model_set.rst:1724
+# 8a0bae14a53e4c8084bb78e7396e2869
+#: ../source/matlab/cmdref_gf_model_set.rst:1762
 msgid ""
 "Adds a contact boundary to an existing large sliding contact with "
 "friction brick which is both master and slave (allowing the self-"
 "contact)."
 msgstr ""
 
-# 01692e5d0d3d4c62a53302cab11aa24a
-#: ../source/matlab/cmdref_gf_model_set.rst:1729
+# 833b29462f334defbf1679404efc6033
+#: ../source/matlab/cmdref_gf_model_set.rst:1767
 msgid ""
 "``ind = gf_model_set(model M, 'add Nitsche large sliding contact brick "
 "raytracing', bool unbiased_version, string dataname_r, scalar "
@@ -2496,8 +2566,8 @@ msgid ""
 "version]]])``"
 msgstr ""
 
-# b20aaa04b9ff46a38a0cfe529fdc2ad6
-#: ../source/matlab/cmdref_gf_model_set.rst:1731
+# 87212adfb0884deabbc3934762c447ac
+#: ../source/matlab/cmdref_gf_model_set.rst:1769
 msgid ""
 "Adds a large sliding contact with friction brick to the model based on "
 "the Nitsche's method. This brick is able to deal with self-contact, "
@@ -2515,53 +2585,53 @@ msgid ""
 " one (not fully symmetric even without friction)."
 msgstr ""
 
-# 151cd24e32a34a17b9524785f8345bd4
-#: ../source/matlab/cmdref_gf_model_set.rst:1747
+# 58d1a8baa1924399969038875b9917cf
+#: ../source/matlab/cmdref_gf_model_set.rst:1785
 msgid ""
 "``gf_model_set(model M, 'add rigid obstacle to Nitsche large sliding "
 "contact brick', int indbrick, string expr, int N)``"
 msgstr ""
 
-# 9b0b4e2898b64171aab25a999c80c072
-#: ../source/matlab/cmdref_gf_model_set.rst:1756
+# 9038225e65fa47829329f4d4f22b50ff
+#: ../source/matlab/cmdref_gf_model_set.rst:1794
 msgid ""
 "``gf_model_set(model M, 'add master contact boundary to biased Nitsche "
 "large sliding contact brick', int indbrick, mesh_im mim, int region, "
 "string dispname[, string wname])``"
 msgstr ""
 
-# 4627fd3c92224b35acaa3c9f51dd9501
-#: ../source/matlab/cmdref_gf_model_set.rst:1758
+# 4aebb45e68ef4b2db07daa30898a6fba
+#: ../source/matlab/cmdref_gf_model_set.rst:1796
 msgid ""
 "Adds a master contact boundary to an existing biased Nitsche's large "
 "sliding contact with friction brick."
 msgstr ""
 
-# ce1fd50f73e94e1f8acbb0f0948861a3
-#: ../source/matlab/cmdref_gf_model_set.rst:1762
+# 1ae81b3622eb4b6da34cd448aa91c647
+#: ../source/matlab/cmdref_gf_model_set.rst:1800
 msgid ""
 "``gf_model_set(model M, 'add slave contact boundary to biased Nitsche "
 "large sliding contact brick', int indbrick, mesh_im mim, int region, "
 "string dispname, string lambdaname[, string wname])``"
 msgstr ""
 
-# 31aa5c1593b645d5adc7390c92bc96b5
-#: ../source/matlab/cmdref_gf_model_set.rst:1764
+# 2a2763bd89b94dc5a443c5e4c91f28d2
+#: ../source/matlab/cmdref_gf_model_set.rst:1802
 msgid ""
 "Adds a slave contact boundary to an existing biased Nitsche's large "
 "sliding contact with friction brick."
 msgstr ""
 
-# 210ac021a0094f4398287ed49872d754
-#: ../source/matlab/cmdref_gf_model_set.rst:1768
+# 9e625b462c1048a38f06ae0836ab4c39
+#: ../source/matlab/cmdref_gf_model_set.rst:1806
 msgid ""
 "``gf_model_set(model M, 'add contact boundary to unbiased Nitsche large "
 "sliding contact brick', int indbrick, mesh_im mim, int region, string "
 "dispname, string lambdaname[, string wname])``"
 msgstr ""
 
-# bb4efac40c164effa4544cfe733c781b
-#: ../source/matlab/cmdref_gf_model_set.rst:1770
+# 4ad527c27b4d4a4c9e7c3c9a86f4b491
+#: ../source/matlab/cmdref_gf_model_set.rst:1808
 msgid ""
 "Adds a contact boundary to an existing unbiased Nitschelarge sliding "
 "contact with friction brick which is both master and slave."

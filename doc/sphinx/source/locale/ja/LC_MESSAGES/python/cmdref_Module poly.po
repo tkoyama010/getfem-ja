@@ -8,17 +8,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GetFEM++ 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"POT-Creation-Date: 2018-07-07 10:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.6.0\n"
 
-# b7861ed208094bd491a1ff3d6339b101
+# 7eeae534016f48e3bc4576118c82db78
 #: ../source/python/cmdref_Module poly.rst:8
 msgid "Module poly"
+msgstr ""
+
+# ea65010ce6f74acab22eb1c136649a70
+#: getfem.poly_print:1 of
+msgid "Prints the content of P."
+msgstr ""
+
+# 614bb3c5d1a2494c9c6f4fe71756845c
+#: getfem.poly_product:1 of
+msgid "To be done ... !"
 msgstr ""
 
