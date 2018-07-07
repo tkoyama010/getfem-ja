@@ -113,6 +113,7 @@ htmlhelp: build
 
 latex: BUILDER = latex
 latex: build
+	perl -p -i -e 's/User Documentation/ユーザーマニュアル/g' ./build/latex/*.tex
 	@echo "Build finished; the LaTeX files are in build/latex."
 	@echo "Run \`make all-pdf' or \`make all-ps' in that directory to" \
 	      "run these through (pdf)latex."
