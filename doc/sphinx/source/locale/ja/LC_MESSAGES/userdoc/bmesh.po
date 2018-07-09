@@ -442,7 +442,7 @@ msgid ""
 "local index ``f`` of element ``ic`` except element ``ic``. return "
 "size_type(-1) if none is found."
 msgstr ""
-"要素 ``ic`` 以外の要素 ``ic`` のローカルインデックスfの共通面を持つ ``mesh``の最初の要素のインデックスを返します。 "
+"要素 ``ic`` 以外の要素 ``ic`` のローカルインデックスfの共通面を持つ ``mesh`` の最初の要素のインデックスを返します。"
 "見つからなければsize_type（-1）を返します。"
 
 # b992a2c913f64be3bdf9e8e59d708d21
