@@ -39,7 +39,7 @@ msgid ""
 "main structure is defined in :file:`getfem/getfem_mesh.h` by the object "
 "|gf_m|."
 msgstr ""
-"|gf| はファイル :file:`getfem / bgeot_mesh_structure.h` と :file:` getfem / "
+"|gf| はファイル :file:`getfem/bgeot_mesh_structure.h` と :file:`getfem/"
 "getfem_mesh.h` で定義されるメッシュを格納する固有の構造を持っています。"
 
 # cd42e0b9bb58428d900fc178fe33184d
