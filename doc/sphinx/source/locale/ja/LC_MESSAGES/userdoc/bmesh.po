@@ -135,12 +135,12 @@ msgstr "要素を追加するには ::"
 msgid ""
 "where ``bgeot::simplex_geotrans(N,1);`` denotes the usual linear geometric "
 "transformation for simplices of dimension N."
-msgstr "ここで ``bgeot::simplex_geotrans(N,1);`` は次元Nの単純化のための通常の線形幾何変換を示します。"
+msgstr "ここで ``bgeot::simplex_geotrans(N,1);`` は次元Nのシンプレックスのための通常の線形幾何変換を示します。"
 
 # 113fe52e1e0c44c4a908ff79524321d3
 #: ../source/userdoc/bmesh.rst:72
 msgid "For simplices, a more specialized function exists, which is::"
-msgstr "単純化のために、以下のようにより特殊化された関数が存在します ::"
+msgstr "シンプレックスのために、以下のようにより特殊化された関数が存在します ::"
 
 # a35f4550529e466f98d05c9f1a7763b3
 #: ../source/userdoc/bmesh.rst:76
@@ -283,7 +283,7 @@ msgid ""
 "direction."
 msgstr ""
 "ここで ``mymesh`` は構造化されたメッシュが構築されるメッシュ変数で、 ``N`` "
-"は次元です（単純化の場合は4、プリズムの場合は5、平行六面体の場合は無制限です）。 ``org`` を ``bgeot::base_node`` "
+"は次元です（シンプレックスの場合は4、プリズムの場合は5、平行六面体の場合は無制限です）。 ``org`` を ``bgeot::base_node`` "
 "と設定し、メッシュの起点を表します。  ``ivect`` は平行四辺形のドメインを構築するための ``N`` ベクトルの配列上のイテレータです。 "
 "``iref`` は、 各方向の分割数を表す ``N`` の自然数の配列です。"
 
