@@ -8,26 +8,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GetFEM++ 5.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 15:02+0900\n"
+"POT-Creation-Date: 2018-07-07 10:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
+"Generated-By: Babel 2.6.0\n"
 
-# a9cadeaaf9fd4e5ca38bef6d5d28fba5
+# 8319ad83c3b046d0a7cab3aea554d325
 #: ../source/python/cmdref_Model.rst:8
 msgid "Model"
 msgstr ""
 
-# 6cded7aca080433a9bfd12960137173c
+# 25b7f75167dd4f6a83bd641db5a861b6
 #: getfem.Model:1 of
 msgid "GeFEM Model object"
 msgstr ""
 
-# 9686aacf29af47fc8c7e5b827dafb79d
+# a8e936289f7d4bf2bac985ca42caaee6
 #: getfem.Model:3 of
 msgid ""
 "Model variables store the variables and the state data and the "
@@ -36,22 +36,22 @@ msgid ""
 "`real` and the `complex` models."
 msgstr ""
 
-# 63c2cce77d7a49eb8ff1dbcc23ac9a1f
+# 3d1274b46d8e40a5b073237eb5ac5e46
 #: getfem.Model:9 of
 msgid "General constructor for Model objects"
 msgstr ""
 
-# 36698d540e64416dbdab411a6b03693c
+# f3d7615915e9430699ac6f71c98de1e5
 #: getfem.Model:11 of
 msgid "``MD = Model('real')`` Build a model for real unknowns."
 msgstr ""
 
-# 49a5a79b2db54392a133b2a7b082c6c4
+# 194f07e288804fbe972bbe52c8620d55
 #: getfem.Model:14 of
 msgid "``MD = Model('complex')`` Build a model for complex unknowns."
 msgstr ""
 
-# e6a712ed7672440da5fd01b0898a053b
+# 4c071900326e4dbca3316685df6aaab0
 #: getfem.Model.Neumann_term:1 of
 msgid ""
 "Gives the assembly string corresponding to the Neumann term of the fem "
@@ -62,7 +62,7 @@ msgid ""
 "brick omit to declare an assembly string."
 msgstr ""
 
-# f024a620fcb6432b8dcb4a78710211c6
+# 426d94544c7940ed8dedb0e2755c9a06
 #: getfem.Model.add_Dirichlet_condition_with_Nitsche_method:1 of
 msgid ""
 "Synopsis: ind = Model.add_Dirichlet_condition_with_Nitsche_method(self, "
@@ -70,7 +70,7 @@ msgid ""
 "region[, scalar theta][, string dataname])"
 msgstr ""
 
-# 81d17affaf064e7f9b9ef920097c2ee1
+# bf6dea14173046fbb7d3e90b329ebeb8
 #: getfem.Model.add_Dirichlet_condition_with_Nitsche_method:3 of
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
@@ -90,7 +90,7 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# a8698c0d47014f07946a1bc7ecd78f02
+# 1c996d8e0d7b45748614261881dff644
 #: getfem.Model.add_Dirichlet_condition_with_multipliers:1 of
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
@@ -111,7 +111,7 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# c530118abaef4b638945316062647590
+# f4587398a2e84abeb1f24b39cf1219ff
 #: getfem.Model.add_Dirichlet_condition_with_penalization:1 of
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
@@ -125,7 +125,7 @@ msgid ""
 "specifying a multiplier space. Return the brick index in the model."
 msgstr ""
 
-# 6bf79afe1d8e44a8b26c3b44dbb826e1
+# 9a2940abb9a24a508bff5089d5f27feb
 #: getfem.Model.add_Dirichlet_condition_with_simplification:1 of
 msgid ""
 "Adds a (simple) Dirichlet condition on the variable `varname` and the "
@@ -145,7 +145,7 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# 384be8ec5be544d1ba9ae5de7aaac9ce
+# 994aeb1ec8c9411eac31be7cac2438f3
 #: getfem.Model.add_Fourier_Robin_brick:1 of
 msgid ""
 "Add a Fourier-Robin term to the model relatively to the variable "
@@ -157,7 +157,7 @@ msgid ""
 "term is added. Return the brick index in the model."
 msgstr ""
 
-# 012f8839320843f1b8fdb02ea72af6d9
+# 7ee1286f4ee949e49c0955b11564e87c
 #: getfem.Model.add_Helmholtz_brick:1 of
 msgid ""
 "Add a Helmholtz term to the model relatively to the variable `varname`. "
@@ -166,7 +166,7 @@ msgid ""
 " mesh. Return the brick index in the model."
 msgstr ""
 
-# e31e9491459c463d95713123c2ff57fa
+# 733946114ce64f56b280432b5d8a95a0
 #: getfem.Model.add_Kirchhoff_Love_Neumann_term_brick:1 of
 msgid ""
 "Add a Neumann term brick for Kirchhoff-Love model on the variable "
@@ -175,7 +175,7 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# 304e44be85fb4634989786412d7a320a
+# 5ea44c7ffb824a62b425854aec5942ac
 #: getfem.Model.add_Kirchhoff_Love_plate_brick:1 of
 msgid ""
 "Add a bilaplacian brick on the variable `varname` and on the mesh region "
@@ -185,7 +185,7 @@ msgid ""
 "`dataname_nu` the poisson ratio. Return the brick index in the model."
 msgstr ""
 
-# a296b96a37144c25889f96d5103932f4
+# c27508bf2f7a41cb88d9374aab1b505e
 #: getfem.Model.add_Laplacian_brick:1 of
 msgid ""
 "Add a Laplacian term to the model relatively to the variable `varname` "
@@ -196,7 +196,7 @@ msgid ""
 "the model."
 msgstr ""
 
-# 41a2a1174e3d48a3bf6d6aa7eca62607
+# a1063cc08ef447c8b7769f6344f3198d
 #: getfem.Model.add_Mindlin_Reissner_plate_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_Mindlin_Reissner_plate_brick(self, MeshIm mim, "
@@ -205,7 +205,7 @@ msgid ""
 "variant [, int region]])"
 msgstr ""
 
-# 2cb4730d8e8a41d8990c199a773315f3
+# 009f27832bd149f8a11c9da13479dc58
 #: getfem.Model.add_Mindlin_Reissner_plate_brick:3 of
 msgid ""
 "Add a term corresponding to the classical Reissner-Mindlin plate model "
@@ -228,8 +228,8 @@ msgid ""
 "approximation. Returns the brick index in the model."
 msgstr ""
 
-# e76d98277ed34685b9109ea7978626b5
-# b09d4e4b239a4a79bb9970781cec7aa3
+# 656bb573bf2147b2b69729424fb10a63
+# 853893faf1c14b2b8483f1c1d25c68d0
 #: getfem.Model.add_Newmark_scheme:1
 #: getfem.Model.add_theta_method_for_second_order:1 of
 msgid ""
@@ -238,7 +238,7 @@ msgid ""
 " the variable."
 msgstr ""
 
-# 2364a2fe62de4e1cbe45bfd83842dd36
+# 8040a0fa43044666a7a29d1cbd7ff080
 #: getfem.Model.add_Nitsche_contact_with_rigid_obstacle_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_Nitsche_contact_with_rigid_obstacle_brick(self,"
@@ -247,7 +247,7 @@ msgid ""
 " dataname_friction_coeff[, string dataname_alpha, string dataname_wt]]])"
 msgstr ""
 
-# 945ba6c6b2584613ac9f754aead0889f
+# 365ddb1206aa46cf9518072db77bb90f
 #: getfem.Model.add_Nitsche_contact_with_rigid_obstacle_brick:3 of
 msgid ""
 "Adds a contact condition with or without Coulomb friction on the variable"
@@ -268,7 +268,7 @@ msgid ""
 "declaring their Neumann terms. Returns the brick index in the model."
 msgstr ""
 
-# 881924fb977a489898e6549a3b6250fd
+# c35ce214ff7e41588688ec754fe43c59
 #: getfem.Model.add_Nitsche_fictitious_domain_contact_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_Nitsche_fictitious_domain_contact_brick(self, "
@@ -278,7 +278,7 @@ msgid ""
 "dataname_wt1,string dataname_wt2]]])"
 msgstr ""
 
-# 2c8cbfcd415d4db19031e1833281faa4
+# c4222a8c9bc44f3db44b9adca4c25359
 #: getfem.Model.add_Nitsche_fictitious_domain_contact_brick:3 of
 msgid ""
 "Adds a contact condition with or without Coulomb friction between two "
@@ -302,7 +302,7 @@ msgid ""
 "declaring their Neumann terms. Returns the brick index in the model."
 msgstr ""
 
-# 90ed4f4c32e146108f94e5740c283325
+# 6d7c58d3f0244b8d81312d021a2f3e52
 #: getfem.Model.add_Nitsche_large_sliding_contact_brick_raytracing:1 of
 msgid ""
 "Synopsis: ind = "
@@ -311,7 +311,7 @@ msgid ""
 "dataname_fr[, string dataname_alpha[, int version]]])"
 msgstr ""
 
-# ea4ba1aa30bf4e1cba8a0a87cbec5f37
+# 05069d6823324d90a970d43bb774b346
 #: getfem.Model.add_Nitsche_large_sliding_contact_brick_raytracing:3 of
 msgid ""
 "Adds a large sliding contact with friction brick to the model based on "
@@ -330,7 +330,7 @@ msgid ""
 " one (not fully symmetric even without friction)."
 msgstr ""
 
-# b89d1617b059446aaee259de97f4f83a
+# 731c57b1903947f59171a1a30363a190
 #: getfem.Model.add_Nitsche_midpoint_contact_with_rigid_obstacle_brick:1 of
 msgid ""
 "EXPERIMENTAL BRICK: for midpoint scheme only !! Adds a contact condition "
@@ -349,14 +349,14 @@ msgid ""
 "finite element method. Returns the brick index in the model."
 msgstr ""
 
-# 4b66ba810dd643d79978516e938dd2ce
+# 0ed2b429d0324b2788ca3395be68f294
 #: getfem.Model.add_assembly_assignment:1 of
 msgid ""
 "Synopsis: Model.add_assembly_assignment(self, string dataname, string "
 "expression[, int region[, int order[, int before]]])"
 msgstr ""
 
-# 9e2667a810cc4f3ca4aaaefcbe96a2e9
+# a4da14f3605b48e99620e10488eb1b21
 #: getfem.Model.add_assembly_assignment:3 of
 msgid ""
 "Adds expression `expr` to be evaluated at assembly time and being "
@@ -374,7 +374,7 @@ msgid ""
 "assignement is done after the assembly terms."
 msgstr ""
 
-# 3828183d89394b48b9a25a9e2b9f9ce0
+# ecd487c511e4479685fd236b4308c74a
 #: getfem.Model.add_basic_contact_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_basic_contact_brick(self, string varname_u, "
@@ -384,7 +384,7 @@ msgid ""
 "dataname_wt]]])"
 msgstr ""
 
-# e6b2932bd27a4c90bb7cd50e2912387a
+# b127e10b51344e20a2683f9ad7a0bdfe
 #: getfem.Model.add_basic_contact_brick:3 of
 msgid ""
 "Add a contact with or without friction brick to the model. If U is the "
@@ -414,7 +414,7 @@ msgid ""
 "multipliers and De Saxce projection."
 msgstr ""
 
-# 05800640110241b5bc42e5ecc8ff41fe
+# 894c455768ae4537913d0d9503434cc0
 #: getfem.Model.add_basic_contact_brick_two_deformable_bodies:1 of
 msgid ""
 "Synopsis: ind = Model.add_basic_contact_brick_two_deformable_bodies(self,"
@@ -423,12 +423,12 @@ msgid ""
 "dataname_alpha[, int augmented_version]]])"
 msgstr ""
 
-# c2a5e6e6bd4c4da2bb2fbee3b1cd69e9
+# 2c5a211fde4e4ee5b03e66f0c835a75b
 #: getfem.Model.add_basic_contact_brick_two_deformable_bodies:18 of
 msgid "Add a frictionless contact condition to the model between two deformable"
 msgstr ""
 
-# 91e1912cd063496fb347199fdd878407
+# 9171a1345da5485fb69a85c4bcb212ce
 #: getfem.Model.add_basic_contact_brick_two_deformable_bodies:4 of
 msgid ""
 "bodies. If U1, U2 are the vector of degrees of freedom on which the "
@@ -446,7 +446,7 @@ msgid ""
 "one, 3 for the unsymmetric method with augmented multiplier."
 msgstr ""
 
-# e2c9aa19810f4e2db62017185f539b5f
+# 12c36516ef0d452e8319efad65464846
 #: getfem.Model.add_bilaplacian_brick:1 of
 msgid ""
 "Add a bilaplacian brick on the variable `varname` and on the mesh region "
@@ -457,14 +457,14 @@ msgid ""
 " the model."
 msgstr ""
 
-# 4b9ca5102f01466a8ef1bf2e6852948c
+# 6320ecea558848dd9c8754a89d9b6873
 #: getfem.Model.add_constraint_with_multipliers:1 of
 msgid ""
 "Synopsis: ind = Model.add_constraint_with_multipliers(self, string "
 "varname, string multname, Spmat B, {vec L | string dataname})"
 msgstr ""
 
-# 61b268d9ac4b402fbaf39dc31191ef2f
+# 1f80466a66eb4cb0a501ff4265c8047d
 #: getfem.Model.add_constraint_with_multipliers:3 of
 msgid ""
 "Add an additional explicit constraint on the variable `varname` thank to "
@@ -477,14 +477,14 @@ msgid ""
 "the brick index in the model."
 msgstr ""
 
-# eb64534e850e40c5a03e693330a03b09
+# 4870498677ad4a53b7b5b9ff96287598
 #: getfem.Model.add_constraint_with_penalization:1 of
 msgid ""
 "Synopsis: ind = Model.add_constraint_with_penalization(self, string "
 "varname, scalar coeff, Spmat B, {vec L | string dataname})"
 msgstr ""
 
-# 597698bc9687447ea9f38466ba16ca0c
+# 39d203da312e496b9ba37e28744eb122
 #: getfem.Model.add_constraint_with_penalization:3 of
 msgid ""
 "Add an additional explicit penalized constraint on the variable "
@@ -498,7 +498,7 @@ msgid ""
 "given name. Return the brick index in the model."
 msgstr ""
 
-# 955f1802881b4b048a10d10b4f4cbeaa
+# 5d7389601c454f51b8775e3de901c910
 #: getfem.Model.add_contact_boundary_to_unbiased_Nitsche_large_sliding_contact_brick:1
 #: of
 msgid ""
@@ -506,7 +506,7 @@ msgid ""
 "contact with friction brick which is both master and slave."
 msgstr ""
 
-# f406c7da91cb46fa89788f121319bcaa
+# 3822efe60a9d4c3bbbd0554e37c124ad
 #: getfem.Model.add_contact_with_rigid_obstacle_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_contact_with_rigid_obstacle_brick(self,  MeshIm"
@@ -515,14 +515,14 @@ msgid ""
 "obstacle[,  int augmented_version])"
 msgstr ""
 
-# f8af50845cb44b0b90d43e4df37dab3b
+# 9cc59755c56c4dbea48c53d39ddcd45d
 #: getfem.Model.add_contact_with_rigid_obstacle_brick:3 of
 msgid ""
 "DEPRECATED FUNCTION. Use 'add nodal contact with rigid obstacle brick' "
 "instead."
 msgstr ""
 
-# 23adcab31f39412b92803f92db97cdbb
+# 00a42899339c4cda985a9bc8e6755d88
 #: getfem.Model.add_data:1 of
 msgid ""
 "Add a fixed size data to the model.  `sizes` is either a integer (for a "
@@ -530,7 +530,7 @@ msgid ""
 "`name` is the data name."
 msgstr ""
 
-# a935183fd8a448b7b3de497912cfcbec
+# 9ccaf2d76c2c49ed91bdbac5848418a3
 #: getfem.Model.add_elastoplasticity_brick:1 of
 msgid ""
 "Old (obsolete) brick which do not use the high level generic assembly. "
@@ -550,7 +550,7 @@ msgid ""
 " mesh. Return the brick index in the model."
 msgstr ""
 
-# cd392cffa6ec4f529938e86ad0dc2884
+# 83ae3603c7b14196814968ac3968a97f
 #: getfem.Model.add_element_extrapolation_transformation:1 of
 msgid ""
 "Add a special interpolation transformation which represents the identity "
@@ -563,19 +563,19 @@ msgid ""
 "listed in elt_cor the evaluation is just made on the current element."
 msgstr ""
 
-# fc40fba0faf643c983b23cd1f62a143e
+# 9c018f5eeddb474d81f2777dc03c88be
 #: getfem.Model.add_elementary_rotated_RT0_projection:1 of
 msgid "Experimental method ..."
 msgstr ""
 
-# 0095a08a914d47cb81ae45063840abe5
+# 408c610a894143ecb217dab6be719b61
 #: getfem.Model.add_explicit_matrix:1 of
 msgid ""
 "Synopsis: ind = Model.add_explicit_matrix(self, string varname1, string "
 "varname2, Spmat B[, int issymmetric[, int iscoercive]])"
 msgstr ""
 
-# 95f54f95a6334a62bf41e96394141364
+# 5ed2120e3cdc41a6863b72c4dd4f0dd6
 #: getfem.Model.add_explicit_matrix:3 of
 msgid ""
 "Add a brick representing an explicit matrix to be added to the tangent "
@@ -589,7 +589,7 @@ msgid ""
 "Model.set_private_matrix(). Return the brick index in the model."
 msgstr ""
 
-# 4aac9aee9aeb42ca8195ad62b83b69fd
+# a2a8d9a6d407434697f2fcf18911ebe9
 #: getfem.Model.add_explicit_rhs:1 of
 msgid ""
 "Add a brick representing an explicit right hand side to be added to the "
@@ -601,7 +601,7 @@ msgid ""
 "model."
 msgstr ""
 
-# 5d0dd3ad11894a078024f003884c1049
+# cdebfe88bf4f4b3eb016e1d16d2dd6f4
 #: getfem.Model.add_fem_data:1 of
 msgid ""
 "Add a data to the model linked to a MeshFem. `name` is the data name, "
@@ -609,14 +609,14 @@ msgid ""
 " suplementary dimensions with respect to `mf`."
 msgstr ""
 
-# d3e7a82a11ed418a991f8a8ef9e61413
+# 1e878f205b5649689d912987eb3cd224
 #: getfem.Model.add_fem_variable:1 of
 msgid ""
 "Add a variable to the model linked to a MeshFem. `name` is the variable "
 "name."
 msgstr ""
 
-# d358ef0cd8394034befc6d28c2e8a545
+# 718e7b6a91424fbb82094f57843d3dd3
 #: getfem.Model.add_filtered_fem_variable:1 of
 msgid ""
 "Add a variable to the model linked to a MeshFem. The variable is filtered"
@@ -624,7 +624,7 @@ msgid ""
 "the variable name."
 msgstr ""
 
-# 512149647ea74ab4b58b4943f861ef9f
+# 725f192e46cd434bb67850f7ba79472a
 #: getfem.Model.add_finite_strain_elasticity_brick:1 of
 msgid ""
 "Add a nonlinear elasticity term to the model relatively to the variable "
@@ -636,7 +636,7 @@ msgid ""
 "requires one additional material coefficient."
 msgstr ""
 
-# b1ead5c1fd18428d9bb46c69ef18b0d0
+# 33ac4963fbf74c15af573782dcd13a17
 #: getfem.Model.add_finite_strain_elasticity_brick:11 of
 msgid ""
 "IMPORTANT : if the variable is defined on a 2D mesh, the plane strain "
@@ -649,7 +649,7 @@ msgid ""
 "the brick index in the model."
 msgstr ""
 
-# a2902074c33048f6af0029562bd69e33
+# cf63adee8b2f4864874e946a604e43be
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_finite_strain_elastoplasticity_brick(self, "
@@ -657,7 +657,7 @@ msgid ""
 "...] [, string params, ...] [, int region = -1])"
 msgstr ""
 
-# 9ae2eb3ef38c4fa9b2150ef199a7df2e
+# 3b1293c94b5342c3a8adfefadf8127b1
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:3 of
 msgid ""
 "Add a finite strain elastoplasticity brick to the model. For the moment "
@@ -670,17 +670,17 @@ msgid ""
 "that have to be defined as variables in the model:"
 msgstr ""
 
-# 4d3bcfebcee44df6ba829fc98a04f4ed
+# 9b7d1527cd054cfaaeee413a307ee5ea
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:13 of
 msgid "the displacement variable which has to be defined as an unknown,"
 msgstr ""
 
-# c4f8d82ee0ea41b1a5c44003229357c3
+# 33872450ab854b608231300d9a18c1a0
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:14 of
 msgid "the plastic multiplier which has also defined as an unknown,"
 msgstr ""
 
-# 2d5d545b48774df385317e39763a142b
+# 4a10a411d06e43fc9b6fba7969951610
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:15 of
 msgid ""
 "optionally the pressure variable for a mixed displacement-pressure "
@@ -688,14 +688,14 @@ msgid ""
 "`unknowns_type`,"
 msgstr ""
 
-# 3b9a376861f146a18c712da6282c234a
+# 10d7cf4d258f41aab67e5058806a5dfe
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:18 of
 msgid ""
 "the name of a (scalar) fem_data or im_data field that holds the plastic "
 "strain at the previous time step, and"
 msgstr ""
 
-# 09c5033551874861bc70c73ddd1ca11d
+# 3953e49aef6d45af9c0619703e45c7ee
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:20 of
 msgid ""
 "the name of a fem_data or im_data field that holds all non-repeated "
@@ -704,24 +704,24 @@ msgid ""
 "problems and a 6 element vector for 3D problems)."
 msgstr ""
 
-# af466b90594845efb2e03a3999277c53
+# 301bf16fdfd849719ba87483d56393f7
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:26 of
 msgid ""
 "The  \"Simo_Miehe\" law also expects as `params` a set of the following "
 "three parameters:"
 msgstr ""
 
-# 11f2de87e9cb41b1a0ff6c8421be06bb
+# 7a0f15faea664751a682e627f6e415a3
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:29 of
 msgid "an expression for the initial bulk modulus K,"
 msgstr ""
 
-# 784995f0b15249f3b179f38f4ab0013a
+# 1803703460c44597945bca1d6c1b87f4
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:30 of
 msgid "an expression for the initial shear modulus G,"
 msgstr ""
 
-# e6370357c85e41f3afb05f9f77c39a4b
+# df1c12c908854186842b5a366043555c
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:31 of
 msgid ""
 "the name of a user predefined function that decribes the yield limit as a"
@@ -730,7 +730,7 @@ msgid ""
 "appropriate stress and strain tensors, respectively)."
 msgstr ""
 
-# c975516f67cf4602b93713c3a3e11a58
+# a4becca64305424caf101daa420fcbf7
 #: getfem.Model.add_finite_strain_elastoplasticity_brick:37 of
 msgid ""
 "As usual, `region` is an optional mesh region on which the term is added."
@@ -738,7 +738,7 @@ msgid ""
 "index in the model."
 msgstr ""
 
-# bc7de451140d4a058693d082a488b550
+# 549b8d12b7f0413abd81ca2f7b0134cc
 #: getfem.Model.add_finite_strain_incompressibility_brick:1 of
 msgid ""
 "Add a finite strain incompressibility condition on `variable` (for large "
@@ -753,7 +753,7 @@ msgid ""
 "and ``u`` the variable which represent the displacement."
 msgstr ""
 
-# 7f5de5846697443fa2ec94c79fbac8e7
+# c46d1c0c0696494494ebb4b7cfb580b1
 #: getfem.Model.add_generalized_Dirichlet_condition_with_Nitsche_method:1 of
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
@@ -778,7 +778,7 @@ msgid ""
 "brick index in the model. (This brick is not fully tested)"
 msgstr ""
 
-# ab81a7feceb247bc86cf6739d33d4278
+# 48c4d424f833451c86ee69f72958d659
 #: getfem.Model.add_generalized_Dirichlet_condition_with_multipliers:1 of
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
@@ -801,7 +801,7 @@ msgid ""
 "field `H`. Returns the brick index in the model."
 msgstr ""
 
-# c00a92cf40e4417ca6d3fae8adb4336c
+# 87a74b8582a541ca8749e1ad7b2e6fb6
 #: getfem.Model.add_generalized_Dirichlet_condition_with_penalization:1 of
 msgid ""
 "Add a Dirichlet condition on the variable `varname` and the mesh region "
@@ -818,7 +818,7 @@ msgid ""
 "specifying a multiplier space. Return the brick index in the model."
 msgstr ""
 
-# 25e257bbae514953bc43543a4b4b4ac1
+# decd5eb69d0943dd88567a6938e4068b
 #: getfem.Model.add_generic_elliptic_brick:1 of
 msgid ""
 "Add a generic elliptic term to the model relatively to the variable "
@@ -843,12 +843,12 @@ msgid ""
 " even depending on model variables. Return the brick index in the model."
 msgstr ""
 
-# b9c003f323b64b32a7d48ee18a7a7ac7
+# 3b8c61456747432b990f0392b54213c9
 #: getfem.Model.add_im_data:1 of
 msgid "Add a data set to the model linked to a MeshImd. `name` is the data name."
 msgstr ""
 
-# 72242c19340d48c5ac0fb0c9b8fa097b
+# ad283ae1a5944e8696dbb5821bfd6deb
 #: getfem.Model.add_initialized_data:1 of
 msgid ""
 "Add an initialized fixed size data to the model. `sizes` an optional "
@@ -858,7 +858,7 @@ msgid ""
 "data."
 msgstr ""
 
-# 2fc16a3ce1c8411c811b111b260185b9
+# e78aac8a35ca48948819043347c88bd1
 #: getfem.Model.add_initialized_fem_data:1 of
 msgid ""
 "Add a data to the model linked to a MeshFem. `name` is the data name. The"
@@ -867,7 +867,7 @@ msgid ""
 "suplementary dimensions with respect to `mf`."
 msgstr ""
 
-# 6ba16dde037146b7be467dac01488788
+# 8d782ddb69ea44e6851c826d39169db9
 #: getfem.Model.add_integral_contact_between_nonmatching_meshes_brick:1 of
 msgid ""
 "Synopsis: ind = "
@@ -878,7 +878,7 @@ msgid ""
 "dataname_wt2]]])"
 msgstr ""
 
-# 9f65b2edd9094dcdb12116868ec6bd50
+# 37c892ddc1584e16899c5ff69f90cc99
 #: getfem.Model.add_integral_contact_between_nonmatching_meshes_brick:3 of
 msgid ""
 "Add a contact with or without friction condition between nonmatching "
@@ -905,7 +905,7 @@ msgid ""
 "problems."
 msgstr ""
 
-# 5f87a6d40fc643f789c72c13cc4b1fbc
+# c3224cd4eb5f43ae9623d4e40f92d064
 #: getfem.Model.add_integral_contact_with_rigid_obstacle_brick:1 of
 msgid ""
 "Synopsis: ind = "
@@ -916,7 +916,7 @@ msgid ""
 "[, string dataname_vt]]]]])"
 msgstr ""
 
-# cf9623503d624a34865b504f7dd2c500
+# 985a37a10c9d4685b8140a06412a7289
 #: getfem.Model.add_integral_contact_with_rigid_obstacle_brick:3 of
 msgid ""
 "Add a contact with or without friction condition with a rigid obstacle to"
@@ -944,7 +944,7 @@ msgid ""
 " to the friction condition."
 msgstr ""
 
-# 878ef237bd6d416cac0a4e584cf8c148
+# 5b0939a283804d0280dd7cf4646c802d
 #: getfem.Model.add_integral_large_sliding_contact_brick_raytracing:1 of
 msgid ""
 "Synopsis: ind = "
@@ -953,7 +953,7 @@ msgid ""
 "dataname_alpha[, int version]]])"
 msgstr ""
 
-# bf2befabc4984ff7b436633e33c44c61
+# b1bca0fdbf4a45bfa3efd7a127557842
 #: getfem.Model.add_integral_large_sliding_contact_brick_raytracing:3 of
 msgid ""
 "Adds a large sliding contact with friction brick to the model. This brick"
@@ -969,7 +969,7 @@ msgid ""
 " symmetric one (not fully symmetric even without friction)."
 msgstr ""
 
-# 2920e73e7bb34695b9f471a5ad47ced1
+# 14dae608782b456bacc3ada40881b503
 #: getfem.Model.add_interpolate_transformation_from_expression:1 of
 msgid ""
 "Add a transformation to the model from mesh `source_mesh` to mesh "
@@ -981,7 +981,7 @@ msgid ""
 "allowed in the definition of a potential."
 msgstr ""
 
-# f5553d50e48944358fc21df64e18de51
+# 88829f365e704729a8159b5e7c96c902
 #: getfem.Model.add_isotropic_linearized_elasticity_brick:1 of
 msgid ""
 "Add an isotropic linearized elasticity term to the model relatively to "
@@ -991,7 +991,7 @@ msgid ""
 " mesh. Return the brick index in the model."
 msgstr ""
 
-# eea000ed1dc84ef78c16ed34527408d1
+# e1b6315ae5f84358960c5b1959f7cc17
 #: getfem.Model.add_isotropic_linearized_elasticity_brick_pstrain:1 of
 msgid ""
 "Add an isotropic linearized elasticity term to the model relatively to "
@@ -1003,7 +1003,7 @@ msgid ""
 "correspond to the standard model.  Return the brick index in the model."
 msgstr ""
 
-# 721f06529057489a88d61e607deeee15
+# f8f6415393e1444e89036240040200e5
 #: getfem.Model.add_isotropic_linearized_elasticity_brick_pstress:1 of
 msgid ""
 "Add an isotropic linearized elasticity term to the model relatively to "
@@ -1015,15 +1015,49 @@ msgid ""
 "correspond to the standard model.  Return the brick index in the model."
 msgstr ""
 
-# a3492e594e4845b88213efe14d985f1b
+# 537cf1e5ad604f449561600084718d9c
 #: getfem.Model.add_linear_generic_assembly_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_linear_generic_assembly_brick(self, MeshIm mim,"
 " string expression[, int region[, int is_symmetric[, int is_coercive]]])"
 msgstr ""
 
-# f0e6b8f9258e44cb94ef240b5d9cdc12
+# f7d4ce3f61a34749be5e3999d412a4b8
 #: getfem.Model.add_linear_generic_assembly_brick:3 of
+msgid "Deprecated. Use Model.add_linear_term() instead."
+msgstr ""
+
+# 4d3423356e8b4839b59018e853f115e4
+#: getfem.Model.add_linear_incompressibility_brick:1 of
+msgid ""
+"Synopsis: ind = Model.add_linear_incompressibility_brick(self, MeshIm "
+"mim, string varname, string multname_pressure[, int region[, string "
+"dataexpr_coeff]])"
+msgstr ""
+
+# 4693fdb20dea4d7ab4b4f1ee373f1ed2
+#: getfem.Model.add_linear_incompressibility_brick:3 of
+msgid ""
+"Add a linear incompressibility condition on `variable`. "
+"`multname_pressure` is a variable which represent the pressure. Be aware "
+"that an inf-sup condition between the finite element method describing "
+"the pressure and the primal variable has to be satisfied. `region` is an "
+"optional mesh region on which the term is added. If it is not specified, "
+"it is added on the whole mesh. `dataexpr_coeff` is an optional "
+"penalization coefficient for nearly incompressible elasticity for "
+"instance. In this case, it is the inverse of the Lame coefficient "
+":math:`\\lambda`. Return the brick index in the model."
+msgstr ""
+
+# cb1fe0fac88f4a8f95a15315e01419ee
+#: getfem.Model.add_linear_term:1 of
+msgid ""
+"Synopsis: ind = Model.add_linear_term(self, MeshIm mim, string "
+"expression[, int region[, int is_symmetric[, int is_coercive]]])"
+msgstr ""
+
+# 56ce72266699401d886cb031e6edcad7
+#: getfem.Model.add_linear_term:3 of
 msgid ""
 "Adds a matrix term given by the assembly string `expr` which will be "
 "assembled in region `region` and with the integration method `mim`. Only "
@@ -1040,36 +1074,27 @@ msgid ""
 "`brickname` is an otpional name for the brick."
 msgstr ""
 
-# 0b347918c4194820b16e470e8ae535f9
-#: getfem.Model.add_linear_incompressibility_brick:1 of
+# 5826956b2ca940b49b88218aa9948a8e
+#: getfem.Model.add_macro:1 of
 msgid ""
-"Synopsis: ind = Model.add_linear_incompressibility_brick(self, MeshIm "
-"mim, string varname, string multname_pressure[, int region[, string "
-"dataexpr_coeff]])"
+"Define a new macro for the high generic assembly language. The name "
+"include the parameters. For instance name='sp(a,b)', expr='a.b' is a "
+"valid definition. Macro without parameter can also be defined. For "
+"instance name='x1', expr='X[1]' is valid. Teh form name='grad(u)', "
+"expr='Grad_u' is also allowed but in that case, the parameter 'u' will "
+"only be allowed to be a variable name when using the macro. Note that "
+"macros can be directly defined inside the assembly strings with the "
+"keyword 'Def'."
 msgstr ""
 
-# a017801644fe4fdeb4aa5a429dfd2edc
-#: getfem.Model.add_linear_incompressibility_brick:3 of
-msgid ""
-"Add a linear incompressibility condition on `variable`. "
-"`multname_pressure` is a variable which represent the pressure. Be aware "
-"that an inf-sup condition between the finite element method describing "
-"the pressure and the primal variable has to be satisfied. `region` is an "
-"optional mesh region on which the term is added. If it is not specified, "
-"it is added on the whole mesh. `dataexpr_coeff` is an optional "
-"penalization coefficient for nearly incompressible elasticity for "
-"instance. In this case, it is the inverse of the Lame coefficient "
-":math:`\\lambda`. Return the brick index in the model."
-msgstr ""
-
-# a60ee58687b34ac3a97d5bdaaad8d941
+# 584fd103e4c64d38ba09c9271a54ecef
 #: getfem.Model.add_mass_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_mass_brick(self, MeshIm mim, string varname[, "
 "string dataexpr_rho[, int region]])"
 msgstr ""
 
-# d09e4fc36d534a1e95ab2131123cbf59
+# 32b4637353994538abb1ab61046cd32b
 #: getfem.Model.add_mass_brick:3 of
 msgid ""
 "Add mass term to the model relatively to the variable `varname`. If "
@@ -1079,7 +1104,7 @@ msgid ""
 "the model."
 msgstr ""
 
-# a856fb84c83d48828eb0ce483ff9c7a0
+# 47fb520f2ed9434da04f94eecbcf7bb9
 #: getfem.Model.add_master_contact_boundary_to_biased_Nitsche_large_sliding_contact_brick:1
 #: of
 msgid ""
@@ -1087,14 +1112,14 @@ msgid ""
 "sliding contact with friction brick."
 msgstr ""
 
-# 10278f59df614c52a47f7a5ac457eac4
+# eff3e8ed6ec44b6fbd1e06a2727f3199
 #: getfem.Model.add_master_contact_boundary_to_large_sliding_contact_brick:1 of
 msgid ""
 "Adds a master contact boundary to an existing large sliding contact with "
 "friction brick."
 msgstr ""
 
-# bcd7621afe1e42559072b7b8e7468844
+# 6dffda71459c48e883add4ef4db2c704
 #: getfem.Model.add_master_contact_boundary_to_projection_transformation:1 of
 msgid ""
 "Add a master contact boundary with corresponding displacement variable "
@@ -1102,7 +1127,7 @@ msgid ""
 "interpolate transformation called `transname`."
 msgstr ""
 
-# 8ae077c6707643099365a0edaf8094b3
+# 356ae09191024b86aee89074529b8651
 #: getfem.Model.add_master_contact_boundary_to_raytracing_transformation:1 of
 msgid ""
 "Add a master contact boundary with corresponding displacement variable "
@@ -1110,7 +1135,7 @@ msgid ""
 "interpolate transformation called `transname`."
 msgstr ""
 
-# bb16f99679d949d2b636001a49afada9
+# 0c01451047d6469f99de72ed127f920e
 #: getfem.Model.add_master_slave_contact_boundary_to_large_sliding_contact_brick:1
 #: of
 msgid ""
@@ -1119,7 +1144,7 @@ msgid ""
 "contact)."
 msgstr ""
 
-# e8fc911565864a92a7c15b7cc185b8c4
+# 75a89f6c74ec4639b3f51b3da38ce36f
 #: getfem.Model.add_multiplier:1 of
 msgid ""
 "Add a particular variable linked to a fem being a multiplier with respect"
@@ -1130,7 +1155,7 @@ msgid ""
 "boundary multipliers."
 msgstr ""
 
-# 09a626cf7cc544a583c94ae48eea47cd
+# 23a8a196a21e4dc2bc35805b3554c42b
 #: getfem.Model.add_nodal_contact_between_nonmatching_meshes_brick:1 of
 msgid ""
 "Synopsis: ind = "
@@ -1140,7 +1165,7 @@ msgid ""
 " int rg1, int rg2[, int slave1, int slave2,  int augmented_version])"
 msgstr ""
 
-# d5446e54e4ea450e93239774f75dcfdf
+# e1993eb9408640b5a4648356d7dff5be
 #: getfem.Model.add_nodal_contact_between_nonmatching_meshes_brick:3 of
 msgid ""
 "Add a contact with or without friction condition between two faces of one"
@@ -1174,7 +1199,7 @@ msgid ""
 "calls the basic contact brick."
 msgstr ""
 
-# fa3ab4787a3349bbad3c635f910cf9c2
+# b74732c9fbcb4c7d8e41bfd9ddcf79c7
 #: getfem.Model.add_nodal_contact_with_rigid_obstacle_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_nodal_contact_with_rigid_obstacle_brick(self,  "
@@ -1183,7 +1208,7 @@ msgid ""
 "obstacle[,  int augmented_version])"
 msgstr ""
 
-# 5a67d5070834450dbe360ed39d9816f5
+# 53584db384a1423d8233b757196a8f8b
 #: getfem.Model.add_nodal_contact_with_rigid_obstacle_brick:3 of
 msgid ""
 "Add a contact with or without friction condition with a rigid obstacle to"
@@ -1213,7 +1238,7 @@ msgid ""
 "and alpha and calls the basic contact brick."
 msgstr ""
 
-# c131c1c4e7d14ab2b092a58ecc59c8af
+# 7593c6b155314aacae622558abb94798
 #: getfem.Model.add_nonlinear_elasticity_brick:1 of
 msgid ""
 "Add a nonlinear elasticity term to the model relatively to the variable "
@@ -1237,7 +1262,7 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# a328d0584a0f4f66bb810f7fd771ac18
+# 9e43678d9c18459ea2e5fdccb37cee4e
 #: getfem.Model.add_nonlinear_generic_assembly_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_nonlinear_generic_assembly_brick(self, MeshIm "
@@ -1245,20 +1270,12 @@ msgid ""
 "is_coercive]]])"
 msgstr ""
 
-# 9d3c42c8213843a59dc14f2cf2ca8182
+# c237ee97e623460098567e4e885db019
 #: getfem.Model.add_nonlinear_generic_assembly_brick:3 of
-msgid ""
-"Adds a nonlinear term given by the assembly string `expr` which will be "
-"assembled in region `region` and with the integration method `mim`. The "
-"expression can describe a potential or a weak form. Second order terms "
-"(i.e. containing second order test functions, Test2) are not allowed. You"
-" can specify if the term is symmetric, coercive or not. If you are not "
-"sure, the better is to declare the term not symmetric and not coercive. "
-"But some solvers (conjugate gradient for instance) are not allowed for "
-"non-coercive problems. `brickname` is an otpional name for the brick."
+msgid "Deprecated. Use Model.add_nonlinear_term() instead."
 msgstr ""
 
-# ce9259f7bcd24271a4427edbed707400
+# f2ca757523604eff8e0207bb9809a64c
 #: getfem.Model.add_nonlinear_incompressibility_brick:1 of
 msgid ""
 "Add a nonlinear incompressibility condition on `variable` (for large "
@@ -1270,7 +1287,27 @@ msgid ""
 "brick index in the model."
 msgstr ""
 
-# 5127642430614bc993baf83a84dacbdd
+# 95bf794f70ea4d79b7c967ff35ae4ca0
+#: getfem.Model.add_nonlinear_term:1 of
+msgid ""
+"Synopsis: ind = Model.add_nonlinear_term(self, MeshIm mim, string "
+"expression[, int region[, int is_symmetric[, int is_coercive]]])"
+msgstr ""
+
+# 68444bbaae414e578b443de7886332a5
+#: getfem.Model.add_nonlinear_term:3 of
+msgid ""
+"Adds a nonlinear term given by the assembly string `expr` which will be "
+"assembled in region `region` and with the integration method `mim`. The "
+"expression can describe a potential or a weak form. Second order terms "
+"(i.e. containing second order test functions, Test2) are not allowed. You"
+" can specify if the term is symmetric, coercive or not. If you are not "
+"sure, the better is to declare the term not symmetric and not coercive. "
+"But some solvers (conjugate gradient for instance) are not allowed for "
+"non-coercive problems. `brickname` is an otpional name for the brick."
+msgstr ""
+
+# 1e40e4e3f26b4ddbba2b8801f1ac6096
 #: getfem.Model.add_nonmatching_meshes_contact_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_nonmatching_meshes_contact_brick(self,  MeshIm "
@@ -1279,14 +1316,14 @@ msgid ""
 " int rg1, int rg2[, int slave1, int slave2,  int augmented_version])"
 msgstr ""
 
-# ab195d44f6bd4df39241a0b0bcb2ea23
+# c12bcb1d8d3242caa1f844a3daf70f36
 #: getfem.Model.add_nonmatching_meshes_contact_brick:3 of
 msgid ""
 "DEPRECATED FUNCTION. Use 'add nodal contact between nonmatching meshes "
 "brick' instead."
 msgstr ""
 
-# c9c48e8d21e14f3188892763191c2111
+# b56114d6c9bd41ea9226256f769110c5
 #: getfem.Model.add_normal_Dirichlet_condition_with_Nitsche_method:1 of
 msgid ""
 "Synopsis: ind = "
@@ -1295,7 +1332,7 @@ msgid ""
 "scalar theta][, string dataname])"
 msgstr ""
 
-# 2346b0da14634c3eacbc0873ff471b48
+# bfe9be7799354b68b20943cca6a620a5
 #: getfem.Model.add_normal_Dirichlet_condition_with_Nitsche_method:3 of
 msgid ""
 "Add a Dirichlet condition to the normal component of the vector (or "
@@ -1317,7 +1354,7 @@ msgid ""
 " tested)"
 msgstr ""
 
-# ad2aaebcd4aa407da1ab17d6ac7e359c
+# 993eef719f2043fa853dc5a31d3740f6
 #: getfem.Model.add_normal_Dirichlet_condition_with_multipliers:1 of
 msgid ""
 "Add a Dirichlet condition to the normal component of the vector (or "
@@ -1340,7 +1377,7 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# 685fd5a578744bab9e3d9dd48f310453
+# e0cce6c3bd934977a23ac3f09678ab05
 #: getfem.Model.add_normal_Dirichlet_condition_with_penalization:1 of
 msgid ""
 "Add a Dirichlet condition to the normal component of the vector (or "
@@ -1356,7 +1393,7 @@ msgid ""
 "specifying a multiplier space. Returns the brick index in the model."
 msgstr ""
 
-# ff2ff3e813fb430992c81c6e9d14f503
+# 38fb021569a04d2e8e7ef9d2d57d16b5
 #: getfem.Model.add_normal_derivative_Dirichlet_condition_with_multipliers:1 of
 msgid ""
 "Add a Dirichlet condition on the normal derivative of the variable "
@@ -1379,7 +1416,7 @@ msgid ""
 "`dataname` is considered. Return the brick index in the model."
 msgstr ""
 
-# c91e558efc114dbcbd65187d92e070ea
+# b3a38193863745e89001fc36a70bafe9
 #: getfem.Model.add_normal_derivative_Dirichlet_condition_with_penalization:1
 #: of
 msgid ""
@@ -1396,21 +1433,21 @@ msgid ""
 "the model."
 msgstr ""
 
-# 0175dda9bb24449a8ea2727f10a369d5
+# d7ea8bd767f84b8680c991cdc19d2069
 #: getfem.Model.add_normal_derivative_source_term_brick:1 of
 msgid ""
 "Add a normal derivative source term brick :math:`F = \\int b.\\partial_n "
 "v` on the variable `varname` and the mesh region `region`."
 msgstr ""
 
-# 434c1a60b41c42fda2414195cb448406
+# 967354f658c24068a6c670de491cf1ee
 #: getfem.Model.add_normal_derivative_source_term_brick:5 of
 msgid ""
 "Update the right hand side of the linear system. `dataname` represents "
 "`b` and `varname` represents `v`. Return the brick index in the model."
 msgstr ""
 
-# 0acd5224ad044533b29a9c01ef65e1b0
+# c8b5a1bf7c4947039e745b1d8036d95d
 #: getfem.Model.add_normal_source_term_brick:1 of
 msgid ""
 "Add a source term on the variable `varname` on a boundary `region`. This "
@@ -1424,7 +1461,7 @@ msgid ""
 " the brick index in the model."
 msgstr ""
 
-# a1596fc64d974140946d362acef4e3f1
+# 033cc091fc494a92be742c5bcc653b40
 #: getfem.Model.add_penalized_contact_between_nonmatching_meshes_brick:1 of
 msgid ""
 "Synopsis: ind = "
@@ -1435,7 +1472,7 @@ msgid ""
 "dataname_wt2]]]])"
 msgstr ""
 
-# 5d74f2328b674bd5a2b00e08a5a9dde0
+# 21f407d2de77417d84c2495b7f5452ff
 #: getfem.Model.add_penalized_contact_between_nonmatching_meshes_brick:3 of
 msgid ""
 "Add a penalized contact condition with or without friction between "
@@ -1455,7 +1492,7 @@ msgid ""
 "parameters to solve evolutionary friction problems."
 msgstr ""
 
-# e31532f9a7104428b116166a29f8af09
+# 8a8b0ab62cd64b7eb139b282472889a9
 #: getfem.Model.add_penalized_contact_with_rigid_obstacle_brick:1 of
 msgid ""
 "Synopsis: ind = "
@@ -1465,7 +1502,7 @@ msgid ""
 "string dataname_alpha [, string dataname_wt]]])"
 msgstr ""
 
-# 3a27df7803f44b0586d79c173651404d
+# 93f462e6ddc64fd9839b45aa5770e8ab
 #: getfem.Model.add_penalized_contact_with_rigid_obstacle_brick:3 of
 msgid ""
 "Add a penalized contact with or without friction condition with a rigid "
@@ -1482,7 +1519,7 @@ msgid ""
 "formulation)"
 msgstr ""
 
-# 31170ee0250448869f18c3ac7a48a566
+# acdffb8daee246f9af26772a597f0a6e
 #: getfem.Model.add_pointwise_constraints_with_given_multipliers:1 of
 msgid ""
 "Synopsis: ind = "
@@ -1491,7 +1528,7 @@ msgid ""
 "string dataname_val])"
 msgstr ""
 
-# ea85cc9c9c0f49ef82617e91aac08758
+# ce5614c292e14578a48bc17e9699550d
 #: getfem.Model.add_pointwise_constraints_with_given_multipliers:3 of
 msgid ""
 "Add some pointwise constraints on the variable `varname` using a given "
@@ -1509,7 +1546,7 @@ msgid ""
 "displacement in a Neumann problem. Returns the brick index in the model."
 msgstr ""
 
-# f59d8dd38f23449e86f225b209ef9772
+# 1f05d34b17a24824a0505e82ef71ebe5
 #: getfem.Model.add_pointwise_constraints_with_multipliers:1 of
 msgid ""
 "Synopsis: ind = Model.add_pointwise_constraints_with_multipliers(self, "
@@ -1517,7 +1554,7 @@ msgid ""
 "dataname_val])"
 msgstr ""
 
-# 883dd5c87ba544e7b0a4254a765664aa
+# e4f20e46e66d4af18736655189fb8e0e
 #: getfem.Model.add_pointwise_constraints_with_multipliers:3 of
 msgid ""
 "Add some pointwise constraints on the variable `varname` using "
@@ -1535,7 +1572,7 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# d9cf402517dd4e5786e41eb5ff6385a0
+# 01aa43e50e1143bca4071753cdcbeff4
 #: getfem.Model.add_pointwise_constraints_with_penalization:1 of
 msgid ""
 "Synopsis: ind = Model.add_pointwise_constraints_with_penalization(self, "
@@ -1543,7 +1580,7 @@ msgid ""
 " [, string dataname_val])"
 msgstr ""
 
-# cbcaa8e5765f4615b8786a284c54851f
+# ee0e1351de9e4792bc09249c19b95e30
 #: getfem.Model.add_pointwise_constraints_with_penalization:3 of
 msgid ""
 "Add some pointwise constraints on the variable `varname` thanks to a "
@@ -1562,7 +1599,7 @@ msgid ""
 "Returns the brick index in the model."
 msgstr ""
 
-# be63cec0d7ae4c2da4522b0c01d9429a
+# 9cb1d0cc7e35482a9ded84bbc1f8b2f6
 #: getfem.Model.add_projection_transformation:1 of
 msgid ""
 "Add a projection interpolate transformation called `transname` to a model"
@@ -1571,7 +1608,7 @@ msgid ""
 "solve."
 msgstr ""
 
-# bb7fcc1f7a5b440cb337e13be1158b22
+# 7cbd28221b4643238fcdb860bea66213
 #: getfem.Model.add_raytracing_transformation:1 of
 msgid ""
 "Add a raytracing interpolate transformation called `transname` to a model"
@@ -1580,8 +1617,8 @@ msgid ""
 "solve."
 msgstr ""
 
-# 5c75d168dca243239bc1953a8a0030ea
-# e60b6bb027c8485282df7cec8aa71a24
+# 4336d28c760040c784f025fc51388ea3
+# 4780966e655b4c51a9e18792e3cff909
 #: getfem.Model.add_rigid_obstacle_to_Nitsche_large_sliding_contact_brick:1
 #: getfem.Model.add_rigid_obstacle_to_large_sliding_contact_brick:1 of
 msgid ""
@@ -1591,7 +1628,7 @@ msgid ""
 "signed distance to the obstacle. `N` is the mesh dimension."
 msgstr ""
 
-# 3b17272447914cbeabd0f4666a5d29ab
+# 3869812cb9764b8ea9953928dcf57ee0
 #: getfem.Model.add_rigid_obstacle_to_projection_transformation:1 of
 msgid ""
 "Add a rigid obstacle whose geometry corresponds to the zero level-set of "
@@ -1599,7 +1636,7 @@ msgid ""
 "projection interpolate transformation called `transname`."
 msgstr ""
 
-# a1ce4a74430b4048bcf73b3c5ccf610f
+# 8e04dc8761424e41875e5dbaa4bea31d
 #: getfem.Model.add_rigid_obstacle_to_raytracing_transformation:1 of
 msgid ""
 "Add a rigid obstacle whose geometry corresponds to the zero level-set of "
@@ -1607,7 +1644,7 @@ msgid ""
 "raytracing interpolate transformation called `transname`."
 msgstr ""
 
-# 459a28252a274f7591783c27273ad58c
+# 04aac6c55abe4810b6e90a303329d552
 #: getfem.Model.add_slave_contact_boundary_to_biased_Nitsche_large_sliding_contact_brick:1
 #: of
 msgid ""
@@ -1615,14 +1652,14 @@ msgid ""
 "sliding contact with friction brick."
 msgstr ""
 
-# 2841005b9e124c90a4055ffd79b53569
+# 5ba975079d674b758c9397df912f1c9e
 #: getfem.Model.add_slave_contact_boundary_to_large_sliding_contact_brick:1 of
 msgid ""
 "Adds a slave contact boundary to an existing large sliding contact with "
 "friction brick."
 msgstr ""
 
-# cfa5d4ea27194b1db215243f5214282c
+# 82f0ad6170c74a4bb65778689ae72663
 #: getfem.Model.add_slave_contact_boundary_to_projection_transformation:1 of
 msgid ""
 "Add a slave contact boundary with corresponding displacement variable "
@@ -1630,7 +1667,7 @@ msgid ""
 "interpolate transformation called `transname`."
 msgstr ""
 
-# 67f1deb97c404bfc8b1109cc87ac34be
+# 131149bb59d44f99a36b00b96f9cf97e
 #: getfem.Model.add_slave_contact_boundary_to_raytracing_transformation:1 of
 msgid ""
 "Add a slave contact boundary with corresponding displacement variable "
@@ -1638,7 +1675,7 @@ msgid ""
 "interpolate transformation called `transname`."
 msgstr ""
 
-# 7d464f593587423fbf68997a5c34dd57
+# df474dc59df64961bd6e80ea78b5be95
 #: getfem.Model.add_small_strain_elastoplasticity_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_small_strain_elastoplasticity_brick(self, "
@@ -1647,7 +1684,7 @@ msgid ""
 "'timestep']] [, int region = -1])"
 msgstr ""
 
-# 904173f46b3c4ff781bc9adade3bed2e
+# 30344995185846438697eb03fa234a39
 #: getfem.Model.add_small_strain_elastoplasticity_brick:3 of
 msgid ""
 "Adds a small strain plasticity term to the model `M`. This is the main "
@@ -1676,12 +1713,12 @@ msgid ""
 "altered from one iteration to the next one. `region` is a mesh region."
 msgstr ""
 
-# cdec5ee14af146ff9f99e92f79a6ce27
+# e545f09a58514c3985cf5ea1c6da443d
 #: getfem.Model.add_small_strain_elastoplasticity_brick:29 of
 msgid "The available plasticity laws are:"
 msgstr ""
 
-# 24be06f7952248d6a6fb7570a459ad6d
+# 8fcb4393568343c2a5cbe2b5496a4871
 #: getfem.Model.add_small_strain_elastoplasticity_brick:31 of
 msgid ""
 "'Prandtl Reuss' (or 'isotropic perfect plasticity'). Isotropic elasto-"
@@ -1705,7 +1742,7 @@ msgid ""
 "strain approximation, see below."
 msgstr ""
 
-# 15b06c71b2bb4344869efa302c669698
+# e287ba4cc4c949478f78b19c5981bf4f
 #: getfem.Model.add_small_strain_elastoplasticity_brick:50 of
 msgid ""
 "\"plane strain Prandtl Reuss\" (or \"plane strain isotropic perfect "
@@ -1713,7 +1750,7 @@ msgid ""
 "strain approximation. Can only be used in 2D."
 msgstr ""
 
-# 8488f2a5d6ca42f48dfffec6f96bebd2
+# 5af61f3da1f9496b907a49503f1fd7ab
 #: getfem.Model.add_small_strain_elastoplasticity_brick:54 of
 msgid ""
 "\"Prandtl Reuss linear hardening\" (or \"isotropic plasticity linear "
@@ -1728,7 +1765,7 @@ msgid ""
 "'lambda', 'mu', 'sigma_y', 'H_k', H_i', '1', 'timestep');"
 msgstr ""
 
-# 32439097f7364a3d8d65bea7e3f09d8e
+# 5f86ea94d5e64fc09af3140ee55b1dd4
 #: getfem.Model.add_small_strain_elastoplasticity_brick:64 of
 msgid ""
 "\"plane strain Prandtl Reuss linear hardening\" (or \"plane strain "
@@ -1737,7 +1774,7 @@ msgid ""
 "2D."
 msgstr ""
 
-# 6c6684c966704eb0a74d8ca758f086d6
+# c23bf1da6b304910913462a57aa2c786
 #: getfem.Model.add_small_strain_elastoplasticity_brick:69 of
 msgid ""
 "See GetFEM++ user documentation for further explanations on the "
@@ -1746,7 +1783,7 @@ msgid ""
 "(integration of transient problems)."
 msgstr ""
 
-# 301df81447454da88f0219b507a73b22
+# 3d7d2763385744d5a41a6553887258c6
 #: getfem.Model.add_small_strain_elastoplasticity_brick:74 of
 msgid ""
 "IMPORTANT : remember that `small_strain_elastoplasticity_next_iter` has "
@@ -1755,14 +1792,25 @@ msgid ""
 " plastic multiplier)."
 msgstr ""
 
-# 22c81f247dec4e0f8436ef51383c678d
+# e62814143d804396ac735ce443457ea8
+#: getfem.Model.add_source_term:1 of
+msgid ""
+"Adds a source term given by the assembly string `expr` which will be "
+"assembled in region `region` and with the integration method `mim`. Only "
+"the residual term will be taken into account. Take care that if the "
+"expression contains some variables and if the expression is a potential, "
+"the expression will be derivated with respect to all variables. "
+"`brickname` is an optional name for the brick."
+msgstr ""
+
+# d9f9583fcd0e4d3baa629dc7b33c4cac
 #: getfem.Model.add_source_term_brick:1 of
 msgid ""
 "Synopsis: ind = Model.add_source_term_brick(self, MeshIm mim, string "
 "varname, string dataexpr[, int region[, string directdataname]])"
 msgstr ""
 
-# 7e17e3fb220f4f7899866b92fc5bbdea
+# 81bf479cb6ac472e86767345f1495edc
 #: getfem.Model.add_source_term_brick:3 of
 msgid ""
 "Add a source term to the model relatively to the variable `varname`. The "
@@ -1777,18 +1825,12 @@ msgid ""
 " in the model."
 msgstr ""
 
-# 5586f63f376444b192234c767f7e500a
+# bfb53f89e2bd4ca5854dcdcc8fb68807
 #: getfem.Model.add_source_term_generic_assembly_brick:1 of
-msgid ""
-"Adds a source term given by the assembly string `expr` which will be "
-"assembled in region `region` and with the integration method `mim`. Only "
-"the residual term will be taken into account. Take care that if the "
-"expression contains some variables and if the expression is a potential, "
-"the expression will be derivated with respect to all variables. "
-"`brickname` is an otpional name for the brick."
+msgid "Deprecated. Use Model.add_source_term() instead."
 msgstr ""
 
-# 426ee53f867d426b8afdf32a1bb31e73
+# 9ef1aa5ade274f81934d25c9b31e6f7f
 #: getfem.Model.add_theta_method_for_first_order:1 of
 msgid ""
 "Attach a theta method for the time discretization of the variable "
@@ -1796,7 +1838,7 @@ msgid ""
 "the variable."
 msgstr ""
 
-# c61053688bfb41bdabb405c895d9fcf9
+# 5dfc72196a68426595dadd399a48b2a0
 #: getfem.Model.add_variable:1 of
 msgid ""
 "Add a variable to the model of constant sizes. `sizes` is either a "
@@ -1804,7 +1846,7 @@ msgid ""
 " tensor variable. `name` is the variable name."
 msgstr ""
 
-# f5ad98140bc04679b354f99321294a6a
+# 11ec8a0457a44585b06b823c8d58c1cd
 #: getfem.Model.assembly:1 of
 msgid ""
 "Assembly of the tangent system taking into account the terms from all "
@@ -1814,12 +1856,12 @@ msgid ""
 "own solver."
 msgstr ""
 
-# 8e0c273dbb8e4e959ddc2f19409eaba1
+# 362c9bd0492c42ab92d85e0f438f7fa8
 #: getfem.Model.brick_list:1 of
 msgid "print to the output the list of bricks of the model."
 msgstr ""
 
-# e5c38ece099845f5b8d3886e8959c7b9
+# 7eec9cfaddc54ea9b2dfa32a48daf559
 #: getfem.Model.brick_term_rhs:1 of
 msgid ""
 "Gives the access to the part of the right hand side of a term of a "
@@ -1832,7 +1874,7 @@ msgid ""
 "(default is 0)."
 msgstr ""
 
-# aa71e7470e314cc39b4d88c31ec0c5d3
+# 41d7ec33a65e446aa9fcfa73f6ff80c0
 #: getfem.Model.change_penalization_coeff:1 of
 msgid ""
 "Change the penalization coefficient of a Dirichlet condition with "
@@ -1840,29 +1882,29 @@ msgid ""
 "an undefined behavior."
 msgstr ""
 
-# 9fdd8f66bede4a6ca4c695c1298046bc
+# b1bb776cceb64757836570bf9c6f0978
 #: getfem.Model.char:1 of
 msgid "Output a (unique) string representation of the Model."
 msgstr ""
 
-# 8080adcba5aa421ea669651716e1d8e9
+# f723252c207547f3a679315944f5efca
 #: getfem.Model.char:3 of
 msgid ""
 "This can be used to perform comparisons between two different Model "
 "objects. This function is to be completed."
 msgstr ""
 
-# 8b22430fda374405b4766f9ec10e7e8d
+# a7ea6c65efc14d68a6dce9cc2e40ce73
 #: getfem.Model.clear:1 of
 msgid "Clear the model."
 msgstr ""
 
-# 584d2b094bc0497ba7f5e3b8e68e59a5
+# 31dab63441d44968a110264c7468014a
 #: getfem.Model.clear_assembly_assignment:1 of
 msgid "Delete all added assembly assignments"
 msgstr ""
 
-# 1fd865e1d73547a497a6ad41eeeec361
+# 47f37acce171406ba630b66f4a137fc9
 #: getfem.Model.compute_Von_Mises_or_Tresca:1 of
 msgid ""
 "Compute on `mf_vm` the Von-Mises stress or the Tresca stress of a field "
@@ -1875,7 +1917,7 @@ msgid ""
 "'Tresca' ('Von_Mises' is the default)."
 msgstr ""
 
-# 21f7bd4eb4c840689eb28d26a61168d9
+# 6671a39fe7f943ccbf70eaba93830d9c
 #: getfem.Model.compute_elastoplasticity_Von_Mises_or_Tresca:1 of
 msgid ""
 "Compute on `mf_vm` the Von-Mises or the Tresca stress of a field for "
@@ -1884,7 +1926,7 @@ msgid ""
 "should be  'Von_Mises' or 'Tresca' ('Von_Mises' is the default)."
 msgstr ""
 
-# 18c269a6d7fe46348d028669b9f85fe4
+# a8cff94c17f54694948fc793b2faa100
 #: getfem.Model.compute_finite_strain_elasticity_Von_Mises:1 of
 msgid ""
 "Compute on `mf_vm` the Von-Mises stress of a field `varname` for "
@@ -1894,7 +1936,7 @@ msgid ""
 " model. Uses the high-level generic assembly."
 msgstr ""
 
-# 00ec4b2faa6c417f908d2f0d8ef12ef3
+# 01c2672085254567a4aced998b9bb491
 #: getfem.Model.compute_finite_strain_elastoplasticity_Von_Mises:1 of
 msgid ""
 "Synopsis: V = "
@@ -1903,7 +1945,7 @@ msgid ""
 "...] [, string params, ...] [, int region = -1])"
 msgstr ""
 
-# 91c7fa15a13f445eb5b362a59339a948
+# a34925a005e04c96b92e2196f063ed44
 #: getfem.Model.compute_finite_strain_elastoplasticity_Von_Mises:3 of
 msgid ""
 "Compute on `mf_vm` the Von-Mises or the Tresca stress of a field for "
@@ -1911,7 +1953,7 @@ msgid ""
 " as in the function 'finite strain elastoplasticity next iter'."
 msgstr ""
 
-# 59edfb7b688f47909f7a476dec97cf55
+# 718ac005e05c4390864c077a8c13243a
 #: getfem.Model.compute_isotropic_linearized_Von_Mises_or_Tresca:1 of
 msgid ""
 "Compute the Von-Mises stress or the Tresca stress of a field (only valid "
@@ -1920,7 +1962,7 @@ msgid ""
 "Lame coefficients."
 msgstr ""
 
-# a695359b2f78443c8c2581980943d192
+# 95914d6f6d944209a9b64450d9cc6dff
 #: getfem.Model.compute_isotropic_linearized_Von_Mises_pstrain:1 of
 msgid ""
 "Compute the Von-Mises stress  of a displacement field for isotropic "
@@ -1928,7 +1970,7 @@ msgid ""
 "Parametrized by Young modulus and Poisson ratio."
 msgstr ""
 
-# 5e430b4242b0492f8d9d32ce90f89f00
+# 668b59a136574c14833cfe369e376cef
 #: getfem.Model.compute_isotropic_linearized_Von_Mises_pstress:1 of
 msgid ""
 "Compute the Von-Mises stress  of a displacement field for isotropic "
@@ -1936,7 +1978,7 @@ msgid ""
 "Parametrized by Young modulus and Poisson ratio."
 msgstr ""
 
-# b70ba0a4793141e38440401f40a74c94
+# 7adee7a4d1f3405098e366dba94150bd
 #: getfem.Model.compute_plastic_part:1 of
 msgid ""
 "Compute on `mf_pl` the plastic part and return it into the vector V. "
@@ -1944,7 +1986,7 @@ msgid ""
 "supported by the mesh."
 msgstr ""
 
-# c71874fbe3bd42e28b2572da67af9e08
+# 47a9f959f3474eb89b78dd833bb8fa16
 #: getfem.Model.compute_second_Piola_Kirchhoff_tensor:1 of
 msgid ""
 "Compute on `mf_sigma` the second Piola Kirchhoff stress tensor of a field"
@@ -1956,44 +1998,49 @@ msgid ""
 " method for variable coefficients."
 msgstr ""
 
-# 5d63101ad61543de88192beda160ec16
+# 5f0e9e635ed94293829f5b6c00ba06f8
 #: getfem.Model.contact_brick_set_BN:1 of
 msgid "Can be used to set the BN matrix of a basic contact/friction brick."
 msgstr ""
 
-# c16cf4bf28904b4c8f5eb23e9aafdea9
+# b27acec399bd427bb6793667f4226782
 #: getfem.Model.contact_brick_set_BT:1 of
 msgid "Can be used to set the BT matrix of a basic contact with friction brick."
 msgstr ""
 
-# 6d56d26a8730419280ec0d64738ccda4
+# 05510efd53e348fcaf6893b9ed41edb2
 #: getfem.Model.define_variable_group:1 of
 msgid ""
 "Synopsis: Model.define_variable_group(self, string name[, string varname,"
 " ...])"
 msgstr ""
 
-# 8eb9edff02ab49678f5e24bff171b18c
+# bf85accc83c44a4dab5b7906a88cddf7
 #: getfem.Model.define_variable_group:3 of
 msgid ""
 "Defines a group of variables for the interpolation (mainly for the "
 "raytracing interpolation transformation."
 msgstr ""
 
-# 25648831116f463ca69165be482d5f9c
-# 2aa37c13212f475cbc6a3649c750c5dd
+# bb119bcac1c64a9abc840785f1763623
+#: getfem.Model.del_macro:1 of
+msgid "Delete a previously defined macro for the high generic assembly language."
+msgstr ""
+
+# a8f0de56ed0347cbaeadde1cd356deb6
+# 1a18c2873f024a788748679080749eea
 #: getfem.Model.delete_brick:1 getfem.Model.delete_variable:1 of
 msgid "Delete a variable or a data from the model."
 msgstr ""
 
-# cc2588c5f6f3407eab887c3e6f514c02
+# e2b188f9f07d410b99ec7a8f4230937f
 #: getfem.Model.disable_bricks:1 of
 msgid ""
 "Disable a brick (the brick will no longer participate to the building of "
 "the tangent linear system)."
 msgstr ""
 
-# 191c97ee9cc346d9b3b85f18efd6f9ac
+# 0f83fbd16bcd4f8ba68844f7e3b3b309
 #: getfem.Model.disable_variable:1 of
 msgid ""
 "Disable a variable for a solve (and its attached multipliers). The next "
@@ -2002,12 +2049,12 @@ msgid ""
 "the variables, a fixed point strategy can the be used."
 msgstr ""
 
-# 5a0cff2cf7db427b89ac0ddeaa9ba969
-# c391b5f0042c41ac94e2895b19a20dd4
-# d78d374f01174b0da699afa7667cf06f
-# 373d3ccb4173453cb6f0191ae7a314ba
-# 21a828ce376c4456a9cf4ddeafb7bbbd
-# c0e90a65ac4a423abd661b6f4cc4814c
+# aaad564b7df7410ab4da2bc6c87ca36a
+# 284c081325fa4497acba4ebbd154a160
+# 827d33d3794247a585f49553136ad3df
+# 97dcabdd1aa249bab255a1a0a9e532f3
+# 0c3222391f92406eadfa91cf8d812b02
+# 7258bbfae30f419e9b009e18ce3e1b33
 #: getfem.Model.displacement_group_name_of_Nitsche_large_sliding_contact_brick:1
 #: getfem.Model.displacement_group_name_of_large_sliding_contact_brick:1
 #: getfem.Model.sliding_data_group_name_of_Nitsche_large_sliding_contact_brick:1
@@ -2019,12 +2066,12 @@ msgid ""
 "data for an existing large sliding contact brick."
 msgstr ""
 
-# db408b15bdbd4831891b88679c9cea03
+# f8f8ddb91a9846fb99a9bac073faf210
 #: getfem.Model.display:1 of
 msgid "displays a short summary for a Model object."
 msgstr ""
 
-# 321def1499b0445d9ec5a386a0b829c3
+# dbf13698fed541f0baaceb6e950ac112
 #: getfem.Model.elastoplasticity_next_iter:1 of
 msgid ""
 "Used with the old (obsolete) elastoplasticity brick to pass from an "
@@ -2038,17 +2085,17 @@ msgid ""
 " the new stress constraints values."
 msgstr ""
 
-# 4ecdf7d8ce5940849df17a8e006310cf
+# c1ec87b53f324c22a5d20ee2a7230e0d
 #: getfem.Model.enable_bricks:1 of
 msgid "Enable a disabled brick."
 msgstr ""
 
-# bdd55de1e0fd4759bb504244daf7017f
+# 4a192ca53aa446e98301af0841a1bef5
 #: getfem.Model.enable_variable:1 of
 msgid "Enable a disabled variable (and its attached multipliers)."
 msgstr ""
 
-# c67e2249b323488f8258620c093ffaa0
+# 305b08d7a00e488db668883e5f1b6d9d
 #: getfem.Model.finite_strain_elastoplasticity_next_iter:1 of
 msgid ""
 "Synopsis: Model.finite_strain_elastoplasticity_next_iter(self, MeshIm "
@@ -2056,7 +2103,7 @@ msgid ""
 "string params, ...] [, int region = -1])"
 msgstr ""
 
-# 48733829d98c473aa06cd74233712726
+# db468163c3d2410593c3e46c8c9e0c93
 #: getfem.Model.finite_strain_elastoplasticity_next_iter:3 of
 msgid ""
 "Function that allows to pass from a time step to another for the finite "
@@ -2070,12 +2117,12 @@ msgid ""
 "field given as the second entry of `varnames`."
 msgstr ""
 
-# 84da0c093f1041559a9e310509a09d61
+# ccc47088cfee4a0d84a6916357879050
 #: getfem.Model.first_iter:1 of
 msgid "To be executed before the first iteration of a time integration scheme."
 msgstr ""
 
-# 44ab0ac713124cb0869f53d78b005e09
+# c340416835ca472fabfa2b36def64d10
 #: getfem.Model.from_variables:1 of
 msgid ""
 "Return the vector of all the degrees of freedom of the model consisting "
@@ -2083,17 +2130,17 @@ msgid ""
 "problem with you own solver)."
 msgstr ""
 
-# 6d0b23887bdf4268a9cf6ff022533a1d
+# 4924cf19b2c540388c6deebd28f9e3e5
 #: getfem.Model.get_time:1 of
 msgid "Give the value of the data `t` corresponding to the current time."
 msgstr ""
 
-# 5124b95d6ffb460584c44cd21e196016
+# dba2426b5df94a90bd40a16f58e5f1a3
 #: getfem.Model.get_time_step:1 of
 msgid "Gives the value of the time step."
 msgstr ""
 
-# 67e84e541d204745b66bf7bf3f3db559
+# e2d5967a7bc644a59733b463808ad168
 #: getfem.Model.interpolation:1 of
 msgid ""
 "Synopsis: V = Model.interpolation(self, string expr, {MeshFem mf | "
@@ -2101,7 +2148,7 @@ msgid ""
 "rg_source]]])"
 msgstr ""
 
-# e325c0ad4c2247828c1a2250a367cf5c
+# ed168ce832b2439b81c6f24a19302edf
 #: getfem.Model.interpolation:3 of
 msgid ""
 "Interpolate a certain expression with respect to the mesh_fem `mf` or the"
@@ -2111,33 +2158,33 @@ msgid ""
 "model."
 msgstr ""
 
-# 37a73d0f1b5b4e52ab7652c414176391
+# f921424e4032458eacd39496414cf6ea
 #: getfem.Model.interpolation:9 of
 msgid ""
 "The options `extrapolation` and `rg_source` are specific to "
 "interpolations with respect to a set of points `pts`."
 msgstr ""
 
-# 3acfcc70e4aa492091d062c9b36c6b10
+# fa5700d77a704e349b8627aa08e2d819
 #: getfem.Model.interval_of_variable:1 of
 msgid ""
 "Gives the interval of the variable `varname` in the linear system of the "
 "model."
 msgstr ""
 
-# 8620001cbd514fc18d17f18cde8fa658
+# 08c65f5d9f9245cba43564905caa5225
 #: getfem.Model.is_complex:1 of
 msgid "Return 0 is the model is real, 1 if it is complex."
 msgstr ""
 
-# 011830fae77d4931aebc3f0af32b715d
+# 018dc36ad60e4aa99a5449e2cd84df18
 #: getfem.Model.list_residuals:1 of
 msgid ""
 "print to the output the residuals corresponding to all terms included in "
 "the model."
 msgstr ""
 
-# aab91bc650ee492e991b41a741c4be0a
+# 05761b345cd2499d81a4ef4bd2423485
 #: getfem.Model.local_projection:1 of
 msgid ""
 "Make an elementwise L2 projection of an expression with respect to the "
@@ -2147,24 +2194,24 @@ msgid ""
 "model."
 msgstr ""
 
-# e6f38020b23d4f64a04a917cbb4ba92e
+# 3546345b51144594ba23fb8021edfda4
 #: getfem.Model.matrix_term:1 of
 msgid "Gives the matrix term ind_term of the brick ind_brick if it exists"
 msgstr ""
 
-# 81dd66d892c846449d0c8c013a0668bc
+# dfe646162c9e4705aae6ea2d875d5294
 #: getfem.Model.memsize:1 of
 msgid ""
 "Return a rough approximation of the amount of memory (in bytes) used by "
 "the model."
 msgstr ""
 
-# deeed324c4f74d559ee222bc17d0777f
+# 8b8179e48c314eaa98a4f7b85c6fcff5
 #: getfem.Model.mesh_fem_of_variable:1 of
 msgid "Gives access to the `mesh_fem` of a variable or data."
 msgstr ""
 
-# 30b414dc36124dfc882d5ed773144d65
+# 7b71d8dc033546689885e94f9eb95ed4
 #: getfem.Model.mult_varname_Dirichlet:1 of
 msgid ""
 "Gives the name of the multiplier variable for a Dirichlet brick. If the "
@@ -2172,17 +2219,17 @@ msgid ""
 "has an undefined behavior"
 msgstr ""
 
-# 6051d96507f54fcdbe1413e2416e21c0
+# 6c261c03e311488b863e9446450dbcce
 #: getfem.Model.nbdof:1 of
 msgid "Return the total number of degrees of freedom of the model."
 msgstr ""
 
-# 8da973150b474d2fbd1a81a46848bb2d
+# e333df8524be4943a55c0099259ae73b
 #: getfem.Model.next_iter:1 of
 msgid "To be executed at the end of each iteration of a time integration scheme."
 msgstr ""
 
-# 2b2e904774874be8af79630adaafcdde
+# be2e70e678b04eaba70a5e52a0005b02
 #: getfem.Model.perform_init_time_derivative:1 of
 msgid ""
 "By calling this function, indicates that the next solve will compute the "
@@ -2193,7 +2240,7 @@ msgid ""
 "next solve will not change the value of the variables."
 msgstr ""
 
-# 139cb013ede5439d86bf05e2689928ef
+# 984f9d773fbc4b1eb7b2049ad50b20be
 #: getfem.Model.resize_variable:1 of
 msgid ""
 "Resize a  constant size variable of the model.  `sizes` is either a "
@@ -2201,26 +2248,26 @@ msgid ""
 " tensor variable. `name` is the variable name."
 msgstr ""
 
-# ee90bcbbcecf471c8269249fb2f32407
+# e38d4ba564e74159bd1accdd3d22ed23
 #: getfem.Model.rhs:1 of
 msgid "Return the right hand side of the tangent problem."
 msgstr ""
 
-# 618cbe8d495347feb27860b46efa4ec3
+# c7fa7acb318d4d63b67bcde4316b6ab2
 #: getfem.Model.set_element_extrapolation_correspondance:1 of
 msgid ""
 "Change the correspondance map of an element extrapolation interpolate "
 "transformation."
 msgstr ""
 
-# 7d1e10993f7b44d4afdab475f9407a86
+# 6e65d23fc6c94e21b956df8f4d4939cb
 #: getfem.Model.set_private_matrix:1 of
 msgid ""
 "For some specific bricks having an internal sparse matrix (explicit "
 "bricks: 'constraint brick' and 'explicit matrix brick'), set this matrix."
 msgstr ""
 
-# 6f0f1b4630704125bc4eae0e71121550
+# 276016659ff743f0a503277fecfcc002
 #: getfem.Model.set_private_rhs:1 of
 msgid ""
 "For some specific bricks having an internal right hand side vector "
@@ -2228,12 +2275,12 @@ msgid ""
 "rhs."
 msgstr ""
 
-# 6b6ba2b962644ffcb7c5933019014b0c
+# 3225f7ed1f2e4684b05d041d19243a5b
 #: getfem.Model.set_time:1 of
 msgid "Set the value of the data `t` corresponding to the current time to `t`."
 msgstr ""
 
-# bb4abe6e1989463b8044839c324b37f2
+# 8941ec2cfd284277a314be500ff2356a
 #: getfem.Model.set_time_step:1 of
 msgid ""
 "Set the value of the time step to `dt`. This value can be change from a "
@@ -2241,12 +2288,12 @@ msgid ""
 "proposed time integration schemes)."
 msgstr ""
 
-# 6874014325c040e5af8c30f552cf4cc9
+# 104b02e30a214743b6c376127f761224
 #: getfem.Model.set_variable:1 of
 msgid "Set the value of a variable or data. `name` is the data name."
 msgstr ""
 
-# 62c4465f6eb243d8a6f583c4bfd03f9f
+# b77bd924c1344ebe89de106325078844
 #: getfem.Model.shift_variables_for_time_integration:1 of
 msgid ""
 "Function used to shift the variables of a model to the data corresponding"
@@ -2256,7 +2303,7 @@ msgid ""
 " between two time steps."
 msgstr ""
 
-# 813b1138de7b434a9244665645a61508
+# cf92fb3cda7846ea9c531da6ddbf2d37
 #: getfem.Model.small_strain_elastoplasticity_Von_Mises:1 of
 msgid ""
 "Synopsis: V = Model.small_strain_elastoplasticity_Von_Mises(self, MeshIm "
@@ -2265,7 +2312,7 @@ msgid ""
 "= 'timestep']] [, int region])"
 msgstr ""
 
-# 969f32dde1954b4c9735426ca79c144f
+# 04de10dd3f5446c9ab56d53ae5f35281
 #: getfem.Model.small_strain_elastoplasticity_Von_Mises:3 of
 msgid ""
 "This function computes the Von Mises stress field with respect to a small"
@@ -2276,7 +2323,7 @@ msgid ""
 "call of this function."
 msgstr ""
 
-# c8440fd455d64324a8ae70c584daf41c
+# 8eb73edfacab46c3afc470216f89ab87
 #: getfem.Model.small_strain_elastoplasticity_next_iter:1 of
 msgid ""
 "Synopsis: Model.small_strain_elastoplasticity_next_iter(self, MeshIm mim,"
@@ -2285,7 +2332,7 @@ msgid ""
 "region = -1])"
 msgstr ""
 
-# dcc71366446b419b9cfbb10578e78c41
+# 984554d5b3df43f3b3e9be614a034d70
 #: getfem.Model.small_strain_elastoplasticity_next_iter:3 of
 msgid ""
 "Function that allows to pass from a time step to another for the small "
@@ -2299,17 +2346,17 @@ msgid ""
 "`compute_small_strain_elastoplasticity_Von_Mises`."
 msgstr ""
 
-# a593fe8d587148bc9b9d1654611c9377
+# 90abfa49ab634f6c8b10ffb3bf45ca85
 #: getfem.Model.solve:1 of
 msgid "Synopsis: (nbit, converged) = Model.solve(self[, ...])"
 msgstr ""
 
-# d08573d34ab94060ad5f0f7b904bda48
+# ca67bd44ad484b199bce7ae069473f28
 #: getfem.Model.solve:3 of
 msgid "Run the standard getfem solver."
 msgstr ""
 
-# d21fa4b5a0b3400b9ae9c14b97cc3850
+# 700c01cccdd24ccf9f57f0ab2cc40215
 #: getfem.Model.solve:5 of
 msgid ""
 "Note that you should be able to use your own solver if you want (it is "
@@ -2317,61 +2364,61 @@ msgid ""
 "Model.tangent_matrix() etc.)."
 msgstr ""
 
-# efb37d2f1c5b45f89fad971fd6b3dfb5
+# f5c6c76e0050471c95f708568574b51a
 #: getfem.Model.solve:9 of
 msgid "Various options can be specified:"
 msgstr ""
 
-# 0e2db28749b84f31833b051061f3e115
+# 139c5b46e7144b609a2d48f2c1ce3659
 #: getfem.Model.solve:12 of
 msgid "'noisy' or 'very_noisy'"
 msgstr ""
 
-# b6523ecc7c924ae2a759c989d21dba6d
+# bba29e3feebc4414a7bf8f39068a223b
 #: getfem.Model.solve:12 of
 msgid ""
 "the solver will display some information showing the progress (residual "
 "values etc.)."
 msgstr ""
 
-# 3344eb28583b4b6495f4d5834e949b68
+# a3c0ba472ef2445d83250af00a7ade42
 #: getfem.Model.solve:14 of
 msgid "'max_iter', int NIT"
 msgstr ""
 
-# a85e82fe6b444ba6a1a2d1c74b4f157b
+# d28f9b0839f74a2fbacd7324cd645164
 #: getfem.Model.solve:15 of
 msgid "set the maximum iterations numbers."
 msgstr ""
 
-# ef5d9bfa921940228c405f8534e11a2a
+# 9db000356ae14dadb39864a43fc40a50
 #: getfem.Model.solve:16 of
 msgid "'max_res', @float RES"
 msgstr ""
 
-# 8d8d7d1a59dc4dc7803b6e2ecf37f0a7
+# 609e577aad9c48e5bc9456adc083fae2
 #: getfem.Model.solve:17 of
 msgid "set the target residual value."
 msgstr ""
 
-# 6abeeb0f7fc94647b2c413418749b8e3
+# 32cfb912b40d435294f96e7b68a265a3
 #: getfem.Model.solve:19 of
 msgid "'diverged_res', @float RES"
 msgstr ""
 
-# d6960aca3a5a4523b0808a52d1bb265b
+# c5d86cd7d4f94b68b16014d5a57fde06
 #: getfem.Model.solve:19 of
 msgid ""
 "set the threshold value of the residual beyond which the iterative method"
 " is considered to diverge (default is 1e200)."
 msgstr ""
 
-# 03ca280e658540b98bf8c640cfc69e5c
+# b3784dbd8cce4db09cd5073040f406c1
 #: getfem.Model.solve:24 of
 msgid "'lsolver', string SOLVER_NAME"
 msgstr ""
 
-# 5d05e412260b4629b8077f25c24093e2
+# dbf5a03ac4a644c983c3fb2f5556d8f0
 #: getfem.Model.solve:22 of
 msgid ""
 "select explicitely the solver used for the linear systems (the default "
@@ -2380,12 +2427,12 @@ msgid ""
 "'gmres/ilut'."
 msgstr ""
 
-# d04cb167486b457dbdbec05b1eae12db
+# 96309ff9b7e84f26bc26cd58e99aa022
 #: getfem.Model.solve:29 of
 msgid "'lsearch', string LINE_SEARCH_NAME"
 msgstr ""
 
-# 5692a345c76c443ea20c57d74ccac0ac
+# cf121fbe632a4c3aa8eeb71bdbd43788
 #: getfem.Model.solve:27 of
 msgid ""
 "select explicitely the line search method used for the linear systems "
@@ -2393,12 +2440,12 @@ msgid ""
 "'systematic', 'quadratic' or 'basic'."
 msgstr ""
 
-# fa45f1dc7b704745a16753c00426555a
+# 302e4b41d59b4e0abcfaf74082927469
 #: getfem.Model.solve:31 of
 msgid "Return the number of iterations, if an iterative method is used."
 msgstr ""
 
-# 54c19ce3ec5b40a99d776dcffb3001c3
+# c2fe6cefa1f446379e12a6abee49c74a
 #: getfem.Model.solve:33 of
 msgid ""
 "Note that it is possible to disable some variables (see "
@@ -2408,19 +2455,19 @@ msgid ""
 "with a fixed point one."
 msgstr ""
 
-# 37c27424386f490f817e31028cf54adf
+# dbc8fe858ca241fd80a39a4f4757c950
 #: getfem.Model.tangent_matrix:1 of
 msgid "Return the tangent matrix stored in the model ."
 msgstr ""
 
-# 5149d071193747598057abf738eaa0a5
+# 3dc8e29ca1c24a678c4a9e606a00d307
 #: getfem.Model.test_tangent_matrix:1 of
 msgid ""
 "Synopsis: Model.test_tangent_matrix(self[, scalar EPS[, int NB[, scalar "
 "scale]]])"
 msgstr ""
 
-# 118f0f34f6734715a6cf2f82e7055682
+# f9745ad7525b4f319ac85cf7594b5b49
 #: getfem.Model.test_tangent_matrix:3 of
 msgid ""
 "Test the consistency of the tangent matrix in some random positions and "
@@ -2433,14 +2480,14 @@ msgid ""
 "[current-scale, current+scale]."
 msgstr ""
 
-# 7bd2b8ed12184ac98aa50031610ee6a7
+# 0d1c01ea1c2947bf92b4ff348a4d9904
 #: getfem.Model.test_tangent_matrix_term:1 of
 msgid ""
 "Synopsis: Model.test_tangent_matrix_term(self, string varname1, string "
 "varname2[, scalar EPS[, int NB[, scalar scale]]])"
 msgstr ""
 
-# 6c44df5f07b8421f970362bb35e89a5a
+# 647b2c0e37ae43f4aa45a5750406650a
 #: getfem.Model.test_tangent_matrix_term:3 of
 msgid ""
 "Test the consistency of a part of the tangent matrix in some random "
@@ -2456,7 +2503,7 @@ msgid ""
 "[current-scale, current+scale]."
 msgstr ""
 
-# 6d490a9e19a44937a165b1cc73c373e9
+# c24fe32e348d4f4daf025e76e4f82c58
 #: getfem.Model.to_variables:1 of
 msgid ""
 "Set the value of the variables of the model with the vector `V`. "
@@ -2464,13 +2511,29 @@ msgid ""
 "system (useful to solve your problem with you own solver)."
 msgstr ""
 
-# e26fcd60c3ff48a1b36b714ff48f1d9c
+# 22bebeeb15e9425d89aae09941d76917
 #: getfem.Model.variable:1 of
 msgid "Gives the value of a variable or data."
 msgstr ""
 
-# d50c8142ff4c4adbba0e19ceba66b2d3
+# f81404a153674194adcc61106c85f4f7
 #: getfem.Model.variable_list:1 of
 msgid "print to the output the list of variables and constants of the model."
 msgstr ""
+
+# 5586f63f376444b192234c767f7e500a
+#~ msgid ""
+#~ "Adds a source term given by the"
+#~ " assembly string `expr` which will be"
+#~ " assembled in region `region` and "
+#~ "with the integration method `mim`. Only"
+#~ " the residual term will be taken "
+#~ "into account. Take care that if "
+#~ "the expression contains some variables "
+#~ "and if the expression is a "
+#~ "potential, the expression will be "
+#~ "derivated with respect to all variables."
+#~ " `brickname` is an otpional name for"
+#~ " the brick."
+#~ msgstr ""
 
