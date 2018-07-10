@@ -27,6 +27,7 @@ EXTRA_DIST= 						\
 	check_global_functions.py			\
 	check_levelset.py				\
 	check_asm.py    				\
+	check_secondary_domain.py    			\
 	check_mixed_mesh.py    				\
 	demo_crack.py 					\
 	demo_fictitious_domains.py 			\
@@ -35,6 +36,7 @@ EXTRA_DIST= 						\
 	demo_laplacian_DG.py 				\
 	demo_laplacian_aposteriori.py			\
 	demo_mortar.py 					\
+	demo_phase_field.py              		\
 	demo_plasticity.py              		\
 	demo_plate.py 					\
 	demo_static_contact.py 				\
@@ -60,6 +62,7 @@ TESTS = 						\
 	check_export.py					\
 	check_global_functions.py			\
 	check_asm.py	  				\
+	check_secondary_domain.py 			\
 	check_mixed_mesh.py  				\
 	demo_wave.py					\
 	demo_laplacian.py				\
