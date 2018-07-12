@@ -39,7 +39,7 @@ msgid ""
 "main structure is defined in :file:`getfem/getfem_mesh.h` by the object "
 "|gf_m|."
 msgstr ""
-"|gf| はファイル :file:`getfem / bgeot_mesh_structure.h` と :file:` getfem / "
+"|gf| はファイル :file:`getfem/bgeot_mesh_structure.h` と :file:`getfem/"
 "getfem_mesh.h` で定義されるメッシュを格納する固有の構造を持っています。"
 
 # cd42e0b9bb58428d900fc178fe33184d
@@ -122,7 +122,7 @@ msgid ""
 "indexes of the three points::"
 msgstr ""
 "これは、 |bg_pgt| 型の "
-"``pgt``（基本的にはbg_gt型のインスタンスへのポインタ）を持つテンプレート関数であり、既に存在する点のインデックスのリスト上の反復子です。 "
+"``pgt`` （基本的にはbg_gt型のインスタンスへのポインタ）を持つテンプレート関数であり、既に存在する点のインデックスのリスト上の反復子です。 "
 "たとえば、3次元メッシュに新しい三角形を追加する必要がある場合、最初に3つの点のインデックスを持つ配列を定義する必要があります ::"
 
 # 17787cd0e2c84acb96ef75d9893a022a
@@ -135,12 +135,12 @@ msgstr "要素を追加するには ::"
 msgid ""
 "where ``bgeot::simplex_geotrans(N,1);`` denotes the usual linear geometric "
 "transformation for simplices of dimension N."
-msgstr "ここで ``bgeot::simplex_geotrans(N,1);`` は次元Nの単純化のための通常の線形幾何変換を示します。"
+msgstr "ここで ``bgeot::simplex_geotrans(N,1);`` は次元Nのシンプレックスのための通常の線形幾何変換を示します。"
 
 # 113fe52e1e0c44c4a908ff79524321d3
 #: ../source/userdoc/bmesh.rst:72
 msgid "For simplices, a more specialized function exists, which is::"
-msgstr "単純化のために、以下のようにより特殊化された関数が存在します ::"
+msgstr "シンプレックスのために、以下のようにより特殊化された関数が存在します ::"
 
 # a35f4550529e466f98d05c9f1a7763b3
 #: ../source/userdoc/bmesh.rst:76
@@ -283,7 +283,7 @@ msgid ""
 "direction."
 msgstr ""
 "ここで ``mymesh`` は構造化されたメッシュが構築されるメッシュ変数で、 ``N`` "
-"は次元です（単純化の場合は4、プリズムの場合は5、平行六面体の場合は無制限です）。 ``org`` を ``bgeot::base_node`` "
+"は次元です（シンプレックスの場合は4、プリズムの場合は5、平行六面体の場合は無制限です）。 ``org`` を ``bgeot::base_node`` "
 "と設定し、メッシュの起点を表します。  ``ivect`` は平行四辺形のドメインを構築するための ``N`` ベクトルの配列上のイテレータです。 "
 "``iref`` は、 各方向の分割数を表す ``N`` の自然数の配列です。"
 
@@ -303,7 +303,7 @@ msgid ""
 " is lower than a ``std::vector``."
 msgstr ""
 "``base_node`` と ``base_small_vector`` "
-"はどちらも小さなベクトルクラス（16個以上の要素を格納できません）で、幾何学的な点や幾何学的なベクトルを記述するために使われます。 "
+"はどちらも小さなベクトルクラス（16個以上の要素を格納できません）で、幾何用の点や幾何用のベクトルを記述するために使われます。 "
 "それらのメモリフットプリントは ``std::vector`` よりも小さくなっています。"
 
 # df23c29f156d42dcab78ecba0cbc11bb
@@ -442,7 +442,7 @@ msgid ""
 "local index ``f`` of element ``ic`` except element ``ic``. return "
 "size_type(-1) if none is found."
 msgstr ""
-"要素 ``ic`` 以外の要素 ``ic`` のローカルインデックスfの共通面を持つ ``mesh``の最初の要素のインデックスを返します。 "
+"要素 ``ic`` 以外の要素 ``ic`` のローカルインデックスfの共通面を持つ ``mesh`` の最初の要素のインデックスを返します。"
 "見つからなければsize_type（-1）を返します。"
 
 # b992a2c913f64be3bdf9e8e59d708d21

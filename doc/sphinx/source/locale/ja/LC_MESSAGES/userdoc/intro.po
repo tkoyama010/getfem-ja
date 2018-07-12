@@ -68,7 +68,7 @@ msgid ""
 "Extensions are provided for Hermite elements, piecewise polynomial, non-"
 "polynomial and vectorial elements, XFem."
 msgstr ""
-"新しい有限要素法を追加するのは簡単です。 参照要素に関する記述が必要にないます（ほとんどの場合、これは基底関数の説明であり、それ以上は必要ありません）。"
+"新しい有限要素法を追加するのは簡単です。 参照要素に関する記述が必要になります（ほとんどの場合、これは基底関数の説明であり、それ以上は必要ありません）。"
 " 拡張機能としてエルミート要素、区分的多項式、非多項式およびベクトル要素、XFemが提供されています。"
 
 # cd2263c059d240a897b032dde5354962
