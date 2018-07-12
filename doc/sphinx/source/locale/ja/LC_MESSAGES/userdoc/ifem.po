@@ -21,7 +21,7 @@ msgstr ""
 # 7a3fb3cde1964abd876073d16488b54f
 #: ../source/userdoc/ifem.rst:10
 msgid "Incorporate new finite element methods in |gf|"
-msgstr ""
+msgstr "|gf| に新しい有限要素法を組み込む"
 
 # 178e73a796234318ae8ab08ff4038cb9
 #: ../source/userdoc/ifem.rst:12
@@ -36,6 +36,13 @@ msgid ""
 "element should be described (see the implementation of Argyris element for "
 "instance)."
 msgstr ""
+"基本的には、参照要素に要素を記述するだけで十分です。"
+"すなわち各自由度の各基底関数を記述するということです。"
+"本質的にベクトル要素がサポートされています（例えば、Nedelecと"
+"Raviart-Thomas要素）。"
+"実要素に依存する自由度の追加の線形変換と等価ではない"
+"有限要素法（ベクター要素、エルミート要素などの... |gf| 専門の非 :math:`\\tau` 方程式）"
+"を記述する必要があります（例としてArgyris要素の実装を参照)。"
 
 # 34c3ddcddd4e409e8eca667c33deb4e2
 #: ../source/userdoc/ifem.rst:21
@@ -44,3 +51,7 @@ msgid ""
 ":file:`getfem/getfem_fem.h`, :file:`getfem_fem.cc` for practical "
 "implementation."
 msgstr ""
+"詳細は :ref:`dp` を読んでください。"
+"実際の実装は :file:`getfem/getfem_fem.h` 、 :file:`getfem_fem.cc` "
+"を参照してください。"
+
