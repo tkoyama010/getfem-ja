@@ -20,42 +20,42 @@ msgstr ""
 # 8b847439b9ab46639c29319fab5006f5
 #: ../source/userdoc/model_mass.rst:13
 msgid "Mass brick"
-msgstr ""
+msgstr "マスレンガ\n"
 
 # e7b1813f72e742a8a39ee8bdcfc442de
 #: ../source/userdoc/model_mass.rst:15
 msgid "This brick represents a weak term of the form"
-msgstr ""
+msgstr "このレンガは、フォームの弱い用語を表します\n"
 
 # fe1796b9456140a58d81d61d9c488ce6
 #: ../source/userdoc/model_mass.rst:21
 msgid ""
-"It mainly represents a mass term for transient problems but can also be "
-"used for other applications (it can be used on a boundary). Basically, "
-"this brick adds a mass matrix on the tangent linear system with respect "
-"to a certain variable."
+"It mainly represents a mass term for transient problems but can also be used"
+" for other applications (it can be used on a boundary). Basically, this "
+"brick adds a mass matrix on the tangent linear system with respect to a "
+"certain variable."
 msgstr ""
+"これは、主に一時的な問題の大量用語を表しますが、他のアプリケーションにも使用できます（境界で使用できます）。基本的に、このレンガは、ある変数に関して接線系上に質量行列を追加します。\n"
 
 # 538b44fe49f240b297be4b742a6f0295
 #: ../source/userdoc/model_mass.rst:25
 msgid "The function which adds this brick to a model is::"
-msgstr ""
+msgstr "このレンガをモデルに追加する関数は::\n"
 
 # a272c784c9754cc790a3d72c63c6ae44
 #: ../source/userdoc/model_mass.rst:30
 msgid ""
-"where ``dataexpr_rho`` is an optional expression representing the density"
-" :math:`\\rho`. If it is omitted, the density is assumed to be equal to "
-"one."
+"where ``dataexpr_rho`` is an optional expression representing the density "
+":math:`\\rho`. If it is omitted, the density is assumed to be equal to one."
 msgstr ""
+"ここで `` dataexpr_rho``は密度を表すオプションの式です：math： `\\ rho`。これを省略すると、密度は1と仮定されます。\n"
 
 # ffb29f518bd944c699d6a61ef761872c
 #: ../source/userdoc/model_mass.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # ffb29f518bd944c699d6a61ef761872c
 #: ../source/userdoc/model_mass.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"

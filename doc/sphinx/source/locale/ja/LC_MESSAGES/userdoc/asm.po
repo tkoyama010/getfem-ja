@@ -20,36 +20,39 @@ msgstr ""
 # 251e5c957ce445a3a2a0b754e4f55260
 #: ../source/userdoc/asm.rst:10
 msgid "Some Standard assembly procedures (low-level generic assembly)"
-msgstr ""
+msgstr "いくつかの標準アセンブリ手順（低レベル汎用アセンブリ）\n"
 
 # 7d6441b085fc4ee583243e08e216f9f1
 #: ../source/userdoc/asm.rst:12
 msgid ""
-"Procedures defined in the file :file:`getfem/getfem_assembling.h` allow "
-"the assembly of stiffness matrices, mass matrices and boundary conditions"
-" for a few amount of classical partial differential equation problems. "
-"All the procedures have vectors and matrices template parameters in order"
-" to be used with any matrix library."
+"Procedures defined in the file :file:`getfem/getfem_assembling.h` allow the "
+"assembly of stiffness matrices, mass matrices and boundary conditions for a "
+"few amount of classical partial differential equation problems. All the "
+"procedures have vectors and matrices template parameters in order to be used"
+" with any matrix library."
 msgstr ""
+"ファイル：file： `getfem / getfem_assembling.h "
+"'で定義されている手続きは、古典的な偏微分方程式の問題のいくつかのための剛性行列、質量行列、境界条件の集合を可能にします。任意の行列ライブラリで使用するために、すべてのプロシージャにはベクトルと行列のテンプレートパラメータがあります。\n"
 
 # 80ac066446ce4783bb7bb2084adf4d32
 #: ../source/userdoc/asm.rst:17
 msgid ""
 "CAUTION: The assembly procedures do not clean the matrix/vector at the "
-"begining of the assembly in order to keep the possibility to perform "
-"several assembly operations on the same matrix/vector. Consequently, one "
-"has to clean the matrix/vector before the first assembly operation."
+"begining of the assembly in order to keep the possibility to perform several"
+" assembly operations on the same matrix/vector. Consequently, one has to "
+"clean the matrix/vector before the first assembly operation."
 msgstr ""
+"注意：アセンブリ手順では、同じ行列/ベクトルに対して複数のアセンブリ操作を実行する可能性を維持するために、アセンブリの最初に行列/ベクトルをクリーニングしません。したがって、最初のアセンブリ操作の前にマトリックス/ベクトルをクリーニングする必要があります。\n"
 
 # eff97b66b1824abca1f3089f8f46f4ce
 #: ../source/userdoc/asm.rst:21
 msgid "Laplacian (Poisson) problem"
-msgstr ""
+msgstr "ラプラシアン（ポアソン）問題\n"
 
 # 5fb9459b097b456cb2ada27c61889ce5
 #: ../source/userdoc/asm.rst:23
 msgid "An assembling procedure is defined to solve the problem:"
-msgstr ""
+msgstr "この問題を解決するための組み立て手順が定義されています。\n"
 
 # 8933e7b4842d4aa8b1af95cda8d6bc63
 #: ../source/userdoc/asm.rst:31
@@ -58,52 +61,54 @@ msgid ""
 ":math:`\\Gamma_{D}` and :math:`\\Gamma_{N}` are parts of the boundary of "
 ":math:`\\Omega`, :math:`u(x)` is the unknown, :math:`a(x)` is a given "
 "coefficient, :math:`f(x)` is a given source term, :math:`U(x)` the "
-"prescribed value of :math:`u(x)` on :math:`\\Gamma_{D}` and :math:`F(x)` "
-"is the prescribed normal derivative of :math:`u(x)` on "
-":math:`\\Gamma_{N}`. The function to be called to assemble the stiffness "
-"matrix is::"
+"prescribed value of :math:`u(x)` on :math:`\\Gamma_{D}` and :math:`F(x)` is "
+"the prescribed normal derivative of :math:`u(x)` on :math:`\\Gamma_{N}`. The"
+" function to be called to assemble the stiffness matrix is::"
 msgstr ""
+"ここで、math： `\\ Omega`は任意の次元のオープンドメインです：math：` \\ Gamma_ {D} `と：{\\ math：` \\ "
+"Gamma_ {N} `は、 （x）は与えられた係数であり、f（x）は与えられたソースの項である：数学： `U（x） "
+"（x）は次の式の正規方程式である：（x）=（x） `on：数学：` \\ガンマ_ {N} `。剛性行列をアセンブルするために呼び出される関数は::\n"
 
 # 736c4e3bbfa24ebcb7438b5d9cdc999f
 #: ../source/userdoc/asm.rst:41
 msgid "where"
-msgstr ""
+msgstr "どこで\n"
 
 # 7699012eb5864723908195b2440c12ad
 #: ../source/userdoc/asm.rst:43
 msgid ""
 "``SM`` is a matrix of any type having the right dimension (i.e. "
 "``mfu.nb_dof()``),"
-msgstr ""
+msgstr "`` SM``は、正しい次元（つまり、 `` mfu.nb_dof（） ``を持つ任意の型の行列です。\n"
 
 # 40b1849266c24c0d815f4b3715210951
 #: ../source/userdoc/asm.rst:46
 msgid ""
-"``mim`` is a variable of type |gf_mim| defining the integration method "
-"used,"
-msgstr ""
+"``mim`` is a variable of type |gf_mim| defining the integration method used,"
+msgstr "`` mim``はタイプの変数です| gf_mim |使用される統合方法を定義し、\n"
 
 # a08c6ba7aaed40148a36b04b624b913f
 #: ../source/userdoc/asm.rst:48
 msgid ""
-"``mfu`` is a variable of type |gf_mf| and should define the finite "
-"element method for the solution,"
-msgstr ""
+"``mfu`` is a variable of type |gf_mf| and should define the finite element "
+"method for the solution,"
+msgstr "`` mfu``はタイプの変数です| gf_mf |解の有限要素法を定義する必要があります。\n"
 
 # 93452e08d7c1471196e0bdf4facf1854
 #: ../source/userdoc/asm.rst:51
 msgid ""
-"``mfd`` is a variable of type |gf_mf| (possibly equal to ``mfu``) "
-"describing the finite element method on which the coefficient "
-":math:`a(x)` is defined,"
+"``mfd`` is a variable of type |gf_mf| (possibly equal to ``mfu``) describing"
+" the finite element method on which the coefficient :math:`a(x)` is defined,"
 msgstr ""
+"`` mfd``はタイプの変数です| gf_mf |係数：math： `a（x）`が定義されている有限要素法を記述する（おそらく `` "
+"mfu``に等しい）\n"
 
 # 7e8d99a6e58249ebb6d6144f698a2744
 #: ../source/userdoc/asm.rst:54
 msgid ""
-"``A`` is the (real or complex) vector of the values of this coefficient "
-"on each degree of freedom of ``mfd``."
-msgstr ""
+"``A`` is the (real or complex) vector of the values of this coefficient on "
+"each degree of freedom of ``mfd``."
+msgstr "`` A``は `` mfd``の各自由度に対するこの係数の値の（実数または複素数）ベクトルです。\n"
 
 # 7cd80d5b1b984a01ae828d38fa5cd84c
 #: ../source/userdoc/asm.rst:57
@@ -111,28 +116,37 @@ msgid ""
 "Both |mf| should use the same mesh (i.e. ``&mfu.linked_mesh() == "
 "&mfd.linked_mesh()``)."
 msgstr ""
+"両方| mf |同じメッシュ（つまり、 ``＆mfu.linked_mesh（）==＆mfd.linked_mesh（） "
+"``）を使用する必要があります。\n"
 
 # e6ace6d31e77471a80a41fdc832807bc
 #: ../source/userdoc/asm.rst:60
 msgid ""
-"It is important to pay attention to the fact that the integration methods"
-" stored in ``mim``, used to compute the elementary matrices, have to be "
-"chosen of sufficient order. The order has to be determined considering "
-"the polynomial degrees of element in ``mfu``, in ``mfd`` and the "
-"geometric transformations for non-linear cases. For example, with linear "
-"geometric transformations, if ``mfu`` is a :math:`P_{K}` FEM, and ``mfd``"
-" is a :math:`P_{L}` FEM, the integration will have to be chosen of order "
-":math:`\\geq 2(K-1) + L`, since the elementary integrals computed during "
-"the assembly of ``SM`` are "
+"It is important to pay attention to the fact that the integration methods "
+"stored in ``mim``, used to compute the elementary matrices, have to be "
+"chosen of sufficient order. The order has to be determined considering the "
+"polynomial degrees of element in ``mfu``, in ``mfd`` and the geometric "
+"transformations for non-linear cases. For example, with linear geometric "
+"transformations, if ``mfu`` is a :math:`P_{K}` FEM, and ``mfd`` is a "
+":math:`P_{L}` FEM, the integration will have to be chosen of order "
+":math:`\\geq 2(K-1) + L`, since the elementary integrals computed during the"
+" assembly of ``SM`` are "
 ":math:`\\int\\nabla\\varphi_i\\nabla\\varphi_j\\psi_k` (with "
-":math:`\\varphi_i` the basis functions for ``mfu`` and :math:`\\psi_i` "
-"the basis functions for ``mfd``)."
+":math:`\\varphi_i` the basis functions for ``mfu`` and :math:`\\psi_i` the "
+"basis functions for ``mfd``)."
 msgstr ""
+"基本行列を計算するのに使われる `` "
+"mim``に格納されている積分方法は十分な順序で選択されなければならないという事実に注意することが重要です。順序は、 `` "
+"mfu``の要素の多項式の次数、 `` mfd``、非線形の場合の幾何変換を考慮して決定する必要があります。例えば、線形幾何学変換の場合、 `` "
+"mfu``は：math： `P_ {K}` FEM、 `` mfd``は：math： `P_ {L}} FEMです。 math： `\\ int \\ "
+"nabla \\ varphi_i \\ nabla \\ varphi_j 'のように、` `SM' "
+"'の集合の間に計算される基本積分は以下のようになるので、数学：` \\ geq 2（K-1）+ L` \\ psi_k`（with：math： `\\ "
+"varphi_i`は` `mfu``の基礎関数で、` `mps：` \\ psi_i``は `` mfd``の基礎関数です）。\n"
 
 # 843307a645b843349ecb6f748e84337b
 #: ../source/userdoc/asm.rst:71
 msgid "To assemble the source term, the function to be called is::"
-msgstr ""
+msgstr "ソース用語をアセンブルするには、呼び出す関数は::\n"
 
 # 59fac55c8e384f7fb8cce5da1e3bed07
 #: ../source/userdoc/asm.rst:75
@@ -140,19 +154,25 @@ msgid ""
 "where ``B`` is a vector of any type having the correct dimension (still "
 "``mfu.nb_dof()``), ``mim`` is a variable of type |gf_mim| defining the "
 "integration method used, ``mfd`` is a variable of type |gf_mf| (possibly "
-"equal to ``mfu``) describing the finite element method on which "
-":math:`f(x)` is defined, and ``V`` is the vector of the values of "
-":math:`f(x)` on each degree of freedom of ``mfd``."
+"equal to ``mfu``) describing the finite element method on which :math:`f(x)`"
+" is defined, and ``V`` is the vector of the values of :math:`f(x)` on each "
+"degree of freedom of ``mfd``."
 msgstr ""
+"`` B``は正しい次元（まだ `` mfu.nb_dof（） ``）を持つ型のベクトルで、 `` mim``は型の変数です| gf_mim "
+"|使用される統合方法を定義する、 `` mfd``はタイプの変数です| gf_mf | math： `f（x）`が定義され、 `` "
+"V``が以下の値のベクトルである有限要素法を記述する（おそらく `` mfu``に等しい） `` mfd``のそれぞれの自由度に基づいています。\n"
 
 # 60b3346d36c04562b996890f2c27dd4a
 #: ../source/userdoc/asm.rst:81
 msgid ""
-"The function ``asm_source_term`` also has an optional argument, which is "
-"a reference to a |gf_mr| (or just an integer ``i``, in which case "
-"``mim.linked_mesh().region(i)`` will be considered). Hence for the "
-"Neumann condition on :math:`\\Gamma_{N}`, the same function::"
+"The function ``asm_source_term`` also has an optional argument, which is a "
+"reference to a |gf_mr| (or just an integer ``i``, in which case "
+"``mim.linked_mesh().region(i)`` will be considered). Hence for the Neumann "
+"condition on :math:`\\Gamma_{N}`, the same function::"
 msgstr ""
+"関数 `` asm_source_term``にはオプションの引数があります。これは| gf_mr | （または単に整数 `` i``、 `` "
+"mim.linked_mesh（）。region（i） ``が考慮されます）。したがって、ノイマン条件：数学： `\\ガンマ_ "
+"{N}`、同じ関数::\n"
 
 # 78f768f6cda44cabbb0dfd40d80c3efd
 #: ../source/userdoc/asm.rst:88
@@ -160,48 +180,58 @@ msgid ""
 "is used again, with ``nbound`` is the index of the boundary "
 ":math:`\\Gamma_{N}` in the linked mesh of ``mim``, ``mfu`` and ``mfd``."
 msgstr ""
+"`` mim``、 `` mfu``、 `` mfd``のリンクメッシュでは、 `` nbound``は境界のインデックスです：math： `\\ "
+"Gamma_ {N}`\n"
 
 # 9aacf42186c6489d9e38d9c2c86458fa
 #: ../source/userdoc/asm.rst:91
 msgid ""
 "There is two manner (well not really, since it is also possible to use "
 "Lagrange multipliers, or to use penalization) to take into account the "
-"Dirichlet condition on :math:`\\Gamma_{D}`, changing the linear system or"
-" explicitly reduce to the kernel of the Dirichlet condition. For the "
-"first manner, the following function is defined::"
+"Dirichlet condition on :math:`\\Gamma_{D}`, changing the linear system or "
+"explicitly reduce to the kernel of the Dirichlet condition. For the first "
+"manner, the following function is defined::"
 msgstr ""
+"Dirichlet条件を考慮に入れて、Lagrange乗数を使うことも、ペナルティを使うことも可能です：math： `\\ Gamma_ "
+"{D}`、線形システムを変更する、または明示的に減らすディリクレ状態の核に至る。最初の方法として、以下の関数が定義されています::\n"
 
 # a413fd3bcb304b0988a01c4ea57946ad
 #: ../source/userdoc/asm.rst:99
 msgid ""
-"where ``nbound`` is the index of the boundary :math:`\\Gamma_D` where the"
-" Dirichlet condition is applied, ``R`` is the vector of the values of "
-":math:`R(x)` on each degree of freedom of ``mfu``. This operation should "
-"be the last one because it transforms the stiffness matrix ``SM``. It "
-"works only for Lagrange elements. At the end, one obtains the discrete "
-"system:"
+"where ``nbound`` is the index of the boundary :math:`\\Gamma_D` where the "
+"Dirichlet condition is applied, ``R`` is the vector of the values of "
+":math:`R(x)` on each degree of freedom of ``mfu``. This operation should be "
+"the last one because it transforms the stiffness matrix ``SM``. It works "
+"only for Lagrange elements. At the end, one obtains the discrete system:"
 msgstr ""
+"ここで、 `` nbound``は境界のインデックスです：math： `\\ Gamma_D`ディリクレ条件が適用される場合、` "
+"`R``は次の値のベクトルです：各度のmath：` R（x） ` "
+"「mfu」の自由この操作は、剛性行列「SM」を変換するので、最後の操作でなければなりません。これはLagrange要素に対してのみ機能します。最後に、離散システムを得る：\n"
 
 # 2e28983d12ab46b0a6ab5ee501e9a014
 #: ../source/userdoc/asm.rst:109
 msgid "where :math:`U` is the discrete unknown."
-msgstr ""
+msgstr "ここで、数学：「U」は離散未知数です。\n"
 
 # af50e146ac1645d3bf877ff32552d7ad
 #: ../source/userdoc/asm.rst:111
 msgid "For the second manner, one should use the more general::"
-msgstr ""
+msgstr "2番目の方法では、もっと一般的な::\n"
 
 # 4f10367984b24bc29389372e68e4069c
 #: ../source/userdoc/asm.rst:116
 msgid ""
-"See the Dirichlet condition as a general linear constraint that must "
-"satisfy the solution :math:`u`. This function does the assembly of "
-"Dirichlet conditions of type :math:`\\int_{\\Gamma} u(x)v(x) = "
+"See the Dirichlet condition as a general linear constraint that must satisfy"
+" the solution :math:`u`. This function does the assembly of Dirichlet "
+"conditions of type :math:`\\int_{\\Gamma} u(x)v(x) = "
 "\\int_{\\Gamma}r(x)v(x)` for all :math:`v` in the space of multiplier "
-"defined by ``mf_mult``. The fem ``mf_mult`` could be often chosen equal "
-"to ``mf_u`` except when ``mf_u`` is too \"complex\"."
+"defined by ``mf_mult``. The fem ``mf_mult`` could be often chosen equal to "
+"``mf_u`` except when ``mf_u`` is too \"complex\"."
 msgstr ""
+"Dirichletの条件は、解を満たす必要がある一般的な線形制約（数学： "
+"`u`）を参照してください。この関数は、以下のタイプのDirichlet条件のアセンブリを行います：すべての場合：math： `\\ int _ {\\"
+" Gamma} u（x）= \\ int _ {\\ Gamma} r（x） `` mf_mult``で定義された乗数の空間で `` v`を返します。 "
+"`` mf_u``があまりにも複雑な場合を除いて、女性の `` mf_mult``は `` mf_u``と同じように選ばれることがよくあります。\n"
 
 # d40ace20ca4443a4ae148ef5ea74f3b7
 #: ../source/userdoc/asm.rst:122
@@ -210,11 +240,13 @@ msgid ""
 ":math:`H u=R`, doing some additional simplification in order to obtain a "
 "\"simple\" constraints matrix."
 msgstr ""
+"この関数は、これらの制約を新しい線形システムに組み立てるだけです：数学： `H u = "
+"R`、「単純な」制約行列を得るためにいくつかの追加の単純化を行います。\n"
 
 # 542017072b8d44c0abed71bb10f4dca5
 #: ../source/userdoc/asm.rst:126
 msgid "Then, one should call::"
-msgstr ""
+msgstr "それでは、\n"
 
 # 065c12116df042c4bc60aae512eeef43
 #: ../source/userdoc/asm.rst:130
@@ -223,110 +255,127 @@ msgid ""
 "condition, and an orthogonal basis :math:`N` of the kernel of :math:`H`. "
 "Hence, the discrete system that must be solved is:"
 msgstr ""
+"それはDirichlet条件を満たすベクトル：数学： `U_d`と直交基底：数学：` H`の核の数学： "
+"`N`を返します。したがって、解決しなければならない離散システムは次のとおりです。\n"
 
 # 207af051dda04925a58655c5d2a95a25
 #: ../source/userdoc/asm.rst:138
 msgid ""
-"and the solution is $U=N U_{int}+U_d$. The output matrix :math:`N` should"
-" be a :math:`nbdof \\times nbdof` (sparse) matrix but should be resized "
-"to ``ncols`` columns. The output vector :math:`U_d` should be a "
-":math:`nbdof` vector. A big advantage of this approach is to be generic, "
-"and do not prescribed for the finite element method ``mf_u`` to be of "
-"Lagrange type. If ``mf_u`` and ``mf_d`` are different, there is "
-"implicitly a projection (with respect to the :math:`L^2` norm) of the "
-"data on the finite element ``mf_u``."
+"and the solution is $U=N U_{int}+U_d$. The output matrix :math:`N` should be"
+" a :math:`nbdof \\times nbdof` (sparse) matrix but should be resized to "
+"``ncols`` columns. The output vector :math:`U_d` should be a :math:`nbdof` "
+"vector. A big advantage of this approach is to be generic, and do not "
+"prescribed for the finite element method ``mf_u`` to be of Lagrange type. If"
+" ``mf_u`` and ``mf_d`` are different, there is implicitly a projection (with"
+" respect to the :math:`L^2` norm) of the data on the finite element "
+"``mf_u``."
 msgstr ""
+"解は$ U = N U_ {int} + U_d $です。出力行列：math： `N`は：math：` nbdof \\ times "
+"nbdof`（疎行列）行列でなければなりませんが、 `` ncols``列にリサイズする必要があります。出力ベクトル：math： "
+"`U_d`は、a：math：` nbdof`ベクトルでなければなりません。このアプローチの大きな利点は汎用的であり、有限要素法の `` "
+"mf_u``がLagrange型であることは規定されていません。 `` mf_u``と `` mf_d``が異なる場合、有限要素 `` "
+"mf_u``上のデータの投影（：math： `L ^ 2`ノルムに関して）が暗黙的にあります。\n"
 
 # 86298c28a0ee44dfb14f2a5d458e4a94
 #: ../source/userdoc/asm.rst:146
 msgid ""
 "If you want to treat the more general scalar elliptic equation "
-":math:`\\mbox{div}(A(x)\\nabla u)`, where :math:`A(x)` is square matrix, "
-"you should use::"
+":math:`\\mbox{div}(A(x)\\nabla u)`, where :math:`A(x)` is square matrix, you"
+" should use::"
 msgstr ""
+"より一般的なスカラー楕円方程式を扱いたい場合：math： `\\ mbox {div}（A（x）\\ nabla u）`ここで、math： "
+"`A（x）`は正方行列です。\n"
 
 # 0a4a59f8607643e4876608eb0090c51d
 #: ../source/userdoc/asm.rst:153
 msgid ""
-"The matrix data ``A`` should be defined on ``mfdata``. It is expected as "
-"a vector representing a :math:`n \\times n \\times nbdof` tensor (in "
-"Fortran order), where :math:`n` is the mesh dimension of ``mfu``, and "
-":math:`nbdof` is the number of dof of ``mfdata``."
+"The matrix data ``A`` should be defined on ``mfdata``. It is expected as a "
+"vector representing a :math:`n \\times n \\times nbdof` tensor (in Fortran "
+"order), where :math:`n` is the mesh dimension of ``mfu``, and :math:`nbdof` "
+"is the number of dof of ``mfdata``."
 msgstr ""
+"行列データ \"A\"は、 \"mfdata\"で定義されるべきです。 math： `n \\ times n \\ times "
+"nbdof`テンソル（Fortran順）を表すベクトルとして期待されます。math：` n`は `` mfu``のメッシュの次元であり、 nbdof`は"
+" `` mfdata``のdofの数です。\n"
 
 # 982356afb8134db4a7bdec231a1b5806
 #: ../source/userdoc/asm.rst:160
 msgid "Linear Elasticity problem"
-msgstr ""
+msgstr "線形弾性問題\n"
 
 # e84dbe7809a940be9912c8c49d0b1b01
 #: ../source/userdoc/asm.rst:162
 msgid ""
 "The following function assembles the stiffness matrix for linear "
 "elasticity::"
-msgstr ""
+msgstr "以下の関数は、線形弾性のための剛性行列を組み立てます::\n"
 
 # 8618a731664b405d86188cbe606b23f9
 #: ../source/userdoc/asm.rst:167
 msgid ""
-"where ``SM`` is a matrix of any type having the right dimension (i.e. "
-"here ``mfu.nb_dof()``), ``mim`` is a variable of type |gf_mim| defining "
-"the integration method used, ``mfu`` is a variable of type |gf_mf| and "
-"should define the finite element method for the solution, ``mfd`` is a "
-"variable of type |gf_mf| (possibly equal to ``mfu``) describing the "
-"finite element method on which the Lamé coefficient are defined, "
-"``LAMBDA`` and ``MU`` are vectors of the values of Lamé coefficients on "
-"each degree of freedom of ``mfd``."
+"where ``SM`` is a matrix of any type having the right dimension (i.e. here "
+"``mfu.nb_dof()``), ``mim`` is a variable of type |gf_mim| defining the "
+"integration method used, ``mfu`` is a variable of type |gf_mf| and should "
+"define the finite element method for the solution, ``mfd`` is a variable of "
+"type |gf_mf| (possibly equal to ``mfu``) describing the finite element "
+"method on which the Lamé coefficient are defined, ``LAMBDA`` and ``MU`` are "
+"vectors of the values of Lamé coefficients on each degree of freedom of "
+"``mfd``."
 msgstr ""
+"`` SM``は、適切な次元を持つ任意の型の行列です（ここでは `` mfu.nb_dof（） ``）、 `` mim``は型の変数です| gf_mim"
+" |使用される統合方法を定義する、 `` mfu``はタイプの変数です| gf_mf |解の有限要素法を定義する必要があります。 `` "
+"mfd``はタイプの変数です| gf_mf | Lamé係数が定義されている有限要素法を記述する（おそらくは `` mfu``に等しい）、 `` "
+"LAMBDA``と `` MU``はそれぞれ ``の自由度に関するLamé係数の値のベクトルです。 mfd``。\n"
 
 # 342c1d31c6474ebdab967cbb017cfd01
 #: ../source/userdoc/asm.rst:177
 msgid ""
-"Linear elasticity problem is a vectorial problem, so the target dimension"
-" of ``mfu`` (see ``mf.set_qdim(Q)``) should be the same as the dimension "
-"of the mesh."
+"Linear elasticity problem is a vectorial problem, so the target dimension of"
+" ``mfu`` (see ``mf.set_qdim(Q)``) should be the same as the dimension of the"
+" mesh."
 msgstr ""
+"線形弾性問題はベクトル問題であるため、 `` mfu``（ `` mf.set_qdim（Q） "
+"``参照）のターゲット次元はメッシュの次元と同じでなければなりません。\n"
 
 # 6f9ea67d3cc246a7a72b4f87ca6ee085
 #: ../source/userdoc/asm.rst:181
 msgid ""
 "In order to assemble source term, Neumann and Dirichlet conditions, same "
 "functions as in previous section can be used."
-msgstr ""
+msgstr "ソース項、ノイマンおよびディリクレ条件をアセンブルするために、前のセクションと同じ機能を使用できます。\n"
 
 # bf2238202a60498ba485d49a46d90c44
 #: ../source/userdoc/asm.rst:186
 msgid "Stokes Problem with mixed finite element method"
-msgstr ""
+msgstr "混合有限要素法によるストークス問題\n"
 
 # 515da17a765b4e47b134a644cc08966f
 #: ../source/userdoc/asm.rst:188
 msgid ""
-"The assembly of the mixed term :math:`B = - \\int p\\nabla.v` is done "
-"with::"
-msgstr ""
+"The assembly of the mixed term :math:`B = - \\int p\\nabla.v` is done with::"
+msgstr "混合項の組み立て：数学： `B =  -  \\ int p \\ nabla.v`は::\n"
 
 # 39c68c1cb7df4a90b3601e51074b6a66
 #: ../source/userdoc/asm.rst:195
 msgid "Assembling a mass matrix"
-msgstr ""
+msgstr "質量行列のアセンブル\n"
 
 # 3df7afa5b5304fefb56c23f031f37d8e
 #: ../source/userdoc/asm.rst:197
 msgid "Assembly of a mass matrix between two finite elements::"
-msgstr ""
+msgstr "2つの有限要素間の質量行列の構築::\n"
 
 # f96b0bb52771407da4e8a85e2997d347
 #: ../source/userdoc/asm.rst:201
 msgid ""
 "It is also possible to obtain mass matrix on a boundary with the same "
 "function:"
-msgstr ""
+msgstr "同じ関数の境界上に質量行列を得ることも可能です：\n"
 
 # 780a9813500d4ebf8029e0c7c3c718a6
 #: ../source/userdoc/asm.rst:203
 msgid "getfem::asm_mass_matrix(M, mim, mf1, mf2, nbound);"
-msgstr ""
+msgstr "getfem :: asm_mass_matrix（M、mim、mf1、mf2、nbound）;\n"
 
 # 9c9b43f141bd4a7eab5de3181a056a51
 #: ../source/userdoc/asm.rst:205
@@ -334,4 +383,5 @@ msgid ""
 "where ``nbound`` is the region index in ``mim.linked_mesh()``, or a "
 "``mesh_region`` object."
 msgstr ""
-
+"`` nbound``は `` mim.linked_mesh（） ``の領域インデックス、または `` "
+"mesh_region``オブジェクトです。\n"

@@ -2,7 +2,7 @@
 # Copyright (C) 2004-2017 GetFEM++ project
 # This file is distributed under the same license as the GetFEM++ package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -12,12 +12,12 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/zhu-shi-hui-she-akuqing-bao-shisutemu/teams/87607/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.5.1\n"
 
 # ba7e870ecab34be78ef085b5815a3b34
 #: ../source/userdoc/bmesh.rst:10
@@ -39,8 +39,8 @@ msgid ""
 "main structure is defined in :file:`getfem/getfem_mesh.h` by the object "
 "|gf_m|."
 msgstr ""
-"|gf| はファイル :file:`getfem/bgeot_mesh_structure.h` と :file:`getfem/"
-"getfem_mesh.h` で定義されるメッシュを格納する固有の構造を持っています。"
+"|gf| はファイル :file:`getfem/bgeot_mesh_structure.h` と "
+":file:`getfem/getfem_mesh.h` で定義されるメッシュを格納する固有の構造を持っています。"
 
 # cd42e0b9bb58428d900fc178fe33184d
 #: ../source/userdoc/bmesh.rst:19
@@ -121,8 +121,8 @@ msgid ""
 "new triangle in a 3D mesh, one needs to define first an array with the "
 "indexes of the three points::"
 msgstr ""
-"これは、 |bg_pgt| 型の "
-"``pgt`` （基本的にはbg_gt型のインスタンスへのポインタ）を持つテンプレート関数であり、既に存在する点のインデックスのリスト上の反復子です。 "
+"これは、 |bg_pgt| 型の ``pgt`` "
+"（基本的にはbg_gt型のインスタンスへのポインタ）を持つテンプレート関数であり、既に存在する点のインデックスのリスト上の反復子です。 "
 "たとえば、3次元メッシュに新しい三角形を追加する必要がある場合、最初に3つの点のインデックスを持つ配列を定義する必要があります ::"
 
 # 17787cd0e2c84acb96ef75d9893a022a
@@ -198,8 +198,8 @@ msgstr "特殊化された関数も存在します ::"
 msgid ""
 "The order of the points in the array of points is not important for "
 "simplices (except if you care about the orientation of your simplices). For "
-"other elements, it is important to respect the vertex order shown in :ref"
-":`ud-fig-elem` (first order elements)."
+"other elements, it is important to respect the vertex order shown in "
+":ref:`ud-fig-elem` (first order elements)."
 msgstr ""
 "点の配列における点の順序は、シンプレックス要素にとっては重要ではありません(あなたがシンプレックスの向きを気にする場合を除いては)。他の要素については、"
 "  :ref:`ud-fig-elem`  (一次要素) で示される頂点の順序を守ることが重要です。"
@@ -283,8 +283,8 @@ msgid ""
 "direction."
 msgstr ""
 "ここで ``mymesh`` は構造化されたメッシュが構築されるメッシュ変数で、 ``N`` "
-"は次元です（シンプレックスの場合は4、プリズムの場合は5、平行六面体の場合は無制限です）。 ``org`` を ``bgeot::base_node`` "
-"と設定し、メッシュの起点を表します。  ``ivect`` は平行四辺形のドメインを構築するための ``N`` ベクトルの配列上のイテレータです。 "
+"は次元です（シンプレックスの場合は4、プリズムの場合は5、平行六面体の場合は無制限です）。 ``org`` を ``bgeot::base_node``"
+" と設定し、メッシュの起点を表します。  ``ivect`` は平行四辺形のドメインを構築するための ``N`` ベクトルの配列上のイテレータです。 "
 "``iref`` は、 各方向の分割数を表す ``N`` の自然数の配列です。"
 
 # 99eb92ecda1e4144971a3bd5f5c84ad2
@@ -442,8 +442,8 @@ msgid ""
 "local index ``f`` of element ``ic`` except element ``ic``. return "
 "size_type(-1) if none is found."
 msgstr ""
-"要素 ``ic`` 以外の要素 ``ic`` のローカルインデックスfの共通面を持つ ``mesh`` の最初の要素のインデックスを返します。"
-"見つからなければsize_type（-1）を返します。"
+"要素 ``ic`` 以外の要素 ``ic`` のローカルインデックスfの共通面を持つ ``mesh`` "
+"の最初の要素のインデックスを返します。見つからなければsize_type（-1）を返します。"
 
 # b992a2c913f64be3bdf9e8e59d708d21
 #: ../source/userdoc/bmesh.rst:295

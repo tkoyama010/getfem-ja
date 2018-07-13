@@ -20,13 +20,12 @@ msgstr ""
 # 44f4f7ca521b42338d9f3282b3306645
 #: ../source/userdoc/xfem.rst:10
 msgid "Level-sets, Xfem, fictitious domains, Cut-fem"
-msgstr ""
+msgstr "レベルセット、Xfem、架空のドメイン、Cut-fem\n"
 
 # 2f6271cc94a841edb21e9968e8ce2e6b
 #: ../source/userdoc/xfem.rst:12
 msgid ""
 "Since v2.0, |gf| offers a certain number of facilities to support Xfem "
-"and fictitious domain methods with a cut-fem strategy. Most of these "
 "tools have been initially mainly developed by Julien Pommier for the "
 "study published in [LA-PO-RE-SA2005]_."
 msgstr ""
@@ -501,3 +500,4 @@ msgid ""
 ":file:`interface/tests/matlab/demo_structural_optimization.m`."
 msgstr ""
 
+"and fictitious domain methods with a cut-fem strategy. Most of these "

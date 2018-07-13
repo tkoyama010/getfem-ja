@@ -20,7 +20,7 @@ msgstr ""
 # 63f9918160cd4f2ca792d8dc2e288273
 #: ../source/userdoc/model_generic_assembly.rst:13
 msgid "Generic assembly bricks"
-msgstr ""
+msgstr "一般的なアセンブリレンガ\n"
 
 # 2ebd0156134d43a985db396ec4abafe7
 #: ../source/userdoc/model_generic_assembly.rst:16
@@ -29,51 +29,58 @@ msgid ""
 "directly use the weak form language described in Section :ref:`ud-gasm-"
 "high`. The more general way is to use::"
 msgstr ""
+"1つの変数または複数の変数に用語を追加することは、セクション：ref： `ud-gasm-"
+"high`で説明されている弱いフォーム言語を直接使用することです。より一般的な方法は::を使用することです\n"
 
 # 4d3220f7bbe54f26bed3cabeae038dd6
 #: ../source/userdoc/model_generic_assembly.rst:21
 msgid ""
-"This adds a brick to the model ``md``, using the integration method "
-"``mim``, the assembly string ``expr`` on the mesh region ``region``. If "
-"the result is symmetric, you can specify it on the 5th argument and if it"
-" is coercive on the 6th argument. The latter indications of symmetry and "
-"coercivness are used to determine the right linear solver. If you are not"
-" so sure, it is preferable not to indicate anything."
+"This adds a brick to the model ``md``, using the integration method ``mim``,"
+" the assembly string ``expr`` on the mesh region ``region``. If the result "
+"is symmetric, you can specify it on the 5th argument and if it is coercive "
+"on the 6th argument. The latter indications of symmetry and coercivness are "
+"used to determine the right linear solver. If you are not so sure, it is "
+"preferable not to indicate anything."
 msgstr ""
+"これは、メッシュ領域 `` region`にアセンブリメソッド `` mim`を、アセンブリ文字列 `` expr``を使用して、モデル `` "
+"md``にレンガを追加します。結果が対称であれば、5番目の引数で指定し、6番目の引数で強制的に指定できます。後者の対称性と強制性は、正しい線形ソルバを決定するために使用されます。あなたがそれほど確実でない場合は、何も示さないことが望ましいです。\n"
 
 # af6759c3340c4546905a99ae6d808ef4
 #: ../source/userdoc/model_generic_assembly.rst:23
 msgid ""
-"However, this brick consider that the expression is nonlinear. This brick"
-" is especially indicated to obtain nonlinear coupled terms between "
-"several variables. This means in particular that the assembly of the term"
-" is performed at each call of the assembly of the model and that a Newton"
-" algorithm will be used to solve the problem. If the term is indeed "
-"linear, you should use instead::"
+"However, this brick consider that the expression is nonlinear. This brick is"
+" especially indicated to obtain nonlinear coupled terms between several "
+"variables. This means in particular that the assembly of the term is "
+"performed at each call of the assembly of the model and that a Newton "
+"algorithm will be used to solve the problem. If the term is indeed linear, "
+"you should use instead::"
 msgstr ""
+"しかし、このレンガは、式が非線形であるとみなします。このレンガは、特に、いくつかの変数間の非線形結合項を得るために示されている。これは、特に、項のアセンブリがモデルのアセンブリの各呼び出しで実行され、ニュートンアルゴリズムが問題を解決するために使用されることを意味する。用語が実際に線形の場合は、代わりに::\n"
 
 # 9fd8be57b2fd487a9750a9b61ad6b61d
 #: ../source/userdoc/model_generic_assembly.rst:28
 msgid ""
-"with the same arguments. Conversely, this brick alway assume that the "
-"term corresponding to ``expr`` is linear and the assembly will be "
-"performed only once if the data used do not change. Thus, you have to "
-"care that your expression is indeed linear (affine in fact) with respect "
-"to each variable. Otherwise, the result is of course not guaranted. "
-"Source terms in the expression are taken into account. Still for linear "
-"problem, it is possible to perform the assembly of a sole source term "
-"thanks to::"
+"with the same arguments. Conversely, this brick alway assume that the term "
+"corresponding to ``expr`` is linear and the assembly will be performed only "
+"once if the data used do not change. Thus, you have to care that your "
+"expression is indeed linear (affine in fact) with respect to each variable. "
+"Otherwise, the result is of course not guaranted. Source terms in the "
+"expression are taken into account. Still for linear problem, it is possible "
+"to perform the assembly of a sole source term thanks to::"
 msgstr ""
+"同じ議論がある。逆に、このレンガは常に `` "
+"expr`に対応する項は線形であると仮定し、使用されたデータが変更されない場合、アセンブリは1回だけ実行されます。したがって、あなたの表現は実際には各変数に関して線形（アファイン）であることに注意しなければなりません。それ以外の場合、結果は保証されません。表現のソース用語が考慮されます。それでも線形の問題では、次のような理由で単一のソースタームを組み立てることは可能です::\n"
 
 # c3e88f76b5cf4bb8ad0d7f3b453a773e
 #: ../source/userdoc/model_generic_assembly.rst:32
 msgid ""
 "with again the same arguments except the symmetry and coercivness. This "
 "brick performs the assembly of the corresponding order 1 term (residual "
-"vector) and add it as a right hand side to the problem. The assembly will"
-" be performed only once, so the term should not depend on the variables "
-"of the model (but could depend of course on the constants)."
+"vector) and add it as a right hand side to the problem. The assembly will be"
+" performed only once, so the term should not depend on the variables of the "
+"model (but could depend of course on the constants)."
 msgstr ""
+"再び対称性と強制性を除いて同じ議論がある。このブリックは、対応する次数1項（残差ベクトル）の集合を実行し、それを右辺として問題に追加します。アセンブリは1回だけ実行されるため、この用語はモデルの変数に依存してはいけません（ただし定数に当てはまる可能性があります）。\n"
 
 # a9401ac871ad4c96b02abc078710a11b
 #: ../source/userdoc/model_generic_assembly.rst:35
@@ -81,30 +88,30 @@ msgid ""
 "For instance, if one wants to solve a Poisson problem on a predefined "
 "variable ``u`` of the model, one may use the corresponding pre-defined "
 "bricks (see below) or simply use::"
-msgstr ""
+msgstr "例えば、モデルの定義済み変数 `` u``でポアソン問題を解きたい場合は、対応する事前定義されたレンガを使用するか（下記参照）、単純に::\n"
 
 # 3ef911af2a3e4974bb33207fba2fd1e1
 #: ../source/userdoc/model_generic_assembly.rst:39
 msgid ""
-"where ``F`` is a pre-defined constant of the model representing the right"
-" hand side. Of course, doing so, Newton's algorithms will be called. So, "
-"the more appropriate manner is to use the linear bricks as follows::"
+"where ``F`` is a pre-defined constant of the model representing the right "
+"hand side. Of course, doing so, Newton's algorithms will be called. So, the "
+"more appropriate manner is to use the linear bricks as follows::"
 msgstr ""
+"ここで「F」は右辺を表すモデルのあらかじめ定義された定数である。もちろん、そうすることで、ニュートンのアルゴリズムが呼び出されます。だから、より適切な方法は、次のように線形レンガを使用することです::\n"
 
 # 23b6939e2dbf4df69c65d9f95dfc5bab
 #: ../source/userdoc/model_generic_assembly.rst:49
 msgid ""
-"Note that for the moment, the use of the weak form language is not "
-"possible for complex valued problems."
-msgstr ""
+"Note that for the moment, the use of the weak form language is not possible "
+"for complex valued problems."
+msgstr "現時点では、複雑な価値のある問題に対して弱い形式の言語の使用は不可能であることに注意してください。\n"
 
 # dce821aa54324316b64e28d6aea6f86e
 #: ../source/userdoc/model_generic_assembly.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # dce821aa54324316b64e28d6aea6f86e
 #: ../source/userdoc/model_generic_assembly.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"

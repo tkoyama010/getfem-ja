@@ -2,7 +2,7 @@
 # Copyright (C) 2004-2017 GetFEM++ project
 # This file is distributed under the same license as the GetFEM++ package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -12,12 +12,12 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tetsuo Koyama <tkoyama010@gmail.com>, 2018\n"
 "Language-Team: Japanese (https://www.transifex.com/zhu-shi-hui-she-akuqing-bao-shisutemu/teams/87768/ja/)\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.1\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.5.1\n"
 
 # 78968ee6e29c431b94bbda4c753fcd92
 #: ../source/userdoc/parallel.rst:10
@@ -89,8 +89,11 @@ msgstr ""
 
 # 572147d0ae9144d984553078be78cc7c
 #: ../source/userdoc/parallel.rst:48
-msgid "A model of C++ parallelized program is :file:`tests/elastostatic.cc`. To run it in parallel you have to launch for instance::"
-msgstr "C++の並列プログラムの雛形は :file:`tests/elastostatic.cc` です。並列で計算するためには次のように実行します ::"
+msgid ""
+"A model of C++ parallelized program is :file:`tests/elastostatic.cc`. To run"
+" it in parallel you have to launch for instance::"
+msgstr ""
+"C++の並列プログラムの雛形は :file:`tests/elastostatic.cc` です。並列で計算するためには次のように実行します ::"
 
 # 616340bd62e641d1aad4d1cbe9757518
 #: ../source/userdoc/parallel.rst:53
@@ -229,7 +232,9 @@ msgid ""
 "The explicit matrix brick: the given matrix is considered to be distributed."
 " If it is not, only add it on the master process (otherwise, the "
 "contribution will be multiplied by the number of processes)."
-msgstr "明示的な質量行列: 与えられた行列は分配されているものとみなされます。そうでない場合は、マスタープロセスにのみ追加してください（その他の場合は、プロセスの数で寄与分が掛けられます）。"
+msgstr ""
+"明示的な質量行列: "
+"与えられた行列は分配されているものとみなされます。そうでない場合は、マスタープロセスにのみ追加してください（その他の場合は、プロセスの数で寄与分が掛けられます）。"
 
 # cfe88f1d6db743119966dedffed1803e
 #: ../source/userdoc/parallel.rst:105

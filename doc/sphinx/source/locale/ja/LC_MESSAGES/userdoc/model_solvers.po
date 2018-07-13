@@ -20,43 +20,52 @@ msgstr ""
 # 9a98c9d7801f48168fe2908df9e98f16
 #: ../source/userdoc/model_solvers.rst:12
 msgid "Predefined solvers"
-msgstr ""
+msgstr "あらかじめ定義されたソルバー\n"
 
 # e1381ecf988444dfa2cc38025543b735
 #: ../source/userdoc/model_solvers.rst:14
 msgid ""
 "Although it will be more convenient to build a specific solver for some "
-"problems, a generic solver is available to test your models quickly. It "
-"can also be taken as an example to build your own solver. It is defined "
-"in :file:`src/getfem/getfem_model_solvers.h` and "
+"problems, a generic solver is available to test your models quickly. It can "
+"also be taken as an example to build your own solver. It is defined in "
+":file:`src/getfem/getfem_model_solvers.h` and "
 ":file:`src/getfem_model_solvers.cc` and the call is::"
 msgstr ""
+"いくつかの問題に対して特定のソルバーを作成する方が便利ですが、モデルを素早くテストするための一般的なソルバーがあります。また、独自のソルバを作成するための例としても使用できます。これは：file："
+" `src / getfem / getfem_model_solvers.h`と：file：` src / "
+"getfem_model_solvers.cc`で定義され、呼び出しは::\n"
 
 # 235fcf9fd6f145e18b4f9db978552ca9
 #: ../source/userdoc/model_solvers.rst:21
 msgid ""
-"where ``md`` is the model object and ``iter`` is an iteration object from"
-" |gmm|. See also the next section for an example of use."
+"where ``md`` is the model object and ``iter`` is an iteration object from "
+"|gmm|. See also the next section for an example of use."
 msgstr ""
+"ここで `` md``はモデルオブジェクトで、 `` iter``は| gmm "
+"|の反復オブジェクトです。使用例については、次のセクションも参照してください。\n"
 
 # 3311b50485534d8182176a2619c65cd3
 #: ../source/userdoc/model_solvers.rst:24
 msgid ""
-"Note that |sLU| is used as a default linear solver on \"small\" problems."
-" You can also link |mumps| with |gf| (see section :ref:`ud-linalg`) and "
-"use the parallel version. For nonlinear problems, A Newton method (also "
-"called Newton-Raphson method) is used."
+"Note that |sLU| is used as a default linear solver on \"small\" problems. "
+"You can also link |mumps| with |gf| (see section :ref:`ud-linalg`) and use "
+"the parallel version. For nonlinear problems, A Newton method (also called "
+"Newton-Raphson method) is used."
 msgstr ""
+"注意してください| sLU | 「小さな」問題ではデフォルトの線形ソルバーとして使用されます。また、| mumps |と| gf | "
+"（セクション：ref： `ud-linalg`を参照）、並列バージョンを使用してください。非線形問題に対しては、ニュートン法（Newton-"
+"Raphson法とも呼ばれる）が用いられる。\n"
 
 # 4ecf96d641b3411b825195994c6c48e1
 #: ../source/userdoc/model_solvers.rst:26
 msgid ""
 "Note also that it is possible to disable some variables (with the method "
 "md.disable_variable(varname) of the model object) in order to solve the "
-"problem only with respect to a subset of variables (the disabled "
-"variables are the considered as data) for instance to replace the global "
-"Newton strategy with a fixed point one."
+"problem only with respect to a subset of variables (the disabled variables "
+"are the considered as data) for instance to replace the global Newton "
+"strategy with a fixed point one."
 msgstr ""
+"また、変数のサブセットに関してのみ問題を解決するために、いくつかの変数（モデルオブジェクトのメソッドmd.disable_variable（varname）を使用）を無効にすることができます（無効な変数はデータと見なされます）。グローバルニュートン戦略を固定点1で置き換えるインスタンス。\n"
 
 # 969b93a847874272b61c94e20c3b8895
 #: ../source/userdoc/model_solvers.rst:32
@@ -64,35 +73,42 @@ msgid ""
 "Let us recall that a standard initialization for the iter object is the "
 "folowwing (see Gmm++ documentation on :ref:`gmm-iter`)::"
 msgstr ""
+"iterオブジェクトの標準的な初期化は次のとおりであることを思い出してください（：ref： `gmm-iter`に関するGmm C "
+"++のドキュメントを参照してください）::\n"
 
 # ca857b6165804e0cbac195f1cd2745a5
 #: ../source/userdoc/model_solvers.rst:36
 msgid ""
-"where ``1E-7`` is the relative tolerance for the stopping criterion, `1` "
-"is the noisy option and `200` is the maximum number of iterations. The "
-"stopping criterion of Newton's method is build as follows. For a relative"
-" tolerance :math:`\\varepsilon`, the algorithm stops when:"
+"where ``1E-7`` is the relative tolerance for the stopping criterion, `1` is "
+"the noisy option and `200` is the maximum number of iterations. The stopping"
+" criterion of Newton's method is build as follows. For a relative tolerance "
+":math:`\\varepsilon`, the algorithm stops when:"
 msgstr ""
+"ここで、「1E-7」は停止基準の相対許容誤差であり、「1」はノイズの多いオプションであり、「200」は最大反復回数である。ニュートンの方法の停止基準は、以下のように構築される。相対許容誤差の場合：math："
+" `\\ varepsilon`、アルゴリズムは次のときに停止します。\n"
 
 # a7a758203dda419bac31cbd5f51b20af
 #: ../source/userdoc/model_solvers.rst:42
 msgid ""
 "where :math:`F(u)` is the residual vector, :math:`\\|\\cdot\\|_1` is the "
-"classical 1-norm in :math:`\\R^n`, :math:`h` is the search direction "
-"given by Newton's algorithm, :math:`L` is the norm of an estimated "
-"external loads (coming from source term and Dirichlet bricks) and "
-":math:`u` is the current state of the searched variable. The maximum "
-"taken with :math:`10^{-25}` is to avoid pathological cases when :math:`L`"
-" and/or :math:`u` are vanishing."
+"classical 1-norm in :math:`\\R^n`, :math:`h` is the search direction given "
+"by Newton's algorithm, :math:`L` is the norm of an estimated external loads "
+"(coming from source term and Dirichlet bricks) and :math:`u` is the current "
+"state of the searched variable. The maximum taken with :math:`10^{-25}` is "
+"to avoid pathological cases when :math:`L` and/or :math:`u` are vanishing."
 msgstr ""
+"Math： `\\ | \\ cdot \\ | _1`は、次の中の古典的な1-ノルムです：math：` \\ R ^ n`、：math： "
+"`h`は、ニュートンのアルゴリズムによって与えられた探索方向である。math： "
+"'L'は、推定された外部負荷（ソースタームおよびディリクレブリックから来る）のノルムであり、math： `u "
+"'は、探索された変数の現在の状態である。最大値は：math： `10 ^ { -  25}`は以下のような病理学的事件を避けるためです。数学： "
+"`L`や数学：` u`が消滅しています。\n"
 
 # 8553d0b6020046a2acbc69aeba415656
 #: ../source/userdoc/model_solvers.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # 8553d0b6020046a2acbc69aeba415656
 #: ../source/userdoc/model_solvers.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"

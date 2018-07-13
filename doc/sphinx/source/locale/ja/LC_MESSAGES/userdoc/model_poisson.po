@@ -20,36 +20,39 @@ msgstr ""
 # 0680cffb5f9b47428bbff882345a5095
 #: ../source/userdoc/model_poisson.rst:14
 msgid "Example of a complete Poisson problem"
-msgstr ""
+msgstr "ポアソン問題の完全な例\n"
 
 # 114e3ed5d4004b9d9059faf92cbac464
 #: ../source/userdoc/model_poisson.rst:16
 msgid ""
 "The following example is a part of the test program "
-":file:`tests/laplacian_with_bricks.cc`. Construction of the mesh and "
-"finite element methods are omitted. It is assumed that a mesh is build "
-"and two finite element methods ``mf_u`` and ``mf_rhs`` are build on this "
-"mesh. Is is also assumed that ``NEUMANN_BOUNDARY_NUM`` and "
-"``DIRICHLET_BOUNDARY_NUM`` are two valid boundary indices on that mesh. "
-"The code begins by the definition of three functions which are "
-"interpolated on ``mf_rhs`` in order to build the data for the source "
-"term, the Neumann condition and the Dirichlet condition. Follows the "
-"declaration of the model object, the addition of the bricks and the "
-"solving of the problem::"
+":file:`tests/laplacian_with_bricks.cc`. Construction of the mesh and finite "
+"element methods are omitted. It is assumed that a mesh is build and two "
+"finite element methods ``mf_u`` and ``mf_rhs`` are build on this mesh. Is is"
+" also assumed that ``NEUMANN_BOUNDARY_NUM`` and ``DIRICHLET_BOUNDARY_NUM`` "
+"are two valid boundary indices on that mesh. The code begins by the "
+"definition of three functions which are interpolated on ``mf_rhs`` in order "
+"to build the data for the source term, the Neumann condition and the "
+"Dirichlet condition. Follows the declaration of the model object, the "
+"addition of the bricks and the solving of the problem::"
 msgstr ""
+"次の例は、テストプログラムの一部です：file： `tests / "
+"laplacian_with_bricks.cc`。メッシュおよび有限要素法の構成は省略されています。メッシュが構築され、このメッシュに `` "
+"mf_u``と `` mf_rhs`​​`という2つの有限要素法が構築されていると仮定します。 `` NEUMANN_BOUNDARY_NUM``と "
+"`` "
+"DIRICHLET_BOUNDARY_NUM``は、そのメッシュ上の2つの有効な境界指標であるとも仮定されています。コードは、ソース用語、ノイマン条件、ディリクレ条件のデータを構築するために、「mf_rhs」で補間される3つの関数の定義から始まります。モデルオブジェクトの宣言、レンガの追加、および問題の解決に続きます::\n"
 
 # 3ccc3438c6534bf680f4df935a58b053
 #: ../source/userdoc/model_poisson.rst:85
 msgid "Note that the brick can be added in an arbitrary order."
-msgstr ""
+msgstr "ブリックは任意の順序で追加できます。\n"
 
 # f374ce0e7197421b8bc35fe6bd34e835
 #: ../source/userdoc/model_poisson.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # f374ce0e7197421b8bc35fe6bd34e835
 #: ../source/userdoc/model_poisson.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"

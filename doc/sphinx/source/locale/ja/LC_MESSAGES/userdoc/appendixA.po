@@ -20,238 +20,255 @@ msgstr ""
 # c4ea84735615458a8e7b3276f6e53c34
 #: ../source/userdoc/appendixA.rst:12
 msgid "Appendix A. Finite element method list"
-msgstr ""
+msgstr "付録A.有限要素法リスト\n"
 
 # feff0f05b4be484fac546a034194d650
 #: ../source/userdoc/appendixA.rst
 msgid "Symbols representing degree of freedom types"
-msgstr ""
+msgstr "自由度の種類を表す記号\n"
 
 # bcbb0db7c6b2400e9619f9e8922c014d
 #: ../source/userdoc/appendixA.rst:28
 msgid "Value of the function at the node."
-msgstr ""
+msgstr "ノードでの関数の値。\n"
 
 # 55cc9826af124e7ebc8abe4e38598e33
 #: ../source/userdoc/appendixA.rst:29
 msgid "Value of the gradient along of the first coordinate."
-msgstr ""
+msgstr "最初の座標に沿った勾配の値。\n"
 
 # 602078f8a2584f1b9b139134f1d0dfc5
 #: ../source/userdoc/appendixA.rst:30
 msgid "Value of the gradient along of the second coordinate."
-msgstr ""
+msgstr "第2座標に沿った勾配の値。\n"
 
 # 644dd665ae644b8c81109e3489b9a8f1
 #: ../source/userdoc/appendixA.rst:40
 msgid "Value of the gradient along of the thrid coordinate for 3D elements."
-msgstr ""
+msgstr "3D要素の3番目の座標に沿った勾配の値。\n"
 
 # da0250f773e24ad0a67cc9645273fd99
 #: ../source/userdoc/appendixA.rst:41
 msgid "Value of the whole gradient at the node."
-msgstr ""
+msgstr "ノードでの勾配全体の値。\n"
 
 # f47f000a4d25408b870c85421b960889
 #: ../source/userdoc/appendixA.rst:42
 msgid "Value of the normal derivative to a face."
-msgstr ""
+msgstr "顔への正規微分値。\n"
 
 # 1b3ca8b79b5743c2ac677b1dc7add06f
 #: ../source/userdoc/appendixA.rst:52
 msgid "Value of the second derivative along the first coordinate (twice)."
-msgstr ""
+msgstr "最初の座標に沿った2次導関数の値（2回）。\n"
 
 # 0b27c334ffef420f90418c1f22a5aaf8
 #: ../source/userdoc/appendixA.rst:53
 msgid "Value of the second derivative along the second coordinate (twice)."
-msgstr ""
+msgstr "2番目の座標に沿った2次導関数の値（2回）。\n"
 
 # d0406e4f0cb04028965ccf4bc069a6a2
 #: ../source/userdoc/appendixA.rst:54
 msgid ""
-"Value of the second cross derivative in 2D or second derivative along the"
-" thrid coordinate (twice) in 3D."
-msgstr ""
+"Value of the second cross derivative in 2D or second derivative along the "
+"thrid coordinate (twice) in 3D."
+msgstr "3Dで3番目の座標（2倍）に沿った2Dまたは2次導関数の2次交差導関数の値。\n"
 
 # fcf1851fe5054c2497c1873cc66a12ca
 #: ../source/userdoc/appendixA.rst:65
 msgid "Value of the whole second derivative (hessian) at the node."
-msgstr ""
+msgstr "ノードでの二次導関数（ヘッセ行列）全体の値。\n"
 
 # 9a168505f030482cb253a898f600d1e4
 #: ../source/userdoc/appendixA.rst:66
 msgid ""
 "Scalar product with a certain vector (for instance an edge) for a vector "
 "elements."
-msgstr ""
+msgstr "ベクトル要素のあるベクトル（たとえば、エッジ）を持つスカラ積。\n"
 
 # d58f09e1f2924e52ab46c96122389aba
 #: ../source/userdoc/appendixA.rst:68
 msgid "Scalar product with the normal to a face for a vector elements."
-msgstr ""
+msgstr "ベクトル要素の面に垂直なスカラー積。\n"
 
 # 887d5bd96fe04cea81a56d9facaf8b32
 #: ../source/userdoc/appendixA.rst:76
 msgid "Bubble function on an element or a face, to be specified."
-msgstr ""
+msgstr "指定する要素または面のバブル関数。\n"
 
 # a0bb68da651942e28acf718eeee3c45c
 #: ../source/userdoc/appendixA.rst:77
 msgid "Lagrange hierarchical d.o.f. value at the node in a space of details."
-msgstr ""
+msgstr "ラグランジュ階層d.o.f.詳細の空間内のノードでの値。\n"
 
 # 961e24251a054e17badf2ef747681475
 #: ../source/userdoc/appendixA.rst:80
 msgid ""
-"Let us recall that all finite element methods defined in |gf| are "
-"declared in the file ``getfem_fem.h`` and that a descriptor on a finite "
-"element method is obtained thanks to the function::"
-msgstr ""
+"Let us recall that all finite element methods defined in |gf| are declared "
+"in the file ``getfem_fem.h`` and that a descriptor on a finite element "
+"method is obtained thanks to the function::"
+msgstr "| gf |で定義されているすべての有限要素法は、 `` getfem_fem.h``ファイルで宣言され、有限要素法の記述子は関数::\n"
 
 # 03b11f18255a43c6ab947a04e7c4721c
 #: ../source/userdoc/appendixA.rst:86
 msgid ""
-"where ``\"name of method\"`` is a string to be choosen among the existing"
-" methods."
-msgstr ""
+"where ``\"name of method\"`` is a string to be choosen among the existing "
+"methods."
+msgstr "``メソッド名 `` `は既存のメソッドの中から選択される文字列です。\n"
 
 # f8f21405aa1442c5aad2e2daa087b450
 #: ../source/userdoc/appendixA.rst:90
 msgid "Classical :math:`P_K` Lagrange elements on simplices"
-msgstr ""
+msgstr "古典的：数学： `P_K`シンプレックスのLagrange要素\n"
 
 # b338af8559ff484da94c156332253599
 #: ../source/userdoc/appendixA.rst:97
 msgid "Examples of classical :math:`P_K` Lagrange elements on a segment"
-msgstr ""
+msgstr "セグメント上の古典的な：数学： `P_K`ラグランジュ要素の例\n"
 
 # cbf68d4d27a64bf1ac49309793424166
 #: ../source/userdoc/appendixA.rst:99
 msgid ""
 "It is possible to define a classical :math:`P_K` Lagrange element of "
-"arbitrary dimension and arbitrary degree. Each degree of freedom of such "
-"an element corresponds to the value of the function on a corresponding "
-"node. The grid of node is the so-called Lagrange grid. Figures :ref:`ud-"
-"fig-segmentpk`."
+"arbitrary dimension and arbitrary degree. Each degree of freedom of such an "
+"element corresponds to the value of the function on a corresponding node. "
+"The grid of node is the so-called Lagrange grid. Figures :ref:`ud-fig-"
+"segmentpk`."
 msgstr ""
+"任意の次元と任意の次数の古典的な：数学： "
+"`P_K`ラグランジュ要素を定義することは可能です。このような要素の各自由度は、対応するノード上の関数の値に対応します。ノードのグリッドは、いわゆるラグランジェグリッドです。図：ref："
+" `ud-fig-segmentpk`。\n"
 
 # 8d3198591b9d42048d3d3173f4b9ba52
 #: ../source/userdoc/appendixA.rst
 msgid "Examples of classical :math:`P_K` Lagrange elements on a triangle."
-msgstr ""
+msgstr "古典的な例：三角形上の数学： `P_K`ラグランジュ要素。\n"
 
 # c2043c51061f425d905a30941b5ad8f6
 #: ../source/userdoc/appendixA.rst:116
 msgid ":math:`P_1`, 3 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_1`、3 d.o.f.、：数学：` C ^ 0`\n"
 
 # 5ad111ebb8b944e9860d3aeb8e9c7a33
 #: ../source/userdoc/appendixA.rst:117
 msgid ":math:`P_2` element, 6 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_2`要素、6 d.o.f。、：数学：` C ^ 0`\n"
 
 # c39f43d8858f4aa69ae7109abe162d06
 #: ../source/userdoc/appendixA.rst:124
 msgid ":math:`P_3`, 10 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_3`、10日、：数学：` C ^ 0`\n"
 
 # c6f3ddb740374036949376c9c37b35ed
 #: ../source/userdoc/appendixA.rst:125
 msgid ":math:`P_6` element, 28 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_6`要素、28 d.o.f.、：算数：` C ^ 0`\n"
 
 # aca2d6605c3644c885717341a1691375
 #: ../source/userdoc/appendixA.rst:127
 msgid ""
 "The number of degrees of freedom for a classical :math:`P_K` Lagrange "
 "element of dimension :math:`P` and degree :math:`K` is "
-":math:`\\Frac{(P+K)!}{P!K!}`. For instance, in dimension 2 :math:`(P = "
-"2)`, this value is :math:`\\Frac{(K+1) (K+2)}{2}` and in dimension 3 "
-":math:`(P = 3)`, it is :math:`\\Frac{(K+1) (K+2) (K+3)}{6}`."
+":math:`\\Frac{(P+K)!}{P!K!}`. For instance, in dimension 2 :math:`(P = 2)`, "
+"this value is :math:`\\Frac{(K+1) (K+2)}{2}` and in dimension 3 :math:`(P = "
+"3)`, it is :math:`\\Frac{(K+1) (K+2) (K+3)}{6}`."
 msgstr ""
+"古典的な数学のための自由度：次元：数学の「P_K」ラグランジュ要素：「P」と次数：数学：「K」は次のようになります：数学： `\\ Frac {（P +"
+" K）！} {P ！K！} `。たとえば、次元2の場合、math： `（P = 2）`の場合、この値はmath： `\\ Frac {（K + 1）（K"
+" + 2）} {2}`で、 （P + 1）（K + 2）（K + 3）} {6}である。\n"
 
 # bdaf7c666dc4429cac6f50010d841d7f
 #: ../source/userdoc/appendixA.rst
 msgid "Examples of classical :math:`P_K` Lagrange elements on a tetrahedron."
-msgstr ""
+msgstr "四面体上の古典的な：数学： `P_K`ラグランジュ要素の例。\n"
 
 # 1f42900d9523465691b52e9108aa02df
 #: ../source/userdoc/appendixA.rst:145
 msgid ":math:`P_1` element, 4 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_1`要素、4 d.o.f。、：数学：` C ^ 0`\n"
 
 # 5e7a12a722f04db98e059378e0de6824
 #: ../source/userdoc/appendixA.rst:146
 msgid ":math:`P_2` element, 10 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_2`要素、10日、：数学：` C ^ 0`\n"
 
 # 4401f272a7974890926362ee26059d82
 #: ../source/userdoc/appendixA.rst:151
 msgid ":math:`P_4` element, 35 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_4`要素、35 d.o.f.、：数学：` C ^ 0`\n"
 
 # 9af8a6caad8648898377eb6c5be10f14
 #: ../source/userdoc/appendixA.rst:154
 msgid ""
 "The particular way used in |gf| to numerate the nodes are also shown in "
-"figures :ref:`segment<ud-fig-segmentpk>`, :ref:`triangle<ud-fig-"
-"trianglepk>` and :ref:`tetrahedron<ud-fig-tetrahedronpk>`. Using another "
-"numeration, let"
+"figures :ref:`segment<ud-fig-segmentpk>`, :ref:`triangle<ud-fig-trianglepk>`"
+" and :ref:`tetrahedron<ud-fig-tetrahedronpk>`. Using another numeration, let"
 msgstr ""
+"| gf |で使われる特定の方法ノードを数値化するためには、ref： `segment <ud-fig-segmentpk>`、：ref： "
+"`triangle <ud-fig-trianglepk>`と：ref： `tetrahedron <ud-fig-tetrahedronpk> "
+"。別の数字を使ってlet\n"
 
 # bccea5ac775048d1b24472f1b22554d4
 #: ../source/userdoc/appendixA.rst:162
 msgid "be somme indices such that"
-msgstr ""
+msgstr "ソムメ指数\n"
 
 # bdaa5ecf9a4849fbac8fa13f2137da65
 #: ../source/userdoc/appendixA.rst:168
 msgid "Then, the coordinate of a node can be computed as"
-msgstr ""
+msgstr "次に、ノードの座標は次のように計算されます。\n"
 
 # ba7d19d320da4f0b8bf29f1f6ad1f594
 #: ../source/userdoc/appendixA.rst:174
 msgid ""
 "where :math:`S_0, S_1, ... S_N` are the vertices of the simplex (for "
-":math:`K = 0` the particular choice :math:`a_{0, 0, ... 0} = \\ds "
-"\\sum_{n = 0}^{P} \\Frac{1}{P+1}S_n` has been chosen). Then each base "
-"function, corresponding of each node :math:`a_{i_0, i_1, ... i_P}` is "
-"defined by"
+":math:`K = 0` the particular choice :math:`a_{0, 0, ... 0} = \\ds \\sum_{n ="
+" 0}^{P} \\Frac{1}{P+1}S_n` has been chosen). Then each base function, "
+"corresponding of each node :math:`a_{i_0, i_1, ... i_P}` is defined by"
 msgstr ""
+"ここで、Math： `S_0、S_1、... S_N`は、シンプレックスの頂点です（数学：` K = 0`の特定の選択：数学： `a_ {0、0、..."
+" 0} = \\ ds \\ sum_ {n = 0} ^ {P} \\ Frac {1} {P + 1} "
+"S_n`が選択されている）。次に、各ノード：math： `a_ {i_0、i_1、... i_P} 'に対応する各基底関数は\n"
 
 # 9849bdbfc1c34027937c2f5520ab192c
 #: ../source/userdoc/appendixA.rst:183
 msgid ""
 "where :math:`\\lambda_n` are the barycentric coordinates, i.e. the "
-"polynomials of degree 1 whose value is :math:`1` on the vertex "
-":math:`S_n` and whose value is :math:`0` on other vertices. On the "
-"reference element, one has"
+"polynomials of degree 1 whose value is :math:`1` on the vertex :math:`S_n` "
+"and whose value is :math:`0` on other vertices. On the reference element, "
+"one has"
 msgstr ""
+"ここで、math： `\\ lambda_n`は重心座標です。つまり次のような次数1の多項式です：頂点でのmath：` 1`：math： "
+"`S_n`そしてその値は他の頂点でのmath：` 0`です。 。参照要素には、\n"
 
 # 8c8bf5838a854d0e90bb0c9137ca8ab6
 #: ../source/userdoc/appendixA.rst:196
 msgid ""
 "When between two elements of the same degrees (even with different "
-"dimensions), the d.o.f. of a common face are linked, the element is of "
-"class :math:`C^0`. This means that the global polynomial is continuous. "
-"If you try to link elements of different degrees, you will get some "
-"trouble with the unlinked d.o.f. This is not automatically supported by "
-"|gf|, so you will have to support it (add constraints on these d.o.f.)."
+"dimensions), the d.o.f. of a common face are linked, the element is of class"
+" :math:`C^0`. This means that the global polynomial is continuous. If you "
+"try to link elements of different degrees, you will get some trouble with "
+"the unlinked d.o.f. This is not automatically supported by |gf|, so you will"
+" have to support it (add constraints on these d.o.f.)."
 msgstr ""
+"同じ角度の2つの要素の間に（異なる寸法であっても）、d.o.f.要素はクラスmath： `C ^ "
+"0`である。これは、グローバル多項式が連続的であることを意味します。異なる度合いの要素をリンクしようとすると、リンクされていないd.o.fの問題が発生します。これは|"
+" gf |によって自動的にサポートされるわけではないので、サポートする必要があります（これらのd.o.fの制約を追加してください）。\n"
 
 # 9135d88ae24f43108944d3f290c026b9
 #: ../source/userdoc/appendixA.rst:203
 msgid ""
-"For some applications (computation of a gradient for instance) one may "
-"not want the d.o.f. of a common face to be linked. This is why there are "
-"two versions of the classical :math:`P_K` Lagrange element."
+"For some applications (computation of a gradient for instance) one may not "
+"want the d.o.f. of a common face to be linked. This is why there are two "
+"versions of the classical :math:`P_K` Lagrange element."
 msgstr ""
+"いくつかのアプリケーション（例えばグラジエントの計算）では、d.o.fが必要ではないかもしれません。リンクされる共通の顔のこれは、古典的な：math： "
+"`P_K` Lagrange要素の2つのバージョンが存在する理由です。\n"
 
 # 3705da44f1354d068e25850543babdcb
 #: ../source/userdoc/appendixA.rst
 msgid "Classical :math:`P_K` Lagrange element ``\"FEM_PK(P, K)\"``"
-msgstr ""
+msgstr "古典的：数学： `P_K`ラグランジュ要素` `` FEM_PK（P、K） `` `\n"
 
 # 7de6be4637dc4448bd66239de4e3917a
 # 857720416b9e4a50bd6fd278222d27d1
@@ -307,7 +324,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1480 ../source/userdoc/appendixA.rst:1511
 #: ../source/userdoc/appendixA.rst:1575
 msgid "degree"
-msgstr ""
+msgstr "度\n"
 
 # 343c46d06d6f476ca9c6d60800b31265
 # 1a5062470c50444581ec06c8a18a92bb
@@ -363,7 +380,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1481 ../source/userdoc/appendixA.rst:1512
 #: ../source/userdoc/appendixA.rst:1576
 msgid "dimension"
-msgstr ""
+msgstr "寸法\n"
 
 # 3a74636baafd4703ac815373d2c8b182
 # 339bdd4fa6074cdb9030cac9803ea4c9
@@ -419,7 +436,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1482 ../source/userdoc/appendixA.rst:1513
 #: ../source/userdoc/appendixA.rst:1577
 msgid "d.o.f. number"
-msgstr ""
+msgstr "d.o.f.数\n"
 
 # 0d98c0490dc4417081d7ebd9baaf1c96
 # c56496e35ec0454e9a97d7a9f7363a5b
@@ -475,7 +492,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1483 ../source/userdoc/appendixA.rst:1514
 #: ../source/userdoc/appendixA.rst:1578
 msgid "class"
-msgstr ""
+msgstr "クラス\n"
 
 # 4ef87d15189949928e9b497840a10e52
 # 1fd93e72dee643a5b964f170f8b47e82
@@ -531,7 +548,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1484 ../source/userdoc/appendixA.rst:1515
 #: ../source/userdoc/appendixA.rst:1579
 msgid "vector"
-msgstr ""
+msgstr "ベクター\n"
 
 # 9118a81031b7423e976a5a9da67e4186
 # 9c7fa41d2510499197bc26b04eeacab2
@@ -587,7 +604,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1485 ../source/userdoc/appendixA.rst:1516
 #: ../source/userdoc/appendixA.rst:1580
 msgid ":math:`\\tau`-equivalent"
-msgstr ""
+msgstr "：数学： `\\ tau`-equivalent\n"
 
 # 242b57e0dd7648d99d86086ae66da382
 # a5dfcd64e6e743d88dc4f9638ca60072
@@ -643,13 +660,13 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1486 ../source/userdoc/appendixA.rst:1517
 #: ../source/userdoc/appendixA.rst:1581
 msgid "Polynomial"
-msgstr ""
+msgstr "多項式\n"
 
 # 4b316519c6c943b5a5d4f5d95aacd9af
 # 2942d64099964fcfa03b6ae244761543
 #: ../source/userdoc/appendixA.rst:219 ../source/userdoc/appendixA.rst:241
 msgid ":math:`K`, :math:`0 \\leq K \\leq 255`"
-msgstr ""
+msgstr "：数学： `K`、：数学：` 0 \\ leq K \\ leq 255`\n"
 
 # a46588db269c4c17b305b6ea9a4f3d9d
 # 9c0406f69fa7470ab7f54b1290c26a38
@@ -660,7 +677,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:346 ../source/userdoc/appendixA.rst:466
 #: ../source/userdoc/appendixA.rst:488
 msgid ":math:`P`, :math:`~ 1 \\leq P \\leq 255`"
-msgstr ""
+msgstr "：数学： `P`、：数学：`〜1 \\ leq P \\ leq 255`\n"
 
 # a38228de81d74fa9b1c11009cb47c59e
 # 8f14e4c03d7d407aab62c0d0d33dbbf8
@@ -668,7 +685,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:221 ../source/userdoc/appendixA.rst:243
 #: ../source/userdoc/appendixA.rst:467
 msgid ":math:`\\Frac{(K+P)!}{K! P!}`"
-msgstr ""
+msgstr "：数学： `\\ Frac {（K + P）！} {K！ P！} `\n"
 
 # db106f051f124c1d8d0bb9776bc4cfca
 # 4e84b156a98b455fb6de4fcd33b26d22
@@ -701,7 +718,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1406 ../source/userdoc/appendixA.rst:1491
 #: ../source/userdoc/appendixA.rst:1522 ../source/userdoc/appendixA.rst:1586
 msgid ":math:`C^0`"
-msgstr ""
+msgstr "：数学： `C ^ 0`\n"
 
 # a246720b39e1462b902fefc23df57ed0
 # 4bef30fd75ee4c2d88e3f78e7dc361c4
@@ -758,7 +775,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1445 ../source/userdoc/appendixA.rst:1492
 #: ../source/userdoc/appendixA.rst:1523 ../source/userdoc/appendixA.rst:1587
 msgid "No :math:`(Q = 1)`"
-msgstr ""
+msgstr "いいえ：数学： `（Q = 1）`\n"
 
 # 86206f4b7e1f4511a677d917a8ca821a
 # 89c1be495c5648548ab7afcf3b6ce700
@@ -778,7 +795,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:514 ../source/userdoc/appendixA.rst:593
 #: ../source/userdoc/appendixA.rst:615
 msgid "Yes :math:`(M = Id)`"
-msgstr ""
+msgstr "はい：数学： `（M = Id）`\n"
 
 # 74036f3270d84d2c843f360c25589e1b
 # 574d18c1aaa64def915630ab11ae65f7
@@ -841,7 +858,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1494 ../source/userdoc/appendixA.rst:1524
 #: ../source/userdoc/appendixA.rst:1525 ../source/userdoc/appendixA.rst:1589
 msgid "Yes"
-msgstr ""
+msgstr "はい\n"
 
 # 5d70cb35ea704c3fb2d59c3f1bec6ff2
 # 1a6fef4bc1284f0791060cb8b0150bcb
@@ -889,14 +906,14 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1271 ../source/userdoc/appendixA.rst:1474
 #: ../source/userdoc/appendixA.rst:1496 ../source/userdoc/appendixA.rst:1505
 msgid ":math:`.\\\\`"
-msgstr ""
+msgstr "：数学： `。\\\\`\n"
 
 # cb41c3f10a9e4874aad304b43d9f444e
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Discontinuous :math:`P_K` Lagrange element ``\"FEM_PK_DISCONTINUOUS(P, "
 "K)\"``"
-msgstr ""
+msgstr "不連続：数学： `P_K`ラグランジュ要素` `` FEM_PK_DISCONTINUOUS（P、K） `` `\n"
 
 # ae1e0d0f793040da9f4203e1fa3053a7
 # 74bf7d65036144d5b50a159d7e523926
@@ -908,23 +925,23 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1390 ../source/userdoc/appendixA.rst:1428
 #: ../source/userdoc/appendixA.rst:1436 ../source/userdoc/appendixA.rst:1444
 msgid "discontinuous"
-msgstr ""
+msgstr "不連続な\n"
 
 # 8ddf463e45f845128793ed9d146f2655
 #: ../source/userdoc/appendixA.rst:249
 msgid ""
-"Even though Lagrange elements are defined for arbitrary degrees, to "
-"choose a high degree can be problematic for a large number of "
-"applications due to the \"noisy\" caracteristic of the lagrange basis. "
-"These elements are recommended for the basic interpolation but for p.d.e."
-" applications elements with hierarchical basis are preferable (see the "
-"corresponding section)."
+"Even though Lagrange elements are defined for arbitrary degrees, to choose a"
+" high degree can be problematic for a large number of applications due to "
+"the \"noisy\" caracteristic of the lagrange basis. These elements are "
+"recommended for the basic interpolation but for p.d.e. applications elements"
+" with hierarchical basis are preferable (see the corresponding section)."
 msgstr ""
+"たとえラグランジュ要素が任意の度合いに対して定義されていても、ラグランジュ基底の「ノイズの多い」カーナリズムのために、高い度合いを選択することは、多数のアプリケーションにとって問題となる可能性があります。これらの要素は、基本的な補間に推奨されますが、p.d.e。階層ベースのアプリケーション要素が望ましい（対応する節を参照）。\n"
 
 # 16c561eae9154117a4c8ac007f0a5f9e
 #: ../source/userdoc/appendixA.rst:256
 msgid "Classical Lagrange elements on other geometries"
-msgstr ""
+msgstr "他のジオメトリ上の古典的なラグランジュ要素\n"
 
 # adfe6588168c4d3c9cec89e9c1c4edcf
 #: ../source/userdoc/appendixA.rst:258
@@ -932,31 +949,35 @@ msgid ""
 "Classical Lagrange elements on parallelepipeds or prisms are obtained as "
 "tensor product of Lagrange elements on simplices. When two elements are "
 "defined, one on a dimension :math:`P^1` and the other in dimension "
-":math:`P^2`, one obtains the base functions of the tensorial product (on "
-"the reference element) as"
+":math:`P^2`, one obtains the base functions of the tensorial product (on the"
+" reference element) as"
 msgstr ""
+"平行六面体またはプリズムの古典的なラグランジュ要素は、シンプレックス上のラグランジュ要素のテンソル積として得られる。 "
+"2つの要素が定義されている場合、次元：math： `P ^ 1`と次元：math：` P ^ 2`の一方で、（参照要素上の）テンソル積の基本関数を\n"
 
 # 2f567b8f0a774005a2b6de169efea0bf
 #: ../source/userdoc/appendixA.rst:267
 msgid ""
-"where :math:`\\widehat{\\varphi}^1_i` and :math:`\\widehat{\\varphi}^2_i`"
-" are respectively the base functions of the first and second element."
+"where :math:`\\widehat{\\varphi}^1_i` and :math:`\\widehat{\\varphi}^2_i` "
+"are respectively the base functions of the first and second element."
 msgstr ""
+"ここで、math： `\\ widehat {\\ varphi} ^ 1_i`、および：math：` \\ widehat {\\ varphi} ^"
+" 2_i`は、それぞれ第1要素と第2要素の基本関数です。\n"
 
 # d836bec5b7ae4672a5d22a985279eb9c
 #: ../source/userdoc/appendixA.rst
 msgid "Examples of classical :math:`Q_K` Lagrange elements in dimension 2."
-msgstr ""
+msgstr "古典的な例：次元2の数学： `Q_K`ラグランジュ要素。\n"
 
 # a082482a34714f628ef037c7af849949
 #: ../source/userdoc/appendixA.rst:282
 msgid ":math:`Q_1` element, 4 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：math： `Q_1`要素、4 d.o.f.、：math：` C ^ 0`\n"
 
 # fa6eb20935cc4d88bf0ba9977eb393d6
 #: ../source/userdoc/appendixA.rst:283
 msgid ":math:`Q_3` element, 16 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：math： `Q_3`要素、16 d.o.f.、：math：` C ^ 0`\n"
 
 # 38620c8d43f74deab8799876da1082c3
 #: ../source/userdoc/appendixA.rst:285
@@ -967,80 +988,87 @@ msgid ""
 ":ref:`dimension 2<ud-fig-prodpkdeux>` and in dimension 3 in figure "
 ":ref:`dimension 3<ud-fig-prodpktrois>`."
 msgstr ""
+"次の次元の平行六面体上の：math： `Q_K`要素は、math：` P`はセグメント上のmath： `P` classical：math：` "
+"P_K`要素のテンション積として得られます。ディメンション2の例は図：ref： `ディメンション2 <ud-fig-"
+"prodpkdeux>`に、ディメンション3は図：ref： `ディメンション3 <ud-fig-prodpktrois>`に示されています。\n"
 
 # 4c48e8cbb46e4348972e967c0390bb2b
 #: ../source/userdoc/appendixA.rst:290
 msgid ""
 "A prism in dimension :math:`P > 1` is the direct product of a simplex of "
-"dimension :math:`P-1` with a segment. The :math:`P_K \\otimes P_K` "
-"element on this prism is the tensorial product of the classical "
-":math:`P_K` element on a simplex of dimension :math:`P-1` with the "
-"classical :math:`P_K` element on a segment. For :math:`P=2` this coincide"
-" with a parallelepiped. Examples in dimension :math:`3` are shown in "
-"figure :ref:`dimension 3<ud-fig-prodpktrois>`. This is also possible not "
-"to have the same degree on each dimension. An example is shown on figure "
-":ref:`dimension 3, prism<ud-fig-prism_P2_p1>`."
+"dimension :math:`P-1` with a segment. The :math:`P_K \\otimes P_K` element "
+"on this prism is the tensorial product of the classical :math:`P_K` element "
+"on a simplex of dimension :math:`P-1` with the classical :math:`P_K` element"
+" on a segment. For :math:`P=2` this coincide with a parallelepiped. Examples"
+" in dimension :math:`3` are shown in figure :ref:`dimension 3<ud-fig-"
+"prodpktrois>`. This is also possible not to have the same degree on each "
+"dimension. An example is shown on figure :ref:`dimension 3, prism<ud-fig-"
+"prism_P2_p1>`."
 msgstr ""
+"次元のプリズム：数学： `P> 1`は、次元の単純なものの数学的な：P-1`とセグメントの直接の積です。このプリズムの `` P_K \\ otimes"
+" P_K`要素は、古典的な：math： `P_K`次元の単項式上の古典的な：math：` P_K`要素のテンション積です。セグメント上の要素。 "
+"for：数学： `P = 2`これは平行六面体と一致します。 dimension：math： `3`の例を図：ref：` dimension 3 "
+"<ud-fig-prodpktrois> `に示します。これは、各次元で同じ程度を持たないことも可能です。例を図：ref： `dimension "
+"3、prism <ud-fig-prism_P2_p1>`に示します。\n"
 
 # a9fabfc613cd4ec1bc95e5bdc0ebf57a
 #: ../source/userdoc/appendixA.rst
 msgid "Examples of classical Lagrange elements in dimension 3."
-msgstr ""
+msgstr "次元3における古典的ラグランジュ要素の例。\n"
 
 # 80291b37264d4be59f561415fa8efd5c
 #: ../source/userdoc/appendixA.rst:311
 msgid ":math:`Q_1` element, 8 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：math： `Q_1`要素、8 d.o.f.、：math：` C ^ 0`\n"
 
 # ec390a5c33344261932e97c5095b05cc
 #: ../source/userdoc/appendixA.rst:312
 msgid ":math:`Q_3` element, 64 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `Q_3`要素、64 d.o.f.、：算数：` C ^ 0`\n"
 
 # 7849d0999faf406ea3e5aa5bdcfd0095
 #: ../source/userdoc/appendixA.rst:319
 msgid ":math:`P_1 \\otimes P_1` element, 6 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_1 \\ otimes P_1`要素、6 d.o.f.、：算術：` C ^ 0`\n"
 
 # ab460c584dcb464eb6afa3bac3224cea
 #: ../source/userdoc/appendixA.rst:320
 msgid ":math:`P_3 \\otimes P_3` element, 40 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_3 \\ otimes P_3`要素、40 d.o.f.、：数学：` C ^ 0`\n"
 
 # 741ad20b01eb4608a5216fa725e79daf
 #: ../source/userdoc/appendixA.rst:329
 msgid ""
-":math:`P_2 \\otimes P_1` Lagrange element on a prism, 12 d.o.f., "
-":math:`C^0`"
-msgstr ""
+":math:`P_2 \\otimes P_1` Lagrange element on a prism, 12 d.o.f., :math:`C^0`"
+msgstr "：数学： `P_2 \\ otimes P_1`プリズム上のラグランジュ要素、12 d.o.f.、：数学：` C ^ 0`\n"
 
 # 774e1bcec3084b7bb614f2a9ca79c97e
 #: ../source/userdoc/appendixA.rst
 msgid ". :math:`Q_K` Lagrange element on parallelepipeds ``\"FEM_QK(P, K)\"``"
-msgstr ""
+msgstr "。 ：math： `Q_K`平行四辺形のLagrange要素` `` FEM_QK（P、K） `` `\n"
 
 # ef6f7f9a6ed5434386dc3f8cbe4f5a1b
 #: ../source/userdoc/appendixA.rst:345
 msgid ":math:`KP`, :math:`0 \\leq K \\leq 255`"
-msgstr ""
+msgstr "：数学： `KP`、：数学：` 0 \\ leq K \\ leq 255`\n"
 
 # 927f126c44f34b77b3b200a19ffa652a
 # 6a251ef6b8a54c3bae400672345cbfa6
 #: ../source/userdoc/appendixA.rst:347 ../source/userdoc/appendixA.rst:489
 msgid ":math:`(K+1)^P`"
-msgstr ""
+msgstr "：数学： `（K + 1）^ P`\n"
 
 # 51564a496b804987ae55423d37e50a7f
 #: ../source/userdoc/appendixA.rst
 msgid ""
-". :math:`P_K \\otimes P_K` Lagrange element on prisms ``\"FEM_PK_PRISM(P,"
-" K)\"``"
-msgstr ""
+". :math:`P_K \\otimes P_K` Lagrange element on prisms ``\"FEM_PK_PRISM(P, "
+"K)\"``"
+msgstr "。 ：数学： `P_K \\ otimes P_K`プリズム上のラグランジュ要素` `\" FEM_PK_PRISM（P、K） \"` `\n"
 
 # 8d0b26e9cfda4b8cb5d3f88b45785481
 #: ../source/userdoc/appendixA.rst:367
 msgid ":math:`2K`, :math:`0 \\leq K \\leq 255`"
-msgstr ""
+msgstr "：数学： `2K`、：算数：` 0 \\ leq K \\ leq 255`\n"
 
 # c6a0f2b4aa4149c981d64005455e4e8e
 # 066f09c3fc0348d59df64293186c6c7d
@@ -1048,76 +1076,79 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:368 ../source/userdoc/appendixA.rst:390
 #: ../source/userdoc/appendixA.rst:510
 msgid ":math:`P`, :math:`~ 2 \\leq P \\leq 255`"
-msgstr ""
+msgstr "：数学： `P`、：数学：`〜2 \\ leq P \\ leq 255`\n"
 
 # 44652755c45e460d9f41718121fd02b8
 # 2f969ec95b254db094ea6b32e8aa6c8f
 #: ../source/userdoc/appendixA.rst:369 ../source/userdoc/appendixA.rst:511
 msgid ":math:`(K+1)` :math:`\\times~\\Frac{(K+P-1)!}{K! (P-1)!}`"
-msgstr ""
+msgstr "：数学： `（K + 1）`：数学： `\\ times〜\\ Frac {（K + P-1）！} {K！ （P-1）！} `\n"
 
 # 87d54e94eb234d579827ab41e3e9fa36
 #: ../source/userdoc/appendixA.rst
 msgid ""
 ". :math:`P_{K_1} \\otimes P_{K_2}` Lagrange element on prisms "
 "``\"FEM_PRODUCT(FEM_PK(P-1, K1), FEM_PK(1, K2))\"``"
-msgstr ""
+msgstr "。 ：FEM_PRODUCT（FEM_PK（P-1、K1）、FEM_PK（1、K2）） \"` `プリズム上のラグランジュ要素` ``\n"
 
 # bec148dc9ed74030bbae01bceec3664a
 #: ../source/userdoc/appendixA.rst:389
 msgid ":math:`K_1+K_2`, :math:`0 \\leq K_1,K_2 \\leq 255`"
-msgstr ""
+msgstr "：数学： `K_1 + K_2`、：算数：` 0 \\ leq K_1、K_2 \\ leq 255`\n"
 
 # 9dab3dd4c9414356ade82d0c113d0290
 #: ../source/userdoc/appendixA.rst:391
 msgid ":math:`(K_2+1)` :math:`\\times~\\Frac{(K_1+P-1)!}{K_1! (P-1)!}`"
-msgstr ""
+msgstr "：数学： `（K_2 + 1）`：数学： `\\ times〜\\ Frac {（K_1 + P-1）！} {K_1！ （P-1）！} `\n"
 
 # 3031247c647e4b6cb1cfbf4dda260476
 #: ../source/userdoc/appendixA.rst:403
 msgid ""
-"Incomplete :math:`Q_2` elements in dimension two and three, 8 or 20 "
-"d.o.f., :math:`C^0`"
-msgstr ""
+"Incomplete :math:`Q_2` elements in dimension two and three, 8 or 20 d.o.f., "
+":math:`C^0`"
+msgstr "不完全：数学：2次元および3次元のQ_2要素、8または20次元、：数学： `C ^ 0`\n"
 
 # 74c6efe44d1f40c28c4d5abcd808c0a2
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Incomplete :math:`Q_2` Lagrange element on parallelepipeds (Quad 8 and "
-"Hexa 20 serendipity elements) ``\"FEM_Q2_INCOMPLETE(P)\"``"
+"Incomplete :math:`Q_2` Lagrange element on parallelepipeds (Quad 8 and Hexa "
+"20 serendipity elements) ``\"FEM_Q2_INCOMPLETE(P)\"``"
 msgstr ""
+"不完全：数学： `Q_2`平行四辺形のラグランジュ要素（Quad 8とHexa 20の偶然の要素）` `` FEM_Q2_INCOMPLETE（P） "
+"`` `\n"
 
 # 5127da12532548d299312846f634c6bd
 #: ../source/userdoc/appendixA.rst:419
 msgid "3"
-msgstr ""
+msgstr "3\n"
 
 # ce219f2582bb4c1eb4fae5a8252dcd94
 #: ../source/userdoc/appendixA.rst:420
 msgid ":math:`P`, :math:`~ 2 \\leq P \\leq 3`"
-msgstr ""
+msgstr "：数学： `P`、：数学：`〜2 \\ leq P \\ leq 3`\n"
 
 # 411c50fa4da84359acaede76229b82eb
 #: ../source/userdoc/appendixA.rst:421
 msgid ":math:`8\\ \\text{for}\\ P = 2~~~~~` :math:`20\\ \\text{for}\\ P = 3`"
-msgstr ""
+msgstr "：数学： `8 \\\\ text {for} \\ P = 2~~~~~`：数学： `20 \\\\ text {for} \\ P = 3`\n"
 
 # e7da8c14d4084703853720d50af70a9a
 #: ../source/userdoc/appendixA.rst:429
 msgid "Elements with hierarchical basis"
-msgstr ""
+msgstr "階層ベースの要素\n"
 
 # ca0e8b40c0284559aff9c2d0a4ee9ea9
 #: ../source/userdoc/appendixA.rst:431
 msgid ""
 "The idea behind hierarchical basis is the description of the solution at "
 "different level: a rough level, a more refined level ... In the same "
-"discretization some degrees of freedom represent the rough description, "
-"some other the more rafined and so on. This corresponds to imbricated "
-"spaces of discretization. The hierarchical basis contains a basis of each"
-" of these spaces (this is not the case in classical Lagrange elements "
-"when the mesh is refined)."
+"discretization some degrees of freedom represent the rough description, some"
+" other the more rafined and so on. This corresponds to imbricated spaces of "
+"discretization. The hierarchical basis contains a basis of each of these "
+"spaces (this is not the case in classical Lagrange elements when the mesh is"
+" refined)."
 msgstr ""
+"階層的な基礎の背後にあるアイデアは、異なるレベルのソリューションの記述です：粗いレベル、より洗練されたレベル...同じ離散化では、いくつかの自由度は大まかな記述を表し、他のいくつかはより細かな定義などを表します。これは、離散化の余分なスペースに対応します。階層ベースには、これらの空間のそれぞれの基礎が含まれています（これは、メッシュが洗練されている場合、古典的なラグランジュ要素では当てはまりません）。\n"
 
 # 0591e850af504d1296b45be2a20c68c8
 #: ../source/userdoc/appendixA.rst:438
@@ -1126,16 +1157,17 @@ msgid ""
 "greatly improved, it allows local raffinement and a resolution with a "
 "multigrid approach."
 msgstr ""
+"これらの利点の中でも、剛性マトリックスの条件数を大幅に向上させることができ、局所的なラフィーンメントとマルチグリッドアプローチによる分解が可能です。\n"
 
 # f06bb0ccce96419687c7bd0aaea12734
 #: ../source/userdoc/appendixA.rst:442
 msgid "Hierarchical elements with respect to the degree"
-msgstr ""
+msgstr "度合いに関する階層的要素\n"
 
 # f0345b999ca54011872160952708160f
 #: ../source/userdoc/appendixA.rst:449
 msgid ":math:`P_K` Hierarchical element on a segment, :math:`C^0`"
-msgstr ""
+msgstr "：math： `P_K`セグメント上の階層的要素、：算術：` C ^ 0`\n"
 
 # dd3c678661464b1f86e141d1c38c55c5
 #: ../source/userdoc/appendixA.rst
@@ -1144,6 +1176,7 @@ msgid ""
 "hierarchical basis with respect to the degree "
 "``\"FEM_PK_HIERARCHICAL(P,K)\"``"
 msgstr ""
+"。 ：Math： `P_ {K}`シンプリクス上の古典的なラグランジュ要素ですが、 `` FEM_PK_HIERARCHICAL（P、K） ``\n"
 
 # 6524d6f51239404b983fa2f9f1613a26
 # 21f91bfc9a694c118a4947c13d2fd0f7
@@ -1151,7 +1184,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:465 ../source/userdoc/appendixA.rst:487
 #: ../source/userdoc/appendixA.rst:509
 msgid ":math:`K`, :math:`0 \\leq K\\leq 255`"
-msgstr ""
+msgstr "：数学： `K`、：数学：` 0 \\ leq K \\ leq 255`\n"
 
 # d01ca41716c94c60ae4b8452d5471a87
 #: ../source/userdoc/appendixA.rst
@@ -1160,14 +1193,17 @@ msgid ""
 "hierarchical basis with respect to the degree "
 "``\"FEM_QK_HIERARCHICAL(P,K)\"``"
 msgstr ""
+"。 ：math： `Q_ {K}`パラレルパイプ上の古典的なラグランジュ要素ですが、 `` \"FEM_QK_HIERARCHICAL（P、K）\" "
+"`\n"
 
 # b24adabf4c1e4dda86e56226af9f4441
 #: ../source/userdoc/appendixA.rst
 msgid ""
-". :math:`P_{K}` Classical Lagrange element on prisms but with a "
-"hierarchical basis with respect to the degree "
-"``\"FEM_PK_PRISM_HIERARCHICAL(P,K)\"``"
+". :math:`P_{K}` Classical Lagrange element on prisms but with a hierarchical"
+" basis with respect to the degree ``\"FEM_PK_PRISM_HIERARCHICAL(P,K)\"``"
 msgstr ""
+"。 ：Math： `P_ {K}`プリズム上の古典的なラグランジュ要素ですが、 `` FEM_PK_PRISM_HIERARCHICAL（P、K） "
+"``\n"
 
 # 3c24e2229695402687388c31a6a88322
 #: ../source/userdoc/appendixA.rst:517
@@ -1176,51 +1212,55 @@ msgid ""
 ":math:`P_1`, the additional basis of the :math:`P_2` then the additional "
 "basis of the :math:`P_4`."
 msgstr ""
+"：数学： `P_4`は：数学の基盤として構築されます：` P_1`は、数学の基礎です： `P_2`は、数学の付加的な基礎です：` P_4`。\n"
 
 # fa2dd64fed304cc799c31e4810800d28
 #: ../source/userdoc/appendixA.rst:520
 msgid ""
-":math:`P_6` will be built with the basis of the :math:`P_1`, the "
-"additional basis :of the :math:`P_2` then the additional basis of the "
-":math:`P_6` (not with the :basis of the :math:`P_1`, the additional basis"
-" of the :math:`P_3` then the :additional basis of the :math:`P_6`, it is "
-"possible to build the latter with :``\"FEM_GEN_HIERARCHICAL(a,b)\"``)"
+":math:`P_6` will be built with the basis of the :math:`P_1`, the additional "
+"basis :of the :math:`P_2` then the additional basis of the :math:`P_6` (not "
+"with the :basis of the :math:`P_1`, the additional basis of the :math:`P_3` "
+"then the :additional basis of the :math:`P_6`, it is possible to build the "
+"latter with :``\"FEM_GEN_HIERARCHICAL(a,b)\"``)"
 msgstr ""
+"：数学： `P_6`は：算数：P_1`の基礎を基礎にして構築されます：追加の基礎：数学：` P_2`の追加基礎：数学： `P_6`（： ：Math： "
+"`P_1`は、次のような追加の基底です：` `P_3``：` `P_6``の追加基底：` `` FEM_GEN_HIERARCHICAL（a 、b） "
+"\"\"）\n"
 
 # 8d7b31800c8f4dd4905a075afb290bde
 #: ../source/userdoc/appendixA.rst:527
 msgid "Composite elements"
-msgstr ""
+msgstr "複合要素\n"
 
 # 7c3146625c4f4606ba78572cae2b0ec1
 #: ../source/userdoc/appendixA.rst:529
 msgid ""
-"The principal interest of the composite elements is to build hierarchical"
-" elements. But this tool can also be used to build piecewise polynomial "
+"The principal interest of the composite elements is to build hierarchical "
+"elements. But this tool can also be used to build piecewise polynomial "
 "elements."
-msgstr ""
+msgstr "複合要素の主な関心は、階層要素を構築することです。しかし、このツールは、区分的多項式要素を構築するためにも使用できます。\n"
 
 # aaf343f916a24e11a60e948727715ec6
 #: ../source/userdoc/appendixA.rst:537
 msgid "composite element ``\"FEM_STRUCTURED_COMPOSITE(FEM_PK(2,1), 3)\"``"
-msgstr ""
+msgstr "複合要素 \"\" \"FEM_STRUCTURED_COMPOSITE（FEM_PK（2,1）、3）\" \"\n"
 
 # 35c223eeeea94fe2a2bedef7f32a264b
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Composition of a finite element method on an element with ``S`` "
-"subdivisions ``\"FEM_STRUCTURED_COMPOSITE(FEM1, S)\"``"
-msgstr ""
+"Composition of a finite element method on an element with ``S`` subdivisions"
+" ``\"FEM_STRUCTURED_COMPOSITE(FEM1, S)\"``"
+msgstr "FEM_STRUCTURED_COMPOSITE（FEM1、S） \"` `要素を持つ要素に対する有限要素法の構成\n"
 
 # 158039a3d2a745df9be21d12c2f6a7f7
 #: ../source/userdoc/appendixA.rst:553
 msgid "degree of FEM1"
-msgstr ""
+msgstr "FEM1の程度\n"
 
 # 069bd36474834894bd868e2cf15a2b83
 #: ../source/userdoc/appendixA.rst:554
 msgid "dimension of FEM1"
-msgstr ""
+msgstr "FEM1の寸法\n"
 
 # 4f3823476173458cb70b6dff0b65c355
 # 6e517dba439347d9ae6ec563f637bddc
@@ -1229,12 +1269,12 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:555 ../source/userdoc/appendixA.rst:556
 #: ../source/userdoc/appendixA.rst:591 ../source/userdoc/appendixA.rst:613
 msgid "variable"
-msgstr ""
+msgstr "変数\n"
 
 # fcd56729163f46a6a8127aca027ba44a
 #: ../source/userdoc/appendixA.rst:558
 msgid "If ``FEM1`` is"
-msgstr ""
+msgstr "`` FEM1``が\n"
 
 # 5579a67d5fda4a3a839dc71c2bb7de8b
 # af0e6eef2b094672a4907a9e33b63e87
@@ -1248,33 +1288,33 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1231 ../source/userdoc/appendixA.rst:1269
 #: ../source/userdoc/appendixA.rst:1303
 msgid "piecewise"
-msgstr ""
+msgstr "区分的\n"
 
 # 95ad2ef65c814e7fa4f5630a902ce428
 # 5f3a30be87a141209234e3a8a8df3051
 #: ../source/userdoc/appendixA.rst:561 ../source/userdoc/appendixA.rst:621
 msgid "It is important to use a corresponding composite integration method."
-msgstr ""
+msgstr "対応する複合統合方法を使用することが重要です。\n"
 
 # 930717edb5a141e6a4761d18b11f2812
 #: ../source/userdoc/appendixA.rst:565
 msgid "Hierarchical composite elements"
-msgstr ""
+msgstr "階層的な複合要素\n"
 
 # e9e43e5ce3c34b4a86749720046c5bc7
 #: ../source/userdoc/appendixA.rst:572
 msgid ""
-"hierarchical composite element "
-"``\"FEM_PK_HIERARCHICAL_COMPOSITE(2,1,3)\"``"
-msgstr ""
+"hierarchical composite element ``\"FEM_PK_HIERARCHICAL_COMPOSITE(2,1,3)\"``"
+msgstr "階層的複合要素 `` `FEM_PK_HIERARCHICAL_COMPOSITE（2,1,3）` ``\n"
 
 # 0e176968a1f240b4afeaa51ac500ec45
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Hierarchical composition of a :math:`P_K` finite element method on a "
-"simplex with ``S`` subdivisions "
-"``\"FEM_PK_HIERARCHICAL_COMPOSITE(P,K,S)\"``"
+"Hierarchical composition of a :math:`P_K` finite element method on a simplex"
+" with ``S`` subdivisions ``\"FEM_PK_HIERARCHICAL_COMPOSITE(P,K,S)\"``"
 msgstr ""
+"FEM_PK_HIERARCHICAL_COMPOSITE（P、K、S） `` `の` `S``細分を持つシンプレックス上のa：math：` "
+"P_K`有限要素法の階層的構成\n"
 
 # 8c36b8a674144070a18e6fa37b099268
 # 3d465817a9324d75bfe9095b73c6ac3a
@@ -1282,7 +1322,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:588 ../source/userdoc/appendixA.rst:610
 #: ../source/userdoc/appendixA.rst:746
 msgid ":math:`K`"
-msgstr ""
+msgstr "：数学： `K`\n"
 
 # 918235924200485bb696c909b9bb349b
 # fb387233ae68425c8d2568d84263de93
@@ -1293,48 +1333,51 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:652 ../source/userdoc/appendixA.rst:674
 #: ../source/userdoc/appendixA.rst:707
 msgid ":math:`P`"
-msgstr ""
+msgstr "：数学： `P`\n"
 
 # 16e884ecf9834b34998d666f0f8e4c7f
 # b30c095484a5409d80ccf4bfc198eb4c
 #: ../source/userdoc/appendixA.rst:590 ../source/userdoc/appendixA.rst:612
 msgid ":math:`\\Frac{(SK+P)!}{(SK)! P!}`"
-msgstr ""
+msgstr "：数学： `\\ Frac {（SK + P）！} {（SK）！ P！} `\n"
 
 # 0b7d617c3ed749e68731c03ae7c25a55
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Hierarchical composition of a hierarchical :math:`P_K` finite element "
-"method on a simplex with ``S`` subdivisions "
+"Hierarchical composition of a hierarchical :math:`P_K` finite element method"
+" on a simplex with ``S`` subdivisions "
 "``\"FEM_PK_FULL_HIERARCHICAL_COMPOSITE(P,K,S)\"``"
 msgstr ""
+"FEM_PK_FULL_HIERARCHICAL_COMPOSITE（P、K、S） `` `階層的な数学：` P_K`有限要素法の階層的構成\n"
 
 # c797b52556a3400398c52ff44a4f1dcc
 #: ../source/userdoc/appendixA.rst:618
 msgid ""
-"Other constructions are possible thanks to ``\"FEM_GEN_HIERARCHICAL(FEM1,"
-" FEM2)\"`` and ``\"FEM_STRUCTURED_COMPOSITE(FEM1, S)\"``."
+"Other constructions are possible thanks to ``\"FEM_GEN_HIERARCHICAL(FEM1, "
+"FEM2)\"`` and ``\"FEM_STRUCTURED_COMPOSITE(FEM1, S)\"``."
 msgstr ""
+"`` FEM_GEN_HIERARCHICAL（FEM1、FEM2） `` `と` `FEM_STRUCTURED_COMPOSITE（FEM1、S） "
+"'` `のおかげで他の構造も可能です。\n"
 
 # c065724fa2ab4071a666655ee37af2ea
 #: ../source/userdoc/appendixA.rst:625
 msgid "Classical vector elements"
-msgstr ""
+msgstr "古典的なベクトル要素\n"
 
 # 00b27b5a96174dbdabc8410d2668d25f
 #: ../source/userdoc/appendixA.rst:628
 msgid "Raviart-Thomas of lowest order elements"
-msgstr ""
+msgstr "最下位要素のRaviart-Thomas\n"
 
 # c20c684edf6a46e8983bb03d3f44e1f0
 #: ../source/userdoc/appendixA.rst:635
 msgid "RT0 elements in dimension two and three. (P+1 dof, H(div))"
-msgstr ""
+msgstr "寸法2と3のRT0要素。 （P + 1 dof、H（div））\n"
 
 # fcd04b92b40f475194ca5b5cd70b6597
 #: ../source/userdoc/appendixA.rst
 msgid "Raviart-Thomas of lowest order element on simplices ``\"FEM_RT0(P)\"``"
-msgstr ""
+msgstr "シンプレックスの最下位要素のRaviart-Thomas \"FEM_RT0（P）\" ``\n"
 
 # 86154acf834e4e1183d27e6f78fbbbae
 # dcd27fb89323447fb89b0a99f4b49a16
@@ -1355,18 +1398,18 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1389 ../source/userdoc/appendixA.rst:1395
 #: ../source/userdoc/appendixA.rst:1427 ../source/userdoc/appendixA.rst:1433
 msgid ":math:`1`"
-msgstr ""
+msgstr "：数学： `1`\n"
 
 # bd7845eac17b44ba950bba5217d4f543
 #: ../source/userdoc/appendixA.rst:653
 msgid ":math:`P+1`"
-msgstr ""
+msgstr "：数学： `P + 1`\n"
 
 # e0c97b287bcd4b47b9860a5676fd4a57
 # 3feb25476fb04f68a7f6b87f990e4837
 #: ../source/userdoc/appendixA.rst:654 ../source/userdoc/appendixA.rst:676
 msgid "H(div)"
-msgstr ""
+msgstr "H（div）\n"
 
 # d260b348f83e41b5b55bb29f7abbcbe2
 # 34a687e8d9bc4ca581df930c37ace68f
@@ -1374,7 +1417,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:655 ../source/userdoc/appendixA.rst:677
 #: ../source/userdoc/appendixA.rst:710
 msgid "Yes :math:`(Q = P)`"
-msgstr ""
+msgstr "はい：数学： `（Q = P）`\n"
 
 # 478c2e1e4d68486c99aaf0d7647d1621
 # c4c8d198978d48b4b7517a40ce734296
@@ -1404,87 +1447,95 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1431 ../source/userdoc/appendixA.rst:1439
 #: ../source/userdoc/appendixA.rst:1447 ../source/userdoc/appendixA.rst:1588
 msgid "No"
-msgstr ""
+msgstr "いいえ\n"
 
 # 7ee121ff1a6e441abfc8dd858db6dd86
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Raviart-Thomas of lowest order element on parallelepipeds "
-"(quadrilaterals, hexahedrals) ``\"FEM_RT0Q(P)\"``"
-msgstr ""
+"Raviart-Thomas of lowest order element on parallelepipeds (quadrilaterals, "
+"hexahedrals) ``\"FEM_RT0Q(P)\"``"
+msgstr "平行四辺形（四角形、六面体）上の最下位要素のRaviart-Thomas「FEM_RT0Q（P）」 ``\n"
 
 # 8df6c7f078ba49618f4f4254486e9b7b
 #: ../source/userdoc/appendixA.rst:675
 msgid ":math:`2P`"
-msgstr ""
+msgstr "：数学： `2P`\n"
 
 # 94e746ce38344d00bc6b7014a47ff5b0
 #: ../source/userdoc/appendixA.rst:683
 msgid "Nedelec (or Whitney) edge elements"
-msgstr ""
+msgstr "Nedelec（またはWhitney）エッジ要素\n"
 
 # 77114897e0f24b9cbadeb3ebd556146c
 #: ../source/userdoc/appendixA.rst:690
-msgid "Nedelec edge elements in dimension two and three. (P(P+1)/2 dof, H(rot))"
-msgstr ""
+msgid ""
+"Nedelec edge elements in dimension two and three. (P(P+1)/2 dof, H(rot))"
+msgstr "次元2と3のNedelecエッジ要素。 （P（P + 1）/ 2 dof、H（腐敗））\n"
 
 # c3bfe25ef82f4016912aa97e66287636
 #: ../source/userdoc/appendixA.rst
 msgid "Nedelec (or Whitney) edge element `\"FEM_NEDELEC(P)\"``"
-msgstr ""
+msgstr "Nedelec（またはWhitney）のエッジ要素 `` FEM_NEDELEC（P） `` `\n"
 
 # 53510730cfa4451ca63117da040121d4
 #: ../source/userdoc/appendixA.rst:708
 msgid ":math:`P(P+1)/2`"
-msgstr ""
+msgstr "：数学： `P（P + 1）/ 2`\n"
 
 # 24f52fb1e756496c8bddd37a5a3bc8d7
 #: ../source/userdoc/appendixA.rst:709
 msgid "H(rot)"
-msgstr ""
+msgstr "H（腐敗）\n"
 
 # 7b583ccbc02c4eb4b2e39a99a32c4e35
 #: ../source/userdoc/appendixA.rst:716
 msgid "Specific elements in dimension 1"
-msgstr ""
+msgstr "次元1の特定の要素\n"
 
 # d324d441abd4416eafdddb5d55e0f0ac
 #: ../source/userdoc/appendixA.rst:720
 msgid "GaussLobatto element"
-msgstr ""
+msgstr "GaussLobatto要素\n"
 
 # e10bd0d27254404aba0a67fef9137bf2
 #: ../source/userdoc/appendixA.rst:722
 msgid ""
 "The 1D GaussLobatto :math:`P_K` element is similar to the classical "
 ":math:`P_K` fem on the segment, but the nodes are given by the Gauss-"
-"Lobatto-Legendre quadrature rule of order :math:`2K-1`. This FEM is known"
-" to lead to better conditioned linear systems, and can be used with the "
+"Lobatto-Legendre quadrature rule of order :math:`2K-1`. This FEM is known to"
+" lead to better conditioned linear systems, and can be used with the "
 "corresponding quadrature to perform mass-lumping (on segments or "
 "parallelepipeds)."
 msgstr ""
+"1D GaussLobatto：math： `P_K`要素は、セグメント上の古典的な：math：` P_K` femに似ていますが、ノードはGauss-"
+"Lobatto-Legendre直交次数の規則で与えられます：数学： `2K-1` "
+"。このFEMは、より良好な調整された線形システムにつながることが知られており、対応する直角位相で使用して質量（セグメントまたは平行六面体に）を行うことができます。\n"
 
 # 57b1377985db4704aa34dcda2d8f9239
 #: ../source/userdoc/appendixA.rst:728
 msgid ""
-"The polynomials coefficients have been pre-computed with Maple (they "
-"require the inversion of an ill-conditioned system), hence they are only "
-"available for the following values of :math:`K`: :math:`1, 2, 3, 4, 5, 6,"
-" 7, 8, 9, 10, 11, 12, 13, 14, 16, 24, 32`. Note that for :math:`K=1` and "
-":math:`K=2`, this is the classical :math:`P1` and :math:`P2` fem."
+"The polynomials coefficients have been pre-computed with Maple (they require"
+" the inversion of an ill-conditioned system), hence they are only available "
+"for the following values of :math:`K`: :math:`1, 2, 3, 4, 5, 6, 7, 8, 9, 10,"
+" 11, 12, 13, 14, 16, 24, 32`. Note that for :math:`K=1` and :math:`K=2`, "
+"this is the classical :math:`P1` and :math:`P2` fem."
 msgstr ""
+"多項式の係数はMapleであらかじめ計算されています（これらの係数は病気の悪いシステムの逆転を必要とします）。したがって、以下の値のためだけに利用できます：math："
+" `K`：：math：` 1,2,3、 4つ、5つ、6つ、7つ、8つ、9つ、10つ、11つ、12つ、13つ、14つ、16つ、24つ、32 "
+"'次のことに注意してください：math： `K = 1`と：math：` K = 2`、これは古典的な：math： `P1`と：math：` P2` "
+"femです。\n"
 
 # 0b050d908edf44e3aead9cb5a2109813
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "GaussLobatto :math:`P_K` element on the segment "
 "``\"FEM_PK_GAUSSLOBATTO1D(K)\"``"
-msgstr ""
+msgstr "GaussLobatto：数学：セグメント上の `P_K`要素` `\" FEM_PK_GAUSSLOBATTO1D（K） \"` `\n"
 
 # 7a244d79ce27490fb8b436f0a63ee76e
 #: ../source/userdoc/appendixA.rst:748
 msgid ":math:`K+1`"
-msgstr ""
+msgstr "：数学： `K + 1`\n"
 
 # 910def8ab81340568756e1e4ea2f1f8d
 # c618ef817e644fad822c9675ee325256
@@ -1492,31 +1543,33 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:756 ../source/userdoc/appendixA.rst:1005
 #: ../source/userdoc/appendixA.rst:1529
 msgid "Hermite element"
-msgstr ""
+msgstr "エルミート元素\n"
 
 # 458033b2d8cd4127801b1656dd225845
 #: ../source/userdoc/appendixA.rst:763
 msgid ":math:`P_3` Hermite element on a segment, 4 d.o.f., :math:`C^1`"
-msgstr ""
+msgstr "：数学： `P_3`セグメント上のエルミート要素、4 d.o.f.、：数学：` C ^ 1`\n"
 
 # cb55e82f34914a3393648e1d4f9510d2
 #: ../source/userdoc/appendixA.rst:765
 msgid "Base functions on the reference element"
-msgstr ""
+msgstr "参照要素の基底関数\n"
 
 # d38352020e4a4aa7a6f28b1a015aecdd
 #: ../source/userdoc/appendixA.rst:774
 msgid ""
-"This element is close to be :math:`\\tau`-equivalent but it is not. On "
-"the real element the value of the gradient on vertices will be multiplied"
-" by the gradient of the geometric transformation. The matrix :math:`M` is"
-" not equal to identity but is still diagonal."
+"This element is close to be :math:`\\tau`-equivalent but it is not. On the "
+"real element the value of the gradient on vertices will be multiplied by the"
+" gradient of the geometric transformation. The matrix :math:`M` is not equal"
+" to identity but is still diagonal."
 msgstr ""
+"この要素は、：math： `\\ "
+"tau`と等価ですが、そうではありません。実際の要素では、頂点の勾配の値に幾何学的変換の勾配が乗算されます。行列：数学：「M」は同一性ではないが、依然として対角である。\n"
 
 # b280a9772b0f4aa184db4562bb19778e
 #: ../source/userdoc/appendixA.rst
 msgid "Hermite element on the segment ``\"FEM_HERMITE(1)\"``"
-msgstr ""
+msgstr "`` FEM_HERMITE（1） `` `のセグメント上のエルミート要素\n"
 
 # c3c3b51032ad4c64bd511df831abc917
 # a74bf7f19a4346b5ad567b31985e412a
@@ -1549,7 +1602,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1519 ../source/userdoc/appendixA.rst:1520
 #: ../source/userdoc/appendixA.rst:1583 ../source/userdoc/appendixA.rst:1584
 msgid ":math:`3`"
-msgstr ""
+msgstr "：数学： `3`\n"
 
 # a3f4988ae47648d7a4e06e73a9968a88
 # 0014444b264145e68923fd8d48e0e71b
@@ -1558,7 +1611,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:793 ../source/userdoc/appendixA.rst:933
 #: ../source/userdoc/appendixA.rst:964 ../source/userdoc/appendixA.rst:1488
 msgid ":math:`4`"
-msgstr ""
+msgstr "：数学： `4`\n"
 
 # b6a53ee2676c47c6b695b4f871d411f4
 # f602c54293774d5098b98ae600558f1c
@@ -1570,26 +1623,26 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1195 ../source/userdoc/appendixA.rst:1228
 #: ../source/userdoc/appendixA.rst:1266 ../source/userdoc/appendixA.rst:1300
 msgid ":math:`C^1`"
-msgstr ""
+msgstr "：数学： `C ^ 1`\n"
 
 # cdd9307f7c784f009b73989f25adfa1f
 #: ../source/userdoc/appendixA.rst:801
 msgid "Lagrange element with an additional bubble function"
-msgstr ""
+msgstr "追加の気泡機能を備えたラグランジュ要素\n"
 
 # 698966ca5d6f47e4b49e4835f05e8379
 #: ../source/userdoc/appendixA.rst:808
 msgid ""
-":math:`P_1` Lagrange element on a segment with additional internal bubble"
-" function, 3 d.o.f., :math:`C^0`"
-msgstr ""
+":math:`P_1` Lagrange element on a segment with additional internal bubble "
+"function, 3 d.o.f., :math:`C^0`"
+msgstr "：math： `P_1` Lagrange要素は、内部バブル関数が追加されたセグメントに3 d.o.f.、：math：` C ^ 0`\n"
 
 # ea4919a65f694b97a554f73ca8fd6c90
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Lagrange :math:`P_1` element with an additional internal bubble function "
 "``\"FEM_PK_WITH_CUBIC_BUBBLE(1, 1)\"``"
-msgstr ""
+msgstr "ラグランジュ：数学：内部のバブル関数が追加された `P_1`要素` `\" FEM_PK_WITH_CUBIC_BUBBLE（1,1） \"` `\n"
 
 # 9edff800fe474462b160d02047fdceb9
 # a1ae196a413543b98be51b9fcac3f8e8
@@ -1619,53 +1672,54 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1264 ../source/userdoc/appendixA.rst:1298
 #: ../source/userdoc/appendixA.rst:1403 ../source/userdoc/appendixA.rst:1441
 msgid ":math:`2`"
-msgstr ""
+msgstr "：数学： `2`\n"
 
 # 289836afccdf4ef2aca78004a496951f
 #: ../source/userdoc/appendixA.rst:834
 msgid "Specific elements in dimension 2"
-msgstr ""
+msgstr "次元2の特定の要素\n"
 
 # 494e8937239647b798324f7e1a3f5164
 # 3b040277398e4505a2cd285bc3ac9b59
 #: ../source/userdoc/appendixA.rst:838 ../source/userdoc/appendixA.rst:1453
 msgid "Elements with additional bubble functions"
-msgstr ""
+msgstr "追加のバブル関数を持つ要素\n"
 
 # 7ae3f716ff954dcbabfcbb30ba0603d5
 #: ../source/userdoc/appendixA.rst
-msgid "Lagrange element on a triangle with additional internal bubble function"
-msgstr ""
+msgid ""
+"Lagrange element on a triangle with additional internal bubble function"
+msgstr "追加の内部バブル関数を持つ三角形上のラグランジュ要素\n"
 
 # fb156ac5c4e1431a9bd785e4480c8182
 #: ../source/userdoc/appendixA.rst:852
 msgid ":math:`P_1` with additional bubble function, 4 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学：追加のバブル関数を有する `P_1`、4d.o.f.、：数学：` C ^ 0`\n"
 
 # 589526ac7a274a58a35814c72e6e2b98
 #: ../source/userdoc/appendixA.rst:853
 msgid ":math:`P_2` with additional bubble function, 7 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学：追加のバブル関数を持つ `P_2`、7日、：数学：` C ^ 0`\n"
 
 # 7bf573627616449f95a692d45750b1c4
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Lagrange :math:`P_1` or :math:`P_2` element with an additional internal "
 "bubble function ``\"FEM_PK_WITH_CUBIC_BUBBLE(2, K)\"``"
-msgstr ""
+msgstr "FEM_PK_WITH_CUBIC_BUBBLE（2、K） \"` `Fragment '：` `\n"
 
 # 6935accc166a45e48e680743f23077a8
 # 0bcefd4bf9474c058498b7c64e00c776
 #: ../source/userdoc/appendixA.rst:871 ../source/userdoc/appendixA.rst:902
 msgid ":math:`4` or :math:`7`"
-msgstr ""
+msgstr "：数学：「4」または：数学：「7」\n"
 
 # bdfb114447ab46db99fd47bcc1bfbdfe
 #: ../source/userdoc/appendixA.rst:884
 msgid ""
 ":math:`P_1` Lagrange element on a triangle with additional internal "
 "piecewise linear bubble function"
-msgstr ""
+msgstr "：算術： `P_1` Lagrange要素は、内部の区分的線形バブル関数を追加した三角形上にあります\n"
 
 # 62be12b22eec459e92064bcc6adbb0bd
 #: ../source/userdoc/appendixA.rst
@@ -1673,155 +1727,171 @@ msgid ""
 "Lagrange :math:`P_1` with an additional internal piecewise linear bubble "
 "function ``\"FEM_P1_PIECEWISE_LINEAR_BUBBLE\"``"
 msgstr ""
+"ラグランジュ：数学： `P_1`と内部の区分的線形バブル関数を追加` `\" FEM_P1_PIECEWISE_LINEAR_BUBBLE \"` "
+"`\n"
 
 # f989218d4db24d5ba9b3eeb53938d9cb
 #: ../source/userdoc/appendixA.rst:906
 msgid "Piecewise"
-msgstr ""
+msgstr "ピース\n"
 
 # 80527a2da1a54d09aa103e50608abe21
 #: ../source/userdoc/appendixA.rst:915
 msgid ""
-":math:`P_1` Lagrange element on a triangle with additional bubble "
-"function on face 0, 4 d.o.f., :math:`C^0`"
-msgstr ""
+":math:`P_1` Lagrange element on a triangle with additional bubble function "
+"on face 0, 4 d.o.f., :math:`C^0`"
+msgstr "：数学： `P_1`ラグランジュ要素は、面上に追加のバブル関数を持つ三角形上にあり、d.o.f.、：math：` C ^ 0`\n"
 
 # de5180c270274276b1e03dc9b6f92189
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Lagrange :math:`P_1` element with an additional bubble function on face 0"
-" ``\"FEM_P1_BUBBLE_FACE(2)\"``"
-msgstr ""
+"Lagrange :math:`P_1` element with an additional bubble function on face 0 "
+"``\"FEM_P1_BUBBLE_FACE(2)\"``"
+msgstr "ラグランジュ：面0にバブル関数を追加した数学： `P_1`要素` `\" FEM_P1_BUBBLE_FACE（2） \"` `\n"
 
 # 626c8d6fe91a4b8d9cb1338c5e0a31e5
 #: ../source/userdoc/appendixA.rst:946
 msgid ""
-":math:`P_1` Lagrange element on a triangle with additional d.o.f on face "
-"0, 4 d.o.f., :math:`C^0`"
-msgstr ""
+":math:`P_1` Lagrange element on a triangle with additional d.o.f on face 0, "
+"4 d.o.f., :math:`C^0`"
+msgstr "：math： `P_1` Lagrange要素は、面d0.f.に追加d.o.fを追加した三角形上にあります。：math：` C ^ 0`\n"
 
 # 5f03ffd769314ecf85ba9fb29c5508a9
 #: ../source/userdoc/appendixA.rst
 msgid ""
-". :math:`P_1` Lagrange element on a triangle with additional d.o.f on "
-"face 0 ``\"FEM_P1_BUBBLE_FACE_LAG\"``"
+". :math:`P_1` Lagrange element on a triangle with additional d.o.f on face 0"
+" ``\"FEM_P1_BUBBLE_FACE_LAG\"``"
 msgstr ""
+"。 ：math： `P_1`顔面にd.o.fが追加された三角形のLagrange要素` `\" FEM_P1_BUBBLE_FACE_LAG \"` "
+"`\n"
 
 # 0bb16aee64b14b07b5f70dd7fb1520a8
 #: ../source/userdoc/appendixA.rst:972
 msgid "Non-conforming :math:`P_1` element"
-msgstr ""
+msgstr "不適合：数学： `P_1`要素\n"
 
 # 08f822b2f2ac4d3bb8440223855f1c95
 #: ../source/userdoc/appendixA.rst:979
-msgid ":math:`P_1` non-conforming element on a triangle, 3 d.o.f., discontinuous"
-msgstr ""
+msgid ""
+":math:`P_1` non-conforming element on a triangle, 3 d.o.f., discontinuous"
+msgstr "：数学：三角形上の非適合要素「P_1」、3 d.o.f.、不連続\n"
 
 # 06129592bc9d484f8db1a600d7ad5c70
 #: ../source/userdoc/appendixA.rst
 msgid ""
 ". :math:`P_1` non-conforming element on a triangle "
 "``\"FEM_P1_NONCONFORMING\"``"
-msgstr ""
+msgstr "。 ：数学： `P_1`三角形の非適合要素` `\" FEM_P1_NONCONFORMING \"` `\n"
 
 # 3f4cb91c8bab4fc49ebadd4539d99d1d
 #: ../source/userdoc/appendixA.rst:998
 msgid ":math:`discontinuous`"
-msgstr ""
+msgstr "：数学： `不連続 '\n"
 
 # 2dd88b6e059a421083d34c629f185436
 #: ../source/userdoc/appendixA.rst:1012
 msgid "Hermite element on a triangle, :math:`P_3`, 10 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "三角形のエルミート要素：数学： `P_3`、10日、数学：` C ^ 0`\n"
 
 # dc3a3206694a4aaba05d1f3452528e53
 # 2e15e29f90e6431d94fdf88408a0a405
 #: ../source/userdoc/appendixA.rst:1014 ../source/userdoc/appendixA.rst:1538
 msgid "Base functions on the reference element:"
-msgstr ""
+msgstr "参照要素の基本機能：\n"
 
 # 80e2eb6e9cfb459aa43e4eb0181aa301
 #: ../source/userdoc/appendixA.rst:1031
 msgid ""
-"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not"
-" equal to identity). On the real element linear combinations of "
-":math:`\\widehat{\\varphi}_4` and :math:`\\widehat{\\varphi}_7` are used "
-"to match the gradient on the corresponding vertex. Idem for the two "
-"couples :math:`(\\widehat{\\varphi}_5`, :math:`\\widehat{\\varphi}_8)` "
-"and :math:`(\\widehat{\\varphi}_6`, :math:`\\widehat{\\varphi}_9)` for "
-"the two other vertices."
+"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not "
+"equal to identity). On the real element linear combinations of "
+":math:`\\widehat{\\varphi}_4` and :math:`\\widehat{\\varphi}_7` are used to "
+"match the gradient on the corresponding vertex. Idem for the two couples "
+":math:`(\\widehat{\\varphi}_5`, :math:`\\widehat{\\varphi}_8)` and "
+":math:`(\\widehat{\\varphi}_6`, :math:`\\widehat{\\varphi}_9)` for the two "
+"other vertices."
 msgstr ""
+"この要素は、以下のものではありません：math： `\\ tau`-equivalent（行列：math：` "
+"M`は同一性ではありません）。実際の要素では：math： `\\ widehat {\\ varphi} _4`と：math：` \\ widehat "
+"{\\ varphi} _7 'を使って対応する頂点の勾配を一致させます。 （ワイドハット{\\ varphi} _6}、：数学： "
+"`\\ワイドハット{\\ varphi} _8）`と： `\\ widehat {\\ varphi} _9）`を2つの他の頂点に対して使用します。\n"
 
 # 9712242b50954f83b41f46741570bcfd
 #: ../source/userdoc/appendixA.rst
 msgid "Hermite element on a triangle ``\"FEM_HERMITE(2)\"``"
-msgstr ""
+msgstr "三角形のエルミート要素 `` \"FEM_HERMITE（2）\" ``\n"
 
 # 4f8494602f474e7082659acc5fce9627
 #: ../source/userdoc/appendixA.rst:1051
 msgid ":math:`10`"
-msgstr ""
+msgstr "：数学： `10`\n"
 
 # cee5ad11e4574bd39bce09c27383b2d1
 #: ../source/userdoc/appendixA.rst:1059
 msgid "Morley element"
-msgstr ""
+msgstr "モルレー要素\n"
 
 # 054ae515894348ff91319bd228c56507
 #: ../source/userdoc/appendixA.rst:1066
 msgid "triangle Morley element, :math:`P_2`, 6 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "三角形モルレー要素、：数学： `P_2`、6 d.o.f.、：数学：` C ^ 0`\n"
 
 # 164ce24d78464c02ad8218dc27ac9050
 #: ../source/userdoc/appendixA.rst:1069
 msgid ""
-"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not"
-" equal to identity). In particular, it can be used for non-conforming "
+"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not "
+"equal to identity). In particular, it can be used for non-conforming "
 "discretization of fourth order problems, despite the fact that it is not "
 ":math:`{\\cal C}^1`."
 msgstr ""
+"この要素は、以下のものではありません：math： `\\ tau`-equivalent（行列：math：` "
+"M`は同一性ではありません）。特に、4次問題の非適合離散化には、それが数学ではないにもかかわらず使用されます。数学： `{\\ cal C} ^ "
+"1`です。\n"
 
 # c9497d34e2994f9e83a67391e9976cfd
 #: ../source/userdoc/appendixA.rst
 msgid "Morley element on a triangle ``\"FEM_MORLEY\"``"
-msgstr ""
+msgstr "モルレー要素は三角形で `` \"FEM_MORLEY\" ``\n"
 
 # 75c44153b4be4bfb88380971f325c9d5
 #: ../source/userdoc/appendixA.rst:1087
 msgid ":math:`6`"
-msgstr ""
+msgstr "：数学： `6`\n"
 
 # d263dbd97af047408a32c2948b53d2fe
 #: ../source/userdoc/appendixA.rst:1095
 msgid "Argyris element"
-msgstr ""
+msgstr "アルギリス要素\n"
 
 # f35011bc10e14f01bf5a7734ac09f527
 #: ../source/userdoc/appendixA.rst:1102
 msgid "Argyris element, :math:`P_5`, 21 d.o.f., :math:`C^1`"
-msgstr ""
+msgstr "Argyris要素、：数学： `P_5`、21日、数学：` C ^ 1`\n"
 
 # 1038f02593a14b27a4ad029daead5ce1
 #: ../source/userdoc/appendixA.rst:1104
 msgid "The base functions on the reference element are:"
-msgstr ""
+msgstr "参照要素の基本関数は次のとおりです。\n"
 
 # 5f7e35e931604f6085257fce68cc86dd
 #: ../source/userdoc/appendixA.rst:1132
 msgid ""
-"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not"
-" equal to identity). On the real element linear combinations of the "
-"transformed base functions :math:`\\widehat{\\varphi}_i` are used to "
-"match the gradient, the second derivatives and the normal derivatives on "
-"the faces. Note that the use of the matrix :math:`M` allows to define "
-"Argyris element even with nonlinear geometric transformations (for "
-"instance to treat curved boundaries)."
+"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not "
+"equal to identity). On the real element linear combinations of the "
+"transformed base functions :math:`\\widehat{\\varphi}_i` are used to match "
+"the gradient, the second derivatives and the normal derivatives on the "
+"faces. Note that the use of the matrix :math:`M` allows to define Argyris "
+"element even with nonlinear geometric transformations (for instance to treat"
+" curved boundaries)."
 msgstr ""
+"この要素は、以下のものではありません：math： `\\ tau`-equivalent（行列：math：` "
+"M`は同一性ではありません）。実際の要素では、変換された基底関数の線形結合：math： `\\ widehat {\\ varphi} _i "
+"'を使用して、勾配、2次微分、および正規微分を顔に一致させます。行列：math： `M "
+"'を使用すると、非線形幾何変換（例えば、曲線境界を扱う）であっても、Argyris要素を定義することができます。\n"
 
 # a79f27eefbb8460a95e856570452286f
 #: ../source/userdoc/appendixA.rst
 msgid "Argyris element on a triangle ``\"FEM_ARGYRIS\"``"
-msgstr ""
+msgstr "三角形のアルジリス要素「 `` FEM ARGYRIS `` `\n"
 
 # 2029dcbc045f481c9d39416719a8dc0a
 # ffc4de40ed044d0fac11ce454ab4be82
@@ -1830,237 +1900,255 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:1151 ../source/userdoc/appendixA.rst:1397
 #: ../source/userdoc/appendixA.rst:1435 ../source/userdoc/appendixA.rst:1521
 msgid ":math:`5`"
-msgstr ""
+msgstr "：数学： `5`\n"
 
 # 2569e59c74e0449aa2d02da6b9f6dfd6
 #: ../source/userdoc/appendixA.rst:1153
 msgid ":math:`21`"
-msgstr ""
+msgstr "：数学： `21`\n"
 
 # 9bc30786ad52476db536d34311a3f058
 #: ../source/userdoc/appendixA.rst:1161
 msgid "Hsieh-Clough-Tocher element"
-msgstr ""
+msgstr "Hsieh-Clough-Tocher要素\n"
 
 # 6211ac90473542c6a40fa93938f69cd7
 #: ../source/userdoc/appendixA.rst:1168
 msgid "Hsieh-Clough-Tocher (HCT) element, :math:`P_3`, 12 d.o.f., :math:`C^1`"
-msgstr ""
+msgstr "Hsieh-Clough-Tocher（HCT）要素：数学： `P_3`、12日、数学：` C ^ 1`\n"
 
 # fba31faccddc46249528f115a5a25416
 #: ../source/userdoc/appendixA.rst:1171
 msgid ""
-"This element is not :math:`\\tau`-equivalent. This is a composite "
-"element. Polynomial of degree 3 on each of the three sub-triangles (see "
-"figure :ref:`ud-fig-HCT_tr` and [ciarlet1978]_). It is strongly advised "
-"to use a ``\"IM_HCT_COMPOSITE\"`` integration method with this finite "
-"element. The numeration of the dof is the following: 0, 3 and 6 for the "
-"lagrange dof on the first second and third vertex respectively; 1, 4, 7 "
-"for the derivative with respects to the first variable; 2, 5, 8 for the "
-"derivative with respects to the second variable and 9, 10, 11 for the "
-"normal derivatives on face 0, 1, 2 respectively."
+"This element is not :math:`\\tau`-equivalent. This is a composite element. "
+"Polynomial of degree 3 on each of the three sub-triangles (see figure "
+":ref:`ud-fig-HCT_tr` and [ciarlet1978]_). It is strongly advised to use a "
+"``\"IM_HCT_COMPOSITE\"`` integration method with this finite element. The "
+"numeration of the dof is the following: 0, 3 and 6 for the lagrange dof on "
+"the first second and third vertex respectively; 1, 4, 7 for the derivative "
+"with respects to the first variable; 2, 5, 8 for the derivative with "
+"respects to the second variable and 9, 10, 11 for the normal derivatives on "
+"face 0, 1, 2 respectively."
 msgstr ""
+"この要素は：math： `\\ tau`と等価ではありません。これは複合要素です。 3つのサブ三角形のそれぞれについて度3の多項式（図：ref： "
+"`ud-fig-HCT_tr`と[ciarlet1978] _を参照）。この有限要素との `` IM_HCT_COMPOSITE `` "
+"`統合メソッドを使うことを強くお勧めします。 "
+"dofの数値は次のとおりです。最初の2番目と3番目の頂点のラグランジュdofは0,3,6です。第1の変数に対する導関数の第1、第4、第7、第2の変数に対する導関数は2,5,8であり、面0,1,2のそれぞれの正規導関数については9,10,11である。\n"
 
 # 23c24c8daec14e2c96b0d8e9f2ba3b0a
 #: ../source/userdoc/appendixA.rst
 msgid "HCT element on a triangle ``\"FEM_HCT_TRIANGLE\"``"
-msgstr ""
+msgstr "三角「FEM_HCT_TRIANGLE」上のHCT要素\n"
 
 # bcc4892c932841f8880130064a2692a7
 # 7c41bcae2ebe41f49c2d820609662656
 #: ../source/userdoc/appendixA.rst:1194 ../source/userdoc/appendixA.rst:1299
 msgid ":math:`12`"
-msgstr ""
+msgstr "：数学： `12`\n"
 
 # 4703d9907922460c85dd43100949df1e
 #: ../source/userdoc/appendixA.rst:1207
 msgid ""
-"Reduced Hsieh-Clough-Tocher (reduced HCT) element, :math:`P_3`, 9 d.o.f.,"
-" :math:`C^1`"
-msgstr ""
+"Reduced Hsieh-Clough-Tocher (reduced HCT) element, :math:`P_3`, 9 d.o.f., "
+":math:`C^1`"
+msgstr "Hsieh-Clough-Tocher（還元HCT）要素の減少：数学：「P_3」、9 d.o.f.、：数学：「C ^ 1」\n"
 
 # 5241afb6efc64b8293d695d43d1f4dbb
 #: ../source/userdoc/appendixA.rst:1209
 msgid ""
-"This element exists also in its reduced form, where the normal "
-"derivatives are assumed to be polynomial of degree one on each edge (see "
-"figure :ref:`ud-fig-reduced_HCT_tr`)"
+"This element exists also in its reduced form, where the normal derivatives "
+"are assumed to be polynomial of degree one on each edge (see figure "
+":ref:`ud-fig-reduced_HCT_tr`)"
 msgstr ""
+"この要素は縮小形でも存在し、正規分布は各辺で次数1の多項式と仮定されます（図：ref： `ud-fig-reduced_HCT_tr`を参照）。\n"
 
 # 522f6731572846dc86c0c399aee314dc
 #: ../source/userdoc/appendixA.rst
 msgid "Reduced HCT element on a triangle ``\"FEM_REDUCED_HCT_TRIANGLE\"``"
-msgstr ""
+msgstr "三角「FEM_REDUCED_HCT_TRIANGLE」上のHCT要素の減少\n"
 
 # 1d1eaf85d9284952800d548845475bf7
 #: ../source/userdoc/appendixA.rst:1227
 msgid ":math:`9`"
-msgstr ""
+msgstr "：数学： `9`\n"
 
 # b6e8ed20a1464830baed730bf5175ec0
 #: ../source/userdoc/appendixA.rst:1235
 msgid "A composite :math:`C^1` element on quadrilaterals"
-msgstr ""
+msgstr "複合：数学：四角形の `C ^ 1`要素\n"
 
 # d0bbcf86e8d7491b838a926833492095
 #: ../source/userdoc/appendixA.rst:1242
 msgid ""
 "Composite element on quadrilaterals, piecewise :math:`P_3`, 16 d.o.f., "
 ":math:`C^1`"
-msgstr ""
+msgstr "分割された四辺形の複合要素：数学： `P_3`、16日、数学：` C ^ 1`\n"
 
 # 55bcec65ac8b427d9073fea69797ebbc
 #: ../source/userdoc/appendixA.rst:1245
 msgid ""
-"This element is not :math:`\\tau`-equivalent. This is a composite "
-"element. Polynomial of degree 3 on each of the four sub-triangles (see "
-"figure :ref:`ud-fig-QC1_tr`). At least on the reference element it "
-"corresponds to the Fraeijs de Veubeke-Sander element (see  "
-"[ciarlet1978]_). It is strongly advised to use a "
-"``\"IM_QUADC1_COMPOSITE\"`` integration method with this finite element."
+"This element is not :math:`\\tau`-equivalent. This is a composite element. "
+"Polynomial of degree 3 on each of the four sub-triangles (see figure "
+":ref:`ud-fig-QC1_tr`). At least on the reference element it corresponds to "
+"the Fraeijs de Veubeke-Sander element (see  [ciarlet1978]_). It is strongly "
+"advised to use a ``\"IM_QUADC1_COMPOSITE\"`` integration method with this "
+"finite element."
 msgstr ""
+"この要素は：math： `\\ tau`と等価ではありません。これは複合要素です。 4つのサブ三角形のそれぞれについて度3の多項式（図：ref： "
+"`ud-fig-QC1_tr`を参照）。少なくとも参照要素では、Fraeijs de Veubeke-"
+"Sander要素に対応します（[ciarlet1978] _を参照）。この有限要素で `` IM_QUADC1_COMPOSITE `` "
+"`の統合メソッドを使うことを強く勧めます。\n"
 
 # 88553e008ef447acaf835e7cc3482542
 #: ../source/userdoc/appendixA.rst
 msgid ""
 ". :math:`C^1` composite element on a quadrilateral (FVS) "
 "``\"FEM_QUADC1_COMPOSITE\"``"
-msgstr ""
+msgstr "。 ：四角形（FVS） `` `FEM_QUADC1_COMPOSITE '` `にある数学：` C ^ 1`複合要素\n"
 
 # 0cca3f9f5a8e41eb9dc80d551e69abcf
 #: ../source/userdoc/appendixA.rst:1265
 msgid ":math:`16`"
-msgstr ""
+msgstr "：数学： `16`\n"
 
 # afc6874b1ca9482cb886eab14ae7993d
 #: ../source/userdoc/appendixA.rst:1278
 msgid ""
 "Reduced composite element on quadrilaterals, piecewise :math:`P_3`, 12 "
 "d.o.f., :math:`C^1`"
-msgstr ""
+msgstr "四辺形の複合要素の減少、区分的：数学： `P_3`、12日、数学：` C ^ 1`\n"
 
 # d3faa13acdf14bb489fb744e11d2d236
 #: ../source/userdoc/appendixA.rst:1281
 msgid ""
-"This element exists also in its reduced form, where the normal "
-"derivatives are assumed to be polynomial of degree one on each edge (see "
-"figure :ref:`ud-fig-reduced_QC1_tr`)"
+"This element exists also in its reduced form, where the normal derivatives "
+"are assumed to be polynomial of degree one on each edge (see figure "
+":ref:`ud-fig-reduced_QC1_tr`)"
 msgstr ""
+"この要素は、その縮小形でも存在し、通常の導関数は各辺で次数1の多項式と仮定されます（図：ref： `ud-fig-"
+"reduced_QC1_tr`を参照）\n"
 
 # 41f50d65d79d467a9a66a4a849e85738
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Reduced :math:`C^1` composite element on a quadrilateral (reduced FVS) "
 "``\"FEM_REDUCED_QUADC1_COMPOSITE\"``"
-msgstr ""
+msgstr "縮小：数学：四角形（縮小FVS）の `C ^ 1`複合要素` `\" FEM_REDUCED_QUADC1_COMPOSITE \"` `\n"
 
 # e1645df6982b4f7d83c1648ffb95205d
 #: ../source/userdoc/appendixA.rst:1307
 msgid "Specific elements in dimension 3"
-msgstr ""
+msgstr "次元3の特定の要素\n"
 
 # 6c8bdd1e732746f28b3882592dc17889
 #: ../source/userdoc/appendixA.rst:1310
 msgid "Lagrange elements on 3D pyramid"
-msgstr ""
+msgstr "3Dピラミッド上のラグランジュ要素\n"
 
 # 5fbdd4248609448fb9ab8180861949c8
 #: ../source/userdoc/appendixA.rst:1312
 msgid ""
-"|gf| proposes some Lagrange pyramidal elements of degree 0, 1 and two "
-"based on [GR-GH1999]_ and [BE-CO-DU2010]_. See these references for more "
-"details. The proposed element can be raccorded to standard :math:`P_1` or"
-" :math:`P_2` Lagrange fem on the triangular faces and to a standard "
-":math:`Q_1` or :math:`Q_2` Lagrange fem on the quatrilateral face."
+"|gf| proposes some Lagrange pyramidal elements of degree 0, 1 and two based "
+"on [GR-GH1999]_ and [BE-CO-DU2010]_. See these references for more details. "
+"The proposed element can be raccorded to standard :math:`P_1` or :math:`P_2`"
+" Lagrange fem on the triangular faces and to a standard :math:`Q_1` or "
+":math:`Q_2` Lagrange fem on the quatrilateral face."
 msgstr ""
+"| gf | [GR-GH1999] _および[BE-CO-DU2010] "
+"_に基づいて、度0,1および2のいくつかのラグランジュピラミッド要素を提案する。詳細については、これらの参考文献を参照してください。提案された要素は、三角形面の標準：数学："
+" `P_1`または：数学：` P_2`ラグランジェフェムトと標準：数学： `Q_1`または：四則：Q_2`四角形面上のラグランジュfem 。\n"
 
 # 5cb5b4dbdfcc4f18928cd3d1f679a644
 #: ../source/userdoc/appendixA.rst
 msgid "Lagrange element on a pyramidal element of order 0, 1 and 2"
-msgstr ""
+msgstr "0次、1次、2次のピラミッド型要素上のラグランジュ要素\n"
 
 # 64b0a9f6ebfc40c4970fd144a7d3c00d
 #: ../source/userdoc/appendixA.rst:1330
 msgid "Degree 0 pyramidal element with 1 dof"
-msgstr ""
+msgstr "度1のピラミッド型要素\n"
 
 # dcaa4e9f65954d26b74cbb3dbdc34065
 #: ../source/userdoc/appendixA.rst:1331
 msgid "Degree 1 pyramidal element with 5 dof"
-msgstr ""
+msgstr "度5のピラミッド型要素\n"
 
 # 5ad2dd0b70b14adb967e910d5c8d95eb
 #: ../source/userdoc/appendixA.rst:1332
 msgid "Degree 2 pyramidal element with 14 dof"
-msgstr ""
+msgstr "度2のピラミッド型素子、14デシベル\n"
 
 # 03792d1311974e158c3316ddc984be0d
 #: ../source/userdoc/appendixA.rst:1335
 msgid ""
-"The associated geometric transformations are ``\"GT_PYRAMID(K)\"`` for K "
-"= 1 or 2. The associated integration methods ``\"IM_PYRAMID(im)\"`` where"
-" ``im`` is an integration method on a hexahedron (or alternatively "
-"``\"IM_PYRAMID_COMPOSITE(im)\"`` where ``im`` is an integration method on"
-" a tetrahedron, but it is theoretically less accurate) The shape "
-"functions are not polynomial ones but rational fractions. For the first "
-"degree the shape functions read:"
+"The associated geometric transformations are ``\"GT_PYRAMID(K)\"`` for K = 1"
+" or 2. The associated integration methods ``\"IM_PYRAMID(im)\"`` where "
+"``im`` is an integration method on a hexahedron (or alternatively "
+"``\"IM_PYRAMID_COMPOSITE(im)\"`` where ``im`` is an integration method on a "
+"tetrahedron, but it is theoretically less accurate) The shape functions are "
+"not polynomial ones but rational fractions. For the first degree the shape "
+"functions read:"
 msgstr ""
+"関連する幾何変換は、K = 1または2の場合の「GT_PYRAMID（K）」です。関連する積分方法「IM_PYRAMID（im）」「 `` "
+"im``は六面体の積分方法です（あるいは `` IM_PYRAMID_COMPOSITE（ \"im\"） \"` `` "
+"`は、四面体の積分方法ですが、理論的にはそれほど正確ではありません。）形状関数は多項式ではなく有理数です。最初の次数については、形状関数が読み取られます。\n"
 
 # 2a88aef0fa5e41f3bc2a7da9025b2ad8
 #: ../source/userdoc/appendixA.rst:1348
 msgid "For the second degree, setting"
-msgstr ""
+msgstr "二度目のために、\n"
 
 # b31da3318b3d41e3a494433d92303a46
 #: ../source/userdoc/appendixA.rst:1354
 msgid "the shape functions read:"
-msgstr ""
+msgstr "形状関数の読み込み：\n"
 
 # 32724b14918040f198b28577c3ae53ff
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Continuous Lagrange element of order 0, 1 or 2 "
 "``\"FEM_PYRAMID_LAGRANGE(K)\"``"
-msgstr ""
+msgstr "順序0,1または2の連続ラグランジュ要素 \"` `FEMピラミッドLAGRANGE（KY）` ``\n"
 
 # 03e8f2793e9c46aaad482897e9759fba
 # a8db868aaaad4d3d8320bbda7a7a2b0f
 #: ../source/userdoc/appendixA.rst:1387 ../source/userdoc/appendixA.rst:1425
 msgid ":math:`0`"
-msgstr ""
+msgstr "：数学： `0`\n"
 
 # 25143a89fc4f4076bce9a0969382e9a4
 # 7423c8317ced42c18bc11632c5371ef4
 #: ../source/userdoc/appendixA.rst:1405 ../source/userdoc/appendixA.rst:1443
 msgid ":math:`14`"
-msgstr ""
+msgstr "：数学： `14`\n"
 
 # d7d21a518cca4912a0cbd593ad868160
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Discontinuous Lagrange element of order 0, 1 or 2 "
 "``\"FEM_PYRAMID_DISCONTINUOUS_LAGRANGE(K)\"``"
-msgstr ""
+msgstr "FEM_PYRAMID_DISCONTINUOUS_LAGRANGE（K） \"` `0、1、または2の不連続ラグランジュ要素。\n"
 
 # 80026b344d534fd39fa27024d5f2e8a8
 #: ../source/userdoc/appendixA.rst
-msgid "Lagrange element on a tetrahedron with additional internal bubble function"
-msgstr ""
+msgid ""
+"Lagrange element on a tetrahedron with additional internal bubble function"
+msgstr "追加の内部気泡機能を有する四面体上のラグランジュ要素\n"
 
 # 45bb0257db2c4a55804eb3d223190de4
 #: ../source/userdoc/appendixA.rst:1470
 msgid ":math:`P_1` with additional bubble function, 5 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学：追加のバブル関数を持つ `P_1`、5日、：数学：` C ^ 0`\n"
 
 # 897e95360e52409699e31491685525bc
 #: ../source/userdoc/appendixA.rst:1471
 msgid ":math:`P_2` with additional bubble function, 11 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学：追加のバブル関数を持つ `P_2`、11日、：数学：` C ^ 0`\n"
 
 # 89f53e55fb744a20ba2881f9bc6f438d
 #: ../source/userdoc/appendixA.rst:1472
 msgid ":math:`P_3` with additional bubble function, 21 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学：追加のバブル関数を持つ `P_3`、21日、：数学：` C ^ 0`\n"
 
 # 9beda05691f04e09933b6f5241d80988
 #: ../source/userdoc/appendixA.rst
@@ -2068,48 +2156,52 @@ msgid ""
 ":math:`P_K` Lagrange element with an additional internal bubble function "
 "``\"FEM_PK_WITH_CUBIC_BUBBLE(3, K)\"``"
 msgstr ""
+"：math： `P_K`追加の内部バブル関数を持つLagrange要素` `\" FEM_PK_WITH_CUBIC_BUBBLE（3、K） \"` "
+"`\n"
 
 # 225b453413114fe2bb638b051b644adc
 #: ../source/userdoc/appendixA.rst:1490
 msgid ":math:`5`, :math:`11` or :math:`21`"
-msgstr ""
+msgstr "：数学：「5」、：数学：「11」または：数学：「21」\n"
 
 # 1a70ffe137384549babcb735a3cd7dca
 #: ../source/userdoc/appendixA.rst:1503
 msgid ""
 ":math:`P_1` Lagrange element on a tetrahedron with additional bubble "
 "function on face 0, 5 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "：数学： `P_1`四面体上のラグランジュ要素で、面上に追加のバブル関数を持つ、5 d.o.f.、：数学：` C ^ 0`\n"
 
 # 75d77e44185c4d8693e6351b216d827f
 #: ../source/userdoc/appendixA.rst
 msgid ""
-"Lagrange :math:`P_1` element with an additional bubble function on face 0"
-" ``\"FEM_P1_BUBBLE_FACE(3)\"``"
-msgstr ""
+"Lagrange :math:`P_1` element with an additional bubble function on face 0 "
+"``\"FEM_P1_BUBBLE_FACE(3)\"``"
+msgstr "ラグランジュ：面0にバブル関数を追加した数学： `P_1`要素` `\" FEM_P1_BUBBLE_FACE（3） \"` `\n"
 
 # 0149d89b7c46495eaaf5813face975dd
 #: ../source/userdoc/appendixA.rst:1536
 msgid "Hermite element on a tetrahedron, :math:`P_3`, 20 d.o.f., :math:`C^0`"
-msgstr ""
+msgstr "四面体のエルミート要素、：数学： `P_3`、20日、数学：` C ^ 0`\n"
 
 # d61da990273849859bdeac663f51455a
 #: ../source/userdoc/appendixA.rst:1566
 msgid ""
-"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not"
-" equal to identity). On the real element linear combinations of "
+"This element is not :math:`\\tau`-equivalent (The matrix :math:`M` is not "
+"equal to identity). On the real element linear combinations of "
 ":math:`\\widehat{\\varphi}_8`, :math:`\\widehat{\\varphi}_{12}` and "
 ":math:`\\widehat{\\varphi}_{16}` are used to match the gradient on the "
 "corresponding vertex. Idem on the other vertices."
 msgstr ""
+"この要素は、以下のものではありません：math： `\\ tau`-equivalent（行列：math：` M`は同一性ではありません）。 {\\ "
+"varhat} {16}の真の要素の線形結合については、：{\\ varhat} "
+"`は、対応する頂点の勾配を一致させるために使用されます。他の頂点上のIdem。\n"
 
 # 7ec9120b1a14496990539c0dbb5ac809
 #: ../source/userdoc/appendixA.rst
 msgid "Hermite element on a tetrahedron ``\"FEM_HERMITE(3)\"``"
-msgstr ""
+msgstr "四面体のエルミート要素 `` \"FEM_HERMITE（3）\" ``\n"
 
 # 08f5c56274f7480b9cab1e1e2c8c0bcf
 #: ../source/userdoc/appendixA.rst:1585
 msgid ":math:`20`"
-msgstr ""
-
+msgstr "：数学： `20`\n"

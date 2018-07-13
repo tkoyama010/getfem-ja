@@ -20,56 +20,59 @@ msgstr ""
 # 6f894dea1a9b48e39f5432a4a17f8100
 #: ../source/userdoc/model_fourier_robin.rst:15
 msgid "Fourier-Robin brick"
-msgstr ""
+msgstr "フーリエロビンレンガ\n"
 
 # f5d7dff7b2774eaba7389364ca039832
 #: ../source/userdoc/model_fourier_robin.rst:17
 msgid ""
 "This brick can be used to add boundary conditions of Fourier-Robin type "
 "like:"
-msgstr ""
+msgstr "このレンガは、フーリエ - ロビンタイプの境界条件を追加するために使用できます：\n"
 
 # 94e19873e37d4f7a8438086c2e27ec41
 #: ../source/userdoc/model_fourier_robin.rst:23
 msgid "for scalar problems, or"
-msgstr ""
+msgstr "スカラー問題の場合、または\n"
 
 # f1b7ca082e164dba9a9f25f81b3c9e86
 #: ../source/userdoc/model_fourier_robin.rst:29
 msgid ""
-"for linearized elasticity problems. ``Q`` is a scalar field in the scalar"
-" case or a matrix field in the vectorial case. This brick works for both "
-"real or complex terms in scalar or vectorial problems."
+"for linearized elasticity problems. ``Q`` is a scalar field in the scalar "
+"case or a matrix field in the vectorial case. This brick works for both real"
+" or complex terms in scalar or vectorial problems."
 msgstr ""
+"線形弾性問題のために。 `` "
+"Q``は、スカラーの場合のスカラーフィールドまたはベクトルの場合のマトリックスフィールドです。このレンガは、スカラーまたはベクトル問題の実数または複雑な条件の両方に使用できます。\n"
 
 # 8118c9a67b424240a377018626d17cc8
 #: ../source/userdoc/model_fourier_robin.rst:33
 msgid "The function adding this brick to a model is::"
-msgstr ""
+msgstr "このブリックをモデルに追加する関数は::\n"
 
 # b6a8e2c87e4b4de79084c6aa6f364853
 #: ../source/userdoc/model_fourier_robin.rst:37
 msgid ""
-"where ``dataexpr`` is the data of the model which represents the "
-"coefficient :math:`Q`.  It can be an arbitrary valid expression of the "
-"weak form language (except for the complex version for which it should be"
-" a data of the model)"
+"where ``dataexpr`` is the data of the model which represents the coefficient"
+" :math:`Q`.  It can be an arbitrary valid expression of the weak form "
+"language (except for the complex version for which it should be a data of "
+"the model)"
 msgstr ""
+"ここで `` dataexpr``は係数を表すモデルのデータです：math： "
+"`Q`。これは、弱い形式の言語の任意の有効な式（モデルのデータでなければならない複雑なバージョンを除く）\n"
 
 # 5dde77f21ebc4639bebb9802830e2da2
 #: ../source/userdoc/model_fourier_robin.rst:40
 msgid ""
 "Note that an additional right hand side can be added with a source term "
 "brick."
-msgstr ""
+msgstr "追加の右側にソース用語ブリックを追加することができます。\n"
 
 # aefb66250677475f9b79d7143764f58e
 #: ../source/userdoc/model_fourier_robin.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # aefb66250677475f9b79d7143764f58e
 #: ../source/userdoc/model_fourier_robin.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"

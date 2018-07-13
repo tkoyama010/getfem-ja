@@ -20,55 +20,58 @@ msgstr ""
 # 29ed0db26c0646d6a19fd3566cb245f5
 #: ../source/userdoc/model_constraint.rst:15
 msgid "Constraint brick"
-msgstr ""
+msgstr "拘束レンガ\n"
 
 # d0dd84cd0326437b959b0f2d6aac8d66
 #: ../source/userdoc/model_constraint.rst:17
 msgid ""
 "The constraint brick allows to add an explicit constraint on a variable. "
-"Explicit means that no integration is done. if :math:`U` is a variable "
-"then a constraint of the type"
+"Explicit means that no integration is done. if :math:`U` is a variable then "
+"a constraint of the type"
 msgstr ""
+"制約ブリックでは、変数に明示的な制約を追加できます。明示的とは、統合が行われていないことを意味します。 if：math： "
+"`U`は変数で、型の制約です\n"
 
 # 29e07fb37b5c4637b52567e201c9e8aa
 #: ../source/userdoc/model_constraint.rst:25
 msgid "can be added with the two following functions::"
-msgstr ""
+msgstr "次の2つの関数で追加することができます::\n"
 
 # af368ce26f8b431da04796cc6538c56d
 #: ../source/userdoc/model_constraint.rst:32
 msgid ""
-"In the second case, a (fixed size) variable which will serve as a "
-"multiplier should be first added to the model."
-msgstr ""
+"In the second case, a (fixed size) variable which will serve as a multiplier"
+" should be first added to the model."
+msgstr "2番目のケースでは、乗数として機能する（固定サイズの）変数を最初にモデルに追加する必要があります。\n"
 
 # b4b7d03e09214ebda69b37f04e4f7312
 #: ../source/userdoc/model_constraint.rst:35
 msgid ""
-"For the penalized version ``B`` should not contain a plain row, otherwise"
-" the whole tangent matrix will be plain. The penalization parameter can "
-"be changed thanks to the function::"
+"For the penalized version ``B`` should not contain a plain row, otherwise "
+"the whole tangent matrix will be plain. The penalization parameter can be "
+"changed thanks to the function::"
 msgstr ""
+"罰則版では、 `` "
+"B``はプレーンな行を含んではいけません。さもなければ、接線行列全体が明白になります。ペナルティ・パラメータは次の関数によって変更することができます::\n"
 
 # 391d5e1b2e7542cc82fdc2507d71cc9b
 #: ../source/userdoc/model_constraint.rst:41
 msgid ""
 "It is possible to change the constraints at any time thanks to the two "
 "following functions::"
-msgstr ""
+msgstr "次の2つの関数のおかげで、いつでも制約を変更することができます::\n"
 
 # 0b6cf2109cec4db89e15531255d8fa2b
 #: ../source/userdoc/model_constraint.rst:47
 msgid "where ``indbrick`` is the index of the brick in the model."
-msgstr ""
+msgstr "ここで `` indbrick``はモデル内のレンガのインデックスです。\n"
 
 # 172873c34e2d41d9babf6b771038fc91
 #: ../source/userdoc/model_constraint.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # 172873c34e2d41d9babf6b771038fc91
 #: ../source/userdoc/model_constraint.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"

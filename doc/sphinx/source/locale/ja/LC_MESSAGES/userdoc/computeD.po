@@ -20,23 +20,25 @@ msgstr ""
 # a753186e36ca414d8cd0f1b9bdad505e
 #: ../source/userdoc/computeD.rst:10
 msgid "Compute derivatives"
-msgstr ""
+msgstr "デリバティブの計算\n"
 
 # 525d6106f53445a99d4fbab0d50b8528
 #: ../source/userdoc/computeD.rst:12
 msgid ""
-"The file :file:`getfem/getfem_derivatives.h` defines the following "
-"function to compute the gradient of a solution::"
-msgstr ""
+"The file :file:`getfem/getfem_derivatives.h` defines the following function "
+"to compute the gradient of a solution::"
+msgstr "file：file： `getfem / getfem_derivatives.h`は、解の勾配を計算する次の関数を定義します::\n"
 
 # bf376c45af8d4d1895cffaa20918932a
 #: ../source/userdoc/computeD.rst:17
 msgid ""
-"where ``mf1`` is a variable of type |mf| and describes the finite element"
-" method on which the solution is defined, ``mf2`` describes the finite "
-"element method to compute the gradient, ``U`` is a vector representing "
-"the solution and should be of size ``mf1.nb_dof()``, ``V`` is the vector "
-"on which the gradient will be computed and should be of size ``N * "
+"where ``mf1`` is a variable of type |mf| and describes the finite element "
+"method on which the solution is defined, ``mf2`` describes the finite "
+"element method to compute the gradient, ``U`` is a vector representing the "
+"solution and should be of size ``mf1.nb_dof()``, ``V`` is the vector on "
+"which the gradient will be computed and should be of size ``N * "
 "mf2.nb_dof()``, with ``N`` the dimension of the domain."
 msgstr ""
-
+"ここで `` mf1``はタイプの変数です| mf | `` mf2``は勾配を計算する有限要素法を記述し、 `` "
+"U``は解を表すベクトルであり、サイズ `` mf1.nb_dof（ ） ``、 `` V``は、グラデーションが計算されるベクトルであり、サイズが "
+"`` N * mf2.nb_dof（） ``で、ドメインの次元が \"N\"でなければなりません。\n"

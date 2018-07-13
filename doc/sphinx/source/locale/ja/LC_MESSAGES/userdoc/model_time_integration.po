@@ -20,120 +20,128 @@ msgstr ""
 # e67dc6f7705349d1bff89e218000df25
 #: ../source/userdoc/model_time_integration.rst:14
 msgid "The model tools for the integration of transient problems"
-msgstr ""
+msgstr "一時的な問題の統合のためのモデルツール\n"
 
 # 7058d506e34c4bd597a6b9b1039648f4
 #: ../source/userdoc/model_time_integration.rst:16
 msgid ""
 "Although time integration scheme can be written directly using the model "
-"object by describing the problem to be solved at each iteration, the "
-"model object furnishes some basic tools to facilitate the writing of such"
-" schemes. These tools are based on the following basic principles:"
+"object by describing the problem to be solved at each iteration, the model "
+"object furnishes some basic tools to facilitate the writing of such schemes."
+" These tools are based on the following basic principles:"
 msgstr ""
+"時間積分スキームは、各反復で解決すべき問題を記述することによってモデルオブジェクトを使用して直接書くことができるが、モデルオブジェクトは、そのようなスキームの書込みを容易にするためのいくつかの基本的なツールを提供する。これらのツールは、次の基本原則に基づいています。\n"
 
 # e227172864db44a5a1d682ca478629a0
 #: ../source/userdoc/model_time_integration.rst:18
 msgid ""
-"The original variables of the model represent the state of the system to "
-"be solved at the current time step (say step n). This is the case even "
-"for a middle point scheme, mainly because if one needs to apply different"
-" schemes to different variables of the system, all variable should "
-"describe the system at a unique time step."
+"The original variables of the model represent the state of the system to be "
+"solved at the current time step (say step n). This is the case even for a "
+"middle point scheme, mainly because if one needs to apply different schemes "
+"to different variables of the system, all variable should describe the "
+"system at a unique time step."
 msgstr ""
+"モデルの元の変数は、現在の時間ステップ（例えば、ステップn）で解かれるべきシステムの状態を表す。これは、中点スキームの場合でさえ、主にシステムの異なる変数に異なるスキームを適用する必要がある場合、すべての変数は固有の時間ステップでシステムを記述する必要があるためです。\n"
 
 # 3cd46484f43a49dc8e4e70f335f4cda1
 #: ../source/userdoc/model_time_integration.rst:20
 msgid ""
 "Some data are added to the model to represent the state of the system at "
-"previous time steps. For classical one-step schemes (for the moment, only"
-" one-step schemes are provided), only the previous time step is stored. "
-"For instance if `u` is a variable (thus represented at step n), "
-"`Previous_u` will be the data representing the state of the variable at "
-"the previous time step (step n-1). Eventually, for future extension to "
-"multi-step methods, `Previous2_u` may represent the variable at time step"
-" n-2."
+"previous time steps. For classical one-step schemes (for the moment, only "
+"one-step schemes are provided), only the previous time step is stored. For "
+"instance if `u` is a variable (thus represented at step n), `Previous_u` "
+"will be the data representing the state of the variable at the previous time"
+" step (step n-1). Eventually, for future extension to multi-step methods, "
+"`Previous2_u` may represent the variable at time step n-2."
 msgstr ""
+"いくつかのデータがモデルに追加され、以前の時間ステップでのシステムの状態を表します。古典的な1ステップスキーム（現時点では、1ステップスキームのみが提供される）では、前のタイムステップのみが記憶される。例えば、「u」が変数である（ステップnで表される）場合、「Previous_u」は前の時間ステップ（ステップn-1）における変数の状態を表すデータである。結局、マルチステップ法への将来の拡張のために、「Previous2_u」は、時間ステップn-2における変数を表すことができる。\n"
 
 # 33d93cb7945f4b46b74bd57aaff03393
 #: ../source/userdoc/model_time_integration.rst:22
 msgid ""
 "Some intermediate variables are added to the model to represent the time "
-"derivative (and the second order time derivative for second order "
-"problem). For instance, if `u` is a variable, `Dot_u` will represent the "
-"first order time derivative of `u` and `Dot2_u` the second order one. One"
-" can refer to these variables in the model to add a brick on it or to use"
-" it in the weak form language. However, these are not considered to be "
-"independent variables, they will be linked to their corresponding "
-"original variable (in an affine way) by the time integration scheme. Most"
-" of the schemes need also the time derivative at the previous time step "
-"and add the data `Previous_Dot_u` and possibly `Previous_Dot2_u` to the "
-"model."
+"derivative (and the second order time derivative for second order problem). "
+"For instance, if `u` is a variable, `Dot_u` will represent the first order "
+"time derivative of `u` and `Dot2_u` the second order one. One can refer to "
+"these variables in the model to add a brick on it or to use it in the weak "
+"form language. However, these are not considered to be independent "
+"variables, they will be linked to their corresponding original variable (in "
+"an affine way) by the time integration scheme. Most of the schemes need also"
+" the time derivative at the previous time step and add the data "
+"`Previous_Dot_u` and possibly `Previous_Dot2_u` to the model."
 msgstr ""
+"いくつかの中間変数は、時間導関数（および2次問題の2次時間導関数）を表すためにモデルに追加されます。例えば、 `u`が変数であれば、` Dot_u`は "
+"`u`の一次時間導関数を表し、` "
+"Dot2_u`は二次のものを表します。モデル内のこれらの変数を参照して、レンガを追加するか、弱いフォーム言語で使用することができます。しかし、これらは独立変数とはみなされず、時間積分スキームによって対応する元の変数（アファイン方式で）にリンクされます。スキームの大部分は前のタイムステップで時間微分を必要とし、"
+" `Previous_Dot_u`とおそらく` Previous_Dot2_u`データをモデルに加えます。\n"
 
 # aa35df65120c4a72be2ae91f4aa2f176
 #: ../source/userdoc/model_time_integration.rst:24
 msgid ""
-"A different time integration scheme can be applied on each variable of "
-"the model. Note that most of the time, multiplier variable and more "
-"generally variables for which no time derivative is used do not need a "
-"time integration scheme."
+"A different time integration scheme can be applied on each variable of the "
+"model. Note that most of the time, multiplier variable and more generally "
+"variables for which no time derivative is used do not need a time "
+"integration scheme."
 msgstr ""
+"異なる時間積分スキームは、モデルの各変数に適用することができます。ほとんどの場合、乗数変数、より一般的には時間微分が使用されない変数は時間積分スキームを必要としないことに注意してください。\n"
 
 # ca5d0b5118df4090b265a0201b590a14
 #: ../source/userdoc/model_time_integration.rst:26
 msgid ""
 "The data `t` represent the time parameter and can be used (either in the "
-"weak form language or as parameter of some bricks). Before the assembly "
-"of the system, the data `t` is automatically updated to the time step "
-"`n`."
+"weak form language or as parameter of some bricks). Before the assembly of "
+"the system, the data `t` is automatically updated to the time step `n`."
 msgstr ""
+"データ「t」は時間パラメータを表し、（弱い形式の言語で、またはいくつかのレンガのパラメータとして）使用することができる。システムの組み立て前に、データ「t」は自動的に時間ステップ「n」に更新される。\n"
 
 # 5add31692c964ee18ff7c5ffc4fb31c8
 #: ../source/userdoc/model_time_integration.rst:28
 msgid ""
-"The problem to be solved at each iteration correspond to the formulation "
-"of the transient problem in its natural (weak) formulation in which the "
-"velocity and the acceleration are expressed by the intermediate variables"
-" introduced. For instance, the translation into the weak form language of"
-" the problem"
+"The problem to be solved at each iteration correspond to the formulation of "
+"the transient problem in its natural (weak) formulation in which the "
+"velocity and the acceleration are expressed by the intermediate variables "
+"introduced. For instance, the translation into the weak form language of the"
+" problem"
 msgstr ""
+"各反復で解くべき問題は、速度と加速度が導入された中間変数によって表されるその自然（弱い）定式化における過渡問題の定式化に対応する。例えば、問題の弱い形の言語への翻訳\n"
 
 # ff703d96ad2f41c2ade5f78be953f013
 #: ../source/userdoc/model_time_integration.rst:34
 msgid "can simply be::"
-msgstr ""
+msgstr "単にすることができます::\n"
 
 # ec841e98575546beb2572faf6ad7c849
 #: ../source/userdoc/model_time_integration.rst:38
 msgid ""
 "(even though, of course, in this situation, the use of linear bricks is "
 "preferable for efficiency reasons)"
-msgstr ""
+msgstr "（もちろん、このような状況では、効率的な理由から線形レンガの使用が望ましい）\n"
 
 # bf6a49ac10b94dceb58c45102b2ec8a7
 #: ../source/userdoc/model_time_integration.rst:40
 msgid ""
-"For all implemented one-step schemes, the time step can be changed from "
-"an iteration to another for both order one and order two in time problems"
-" (or even quasi-static problems)."
-msgstr ""
+"For all implemented one-step schemes, the time step can be changed from an "
+"iteration to another for both order one and order two in time problems (or "
+"even quasi-static problems)."
+msgstr "実装されたすべての1ステップスキームでは、時間の問題は1次と2次の両方の問題（または準静的問題）でも反復から変更することができます。\n"
 
 # 2efa3038ffe6467698ca33fe40a12794
 #: ../source/userdoc/model_time_integration.rst:42
 msgid ""
-"A scheme for second order in time problem (resp. first order in time) can"
-" be applied to a second or first order in time or even to a quasi-static "
-"problem (resp. to a first order or quasi-static problem) without any "
-"problem except that the initial data corresponding to the "
-"velocity/displacement have to be initialized with respect ot the order of"
-" the scheme. Conversely, of course, a scheme for first order problem "
-"cannot be applied to a second order in time problem."
+"A scheme for second order in time problem (resp. first order in time) can be"
+" applied to a second or first order in time or even to a quasi-static "
+"problem (resp. to a first order or quasi-static problem) without any problem"
+" except that the initial data corresponding to the velocity/displacement "
+"have to be initialized with respect ot the order of the scheme. Conversely, "
+"of course, a scheme for first order problem cannot be applied to a second "
+"order in time problem."
 msgstr ""
+"2次時間問題（1次時間）に対するスキームは、2次または1次の時間に、あるいは準静的問題（1次または準静的問題へ）に適用することもできます速度/変位に対応する初期データをスキームのオーダーに関して初期化しなければならないという点を除いて、逆に、もちろん、一次問題のスキームは、二次問題の時間問題に適用することはできません。\n"
 
 # 1bdde9b41f3847c39d2a55f770138f40
 #: ../source/userdoc/model_time_integration.rst:46
 msgid "The implicit theta-method for first-order problems"
-msgstr ""
+msgstr "一次問題の暗黙のシータ法\n"
 
 # 0e27db63f9bd467797f2152cbded24bd
 # 57db7d9a651b498f841766bf0344cc4d
@@ -142,7 +150,7 @@ msgstr ""
 #: ../source/userdoc/model_time_integration.rst:124
 #: ../source/userdoc/model_time_integration.rst:178
 msgid "For a problem which reads"
-msgstr ""
+msgstr "読んでいる問題\n"
 
 # 66a887edac1b446eaf13c32a9f810300
 #: ../source/userdoc/model_time_integration.rst:54
@@ -152,27 +160,36 @@ msgid ""
 "\\dot{U}` and :math:`U^n, V^n` the approximation of :math:`U, V` at time "
 ":math:`ndt`, theta-method reads"
 msgstr ""
+"math： `dt`は時間ステップ、mathは` V = \\ dot {U} `に、そして` F（U） "
+"`は非線形である可能性があります（結合問題の他の変数に依存するかもしれません）。 ：math： `U ^ n、V ^ n`の近似：math：` "
+"U、V`時に：math： `ndt`、theta-method reads\n"
 
 # d0a43ee619654b039d223e494b3a11a8
 #: ../source/userdoc/model_time_integration.rst:63
 msgid ""
 "for :math:`\\theta \\in (0, 1]` the parameter of the theta-method (for "
-":math:`\\theta = 0`, the method corresponds to the forward Euler method "
-"and is not an implicit scheme) and for :math:`U^{n-1}, V^{n-1}` given."
+":math:`\\theta = 0`, the method corresponds to the forward Euler method and "
+"is not an implicit scheme) and for :math:`U^{n-1}, V^{n-1}` given."
 msgstr ""
+"for：theath-methodのパラメータである\\ theta \\ in（0、1） `（for：math：` \\ theta = "
+"0`メソッドは前方オイラーメソッドに対応し、暗黙スキームではありません） for：数学： `U ^ {n-1}、V ^ {n-1}`が与えられます。\n"
 
 # 4f96b4eca3504dcb8210b2bcd9f044c6
 #: ../source/userdoc/model_time_integration.rst:65
 msgid ""
 "Before the first time step, :math:`U^0` should be initialized, however, "
 ":math:`V^0` is also needed (except for :math:`\\theta = 1`). In this "
-"example, it should correspond to :math:`M^{-1}F(U^0)`. For a general "
-"coupled problem where :math:`M` might be singular, a generic "
-"precomputation of :math:`V^0` is difficult to obtain. Thus :math:`V^0` "
-"have to be furnisded also. Alternatively (see below) the model object "
-"(and the standard solve) furnishes a mean to evaluate them thanks to the "
-"application of a Backward Euler scheme on a (very) small time step."
+"example, it should correspond to :math:`M^{-1}F(U^0)`. For a general coupled"
+" problem where :math:`M` might be singular, a generic precomputation of "
+":math:`V^0` is difficult to obtain. Thus :math:`V^0` have to be furnisded "
+"also. Alternatively (see below) the model object (and the standard solve) "
+"furnishes a mean to evaluate them thanks to the application of a Backward "
+"Euler scheme on a (very) small time step."
 msgstr ""
+"最初の時間ステップの前に：数学： `U ^ 0`を初期化する必要があります：しかし、数学：` V ^ 0`も必要です（：math： `\\ theta "
+"= 1`を除く）。この例では、それは：math： `M ^ { -  1} F（U ^ 0）`に対応するはずです。一般的な結合問題：数学： "
+"`M`は特異であり、一般的な事前計算：数学：` V ^ 0`を得ることは困難です。したがって：数学： `V ^ "
+"0`もまた備えなければならない。代替的に（以下を参照）、モデルオブジェクト（および標準解）は、（非常に）小さな時間ステップでバックワードオイラースキームを適用することによりそれらを評価するための平均値を提供します。\n"
 
 # d42f4310eaab4d9ea1d8acc6f9623723
 # ae477267b04c4a198859ca53b2afb537
@@ -181,21 +198,21 @@ msgstr ""
 #: ../source/userdoc/model_time_integration.rst:144
 #: ../source/userdoc/model_time_integration.rst:198
 msgid "The following formula can be deduced for the time derivative:"
-msgstr ""
+msgstr "次の式は時間微分のために導き出すことができます：\n"
 
 # 08eab9e44b9f49548c513922829c5c84
 #: ../source/userdoc/model_time_integration.rst:74
 msgid ""
-"When applying this scheme to a variable \"u\" of the model, the following"
-" affine dependent variable is added to the model::"
-msgstr ""
+"When applying this scheme to a variable \"u\" of the model, the following "
+"affine dependent variable is added to the model::"
+msgstr "このスキームをモデルの変数 \"u\"に適用すると、次のアフィン依存変数がモデルに追加されます::\n"
 
 # 0ad810d1583b40aa8a9e682a2c179934
 #: ../source/userdoc/model_time_integration.rst:78
 msgid ""
-"which represent the time derivative of the variable and can be used in "
-"some brick definition."
-msgstr ""
+"which represent the time derivative of the variable and can be used in some "
+"brick definition."
+msgstr "変数の時間微分を表し、いくつかのブリック定義で使用することができます。\n"
 
 # 9b756466fe7b427194cf4fc76d2b9def
 # 778ca06b21c64adc9a7a5bb9d8229aad
@@ -204,94 +221,104 @@ msgstr ""
 #: ../source/userdoc/model_time_integration.rst:158
 #: ../source/userdoc/model_time_integration.rst:212
 msgid "The following data are also added::"
-msgstr ""
+msgstr "以下のデータも追加されています::\n"
 
 # 51fcb1b788f148dfa3d0329f71f48027
 #: ../source/userdoc/model_time_integration.rst:84
 msgid ""
-"which correspond to the values of \"u\" and \"Dot_u\" at the previous "
-"time step."
-msgstr ""
+"which correspond to the values of \"u\" and \"Dot_u\" at the previous time "
+"step."
+msgstr "前回のタイムステップにおける \"u\"と \"Dot_u\"の値に対応する。\n"
 
 # 2542e827fc5748eaa01ba6d9dcf9297f
 #: ../source/userdoc/model_time_integration.rst:86
 msgid ""
-"Before the solve, the data  \"Previous_u\" (corresponding to :math:`U^0` "
-"in the example) has to be initialized (except for :math:`\\theta = 1`). "
-"Again, \"Previous_Dot_u\" has to be either initialized or pre-computed as"
-" described in the next section. The affine dependence of \"Dot_u\" is "
-"thus given by::"
+"Before the solve, the data  \"Previous_u\" (corresponding to :math:`U^0` in "
+"the example) has to be initialized (except for :math:`\\theta = 1`). Again, "
+"\"Previous_Dot_u\" has to be either initialized or pre-computed as described"
+" in the next section. The affine dependence of \"Dot_u\" is thus given by::"
 msgstr ""
+"解く前に、データ \"Previous_u\"（例：math： `\\ theta = "
+"1`を除く）を初期化する必要があります。ここでも、「Previous_Dot_u」は、次のセクションで説明するように、初期化されるか事前計算される必要があります。したがって、Dot_uのアフィン依存性は、次のように与えられる。\n"
 
 # 0144876a782e4845868a88c5ec2567a3
 #: ../source/userdoc/model_time_integration.rst:90
 msgid ""
 "Which means that \"Dot_u\" will be replaced at assembly time by its "
 "expression in term of \"u\" (multipied by :math:`1/(\\theta*dt)`) and in "
-"term of a constant remaining part depending on the previous time step. "
-"The addition of this scheme to a variable is to be done thanks to::"
+"term of a constant remaining part depending on the previous time step. The "
+"addition of this scheme to a variable is to be done thanks to::"
 msgstr ""
+"つまり、 \"Dot_u\"はアセンブリ時に \"u\"（数式：1 /（\\ theta * "
+"dt）を掛けたもの）という表現で置き換えられ、前のタイムステップ。変数へのこのスキームの追加は::\n"
 
 # fc46092c2178440a85dec63dea676b7f
 #: ../source/userdoc/model_time_integration.rst:98
 msgid "Precomputation of velocity/acceleration"
-msgstr ""
+msgstr "速度/加速度の事前計算\n"
 
 # 9f2e40ede1664897b8039f8f2695377c
 #: ../source/userdoc/model_time_integration.rst:100
 msgid ""
 "Most of the time integration schemes (except, for instance, the backward "
-"Euler scheme) needs the pre-computation of the first or second order time"
-" derivative before the initial time step (for instance :math:`V^0` for "
-"the theta-method for first order problems, :math:`A^0` for second order "
-"problems ...)."
+"Euler scheme) needs the pre-computation of the first or second order time "
+"derivative before the initial time step (for instance :math:`V^0` for the "
+"theta-method for first order problems, :math:`A^0` for second order problems"
+" ...)."
 msgstr ""
+"大部分の時間積分スキーム（例えば、後方オイラースキームを除く）は、最初の時間ステップの前に第1または第2の時間微分の事前計算を必要とする（例えば、：theta-第1次問題のための方法、第2次問題のための数学："
+" `A ^ 0 ...）。\n"
 
 # 5e3d04646eb547bfac61c0bd2f19aaa2
 #: ../source/userdoc/model_time_integration.rst:102
 msgid ""
-"The choice is let to the user to either initialize these derivative or to"
-" ask to the model to automatically approximate them."
-msgstr ""
+"The choice is let to the user to either initialize these derivative or to "
+"ask to the model to automatically approximate them."
+msgstr "選択は、ユーザーにこれらの派生物を初期化するか、モデルに自動的に近似するよう依頼することができます。\n"
 
 # ff99aefbfa7a4aa697d07da56bf3ae13
 #: ../source/userdoc/model_time_integration.rst:105
 msgid ""
 "The method used (for the moment) to approximate the supplementary "
 "derivatives may be explained in the example of the solve of"
-msgstr ""
+msgstr "補完的な導関数を近似するために（現時点で）使用されている方法は、\n"
 
 # 7d27b17d613045efbeb1558669017d84
 #: ../source/userdoc/model_time_integration.rst:111
 msgid ""
 "with a theta-method (see the previous section). In order to approximate "
 ":math:`V_0`, the theta-method is applied for :math:`\\theta = 1` (i.e. a "
-"backward Euler scheme) on a very small time step. This is possible since "
-"the  backward Euler do not need an initial time derivative. Then the time"
-" derivative computed thanks to the  backward Euler at the end of the very"
-" small time step is simply used as an approximation of the initial time "
+"backward Euler scheme) on a very small time step. This is possible since the"
+"  backward Euler do not need an initial time derivative. Then the time "
+"derivative computed thanks to the  backward Euler at the end of the very "
+"small time step is simply used as an approximation of the initial time "
 "derivative."
 msgstr ""
+"theta-method（前のセクションを参照）を使用します。近似するために：数学：「V_0」、theta法は、非常に小さな時間ステップで、数学： "
+"`\\ theta = 1 "
+"'（すなわち、後方オイラー法）に適用される。これは、後退オイラーが初期時間微分を必要としないので可能です。その後、非常に小さな時間ステップの終了時の後方オイラーのおかげで計算された時間微分は、単純に初期時間微分の近似値として使用されます。\n"
 
 # 7a00f268eb2c40fb8ce7e6d065b816c4
 #: ../source/userdoc/model_time_integration.rst:114
 msgid "For a model `md`, the following instructions::"
-msgstr ""
+msgstr "モデル `md`については、以下の命令::\n"
 
 # b90aad37bcd344eabf39635d8eb92295
 #: ../source/userdoc/model_time_integration.rst:119
 msgid ""
 "allows to perform automatically the approximation of the initial time "
-"derivative. The parameter `ddt` corresponds to the small time step used "
-"to perform the aproximation. Typically, `dtt = dt/20` could be used where"
-"  `dt` is the time step used to approximate the transient problem (see "
-"the example below)."
+"derivative. The parameter `ddt` corresponds to the small time step used to "
+"perform the aproximation. Typically, `dtt = dt/20` could be used where  `dt`"
+" is the time step used to approximate the transient problem (see the example"
+" below)."
 msgstr ""
+"初期時間導関数の近似を自動的に実行することを可能にする。パラメータ「ddt」は、近似を実行するために使用される小さな時間ステップに対応する。典型的には、dt"
+" = dt / 20を使用することができ、ここで、dtは過渡問題を近似するために使用される時間ステップである（以下の例を参照）。\n"
 
 # b45428eec9bf4789a214c3e88e052f03
 #: ../source/userdoc/model_time_integration.rst:122
 msgid "The implicit theta-method for second-order problems"
-msgstr ""
+msgstr "二次問題の暗黙のシータ法\n"
 
 # e0caf35429d746febace9eb20c310132
 # 52a3681194cb44c9a52130e183c6e179
@@ -300,26 +327,31 @@ msgstr ""
 msgid ""
 "where :math:`F(U)` might be nonlinear (and may depend on some othere "
 "variables for coupled problems), for :math:`dt` a time step, :math:`V = "
-"\\dot{U}`, :math:`A = \\ddot{U}` and :math:`U^n, V^n, A^n` the "
-"approximation of :math:`U, V, A` at time :math:`ndt`, the first oder "
-"theta-method reads"
+"\\dot{U}`, :math:`A = \\ddot{U}` and :math:`U^n, V^n, A^n` the approximation"
+" of :math:`U, V, A` at time :math:`ndt`, the first oder theta-method reads"
 msgstr ""
+"math： `dt`はタイムステップ、mathは` V = \\ dot {U} `、 ：math： `A = \\ ddot {U}`と：math： "
+"`U ^ n、V ^ n、A ^ n`は次の近似です：時刻：` U、V、A`：math： `ndt` 、最初のtheta-method読み取り\n"
 
 # ae6e9b0845674bdeb210a3ff592cbac7
 #: ../source/userdoc/model_time_integration.rst:140
 msgid ""
 "for :math:`\\theta \\in (0, 1]` the parameter of the theta-method (for "
-":math:`\\theta = 0`, the method correspond to the forward Euler method "
-"and is not an implicit scheme) and for :math:`U^{n-1}, V^{n-1}, A^{n-1}` "
-"given."
+":math:`\\theta = 0`, the method correspond to the forward Euler method and "
+"is not an implicit scheme) and for :math:`U^{n-1}, V^{n-1}, A^{n-1}` given."
 msgstr ""
+"for：theath-methodのパラメータである\\ theta \\ in（0、1） `（for：math：` \\ theta = "
+"0`、メソッドは前方オイラーメソッドに対応し、暗黙スキームではありません） for：数学： `U ^ {n-1}、V ^ {n-1}、A ^ "
+"{n-1}`は与えられます。\n"
 
 # 87658eeeae2e4235ae0f0e7d46c6034c
 #: ../source/userdoc/model_time_integration.rst:142
 msgid ""
-"At the first time step, :math:`U^0, V^0` should be given and :math:`A^0` "
-"is to be given or pre-computed (except for :math:`\\theta = 1`)."
+"At the first time step, :math:`U^0, V^0` should be given and :math:`A^0` is "
+"to be given or pre-computed (except for :math:`\\theta = 1`)."
 msgstr ""
+"最初のステップでは、数学： `U ^ 0、V ^ 0`が与えられ、数学的に：A ^ 0が与えられるか、あらかじめ計算されるべきです（数学：` \\ "
+"theta = 1` ）。\n"
 
 # 0cc8a06f86ce441fa3156cdf38740fa0
 # d8ebecf937b849579aa0d835bb18f2d3
@@ -328,25 +360,25 @@ msgstr ""
 msgid ""
 "When aplying this scheme to a variable \"u\" of the model, the following "
 "affine dependent variables are added to the model::"
-msgstr ""
+msgstr "このスキームをモデルの変数 \"u\"に適用すると、以下のアフィン依存変数がモデルに追加されます::\n"
 
 # af0788cdca0b4774b2bdc43a209861db
 # 68d34ee8a6984d74b32bae8d3146b95d
 #: ../source/userdoc/model_time_integration.rst:156
 #: ../source/userdoc/model_time_integration.rst:210
 msgid ""
-"which represent the first and second order time derivative of the "
-"variable and can be used in some brick definition."
-msgstr ""
+"which represent the first and second order time derivative of the variable "
+"and can be used in some brick definition."
+msgstr "変数の1次および2次の時間微分を表し、いくつかのブリック定義で使用できます。\n"
 
 # 7a609e719e3c4c3cadeb188cf54d84db
 # 1b33967b42ac42dba070325a822a10ff
 #: ../source/userdoc/model_time_integration.rst:162
 #: ../source/userdoc/model_time_integration.rst:216
 msgid ""
-"which correspond to the values of \"u\", \"Dot_u\"  and \"Dot2_u\" at the"
-" previous time step."
-msgstr ""
+"which correspond to the values of \"u\", \"Dot_u\"  and \"Dot2_u\" at the "
+"previous time step."
+msgstr "前回のタイムステップにおける \"u\"、 \"Dot_u\"、 \"Dot2_u\"の値に対応する。\n"
 
 # 3aa7634e4d684238a87aae424bf49f2d
 #: ../source/userdoc/model_time_integration.rst:164
@@ -357,84 +389,95 @@ msgid ""
 "previous section, and except for :math:`\\theta = 1`). The affine "
 "dependences are thus given by::"
 msgstr ""
+"解く前に、データ \"Previous_u\"と \"Previous_Dot_u\"（例では：math： `U ^ 0`）を初期化し、\" "
+"Previous_Dot2_u \"を初期化または事前計算する必要がありますfor：math： `\\ theta = "
+"1`）。したがって、アフィン依存性は次のように与えられる。\n"
 
 # a8457860f9ab4225a17396495bf51496
 # 6fd3b75172dd4a6ca57c37fc22a2d4b1
 #: ../source/userdoc/model_time_integration.rst:169
 #: ../source/userdoc/model_time_integration.rst:221
 msgid "The addition of this scheme to a variable is to be done thanks to::"
-msgstr ""
+msgstr "変数へのこのスキームの追加は::\n"
 
 # 03a61eadd499417fb9c69a03c8725891
 #: ../source/userdoc/model_time_integration.rst:176
 msgid "The implicit Newmark scheme for second order problems"
-msgstr ""
+msgstr "2次問題の暗黙のNewmarkスキーム\n"
 
 # 16cdf8480ff84cdea4efbcbb1967a51c
 #: ../source/userdoc/model_time_integration.rst:194
 msgid ""
 "for :math:`\\beta \\in (0, 1]` and :math:`\\gamma \\in [1/2, 1]` are the "
-"parameters of the Newmark scheme and for :math:`U^{n-1}, V^{n-1}, "
-"A^{n-1}` given."
+"parameters of the Newmark scheme and for :math:`U^{n-1}, V^{n-1}, A^{n-1}` "
+"given."
 msgstr ""
+"次のようになります。math： `\\ beta \\ in（0、1）`および：math： `\\ gamma \\ in "
+"[1/2、1]`はNewmarkスキームのパラメータであり、 1}、V ^ {n-1}、A ^ {n-1} `が与えられる。\n"
 
 # b52725c4bc8f4155b10ca22d02a8fca2
 #: ../source/userdoc/model_time_integration.rst:196
 msgid ""
-"At the first time step, :math:`U^0, V^0` should be given and :math:`A^0` "
-"is to be given or pre-computed (except for :math:`\\beta = 1/2, \\gamma ="
-" 1`)."
+"At the first time step, :math:`U^0, V^0` should be given and :math:`A^0` is "
+"to be given or pre-computed (except for :math:`\\beta = 1/2, \\gamma = 1`)."
 msgstr ""
+"最初のステップでは、次のように計算されます：数学： `U ^ 0、V ^ 0`が与えられなければなりません：数学：` A ^ 0`を与えるか、 2、\\"
+" gamma = 1）。\n"
 
 # 478bc9b78bfc43cb828cfc6d28fe8020
 #: ../source/userdoc/model_time_integration.rst:218
 msgid ""
 "Before the first solve, the data  \"Previous_u\" and \"Previous_Dot_u\" "
-"(corresponding to :math:`U^0` in the example) have to be initialized. The"
-" data \"Previous_Dot2_u\" is to be given or precomputed (see "
-":ref:`precomp_time_der_section` and except for :math:`\\beta = 1/2, "
-"\\gamma = 1`)."
+"(corresponding to :math:`U^0` in the example) have to be initialized. The "
+"data \"Previous_Dot2_u\" is to be given or precomputed (see "
+":ref:`precomp_time_der_section` and except for :math:`\\beta = 1/2, \\gamma "
+"= 1`)."
 msgstr ""
+"最初の解法の前に、データ \"Previous_u\"と \"Previous_Dot_u\"（この例では：math： `U ^ "
+"0`に対応）を初期化する必要があります。データ \"Previous_Dot2_u\"は与えられているか、事前計算されています（ref： "
+"`precomp_time_der_section`を参照してください：math：` \\ beta = 1/2、\\ gamma = 1`）。\n"
 
 # 35e14c160ad5483296ad930f52fd157e
 #: ../source/userdoc/model_time_integration.rst:228
 msgid "Transient terms"
-msgstr ""
+msgstr "一時的な用語\n"
 
 # f09e5c00084a44baa8da1696cdb8cd16
 #: ../source/userdoc/model_time_integration.rst:230
 msgid ""
-"As it has been explained in previous sections, some intermediate "
-"variables are added to the model in order to represent the time "
-"derivative of the variables on which the scheme is applied. Once again, "
-"if \"u\" is such a variable, \"Dot_u\" will represent the time derivative"
-" of \"u\" approximated by the used scheme."
+"As it has been explained in previous sections, some intermediate variables "
+"are added to the model in order to represent the time derivative of the "
+"variables on which the scheme is applied. Once again, if \"u\" is such a "
+"variable, \"Dot_u\" will represent the time derivative of \"u\" approximated"
+" by the used scheme."
 msgstr ""
+"これまでのセクションで説明したように、スキームが適用される変数の時間微分を表すために、いくつかの中間変数がモデルに追加されています。再度、「u」がそのような変数である場合、「Dot_u」は、使用されたスキームによって近似された「u」の時間微分を表す。\n"
 
 # 286225934b3d4de48b8d486194b0d384
 #: ../source/userdoc/model_time_integration.rst:232
 msgid ""
-"This also mean that \"Dot_u\" (and \"Dot2_u\" in order two in time "
-"problems) can be used to express the transient terms. In the weak form "
-"language, the term:"
+"This also mean that \"Dot_u\" (and \"Dot2_u\" in order two in time problems)"
+" can be used to express the transient terms. In the weak form language, the "
+"term:"
 msgstr ""
+"これはまた、一時的な用語を表現するために「Dot_u」（および時間的に2つの問題の順序で「Dot2_u」）を使用できることを意味します。ウィークフォーム言語では、\n"
 
 # a7fd337076344f90bfda628a4fa95813
 #: ../source/userdoc/model_time_integration.rst:238
 msgid "can be simply expressed by::"
-msgstr ""
+msgstr "::\n"
 
 # 7b53a7b3edc74cd5960eb559410ccabb
 #: ../source/userdoc/model_time_integration.rst:242
 msgid ""
-"Similarly, every existing model brick of |gf| can be applied to "
-"\"Dot_u\". This is the case for instance with::"
-msgstr ""
+"Similarly, every existing model brick of |gf| can be applied to \"Dot_u\". "
+"This is the case for instance with::"
+msgstr "同様に、| gf | \"Dot_u\"に適用できます。たとえば、次のような場合です。::\n"
 
 # 2ed9ce54e7e94ca78be7c3583e2cbee5
 #: ../source/userdoc/model_time_integration.rst:246
 msgid "which adds the same transient term."
-msgstr ""
+msgstr "同じ過渡期を追加します。\n"
 
 # f0862980e13443f59917ba2942b12a30
 #: ../source/userdoc/model_time_integration.rst:248
@@ -442,76 +485,83 @@ msgid ""
 "VERY IMPORTANT: When adding an existing model brick applied to an affine "
 "dependent variable such as \"Dot_u\", it is always assumed that the "
 "corresponding test function is the one of the corresponding original "
-"variable (i.e. \"Test_u\" here). In other words, \"Test_Dot_u\", the test"
-" variable corresponding to the velocity, is not used. This corresponds to"
-" the choice made to solve the problem in term of the original variable, "
-"so that the test function corresponds to the original variable."
+"variable (i.e. \"Test_u\" here). In other words, \"Test_Dot_u\", the test "
+"variable corresponding to the velocity, is not used. This corresponds to the"
+" choice made to solve the problem in term of the original variable, so that "
+"the test function corresponds to the original variable."
 msgstr ""
+"非常に重要：「Dot_u」のようなアフィン依存変数に適用された既存のモデルブリックを追加する場合、対応するテスト関数が、対応する元の変数（ここでは「Test_u」）のものであると常に仮定されます。言い換えれば、速度に対応するテスト変数である「Test_Dot_u」は使用されない。これは、テスト関数が元の変数に対応するように、元の変数の項で問題を解決するために行われた選択に対応します。\n"
 
 # 25961ba4ae6d4932bfa395b6478ea44b
 #: ../source/userdoc/model_time_integration.rst:250
 msgid ""
 "Another example of model brick which can be used to account for a Kelvin-"
 "Voigt linearized viscosity term is the linearized elasticity brick::"
-msgstr ""
+msgstr "Kelvin-Voigt線形化粘度項を説明するために使用できるモデルブリックの別の例は、線形弾性ブリック::\n"
 
 # c09112ea226f4816b68689935fc433c9
 #: ../source/userdoc/model_time_integration.rst:254
 msgid "when applied to an order two transient elasticity problem."
-msgstr ""
+msgstr "2次の一時的な弾力性の問題に適用すると、\n"
 
 # 50bb788c1afe48cb9d701587ebe0d1a0
 #: ../source/userdoc/model_time_integration.rst:257
 msgid "Computation on the sequence of time steps"
-msgstr ""
+msgstr "時間ステップのシーケンスに対する計算\n"
 
 # 31c047c4cc384a239667aed186443926
 #: ../source/userdoc/model_time_integration.rst:259
 msgid ""
 "Typically, the solve on the different time steps will take the following "
 "form::"
-msgstr ""
+msgstr "一般に、異なる時間ステップでの解法は次の形式をとります::\n"
 
 # 744c00e472b946b289d1e542644fbb85
 #: ../source/userdoc/model_time_integration.rst:274
 msgid "Note that the call of the method::"
-msgstr ""
+msgstr "メソッドの呼び出し::\n"
 
 # 5d1285ae950e4244b0646ea6b70ffb88
 #: ../source/userdoc/model_time_integration.rst:278
 msgid ""
-"is needed between two time step since it will copy the current value of "
-"the variables (`u` and `Dot_u` for instance) to the previous ones "
-"(`Pevious_u` and `Previous_Dot_u`)."
+"is needed between two time step since it will copy the current value of the "
+"variables (`u` and `Dot_u` for instance) to the previous ones (`Pevious_u` "
+"and `Previous_Dot_u`)."
 msgstr ""
+"変数 `` u``と `` Dot_u``の現在の値を前のもの（ `Pevious_u`と` "
+"Previous_Dot_u`）にコピーするので、2つのタイムステップの間に必要です。\n"
 
 # 9569054d9b68485489a9cf5aa4854f95
 #: ../source/userdoc/model_time_integration.rst:281
 msgid "Boundary conditions"
-msgstr ""
+msgstr "境界条件\n"
 
 # b1a0ff4fd85745318dfb8efa284fec33
 #: ../source/userdoc/model_time_integration.rst:283
 msgid ""
 "Standard boundary conditions can of course be applied normally to the "
-"different variables of the unknown. By default, applying Dirichlet, "
-"Neumann or contact boundary conditions to the unknown simply means that "
-"the conditions are prescribed on the variable at the current time step n."
+"different variables of the unknown. By default, applying Dirichlet, Neumann "
+"or contact boundary conditions to the unknown simply means that the "
+"conditions are prescribed on the variable at the current time step n."
 msgstr ""
+"もちろん、標準的な境界条件は、未知の様々な変数に通常適用することができます。デフォルトでは、Dirichlet、Neumannまたは接触境界条件を未知数に適用するということは、現在の時間ステップnで変数に条件が規定されていることを意味します。\n"
 
 # d7916322af06471cb0919def16de8ad8
 #: ../source/userdoc/model_time_integration.rst:287
 msgid "Small example: heat equation"
-msgstr ""
+msgstr "小さな例：熱方程式\n"
 
 # 3fa4682e4f9e4687a32103b500c90625
 #: ../source/userdoc/model_time_integration.rst:289
 msgid ""
 "The complete compilable program corresponds to the test program "
 ":file:`tests/heat_equation.cc` of |gf| distribution. See also "
-":file:`/interface/tests/matlab/demo_wave_equation.m` for an example of "
-"order two in time problem with the Matlab interface."
+":file:`/interface/tests/matlab/demo_wave_equation.m` for an example of order"
+" two in time problem with the Matlab interface."
 msgstr ""
+"完全なコンパイル可能プログラムはテストプログラムに対応しています：file： `tests / heat_equation.cc` of | gf "
+"|分布。 matlabインタフェースの時間的順序問題の例については、file： `/ interface / tests / matlab / "
+"demo_wave_equation.m`を参照してください。\n"
 
 # 8b0875ffe93e4cf9824c58c621701c22
 #: ../source/userdoc/model_time_integration.rst:291
@@ -520,12 +570,12 @@ msgid ""
 "methods defined on a valid mesh, the following code will perform the "
 "approximation of the evolution of the temperature on the mesh assuming a "
 "unitary diffusion coefficient::"
-msgstr ""
+msgstr "`mf_u`と` mim`が有効なメッシュに定義された有効な有限要素と積分方法であると仮定すると、次のコードはメッシュ上の温度の近似を、\n"
 
 # 7104c575586345bfbb2431c0fe2120b4
 #: ../source/userdoc/model_time_integration.rst:340
 msgid "Implicit/explicit some terms"
-msgstr ""
+msgstr "暗黙的/明示的な用語\n"
 
 # db1917a171a7447db5d526c923e74cbd
 # 64b9e609ba35437c838607dcf99a7260
@@ -536,30 +586,29 @@ msgstr ""
 #: ../source/userdoc/model_time_integration.rst:354
 #: ../source/userdoc/model_time_integration.rst:359
 msgid "..."
-msgstr ""
+msgstr "...\n"
 
 # 838460ff449b4e208904af0e9ca0c895
 #: ../source/userdoc/model_time_integration.rst:346
 msgid "Explicit schemes"
-msgstr ""
+msgstr "明示的なスキーム\n"
 
 # 7f46c0a5f7bf47c9818394420fea1532
 #: ../source/userdoc/model_time_integration.rst:352
 msgid "Time step adaptation"
-msgstr ""
+msgstr "タイムステップ適応\n"
 
 # 623112affce5425db6725f74465e9fb1
 #: ../source/userdoc/model_time_integration.rst:357
 msgid "Quasi-static problems"
-msgstr ""
+msgstr "準静的問題\n"
 
 # a0ae1c302f2d40caba958d8ce1bedd09
 #: ../source/userdoc/model_time_integration.rst:7
 msgid "models"
-msgstr ""
+msgstr "モデル\n"
 
 # a0ae1c302f2d40caba958d8ce1bedd09
 #: ../source/userdoc/model_time_integration.rst:7
 msgid "model bricks"
-msgstr ""
-
+msgstr "モデルレンガ\n"
