@@ -490,7 +490,7 @@ msgid ""
 " choice made to solve the problem in term of the original variable, so that "
 "the test function corresponds to the original variable."
 msgstr ""
-"非常に重要：「Dot_u」のようなアフィン依存変数に適用された既存のモデルブリックを追加する場合、対応するテスト関数が、対応する元の変数（ここでは「Test_u」）のものであると常に仮定されます。言い換えれば、速度に対応するテスト変数である「Test_Dot_u」は使用されない。これは、テスト関数が元の変数に対応するように、元の変数の項で問題を解決するために行われた選択に対応します。\n"
+"非常に重要：「Dot_u」のようなアフィン依存変数に適用された既存のモデルブリックを追加する場合、対応する形状関数が、対応する元の変数（ここでは「Test_u」）のものであると常に仮定されます。言い換えれば、速度に対応するテスト変数である「Test_Dot_u」は使用されない。これは、形状関数が元の変数に対応するように、元の変数の項で問題を解決するために行われた選択に対応します。\n"
 
 # 25961ba4ae6d4932bfa395b6478ea44b
 #: ../source/userdoc/model_time_integration.rst:250

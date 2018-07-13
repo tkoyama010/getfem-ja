@@ -199,7 +199,7 @@ msgid ""
 "Assuming :math:`\\rho^0` the density in the reference configuration having a"
 " rotation symmetry, the term corresponding to acceleration in the weak "
 "formulation reads (with :math:`v(X) = \\bar{v}(\\bar{X})` a test function):"
-msgstr "次のように仮定すると、回転対称性を有する参照構成の密度である弱い定式化の加速に対応する項は、（v {X}） `テスト関数）：\n"
+msgstr "次のように仮定すると、回転対称性を有する参照構成の密度である弱い定式化の加速に対応する項は、（v {X}） `形状関数）：\n"
 
 # 6289ed2d294d4be1bc1bf789711630b3
 #: ../source/userdoc/model_ALE_rotating.rst:129
@@ -340,7 +340,7 @@ msgid ""
 "function and after integration by part):"
 msgstr ""
 "次のように仮定します。math： `\\ rho ^ 0`参照の密度は、考慮された変換で不変であり、弱い定式化における加速に対応する項は、（v "
-"'バー{X}） `テスト関数と部品による統合後）：\n"
+"'バー{X}） `形状関数と部品による統合後）：\n"
 
 # cf81e82c1b0a4ee8b7ed34dec49bff0e
 #: ../source/userdoc/model_ALE_rotating.rst:228

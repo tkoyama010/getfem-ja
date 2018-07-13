@@ -110,7 +110,7 @@ msgstr ""
 msgid ""
 "Constant names: A list of constants could be given. The rules are the same "
 "as for the variables but no test functions can be associated to constants."
-msgstr "定数名：定数のリストを与えることができます。ルールは変数と同じですが、テスト関数を定数に関連付けることはできません。\n"
+msgstr "定数名：定数のリストを与えることができます。ルールは変数と同じですが、形状関数を定数に関連付けることはできません。\n"
 
 # df8b3706d8f849d7b7471762eeec4b0e
 #: ../source/userdoc/gasm_high.rst:33
@@ -121,7 +121,7 @@ msgid ""
 "``Test_electric_field``. For the tangent system, second order test functions"
 " are denoted ``Test2_`` followed by the variable name."
 msgstr ""
-"テスト関数：任意の変数に対して使用できます。それらは接頭辞 `` Test_``とそれに続く対応する変数名によって識別されます。例えば ​​`` "
+"形状関数：任意の変数に対して使用できます。それらは接頭辞 `` Test_``とそれに続く対応する変数名によって識別されます。例えば ​​`` "
 "Test_u``、 `` Test_v``、 `` Test_p``、 `` Test_pressure``、 `` "
 "Test_electric_field``のようなものです。接線システムの場合、二次関数test2_`と変数名が続きます。\n"
 
@@ -136,7 +136,7 @@ msgid ""
 "fields, ``Div_u`` and ``Div_Test_u`` are some shortcuts for "
 "``Trace(Grad_u)`` and ``Trace(Grad_Test_u)``, respectively."
 msgstr ""
-"グラディエント：変数またはテスト関数の空間的な勾配は、接頭辞 `` Grad_``と変数名または `` Test_``または `` "
+"グラディエント：変数または形状関数の空間的な勾配は、接頭辞 `` Grad_``と変数名または `` Test_``または `` "
 "Test2_``によって識別され、変数名の後に続きます。これは、FEM変数でのみ使用できます。たとえば、「Grad_u」、「Grad_pressure」、「Grad_electric_field」、および「Grad_Test_u」、「Grad_Test2_v」。ベクトルフィールドの場合、"
 " `` Div_u``と `` Div_Test_u``は、それぞれ `` Trace（Grad_u） ``と `` "
 "Trace（Grad_Test_u） ``のショートカットです。\n"
@@ -150,7 +150,7 @@ msgid ""
 "only. For instance ``Hess_u``, ``Hess_v``, ``Hess_p``, ``Hess_Test2_v``, "
 "``Hess_Test_p``, ``Hess_Test_pressure``."
 msgstr ""
-"Hessians：変数またはテスト関数のヘッセ行列は、接頭辞 `` Hess_``と変数名または `` Test_``または `` "
+"Hessians：変数または形状関数のヘッセ行列は、接頭辞 `` Hess_``と変数名または `` Test_``または `` "
 "Test2_``の後に変数名が続きます。これは、FEM変数でのみ使用できます。たとえば、 `` Hess_u``、 `` Hess_v``、 `` "
 "Hess_p``、 `` Hess_Test2_v``、 `` Hess_Test_p``、 `` "
 "Hess_Test_pressure``などです。\n"
@@ -275,7 +275,7 @@ msgid ""
 " applied to test functions."
 msgstr ""
 "ある数の線形と非線形の演算子（ \"Trace\"、 \"Norm\"、 \"Det\"、 \"Deviator\"、 "
-"\"Contract\"など）。非線形演算子は、テスト関数には適用できません。\n"
+"\"Contract\"など）。非線形演算子は、形状関数には適用できません。\n"
 
 # 5933240b874b42989299da46d71c5928
 #: ../source/userdoc/gasm_high.rst:63
@@ -324,7 +324,7 @@ msgid ""
 " more generally for fictitious domain methods such as fluid-structure "
 "interaction."
 msgstr ""
-"``補間（変数、変換） ``：他の要素や別のメッシュ上の同じメッシュ上で変数を補間したりテスト関数を補うことができる強力な演算。 `` "
+"``補間（変数、変換） ``：他の要素や別のメッシュ上の同じメッシュ上で変数を補間したり形状関数を補うことができる強力な演算。 `` "
 "transformation``は、現在の点から補間を実行する点までのマップを記述するワークスペースまたはモデルオブジェクトによって格納されるオブジェクトです。この機能は、例えば、周期的な条件を規定するため、または異なるメッシュ上に定義された2つの有限要素空間のモルタル行列を計算するため、またはより一般的には流体構造相互作用のような架空のドメイン法のために使用できます。\n"
 
 # 25361366c8424db5b1d258a8823308f1
@@ -383,7 +383,7 @@ msgstr "ディリクレの境界条件：数学： `u = 0` on：数学：` \\ pa
 msgid ""
 "for all test functions :math:`v` vanishing on  :math:`\\partial\\Omega`. The"
 " corresponding expression on the assembly string is::"
-msgstr "すべてのテスト関数について：数学： `v`が消える：数学：` \\ partial \\ Omega`。アセンブリ文字列の対応する式は::\n"
+msgstr "すべての形状関数について：数学： `v`が消える：数学：` \\ partial \\ Omega`。アセンブリ文字列の対応する式は::\n"
 
 # f9639661532948dd90f925dbe117ea70
 #: ../source/userdoc/gasm_high.rst:98
@@ -476,7 +476,7 @@ msgid ""
 "order test functions are found, the order will be considered to be 2 "
 "(tangent system)."
 msgstr ""
-"アセンブリ文字列の導出順序が自動的に検出されます。これは、テスト関数が見つからない場合、順序は0（潜在的なエネルギー）とみなされ、一次テスト関数が見つかった場合、その順序は1（弱い定式化）とみなされ、一次と二次の両方の場合テスト関数が見つかると、次数は2（接線系）とみなされます。\n"
+"アセンブリ文字列の導出順序が自動的に検出されます。これは、形状関数が見つからない場合、順序は0（潜在的なエネルギー）とみなされ、一次形状関数が見つかった場合、その順序は1（弱い定式化）とみなされ、一次と二次の両方の場合形状関数が見つかると、次数は2（接線系）とみなされます。\n"
 
 # 5577d0070c8549f1a42d3a4c12b0caa5
 #: ../source/userdoc/gasm_high.rst:149
@@ -761,7 +761,7 @@ msgstr "ソース用語のアセンブリの実行方法を見てみましょう
 msgid ""
 "where :math:`f` is the source term and :math:`v` the test function. The "
 "corresponding assembly can be written::"
-msgstr "ここで、math： `f`はソースの項であり、math：` v`はテスト関数です。対応するアセンブリを記述することができます::\n"
+msgstr "ここで、math： `f`はソースの項であり、math：` v`は形状関数です。対応するアセンブリを記述することができます::\n"
 
 # 38ccea71633d4b73bb5d91e420b2cbfe
 #: ../source/userdoc/gasm_high.rst:298
@@ -877,10 +877,10 @@ msgid ""
 msgstr ""
 "基本的に、弱い形の言語で操作されるのはテンソルです。これは、スカラー式のオーダー0テンソル（例えば、 `` 3 + sin（pi / 2） "
 "``）、ベクトル式の1テンソル（ `` XX``や `` "
-"Grad_u``など）スカラー変数）、行列式の場合は2テンソル、効率の理由から、言語はテンソルを最大6まで操作します。この言語は、6以上のオーダーのテンソルをサポートするように容易に拡張することができますが、非効率的な計算につながる可能性があります。式にテスト関数が含まれている場合（ベクトルフィールド"
+"Grad_u``など）スカラー変数）、行列式の場合は2テンソル、効率の理由から、言語はテンソルを最大6まで操作します。この言語は、6以上のオーダーのテンソルをサポートするように容易に拡張することができますが、非効率的な計算につながる可能性があります。式に形状関数が含まれている場合（ベクトルフィールド"
 " `` u``の場合は `` Trace（Grad_Test_u） "
-"'のように）、テンソルは暗黙的に補足成分を持つことを意味する各テスト関数に対して計算が行われます。これは暗黙のうちに、操作されたテンソルの最大次数は実際には6であることを意味します（"
-" `` Grad_Test_u：Grad_Test2_u``には第1次および第2次テスト関数のために2つのコンポーネントが暗黙に追加されています）。\n"
+"'のように）、テンソルは暗黙的に補足成分を持つことを意味する各形状関数に対して計算が行われます。これは暗黙のうちに、操作されたテンソルの最大次数は実際には6であることを意味します（"
+" `` Grad_Test_u：Grad_Test2_u``には第1次および第2次形状関数のために2つのコンポーネントが暗黙に追加されています）。\n"
 
 # 0b67e842cbdf4ab3b846e45c026de6c8
 #: ../source/userdoc/gasm_high.rst:371
@@ -934,12 +934,12 @@ msgid ""
 "approximation of constitutive laws such as plasticity)."
 msgstr ""
 "定数のリストを `` "
-"ga_worspace``オブジェクトに与えることもできます。ルールは変数と同じですが、テスト関数を定数に関連付けることはできず、定数に関して象徴的な区別もありません。スカラー定数は、構成的法則に介入する係数を表すために定義されることが多い。さらに、定数は、「im_data」オブジェクトを介して積分点上に定義されたいくつかのスカラー/ベクトル/テンソルフィールド（例えば、可塑性のような構成法の近似のいくつかの実装のために）であり得る。\n"
+"ga_worspace``オブジェクトに与えることもできます。ルールは変数と同じですが、形状関数を定数に関連付けることはできず、定数に関して象徴的な区別もありません。スカラー定数は、構成的法則に介入する係数を表すために定義されることが多い。さらに、定数は、「im_data」オブジェクトを介して積分点上に定義されたいくつかのスカラー/ベクトル/テンソルフィールド（例えば、可塑性のような構成法の近似のいくつかの実装のために）であり得る。\n"
 
 # abf5701317564fc4b06ba24dd36f0ea5
 #: ../source/userdoc/gasm_high.rst:386
 msgid "Test functions"
-msgstr "テスト関数\n"
+msgstr "形状関数\n"
 
 # 93639926d24c49659b1f17a31427d05b
 #: ../source/userdoc/gasm_high.rst:388
@@ -958,9 +958,9 @@ msgid ""
 "return if face a vector of ``N`` values. But of course, this is implicit in "
 "the language. So one do not have to care about this."
 msgstr ""
-"各変数は、1次および2次のテスト関数に関連付けられています。第1次テスト関数は、弱い定式化（それが存在すれば潜在的な式を導出する）で使用され、第2次テスト関数は接線システムで使用される。変数"
-" `` u``に関連するテスト関数は `` Test_u``と `` "
-"Test2_u``です。アセンブリ文字列は、テスト関数に対して線形でなければなりません。アセンブリ文字列に "
+"各変数は、1次および2次の形状関数に関連付けられています。第1次形状関数は、弱い定式化（それが存在すれば潜在的な式を導出する）で使用され、第2次形状関数は接線システムで使用される。変数"
+" `` u``に関連する形状関数は `` Test_u``と `` "
+"Test2_u``です。アセンブリ文字列は、形状関数に対して線形でなければなりません。アセンブリ文字列に "
 "\"Test_u\"という用語が存在する結果として、式は変数 "
 "\"u\"に対応する有限要素の各形状関数について評価されます。与えられた要素において、有限要素が `` N``形関数を持つ場合、 `` "
 "u``がスカラ場である場合、 `` Test_u``の値は現在の点上の各形状関数の値になります。だから `` Test_u``は `` "
@@ -986,7 +986,7 @@ msgid ""
 "derivative.  ``Div_u`` and ``Div_Test_u`` are some optimized shortcuts for "
 "``Trace(Grad_u)`` and ``Trace(Grad_Test_u)``, respectively."
 msgstr ""
-"変数またはテスト関数のグラディエントは、 `` Grad_``と変数名または `` "
+"変数または形状関数のグラディエントは、 `` Grad_``と変数名または `` "
 "Test_``とそれに続く変数名によって識別されます。これは、FEM変数（または定数）でのみ使用できます。例えば、「Grad_u」、「Grad_v」、「Grad_p」、「Grad_pressure」、「Grad_electric_field」、「Grad_Test_u」、「Grad_Test_v」、「Grad_Test_p」、"
 " `` Grad_Test_pressure``、 `` "
 "Grad_Test_electric_field``です。勾配は、スカラ変数のベクトルかベクトル場変数の行列のいずれかです。後者の場合、第1のインデックスはベクトルフィールド次元に対応し、第2のインデックスは部分導関数のインデックスに対応する。"
@@ -1012,7 +1012,7 @@ msgid ""
 "the vector field dimension and the two remaining to the indices of partial "
 "derivatives."
 msgstr ""
-"同様に、変数またはテスト関数のヘッセ行列は、 `` Hess_``と変数名または `` "
+"同様に、変数または形状関数のヘッセ行列は、 `` Hess_``と変数名または `` "
 "Test_``とそれに続く変数名によって識別されます。これは、FEM変数でのみ使用できます。例えば、「He​​ss_u」、「Hess_v」、「Hess_p」、「Hess_pressure」、「Hess_electric_field」、「Hess_Test_u」、「Hess_Test_v」、「Hess_Test_p」、"
 " `` Hess_Test_pressure``、 `` "
 "Hess_Test_electric_field``です。ヘッセ行列は、スカラ変数の行列またはベクトル場変数の3次テンソルのいずれかです。後者の場合、第1のインデックスはベクトル場次元に対応し、2つは部分導関数のインデックスに残る。\n"
@@ -1383,7 +1383,7 @@ msgstr ""
 "弱い形式の言語は、表記「 `[a、b、c、d、e]` "
 "`、すなわちコンマで区切られた任意の数の成分を持つ明示的なベクトル（すなわち、1テンソル）を定義することを可能にするセミコロン `[[a; b; c; "
 "d; "
-"e]]も許されます）、ベクトル全体は右括弧で始まり左括弧で終わります。コンポーネントは、いくつかの数値定数、いくつかの有効な式、テスト関数を含むことができます。後者の場合、ベクトルはテスト関数に関して均質でなければならない。これは、型"
+"e]]も許されます）、ベクトル全体は右括弧で始まり左括弧で終わります。コンポーネントは、いくつかの数値定数、いくつかの有効な式、形状関数を含むことができます。後者の場合、ベクトルは形状関数に関して均質でなければならない。これは、型"
 " `` [Test_u; Test_v] ``は許されません。有効な例は、 `` u``をスカラーフィールド変数として `` * "
 "Grad_Test_u（2）、2 * Grad_Test_u（1） ``です。また、かなりのオペレータ（転置）を使うと、式 `` [a、b、c、d、e]"
 " 'は ``行ベクトル'、つまり1x5行列を表します。\n"
@@ -1408,7 +1408,7 @@ msgstr ""
 "``という表記で明示的な行列（すなわち、2次テンソル）を定義することができます。つまり、カンマで区切られた任意の数の列ベクトル（セミコロンで区切られた行の構文"
 " `` [a、c; b、d] ``も許可されます）。例えば、[[11,21]、[12,22]、[13,23]] ``と '[[11,12,13; "
 "21,22,23] "
-"``はどちらも同じ2x3行列を表します。コンポーネントは、いくつかの数値定数、いくつかの有効な式、テスト関数を含むことができます。\n"
+"``はどちらも同じ2x3行列を表します。コンポーネントは、いくつかの数値定数、いくつかの有効な式、形状関数を含むことができます。\n"
 
 # 51159bd214e44e88ae2f359c704bbaae
 #: ../source/userdoc/gasm_high.rst:522
@@ -1668,7 +1668,7 @@ msgid ""
 "``Grad_u`` is a square matrix (i.e. ``u`` a vector field of the same "
 "dimension as the mesh)."
 msgstr ""
-"4つの演算子をテスト関数に適用することができます。これは、 `` Grad_u``が正方行列（ `` u``と同じ次元のベクトルフィールド）であるとき、"
+"4つの演算子を形状関数に適用することができます。これは、 `` Grad_u``が正方行列（ `` u``と同じ次元のベクトルフィールド）であるとき、"
 " `` Trace（Grad_u） ``と `` Trace（Grad_Test_u）メッシュ）。\n"
 
 # 36be21dabb0d432f93958ae28709db65
@@ -1684,7 +1684,7 @@ msgid ""
 "derivatives. Nonlinear operator can be applied to an expression as long as "
 "this expression do not contain some test functions."
 msgstr ""
-"ウィークフォーム言語は、あらかじめ定義された非線形演算子を提供します。各非線形演算子は、その第1および第2導関数と共に利用可能である。非線形演算子は、この式にいくつかのテスト関数が含まれていない限り、式に適用できます。\n"
+"ウィークフォーム言語は、あらかじめ定義された非線形演算子を提供します。各非線形演算子は、その第1および第2導関数と共に利用可能である。非線形演算子は、この式にいくつかの形状関数が含まれていない限り、式に適用できます。\n"
 
 # 0549500143c5465fa5caa3e1068e79e1
 #: ../source/userdoc/gasm_high.rst:589
@@ -2065,7 +2065,7 @@ msgid ""
 " a variable or test functions, the position or the unit normal vector to a "
 "boundary thanks to one of these expressions::"
 msgstr ""
-"ワークスペース/モデルで変換が定義されると、変数またはテスト関数、これらの式の1つのために境界への位置または単位法線ベクトルを補間できます::\n"
+"ワークスペース/モデルで変換が定義されると、変数または形状関数、これらの式の1つのために境界への位置または単位法線ベクトルを補間できます::\n"
 
 # 9f6006b6ec2e4e4f90f4ed2cb0d6a9d8
 #: ../source/userdoc/gasm_high.rst:763

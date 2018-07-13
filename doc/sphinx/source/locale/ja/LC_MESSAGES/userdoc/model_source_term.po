@@ -37,7 +37,7 @@ msgstr ""
 msgid ""
 "where :math:`v` is the test function. The value :math:`f` can be constant or"
 " described on a finite element method."
-msgstr "ここで、math： `v`はテスト関数です。値：math： `f`は、定数であっても有限要素法で記述されてもよい。\n"
+msgstr "ここで、math： `v`は形状関数です。値：math： `f`は、定数であっても有限要素法で記述されてもよい。\n"
 
 # 8fa1b978e4f74ea78c30d18c7adbadee
 #: ../source/userdoc/model_source_term.rst:26

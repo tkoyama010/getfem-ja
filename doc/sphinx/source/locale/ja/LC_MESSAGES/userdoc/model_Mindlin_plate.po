@@ -57,7 +57,7 @@ msgid ""
 "for all admissible test functions :math:`v_3 : \\Omega \\rightarrow \\R,$ "
 "$\\psi : \\Omega \\rightarrow \\R^2` and where:"
 msgstr ""
-"すべての許容可能なテスト関数について、次のようになります。数学： `v_3：\\ Omega \\ rightarrow \\ R、$ $ \\ "
+"すべての許容可能な形状関数について、次のようになります。数学： `v_3：\\ Omega \\ rightarrow \\ R、$ $ \\ "
 "psi：\\ Omega \\ rightarrow \\ R ^ 2`\n"
 
 # 32af18e36f1a4ace82e829f49fee77e2
