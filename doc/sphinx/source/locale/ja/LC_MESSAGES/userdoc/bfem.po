@@ -528,7 +528,7 @@ msgstr ""
 # 4559c84dbd9d420d99442653ff718b6a
 #: ../source/userdoc/bfem.rst:316
 msgid "Obtaining generic |mf|'s"
-msgstr "一般的な |mf|の取得"
+msgstr "一般的な |mf| の取得"
 
 # 98a4c7c93f6e4edbaa5938566a121079
 #: ../source/userdoc/bfem.rst:318
@@ -595,7 +595,7 @@ msgid ""
 "finite element method. This is to avoid unnecessary computations during "
 "assembly procedures."
 msgstr ""
-"``kept_dof`` と ``rejected_elt`` はいくつかの |dal_bv| です。 |kept_dof| は、保持される元の "
+"``kept_dof`` と ``rejected_elt`` はいくつかの |dal_bv| です。 ``kept_dof`` は、保持される元の "
 "|mf| ``mf`` の自由度インデックスのリストです。 rejected_eltは ``getfem::partial_mesh_fem`` "
 "が有限要素法がないことを示す要素インデックスのリストを含むオプションのパラメータです。これは、アセンブリング中の不要な計算を避けるためです。"
 
