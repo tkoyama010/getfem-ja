@@ -228,7 +228,7 @@ msgstr "変数またはデータのベクトル値にアクセスできます。
 msgid ""
 "Gives a reference on the |mf| on which the variable is defined. Throw an "
 "exception if this is not a fem variable."
-msgstr "| mf |についてのリファレンスを与える変数が定義されています。これがfem変数でない場合は例外をスローします。\n"
+msgstr "| mf |についてのリファレンスを与えます変数が定義されています。これがfem変数でない場合は例外をスローします。\n"
 
 # d4f5832fdde940f48653110e78ebcf34
 #: ../source/userdoc/model_object.rst:143

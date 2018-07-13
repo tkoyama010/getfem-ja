@@ -623,7 +623,7 @@ msgid ""
 "\\Frac{\\gamma_n}{\\alpha(\\sigma_{n})}` this gives the equation"
 msgstr ""
 "要素を選択すると、次のようになります。math： `\\ xi_n = \\ Frac {\\ gamma_n} \\ {\\ gamma {n} "
-"{\\ alpha（\\ sigma_ {n}）} `これは方程式を与える\n"
+"{\\ alpha（\\ sigma_ {n}）} `これは方程式を与えます\n"
 
 # 3aba2681d6d143b98e7c7cf563864f0c
 #: ../source/userdoc/model_plasticity_small_strain.rst:292
@@ -633,7 +633,7 @@ msgid ""
 "directly gives:"
 msgstr ""
 "以来、数学： `\\ mbox {Dev}（\\ sigma_ {n + 1}）= 2 \\ mu \\ mbox {Dev}（\\ "
-"varepsilon（u_ {n + 1}）） -  2 \\ mu \\ varepsilon ^ p_ {n +1} `これは直接与える：\n"
+"varepsilon（u_ {n + 1}）） -  2 \\ mu \\ varepsilon ^ p_ {n +1} `これは直接与えます：\n"
 
 # 6af01e688d444c72a5444c6e9319aa33
 #: ../source/userdoc/model_plasticity_small_strain.rst:296

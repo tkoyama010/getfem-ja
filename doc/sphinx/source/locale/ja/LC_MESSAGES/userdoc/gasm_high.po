@@ -102,7 +102,7 @@ msgid ""
 "For instance ``u``, ``v``, ``p``, ``pressure``, ``electric_field`` are valid"
 " variable names."
 msgstr ""
-"変数名：変数のリストを与える必要があります。変数は有限要素法で記述されるか、未知数の単純なベクトルになります。例えば、 `` u``、 `` v``、 "
+"変数名：変数のリストを与えます必要があります。変数は有限要素法で記述されるか、未知数の単純なベクトルになります。例えば、 `` u``、 `` v``、 "
 "`` p``、 `` pressure``、 `` electric_field``は有効な変数名です。\n"
 
 # 84b953b64dc64a87bb5595b9c218f736
@@ -110,7 +110,7 @@ msgstr ""
 msgid ""
 "Constant names: A list of constants could be given. The rules are the same "
 "as for the variables but no test functions can be associated to constants."
-msgstr "定数名：定数のリストを与えることができます。ルールは変数と同じですが、形状関数を定数に関連付けることはできません。\n"
+msgstr "定数名：定数のリストを与えますことができます。ルールは変数と同じですが、形状関数を定数に関連付けることはできません。\n"
 
 # df8b3706d8f849d7b7471762eeec4b0e
 #: ../source/userdoc/gasm_high.rst:33
@@ -442,7 +442,7 @@ msgid ""
 "coefficients depends on a temperature field one can write::"
 msgstr ""
 "ここでもまた、いくつかの問題を結合するために、係数 `` lambda``と `` "
-"mu``に定数、あるいはスカラーフィールドや明示的表現、あるいは他の変数からの式を与えることができます。たとえば、係数が温度場に依存する場合、次のように書くことができます。\n"
+"mu``に定数、あるいはスカラーフィールドや明示的表現、あるいは他の変数からの式を与えますことができます。たとえば、係数が温度場に依存する場合、次のように書くことができます。\n"
 
 # 4e77ee5baff840d5b638cef1d994ab6c
 #: ../source/userdoc/gasm_high.rst:137
@@ -646,7 +646,7 @@ msgstr ""
 msgid ""
 "allows to do so. Be aware to give a vector and a matrix of the right "
 "dimension."
-msgstr "そうすることができます。正しい次元のベクトルと行列を与えることに注意してください。\n"
+msgstr "そうすることができます。正しい次元のベクトルと行列を与えますことに注意してください。\n"
 
 # c64dd7c033da4c8fa29d06fe1c7a62e2
 #: ../source/userdoc/gasm_high.rst:215
@@ -718,7 +718,7 @@ msgstr ""
 "\"Grad_Test2_u.Grad_Test_u\" ``（すなわち、2次式）または `` `Norm_sqr（Grad_u）/ 2\" "
 "``（すなわち、 ）。 Grad_u.Grad_u / 2 \"` `` `[Grad_u（1）、Grad_u（2）] "
 "'などの同じ結果が得られます。[Grad_Test_u（1）、Grad_Test_u（2） ] \"` "
-"`二次元問題のために。しかしながら、好ましくは、0次または2次の発現を好む特別な理由がなければ、1次の発現（弱い製剤）を与えることが推奨される。\n"
+"`二次元問題のために。しかしながら、好ましくは、0次または2次の発現を好む特別な理由がなければ、1次の発現（弱い製剤）を与えますことが推奨される。\n"
 
 # b1c5a908b093495d8e897dab8b19a5c5
 #: ../source/userdoc/gasm_high.rst:253
@@ -934,7 +934,7 @@ msgid ""
 "approximation of constitutive laws such as plasticity)."
 msgstr ""
 "定数のリストを `` "
-"ga_worspace``オブジェクトに与えることもできます。ルールは変数と同じですが、形状関数を定数に関連付けることはできず、定数に関して象徴的な区別もありません。スカラー定数は、構成的法則に介入する係数を表すために定義されることが多い。さらに、定数は、「im_data」オブジェクトを介して積分点上に定義されたいくつかのスカラー/ベクトル/テンソルフィールド（例えば、可塑性のような構成法の近似のいくつかの実装のために）であり得る。\n"
+"ga_worspace``オブジェクトに与えますこともできます。ルールは変数と同じですが、形状関数を定数に関連付けることはできず、定数に関して象徴的な区別もありません。スカラー定数は、構成的法則に介入する係数を表すために定義されることが多い。さらに、定数は、「im_data」オブジェクトを介して積分点上に定義されたいくつかのスカラー/ベクトル/テンソルフィールド（例えば、可塑性のような構成法の近似のいくつかの実装のために）であり得る。\n"
 
 # abf5701317564fc4b06ba24dd36f0ea5
 #: ../source/userdoc/gasm_high.rst:386
@@ -1573,7 +1573,7 @@ msgid ""
 "(parent) element. Could be used only if the mesh do not contain elements of "
 "mixed dimensions."
 msgstr ""
-"`` element_B``は、参照（親）要素からの幾何学変換の勾配の擬似逆行列の転置を与える（ref： `dp-"
+"`` element_B``は、参照（親）要素からの幾何学変換の勾配の擬似逆行列の転置を与えます（ref： `dp-"
 "transgeo`参照）。メッシュに混合ディメンションの要素が含まれていない場合にのみ使用できます。\n"
 
 # 9fb5f1ed23af4a9e9a2f70b6f730c0b0
@@ -1651,7 +1651,7 @@ msgstr ""
 msgid ""
 "``Sym(m)`` gives the symmetric part of a square matrix ``m``, i.e. ``(m + "
 "m')/2``."
-msgstr "`` Sym（m） ``は正方行列 \"m\"の対称部分、すなわち ``（m + m '）/ 2``を与える。\n"
+msgstr "`` Sym（m） ``は正方行列 \"m\"の対称部分、すなわち ``（m + m '）/ 2``を与えます。\n"
 
 # e3b38ff4022a4668ab986fc7b7cc6eca
 #: ../source/userdoc/gasm_high.rst:578
@@ -1758,7 +1758,7 @@ msgstr ""
 # abb29a8539db4ae59d4d36440ed6d80b
 #: ../source/userdoc/gasm_high.rst:603
 msgid "``Expm(m)`` gives the exponential of a square matrix ``m``."
-msgstr "`` Expm（m） ``は正方行列 `` m``の指数を与える。\n"
+msgstr "`` Expm（m） ``は正方行列 `` m``の指数を与えます。\n"
 
 # 1ac4da12a76c4a0ba8862d15ed5fc8a2
 #: ../source/userdoc/gasm_high.rst:605

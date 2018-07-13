@@ -345,7 +345,7 @@ msgid ""
 "*smooth* bifurcation points (see, e.g., [Georg2001]_):"
 msgstr ""
 "A点：数学： `\\ bar {Y}`はシステムの分岐点*と呼ばれます：数学： `F（\\ bar {Y}）= 0`ならば` F（Y）= 0`、 "
-"2つ以上の異なる解曲線がそれを通過する。次の結果は、*滑らかな分岐点のテストを与える（例えば、[Georg2001] _を参照）。\n"
+"2つ以上の異なる解曲線がそれを通過する。次の結果は、*滑らかな分岐点のテストを与えます（例えば、[Georg2001] _を参照）。\n"
 
 # cbe553bc18f943fd85e06a1d9fbce497
 #: ../source/userdoc/model_continuation.rst:225

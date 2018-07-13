@@ -269,7 +269,7 @@ msgstr "リンクされたメッシュへの参照を与えます。"
 msgid ""
 "Gives a descriptor on the integration method defined on element of index "
 "``i``."
-msgstr "インデックスiの要素に定義された積分法に関する記述子を与える。"
+msgstr "インデックスiの要素に定義された積分法に関する記述子を与えます。"
 
 # 458bba122bdc4ab5a9c3df57d1d13c15
 #: ../source/userdoc/binteg.rst:151

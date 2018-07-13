@@ -146,7 +146,7 @@ msgstr "シンプレックスのために、以下のようにより特殊化さ
 #: ../source/userdoc/bmesh.rst:76
 msgid ""
 "It is also possible to give directly the list of points with the function::"
-msgstr "次の関数を使ってポイントのリストを直接与えることも可能です::"
+msgstr "次の関数を使ってポイントのリストを直接与えますことも可能です::"
 
 # 996e3cf5e3aa4bf2b11b9b00b08d1b3e
 #: ../source/userdoc/bmesh.rst:80
@@ -491,7 +491,7 @@ msgstr ""
 # 059d5fc3d5274c779eba8abe4693c32c
 #: ../source/userdoc/bmesh.rst:325
 msgid "gives an estimate of the area of convex ``ic``."
-msgstr "``ic`` 凸面の面積の推定値を与える。"
+msgstr "``ic`` 凸面の面積の推定値を与えます。"
 
 # 9ae1924d621548a1ae9557d87ae5f6aa
 #: ../source/userdoc/bmesh.rst:329
@@ -501,7 +501,7 @@ msgstr "要素 ``ic`` の品質の概算を与えます。"
 # 5de3eb2fe50b416dae686c91ada5ceed
 #: ../source/userdoc/bmesh.rst:333
 msgid "gives an estimate of the radius of element ``ic``."
-msgstr "要素 ``ic`` の半径の推定値を与える。"
+msgstr "要素 ``ic`` の半径の推定値を与えます。"
 
 # 63d122448b2f43279c9701edd8b79ab8
 #: ../source/userdoc/bmesh.rst:337
@@ -644,7 +644,7 @@ msgid ""
 " refer to a given face, is to give the convex number, and the local face "
 "number in the convex."
 msgstr ""
-"凸と点はgf_mオブジェクト内でグローバルに番号が付けられていますが、面のグローバルな番号付けはありません。そのため、与えられた面を参照する唯一の方法は凸面の番号と凸面の局所面番号を与えることです。"
+"凸と点はgf_mオブジェクト内でグローバルに番号が付けられていますが、面のグローバルな番号付けはありません。そのため、与えられた面を参照する唯一の方法は凸面の番号と凸面の局所面番号を与えますことです。"
 
 # 3df54a988a9a467ba32561f61543d223
 #: ../source/userdoc/bmesh.rst:433

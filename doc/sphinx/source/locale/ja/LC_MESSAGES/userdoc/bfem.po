@@ -260,7 +260,7 @@ msgstr "リンクされたメッシュへの参照を与えます。"
 msgid ""
 "gives a descriptor on the finite element method defined on element of index "
 "``i`` (does not take into account the qdim nor the optional reduction)."
-msgstr "インデックス \"i\"の要素に定義されている有限要素法の記述子を与える（qdimもオプションの削減も考慮しない）。"
+msgstr "インデックス \"i\"の要素に定義されている有限要素法の記述子を与えます（qdimもオプションの削減も考慮しない）。"
 
 # c9b58ef3bb6b480f9db1131c2ca09b7c
 #: ../source/userdoc/bfem.rst:155
@@ -402,7 +402,7 @@ msgid ""
 "of the reference element."
 msgstr ""
 "参照要素の座標におけるインデックス ``i`` の要素上のローカルインデックス ``j`` の基本自由度に関連する点を表す "
-"``bgeot::base_node`` を与える。"
+"``bgeot::base_node`` を与えます。"
 
 # 9019dda17fe14bd08026b6b44f9f6580
 #: ../source/userdoc/bfem.rst:239
