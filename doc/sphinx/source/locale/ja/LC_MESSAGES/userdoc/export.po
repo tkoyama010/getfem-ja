@@ -21,7 +21,7 @@ msgstr ""
 # 0560555d33264dbd87d65d391d723631
 #: ../source/userdoc/export.rst:10
 msgid "Export and view a solution"
-msgstr "ソリューションのエクスポートと表示"
+msgstr "ソリューションの出力と表示"
 
 # b82c8e4258ae4583be4187ba19eaf19c
 #: ../source/userdoc/export.rst:12
@@ -52,7 +52,7 @@ msgstr "オープンソースのプログラムGmsh"
 # 80a2953979ce4120af5cb292ec3dd554
 #: ../source/userdoc/export.rst:19
 msgid "The objects that can be exported are, |m|, |mf| objects, and |smsl|."
-msgstr "エクスポートできるオブジェクトは、 |m| 、 |mf| 、 |smsl| オブジェクトです。"
+msgstr "出力できるオブジェクトは、 |m| 、 |mf| 、 |smsl| オブジェクトです。"
 
 # 7a327575523f4e37a7adbc3db65f0cb9
 #: ../source/userdoc/export.rst:22
@@ -89,7 +89,7 @@ msgid ""
 " export either a |gf_m| or |gf_mf| , but also the more versatile |gf_smsl|."
 msgstr ""
 "他の2つのファイルフォーマット、すなわちVTKファイルフォーマット、 `OpenDX`_ ファイル形式と `Gmsh`_ 後処理ファイル形式の両方で、 "
-"|gf_m| または |gf_mf| のどちらかをエクスポートするだけでなく、より汎用性の高い |gf_smsl| をエクスポートします。"
+"|gf_m| または |gf_mf| のどちらかを出力するだけでなく、より汎用性の高い |gf_smsl| を出力します。"
 
 # 9c6c72f1af8c4060ac763662289b3b05
 #: ../source/userdoc/export.rst:50
@@ -305,7 +305,7 @@ msgstr ""
 # fcfa4975744e4090b12fb750da005fe6
 #: ../source/userdoc/export.rst:187
 msgid "Exporting |m|, |mf| or slices to VTK"
-msgstr "|m| か |mf| またはスライスをVTKにエクスポートします"
+msgstr "|m| か |mf| またはスライスをVTKに出力します"
 
 # cad907162e6047189d1584b91139cbc1
 #: ../source/userdoc/export.rst:189
@@ -342,7 +342,7 @@ msgstr ""
 # 783f8a3136444a99a6beb6d0a8dfa218
 #: ../source/userdoc/export.rst:211
 msgid "It is also possible to export a |mf| without having to build a slice::"
-msgstr "スライスを構築せずにmfをエクスポートすることもできます："
+msgstr "スライスを構築せずにmfを出力することもできます："
 
 # 46c886d1fc2445b88f4b0704eac9f67e
 #: ../source/userdoc/export.rst:220
@@ -358,7 +358,7 @@ msgstr ""
 # 1f968ff3c62f4bad8f16dddd7b832273
 #: ../source/userdoc/export.rst:225
 msgid "Exporting |m|, |mf| or slices to OpenDX"
-msgstr "|m| か |mf| またはスライスをOpenDXにエクスポートする"
+msgstr "|m| か |mf| またはスライスをOpenDXに出力する"
 
 # 89ba5b17e33c43f2a3e0be22e2f7fa75
 #: ../source/userdoc/export.rst:227
@@ -417,8 +417,8 @@ msgid ""
 " access in OpenDX to 4 data fields: \"deformation\", \"deformation_edges\", "
 "\"von_mises_stress\" and \"von_mises_stress_edges\"."
 msgstr ""
-"``dx_export::exporting_mesh_edges()`` 関数はこれは、エクスポートされたメッシュごとに、オリジナルの "
-"メッシュも（別のOpenDXメッシュに）エクスポートされます。この例では、OpenDXは4つのデータフィールドにアクセスします：\"deformation\"、\"deformation_edges\"、\"von_mises_stress\"と\"von_mises_stress_edges\"。"
+"``dx_export::exporting_mesh_edges()`` 関数はこれは、出力されたメッシュごとに、オリジナルの "
+"メッシュも（別のOpenDXメッシュに）出力されます。この例では、OpenDXは4つのデータフィールドにアクセスします：\"deformation\"、\"deformation_edges\"、\"von_mises_stress\"と\"von_mises_stress_edges\"。"
 
 # e9540e83acd04a0c8fd20fff35c6a5cb
 #: ../source/userdoc/export.rst:280
