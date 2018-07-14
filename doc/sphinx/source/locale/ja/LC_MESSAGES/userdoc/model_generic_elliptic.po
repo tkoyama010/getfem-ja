@@ -88,7 +88,7 @@ msgid ""
 "model variables (except for the complex version where it has to be a "
 "declared data of the model)"
 msgstr ""
-"\"1\"、 \"sin（X [0]）\"、 \"Norm（u）\"のような弱い形式の言語の正規表現でなければならない式 "
+"\"1\"、 \"sin（X [0]）\"、 \"Norm（u）\"のような弱形式言語の正規表現でなければならない式 "
 "\"dataexpr\"モデル変数にも依存します（モデルの宣言されたデータでなければならない複雑なバージョンを除く）\n"
 
 # 4d642d740e46475c99303ca74271bb62

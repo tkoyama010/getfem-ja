@@ -92,7 +92,7 @@ msgid ""
 "weak form language or as parameter of some bricks). Before the assembly of "
 "the system, the data `t` is automatically updated to the time step `n`."
 msgstr ""
-"データ「t」は時間パラメータを表し、（弱い形式の言語で、またはいくつかのレンガのパラメータとして）使用することができる。システムの組み立て前に、データ「t」は自動的に時間ステップ「n」に更新される。\n"
+"データ「t」は時間パラメータを表し、（弱形式言語で、またはいくつかのレンガのパラメータとして）使用することができる。システムの組み立て前に、データ「t」は自動的に時間ステップ「n」に更新される。\n"
 
 # 5add31692c964ee18ff7c5ffc4fb31c8
 #: ../source/userdoc/model_time_integration.rst:28

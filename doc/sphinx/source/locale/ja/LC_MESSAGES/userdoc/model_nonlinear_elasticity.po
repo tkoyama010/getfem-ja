@@ -509,7 +509,7 @@ msgid ""
 "the language, for instance using a generic assembly brick in a model or for "
 "interpolation of certain quantities (the stress for instance)."
 msgstr ""
-"弱い形式の言葉は、| gf "
+"弱形式の言葉は、| gf "
 "|で実装された超臨界的潜在的および構成的規則にアクセスできるようにします。これにより、言語で直接使用することができます。たとえば、モデル内の一般的なアセンブリブリックを使用するか、または特定の数量の補間（ストレスなど）が可能です。\n"
 
 # d1f85f095cd4409989e7ebc1eacb778f

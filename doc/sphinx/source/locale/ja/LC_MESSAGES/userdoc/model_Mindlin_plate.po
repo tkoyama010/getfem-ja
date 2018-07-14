@@ -176,7 +176,7 @@ msgid ""
 "trans`) and an example can be found in the file "
 ":file:`src/getfem_linearized_plates.cc`."
 msgstr ""
-"弱い形式の言語の記述（：ref： `ud-gasm-high-elem-trans`を参照）と例がファイル：file：` "
+"弱形式言語の記述（：ref： `ud-gasm-high-elem-trans`を参照）と例がファイル：file：` "
 "srcにある場合、基本的な投影の定義の原則が説明されています/ getfem_linearized_plates.cc`。\n"
 
 # 97033853e4c343a2a89fe2eae6325107

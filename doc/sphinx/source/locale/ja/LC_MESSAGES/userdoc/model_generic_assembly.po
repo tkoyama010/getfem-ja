@@ -104,7 +104,7 @@ msgstr ""
 msgid ""
 "Note that for the moment, the use of the weak form language is not possible "
 "for complex valued problems."
-msgstr "現時点では、複雑な価値のある問題に対して弱い形式の言語の使用は不可能であることに注意してください。\n"
+msgstr "現時点では、複雑な価値のある問題に対して弱形式言語の使用は不可能であることに注意してください。\n"
 
 # dce821aa54324316b64e28d6aea6f86e
 #: ../source/userdoc/model_generic_assembly.rst:7

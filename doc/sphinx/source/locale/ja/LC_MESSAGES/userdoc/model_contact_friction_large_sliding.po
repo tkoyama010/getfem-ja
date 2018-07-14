@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "変形可能な構造の大きなスライド/大きな変形接触に対処するための基本的なツールは、弱いフォーム言語でアクセス可能です。いくつかの補間変換（ref： "
 "`ud-gasm-high-"
-"transf`を参照）は、接触検出を実行し、反対側の境界境界にある接触境界から統合できるように定義されています。実際の構成における単位法線ベクトルやクーロン摩擦との接触を考慮する投影などの他の有用なツールも、弱い形式の言語の演算子として定義されています。\n"
+"transf`を参照）は、接触検出を実行し、反対側の境界境界にある接触境界から統合できるように定義されています。実際の構成における単位法線ベクトルやクーロン摩擦との接触を考慮する投影などの他の有用なツールも、弱形式言語の演算子として定義されています。\n"
 
 # 02b9ec9324b9445a9db4e0f734b5fe34
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:16
@@ -106,7 +106,7 @@ msgid ""
 "where ``transname`` is a name given to the transformation which allows to "
 "refer to it in the weak form language and ``d`` is the release distance (see"
 " above)."
-msgstr "ここで `` transname``は弱い形式の言語でそれを参照できる変換に与えられた名前で、 `` d``は解放距離です（上記参照）。\n"
+msgstr "ここで `` transname``は弱形式言語でそれを参照できる変換に与えられた名前で、 `` d``は解放距離です（上記参照）。\n"
 
 # 91bfe8a7def543b9b198cf684fa8fedc
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:43
@@ -148,7 +148,7 @@ msgid ""
 "expression have to be close to a signed distance, which in particular means "
 "that the gradient norm have to be close to 1."
 msgstr ""
-"ここで、 `` expr``は、弱い形式の言語の構文（ `` X``は現在の位置、 `` X（0） ``、 `` X（1） `` "
+"ここで、 `` expr``は、弱形式言語の構文（ `` X``は現在の位置、 `` X（0） ``、 `` X（1） `` "
 "...対応するコンポーネント）。たとえば、式「X（0）+ "
 "5」は、最初の座標の位置「-5」の右側にある平坦な障害物に対応します。式は符号付き距離に近いものでなければならないことに注意してください。特に、勾配ノルムは1に近づく必要があります。\n"
 
@@ -161,7 +161,7 @@ msgid ""
 "`Interpolate_filter` command of the weak form language (see :ref:`ud-gasm-"
 "high-transf`). The different values:"
 msgstr ""
-"非接触の状況と他の変形可能な物体との接触、または堅い障害物との接触を区別するために、変換は、弱い形式の言語の「Interpolate_filter」コマンドによって使用される整数識別を返す（ref"
+"非接触の状況と他の変形可能な物体との接触、または堅い障害物との接触を区別するために、変換は、弱形式言語の「Interpolate_filter」コマンドによって使用される整数識別を返す（ref"
 " ：「ud-gasm-high-transf」）。異なる値：\n"
 
 # 4eb77021be4e464cafcbd5a235a52b17
@@ -497,7 +497,7 @@ msgstr "摩擦接触のための高レベルジェネリックアセンブリの
 msgid ""
 "The following nonlinear operators are defined in the weak form language (see"
 " :ref:`ud-gasm-high`):"
-msgstr "次の非線形演算子は、弱い形式の言語で定義されています（ref： `ud-gasm-high`参照）。\n"
+msgstr "次の非線形演算子は、弱形式言語で定義されています（ref： `ud-gasm-high`参照）。\n"
 
 # db8f860e311549c7aad98eb45d304aeb
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:236
@@ -625,7 +625,7 @@ msgid ""
 "current position) which should be a signed distance to the obstacle. `N` is "
 "the mesh dimension."
 msgstr ""
-"ここで、 `expr`は弱い形式の言語（` X`は現在の位置）を使った式で、障害物までの符号付き距離でなければなりません。 "
+"ここで、 `expr`は弱形式言語（` X`は現在の位置）を使った式で、障害物までの符号付き距離でなければなりません。 "
 "「N」はメッシュ寸法である。\n"
 
 # d77836dc349e4841845838783736856c

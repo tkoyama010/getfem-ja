@@ -98,7 +98,7 @@ msgstr ""
 # 0e54d16cb66a4c27a98245ce59c0536d
 #: ../source/userdoc/interMM.rst:55
 msgid "Interpolation based on the high-level weak form language"
-msgstr "高レベル弱フォーム言語に基づく補間\n"
+msgstr "高レベル弱形式言語に基づく補間\n"
 
 # 474f0613f7164b918e20401a0edd9bde
 #: ../source/userdoc/interMM.rst:57

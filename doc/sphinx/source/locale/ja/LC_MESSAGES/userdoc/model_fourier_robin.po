@@ -58,7 +58,7 @@ msgid ""
 "the model)"
 msgstr ""
 "ここで `` dataexpr``は係数を表すモデルのデータです：math： "
-"`Q`。これは、弱い形式の言語の任意の有効な式（モデルのデータでなければならない複雑なバージョンを除く）\n"
+"`Q`。これは、弱形式言語の任意の有効な式（モデルのデータでなければならない複雑なバージョンを除く）\n"
 
 # 5dde77f21ebc4639bebb9802830e2da2
 #: ../source/userdoc/model_fourier_robin.rst:40
