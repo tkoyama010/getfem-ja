@@ -111,4 +111,4 @@ msgstr "モデル\n"
 # 8553d0b6020046a2acbc69aeba415656
 #: ../source/userdoc/model_solvers.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

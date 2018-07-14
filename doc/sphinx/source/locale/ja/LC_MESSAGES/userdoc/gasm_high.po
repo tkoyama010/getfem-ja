@@ -533,7 +533,7 @@ msgid ""
 "generic-assembly`. It is however also possible to use the high level generic"
 " assembly on its own."
 msgstr ""
-"ジェネリックアセンブリを使用する最も自然な方法は、モデルオブジェクトのジェネリックアセンブリレンガを使用することです（Section：ref： `ud-"
+"ジェネリックアセンブリを使用する最も自然な方法は、モデルオブジェクトのジェネリックアセンブリ要素を使用することです（Section：ref： `ud-"
 "model-generic-assembly`を参照してください）。しかし、高水準汎用アセンブリを単独で使用することも可能です。\n"
 
 # 8dc7a2d9e0cf4ff28e3ee9a389ef9ba8

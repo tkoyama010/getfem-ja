@@ -20,7 +20,7 @@ msgstr ""
 # 2632f599effd46d6b95b10eb34ddc365
 #: ../source/userdoc/model_generic_elliptic.rst:13
 msgid "Generic elliptic brick"
-msgstr "一般的な楕円形レンガ\n"
+msgstr "一般的な楕円形要素\n"
 
 # 97483baa15ea4038b45fba635f3fb4f0
 #: ../source/userdoc/model_generic_elliptic.rst:15
@@ -28,7 +28,7 @@ msgid ""
 "This brick adds an elliptic term on a variable of a model.  The shape of the"
 " elliptic term depends both on the variable and a given coefficient. This "
 "corresponds to a term:"
-msgstr "このレンガは、モデルの変数に楕円形の項を追加します。楕円項の形状は、変数と与えられた係数の両方に依存する。これは用語に対応します：\n"
+msgstr "この要素は、モデルの変数に楕円形の項を追加します。楕円項の形状は、変数と与えられた係数の両方に依存する。これは用語に対応します：\n"
 
 # 3bd1bb91ef6640edacc693e318200aa0
 #: ../source/userdoc/model_generic_elliptic.rst:23
@@ -57,7 +57,7 @@ msgstr ""
 msgid ""
 "This brick can be added to a model ``md`` thanks to two functions. The first"
 " one is::"
-msgstr "このレンガは、2つの関数のおかげでモデル `` md``に追加することができます。最初のものは::\n"
+msgstr "この要素は、2つの関数のおかげでモデル `` md``に追加することができます。最初のものは::\n"
 
 # f27dcf0e14704641af47720884864d88
 #: ../source/userdoc/model_generic_elliptic.rst:41
@@ -72,7 +72,7 @@ msgstr ""
 "それは：math： `1`（ラプラシアン項）に等しい定数係数を持つモデルの変数` "
 "`varname``に対して相対的に楕円形の項を加えます。これは、ラプラス演算子に対応します。 `` "
 "mim``は、その用語を計算するために使用される統合方法です。 `` "
-"region``はオプションのリージョン番号です。省略されている場合、用語はメッシュ全体で計算されるものとみなされます。関数の結果は、モデルのレンガのインデックスです。\n"
+"region``はオプションのリージョン番号です。省略されている場合、用語はメッシュ全体で計算されるものとみなされます。関数の結果は、モデルの要素のインデックスです。\n"
 
 # d462166dac884ceaacedcff541edbe55
 #: ../source/userdoc/model_generic_elliptic.rst:48
@@ -99,7 +99,7 @@ msgid ""
 "When an order four tensor is used, the corresponding weak term is the "
 "following"
 msgstr ""
-"このレンガでは非常に一般的な方程式が得られることに注意してください。例えば、テンソルデータを用いて線形異方性弾性を得ることができる。テンソル4次を使用する場合、対応する弱い項は次のようになります\n"
+"この要素では非常に一般的な方程式が得られることに注意してください。例えば、テンソルデータを用いて線形異方性弾性を得ることができる。テンソル4次を使用する場合、対応する弱い項は次のようになります\n"
 
 # 6eef288e034c4204b494394100cdeefe
 #: ../source/userdoc/model_generic_elliptic.rst:62
@@ -112,12 +112,12 @@ msgid ""
 msgstr ""
 "ここで、次のようになります。math： `a_ {i、j、k、l}`は4テンソルの次数であり、math： `\\ partial_i "
 "u_j`は次のmath：` i ^ {th} `変数の偏微分です。成分：数学：未知数の「j」：数学：「k」。 ：math： "
-"`v`は形状関数です。しかし、線形等方性弾性の場合、より適合したレンガが利用可能である（下記参照）。\n"
+"`v`は形状関数です。しかし、線形等方性弾性の場合、より適合した要素が利用可能である（下記参照）。\n"
 
 # f035b7c811e74750bef672d638828070
 #: ../source/userdoc/model_generic_elliptic.rst:68
 msgid "The brick has a working complex version."
-msgstr "レンガは作業複雑なバージョンを持っています。\n"
+msgstr "要素は作業複雑なバージョンを持っています。\n"
 
 # 9cd566db60bf44168a18a480e4cfa320
 #: ../source/userdoc/model_generic_elliptic.rst:7
@@ -127,4 +127,4 @@ msgstr "モデル\n"
 # 9cd566db60bf44168a18a480e4cfa320
 #: ../source/userdoc/model_generic_elliptic.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

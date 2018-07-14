@@ -25,7 +25,7 @@ msgstr "等方性線形弾性ブロック\n"
 # 1e26a001ba3147df86818d415e5edea6
 #: ../source/userdoc/model_linear_elasticity.rst:15
 msgid "This brick represents a term"
-msgstr "このレンガは用語を表します\n"
+msgstr "この要素は用語を表します\n"
 
 # 2bdef66dd1cc4df5abb742096f0b429f
 #: ../source/userdoc/model_linear_elasticity.rst:21
@@ -42,7 +42,7 @@ msgid ""
 "incompressible brick to build the Stokes problem."
 msgstr ""
 "：\\ varepsilon（u）は小さなひずみテンソルです。：\\ sigmaは応力テンソルです。：math： `\\ lambda`と：math：`"
-" \\ mu`は| Lame |係数。これは線形等方性弾性の系を表す。ストークス問題を構築するために線形非圧縮レンガと一緒に：math： `\\ "
+" \\ mu`は| Lame |係数。これは線形等方性弾性の系を表す。ストークス問題を構築するために線形非圧縮要素と一緒に：math： `\\ "
 "lambda = 0`と一緒に使うこともできます。\n"
 
 # d46c8c5449c043efad93389eb2579a21
@@ -62,7 +62,7 @@ msgstr "平面応力近似（2Dモデル）を除き、\n"
 msgid ""
 "The function which adds this brick to a model and parametrized with the "
 "|Lame| coefficients is::"
-msgstr "このレンガをモデルに追加し、| Lame |係数は::\n"
+msgstr "この要素をモデルに追加し、| Lame |係数は::\n"
 
 # 29dea9803df24dfdad484f86f434a72d
 #: ../source/userdoc/model_linear_elasticity.rst:54
@@ -85,12 +85,12 @@ msgid ""
 " mesh (and a standard model on a 3D mesh). in order to obtain a plane stress"
 " approximation for 2D meshes, one can use::"
 msgstr ""
-"このレンガは、2Dメッシュ（および3Dメッシュ上の標準モデル）に適用されるときの平面歪み近似を表します。 2Dメッシュの平面応力近似を得るために、\n"
+"この要素は、2Dメッシュ（および3Dメッシュ上の標準モデル）に適用されるときの平面歪み近似を表します。 2Dメッシュの平面応力近似を得るために、\n"
 
 # f1710999e78b4cb3a33b874ddc4f4821
 #: ../source/userdoc/model_linear_elasticity.rst:68
 msgid "For 3D meshes, the two previous bricks give the same result."
-msgstr "3Dメッシュの場合、前の2つのレンガで同じ結果が得られます。\n"
+msgstr "3Dメッシュの場合、前の2つの要素で同じ結果が得られます。\n"
 
 # 15b2aedbb3e64fd0800a177e30e008b5
 #: ../source/userdoc/model_linear_elasticity.rst:71
@@ -126,19 +126,19 @@ msgid ""
 "The program :file:`tests/elastostatic.cc` can be taken as a model of use of "
 "a linearized isotropic elasticity brick."
 msgstr ""
-"プログラム：file： `tests / elastostatic.cc`は、線形化された等方性弾性レンガの使用モデルとして取ることができます。\n"
+"プログラム：file： `tests / elastostatic.cc`は、線形化された等方性弾性要素の使用モデルとして取ることができます。\n"
 
 # 9787754b06924cbbbd8d53bb60f2a86e
 #: ../source/userdoc/model_linear_elasticity.rst:95
 msgid "Linear incompressibility (or nearly incompressibility) brick"
-msgstr "線形非圧縮性（またはほぼ非圧縮性）レンガ\n"
+msgstr "線形非圧縮性（またはほぼ非圧縮性）要素\n"
 
 # 4940377b27a54a5c9ce36302ccda74cd
 #: ../source/userdoc/model_linear_elasticity.rst:97
 msgid ""
 "This brick adds a linear incompressibility condition (or a nearly "
 "incompressible condition) in a problem of type:"
-msgstr "このレンガは、タイプの問題で線形非圧縮性条件（またはほぼ非圧縮性の条件）を追加します。\n"
+msgstr "この要素は、タイプの問題で線形非圧縮性条件（またはほぼ非圧縮性の条件）を追加します。\n"
 
 # dc437bcd953244be8864d55e2894bb52
 #: ../source/userdoc/model_linear_elasticity.rst:104
@@ -201,4 +201,4 @@ msgstr "モデル\n"
 # 5a2ae8a27ab24adfa34c76c4bb19c3a3
 #: ../source/userdoc/model_linear_elasticity.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

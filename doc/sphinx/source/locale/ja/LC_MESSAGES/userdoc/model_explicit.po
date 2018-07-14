@@ -20,14 +20,14 @@ msgstr ""
 # a5d5403b793c4033b9451eb545ecc587
 #: ../source/userdoc/model_explicit.rst:14
 msgid "Other \"explicit\" bricks"
-msgstr "他の \"明示的な\"レンガ\n"
+msgstr "他の \"明示的な\"要素\n"
 
 # b2119bc5ac744436b8278403c074690d
 #: ../source/userdoc/model_explicit.rst:16
 msgid ""
 "Two (very simple) bricks allow to add some explicit terms to the tangent "
 "system."
-msgstr "2つの（非常に単純な）レンガは、接線系に明示的な項を加えることを可能にする。\n"
+msgstr "2つの（非常に単純な）要素は、接線系に明示的な項を加えることを可能にする。\n"
 
 # b911bc53cc4b4fe78e7aa7673e36fc09
 # 1fe9ba0e42a04cf2b69475926fa8eb65
@@ -48,7 +48,7 @@ msgid ""
 "true if the term does not affect the coercivity of the tangent system "
 "(default is false). The matrix can be changed by the command::"
 msgstr ""
-"変数 `` varname1``と `` varname2``に対して、接線系に行列 `` B``を追加するだけのレンガを追加します。与えられた行列は、"
+"変数 `` varname1``と `` varname2``に対して、接線系に行列 `` B``を追加するだけの要素を追加します。与えられた行列は、"
 " `` varname1``の次元数と `` varname2``の次元数だけの行を持ちます。 2つの変数が異なっていて、 `` "
 "issymmetric``がtrueに設定されている場合は、行列の転置も接線システムに追加されます（デフォルトはfalse）。項が接線系の保磁力に影響を与えない場合、"
 " `` iscoercive``をtrueに設定します（デフォルトはfalse）。行列は次のコマンドで変更できます::\n"
@@ -61,7 +61,7 @@ msgid ""
 "should have the same size as the variable ``varname``. The value of the "
 "vector can by changed by the command::"
 msgstr ""
-"変数 `` varname``に対して接線系の右辺にベクトル `` L``を追加するレンガを追加します。与えられたベクトルは変数 `` "
+"変数 `` varname``に対して接線系の右辺にベクトル `` L``を追加する要素を追加します。与えられたベクトルは変数 `` "
 "varname``と同じ大きさでなければなりません。ベクトルの値は、コマンドによって変更することができます::\n"
 
 # 53ed85ca946245d1a9231ebaace4ef13
@@ -72,4 +72,4 @@ msgstr "モデル\n"
 # 53ed85ca946245d1a9231ebaace4ef13
 #: ../source/userdoc/model_explicit.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

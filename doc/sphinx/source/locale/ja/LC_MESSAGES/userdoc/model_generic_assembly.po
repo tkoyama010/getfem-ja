@@ -20,7 +20,7 @@ msgstr ""
 # 63f9918160cd4f2ca792d8dc2e288273
 #: ../source/userdoc/model_generic_assembly.rst:13
 msgid "Generic assembly bricks"
-msgstr "一般的なアセンブリレンガ\n"
+msgstr "一般的なアセンブリ要素\n"
 
 # 2ebd0156134d43a985db396ec4abafe7
 #: ../source/userdoc/model_generic_assembly.rst:16
@@ -43,7 +43,7 @@ msgid ""
 "preferable not to indicate anything."
 msgstr ""
 "これは、メッシュ領域 `` region`にアセンブリメソッド `` mim`を、アセンブリ文字列 `` expr``を使用して、モデル `` "
-"md``にレンガを追加します。結果が対称であれば、5番目の引数で指定し、6番目の引数で強制的に指定できます。後者の対称性と強制性は、正しい線形ソルバを決定するために使用されます。あなたがそれほど確実でない場合は、何も示さないことが望ましいです。\n"
+"md``に要素を追加します。結果が対称であれば、5番目の引数で指定し、6番目の引数で強制的に指定できます。後者の対称性と強制性は、正しい線形ソルバを決定するために使用されます。あなたがそれほど確実でない場合は、何も示さないことが望ましいです。\n"
 
 # af6759c3340c4546905a99ae6d808ef4
 #: ../source/userdoc/model_generic_assembly.rst:23
@@ -55,7 +55,7 @@ msgid ""
 "algorithm will be used to solve the problem. If the term is indeed linear, "
 "you should use instead::"
 msgstr ""
-"しかし、このレンガは、式が非線形であるとみなします。このレンガは、特に、いくつかの変数間の非線形結合項を得るために示されている。これは、特に、項のアセンブリがモデルのアセンブリの各呼び出しで実行され、ニュートンアルゴリズムが問題を解決するために使用されることを意味する。用語が実際に線形の場合は、代わりに::\n"
+"しかし、この要素は、式が非線形であるとみなします。この要素は、特に、いくつかの変数間の非線形結合項を得るために示されている。これは、特に、項のアセンブリがモデルのアセンブリの各呼び出しで実行され、ニュートンアルゴリズムが問題を解決するために使用されることを意味する。用語が実際に線形の場合は、代わりに::\n"
 
 # 9fd8be57b2fd487a9750a9b61ad6b61d
 #: ../source/userdoc/model_generic_assembly.rst:28
@@ -68,7 +68,7 @@ msgid ""
 "expression are taken into account. Still for linear problem, it is possible "
 "to perform the assembly of a sole source term thanks to::"
 msgstr ""
-"同じ議論がある。逆に、このレンガは常に `` "
+"同じ議論がある。逆に、この要素は常に `` "
 "expr`に対応する項は線形であると仮定し、使用されたデータが変更されない場合、アセンブリは1回だけ実行されます。したがって、あなたの表現は実際には各変数に関して線形（アファイン）であることに注意しなければなりません。それ以外の場合、結果は保証されません。表現のソース用語が考慮されます。それでも線形の問題では、次のような理由で単一のソースタームを組み立てることは可能です::\n"
 
 # c3e88f76b5cf4bb8ad0d7f3b453a773e
@@ -88,7 +88,7 @@ msgid ""
 "For instance, if one wants to solve a Poisson problem on a predefined "
 "variable ``u`` of the model, one may use the corresponding pre-defined "
 "bricks (see below) or simply use::"
-msgstr "例えば、モデルの定義済み変数 `` u``でポアソン問題を解きたい場合は、対応する事前定義されたレンガを使用するか（下記参照）、単純に::\n"
+msgstr "例えば、モデルの定義済み変数 `` u``でポアソン問題を解きたい場合は、対応する事前定義された要素を使用するか（下記参照）、単純に::\n"
 
 # 3ef911af2a3e4974bb33207fba2fd1e1
 #: ../source/userdoc/model_generic_assembly.rst:39
@@ -97,7 +97,7 @@ msgid ""
 "hand side. Of course, doing so, Newton's algorithms will be called. So, the "
 "more appropriate manner is to use the linear bricks as follows::"
 msgstr ""
-"ここで「F」は右辺を表すモデルのあらかじめ定義された定数である。もちろん、そうすることで、ニュートンのアルゴリズムが呼び出されます。だから、より適切な方法は、次のように線形レンガを使用することです::\n"
+"ここで「F」は右辺を表すモデルのあらかじめ定義された定数である。もちろん、そうすることで、ニュートンのアルゴリズムが呼び出されます。だから、より適切な方法は、次のように線形要素を使用することです::\n"
 
 # 23b6939e2dbf4df69c65d9f95dfc5bab
 #: ../source/userdoc/model_generic_assembly.rst:49
@@ -114,4 +114,4 @@ msgstr "モデル\n"
 # dce821aa54324316b64e28d6aea6f86e
 #: ../source/userdoc/model_generic_assembly.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

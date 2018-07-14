@@ -27,7 +27,7 @@ msgstr "Mindlin-Reissnerプレートモデル\n"
 msgid ""
 "This brick implements the classical Mindlin-Reissner bending model for "
 "isotropic plates."
-msgstr "このレンガは、等方性プレート用の古典的なMindlin-Reissner曲げモデルを実装しています。\n"
+msgstr "この要素は、等方性プレート用の古典的なMindlin-Reissner曲げモデルを実装しています。\n"
 
 # f36dd51f498c4cffacca00834d9fabe7
 #: ../source/userdoc/model_Mindlin_plate.rst:17
@@ -222,7 +222,7 @@ msgstr ""
 "3つの変種があります。 `variant = 0`は非還元処方に対応し、その場合には積分法` "
 "mim`のみが使用されます。実際には、この変形は強力なロック現象の影響を受けやすいので使用できません。 「変形= "
 "1」は、回転項に「mim」が使用され、横断せん断項に「mim_reduced」が使用される縮小積分に対応する。 `variant = "
-"2`（デフォルト）は、横せん断項の回転RT0要素への投影に対応します。現時点では、これは四辺形のみに適用されています（三角形要素のロック現象を除去するには不十分であるため）。高次の要素を使用すると、RT0の投影によって近似の順番が減少することにも注意してください。モデル内のレンガのインデックスを返します。\n"
+"2`（デフォルト）は、横せん断項の回転RT0要素への投影に対応します。現時点では、これは四辺形のみに適用されています（三角形要素のロック現象を除去するには不十分であるため）。高次の要素を使用すると、RT0の投影によって近似の順番が減少することにも注意してください。モデル内の要素のインデックスを返します。\n"
 
 # a5442ccbf6c44a19b2cd8eacfacdf3fd
 #: ../source/userdoc/model_Mindlin_plate.rst:112
@@ -239,4 +239,4 @@ msgstr "モデル\n"
 # b33cf87cc4a94cfdb6d285c3c1a03ab8
 #: ../source/userdoc/model_Mindlin_plate.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

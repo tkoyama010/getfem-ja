@@ -775,4 +775,4 @@ msgstr "モデル\n"
 # 3976468d6dcd4e56b36fb44efbd64b51
 #: ../source/userdoc/model_continuation.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

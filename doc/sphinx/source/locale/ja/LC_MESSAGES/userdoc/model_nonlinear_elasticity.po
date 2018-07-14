@@ -20,14 +20,14 @@ msgstr ""
 # d22aead41a82423fa8d3962f9932a042
 #: ../source/userdoc/model_nonlinear_elasticity.rst:12
 msgid "Finite strain Elasticity bricks"
-msgstr "有限歪弾性煉瓦\n"
+msgstr "有限歪弾性要素\n"
 
 # acd2475bf51c4cb486ea8ce2cdb89c9d
 #: ../source/userdoc/model_nonlinear_elasticity.rst:14
 msgid ""
 "This brick implements some classical hyperelastic constitutive law for large"
 " deformation elasticity."
-msgstr "このレンガは、大きな変形弾力性のためのいくつかの古典的な超弾性構成則を実装する。\n"
+msgstr "この要素は、大きな変形弾力性のためのいくつかの古典的な超弾性構成則を実装する。\n"
 
 # abc1d9b0f5ef4aedbb090f13cf5506c0
 #: ../source/userdoc/model_nonlinear_elasticity.rst:17
@@ -358,7 +358,7 @@ msgid ""
 ":file:`getfem/getfem_nonlinear_elasticity.cc`. The function adding this "
 "brick to a model is ::"
 msgstr ""
-"この煉瓦は大きなひずみ弾性問題を表しています。ファイル：file： `getfem / "
+"この要素は大きなひずみ弾性問題を表しています。ファイル：file： `getfem / "
 "getfem_nonlinear_elasticity.h`と：file：` getfem / "
 "getfem_nonlinear_elasticity.cc`で定義されています。このブリックをモデルに追加する関数は::\n"
 
@@ -428,7 +428,7 @@ msgid ""
 msgstr ""
 "プログラム：file： `nonlinear_elastostatic.cc` in：file：` tests`ディレクトリと：file： "
 "`demo_nonlinear_elasticity.m`：file：` interface / tests / "
-"matlab`ディレクトリは、このレンガの使用の例です非圧縮性条件。\n"
+"matlab`ディレクトリは、この要素の使用の例です非圧縮性条件。\n"
 
 # 7a370e8672484ede922f1e46e589acba
 #: ../source/userdoc/model_nonlinear_elasticity.rst:314
@@ -472,7 +472,7 @@ msgstr "モデルに大きなひずみの非圧縮性ブリックを追加する
 msgid ""
 "This brick adds an incompressibility condition in a large strain problem of "
 "type"
-msgstr "このレンガは、タイプの大きなひずみ問題で非圧縮性条件を追加します\n"
+msgstr "この要素は、タイプの大きなひずみ問題で非圧縮性条件を追加します\n"
 
 # 42c6f1aeca284a739dc981ce3bdeb5c6
 #: ../source/userdoc/model_nonlinear_elasticity.rst:336
@@ -581,7 +581,7 @@ msgid ""
 "Concerning the incompressible Mooney-Rivlin law, it has to be completed by "
 "an incompressibility term. For instance by adding the following "
 "incompressibility brick::"
-msgstr "非圧縮性のムーニー・リヴェリンの法則に関しては、非圧縮性の項によって完成されなければならない。たとえば、次の非圧縮レンガ::\n"
+msgstr "非圧縮性のムーニー・リヴェリンの法則に関しては、非圧縮性の項によって完成されなければならない。たとえば、次の非圧縮要素::\n"
 
 # 920e5a945d3448009ed52db1d5e016f5
 #: ../source/userdoc/model_nonlinear_elasticity.rst:420
@@ -589,7 +589,7 @@ msgid ""
 "This brick just adds the term ``p*(1-Det(Id(meshdim)+Grad_u))`` if ``p`` is "
 "the multiplier and ``u`` the variable which represents the displacement."
 msgstr ""
-"このレンガは、 `` p *（1-Det（Id-meshdim）+ Grad_u）） `` `` `p``が乗数であれば変位を表す変数を` "
+"この要素は、 `` p *（1-Det（Id-meshdim）+ Grad_u）） `` `` `p``が乗数であれば変位を表す変数を` "
 "`u``に加えます。\n"
 
 # 379cb6ec28c34cfab1d65806f02f44a2
@@ -645,4 +645,4 @@ msgstr "モデル\n"
 # bd1286732c2e4bfa95e40c84d199db1a
 #: ../source/userdoc/model_nonlinear_elasticity.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

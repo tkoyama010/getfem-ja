@@ -20,7 +20,7 @@ msgstr ""
 # 462740c12a2448a3988a615e47c1fc08
 #: ../source/userdoc/model_dirichlet.rst:13
 msgid "Dirichlet condition brick"
-msgstr "ディリクレ状態レンガ\n"
+msgstr "ディリクレ状態要素\n"
 
 # 115cd9ed625d4b9286693eddcb681711
 #: ../source/userdoc/model_dirichlet.rst:15
@@ -32,7 +32,7 @@ msgid ""
 ":ref:`ud-model-Nitsche`). The first version prescribe the Dirichlet thank to"
 " a multiplier. The associated weak form of the term is the following:"
 msgstr ""
-"ディリクレ条件ブリックの目的は、モデルの変数のためにドメインの境界の一部にディリクレ条件を規定することである。これは、この変数の値が境界で規定されていることを意味します。このレンガの3つのバージョンがあります（ref："
+"ディリクレ条件ブリックの目的は、モデルの変数のためにドメインの境界の一部にディリクレ条件を規定することである。これは、この変数の値が境界で規定されていることを意味します。この要素の3つのバージョンがあります（ref："
 " `ud-model-"
 "Nitsche`の節も参照してください）。最初のバージョンはディリクレを乗数に感謝します。関連する弱形式の用語は次のとおりです。\n"
 
@@ -67,7 +67,7 @@ msgstr ""
 "varname``にディリクレ条件を追加しました。その境界上の変数の値は、あらかじめモデル内で定義されていなければならないデータ `` "
 "dataname``によって記述されます。データが省略された場合、Dirichlet条件は均質なもの（境界上の消失変数）とみなされます。データは、FEM上で一定または記述することができます。また、変数に応じてスカラー値またはベクトル値にすることもできます。変数"
 " `` multname``はメソッド `` "
-"add_multiplier``でモデルに追加する必要があります。この関数は、モデル内のレンガのインデックスを返します。 2番目の機能は::\n"
+"add_multiplier``でモデルに追加する必要があります。この関数は、モデル内の要素のインデックスを返します。 2番目の機能は::\n"
 
 # 12744e113f994a5080ec5cbc0330c208
 #: ../source/userdoc/model_dirichlet.rst:50
@@ -115,14 +115,14 @@ msgstr "最後に、乗算器の変数名は関数に感謝することができ
 msgid ""
 "where ``ind_brick`` is the brick index in the model. This function has an "
 "undefined behavior if it applied to another kind of brick."
-msgstr "ここで `` ind_brick``はモデルのレンガのインデックスです。この関数は別の種類のレンガに適用された場合、未定義の動作をします。\n"
+msgstr "ここで `` ind_brick``はモデルの要素のインデックスです。この関数は別の種類の要素に適用された場合、未定義の動作をします。\n"
 
 # 767188f7c7034993ad12ca33a91b8f61
 #: ../source/userdoc/model_dirichlet.rst:75
 msgid ""
 "The second version of the Dirichlet condition brick is the one with "
 "penalization. The function allowing to add this brick is::"
-msgstr "ディリクレ状態のレンガの第2のバージョンは、ペナルティを伴うものである。このレンガを追加できる関数は::\n"
+msgstr "ディリクレ状態の要素の第2のバージョンは、ペナルティを伴うものである。この要素を追加できる関数は::\n"
 
 # 0254287951b74c3884be22a03aaf86a1
 #: ../source/userdoc/model_dirichlet.rst:83
@@ -159,7 +159,7 @@ msgid ""
 "generalized) Dirichlet condition on vectorial problems. The function "
 "allowing to add this brick is::"
 msgstr ""
-"Dirichlet条件ブリックの第3バージョンは、線形システム（非線形問題のための接線系）の簡略化を使用します。基本的には、規定された自由度に対応する線の対角成分に1を強制し、いくつかのゼロを有する線を完成させる（対称問題については、いくつかのゼロで列を完成させる）、それに応じて。これは、Dirichlet状態を処方するための、むしろ単純で経済的な方法です。ただし、ディリクレ条件で規定されている自由度を特定できる場合にのみ適用できます。したがって、有限要素法、エルミート要素法の使用を慎重に使用しなければならず、ベクトル問題に関する通常の（または一般化された）ディリクレ条件には適用できません。このレンガを追加できる関数は::\n"
+"Dirichlet条件ブリックの第3バージョンは、線形システム（非線形問題のための接線系）の簡略化を使用します。基本的には、規定された自由度に対応する線の対角成分に1を強制し、いくつかのゼロを有する線を完成させる（対称問題については、いくつかのゼロで列を完成させる）、それに応じて。これは、Dirichlet状態を処方するための、むしろ単純で経済的な方法です。ただし、ディリクレ条件で規定されている自由度を特定できる場合にのみ適用できます。したがって、有限要素法、エルミート要素法の使用を慎重に使用しなければならず、ベクトル問題に関する通常の（または一般化された）ディリクレ条件には適用できません。この要素を追加できる関数は::\n"
 
 # e96c9450a2ac46f184bb26eddd24c496
 #: ../source/userdoc/model_dirichlet.rst:97
@@ -178,7 +178,7 @@ msgstr ""
 # 86c53832a79843088bf4d8add9da9874
 #: ../source/userdoc/model_dirichlet.rst:100
 msgid "Generalized Dirichlet condition brick"
-msgstr "一般化ディリクレ状態レンガ\n"
+msgstr "一般化ディリクレ状態要素\n"
 
 # 52ee4a0fc2014630af102afafabb19f8
 #: ../source/userdoc/model_dirichlet.rst:102
@@ -196,14 +196,14 @@ msgid ""
 "the data corresponding to :math:`H`. This data can be a matrix field "
 "described on a scalar fem or a constant matrix. ::"
 msgstr ""
-"ここで、math： `H`は行列フィールドです。対応するレンガを追加する関数は、標準的なDirichlet条件のものと似ていますが、補足パラメータ "
+"ここで、math： `H`は行列フィールドです。対応する要素を追加する関数は、標準的なDirichlet条件のものと似ていますが、補足パラメータ "
 "`Hname`を必要とします。これは、math：` "
 "H`に対応するデータの名前を与えます。このデータは、スカラーのfemまたは定数行列に記述された行列フィールドにすることができます。 ::\n"
 
 # dddcb5fb360a4ae4b7c807be3be52d07
 #: ../source/userdoc/model_dirichlet.rst:137
 msgid "Pointwise constraints brick"
-msgstr "ポイントワイズ制約レンガ\n"
+msgstr "ポイントワイズ制約要素\n"
 
 # 2695673817b840709d36e32229b75376
 #: ../source/userdoc/model_dirichlet.rst:139
@@ -214,7 +214,7 @@ msgid ""
 "corresponding to degrees of freedom of the finite element method on which "
 "the unknown is described."
 msgstr ""
-"ポイントワイズ制約レンガは、レンガのようなディリクレ条件であり、ドメインの所与の点に未知の値を処方することを可能にする。これらの点は、必ずしもメッシュの頂点である必要はなく、未知数が記述されている有限要素法の自由度に対応するいくつかの点である必要はありません。\n"
+"ポイントワイズ制約要素は、要素のようなディリクレ条件であり、ドメインの所与の点に未知の値を処方することを可能にする。これらの点は、必ずしもメッシュの頂点である必要はなく、未知数が記述されている有限要素法の自由度に対応するいくつかの点である必要はありません。\n"
 
 # 32458e3ad4e043af94e61d8b7a3b593e
 #: ../source/userdoc/model_dirichlet.rst:142
@@ -224,7 +224,7 @@ msgid ""
 "these points, i.e. to enforce the condition"
 msgstr ""
 "スカラー場変数については、数式： `N_p`点：math：` x_i、i = 1 \\ cdots "
-"N_p`の集合が与えられると、レンガはこれらの点で変数の値を処方すること、\n"
+"N_p`の集合が与えられると、要素はこれらの点で変数の値を処方すること、\n"
 
 # dcfeed04a1064e8c92abb1b18f86315a
 #: ../source/userdoc/model_dirichlet.rst:148
@@ -241,7 +241,7 @@ msgid ""
 " the variable on these points, i.e. to enforce the condition"
 msgstr ""
 "ベクトルフィールド変数の場合、数式： `N_p`点数：math：` x_i、i = 1 \\ cdots "
-"N_p`のセットが与えられた場合、レンガは変数の1つの要素の値をこれらの点で処方することを可能にします条件\n"
+"N_p`のセットが与えられた場合、要素は変数の1つの要素の値をこれらの点で処方することを可能にします条件\n"
 
 # a7a0788609814899b869743ad2b711eb
 #: ../source/userdoc/model_dirichlet.rst:156
@@ -256,7 +256,7 @@ msgstr ""
 msgid ""
 "The brick has two versions: a penalized version and a version with "
 "multipliers. The call is the following::"
-msgstr "レンガには2つのバージョンがあります：ペナルティバージョンと乗算機能付きバージョンです。コールは次のとおりです::\n"
+msgstr "要素には2つのバージョンがあります：ペナルティバージョンと乗算機能付きバージョンです。コールは次のとおりです::\n"
 
 # bcc1a699d5b1413490ba69e58425fdb3
 #: ../source/userdoc/model_dirichlet.rst:171
@@ -289,7 +289,7 @@ msgstr ""
 msgid ""
 "This brick is mainly designed to prescribe the rigid displacements for pure "
 "Neumann problems."
-msgstr "このレンガは主に、純粋なノイマン問題の剛性変位を処方するように設計されています。\n"
+msgstr "この要素は主に、純粋なノイマン問題の剛性変位を処方するように設計されています。\n"
 
 # 6b9f4aae70e3469ab96e9cb8c9b20c19
 #: ../source/userdoc/model_dirichlet.rst:7
@@ -299,4 +299,4 @@ msgstr "モデル\n"
 # 6b9f4aae70e3469ab96e9cb8c9b20c19
 #: ../source/userdoc/model_dirichlet.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

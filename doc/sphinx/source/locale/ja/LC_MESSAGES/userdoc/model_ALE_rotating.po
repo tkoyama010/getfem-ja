@@ -33,7 +33,7 @@ msgid ""
 "This section present a set of bricks facilitating the use of an ALE "
 "formulation for rotating bodies having a rotational symmetry (typically a "
 "train wheel)."
-msgstr "このセクションは、回転対称性（典型的には輪列）を有する回転体のためのALE配合物の使用を容易にするレンガのセットを提示する。\n"
+msgstr "このセクションは、回転対称性（典型的には輪列）を有する回転体のためのALE配合物の使用を容易にする要素のセットを提示する。\n"
 
 # 1d6d698e0e254d6187db88fa05782c6b
 # 331b3656cc794f16b375db7fc1a924f5
@@ -177,14 +177,14 @@ msgid ""
 "model (think for instance to platic flow for plasticity). So that certain "
 "model bricks canot be used directly (plastic bricks for instance)."
 msgstr ""
-"これは、時間微分が考慮されたモデルに介入する進化する変数ごとに補正が行われなければならないことを忘れてはならない（例えば、可塑性のために板状の流れと考える）。そのため、特定のモデルのレンガを直接使用することはできません（たとえば、レンガなど）。\n"
+"これは、時間微分が考慮されたモデルに介入する進化する変数ごとに補正が行われなければならないことを忘れてはならない（例えば、可塑性のために板状の流れと考える）。そのため、特定のモデルの要素を直接使用することはできません（たとえば、要素など）。\n"
 
 # 3b0a5e94c8cd4744ace0d6b2849f8000
 #: ../source/userdoc/model_ALE_rotating.rst:108
 msgid ""
 "|gf| bricks for structural mecanics are mainly considering the displacement "
 "as the amin unknown. The expression for the displacement is the following:"
-msgstr "| gf |構造的なメカニックスのためのレンガは、主に、未知のアミンとしての変位を考慮している。変位の式は次のとおりです。\n"
+msgstr "| gf |構造的なメカニックスのための要素は、主に、未知のアミンとしての変位を考慮している。変位の式は次のとおりです。\n"
 
 # 591263c2bc754eefa6cafaed6851cb67
 # a73e084d4aa64bb99e433f26660bde55
@@ -242,7 +242,7 @@ msgstr ""
 # 40e2539f19444df5bfb52a8368172f09
 #: ../source/userdoc/model_ALE_rotating.rst:155
 msgid "The available bricks ..."
-msgstr "利用可能なレンガ...\n"
+msgstr "利用可能な要素...\n"
 
 # e92ee05fbdf84f19bb7824a2073f901c
 #: ../source/userdoc/model_ALE_rotating.rst:157
@@ -267,7 +267,7 @@ msgid ""
 "which whose part of interests (on which the computation is considered) is "
 "translated uniformly in that direction (typically a bar)."
 msgstr ""
-"このセクションでは、ある方向に無限に潜在的であり、関心の部分（計算が考慮される）がその方向（通常はバー）で均一に変換されるオブジェクトに対してALE式の使用を容易にするレンガのセットを提示します。\n"
+"このセクションでは、ある方向に無限に潜在的であり、関心の部分（計算が考慮される）がその方向（通常はバー）で均一に変換されるオブジェクトに対してALE式の使用を容易にする要素のセットを提示します。\n"
 
 # 3fffa4c48ed9400abad2717bae6c80a3
 #: ../source/userdoc/model_ALE_rotating.rst:175
@@ -363,4 +363,4 @@ msgstr "モデル\n"
 # 79031d9ce75f4cdab20d2848d6cfb5b0
 #: ../source/userdoc/model_ALE_rotating.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

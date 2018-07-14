@@ -30,7 +30,7 @@ msgid ""
 "for the brick implementation and to extend the implementation to new "
 "plasticity models."
 msgstr ""
-"| gf |における可塑性モデルの近似の枠組み。レンガ実装のための：file： `src / getfem_plasticity.cc`と：file：`"
+"| gf |における可塑性モデルの近似の枠組み。要素実装のための：file： `src / getfem_plasticity.cc`と：file：`"
 " interface / src / gf_model_set.cc`を参照し、実装を新しい可塑性モデルに拡張してください。\n"
 
 # d89816881da7403c8705312061d4c573
@@ -969,7 +969,7 @@ msgstr "行われなければ ...\n"
 # 70e7caab799041ae9b767eea9a70e431
 #: ../source/userdoc/model_plasticity_small_strain.rst:472
 msgid "Elasto-plasticity bricks"
-msgstr "弾塑性レンガ\n"
+msgstr "弾塑性要素\n"
 
 # f990ea44b2504cc98a58797556d52360
 #: ../source/userdoc/model_plasticity_small_strain.rst:474
@@ -986,7 +986,7 @@ msgstr ""
 # af6c2576d01344619eac1a79a5823586
 #: ../source/userdoc/model_plasticity_small_strain.rst:477
 msgid "Generic brick"
-msgstr "一般的なレンガ\n"
+msgstr "一般的な要素\n"
 
 # 3e09063e9bd34b678a861523f124a7e7
 #: ../source/userdoc/model_plasticity_small_strain.rst:479
@@ -995,7 +995,7 @@ msgid ""
 "multiplier is kept as a variable of the problem where the added term is of "
 "the form:"
 msgstr ""
-"一般的なレンガの2つのバージョンがあります。プラスチック乗数が、問題の変数として保持されているときの最初のもの。追加される項は次の形式です。\n"
+"一般的な要素の2つのバージョンがあります。プラスチック乗数が、問題の変数として保持されているときの最初のもの。追加される項は次の形式です。\n"
 
 # ede78c94708745108edbc5a5be5d6e54
 #: ../source/userdoc/model_plasticity_small_strain.rst:483
@@ -1010,7 +1010,7 @@ msgstr ""
 # 0b93745d6cb846a6a931f4287d37d67e
 #: ../source/userdoc/model_plasticity_small_strain.rst:487
 msgid "The function which adds the brick to a model `md` is ::"
-msgstr "レンガをモデル `md`に追加する関数は::\n"
+msgstr "要素をモデル `md`に追加する関数は::\n"
 
 # 82f45ba53119410e96afd3283e0dfb19
 #: ../source/userdoc/model_plasticity_small_strain.rst:495
@@ -1137,7 +1137,7 @@ msgstr ""
 msgid ""
 "Additionaly, the following function allow to pass from a time step to "
 "another for the small strain plastic brick: ::"
-msgstr "さらに、以下の関数は、小さなひずみプラスチックレンガのタイムステップから別のものに渡すことを許可します:: ::\n"
+msgstr "さらに、以下の関数は、小さなひずみプラスチック要素のタイムステップから別のものに渡すことを許可します:: ::\n"
 
 # 76ea16926bfb445685808238b9dffbd4
 #: ../source/userdoc/model_plasticity_small_strain.rst:567
@@ -1152,7 +1152,7 @@ msgid ""
 "`compute_small_strain_elastoplasticity_Von_Mises`."
 msgstr ""
 "パラメータは "
-"`add_small_strain_elastoplasticity_brick`のパラメータとまったく同じでなければなりません。そのため、この関数の説明を参照してください。基本的には、このレンガは塑性ひずみとプラスチックの掛け算子を計算し、次のステップのために保存します。さらに、計算された変位を前のタイムステップの変位（通常は"
+"`add_small_strain_elastoplasticity_brick`のパラメータとまったく同じでなければなりません。そのため、この関数の説明を参照してください。基本的には、この要素は塑性ひずみとプラスチックの掛け算子を計算し、次のステップのために保存します。さらに、計算された変位を前のタイムステップの変位（通常は"
 " \"u\"から \"Previous \\ _u\"）を格納するデータにコピーします。 "
 "`compute_small_strain_elastoplasticity_Von_Mises`を使う前に呼び出さなければなりません。\n"
 
@@ -1180,7 +1180,7 @@ msgstr ""
 msgid ""
 "A specific brick based on the low-level generic assembly for perfect "
 "plasticity"
-msgstr "完全な可塑性のための低レベルジェネリックアセンブリに基づく特定のレンガ\n"
+msgstr "完全な可塑性のための低レベルジェネリックアセンブリに基づく特定の要素\n"
 
 # 7dfd18976e6647f0a915ebb438e9c717
 #: ../source/userdoc/model_plasticity_small_strain.rst:597
@@ -1190,7 +1190,7 @@ msgid ""
 "assembly. Its specificity which could be interesting for testing is that the"
 " flow rule is integrated on  finite element nodes (not on Gauss points)."
 msgstr ""
-"これは、等方性完全塑性に制限され、低レベルの一般的なアセンブリに基づいている弾塑性レンガの以前のバージョンです。テストのために興味深い特異性は、フロールールが有限要素節点（ガウス点ではない）に統合されていることです。\n"
+"これは、等方性完全塑性に制限され、低レベルの一般的なアセンブリに基づいている弾塑性要素の以前のバージョンです。テストのために興味深い特異性は、フロールールが有限要素節点（ガウス点ではない）に統合されていることです。\n"
 
 # 1a1ec60a03d84048a2f379c2f81200ba
 #: ../source/userdoc/model_plasticity_small_strain.rst:599
@@ -1207,7 +1207,7 @@ msgstr "ここで：\n"
 msgid ""
 "``varname`` represents the main displacement unknown on which the brick is "
 "added (u)."
-msgstr "`` varname``はレンガが追加されていない主な変位（u）を表します。\n"
+msgstr "`` varname``は要素が追加されていない主な変位（u）を表します。\n"
 
 # cafff9b830d8484f8f4aa8e33684dbbe
 #: ../source/userdoc/model_plasticity_small_strain.rst:606
@@ -1329,4 +1329,4 @@ msgstr "モデル\n"
 # 135af0c61f0e437aa2de26248888cf21
 #: ../source/userdoc/model_plasticity_small_strain.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

@@ -20,12 +20,12 @@ msgstr ""
 # ceebc038bc124ec49ddd2606eda82668
 #: ../source/userdoc/model_helmholtz.rst:13
 msgid "Helmholtz brick"
-msgstr "ヘルムホルツレンガ\n"
+msgstr "ヘルムホルツ要素\n"
 
 # 354dae27515b45f3862e455c8d02bd86
 #: ../source/userdoc/model_helmholtz.rst:15
 msgid "This brick represents the complex or real Helmholtz problem:"
-msgstr "このレンガは複雑なヘルムホルツの問題を表しています。\n"
+msgstr "この要素は複雑なヘルムホルツの問題を表しています。\n"
 
 # 57d492a810bb47348832cb3ba2f12ece
 #: ../source/userdoc/model_helmholtz.rst:21
@@ -39,7 +39,7 @@ msgstr ""
 # 115e35882c044d98900e257f7f5cd37e
 #: ../source/userdoc/model_helmholtz.rst:24
 msgid "The function adding a Helmholtz brick to a model is::"
-msgstr "ヘルムホルツレンガをモデルに追加する機能は::\n"
+msgstr "ヘルムホルツ要素をモデルに追加する機能は::\n"
 
 # c341d4f9d6bc48af80f0c00f6d253a3c
 #: ../source/userdoc/model_helmholtz.rst:28
@@ -56,4 +56,4 @@ msgstr "モデル\n"
 # 42a305d5cc0041dfa6ade26756e00561
 #: ../source/userdoc/model_helmholtz.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

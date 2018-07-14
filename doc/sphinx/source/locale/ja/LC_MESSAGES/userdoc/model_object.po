@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "| mo |の目的は、 file：file： `getfem / "
 "getfem_models.h`で定義されているオブジェクトは、PDEモデルをグローバルに記述することです。主に2つのリストがあります：変数のリスト（|"
-" mf |オブジェクトに関連するかどうか）とデータ（mf |オブジェクトに関連するかどうか）とレンガのリスト。 | mo "
+" mf |オブジェクトに関連するかどうか）とデータ（mf |オブジェクトに関連するかどうか）と要素のリスト。 | mo "
 "|の役割目的は、モジュールを調整し、それらに式の線形システムを生成させることです。モデルが線形の場合、これは単純に対応するdofの式の線形システムになります。モデルが非線形の場合、これは接線系になります。"
 " | mo |の2つのバージョンがあります。オブジェクト：本当のものと複雑なもの。\n"
 
@@ -97,7 +97,7 @@ msgstr ""
 "例えば、図：ref： `ud-fig-syslin`に記述されている状況では、モデルには4つの変数、すなわち、数学：` X、Y、V`と：数学： "
 "`W`があります。モデルオブジェクトの役割は、線形システムを組み立てること、すなわち、各変数に対応する部分行列を満たすことである（数学： `R_ "
 "{X、X}、R_ {Y、Y}、R_ {V、V}` R_ {X、Y}、R_ {X、V}、R_ {W、V}、\\ "
-"cdots`のような2つの変数の間の結合項は、 ）。この異なる貢献はモデルに追加された異なるレンガによって与えられるでしょう。\n"
+"cdots`のような2つの変数の間の結合項は、 ）。この異なる貢献はモデルに追加された異なる要素によって与えられるでしょう。\n"
 
 # 62590138b14044949ba767f024c10c49
 #: ../source/userdoc/model_object.rst:59
@@ -207,7 +207,7 @@ msgstr ""
 "有限要素法 `` mf``にリンクされ、primal変数 `` "
 "primal_name``上の特定の制約（例えば、Dirichlet条件）のための乗数である特別な変数を追加します。最も重要なことは、線形独立の制約の集合だけを保持するために、"
 " `` "
-"partial_mesh_fem``オブジェクトのおかげで、自由度がフィルタリングされることです。これを確実にするために、乗数と原変数を結ぶ項を持つレンガへの呼び出しが行われ、独立した制約を抽出するための特別なアルゴリズムが呼び出されます。このアルゴリズムは、境界乗数に最適化されています（gmm"
+"partial_mesh_fem``オブジェクトのおかげで、自由度がフィルタリングされることです。これを確実にするために、乗数と原変数を結ぶ項を持つ要素への呼び出しが行われ、独立した制約を抽出するための特別なアルゴリズムが呼び出されます。このアルゴリズムは、境界乗数に最適化されています（gmm"
 " :: range_basisを参照）。ボリュームマルチプライヤーに注意して使用してください。 `` "
 "niter``は変数のコピー数です。複雑な用語については、実部のみが乗数をフィルタリングするとみなされることに留意されたい。\n"
 
@@ -284,13 +284,13 @@ msgid ""
 "corresponding assembly procedure when the model object asks for it. The "
 "construction of a brick for such a linear term is thus very simple."
 msgstr ""
-"モデルブリックとは、モデルの一部を表すことになっているオブジェクトです。それは、PDEモデルの弱い定式化でいくつかの積分項を表現することを目指しています。モデルオブジェクトにはレンガのリストが含まれます。レンガによって記述されたすべての用語は、最終的に、線形システム（非線形問題のための接線系）を構築するために組み立てられます。例えばもし用語：数学："
+"モデルブリックとは、モデルの一部を表すことになっているオブジェクトです。それは、PDEモデルの弱い定式化でいくつかの積分項を表現することを目指しています。モデルオブジェクトには要素のリストが含まれます。要素によって記述されたすべての用語は、最終的に、線形システム（非線形問題のための接線系）を構築するために組み立てられます。例えばもし用語：数学："
 " `\\デルタu`がPDEモデル上に存在する（ラプラシアンの :math:` u` ）、次いで弱い製剤は、用語が含まれます：数学： `\\ INTを_ "
 "{\\オメガ} \\ナブラU \\ cdot \\ nabla v \\ dx`になります。ここで、math： `v`は、math：` "
 "u`に対応する形状関数です。次いで、対応するブリックの役割は、用語をアセンブルすることである：数学： `\\ int型_ {\\オメガ} "
 "\\ナブラ\\ varphi_i \\ CDOT \\ナブラ\\ varphi_j \\ dx`、 :math:` \\のvarphi_i` と：数学： `\\"
 " varphi_j 'は、math： `u`を記述する有限要素法の形状関数である。この項は、モデルオブジェクトによって、変数：math： "
-"`u`に対応する対角ブロック上のグローバル線形システムに追加されます。したがって、ブリックの唯一の役割は、モデルオブジェクトがそれを求めるときに対応するアセンブリプロシージャを呼び出すことです。そのような線形項のためのレンガの構築は、このように非常に簡単である。\n"
+"`u`に対応する対角ブロック上のグローバル線形システムに追加されます。したがって、ブリックの唯一の役割は、モデルオブジェクトがそれを求めるときに対応するアセンブリプロシージャを呼び出すことです。そのような線形項のための要素の構築は、このように非常に簡単である。\n"
 
 # 23123fe197ec4b2fb6da6fab79fb855b
 #: ../source/userdoc/model_object.rst:181
@@ -307,7 +307,7 @@ msgstr ""
 # 2c306d1ba51d4211aff3f9189600b2da
 #: ../source/userdoc/model_object.rst:188
 msgid "How to build a new brick"
-msgstr "新しいレンガを作る方法\n"
+msgstr "新しい要素を作る方法\n"
 
 # 946c888cf8aa4ce88e4ba9dfe7825bb2
 #: ../source/userdoc/model_object.rst:190
@@ -317,7 +317,7 @@ msgid ""
 "accessible terms (including complex coupling terms) of the generic assembly "
 "brick (see :ref:`ud-model-generic-assembly`)."
 msgstr ""
-"まず最初に注意しておきたいのは、新しいレンガの設計は、既存のレンガではカバーされず、一般的なアセンブリレンガの幅広いアクセシブルな用語（複雑な結合条件を含む）でカバーされていない特別な用語に対してのみ必要である点に注意してください（ref："
+"まず最初に注意しておきたいのは、新しい要素の設計は、既存の要素ではカバーされず、一般的なアセンブリ要素の幅広いアクセシブルな用語（複雑な結合条件を含む）でカバーされていない特別な用語に対してのみ必要である点に注意してください（ref："
 " `ud-model -generic-assembly`）。\n"
 
 # 4ed8879c7b4143a79f0fe20f6960344c
@@ -332,7 +332,7 @@ msgid ""
 "to the brick. The great majority of the predefined bricks do not store any "
 "data. This allows to instantiate such a bricks only once."
 msgstr ""
-"レンガが設計された精神によれば、レンガは、追加のデータをできるだけ保存しないようにすべきである。ブリックのパラメータは、モデルの変数とデータに含める必要があります。例えば、線形弾性ブリックのパラメータは弾性係数である。この係数はモデルの何らかのデータでなければならない。レンガがモデルオブジェクトによって呼び出されると、変数とデータのリストがレンガに与えられます。あらかじめ定義されたレンガの大部分はデータを格納しません。これにより、そのようなレンガを一度だけインスタンス化することができます。\n"
+"要素が設計された精神によれば、要素は、追加のデータをできるだけ保存しないようにすべきである。ブリックのパラメータは、モデルの変数とデータに含める必要があります。例えば、線形弾性ブリックのパラメータは弾性係数である。この係数はモデルの何らかのデータでなければならない。要素がモデルオブジェクトによって呼び出されると、変数とデータのリストが要素に与えられます。あらかじめ定義された要素の大部分はデータを格納しません。これにより、そのような要素を一度だけインスタンス化することができます。\n"
 
 # 3db426b3c7e84da39f3066cb4b1af4d5
 #: ../source/userdoc/model_object.rst:203
@@ -340,7 +340,7 @@ msgid ""
 "An example of a brick corresponding to the laplacian term is the following "
 "(other examples can be found in the file :file:`getfem_models.cc` which "
 "contains the very standard bricks)::"
-msgstr "ラプラシアン語に対応するレンガの例は次のとおりです（他の例は非常に標準的なレンガを含むファイル： `getfem_models.cc`）。\n"
+msgstr "ラプラシアン語に対応する要素の例は次のとおりです（他の例は非常に標準的な要素を含むファイル： `getfem_models.cc`）。\n"
 
 # 378827427b4b471bb9fe02dc49e661d5
 #: ../source/userdoc/model_object.rst:241
@@ -350,13 +350,13 @@ msgid ""
 "bricks of a model and facilitate their identification). The other parameters"
 " are some flags, respectively:"
 msgstr ""
-"レンガのコンストラクタは `` "
-"set_flags``メソッドを呼び出す必要があります。このメソッドの最初のパラメータは、レンガの名前です（これにより、モデルのレンガをリストし、その識別を容易にすることができます）。その他のパラメータは、それぞれいくつかのフラグです。\n"
+"要素のコンストラクタは `` "
+"set_flags``メソッドを呼び出す必要があります。このメソッドの最初のパラメータは、要素の名前です（これにより、モデルの要素をリストし、その識別を容易にすることができます）。その他のパラメータは、それぞれいくつかのフラグです。\n"
 
 # 1ee146cf00a3477bbcbc5c6c6b34b8ba
 #: ../source/userdoc/model_object.rst:246
 msgid "if the brick terms are all linear or not."
-msgstr "レンガ用語がすべて線形であるかどうかを示します。\n"
+msgstr "要素用語がすべて線形であるかどうかを示します。\n"
 
 # 6a383e3e6aa3400aad1b0fcd2e105d98
 #: ../source/userdoc/model_object.rst:248
@@ -366,7 +366,7 @@ msgid ""
 "two different variables and declared symmetric are added twice in the global"
 " linear system (the term and the transpose of the term)."
 msgstr ""
-"レンガ用語が全体的に対称（複合バージョンでコンジュゲート）しているか、少なくとも対称性に影響を与えていない場合。 "
+"要素用語が全体的に対称（複合バージョンでコンジュゲート）しているか、少なくとも対称性に影響を与えていない場合。 "
 "2つの異なる変数に対応し、対称と宣言された項は、グローバル線形システム（項と項の転置）で2回追加されます。\n"
 
 # 9d95a852fe8a417b8bb7badd5446c97a
@@ -416,20 +416,20 @@ msgid ""
 msgstr ""
 "`` "
 "asm_real_tangent_terms``メソッドは、タンジェントシステムのアセンブリのためのモデルオブジェクトによって呼び出されます。モデルオブジェクトは、ブリックにフレームワーク全体を渡して、その用語を構築します。"
-" `` asm_real_tangent_terms``メソッドのパラメータ `` md``は、レンガを呼び出すモデルであり、 `` "
-"ib``はモデルのレンガ数です。パラメータ `` varl``は、このモデルで定義され、レンガで必要とされる変数/データ名の配列です。 `` "
+" `` asm_real_tangent_terms``メソッドのパラメータ `` md``は、要素を呼び出すモデルであり、 `` "
+"ib``はモデルの要素数です。パラメータ `` varl``は、このモデルで定義され、要素で必要とされる変数/データ名の配列です。 `` "
 "mims``は| mim |の配列です。ポインタ。これは、用語を組み立てるために必要な統合方法に対応します。 `` "
 "matl``は、計算される行列の配列です。 `` vecl``は、計算されるベクトルの配列です（rhsまたは残余ベクトル）。 `` "
-"vecl_sym``は、対称項に対してのみ計算され、第2の変数のrhsに対応するベクトルの配列です。レンガは任意の数の用語を持つことができます。それぞれの用語について、少なくとも対応する行列または対応するベクトルは満たされなければならない（または2つの両方であるが、非線形の場合のみ、以下の用語の説明、次のセクションを参照）。"
+"vecl_sym``は、対称項に対してのみ計算され、第2の変数のrhsに対応するベクトルの配列です。要素は任意の数の用語を持つことができます。それぞれの用語について、少なくとも対応する行列または対応するベクトルは満たされなければならない（または2つの両方であるが、非線形の場合のみ、以下の用語の説明、次のセクションを参照）。"
 " `` region``は、特定の地域に用語を組み立てなければならないことを示すメッシュ領域番号です。 `` "
-"nl``は非線形レンガのみです。接線行列または残差または両方の2つを計算する場合（線形レンガの場合は、すべての呼び出しごとに計算されます）、\n"
+"nl``は非線形要素のみです。接線行列または残差または両方の2つを計算する場合（線形要素の場合は、すべての呼び出しごとに計算されます）、\n"
 
 # 4dd3e93a8d6c411fad111b292dc152d2
 #: ../source/userdoc/model_object.rst:279
 msgid ""
 "For the very simple Laplacian brick defined above, only one variable is used"
 " and no data and there is only one term. The lines::"
-msgstr "上で定義した非常に単純なラプラシアン・レンガの場合、1つの変数のみが使用され、データはなく、1つの項しか存在しません。台詞：：\n"
+msgstr "上で定義した非常に単純なラプラシアン・要素の場合、1つの変数のみが使用され、データはなく、1つの項しか存在しません。台詞：：\n"
 
 # 7986cd79ab6b4e9c81d7a3cadda21249
 #: ../source/userdoc/model_object.rst:289
@@ -479,7 +479,7 @@ msgid ""
 "filled but not both the two. Depending on the declaration of the term. See "
 "below the integration of the brick to the model."
 msgstr ""
-"この単純なレンガは項が1つしかなく、線形であることに注意してください。線形バークの場合、行列または右辺のベクトルのどちらか一方を埋める必要がありますが、両方を埋める必要はありません。用語の宣言に応じて。モデルにブリックを統合する方法は以下を参照してください。\n"
+"この単純な要素は項が1つしかなく、線形であることに注意してください。線形バークの場合、行列または右辺のベクトルのどちらか一方を埋める必要がありますが、両方を埋める必要はありません。用語の宣言に応じて。モデルにブリックを統合する方法は以下を参照してください。\n"
 
 # 705f4f67e9e64a38a4aee7605c23b919
 #: ../source/userdoc/model_object.rst:315
@@ -487,7 +487,7 @@ msgid ""
 "Let us see now a second example of a simple brick which prescribes a "
 "Dirichlet condition thanks to the use of a Lagrange multiplier. The "
 "Dirichlet condition is of the form"
-msgstr "ラグランジュ乗数の使用のおかげでディリクレ状態を規定する単純なレンガの第2の例を見てみましょう。ディリクレ状態は、\n"
+msgstr "ラグランジュ乗数の使用のおかげでディリクレ状態を規定する単純な要素の第2の例を見てみましょう。ディリクレ状態は、\n"
 
 # 94184f9afaa141f89fa3ed0052284fab
 #: ../source/userdoc/model_object.rst:323
@@ -522,7 +522,7 @@ msgstr "シンプルなディリクレの寄稿\n"
 # 841dc139dd9345b28313c684d34447f0
 #: ../source/userdoc/model_object.rst:344
 msgid "The brick can be defined as follows::"
-msgstr "レンガは次のように定義できます::\n"
+msgstr "要素は次のように定義できます::\n"
 
 # c47fa7bd3d7e4c428fe0ffc6df139c37
 #: ../source/userdoc/model_object.rst:387
@@ -534,9 +534,9 @@ msgid ""
 " added to the model with the method ``add_multiplier``). The term of the "
 "brick will be declared symmetric (see the next section)."
 msgstr ""
-"この煉瓦には再び用語が1つしかありませんが、マトリックス部分と右側部分の両方が定義されています。ディリクレ条件が規定されているプラ​​イマリ変数と、境界に対応するメッシュ領域に定義される乗数変数（"
+"この要素には再び用語が1つしかありませんが、マトリックス部分と右側部分の両方が定義されています。ディリクレ条件が規定されているプラ​​イマリ変数と、境界に対応するメッシュ領域に定義される乗数変数（"
 " `` "
-"add_multiplier``メソッドでモデルに追加する必要があります）の2つの変数が関係しています。レンガの用語は対称であると宣言されます（次のセクションを参照）。\n"
+"add_multiplier``メソッドでモデルに追加する必要があります）の2つの変数が関係しています。要素の用語は対称であると宣言されます（次のセクションを参照）。\n"
 
 # 7742b6a05d1b4cfda5206aaddaddc9b0
 #: ../source/userdoc/model_object.rst:399
@@ -565,19 +565,19 @@ msgstr "（+非線形項を持ついくつかの例...）\n"
 # f6ee38fe20894e939460308e1dd14cd0
 #: ../source/userdoc/model_object.rst:417
 msgid "How to add the brick to a model"
-msgstr "モデルにレンガを追加する方法\n"
+msgstr "モデルに要素を追加する方法\n"
 
 # d3f0e493c8874881bf6d419bc5976873
 #: ../source/userdoc/model_object.rst:419
 msgid ""
 "In order to add a brick to a model, a certain information have to be passed "
 "to the model:"
-msgstr "モデルにレンガを追加するには、モデルに特定の情報を渡す必要があります。\n"
+msgstr "モデルに要素を追加するには、モデルに特定の情報を渡す必要があります。\n"
 
 # 1a8a4a709b2349a7aa4364c004ce3d48
 #: ../source/userdoc/model_object.rst:422
 msgid "A pointer to the brick itself."
-msgstr "レンガ自体へのポインタ。\n"
+msgstr "要素自体へのポインタ。\n"
 
 # 4fcb04c6d6b846769d80a9369889ed99
 #: ../source/userdoc/model_object.rst:423
@@ -587,7 +587,7 @@ msgstr "ブリックの用語に関係する一連の変数名。\n"
 # db37ff673a6c4eb5b42ad994bac637a7
 #: ../source/userdoc/model_object.rst:424
 msgid "The set of data names concerned with the terms of the brick."
-msgstr "データ名のセットは、レンガの用語に関係します。\n"
+msgstr "データ名のセットは、要素の用語に関係します。\n"
 
 # 79a887e51926434fa4ce0ce8816c2d04
 #: ../source/userdoc/model_object.rst:425
@@ -618,14 +618,14 @@ msgid ""
 "function that adds the new brick to the model calling this method and more "
 "simple to use."
 msgstr ""
-"このメソッドは、モデル内のレンガのインデックスを返します。このメソッドの呼び出しは、多くの状況に適応できるため、かなり複雑です。新しいブリックの構築は、このメソッドを呼び出すモデルに新しいブリックを追加し、より簡単に使用できる関数の定義に従わなければなりません。\n"
+"このメソッドは、モデル内の要素のインデックスを返します。このメソッドの呼び出しは、多くの状況に適応できるため、かなり複雑です。新しいブリックの構築は、このメソッドを呼び出すモデルに新しいブリックを追加し、より簡単に使用できる関数の定義に従わなければなりません。\n"
 
 # e7e80f305a4148c6af43ef4499983677
 #: ../source/userdoc/model_object.rst:442
 msgid ""
 "For instance, for the simple Laplacian brick described above, this function "
 "can be defined as folows::"
-msgstr "例えば、上記の単純なラプラシアンレンガの場合、この関数は次のように定義することができます::\n"
+msgstr "例えば、上記の単純なラプラシアン要素の場合、この関数は次のように定義することができます::\n"
 
 # dbed94c087b14a4bbd489b245e60fcf2
 #: ../source/userdoc/model_object.rst:457
@@ -639,7 +639,7 @@ msgid ""
 "only a right hand side to the linear (tangent) system which have to be added"
 " to the list by::"
 msgstr ""
-"この関数はあなたのレンガのユーザーによって呼び出されます。 `` getfem :: model :: varnamelist``型は `` std "
+"この関数はあなたの要素のユーザーによって呼び出されます。 `` getfem :: model :: varnamelist``型は `` std "
 ":: vector <std :: string> ``であり、変数名の配列を表します。 `` getfem :: model :: "
 "mimlist``型は `` std :: vector <const getfem :: mesh_im *> "
 "``であり、統合メソッドへのポインタの配列を表します。タイプ `` getfem :: model :: "
@@ -670,9 +670,9 @@ msgid ""
 "IGNORED."
 msgstr ""
 "この場合、行列項は変数 \"varname1\"に対応する行と変数 "
-"\"varname2\"に対応する列に追加されます。第3のパラメータであるブール値は、その項が対称であるかどうかを宣言することである。対称であり、2つの変数が異なる場合、アセンブリ手順は、対応する項およびその転置を加える。用語の数は任意です。宣言された各項に対して、レンガは対応する右側のベクトル（上の「asm_real_tangent_terms」のパラメータ「vecl」）または/および行列の項（「asm_real_tangent_terms」のパラメータ「matl」"
+"\"varname2\"に対応する列に追加されます。第3のパラメータであるブール値は、その項が対称であるかどうかを宣言することである。対称であり、2つの変数が異なる場合、アセンブリ手順は、対応する項およびその転置を加える。用語の数は任意です。宣言された各項に対して、要素は対応する右側のベクトル（上の「asm_real_tangent_terms」のパラメータ「vecl」）または/および行列の項（「asm_real_tangent_terms」のパラメータ「matl」"
 " "
-"）を宣言します。非線形レンガでは、行列と右辺ベクトルの両方を満たす必要があることに注意してください。線形レンガの場合、行列項と宣言された項の右辺が満たされている場合は無視されます。\n"
+"）を宣言します。非線形要素では、行列と右辺ベクトルの両方を満たす必要があることに注意してください。線形要素の場合、行列項と宣言された項の右辺が満たされている場合は無視されます。\n"
 
 # 46647394d23a4f28886872d20f17626f
 #: ../source/userdoc/model_object.rst:484
@@ -682,14 +682,14 @@ msgid ""
 "term has to be recomputed if the value of a data is changed but not if the "
 "value of a variable is changed."
 msgstr ""
-"変数名とデータ名は2つの別々の配列で与えられます。これは、どちらの場合でもレンガの依存関係が同じではないためです。線形項は、データの値が変更された場合には再計算されなければなりませんが、変数の値が変更された場合は再計算されません。\n"
+"変数名とデータ名は2つの別々の配列で与えられます。これは、どちらの場合でも要素の依存関係が同じではないためです。線形項は、データの値が変更された場合には再計算されなければなりませんが、変数の値が変更された場合は再計算されません。\n"
 
 # 0a6054daf9094c1d820d3bd3847f2c1f
 #: ../source/userdoc/model_object.rst:489
 msgid ""
 "The function allowing to add the simple Dirichlet brick described above can "
 "be defined as follows::"
-msgstr "上記の単純なディリクレレンガを追加する機能は、次のように定義することができます::\n"
+msgstr "上記の単純なディリクレ要素を追加する機能は、次のように定義することができます::\n"
 
 # bcd16dc9a68b4112a23730ef70b9bbbe
 #: ../source/userdoc/model_object.rst:507
@@ -706,4 +706,4 @@ msgstr "モデル\n"
 # e84ddfcab5ca46fc9bb29e63767c2905
 #: ../source/userdoc/model_object.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

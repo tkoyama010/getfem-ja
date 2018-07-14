@@ -72,7 +72,7 @@ msgid ""
 msgstr ""
 "いくつかの中間変数は、時間導関数（および2次問題の2次時間導関数）を表すためにモデルに追加されます。例えば、 `u`が変数であれば、` Dot_u`は "
 "`u`の一次時間導関数を表し、` "
-"Dot2_u`は二次のものを表します。モデル内のこれらの変数を参照して、レンガを追加するか、弱いフォーム言語で使用することができます。しかし、これらは独立変数とはみなされず、時間積分スキームによって対応する元の変数（アファイン方式で）にリンクされます。スキームの大部分は前のタイムステップで時間微分を必要とし、"
+"Dot2_u`は二次のものを表します。モデル内のこれらの変数を参照して、要素を追加するか、弱いフォーム言語で使用することができます。しかし、これらは独立変数とはみなされず、時間積分スキームによって対応する元の変数（アファイン方式で）にリンクされます。スキームの大部分は前のタイムステップで時間微分を必要とし、"
 " `Previous_Dot_u`とおそらく` Previous_Dot2_u`データをモデルに加えます。\n"
 
 # aa35df65120c4a72be2ae91f4aa2f176
@@ -92,7 +92,7 @@ msgid ""
 "weak form language or as parameter of some bricks). Before the assembly of "
 "the system, the data `t` is automatically updated to the time step `n`."
 msgstr ""
-"データ「t」は時間パラメータを表し、（弱形式言語で、またはいくつかのレンガのパラメータとして）使用することができる。システムの組み立て前に、データ「t」は自動的に時間ステップ「n」に更新される。\n"
+"データ「t」は時間パラメータを表し、（弱形式言語で、またはいくつかの要素のパラメータとして）使用することができる。システムの組み立て前に、データ「t」は自動的に時間ステップ「n」に更新される。\n"
 
 # 5add31692c964ee18ff7c5ffc4fb31c8
 #: ../source/userdoc/model_time_integration.rst:28
@@ -115,7 +115,7 @@ msgstr "単にすることができます::\n"
 msgid ""
 "(even though, of course, in this situation, the use of linear bricks is "
 "preferable for efficiency reasons)"
-msgstr "（もちろん、このような状況では、効率的な理由から線形レンガの使用が望ましい）\n"
+msgstr "（もちろん、このような状況では、効率的な理由から線形要素の使用が望ましい）\n"
 
 # bf6a49ac10b94dceb58c45102b2ec8a7
 #: ../source/userdoc/model_time_integration.rst:40
@@ -611,4 +611,4 @@ msgstr "モデル\n"
 # a0ae1c302f2d40caba958d8ce1bedd09
 #: ../source/userdoc/model_time_integration.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

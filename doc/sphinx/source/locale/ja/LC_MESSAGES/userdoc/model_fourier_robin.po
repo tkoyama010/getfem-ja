@@ -20,14 +20,14 @@ msgstr ""
 # 6f894dea1a9b48e39f5432a4a17f8100
 #: ../source/userdoc/model_fourier_robin.rst:15
 msgid "Fourier-Robin brick"
-msgstr "フーリエロビンレンガ\n"
+msgstr "フーリエロビン要素\n"
 
 # f5d7dff7b2774eaba7389364ca039832
 #: ../source/userdoc/model_fourier_robin.rst:17
 msgid ""
 "This brick can be used to add boundary conditions of Fourier-Robin type "
 "like:"
-msgstr "このレンガは、フーリエ - ロビンタイプの境界条件を追加するために使用できます：\n"
+msgstr "この要素は、フーリエ - ロビンタイプの境界条件を追加するために使用できます：\n"
 
 # 94e19873e37d4f7a8438086c2e27ec41
 #: ../source/userdoc/model_fourier_robin.rst:23
@@ -42,7 +42,7 @@ msgid ""
 " or complex terms in scalar or vectorial problems."
 msgstr ""
 "線形弾性問題のために。 `` "
-"Q``は、スカラーの場合のスカラーフィールドまたはベクトルの場合のマトリックスフィールドです。このレンガは、スカラーまたはベクトル問題の実数または複雑な条件の両方に使用できます。\n"
+"Q``は、スカラーの場合のスカラーフィールドまたはベクトルの場合のマトリックスフィールドです。この要素は、スカラーまたはベクトル問題の実数または複雑な条件の両方に使用できます。\n"
 
 # 8118c9a67b424240a377018626d17cc8
 #: ../source/userdoc/model_fourier_robin.rst:33
@@ -75,4 +75,4 @@ msgstr "モデル\n"
 # aefb66250677475f9b79d7143764f58e
 #: ../source/userdoc/model_fourier_robin.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

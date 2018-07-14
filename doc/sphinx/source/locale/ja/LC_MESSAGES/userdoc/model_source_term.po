@@ -20,7 +20,7 @@ msgstr ""
 # c66566a505c04adaae8ff7206938454e
 #: ../source/userdoc/model_source_term.rst:13
 msgid "Source term bricks (and Neumann condition)"
-msgstr "ソース用語レンガ（およびノイマン条件）\n"
+msgstr "ソース用語要素（およびノイマン条件）\n"
 
 # 3afcfaa16ab342358622f1f6f63dff6f
 #: ../source/userdoc/model_source_term.rst:15
@@ -73,14 +73,14 @@ msgstr ""
 # 6c2e0427c606425891af9c54798c7d9f
 #: ../source/userdoc/model_source_term.rst:43
 msgid "The brick has a working complex version."
-msgstr "レンガは作業複雑なバージョンを持っています。\n"
+msgstr "要素は作業複雑なバージョンを持っています。\n"
 
 # 86842ccf68554ad99dc7bffbf711a038
 #: ../source/userdoc/model_source_term.rst:45
 msgid ""
 "A slightly different brick, especially dedicated to deal with a Neumann "
 "condition, is added by the following function::"
-msgstr "わずかに異なるレンガは、特にノイマン条件を扱うために用意されており、次の関数によって追加されています::\n"
+msgstr "わずかに異なる要素は、特にノイマン条件を扱うために用意されており、次の関数によって追加されています::\n"
 
 # c64075aea8db45ac81f8ab86c4b17ab6
 #: ../source/userdoc/model_source_term.rst:51
@@ -101,4 +101,4 @@ msgstr "モデル\n"
 # e19967c1b4ae43f3a2850986f97a3497
 #: ../source/userdoc/model_source_term.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

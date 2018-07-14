@@ -20,7 +20,7 @@ msgstr ""
 # 3ab7501d21514e3cb0d64b317e86d1a5
 #: ../source/userdoc/model_contact_friction.rst:14
 msgid "Small sliding contact with friction bricks"
-msgstr "摩擦煉瓦との小摺動接触\n"
+msgstr "摩擦要素との小摺動接触\n"
 
 # 7f651579b8e34c6f9c02849bad855b18
 #: ../source/userdoc/model_contact_friction.rst:16
@@ -31,7 +31,7 @@ msgid ""
 "approximation of contact (this may include large deformations on a flat "
 "obstacle)."
 msgstr ""
-"これらのレンガの目的は、剛性のある基礎上または2つの弾性構造の間の弾性構造の摩擦を伴うかまたは伴わない接触条件を考慮に入れることである。これらのレンガは接触の小さな変形近似に制限されています（これは平坦な障害物に大きな変形を含むことがあります）。\n"
+"これらの要素の目的は、剛性のある基礎上または2つの弾性構造の間の弾性構造の摩擦を伴うかまたは伴わない接触条件を考慮に入れることである。これらの要素は接触の小さな変形近似に制限されています（これは平坦な障害物に大きな変形を含むことがあります）。\n"
 
 # c7a4faf37cee4e54a12014c084159845
 #: ../source/userdoc/model_contact_friction.rst:19
@@ -395,7 +395,7 @@ msgid ""
 "from the Alart-Curnier augmented Lagrangian formulation [AL-CU1991]_. The "
 "first one corresponds to the non-symmetric version. It consists in solving:"
 msgstr ""
-"GetFEM ++レンガは、Alart-Curnier拡張ラグランジアン配合[AL-CU1991] "
+"GetFEM ++要素は、Alart-Curnier拡張ラグランジアン配合[AL-CU1991] "
 "_から得られた接触条件の4つのバージョンを実装します。最初のものは非対称バージョンに対応します。それは次のようになります。\n"
 
 # edbf26cb29cf4224a4dc14346479e17a
@@ -530,14 +530,14 @@ msgstr "モデルに摩擦を伴うか伴わない接触を加える\n"
 # 6be02fead1ad4b1fb143f6fb647660e2
 #: ../source/userdoc/model_contact_friction.rst:303
 msgid "Frictionless basic contact brick"
-msgstr "摩擦のない基本接触レンガ\n"
+msgstr "摩擦のない基本接触要素\n"
 
 # daa0b141f408480cb3eceafb20f6e49f
 #: ../source/userdoc/model_contact_friction.rst:305
 msgid ""
 "In order to add a frictionless contact brick you call the model object "
 "method::"
-msgstr "摩擦のない接触レンガを追加するには、モデルオブジェクトメソッドを呼び出します。\n"
+msgstr "摩擦のない接触要素を追加するには、モデルオブジェクトメソッドを呼び出します。\n"
 
 # 5966f4915f1747a4ad78d38993fdf9e7
 #: ../source/userdoc/model_contact_friction.rst:310
@@ -555,7 +555,7 @@ msgid ""
 "parameter for the augmentation parameter."
 msgstr ""
 "この関数は、乗数変数 `` multname_n``のおかげで、 `` "
-"varname_u``に摩擦のない接触レンガを追加します。次のような場合：math： "
+"varname_u``に摩擦のない接触要素を追加します。次のような場合：math： "
 "`U`は片方向拘束が適用される自由度のベクトルです。行列：math：` B_N`は、この条件が以下のように定義されていなければなりません：math： "
 "`B_N U \\ le 0` 。制約は乗数 `` multname_n``に与えられています。その次元は行の数と同じでなければなりません：math： "
 "`B_N`。変数 `` dataname_r``は拡張パラメータの名前です：math： `r`は許容可能な値の範囲で選択されるべきです。 `` "
@@ -582,7 +582,7 @@ msgstr "基本的な接触行列を変更することは可能です :math:`B_N`
 # 7a8bf6d8403448848f3fd4e186606392
 #: ../source/userdoc/model_contact_friction.rst:320
 msgid "Basic contact brick with friction"
-msgstr "摩擦を伴う基本接触レンガ\n"
+msgstr "摩擦を伴う基本接触要素\n"
 
 # b8219017202e4c8fa2a226143422f769
 #: ../source/userdoc/model_contact_friction.rst:323
@@ -655,7 +655,7 @@ msgstr "基本的な接触行列：math： `B_N`と：：math：` B_T`を次の�
 # b2970532e8984f089a6f7e1658cfe0f2
 #: ../source/userdoc/model_contact_friction.rst:359
 msgid "Frictionless nodal contact with a rigid obstacle brick"
-msgstr "頑丈な障害物レンガとの摩擦のない節点接触\n"
+msgstr "頑丈な障害物要素との摩擦のない節点接触\n"
 
 # 4fed78610d0d4c838cc7bf641775033b
 # a2575eb9b3fd4f48b12a5b0c349ca8fc
@@ -698,7 +698,7 @@ msgstr ""
 # ae91045723f8438c8dabebe0b0164aa7
 #: ../source/userdoc/model_contact_friction.rst:379
 msgid "Nodal contact with a rigid obstacle brick with friction"
-msgstr "摩擦を伴う頑丈な障害物のレンガとの節の接触\n"
+msgstr "摩擦を伴う頑丈な障害物の要素との節の接触\n"
 
 # 1943d897075d49de8e6f81b7119c29fe
 #: ../source/userdoc/model_contact_friction.rst:382
@@ -742,7 +742,7 @@ msgstr ""
 # 8365867a70174f4bbbc0c6089f88d897
 #: ../source/userdoc/model_contact_friction.rst:414
 msgid "Frictionless nodal contact between non-matching meshes brick"
-msgstr "非整合メッシュレンガ間の摩擦のない節点接触\n"
+msgstr "非整合メッシュ要素間の摩擦のない節点接触\n"
 
 # 12545e07b0eb422f8875b62b59579298
 # a9f7ea97554e43a384823765deb940b1
@@ -809,7 +809,7 @@ msgstr ""
 msgid ""
 "Basically, this brick computes the matrix :math:`B_N` and the vectors gap "
 "and alpha and calls the basic contact brick."
-msgstr "基本的には、このブリックは行列：math： `B_N`とベクトルのギャップとアルファを計算し、基本的な接触レンガを呼び出します。\n"
+msgstr "基本的には、このブリックは行列：math： `B_N`とベクトルのギャップとアルファを計算し、基本的な接触要素を呼び出します。\n"
 
 # d1fc34b44f86441aaca64232fc57ee45
 #: ../source/userdoc/model_contact_friction.rst:451
@@ -890,7 +890,7 @@ msgid ""
 "well the vectors gap and alpha and calls the basic contact brick."
 msgstr ""
 "基本的には、このブリックは行列：math： `B_N`と：math：` "
-"B_T`とベクトルgapとalphaを計算し、基本的な接触レンガを呼び出します。\n"
+"B_T`とベクトルgapとalphaを計算し、基本的な接触要素を呼び出します。\n"
 
 # 7e8336f824c447d2a4b13364fac86921
 #: ../source/userdoc/model_contact_friction.rst:496
@@ -902,7 +902,7 @@ msgstr "ヒューズは摩擦のない接触状態を安定させた\n"
 msgid ""
 "In order to add a Hughes stabilized frictionless contact brick you call the "
 "model object method::"
-msgstr "ヒューズ安定化された摩擦のない接触レンガを追加するには、モデルオブジェクトメソッドを呼び出します。\n"
+msgstr "ヒューズ安定化された摩擦のない接触要素を追加するには、モデルオブジェクトメソッドを呼び出します。\n"
 
 # 8123a79979444a7c863c2f34ef8b8512
 #: ../source/userdoc/model_contact_friction.rst:503
@@ -949,7 +949,7 @@ msgstr "マトリクス：数学： `D_N 'は、基本接触項とヒューズ�
 # 02b12a8e1cb04ce7a87f6e33116a0ae4
 #: ../source/userdoc/model_contact_friction.rst:513
 msgid "Frictionless integral contact with a rigid obstacle brick"
-msgstr "剛性の障害物レンガとの摩擦のない一体接触\n"
+msgstr "剛性の障害物要素との摩擦のない一体接触\n"
 
 # 6feaee7521734b0986e0a4dedb5bb0f0
 #: ../source/userdoc/model_contact_friction.rst:520
@@ -998,7 +998,7 @@ msgstr "「ミム」はもちろん統合方法を表します。それは、関
 # fdba9434d16a4865b852e354181e0986
 #: ../source/userdoc/model_contact_friction.rst:545
 msgid "Integral contact with a rigid obstacle brick with friction"
-msgstr "摩擦を伴う頑丈な障害物レンガとの一体的な接触\n"
+msgstr "摩擦を伴う頑丈な障害物要素との一体的な接触\n"
 
 # cff85e477e004b11b1f5dc58d8fd35eb
 #: ../source/userdoc/model_contact_friction.rst:555
@@ -1067,7 +1067,7 @@ msgstr ""
 # 642fb33721474130aa952649c7b7db49
 #: ../source/userdoc/model_contact_friction.rst:592
 msgid "Frictionless integral contact between non-matching meshes brick"
-msgstr "非整合メッシュレンガ間の摩擦のない一体的接触\n"
+msgstr "非整合メッシュ要素間の摩擦のない一体的接触\n"
 
 # 937687010bbe4da49ecd38c9cec93b98
 #: ../source/userdoc/model_contact_friction.rst:600
@@ -1111,7 +1111,7 @@ msgid ""
 "augmentation parameter ``dataname_r`` should be chosen in a range of "
 "acceptable values."
 msgstr ""
-"この機能は、一致していないメッシュ間の摩擦状態を持つ接点をモデルに追加します。このレンガは、一体的に定義された接点を追加します。これは、連続レベルで定義された拡張ラグランジアン定式化の直接近似である。メリットはスケーラビリティが向上している必要があります。ニュートン反復の数は、メッシュサイズに多かれ少なかれなければなりません。条件は、"
+"この機能は、一致していないメッシュ間の摩擦状態を持つ接点をモデルに追加します。この要素は、一体的に定義された接点を追加します。これは、連続レベルで定義された拡張ラグランジアン定式化の直接近似である。メリットはスケーラビリティが向上している必要があります。ニュートン反復の数は、メッシュサイズに多かれ少なかれなければなりません。条件は、"
 " `` region1``と `` region2``に対応する境界上の変数 `` varname_u1``と `` "
 "varname_u2``に適用されます。 `` multname``は、接触と摩擦のストレスを表すfem変数でなければなりません。 `` "
 "multname``と `` varname_u1``と `` varname_u2``の間のinf条件が必要です。拡張パラメータ `` "
@@ -1151,7 +1151,7 @@ msgstr ""
 # 85759e809c944e6d8d0c590519c3a509
 #: ../source/userdoc/model_contact_friction.rst:667
 msgid "Frictionless penalized contact with a rigid obstacle brick"
-msgstr "剛性の障害物レンガとの摩擦のないペナルティドコンタクト\n"
+msgstr "剛性の障害物要素との摩擦のないペナルティドコンタクト\n"
 
 # 38a09af1fc274695965418996a1c0989
 #: ../source/userdoc/model_contact_friction.rst:675
@@ -1178,7 +1178,7 @@ msgstr ""
 # 82fffdae9d994338a33651e1e1a86a3d
 #: ../source/userdoc/model_contact_friction.rst:691
 msgid "Penalized contact with a rigid obstacle brick with friction"
-msgstr "摩擦を伴う頑丈な障害物レンガとのペナルティドコンタクト\n"
+msgstr "摩擦を伴う頑丈な障害物要素とのペナルティドコンタクト\n"
 
 # cf066b77bacd49a4a99c5c7185cce73d
 #: ../source/userdoc/model_contact_friction.rst:700
@@ -1213,7 +1213,7 @@ msgstr ""
 # 9a62e4d7076e4f139de32c458a19b984
 #: ../source/userdoc/model_contact_friction.rst:727
 msgid "Frictionless penalized contact between non-matching meshes brick"
-msgstr "非マッチングメッシュレンガ間の摩擦なしペナルティコンタクト\n"
+msgstr "非マッチングメッシュ要素間の摩擦なしペナルティコンタクト\n"
 
 # 7399eccb0f5f4b1aa9d5905fd3a5fa7e
 #: ../source/userdoc/model_contact_friction.rst:735
@@ -1238,7 +1238,7 @@ msgstr ""
 # 290d8883408046c1871dabcc888d7eb3
 #: ../source/userdoc/model_contact_friction.rst:749
 msgid "Penalized contact between non-matching meshes brick with friction"
-msgstr "レンガとマッチングしていないメッシュと摩擦との不利な接触\n"
+msgstr "要素とマッチングしていないメッシュと摩擦との不利な接触\n"
 
 # 4d6809e381cc462b879efebe8f2e1d60
 #: ../source/userdoc/model_contact_friction.rst:758
@@ -1296,4 +1296,4 @@ msgstr "モデル\n"
 # 56b90f857f324c2f88c3daf3194d8800
 #: ../source/userdoc/model_contact_friction.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

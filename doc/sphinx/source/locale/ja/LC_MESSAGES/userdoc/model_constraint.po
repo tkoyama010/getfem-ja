@@ -20,7 +20,7 @@ msgstr ""
 # 29ed0db26c0646d6a19fd3566cb245f5
 #: ../source/userdoc/model_constraint.rst:15
 msgid "Constraint brick"
-msgstr "拘束レンガ\n"
+msgstr "拘束要素\n"
 
 # d0dd84cd0326437b959b0f2d6aac8d66
 #: ../source/userdoc/model_constraint.rst:17
@@ -64,7 +64,7 @@ msgstr "次の2つの関数のおかげで、いつでも制約を変更する�
 # 0b6cf2109cec4db89e15531255d8fa2b
 #: ../source/userdoc/model_constraint.rst:47
 msgid "where ``indbrick`` is the index of the brick in the model."
-msgstr "ここで `` indbrick``はモデル内のレンガのインデックスです。\n"
+msgstr "ここで `` indbrick``はモデル内の要素のインデックスです。\n"
 
 # 172873c34e2d41d9babf6b771038fc91
 #: ../source/userdoc/model_constraint.rst:7
@@ -74,4 +74,4 @@ msgstr "モデル\n"
 # 172873c34e2d41d9babf6b771038fc91
 #: ../source/userdoc/model_constraint.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"

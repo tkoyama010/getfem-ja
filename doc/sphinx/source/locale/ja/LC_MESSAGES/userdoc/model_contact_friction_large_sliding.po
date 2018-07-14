@@ -20,7 +20,7 @@ msgstr ""
 # a551147aabac4a44a9404636c1b7d5d0
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:12
 msgid "Large sliding/large deformation contact with friction bricks"
-msgstr "摩擦煉瓦との大きな摺動/大変形接触\n"
+msgstr "摩擦要素との大きな摺動/大変形接触\n"
 
 # 43e8a10294154df09972cddeb4f0906d
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:14
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 "スレーブサーフェスは「コンタクタ」で、マスターは「ターゲット」です。厳しい障害も考慮されます。それらは常にマスターサーフェスです。基本的な規則は、スレーブ面とマスタ面の間で接点が考慮されることです。しかし、マルチコンタクトフレームオブジェクトと|"
 " gf "
-"|レンガは、2つのマスターサーフェス間の接触、マスターサーフェスと任意の数のスレーブサーフェスとマスターサーフェスの自己接触を含む複数接触の状況を可能にします。\n"
+"|要素は、2つのマスターサーフェス間の接触、マスターサーフェスと任意の数のスレーブサーフェスとマスターサーフェスの自己接触を含む複数接触の状況を可能にします。\n"
 
 # d1de858e681840eb950e749744951648
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:33
@@ -209,7 +209,7 @@ msgid ""
 msgstr ""
 "モデルオブジェクトが使用されていない場合、変換は `ga_workspace`オブジェクトで直接使用することもできます。詳細は、file： "
 "`getfem / "
-"getfem_contact_and_friction_common.h`を参照してください。また、モデルオブジェクトのフレームワークでは、この変換のインターフェース使用が、以下に説明するモデルレンガによって許可されることにも注意してください。\n"
+"getfem_contact_and_friction_common.h`を参照してください。また、モデルオブジェクトのフレームワークでは、この変換のインターフェース使用が、以下に説明するモデル要素によって許可されることにも注意してください。\n"
 
 # df8f3503957f45069d4c72b51cf10330
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:84
@@ -389,7 +389,7 @@ msgstr "**基準7：接触対の最小符号付距離**保持された接触対�
 # 1ce2ca41ac504ebe8b19b325ae351bd0
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:196
 msgid "Nodal contact brick with projection"
-msgstr "投影によるノーダル接触レンガ\n"
+msgstr "投影によるノーダル接触要素\n"
 
 # a0c7221378f4473caaff0a1650cfc9df
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:198
@@ -485,7 +485,7 @@ msgstr "ここで、数学： `W_T、\\ alpha、P_ {n_y、{\\ mathscr F}}` ... +
 # 3c6c975735de4ad4994738a97ff00992
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:227
 msgid "Sorry, for the moment the brick is not working."
-msgstr "申し訳ありませんが、レンガは動作していません。\n"
+msgstr "申し訳ありませんが、要素は動作していません。\n"
 
 # ec604a6960f343f7804c9b8782b60e7e
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:232
@@ -566,12 +566,12 @@ msgstr ""
 # a146804bd7204d93a273f383f3c480fd
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:330
 msgid "Integral contact brick with raytrace"
-msgstr "レイトレース付きインテグラルコンタクトレンガ\n"
+msgstr "レイトレース付きインテグラルコンタクト要素\n"
 
 # 5a82ece8b07343ddb75f1d9a19f389ad
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:333
 msgid "Add of the brick::"
-msgstr "レンガの追加::\n"
+msgstr "要素の追加::\n"
 
 # f8bee2f55e224377a9f9b6096d8f3948
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:341
@@ -616,7 +616,7 @@ msgstr ""
 # 24f78629e6bd4f7180069e99a1b201c3
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:356
 msgid "A rigid obstacle can be added to the brick with::"
-msgstr "剛性の障害物をレンガに加えることができます::\n"
+msgstr "剛性の障害物を要素に加えることができます::\n"
 
 # 29f4d6292ad54349bccfd3c10678ab8d
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:361
@@ -636,4 +636,4 @@ msgstr "モデル\n"
 # d77836dc349e4841845838783736856c
 #: ../source/userdoc/model_contact_friction_large_sliding.rst:7
 msgid "model bricks"
-msgstr "モデルレンガ\n"
+msgstr "モデル要素\n"
