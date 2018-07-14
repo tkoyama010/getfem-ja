@@ -86,7 +86,7 @@ msgid ""
 ":math:`2\\times 2` rotation matrix. Let us denote :math:`r(t)` the rotation:"
 msgstr ""
 "なお、説明は立体体についての説明である。 2次元の物体の場合、第3軸は無視されます。math： `R（t）`は：math： `2 \\ times "
-"2`回転行列です。私たちは以下のことを示しましょう：数学： `r（t）`回転：\n"
+"2`回転行列です。私たちは以下のことを示しましょう :math:`r（t）` 回転：\n"
 
 # 767f9f6c1b9346e0832ff43239e82b5b
 #: ../source/userdoc/model_ALE_rotating.rst:59
@@ -118,7 +118,7 @@ msgid ""
 "is independant of :math:`t` and will serve as the new reference "
 "configuration. This is illustrated in the following figure:"
 msgstr ""
-"参照構成の回転対称性のおかげで：数学： `\\オメガ^ 0：`、私たちは次のように気付きます：\\ bar {\\オメガ} ^ 0 = "
+"参照構成の回転対称性のおかげで :math:`\\オメガ^ 0：` 、私たちは次のように気付きます：\\ bar {\\オメガ} ^ 0 = "
 "r（t、\\オメガ^ 0）数学的には「t」であり、新しい参照構成として機能する。これを次の図に示します。\n"
 
 # 4e25abaa2cdd433eb3ce0dc8190f96af

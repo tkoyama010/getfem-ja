@@ -39,7 +39,7 @@ msgstr "Mindlin-Reissnerプレートモデル\n"
 msgid ""
 "Let :math:`\\Omega \\subset \\R^2` be the reference configuration of the "
 "mid-plane of a plate of thickness :math:`\\epsilon`."
-msgstr "Let：math： `\\ Omega \\ subset \\ R ^ 2`は、厚さのプレートのミッドプレーンの参照構成です：数学：` \\ε`。\n"
+msgstr "Let：math： `\\ Omega \\ subset \\ R ^ 2`は、厚さのプレートのミッドプレーンの参照構成です :math:` \\ε` 。\n"
 
 # f5115e4453d7417691a7515ffd0a3567
 #: ../source/userdoc/model_Mindlin_plate.rst:21
@@ -69,7 +69,7 @@ msgid ""
 ":math:`\\kappa` the shear correction factor (usually set to 5/6)."
 msgstr ""
 "：math： `f`は3次元の板の内部に加えられる体積力であり、math：` g ^ + `と：math：` g ^ "
-"--`は板の上面と底面に加えられる力です。 `E`ヤング率、：算術：` \\ nu`ポアソン比と：計算： `\\ "
+"--`は板の上面と底面に加えられる力です。 `E`ヤング率、 :math:` \\ nu` ポアソン比と：計算： `\\ "
 "kappa`はせん断補正係数（通常5/6に設定）。\n"
 
 # bac346b30021448c8cae85f034f1fbf8
@@ -80,14 +80,14 @@ msgstr "古典的な境界条件は次のとおりです。\n"
 # 0e047b83f72344e49b3756fd494471ff
 #: ../source/userdoc/model_Mindlin_plate.rst:40
 msgid "Simple support :  a dirichlet condition on :math:`u_3`."
-msgstr "簡単なサポート：ディリクレ条件：数学： `u_3`。\n"
+msgstr "簡単なサポート：ディリクレ条件 :math:`u_3` 。\n"
 
 # be40c7c902614fac9ac4350a94dc8ead
 #: ../source/userdoc/model_Mindlin_plate.rst:42
 msgid ""
 "Clamped support : a dirichlet condition on both :math:`u_3` and "
 ":math:`\\theta`."
-msgstr "クランプサポート：数学： `u_3`と：math：` \\ theta`のディリクレ条件。\n"
+msgstr "クランプサポート :math:`u_3` と：math：` \\ theta`のディリクレ条件。\n"
 
 # 621cc56af8e84a339b181bae077dffda
 #: ../source/userdoc/model_Mindlin_plate.rst:44
@@ -97,7 +97,7 @@ msgstr "既定の横力：境界源項上の数学：「u_3」。\n"
 # 82888601802b49a692c525cfd5ba94f0
 #: ../source/userdoc/model_Mindlin_plate.rst:46
 msgid "Prescribed moment : boundary source term on :math:`\\theta`."
-msgstr "あらかじめ決められた瞬間：境界源の項：数学： `\\ theta`。\n"
+msgstr "あらかじめ決められた瞬間：境界源の項 :math:`\\ theta` 。\n"
 
 # 4e407229d038461a9f45355ef04dbf07
 #: ../source/userdoc/model_Mindlin_plate.rst:49

@@ -20,7 +20,7 @@ msgstr ""
 # 4a7892a852ca49c4b5711029a48a5323
 #: ../source/userdoc/computeL2H1.rst:10
 msgid "Compute :math:`L^2` and :math:`H^1` norms"
-msgstr "計算：数学： `L ^ 2`と：数学：` H ^ 1`ノルム\n"
+msgstr "計算 :math:`L ^ 2` と :math:` H ^ 1` ノルム\n"
 
 # f9a30010e7454da9a01fb20a8ddeada1
 #: ../source/userdoc/computeL2H1.rst:12

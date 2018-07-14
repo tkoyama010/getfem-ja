@@ -263,7 +263,7 @@ msgstr ""
 msgid ""
 "The matrix :math:`B_T` can also be written in a similar way. The friction "
 "condition can be written in a weak form"
-msgstr "行列：数学： `B_T`も同様の方法で書くことができます。摩擦状態は弱い形で書くことができる\n"
+msgstr "行列 :math:`B_T` も同様の方法で書くことができます。摩擦状態は弱い形で書くことができる\n"
 
 # 8f18901570fd4c22b28457dc3a5b4b71
 #: ../source/userdoc/model_contact_friction.rst:119
@@ -320,7 +320,7 @@ msgid ""
 msgstr ""
 "弱い積分接触式は、離散的な許容応力の集合を明示的に記述しない。 ref： "
 "`nitsche_contact_small_def_section`も参照してください。接触応力（摩擦を含む）は有限要素空間上に記述されている。接触境界上の数学："
-" `W ^ h '：数学：` \\ガンマ_c`：\n"
+" `W ^ h ' :math:` \\ガンマ_c` ：\n"
 
 # cbc703a840834a4390f739b5aedd976b
 #: ../source/userdoc/model_contact_friction.rst:148
@@ -367,7 +367,7 @@ msgid ""
 " have to be adapted with respect to the chosen approximation. For instance, "
 "if the standard finite difference"
 msgstr ""
-"ここで、math： `B（\\ rho）`は、閉じた球の中心です：数学： `0`と半径：数学：` \\ rho`と：数学： `P_ {B（\\ "
+"ここで、math： `B（\\ rho）`は、閉じた球の中心です :math:`0` と半径 :math:` \\ rho` と：数学： `P_ {B（\\ "
 "rho）}`は、 （慣れによって、ボールは元の位置に戻る：数学： `\\ rho \\ le "
 "0`）。以下の項は、摺動速度の近似値を表しています：math： `\\ alpha（u ^ h_T-w ^ h_T）`パラメータ：math： `\\ "
 "alpha`とフィールド：math：` w ^ h_T`は、選択された近似に関して適合させなければなりません。例えば、標準的な有限差分\n"
@@ -577,7 +577,7 @@ msgstr ""
 msgid ""
 "Note that is possible to change the basic contact matrix :math:`B_N` by "
 "using::"
-msgstr "基本的な接触行列を変更することは可能です：数学： `B_N`を使用して::\n"
+msgstr "基本的な接触行列を変更することは可能です :math:`B_N` を使用して::\n"
 
 # 7a8bf6d8403448848f3fd4e186606392
 #: ../source/userdoc/model_contact_friction.rst:320

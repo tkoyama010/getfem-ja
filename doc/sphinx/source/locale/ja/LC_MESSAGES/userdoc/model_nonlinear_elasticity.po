@@ -92,7 +92,7 @@ msgstr "有限ひずみ弾性構成則の記述は、しばしば、変形テン
 #: ../source/userdoc/model_nonlinear_elasticity.rst:50
 msgid ""
 ":math:`i_1,i_2,i_3` are the invariants of orders :math:`1,2` and :math:`3`:"
-msgstr "：math： `i_1、i_2、i_3`は数列の不変量です：数学：` 1,2`と：数学： `3`：\n"
+msgstr "：math： `i_1、i_2、i_3`は数列の不変量です :math:` 1,2` と :math:`3` ：\n"
 
 # 489a5ce7bf9548049a31b37b16628fa2
 #: ../source/userdoc/model_nonlinear_elasticity.rst:58
@@ -124,7 +124,7 @@ msgid ""
 "\\displaystyle\\sum_{ij}A_{ij}B_{ij}`. This product has the following "
 "properties:"
 msgstr ""
-"表記法：数学： `A：B`はフロベニウス製品を表します。数学：` A：B = \\ displaystyle \\ sum_ {ij} A_ {ij} "
+"表記法 :math:`A：B` はフロベニウス製品を表します。数学：` A：B = \\ displaystyle \\ sum_ {ij} A_ {ij} "
 "B_ {ij} `。この製品には以下の特性があります：\n"
 
 # 1adfc93157a14d72af8be9d052078ba3
@@ -172,7 +172,7 @@ msgstr "ここで、math： `{W}`は材料のひずみエネルギーの密度�
 #: ../source/userdoc/model_nonlinear_elasticity.rst:124
 msgid ""
 "and the derivative of the energy in a direction :math:`v` can be writen"
-msgstr "と方向のエネルギーの導関数：数学： `v`を書くことができます\n"
+msgstr "と方向のエネルギーの導関数 :math:`v` を書くことができます\n"
 
 # eecee7e5dfd8404685e8614ebfd2e434
 #: ../source/userdoc/model_nonlinear_elasticity.rst:130
@@ -210,12 +210,12 @@ msgstr "接線行列\n"
 msgid ""
 "The displacement :math:`u` is fixed. In order to obtain the tangent matrix, "
 "one subsitutes :math:`u` with :math:`u+h`"
-msgstr "変位：数学： `u`は固定されています。接線行列を得るためには、math： `u`を：math：` u + h`と置き換えます。\n"
+msgstr "変位 :math:`u` は固定されています。接線行列を得るためには、math： `u`を：math：` u + h`と置き換えます。\n"
 
 # 773e9306f6264e78bf4b4e99960be097
 #: ../source/userdoc/model_nonlinear_elasticity.rst:161
 msgid "and considers the linear part w.r.t. :math:`h`, which is"
-msgstr "線形部分を考慮する。 ：数学： `h`\n"
+msgstr "線形部分を考慮する。  :math:`h` \n"
 
 # f6ae37d711ae4037858af241dca51325
 #: ../source/userdoc/model_nonlinear_elasticity.rst:169
@@ -275,7 +275,7 @@ msgstr "非圧縮性の材料。\n"
 msgid ""
 "The incompressibility constraint :math:`i_3( C) = 1` is handled with a "
 "Lagrange multiplier :math:`p` (the pressure)"
-msgstr "非圧縮性制約：数学： `i_3（C）= 1`はラグランジュ乗数で扱われます：数学：` p`（圧力）\n"
+msgstr "非圧縮性制約 :math:`i_3（C）= 1` はラグランジュ乗数で扱われます :math:` p` （圧力）\n"
 
 # eb57ed151ca34713aba573ed08bcf205
 #: ../source/userdoc/model_nonlinear_elasticity.rst:230
@@ -396,7 +396,7 @@ msgstr ""
 "Mooney-Rivlinの法則は、2つのオプションのフラグを受け取ります。最初のものは、材料が圧縮可能かどうかを判定し（math： `d_1 \\ "
 "neq 0`）、2番目のフラグは材料がneo Hookean（：math：` c_2 = 0 "
 "`）。これらのフラグに応じて、1〜3個の係数が必要な場合があります。デフォルトでは、それは非圧縮性かつ非ネオフケアンと定義されているため、2つの物質係数（：算術："
-" `c_1`、：算術：` c_2`）が必要です。この場合、大きなひずみの非圧縮性条件で使用する必要があります。\n"
+" `c_1`、 :math:` c_2` ）が必要です。この場合、大きなひずみの非圧縮性条件で使用する必要があります。\n"
 
 # e857cb23a27f4528a5de2ad33a66297c
 #: ../source/userdoc/model_nonlinear_elasticity.rst:306

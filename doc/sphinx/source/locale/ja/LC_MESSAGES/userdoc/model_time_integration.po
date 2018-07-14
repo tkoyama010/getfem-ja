@@ -172,7 +172,7 @@ msgid ""
 "is not an implicit scheme) and for :math:`U^{n-1}, V^{n-1}` given."
 msgstr ""
 "for：theath-methodのパラメータである\\ theta \\ in（0、1） `（for：math：` \\ theta = "
-"0`メソッドは前方オイラーメソッドに対応し、暗黙スキームではありません） for：数学： `U ^ {n-1}、V ^ {n-1}`が与えられます。\n"
+"0`メソッドは前方オイラーメソッドに対応し、暗黙スキームではありません） for :math:`U ^ {n-1}、V ^ {n-1}` が与えられます。\n"
 
 # 4f96b4eca3504dcb8210b2bcd9f044c6
 #: ../source/userdoc/model_time_integration.rst:65
@@ -186,9 +186,9 @@ msgid ""
 "furnishes a mean to evaluate them thanks to the application of a Backward "
 "Euler scheme on a (very) small time step."
 msgstr ""
-"最初の時間ステップの前に：数学： `U ^ 0`を初期化する必要があります：しかし、数学：` V ^ 0`も必要です（：math： `\\ theta "
+"最初の時間ステップの前に :math:`U ^ 0` を初期化する必要があります：しかし、数学：` V ^ 0`も必要です（：math： `\\ theta "
 "= 1`を除く）。この例では、それは：math： `M ^ { -  1} F（U ^ 0）`に対応するはずです。一般的な結合問題：数学： "
-"`M`は特異であり、一般的な事前計算：数学：` V ^ 0`を得ることは困難です。したがって：数学： `V ^ "
+"`M`は特異であり、一般的な事前計算 :math:` V ^ 0` を得ることは困難です。したがって：数学： `V ^ "
 "0`もまた備えなければならない。代替的に（以下を参照）、モデルオブジェクト（および標準解）は、（非常に）小さな時間ステップでバックワードオイラースキームを適用することによりそれらを評価するための平均値を提供します。\n"
 
 # d42f4310eaab4d9ea1d8acc6f9623723
@@ -421,7 +421,7 @@ msgid ""
 "At the first time step, :math:`U^0, V^0` should be given and :math:`A^0` is "
 "to be given or pre-computed (except for :math:`\\beta = 1/2, \\gamma = 1`)."
 msgstr ""
-"最初のステップでは、次のように計算されます：数学： `U ^ 0、V ^ 0`が与えられなければなりません：数学：` A ^ 0`を与えますか、 2、\\"
+"最初のステップでは、次のように計算されます :math:`U ^ 0、V ^ 0` が与えられなければなりません :math:` A ^ 0` を与えますか、 2、\\"
 " gamma = 1）。\n"
 
 # 478bc9b78bfc43cb828cfc6d28fe8020

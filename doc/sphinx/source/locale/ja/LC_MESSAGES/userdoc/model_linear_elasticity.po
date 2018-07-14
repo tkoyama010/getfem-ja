@@ -50,7 +50,7 @@ msgstr ""
 msgid ""
 "Let us recall that the relation between the |Lame| coefficients an Young "
 "modulus :math:`E` and Poisson ratio :math:`\\nu` is"
-msgstr "|ラメ|係数ヤング係数：数学： `E`とポアソン比：数学：` \\ nu`は\n"
+msgstr "|ラメ|係数ヤング係数 :math:`E` とポアソン比 :math:` \\ nu` は\n"
 
 # ba14b381d68a49e5ab774738bb7353ad
 #: ../source/userdoc/model_linear_elasticity.rst:41

@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 "ここで、math： `\\ Omega`は任意の次元のオープンドメインです：math：` \\ Gamma_ {D} `と：{\\ math：` \\ "
 "Gamma_ {N} `は、 （x）は与えられた係数であり、f（x）は与えられたソースの項である：数学： `U（x） "
-"（x）は次の式の正規方程式である：（x）=（x） `on：数学：` \\ガンマ_ {N} `。剛性行列をアセンブルするために呼び出される関数は::\n"
+"（x）は次の式の正規方程式である：（x）=（x） `on :math:` \\ガンマ_ {N} ` 。剛性行列をアセンブルするために呼び出される関数は::\n"
 
 # 736c4e3bbfa24ebcb7438b5d9cdc999f
 #: ../source/userdoc/asm.rst:41
@@ -255,7 +255,7 @@ msgid ""
 "condition, and an orthogonal basis :math:`N` of the kernel of :math:`H`. "
 "Hence, the discrete system that must be solved is:"
 msgstr ""
-"それはDirichlet条件を満たすベクトル：数学： `U_d`と直交基底：数学：` H`の核の数学： "
+"それはDirichlet条件を満たすベクトル :math:`U_d` と直交基底 :math:` H` の核の数学： "
 "`N`を返します。したがって、解決しなければならない離散システムは次のとおりです。\n"
 
 # 207af051dda04925a58655c5d2a95a25
@@ -353,7 +353,7 @@ msgstr "混合有限要素法によるストークス問題\n"
 #: ../source/userdoc/asm.rst:188
 msgid ""
 "The assembly of the mixed term :math:`B = - \\int p\\nabla.v` is done with::"
-msgstr "混合項の組み立て：数学： `B =  -  \\ int p \\ nabla.v`は::\n"
+msgstr "混合項の組み立て :math:`B =  -  \\ int p \\ nabla.v` は::\n"
 
 # 39c68c1cb7df4a90b3601e51074b6a66
 #: ../source/userdoc/asm.rst:195

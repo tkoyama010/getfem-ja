@@ -109,7 +109,7 @@ msgstr "ここで、math： `\\ sigma`はCauchyの応力テンソルであり、
 msgid ""
 "In the standard cases, :math:`\\psi(\\varepsilon^e, \\alpha)` is decomposed "
 "into"
-msgstr "標準の場合、：数学： `\\ psi（\\ varepsilon ^ e、\\ alpha）`は次のように分解されます。\n"
+msgstr "標準の場合、 :math:`\\ psi（\\ varepsilon ^ e、\\ alpha）` は次のように分解されます。\n"
 
 # 3d5747fda0e24d6f9403c9e59c0f234b
 #: ../source/userdoc/model_plasticity_small_strain.rst:62
@@ -149,7 +149,7 @@ msgstr ""
 msgid ""
 "The surface :math:`f(\\sigma, A) = 0` is the yield surface where the plastic"
 " deformation may occur."
-msgstr "表面：数学： `f（\\ sigma、A）= 0`は、塑性変形が起こる降伏面です。\n"
+msgstr "表面 :math:`f（\\ sigma、A）= 0` は、塑性変形が起こる降伏面です。\n"
 
 # 9a102f28b98940bebcdaaed1d249baa7
 #: ../source/userdoc/model_plasticity_small_strain.rst:75
@@ -222,7 +222,7 @@ msgid ""
 "integration`) which can be different than the time integration scheme used "
 "for the integration of the flow rule (see below)."
 msgstr ""
-"与えられた時間ステップ：時間：数学： `t_n`から数学：` t_ {n + 1} `までの数学：` \\ Delta t = t_ {n + 1} "
+"与えられた時間ステップ：時間 :math:`t_n` から数学：` t_ {n + 1} `までの数学：` \\ Delta t = t_ {n + 1} "
 "-t_n`を続けると、 math： `u_n、\\ varepsilon ^ p_n \\ mbox {and} \\ "
 "alpha_n`時刻の近似：math：` u_（t_n）、\\ varepsilon ^ p_n（t_n）\\ mbox {アルファ（t_n） "
 "`と呼ぶ。これらの近似は、フロールールの統合に使用される時間積分スキームとは異なることができる、選択された時間積分スキーム（例えば、提案されたスキームの1つ：ref："
@@ -323,7 +323,7 @@ msgid ""
 "each Gauss point is often necessary which is usualy performed with a local "
 "Newton method."
 msgstr ""
-"これは、特に次のことを意味します：数学： `` \\ varepsilon ^ p_ {n + 1}、\\ alpha_ {n + 1} =（{\\ "
+"これは、特に次のことを意味します :math:``  \\ varepsilon ^ p_ {n + 1}、\\ alpha_ {n + 1} =（{\\ "
 "mathscr E} ^ p（u_ {n + 1}、\\ zeta_n、\\ eta_n ）、{\\ mathscr A}（u_ {n + 1}、\\ "
 "zeta_ {n}、\\ eta_n）） `は方程式の解です：eq：` thetascheme1`と：eq： "
 "`thetascheme2`です。これらのマップとそれらの正接モジュラス（通常、一貫した正接モジュライと呼ばれる）は、ニュートン法を用いた問題のグローバルな解法で使用されます。数学："
@@ -582,7 +582,7 @@ msgid ""
 msgstr ""
 "フォンミーゼス：：数学： `\\ | \\ mbox {Dev}（\\シグマ）\\ | \\ mbox {dev}（\\ sigma）= \\ "
 "sigma  -  \\ frac {1} {3} \\ mbox {tr} {\\ frac {2} {3}} \\ "
-"sigma_y`ここで、シグマ）私は次の部分の偏差部分です：数学： `\\シグマ`と：数学： `\\ | \\シグマ\\ = \\ sqrt {\\ "
+"sigma_y`ここで、シグマ）私は次の部分の偏差部分です :math:`\\シグマ` と：数学： `\\ | \\シグマ\\ = \\ sqrt {\\ "
 "sigma：\\ sigma} `となります。\n"
 
 # a8405d58c90e4383889bc3ec137b44d2
@@ -613,7 +613,7 @@ msgstr ""
 msgid ""
 "The :math:`\\theta`-scheme for the integration of the plastic flow rule "
 "reads:"
-msgstr "：プラスチック流規則の統合のための：数学： `\\ theta`  - スキーム：\n"
+msgstr "：プラスチック流規則の統合のための :math:`\\ theta`   - スキーム：\n"
 
 # eda3cb7996ec43f09155b7130046087f
 #: ../source/userdoc/model_plasticity_small_strain.rst:288
@@ -794,7 +794,7 @@ msgid ""
 "We consider an isotropic elastic reponse and the internal variable "
 ":math:`\\alpha : \\Omega \\rightarrow \\R` being the accumulated plastic "
 "strain which satisfies"
-msgstr "我々は、等方性弾性応答と内部変数を考えてみる：数学： `\\ alpha：\\ Omega \\ rightarrow \\ R`は、\n"
+msgstr "我々は、等方性弾性応答と内部変数を考えてみる :math:`\\ alpha：\\ Omega \\ rightarrow \\ R` は、\n"
 
 # e4b6b8b80acf4eefaac27a776e6ef412
 #: ../source/userdoc/model_plasticity_small_strain.rst:366
@@ -838,7 +838,7 @@ msgid ""
 "\\varepsilon^p_{n})` but only in :math:`f(\\sigma, A)`."
 msgstr ""
 "等方性硬化係数は、以下の式には介入しないことに注意してください。数学： `\\ tilde {\\ mathscr E} ^ p（u_ {n + "
-"1}、\\ theta \\ Delta \\ xi、\\ varepsilon ^ p_ { ：数学： `f（\\ sigma、A）`。\n"
+"1}、\\ theta \\ Delta \\ xi、\\ varepsilon ^ p_ {  :math:`f（\\ sigma、A）` 。\n"
 
 # 552084cb50c2498a80c627115dba4c1f
 #: ../source/userdoc/model_plasticity_small_strain.rst:396
@@ -873,7 +873,7 @@ msgid ""
 ":math:`\\delta \\|B\\| = \\sqrt{\\Frac{2}{3}}(\\sigma_{y0}+H_i "
 "\\alpha_{n+1})` and :math:`(1-\\delta)` solves the equation"
 msgstr ""
-"私たちはプラスチックケースに入っています：数学： `\\ xi_ {n + 1}> 0、\\ delta <1`、：数学：` \\ delta \\ |"
+"私たちはプラスチックケースに入っています :math:`\\ xi_ {n + 1}> 0、\\ delta <1` 、：数学：` \\ delta \\ |"
 " B \\ | =（1  -  \\ delta）は式を解きます：= \\ sqrt {\\ Frac {2} {3}}（\\ sigma_ {y0} "
 "+ H_i \\ alpha_ {n + 1}\n"
 

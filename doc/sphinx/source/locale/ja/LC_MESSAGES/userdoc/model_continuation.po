@@ -187,7 +187,7 @@ msgid ""
 msgstr ""
 "ここで、math： `0 <h _ {\\ mathrm {dec}} <1 <h _ {\\ mathrm {inc}}`、：math： `0 <l "
 "_ {\\ mathrm {thr}}` h _ {\\ mathrm {min}} <h _ {\\ mathrm {max}} "
-"`には定数が与えられます。最初は、次のように設定します：数学： `h_ {1}：= h_ {\\ mathrm {init}}` leq h _ {\\"
+"`には定数が与えられます。最初は、次のように設定します :math:`h_ {1}：= h_ {\\ mathrm {init}}`  leq h _ {\\"
 " mathrm {max}} `となります。\n"
 
 # a7922bd0961e403daa1b25b60d4c8a95
@@ -216,7 +216,7 @@ msgid ""
 "that"
 msgstr ""
 "他の滑らかな部分の接線を近似するには、まず、次のような点をとります：数式： `Y_ {j} + h T_ "
-"{j}`：この点が円滑な動作の他のサブドメインの内部に属するようにする。それから、私たちは以下を見つけます：数学： `\\ tilde {T}`\n"
+"{j}`：この点が円滑な動作の他のサブドメインの内部に属するようにする。それから、私たちは以下を見つけます :math:`\\ tilde {T}` \n"
 
 # 21918be311004e4a95f469f28fc11d8d
 #: ../source/userdoc/model_continuation.rst:143
@@ -237,14 +237,14 @@ msgid ""
 "\\tilde{T}) T_{+} = 0`."
 msgstr ""
 "このベクトルの適切な方向を決定するために残っています。これは、次のような観測に基づいて行うことができます：まず、数学： `r \\ in \\ {\\ "
-"pm 1 \\}` {T} `は次のように同じサブドメインにとどまります：数学：` \\ tilde {h}}陽性であれば、数学： `Y_ "
+"pm 1 \\}` {T} `は次のように同じサブドメインにとどまります :math:` \\ tilde {h}}陽性であれば、数学： ` Y_ "
 "{j}`これは次のような事実によって特徴づけられる。数学： `\\ frac {\\ lvert T _ { - } ^ {\\ top} "
 "\\チルダ{T} \\ rvert} {\\ lVert T _ { - } \\ rVert \\ lVert \\チルダ{T} \\ （T_ { -"
 " } = 0）は、次のように1よりもかなり小さくなります。 `。第2に、数学： `Y_ {j} + r \\チルダ{h} \\チルド{T} "
 "'は、他のサブドメインに：math：` \\ tilde {h} "
 "`のいくつかの正のしきい値よりも大きく表示されます。そのような値は次のとおりです：math： `\\ frac {\\ lvert T _ {+} ^ "
 "{\\ top} \\チルダ{T} \\ rvert} {\\ lVert T _ {+} \\ rVert \\ lVert \\ tilde {T}"
-" \\ rVert}` T = {+} = 0の場合は、1に近づく：数学： `T _ {+}`：数学： `\\ nabla F（Y_ {j} + r "
+" \\ rVert}` T = {+} = 0の場合は、1に近づく :math:`T _ {+}` ：数学： `\\ nabla F（Y_ {j} + r "
 "\\チルダ{h} \\チルダ{T}\n"
 
 # 924fe53aa5254b1d874c90cc0798bb67
@@ -256,7 +256,7 @@ msgid ""
 "and :math:`r \\in \\{\\pm 1\\}` such that"
 msgstr ""
 "これは、以下の目的の方向を選択するための次の手順を示唆しています：math： `\\ tilde {T}`：math： `\\ tilde "
-"{h}あなたが到着したときに：数学： `\\チルド{h}}と：数学：` r \\ in \\ {\\ pm 1 \\} `\n"
+"{h}あなたが到着したときに :math:`\\チルド{h}}と :math:`  r \\ in \\ {\\ pm 1 \\} ` \n"
 
 # a704013f8bf14924982854f4b1f8fd2e
 #: ../source/userdoc/model_continuation.rst:166
@@ -344,7 +344,7 @@ msgid ""
 "solution curves pass through it. The following result gives a test for "
 "*smooth* bifurcation points (see, e.g., [Georg2001]_):"
 msgstr ""
-"A点：数学： `\\ bar {Y}`はシステムの分岐点*と呼ばれます：数学： `F（\\ bar {Y}）= 0`ならば` F（Y）= 0`、 "
+"A点 :math:`\\ bar {Y}` はシステムの分岐点*と呼ばれます :math:`F（\\ bar {Y}）= 0` ならば` F（Y）= 0`、 "
 "2つ以上の異なる解曲線がそれを通過する。次の結果は、*滑らかな分岐点のテストを与えます（例えば、[Georg2001] _を参照）。\n"
 
 # cbe553bc18f943fd85e06a1d9fbce497
@@ -364,14 +364,14 @@ msgstr ""
 # 6243ef6be3154441a364ec0b09b75f5a
 #: ../source/userdoc/model_continuation.rst:235
 msgid "Define :math:`\\tau_{\\mathrm{BP}}(Y)` via"
-msgstr "定義：数学： `\\ tau _ {\\ mathrm {BP}}（Y）`経由で\n"
+msgstr "定義 :math:`\\ tau _ {\\ mathrm {BP}}（Y）` 経由で\n"
 
 # 1de4ce82593c48d385ca2defd96e075f
 #: ../source/userdoc/model_continuation.rst:241
 msgid ""
 "Then :math:`\\tau_{\\mathrm{BP}}(Y(s))` changes its sign at :math:`s = "
 "\\bar{s}`."
-msgstr "次に：数学： `\\ tau _ {\\ mathrm {BP}}（Y（s））`は、数学： `s = \\ bar {s}`でその記号を変えます。\n"
+msgstr "次に :math:`\\ tau _ {\\ mathrm {BP}}（Y（s））` は、数学： `s = \\ bar {s}`でその記号を変えます。\n"
 
 # 12729b0708ca45d4b6d3fb95804121bb
 #: ../source/userdoc/model_continuation.rst:243
@@ -395,7 +395,7 @@ msgid ""
 "described above with a special step-length adaptation (see Section 8.1 in "
 "[Al-Ge1997]_). Namely, one can take the subsequent step lengths as"
 msgstr ""
-"分岐点：数学： `\\ bar {Y}`が符号の変化によって検出されると、数学： `\\ tau _ {\\ mathrm {BP}}（Y_ "
+"分岐点 :math:`\\ bar {Y}` が符号の変化によって検出されると、数学： `\\ tau _ {\\ mathrm {BP}}（Y_ "
 "{j}）\\ tau _ {\\ mathrm {BP}}（Y_ { "
 "{j-1}）<0ならば、これは、特別なステップ長適応（上記[8.1.1]の[8.1]を参照）を用いて上記の予測子 - "
 "修正器のステップによってより正確に近似することができる。すなわち、次のステップ長を\n"
@@ -610,7 +610,7 @@ msgid ""
 "Here, :math:`\\tilde{V}_{2}^{-}` equals the vector :math:`\\tilde{V}_{2}` "
 "employed previously and :math:`\\tilde{V}_{3}` is chosen randomly."
 msgstr ""
-"ここで、：\\ tilde {V} _ {2} ^ { - } `は以前に採用されたベクトル：算術：` \\ tilde {V} _ {2} `と、 "
+"ここで、：\\ tilde {V} _ {2} ^ { - } `は以前に採用されたベクトル :math:` \\ tilde {V} _ {2} ` と、 "
 "{3} `がランダムに選択されます。\n"
 
 # 6761a844c2594edab50d5ff9bfc3063e
@@ -720,7 +720,7 @@ msgid ""
 "the sign of the initial value ``T_lambda``, and it is returned in ``T_U``, "
 "``T_lambda``. Moreover, ``h`` is set to the initial step size ``h_init``."
 msgstr ""
-"ここで、 `` U``はパラメータの値の解でなければなりません：数学： `Y_ {0} =`（\\ `` U`` \\ 、\\ `` lambda`` "
+"ここで、 `` U``はパラメータの値の解でなければなりません :math:`Y_ {0} =` （\\ `` U`` \\ 、\\ `` lambda`` "
 "\\）。この初期化の間、初期値T_lambdaの符号に従って計算され、計算：Y_ {0}に対応する初期単位正接：計算：T_ {0}が返され、 `` "
 "T_U``、 `` T_lambda``です。さらに、「h」は初期ステップサイズ「h_init」に設定される。\n"
 

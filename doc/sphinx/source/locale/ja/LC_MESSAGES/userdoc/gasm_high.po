@@ -376,14 +376,14 @@ msgstr "ドメイン上のポアソン問題の弱い定式化：数学： `\\�
 msgid ""
 "with Dirichlet boundary conditions :math:`u = 0` on :math:`\\partial\\Omega`"
 " is classically"
-msgstr "ディリクレの境界条件：数学： `u = 0` on：数学：` \\ partial \\ Omega`は古典的です\n"
+msgstr "ディリクレの境界条件 :math:`u = 0`  on :math:` \\ partial \\ Omega` は古典的です\n"
 
 # 59f8ef33bbcc4927abbba1306f9b53d8
 #: ../source/userdoc/gasm_high.rst:93
 msgid ""
 "for all test functions :math:`v` vanishing on  :math:`\\partial\\Omega`. The"
 " corresponding expression on the assembly string is::"
-msgstr "すべての形状関数について：数学： `v`が消える：数学：` \\ partial \\ Omega`。アセンブリ文字列の対応する式は::\n"
+msgstr "すべての形状関数について :math:`v` が消える :math:` \\ partial \\ Omega` 。アセンブリ文字列の対応する式は::\n"
 
 # f9639661532948dd90f925dbe117ea70
 #: ../source/userdoc/gasm_high.rst:98
@@ -803,7 +803,7 @@ msgid ""
 "the strain tensor given by :math:`E = (\\nabla u + (\\nabla u)^T + (\\nabla "
 "u)^T\\nabla u)/2`."
 msgstr ""
-"ここで：数学： `\\ lambda、\\ mu`は| Lame | Math： `E 'は、次の式で与えられる歪みテンソルです：E =（\\ "
+"ここで :math:`\\ lambda、\\ mu` は| Lame | Math： `E 'は、次の式で与えられる歪みテンソルです：E =（\\ "
 "nabla u +（\\ nabla u）^ T +（\\ nabla u）^ T \\ nabla u）/ 2`\n"
 
 # bcb047914161497e9f4283c3acae96d8
@@ -1502,7 +1502,7 @@ msgid ""
 "``Id(n)``: the identity matrix of size :math:`n\\times n`. `n` should be an "
 "integer expression. For instance ``Id(meshdim)`` is allowed."
 msgstr ""
-"`` Id（n） ``：サイズの単位行列：数学： `n \\ times n`。 `n`は整数式でなければなりません。例えば、 `` "
+"`` Id（n） ``：サイズの単位行列 :math:`n \\ times n` 。 `n`は整数式でなければなりません。例えば、 `` "
 "Id（meshdim） ``が許されます。\n"
 
 # 1bfc5da4cb524f4899cee30a194ba50b

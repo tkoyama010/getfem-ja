@@ -119,12 +119,12 @@ msgstr "``メソッド名 `` `は既存のメソッドの中から選択され�
 # f8f21405aa1442c5aad2e2daa087b450
 #: ../source/userdoc/appendixA.rst:90
 msgid "Classical :math:`P_K` Lagrange elements on simplices"
-msgstr "古典的：数学： `P_K`シンプレックスのLagrange要素\n"
+msgstr "古典的 :math:`P_K` シンプレックスのLagrange要素\n"
 
 # b338af8559ff484da94c156332253599
 #: ../source/userdoc/appendixA.rst:97
 msgid "Examples of classical :math:`P_K` Lagrange elements on a segment"
-msgstr "セグメント上の古典的な：数学： `P_K`ラグランジュ要素の例\n"
+msgstr "セグメント上の古典的な :math:`P_K` ラグランジュ要素の例\n"
 
 # cbf68d4d27a64bf1ac49309793424166
 #: ../source/userdoc/appendixA.rst:99
@@ -147,22 +147,22 @@ msgstr "古典的な例：三角形上の数学： `P_K`ラグランジュ要素
 # c2043c51061f425d905a30941b5ad8f6
 #: ../source/userdoc/appendixA.rst:116
 msgid ":math:`P_1`, 3 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_1`、3 d.o.f.、：数学：` C ^ 0`\n"
+msgstr " :math:`P_1` 、3 d.o.f.、 :math:` C ^ 0` \n"
 
 # 5ad111ebb8b944e9860d3aeb8e9c7a33
 #: ../source/userdoc/appendixA.rst:117
 msgid ":math:`P_2` element, 6 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_2`要素、6 d.o.f。、：数学：` C ^ 0`\n"
+msgstr " :math:`P_2` 要素、6 d.o.f。、 :math:` C ^ 0` \n"
 
 # c39f43d8858f4aa69ae7109abe162d06
 #: ../source/userdoc/appendixA.rst:124
 msgid ":math:`P_3`, 10 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_3`、10日、：数学：` C ^ 0`\n"
+msgstr " :math:`P_3` 、10日、 :math:` C ^ 0` \n"
 
 # c6f3ddb740374036949376c9c37b35ed
 #: ../source/userdoc/appendixA.rst:125
 msgid ":math:`P_6` element, 28 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_6`要素、28 d.o.f.、：算数：` C ^ 0`\n"
+msgstr " :math:`P_6` 要素、28 d.o.f.、：算数：` C ^ 0`\n"
 
 # aca2d6605c3644c885717341a1691375
 #: ../source/userdoc/appendixA.rst:127
@@ -180,22 +180,22 @@ msgstr ""
 # bdaf7c666dc4429cac6f50010d841d7f
 #: ../source/userdoc/appendixA.rst
 msgid "Examples of classical :math:`P_K` Lagrange elements on a tetrahedron."
-msgstr "四面体上の古典的な：数学： `P_K`ラグランジュ要素の例。\n"
+msgstr "四面体上の古典的な :math:`P_K` ラグランジュ要素の例。\n"
 
 # 1f42900d9523465691b52e9108aa02df
 #: ../source/userdoc/appendixA.rst:145
 msgid ":math:`P_1` element, 4 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_1`要素、4 d.o.f。、：数学：` C ^ 0`\n"
+msgstr " :math:`P_1` 要素、4 d.o.f。、 :math:` C ^ 0` \n"
 
 # 5e7a12a722f04db98e059378e0de6824
 #: ../source/userdoc/appendixA.rst:146
 msgid ":math:`P_2` element, 10 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_2`要素、10日、：数学：` C ^ 0`\n"
+msgstr " :math:`P_2` 要素、10日、 :math:` C ^ 0` \n"
 
 # 4401f272a7974890926362ee26059d82
 #: ../source/userdoc/appendixA.rst:151
 msgid ":math:`P_4` element, 35 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_4`要素、35 d.o.f.、：数学：` C ^ 0`\n"
+msgstr " :math:`P_4` 要素、35 d.o.f.、 :math:` C ^ 0` \n"
 
 # 9af8a6caad8648898377eb6c5be10f14
 #: ../source/userdoc/appendixA.rst:154
@@ -268,7 +268,7 @@ msgstr ""
 # 3705da44f1354d068e25850543babdcb
 #: ../source/userdoc/appendixA.rst
 msgid "Classical :math:`P_K` Lagrange element ``\"FEM_PK(P, K)\"``"
-msgstr "古典的：数学： `P_K`ラグランジュ要素` `` FEM_PK（P、K） `` `\n"
+msgstr "古典的 :math:`P_K` ラグランジュ要素` `` FEM_PK（P、K） `` `\n"
 
 # 7de6be4637dc4448bd66239de4e3917a
 # 857720416b9e4a50bd6fd278222d27d1
@@ -604,7 +604,7 @@ msgstr "ベクター\n"
 #: ../source/userdoc/appendixA.rst:1485 ../source/userdoc/appendixA.rst:1516
 #: ../source/userdoc/appendixA.rst:1580
 msgid ":math:`\\tau`-equivalent"
-msgstr "：数学： `\\ tau`-equivalent\n"
+msgstr " :math:`\\ tau` -equivalent\n"
 
 # 242b57e0dd7648d99d86086ae66da382
 # a5dfcd64e6e743d88dc4f9638ca60072
@@ -666,7 +666,7 @@ msgstr "多項式\n"
 # 2942d64099964fcfa03b6ae244761543
 #: ../source/userdoc/appendixA.rst:219 ../source/userdoc/appendixA.rst:241
 msgid ":math:`K`, :math:`0 \\leq K \\leq 255`"
-msgstr "：数学： `K`、：数学：` 0 \\ leq K \\ leq 255`\n"
+msgstr " :math:`K` 、 :math:` 0 \\ leq K \\ leq 255` \n"
 
 # a46588db269c4c17b305b6ea9a4f3d9d
 # 9c0406f69fa7470ab7f54b1290c26a38
@@ -677,7 +677,7 @@ msgstr "：数学： `K`、：数学：` 0 \\ leq K \\ leq 255`\n"
 #: ../source/userdoc/appendixA.rst:346 ../source/userdoc/appendixA.rst:466
 #: ../source/userdoc/appendixA.rst:488
 msgid ":math:`P`, :math:`~ 1 \\leq P \\leq 255`"
-msgstr "：数学： `P`、：数学：`〜1 \\ leq P \\ leq 255`\n"
+msgstr " :math:`P` 、 :math:`〜1 \\ leq P \\ leq 255` \n"
 
 # a38228de81d74fa9b1c11009cb47c59e
 # 8f14e4c03d7d407aab62c0d0d33dbbf8
@@ -685,7 +685,7 @@ msgstr "：数学： `P`、：数学：`〜1 \\ leq P \\ leq 255`\n"
 #: ../source/userdoc/appendixA.rst:221 ../source/userdoc/appendixA.rst:243
 #: ../source/userdoc/appendixA.rst:467
 msgid ":math:`\\Frac{(K+P)!}{K! P!}`"
-msgstr "：数学： `\\ Frac {（K + P）！} {K！ P！} `\n"
+msgstr " :math:`\\ Frac {（K + P）！} {K！ P！} ` \n"
 
 # db106f051f124c1d8d0bb9776bc4cfca
 # 4e84b156a98b455fb6de4fcd33b26d22
@@ -718,7 +718,7 @@ msgstr "：数学： `\\ Frac {（K + P）！} {K！ P！} `\n"
 #: ../source/userdoc/appendixA.rst:1406 ../source/userdoc/appendixA.rst:1491
 #: ../source/userdoc/appendixA.rst:1522 ../source/userdoc/appendixA.rst:1586
 msgid ":math:`C^0`"
-msgstr "：数学： `C ^ 0`\n"
+msgstr " :math:`C ^ 0` \n"
 
 # a246720b39e1462b902fefc23df57ed0
 # 4bef30fd75ee4c2d88e3f78e7dc361c4
@@ -775,7 +775,7 @@ msgstr "：数学： `C ^ 0`\n"
 #: ../source/userdoc/appendixA.rst:1445 ../source/userdoc/appendixA.rst:1492
 #: ../source/userdoc/appendixA.rst:1523 ../source/userdoc/appendixA.rst:1587
 msgid "No :math:`(Q = 1)`"
-msgstr "いいえ：数学： `（Q = 1）`\n"
+msgstr "いいえ :math:`（Q = 1）` \n"
 
 # 86206f4b7e1f4511a677d917a8ca821a
 # 89c1be495c5648548ab7afcf3b6ce700
@@ -795,7 +795,7 @@ msgstr "いいえ：数学： `（Q = 1）`\n"
 #: ../source/userdoc/appendixA.rst:514 ../source/userdoc/appendixA.rst:593
 #: ../source/userdoc/appendixA.rst:615
 msgid "Yes :math:`(M = Id)`"
-msgstr "はい：数学： `（M = Id）`\n"
+msgstr "はい :math:`（M = Id）` \n"
 
 # 74036f3270d84d2c843f360c25589e1b
 # 574d18c1aaa64def915630ab11ae65f7
@@ -906,14 +906,14 @@ msgstr "はい\n"
 #: ../source/userdoc/appendixA.rst:1271 ../source/userdoc/appendixA.rst:1474
 #: ../source/userdoc/appendixA.rst:1496 ../source/userdoc/appendixA.rst:1505
 msgid ":math:`.\\\\`"
-msgstr "：数学： `。\\\\`\n"
+msgstr " :math:`。\\\\` \n"
 
 # cb41c3f10a9e4874aad304b43d9f444e
 #: ../source/userdoc/appendixA.rst
 msgid ""
 "Discontinuous :math:`P_K` Lagrange element ``\"FEM_PK_DISCONTINUOUS(P, "
 "K)\"``"
-msgstr "不連続：数学： `P_K`ラグランジュ要素` `` FEM_PK_DISCONTINUOUS（P、K） `` `\n"
+msgstr "不連続 :math:`P_K` ラグランジュ要素` `` FEM_PK_DISCONTINUOUS（P、K） `` `\n"
 
 # ae1e0d0f793040da9f4203e1fa3053a7
 # 74bf7d65036144d5b50a159d7e523926
@@ -1005,9 +1005,9 @@ msgid ""
 "dimension. An example is shown on figure :ref:`dimension 3, prism<ud-fig-"
 "prism_P2_p1>`."
 msgstr ""
-"次元のプリズム：数学： `P> 1`は、次元の単純なものの数学的な：P-1`とセグメントの直接の積です。このプリズムの `` P_K \\ otimes"
+"次元のプリズム :math:`P> 1` は、次元の単純なものの数学的な：P-1`とセグメントの直接の積です。このプリズムの `` P_K \\ otimes"
 " P_K`要素は、古典的な：math： `P_K`次元の単項式上の古典的な：math：` P_K`要素のテンション積です。セグメント上の要素。 "
-"for：数学： `P = 2`これは平行六面体と一致します。 dimension：math： `3`の例を図：ref：` dimension 3 "
+"for :math:`P = 2` これは平行六面体と一致します。 dimension：math： `3`の例を図：ref：` dimension 3 "
 "<ud-fig-prodpktrois> `に示します。これは、各次元で同じ程度を持たないことも可能です。例を図：ref： `dimension "
 "3、prism <ud-fig-prism_P2_p1>`に示します。\n"
 
@@ -1024,23 +1024,23 @@ msgstr "：math： `Q_1`要素、8 d.o.f.、：math：` C ^ 0`\n"
 # ec390a5c33344261932e97c5095b05cc
 #: ../source/userdoc/appendixA.rst:312
 msgid ":math:`Q_3` element, 64 d.o.f., :math:`C^0`"
-msgstr "：数学： `Q_3`要素、64 d.o.f.、：算数：` C ^ 0`\n"
+msgstr " :math:`Q_3` 要素、64 d.o.f.、：算数：` C ^ 0`\n"
 
 # 7849d0999faf406ea3e5aa5bdcfd0095
 #: ../source/userdoc/appendixA.rst:319
 msgid ":math:`P_1 \\otimes P_1` element, 6 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_1 \\ otimes P_1`要素、6 d.o.f.、：算術：` C ^ 0`\n"
+msgstr " :math:`P_1 \\ otimes P_1` 要素、6 d.o.f.、 :math:` C ^ 0` \n"
 
 # ab460c584dcb464eb6afa3bac3224cea
 #: ../source/userdoc/appendixA.rst:320
 msgid ":math:`P_3 \\otimes P_3` element, 40 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_3 \\ otimes P_3`要素、40 d.o.f.、：数学：` C ^ 0`\n"
+msgstr " :math:`P_3 \\ otimes P_3` 要素、40 d.o.f.、 :math:` C ^ 0` \n"
 
 # 741ad20b01eb4608a5216fa725e79daf
 #: ../source/userdoc/appendixA.rst:329
 msgid ""
 ":math:`P_2 \\otimes P_1` Lagrange element on a prism, 12 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_2 \\ otimes P_1`プリズム上のラグランジュ要素、12 d.o.f.、：数学：` C ^ 0`\n"
+msgstr " :math:`P_2 \\ otimes P_1` プリズム上のラグランジュ要素、12 d.o.f.、 :math:` C ^ 0` \n"
 
 # 774e1bcec3084b7bb614f2a9ca79c97e
 #: ../source/userdoc/appendixA.rst
@@ -1050,25 +1050,25 @@ msgstr "。 ：math： `Q_K`平行四辺形のLagrange要素` `` FEM_QK（P、K�
 # ef6f7f9a6ed5434386dc3f8cbe4f5a1b
 #: ../source/userdoc/appendixA.rst:345
 msgid ":math:`KP`, :math:`0 \\leq K \\leq 255`"
-msgstr "：数学： `KP`、：数学：` 0 \\ leq K \\ leq 255`\n"
+msgstr " :math:`KP` 、 :math:` 0 \\ leq K \\ leq 255` \n"
 
 # 927f126c44f34b77b3b200a19ffa652a
 # 6a251ef6b8a54c3bae400672345cbfa6
 #: ../source/userdoc/appendixA.rst:347 ../source/userdoc/appendixA.rst:489
 msgid ":math:`(K+1)^P`"
-msgstr "：数学： `（K + 1）^ P`\n"
+msgstr " :math:`（K + 1）^ P` \n"
 
 # 51564a496b804987ae55423d37e50a7f
 #: ../source/userdoc/appendixA.rst
 msgid ""
 ". :math:`P_K \\otimes P_K` Lagrange element on prisms ``\"FEM_PK_PRISM(P, "
 "K)\"``"
-msgstr "。 ：数学： `P_K \\ otimes P_K`プリズム上のラグランジュ要素` `\" FEM_PK_PRISM（P、K） \"` `\n"
+msgstr "。  :math:`P_K \\ otimes P_K` プリズム上のラグランジュ要素` `\" FEM_PK_PRISM（P、K） \"` `\n"
 
 # 8d0b26e9cfda4b8cb5d3f88b45785481
 #: ../source/userdoc/appendixA.rst:367
 msgid ":math:`2K`, :math:`0 \\leq K \\leq 255`"
-msgstr "：数学： `2K`、：算数：` 0 \\ leq K \\ leq 255`\n"
+msgstr " :math:`2K` 、：算数：` 0 \\ leq K \\ leq 255`\n"
 
 # c6a0f2b4aa4149c981d64005455e4e8e
 # 066f09c3fc0348d59df64293186c6c7d
@@ -1076,13 +1076,13 @@ msgstr "：数学： `2K`、：算数：` 0 \\ leq K \\ leq 255`\n"
 #: ../source/userdoc/appendixA.rst:368 ../source/userdoc/appendixA.rst:390
 #: ../source/userdoc/appendixA.rst:510
 msgid ":math:`P`, :math:`~ 2 \\leq P \\leq 255`"
-msgstr "：数学： `P`、：数学：`〜2 \\ leq P \\ leq 255`\n"
+msgstr " :math:`P` 、 :math:`〜2 \\ leq P \\ leq 255` \n"
 
 # 44652755c45e460d9f41718121fd02b8
 # 2f969ec95b254db094ea6b32e8aa6c8f
 #: ../source/userdoc/appendixA.rst:369 ../source/userdoc/appendixA.rst:511
 msgid ":math:`(K+1)` :math:`\\times~\\Frac{(K+P-1)!}{K! (P-1)!}`"
-msgstr "：数学： `（K + 1）`：数学： `\\ times〜\\ Frac {（K + P-1）！} {K！ （P-1）！} `\n"
+msgstr " :math:`（K + 1）`  :math:`\\ times〜\\ Frac {（K + P-1）！} {K！ （P-1）！} ` \n"
 
 # 87d54e94eb234d579827ab41e3e9fa36
 #: ../source/userdoc/appendixA.rst
@@ -1094,19 +1094,19 @@ msgstr "。 ：FEM_PRODUCT（FEM_PK（P-1、K1）、FEM_PK（1、K2）） \"` `�
 # bec148dc9ed74030bbae01bceec3664a
 #: ../source/userdoc/appendixA.rst:389
 msgid ":math:`K_1+K_2`, :math:`0 \\leq K_1,K_2 \\leq 255`"
-msgstr "：数学： `K_1 + K_2`、：算数：` 0 \\ leq K_1、K_2 \\ leq 255`\n"
+msgstr " :math:`K_1 + K_2` 、：算数：` 0 \\ leq K_1、K_2 \\ leq 255`\n"
 
 # 9dab3dd4c9414356ade82d0c113d0290
 #: ../source/userdoc/appendixA.rst:391
 msgid ":math:`(K_2+1)` :math:`\\times~\\Frac{(K_1+P-1)!}{K_1! (P-1)!}`"
-msgstr "：数学： `（K_2 + 1）`：数学： `\\ times〜\\ Frac {（K_1 + P-1）！} {K_1！ （P-1）！} `\n"
+msgstr " :math:`（K_2 + 1）`  :math:`\\ times〜\\ Frac {（K_1 + P-1）！} {K_1！ （P-1）！} ` \n"
 
 # 3031247c647e4b6cb1cfbf4dda260476
 #: ../source/userdoc/appendixA.rst:403
 msgid ""
 "Incomplete :math:`Q_2` elements in dimension two and three, 8 or 20 d.o.f., "
 ":math:`C^0`"
-msgstr "不完全：数学：2次元および3次元のQ_2要素、8または20次元、：数学： `C ^ 0`\n"
+msgstr "不完全：数学：2次元および3次元のQ_2要素、8または20次元、 :math:`C ^ 0` \n"
 
 # 74c6efe44d1f40c28c4d5abcd808c0a2
 #: ../source/userdoc/appendixA.rst
@@ -1114,7 +1114,7 @@ msgid ""
 "Incomplete :math:`Q_2` Lagrange element on parallelepipeds (Quad 8 and Hexa "
 "20 serendipity elements) ``\"FEM_Q2_INCOMPLETE(P)\"``"
 msgstr ""
-"不完全：数学： `Q_2`平行四辺形のラグランジュ要素（Quad 8とHexa 20の偶然の要素）` `` FEM_Q2_INCOMPLETE（P） "
+"不完全 :math:`Q_2` 平行四辺形のラグランジュ要素（Quad 8とHexa 20の偶然の要素）` `` FEM_Q2_INCOMPLETE（P） "
 "`` `\n"
 
 # 5127da12532548d299312846f634c6bd
@@ -1125,12 +1125,12 @@ msgstr "3\n"
 # ce219f2582bb4c1eb4fae5a8252dcd94
 #: ../source/userdoc/appendixA.rst:420
 msgid ":math:`P`, :math:`~ 2 \\leq P \\leq 3`"
-msgstr "：数学： `P`、：数学：`〜2 \\ leq P \\ leq 3`\n"
+msgstr " :math:`P` 、 :math:`〜2 \\ leq P \\ leq 3` \n"
 
 # 411c50fa4da84359acaede76229b82eb
 #: ../source/userdoc/appendixA.rst:421
 msgid ":math:`8\\ \\text{for}\\ P = 2~~~~~` :math:`20\\ \\text{for}\\ P = 3`"
-msgstr "：数学： `8 \\\\ text {for} \\ P = 2~~~~~`：数学： `20 \\\\ text {for} \\ P = 3`\n"
+msgstr " :math:`8 \\\\ text {for} \\ P = 2~~~~~`  :math:`20 \\\\ text {for} \\ P = 3` \n"
 
 # e7da8c14d4084703853720d50af70a9a
 #: ../source/userdoc/appendixA.rst:429
@@ -1167,7 +1167,7 @@ msgstr "度合いに関する階層的要素\n"
 # f0345b999ca54011872160952708160f
 #: ../source/userdoc/appendixA.rst:449
 msgid ":math:`P_K` Hierarchical element on a segment, :math:`C^0`"
-msgstr "：math： `P_K`セグメント上の階層的要素、：算術：` C ^ 0`\n"
+msgstr "：math： `P_K`セグメント上の階層的要素、 :math:` C ^ 0` \n"
 
 # dd3c678661464b1f86e141d1c38c55c5
 #: ../source/userdoc/appendixA.rst
@@ -1184,7 +1184,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:465 ../source/userdoc/appendixA.rst:487
 #: ../source/userdoc/appendixA.rst:509
 msgid ":math:`K`, :math:`0 \\leq K\\leq 255`"
-msgstr "：数学： `K`、：数学：` 0 \\ leq K \\ leq 255`\n"
+msgstr " :math:`K` 、 :math:` 0 \\ leq K \\ leq 255` \n"
 
 # d01ca41716c94c60ae4b8452d5471a87
 #: ../source/userdoc/appendixA.rst
@@ -1212,7 +1212,7 @@ msgid ""
 ":math:`P_1`, the additional basis of the :math:`P_2` then the additional "
 "basis of the :math:`P_4`."
 msgstr ""
-"：数学： `P_4`は：数学の基盤として構築されます：` P_1`は、数学の基礎です： `P_2`は、数学の付加的な基礎です：` P_4`。\n"
+" :math:`P_4` は：数学の基盤として構築されます：` P_1`は、数学の基礎です： `P_2`は、数学の付加的な基礎です：` P_4`。\n"
 
 # fa2dd64fed304cc799c31e4810800d28
 #: ../source/userdoc/appendixA.rst:520
@@ -1223,7 +1223,7 @@ msgid ""
 "then the :additional basis of the :math:`P_6`, it is possible to build the "
 "latter with :``\"FEM_GEN_HIERARCHICAL(a,b)\"``)"
 msgstr ""
-"：数学： `P_6`は：算数：P_1`の基礎を基礎にして構築されます：追加の基礎：数学：` P_2`の追加基礎：数学： `P_6`（： ：Math： "
+" :math:`P_6` は：算数：P_1`の基礎を基礎にして構築されます：追加の基礎 :math:` P_2` の追加基礎 :math:`P_6` （： ：Math： "
 "`P_1`は、次のような追加の基底です：` `P_3``：` `P_6``の追加基底：` `` FEM_GEN_HIERARCHICAL（a 、b） "
 "\"\"）\n"
 
@@ -1322,7 +1322,7 @@ msgstr ""
 #: ../source/userdoc/appendixA.rst:588 ../source/userdoc/appendixA.rst:610
 #: ../source/userdoc/appendixA.rst:746
 msgid ":math:`K`"
-msgstr "：数学： `K`\n"
+msgstr " :math:`K` \n"
 
 # 918235924200485bb696c909b9bb349b
 # fb387233ae68425c8d2568d84263de93
@@ -1333,13 +1333,13 @@ msgstr "：数学： `K`\n"
 #: ../source/userdoc/appendixA.rst:652 ../source/userdoc/appendixA.rst:674
 #: ../source/userdoc/appendixA.rst:707
 msgid ":math:`P`"
-msgstr "：数学： `P`\n"
+msgstr " :math:`P` \n"
 
 # 16e884ecf9834b34998d666f0f8e4c7f
 # b30c095484a5409d80ccf4bfc198eb4c
 #: ../source/userdoc/appendixA.rst:590 ../source/userdoc/appendixA.rst:612
 msgid ":math:`\\Frac{(SK+P)!}{(SK)! P!}`"
-msgstr "：数学： `\\ Frac {（SK + P）！} {（SK）！ P！} `\n"
+msgstr " :math:`\\ Frac {（SK + P）！} {（SK）！ P！} ` \n"
 
 # 0b7d617c3ed749e68731c03ae7c25a55
 #: ../source/userdoc/appendixA.rst
@@ -1398,12 +1398,12 @@ msgstr "シンプレックスの最下位要素のRaviart-Thomas \"FEM_RT0（P�
 #: ../source/userdoc/appendixA.rst:1389 ../source/userdoc/appendixA.rst:1395
 #: ../source/userdoc/appendixA.rst:1427 ../source/userdoc/appendixA.rst:1433
 msgid ":math:`1`"
-msgstr "：数学： `1`\n"
+msgstr " :math:`1` \n"
 
 # bd7845eac17b44ba950bba5217d4f543
 #: ../source/userdoc/appendixA.rst:653
 msgid ":math:`P+1`"
-msgstr "：数学： `P + 1`\n"
+msgstr " :math:`P + 1` \n"
 
 # e0c97b287bcd4b47b9860a5676fd4a57
 # 3feb25476fb04f68a7f6b87f990e4837
@@ -1417,7 +1417,7 @@ msgstr "H（div）\n"
 #: ../source/userdoc/appendixA.rst:655 ../source/userdoc/appendixA.rst:677
 #: ../source/userdoc/appendixA.rst:710
 msgid "Yes :math:`(Q = P)`"
-msgstr "はい：数学： `（Q = P）`\n"
+msgstr "はい :math:`（Q = P）` \n"
 
 # 478c2e1e4d68486c99aaf0d7647d1621
 # c4c8d198978d48b4b7517a40ce734296
@@ -1459,7 +1459,7 @@ msgstr "平行四辺形（四角形、六面体）上の最下位要素のRaviar
 # 8df6c7f078ba49618f4f4254486e9b7b
 #: ../source/userdoc/appendixA.rst:675
 msgid ":math:`2P`"
-msgstr "：数学： `2P`\n"
+msgstr " :math:`2P` \n"
 
 # 94e746ce38344d00bc6b7014a47ff5b0
 #: ../source/userdoc/appendixA.rst:683
@@ -1480,7 +1480,7 @@ msgstr "Nedelec（またはWhitney）のエッジ要素 `` FEM_NEDELEC（P） ``
 # 53510730cfa4451ca63117da040121d4
 #: ../source/userdoc/appendixA.rst:708
 msgid ":math:`P(P+1)/2`"
-msgstr "：数学： `P（P + 1）/ 2`\n"
+msgstr " :math:`P（P + 1）/ 2` \n"
 
 # 24f52fb1e756496c8bddd37a5a3bc8d7
 #: ../source/userdoc/appendixA.rst:709
@@ -1508,7 +1508,7 @@ msgid ""
 "parallelepipeds)."
 msgstr ""
 "1D GaussLobatto：math： `P_K`要素は、セグメント上の古典的な：math：` P_K` femに似ていますが、節点はGauss-"
-"Lobatto-Legendre直交次数の規則で与えられます：数学： `2K-1` "
+"Lobatto-Legendre直交次数の規則で与えられます :math:`2K-1`  "
 "。このFEMは、より良好な調整された線形システムにつながることが知られており、対応する直角位相で使用して質量（セグメントまたは平行六面体に）を行うことができます。\n"
 
 # 57b1377985db4704aa34dcda2d8f9239
@@ -1535,7 +1535,7 @@ msgstr "GaussLobatto：数学：セグメント上の `P_K`要素` `\" FEM_PK_GA
 # 7a244d79ce27490fb8b436f0a63ee76e
 #: ../source/userdoc/appendixA.rst:748
 msgid ":math:`K+1`"
-msgstr "：数学： `K + 1`\n"
+msgstr " :math:`K + 1` \n"
 
 # 910def8ab81340568756e1e4ea2f1f8d
 # c618ef817e644fad822c9675ee325256
@@ -1548,7 +1548,7 @@ msgstr "エルミート元素\n"
 # 458033b2d8cd4127801b1656dd225845
 #: ../source/userdoc/appendixA.rst:763
 msgid ":math:`P_3` Hermite element on a segment, 4 d.o.f., :math:`C^1`"
-msgstr "：数学： `P_3`セグメント上のエルミート要素、4 d.o.f.、：数学：` C ^ 1`\n"
+msgstr " :math:`P_3` セグメント上のエルミート要素、4 d.o.f.、 :math:` C ^ 1` \n"
 
 # cb55e82f34914a3393648e1d4f9510d2
 #: ../source/userdoc/appendixA.rst:765
@@ -1602,7 +1602,7 @@ msgstr "`` FEM_HERMITE（1） `` `のセグメント上のエルミート要素\
 #: ../source/userdoc/appendixA.rst:1519 ../source/userdoc/appendixA.rst:1520
 #: ../source/userdoc/appendixA.rst:1583 ../source/userdoc/appendixA.rst:1584
 msgid ":math:`3`"
-msgstr "：数学： `3`\n"
+msgstr " :math:`3` \n"
 
 # a3f4988ae47648d7a4e06e73a9968a88
 # 0014444b264145e68923fd8d48e0e71b
@@ -1611,7 +1611,7 @@ msgstr "：数学： `3`\n"
 #: ../source/userdoc/appendixA.rst:793 ../source/userdoc/appendixA.rst:933
 #: ../source/userdoc/appendixA.rst:964 ../source/userdoc/appendixA.rst:1488
 msgid ":math:`4`"
-msgstr "：数学： `4`\n"
+msgstr " :math:`4` \n"
 
 # b6a53ee2676c47c6b695b4f871d411f4
 # f602c54293774d5098b98ae600558f1c
@@ -1623,7 +1623,7 @@ msgstr "：数学： `4`\n"
 #: ../source/userdoc/appendixA.rst:1195 ../source/userdoc/appendixA.rst:1228
 #: ../source/userdoc/appendixA.rst:1266 ../source/userdoc/appendixA.rst:1300
 msgid ":math:`C^1`"
-msgstr "：数学： `C ^ 1`\n"
+msgstr " :math:`C ^ 1` \n"
 
 # cdd9307f7c784f009b73989f25adfa1f
 #: ../source/userdoc/appendixA.rst:801
@@ -1672,7 +1672,7 @@ msgstr "ラグランジュ：数学：内部のバブル関数が追加された
 #: ../source/userdoc/appendixA.rst:1264 ../source/userdoc/appendixA.rst:1298
 #: ../source/userdoc/appendixA.rst:1403 ../source/userdoc/appendixA.rst:1441
 msgid ":math:`2`"
-msgstr "：数学： `2`\n"
+msgstr " :math:`2` \n"
 
 # 289836afccdf4ef2aca78004a496951f
 #: ../source/userdoc/appendixA.rst:834
@@ -1694,12 +1694,12 @@ msgstr "追加の内部バブル関数を持つ三角形上のラグランジュ
 # fb156ac5c4e1431a9bd785e4480c8182
 #: ../source/userdoc/appendixA.rst:852
 msgid ":math:`P_1` with additional bubble function, 4 d.o.f., :math:`C^0`"
-msgstr "：数学：追加のバブル関数を有する `P_1`、4d.o.f.、：数学：` C ^ 0`\n"
+msgstr "：数学：追加のバブル関数を有する `P_1`、4d.o.f.、 :math:` C ^ 0` \n"
 
 # 589526ac7a274a58a35814c72e6e2b98
 #: ../source/userdoc/appendixA.rst:853
 msgid ":math:`P_2` with additional bubble function, 7 d.o.f., :math:`C^0`"
-msgstr "：数学：追加のバブル関数を持つ `P_2`、7日、：数学：` C ^ 0`\n"
+msgstr "：数学：追加のバブル関数を持つ `P_2`、7日、 :math:` C ^ 0` \n"
 
 # 7bf573627616449f95a692d45750b1c4
 #: ../source/userdoc/appendixA.rst
@@ -1727,7 +1727,7 @@ msgid ""
 "Lagrange :math:`P_1` with an additional internal piecewise linear bubble "
 "function ``\"FEM_P1_PIECEWISE_LINEAR_BUBBLE\"``"
 msgstr ""
-"ラグランジュ：数学： `P_1`と内部の区分的線形バブル関数を追加` `\" FEM_P1_PIECEWISE_LINEAR_BUBBLE \"` "
+"ラグランジュ :math:`P_1` と内部の区分的線形バブル関数を追加` `\" FEM_P1_PIECEWISE_LINEAR_BUBBLE \"` "
 "`\n"
 
 # f989218d4db24d5ba9b3eeb53938d9cb
@@ -1740,7 +1740,7 @@ msgstr "ピース\n"
 msgid ""
 ":math:`P_1` Lagrange element on a triangle with additional bubble function "
 "on face 0, 4 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_1`ラグランジュ要素は、面上に追加のバブル関数を持つ三角形上にあり、d.o.f.、：math：` C ^ 0`\n"
+msgstr " :math:`P_1` ラグランジュ要素は、面上に追加のバブル関数を持つ三角形上にあり、d.o.f.、：math：` C ^ 0`\n"
 
 # de5180c270274276b1e03dc9b6f92189
 #: ../source/userdoc/appendixA.rst
@@ -1768,7 +1768,7 @@ msgstr ""
 # 0bb16aee64b14b07b5f70dd7fb1520a8
 #: ../source/userdoc/appendixA.rst:972
 msgid "Non-conforming :math:`P_1` element"
-msgstr "不適合：数学： `P_1`要素\n"
+msgstr "不適合 :math:`P_1` 要素\n"
 
 # 08f822b2f2ac4d3bb8440223855f1c95
 #: ../source/userdoc/appendixA.rst:979
@@ -1781,7 +1781,7 @@ msgstr "：数学：三角形上の非適合要素「P_1」、3 d.o.f.、不連�
 msgid ""
 ". :math:`P_1` non-conforming element on a triangle "
 "``\"FEM_P1_NONCONFORMING\"``"
-msgstr "。 ：数学： `P_1`三角形の非適合要素` `\" FEM_P1_NONCONFORMING \"` `\n"
+msgstr "。  :math:`P_1` 三角形の非適合要素` `\" FEM_P1_NONCONFORMING \"` `\n"
 
 # 3f4cb91c8bab4fc49ebadd4539d99d1d
 #: ../source/userdoc/appendixA.rst:998
@@ -1791,7 +1791,7 @@ msgstr "：数学： `不連続 '\n"
 # 2dd88b6e059a421083d34c629f185436
 #: ../source/userdoc/appendixA.rst:1012
 msgid "Hermite element on a triangle, :math:`P_3`, 10 d.o.f., :math:`C^0`"
-msgstr "三角形のエルミート要素：数学： `P_3`、10日、数学：` C ^ 0`\n"
+msgstr "三角形のエルミート要素 :math:`P_3` 、10日、数学：` C ^ 0`\n"
 
 # dc3a3206694a4aaba05d1f3452528e53
 # 2e15e29f90e6431d94fdf88408a0a405
@@ -1823,7 +1823,7 @@ msgstr "三角形のエルミート要素 `` \"FEM_HERMITE（2）\" ``\n"
 # 4f8494602f474e7082659acc5fce9627
 #: ../source/userdoc/appendixA.rst:1051
 msgid ":math:`10`"
-msgstr "：数学： `10`\n"
+msgstr " :math:`10` \n"
 
 # cee5ad11e4574bd39bce09c27383b2d1
 #: ../source/userdoc/appendixA.rst:1059
@@ -1833,7 +1833,7 @@ msgstr "モルレー要素\n"
 # 054ae515894348ff91319bd228c56507
 #: ../source/userdoc/appendixA.rst:1066
 msgid "triangle Morley element, :math:`P_2`, 6 d.o.f., :math:`C^0`"
-msgstr "三角形モルレー要素、：数学： `P_2`、6 d.o.f.、：数学：` C ^ 0`\n"
+msgstr "三角形モルレー要素、 :math:`P_2` 、6 d.o.f.、 :math:` C ^ 0` \n"
 
 # 164ce24d78464c02ad8218dc27ac9050
 #: ../source/userdoc/appendixA.rst:1069
@@ -1855,7 +1855,7 @@ msgstr "モルレー要素は三角形で `` \"FEM_MORLEY\" ``\n"
 # 75c44153b4be4bfb88380971f325c9d5
 #: ../source/userdoc/appendixA.rst:1087
 msgid ":math:`6`"
-msgstr "：数学： `6`\n"
+msgstr " :math:`6` \n"
 
 # d263dbd97af047408a32c2948b53d2fe
 #: ../source/userdoc/appendixA.rst:1095
@@ -1865,7 +1865,7 @@ msgstr "アルギリス要素\n"
 # f35011bc10e14f01bf5a7734ac09f527
 #: ../source/userdoc/appendixA.rst:1102
 msgid "Argyris element, :math:`P_5`, 21 d.o.f., :math:`C^1`"
-msgstr "Argyris要素、：数学： `P_5`、21日、数学：` C ^ 1`\n"
+msgstr "Argyris要素、 :math:`P_5` 、21日、数学：` C ^ 1`\n"
 
 # 1038f02593a14b27a4ad029daead5ce1
 #: ../source/userdoc/appendixA.rst:1104
@@ -1900,12 +1900,12 @@ msgstr "三角形のアルジリス要素「 `` FEM ARGYRIS `` `\n"
 #: ../source/userdoc/appendixA.rst:1151 ../source/userdoc/appendixA.rst:1397
 #: ../source/userdoc/appendixA.rst:1435 ../source/userdoc/appendixA.rst:1521
 msgid ":math:`5`"
-msgstr "：数学： `5`\n"
+msgstr " :math:`5` \n"
 
 # 2569e59c74e0449aa2d02da6b9f6dfd6
 #: ../source/userdoc/appendixA.rst:1153
 msgid ":math:`21`"
-msgstr "：数学： `21`\n"
+msgstr " :math:`21` \n"
 
 # 9bc30786ad52476db536d34311a3f058
 #: ../source/userdoc/appendixA.rst:1161
@@ -1915,7 +1915,7 @@ msgstr "Hsieh-Clough-Tocher要素\n"
 # 6211ac90473542c6a40fa93938f69cd7
 #: ../source/userdoc/appendixA.rst:1168
 msgid "Hsieh-Clough-Tocher (HCT) element, :math:`P_3`, 12 d.o.f., :math:`C^1`"
-msgstr "Hsieh-Clough-Tocher（HCT）要素：数学： `P_3`、12日、数学：` C ^ 1`\n"
+msgstr "Hsieh-Clough-Tocher（HCT）要素 :math:`P_3` 、12日、数学：` C ^ 1`\n"
 
 # fba31faccddc46249528f115a5a25416
 #: ../source/userdoc/appendixA.rst:1171
@@ -1944,7 +1944,7 @@ msgstr "三角「FEM_HCT_TRIANGLE」上のHCT要素\n"
 # 7c41bcae2ebe41f49c2d820609662656
 #: ../source/userdoc/appendixA.rst:1194 ../source/userdoc/appendixA.rst:1299
 msgid ":math:`12`"
-msgstr "：数学： `12`\n"
+msgstr " :math:`12` \n"
 
 # 4703d9907922460c85dd43100949df1e
 #: ../source/userdoc/appendixA.rst:1207
@@ -1970,7 +1970,7 @@ msgstr "三角「FEM_REDUCED_HCT_TRIANGLE」上のHCT要素の減少\n"
 # 1d1eaf85d9284952800d548845475bf7
 #: ../source/userdoc/appendixA.rst:1227
 msgid ":math:`9`"
-msgstr "：数学： `9`\n"
+msgstr " :math:`9` \n"
 
 # b6e8ed20a1464830baed730bf5175ec0
 #: ../source/userdoc/appendixA.rst:1235
@@ -1982,7 +1982,7 @@ msgstr "複合：数学：四角形の `C ^ 1`要素\n"
 msgid ""
 "Composite element on quadrilaterals, piecewise :math:`P_3`, 16 d.o.f., "
 ":math:`C^1`"
-msgstr "分割された四辺形の複合要素：数学： `P_3`、16日、数学：` C ^ 1`\n"
+msgstr "分割された四辺形の複合要素 :math:`P_3` 、16日、数学：` C ^ 1`\n"
 
 # 55bcec65ac8b427d9073fea69797ebbc
 #: ../source/userdoc/appendixA.rst:1245
@@ -2009,14 +2009,14 @@ msgstr "。 ：四角形（FVS） `` `FEM_QUADC1_COMPOSITE '` `にある数学�
 # 0cca3f9f5a8e41eb9dc80d551e69abcf
 #: ../source/userdoc/appendixA.rst:1265
 msgid ":math:`16`"
-msgstr "：数学： `16`\n"
+msgstr " :math:`16` \n"
 
 # afc6874b1ca9482cb886eab14ae7993d
 #: ../source/userdoc/appendixA.rst:1278
 msgid ""
 "Reduced composite element on quadrilaterals, piecewise :math:`P_3`, 12 "
 "d.o.f., :math:`C^1`"
-msgstr "四辺形の複合要素の減少、区分的：数学： `P_3`、12日、数学：` C ^ 1`\n"
+msgstr "四辺形の複合要素の減少、区分的 :math:`P_3` 、12日、数学：` C ^ 1`\n"
 
 # d3faa13acdf14bb489fb744e11d2d236
 #: ../source/userdoc/appendixA.rst:1281
@@ -2056,7 +2056,7 @@ msgid ""
 msgstr ""
 "| gf | [GR-GH1999] _および[BE-CO-DU2010] "
 "_に基づいて、度0,1および2のいくつかのラグランジュピラミッド要素を提案する。詳細については、これらの参考文献を参照してください。提案された要素は、三角形面の標準：数学："
-" `P_1`または：数学：` P_2`ラグランジェフェムトと標準：数学： `Q_1`または：四則：Q_2`四角形面上のラグランジュfem 。\n"
+" `P_1`または :math:` P_2` ラグランジェフェムトと標準 :math:`Q_1` または：四則：Q_2`四角形面上のラグランジュfem 。\n"
 
 # 5cb5b4dbdfcc4f18928cd3d1f679a644
 #: ../source/userdoc/appendixA.rst
@@ -2114,13 +2114,13 @@ msgstr "順序0,1または2の連続ラグランジュ要素 \"` `FEMピラミ�
 # a8db868aaaad4d3d8320bbda7a7a2b0f
 #: ../source/userdoc/appendixA.rst:1387 ../source/userdoc/appendixA.rst:1425
 msgid ":math:`0`"
-msgstr "：数学： `0`\n"
+msgstr " :math:`0` \n"
 
 # 25143a89fc4f4076bce9a0969382e9a4
 # 7423c8317ced42c18bc11632c5371ef4
 #: ../source/userdoc/appendixA.rst:1405 ../source/userdoc/appendixA.rst:1443
 msgid ":math:`14`"
-msgstr "：数学： `14`\n"
+msgstr " :math:`14` \n"
 
 # d7d21a518cca4912a0cbd593ad868160
 #: ../source/userdoc/appendixA.rst
@@ -2138,17 +2138,17 @@ msgstr "追加の内部気泡機能を有する四面体上のラグランジュ
 # 45bb0257db2c4a55804eb3d223190de4
 #: ../source/userdoc/appendixA.rst:1470
 msgid ":math:`P_1` with additional bubble function, 5 d.o.f., :math:`C^0`"
-msgstr "：数学：追加のバブル関数を持つ `P_1`、5日、：数学：` C ^ 0`\n"
+msgstr "：数学：追加のバブル関数を持つ `P_1`、5日、 :math:` C ^ 0` \n"
 
 # 897e95360e52409699e31491685525bc
 #: ../source/userdoc/appendixA.rst:1471
 msgid ":math:`P_2` with additional bubble function, 11 d.o.f., :math:`C^0`"
-msgstr "：数学：追加のバブル関数を持つ `P_2`、11日、：数学：` C ^ 0`\n"
+msgstr "：数学：追加のバブル関数を持つ `P_2`、11日、 :math:` C ^ 0` \n"
 
 # 89f53e55fb744a20ba2881f9bc6f438d
 #: ../source/userdoc/appendixA.rst:1472
 msgid ":math:`P_3` with additional bubble function, 21 d.o.f., :math:`C^0`"
-msgstr "：数学：追加のバブル関数を持つ `P_3`、21日、：数学：` C ^ 0`\n"
+msgstr "：数学：追加のバブル関数を持つ `P_3`、21日、 :math:` C ^ 0` \n"
 
 # 9beda05691f04e09933b6f5241d80988
 #: ../source/userdoc/appendixA.rst
@@ -2169,7 +2169,7 @@ msgstr "：数学：「5」、：数学：「11」または：数学：「21」\
 msgid ""
 ":math:`P_1` Lagrange element on a tetrahedron with additional bubble "
 "function on face 0, 5 d.o.f., :math:`C^0`"
-msgstr "：数学： `P_1`四面体上のラグランジュ要素で、面上に追加のバブル関数を持つ、5 d.o.f.、：数学：` C ^ 0`\n"
+msgstr " :math:`P_1` 四面体上のラグランジュ要素で、面上に追加のバブル関数を持つ、5 d.o.f.、 :math:` C ^ 0` \n"
 
 # 75d77e44185c4d8693e6351b216d827f
 #: ../source/userdoc/appendixA.rst
@@ -2181,7 +2181,7 @@ msgstr "ラグランジュ：面0にバブル関数を追加した数学： `P_1
 # 0149d89b7c46495eaaf5813face975dd
 #: ../source/userdoc/appendixA.rst:1536
 msgid "Hermite element on a tetrahedron, :math:`P_3`, 20 d.o.f., :math:`C^0`"
-msgstr "四面体のエルミート要素、：数学： `P_3`、20日、数学：` C ^ 0`\n"
+msgstr "四面体のエルミート要素、 :math:`P_3` 、20日、数学：` C ^ 0`\n"
 
 # d61da990273849859bdeac663f51455a
 #: ../source/userdoc/appendixA.rst:1566
@@ -2204,4 +2204,4 @@ msgstr "四面体のエルミート要素 `` \"FEM_HERMITE（3）\" ``\n"
 # 08f5c56274f7480b9cab1e1e2c8c0bcf
 #: ../source/userdoc/appendixA.rst:1585
 msgid ":math:`20`"
-msgstr "：数学： `20`\n"
+msgstr " :math:`20` \n"

@@ -428,8 +428,8 @@ msgid ""
 ":math:`a = 0.445948490915965` :math:`b=0.091576213509771` "
 ":math:`c=0.111690794839005` :math:`d=0.054975871827661`"
 msgstr ""
-"：math： `a = 0.445948490915965`：数学：` b = 0.091576213509771`：数学： `c = "
-"0.111690794839005`：数学：` d = 0.054975871827661`\n"
+"：math： `a = 0.445948490915965` :math:` b = 0.091576213509771` ：数学： `c = "
+"0.111690794839005` :math:` d = 0.054975871827661` \n"
 
 # 3bf5384ca1f442139e4bdbf7428ff0f8
 #: ../source/userdoc/appendixB.rst:194
@@ -453,8 +453,8 @@ msgid ""
 ":math:`a = \\Frac{6+\\sqrt{15}}{21}` :math:`b = 4/7 - a` :math:`c = "
 "\\Frac{155+\\sqrt{15}}{2400}` :math:`d = 31/240 - c`"
 msgstr ""
-"：数学： `a = \\ Frac {6+ \\ sqrt {15}} {21}`：数学： `b = 4/7  -  a`：数学：` c = \\ "
-"Frac {155+ \\ sqrt {15}} {2400} `：数学：` d = 31/240-c`\n"
+" :math:`a = \\ Frac {6+ \\ sqrt {15}} {21}`  :math:`b = 4/7  -  a` ：数学：` c = \\ "
+"Frac {155+ \\ sqrt {15}} {2400} ` :math:` d = 31/240-c` \n"
 
 # a20894c2dcb5464089f3e1590a3b33fe
 # 25081816c39c42d486783dbdd1861260
@@ -534,9 +534,9 @@ msgid ""
 "0.025422453185103` :math:`f = 0.058393137863189` :math:`g = "
 "0.041425537809187`"
 msgstr ""
-"：= 0.063089104491502：数学： `b = 0.249286745170910`：数学：` c = "
-"0.310352451033785`：数学： `d = 0.053145049844816`：数学：` e = "
-"0.025422453185103`：数学： `f = 0.058393137863189`：数学： `g = 0.041425537809187`\n"
+"：= 0.063089104491502 :math:`b = 0.249286745170910` ：数学：` c = "
+"0.310352451033785` :math:`d = 0.053145049844816` ：数学：` e = "
+"0.025422453185103` :math:`f = 0.058393137863189`  :math:`g = 0.041425537809187` \n"
 
 # d9051e073e674d9d8d3c5fa3c61fcbd4
 #: ../source/userdoc/appendixB.rst:289
@@ -635,10 +635,10 @@ msgid ""
 "0.0266736178044` :math:`i = 0.0385568804451` :math:`j = 0.0878076287166` "
 ":math:`k = -0.0747850222338`"
 msgstr ""
-"：= 0.0651301029022`：数学： `b = 0.8697397941956`：数学：` c = 0.3128654960049`：数学： "
-"`d = 0.6384441885698`：数学：` e = 0.0486903154253`：数学： `f = "
-"0.2603459660790`：数学：g = 0.4793080678419`：数学： `h = 0.0266736178044`：数学：` i = "
-"0.0385568804451`：数学： `j = 0.0878076287166`：数学：` k = -0.0747850222338`\n"
+"：= 0.0651301029022` :math:`b = 0.8697397941956`  :math:` c = 0.3128654960049` ：数学： "
+"`d = 0.6384441885698` :math:` e = 0.0486903154253` ：数学： `f = "
+"0.2603459660790`：数学：g = 0.4793080678419` :math:`h = 0.0266736178044` ：数学：` i = "
+"0.0385568804451` :math:`j = 0.0878076287166`  :math:` k = -0.0747850222338` \n"
 
 # c543b44e1a34467792214076d76fcb8f
 #: ../source/userdoc/appendixB.rst:356
@@ -672,7 +672,7 @@ msgstr "`` `IM_TRIANGLE（13）` ``\n"
 # 95209c8e2e924531a7ca742ce55ffce0
 #: ../source/userdoc/appendixB.rst:383
 msgid "(:math:`1/2+\\sqrt{1/6}, 1/2`)"
-msgstr "（：数学： `1/2 + \\ sqrt {1/6}、1 / 2`）\n"
+msgstr "（ :math:`1/2 + \\ sqrt {1/6}、1 / 2` ）\n"
 
 # 0ad23b1a084c4479a0cff9320c63885f
 #: ../source/userdoc/appendixB.rst:385
@@ -698,12 +698,12 @@ msgstr "3ポイント、オーダー2\n"
 # b71c5c1171ce4f42bbe4498747efe217
 #: ../source/userdoc/appendixB.rst:405
 msgid "(:math:`1/2\\pm\\sqrt{1/6}, 1/2`)"
-msgstr "（：数学： `1/2 \\ pm \\ sqrt {1/6}、1 / 2`）\n"
+msgstr "（ :math:`1/2 \\ pm \\ sqrt {1/6}、1 / 2` ）\n"
 
 # 0bd438c1fd364da0a63e80b6d856de23
 #: ../source/userdoc/appendixB.rst:407
 msgid "(:math:`1/2, 1/2\\pm\\sqrt{1/6}`)"
-msgstr "（：数学： `1/2、1/2 \\ pm \\ sqrt {1/6}`）\n"
+msgstr "（ :math:`1/2、1/2 \\ pm \\ sqrt {1/6}` ）\n"
 
 # 2cf876b8f2694f02bea88b504403cc94
 # 68b66cf1df33423593d53330d12bd33a
@@ -724,17 +724,17 @@ msgstr "4点、3点\n"
 # 57b4857cc500413f98793e59df5501be
 #: ../source/userdoc/appendixB.rst:417
 msgid "(:math:`1/2, 1/2`)"
-msgstr "（：数学： `1/2、1 / 2`）\n"
+msgstr "（ :math:`1/2、1 / 2` ）\n"
 
 # 937982ff836047078433856e618c0b88
 #: ../source/userdoc/appendixB.rst:419
 msgid "(:math:`1/2 \\pm \\sqrt{7/30}, 1/2`)"
-msgstr "（：数学： `1/2 \\ pm \\ sqrt {7/30}、1 / 2`）\n"
+msgstr "（ :math:`1/2 \\ pm \\ sqrt {7/30}、1 / 2` ）\n"
 
 # c5e630098c36439091e119b10e125f95
 #: ../source/userdoc/appendixB.rst:421
 msgid "(:math:`1/2\\pm\\sqrt{1/12}, 1/2\\pm\\sqrt{3/20}`)"
-msgstr "（：数学： `1/2 \\ pm \\ sqrt {1/12}、1/2 \\ pm \\ sqrt {3/20}`）\n"
+msgstr "（ :math:`1/2 \\ pm \\ sqrt {1/12}、1/2 \\ pm \\ sqrt {3/20}` ）\n"
 
 # 4923a1a416794ca0b4051132def148df
 #: ../source/userdoc/appendixB.rst:422
@@ -838,22 +838,22 @@ msgstr "1ポイント、オーダー1\n"
 # 9518bf440d5c45d6ae7c2e8c568adbaf
 #: ../source/userdoc/appendixB.rst:484 ../source/userdoc/appendixB.rst:543
 msgid ":math:`(a, a, a)`"
-msgstr "：数学： `（a、a、a）`\n"
+msgstr " :math:`（a、a、a）` \n"
 
 # 5e4a7e0a11c44e33811cf400e0cca9bb
 #: ../source/userdoc/appendixB.rst:486
 msgid ":math:`(a, b, a)`"
-msgstr "：数学： `（a、b、a）`\n"
+msgstr " :math:`（a、b、a）` \n"
 
 # 7371917641f34754856b807d06af740e
 #: ../source/userdoc/appendixB.rst:488
 msgid ":math:`(a, a, b)`"
-msgstr "：数学： `（a、a、b）`\n"
+msgstr " :math:`（a、a、b）` \n"
 
 # 64143525e1e54b1fbd70c1f1aa2de8a1
 #: ../source/userdoc/appendixB.rst:490
 msgid ":math:`(b, a, a)`"
-msgstr "：数学： `（b、a、a）`\n"
+msgstr " :math:`（b、a、a）` \n"
 
 # 838731d42a1c44a99e36c5390ec34406
 # b2856cfbd30c4305ad36d09726f720f3
@@ -877,12 +877,12 @@ msgstr "4点、次数2} \\ hspace {7em}\n"
 # 5cfc8ad36a674db283d10619e0a163b3
 #: ../source/userdoc/appendixB.rst:502
 msgid ":math:`a = \\Frac{5 - \\sqrt{5}}{20}`"
-msgstr "：数学： `a = \\ Frac {5  -  \\ sqrt {5}} {20}`\n"
+msgstr " :math:`a = \\ Frac {5  -  \\ sqrt {5}} {20}` \n"
 
 # 892637dd791b4f138143d761757dea63
 #: ../source/userdoc/appendixB.rst:504
 msgid ":math:`b = \\Frac{5 + 3\\sqrt{5}}{20}`"
-msgstr "：数学： `b = \\ Frac {5 + 3 \\ sqrt {5}} {20}`\n"
+msgstr " :math:`b = \\ Frac {5 + 3 \\ sqrt {5}} {20}` \n"
 
 # 6a52cb6734cb4a4c9394949e53f308dc
 #: ../source/userdoc/appendixB.rst:519
@@ -931,72 +931,72 @@ msgstr "5ポイント、オーダー3\n"
 # 2ba27b3046014a86a834105130b8ff56
 #: ../source/userdoc/appendixB.rst:541
 msgid ":math:`(1/4, 1/4, 1/4)`"
-msgstr "：数学： `（1/4、1/4、1/4）`\n"
+msgstr " :math:`（1/4、1/4、1/4）` \n"
 
 # 4220091e8a1144b4ae4ab81da9e03817
 #: ../source/userdoc/appendixB.rst:545
 msgid ":math:`(a, a, c)`"
-msgstr "：数学： `（a、a、c）`\n"
+msgstr " :math:`（a、a、c）` \n"
 
 # a92e69666c794f61acac726828a43b8c
 #: ../source/userdoc/appendixB.rst:547
 msgid ":math:`(a, c, a)`"
-msgstr "：数学： `（a、c、a）`\n"
+msgstr " :math:`（a、c、a）` \n"
 
 # b046486e22e240d4b7ed0928ce400036
 #: ../source/userdoc/appendixB.rst:549
 msgid ":math:`(c, a, a)`"
-msgstr "：数学： `（c、a、a）`\n"
+msgstr " :math:`（c、a、a）` \n"
 
 # 7c8df1c0e6f145d6900eb9995e51dc4d
 #: ../source/userdoc/appendixB.rst:551
 msgid ":math:`(b, b, b)`"
-msgstr "：数学： `（b、b、b）`\n"
+msgstr " :math:`（b、b、b）` \n"
 
 # 9b1a96f9cfb1432281c3a1ba7ece5869
 #: ../source/userdoc/appendixB.rst:553
 msgid ":math:`(b, b, d)`"
-msgstr "：数学： `（b、b、d）`\n"
+msgstr " :math:`（b、b、d）` \n"
 
 # a1dd592aa11841429bf109b11e3436ab
 #: ../source/userdoc/appendixB.rst:555
 msgid ":math:`(b, d, b)`"
-msgstr "：数学： `（b、d、b）`\n"
+msgstr " :math:`（b、d、b）` \n"
 
 # b0cfb44f80de45dd83529bf5b4c22a29
 #: ../source/userdoc/appendixB.rst:557
 msgid ":math:`(d, b, b)`"
-msgstr "：数学： `（d、b、b）`\n"
+msgstr " :math:`（d、b、b）` \n"
 
 # 8417199295d54a0f85b039e478ef37d6
 #: ../source/userdoc/appendixB.rst:559
 msgid ":math:`(e, e, f)`"
-msgstr "：数学： `（e、e、f）`\n"
+msgstr " :math:`（e、e、f）` \n"
 
 # c0ec8ed9f0e94bbabf07ffa2b4dd0843
 #: ../source/userdoc/appendixB.rst:561
 msgid ":math:`(e, f, e)`"
-msgstr "：数学： `（e、f、e）`\n"
+msgstr " :math:`（e、f、e）` \n"
 
 # fd01b66e27994899a9651c94744c2231
 #: ../source/userdoc/appendixB.rst:563
 msgid ":math:`(f, e, e)`"
-msgstr "：数学： `（f、e、e）`\n"
+msgstr " :math:`（f、e、e）` \n"
 
 # 194d5c25d5c040efb41c16c5f3ecfc19
 #: ../source/userdoc/appendixB.rst:565
 msgid ":math:`(e, f, f)`"
-msgstr "：数学： `（e、f、f）`\n"
+msgstr " :math:`（e、f、f）` \n"
 
 # 05fd54e9b12b44999ad2c18448219e60
 #: ../source/userdoc/appendixB.rst:567
 msgid ":math:`(f, e, f)`"
-msgstr "：数学： `（f、e、f）`\n"
+msgstr " :math:`（f、e、f）` \n"
 
 # d63e76c399ee44e5b0d50fa75b1e04ea
 #: ../source/userdoc/appendixB.rst:569
 msgid ":math:`(f, f, e)`"
-msgstr "：数学： `（f、f、e）`\n"
+msgstr " :math:`（f、f、e）` \n"
 
 # d23c7561bbfe42fc9fbded8019ac386b
 #: ../source/userdoc/appendixB.rst:570
@@ -1010,7 +1010,7 @@ msgstr "8/405\n"
 #: ../source/userdoc/appendixB.rst:572 ../source/userdoc/appendixB.rst:574
 #: ../source/userdoc/appendixB.rst:576 ../source/userdoc/appendixB.rst:578
 msgid ":math:`h`"
-msgstr "：数学： `h`\n"
+msgstr " :math:`h` \n"
 
 # 6d28df8493b343ebb20d2c4e7e2d5481
 # 4e6277112700471cb411d1c4889959be
@@ -1019,7 +1019,7 @@ msgstr "：数学： `h`\n"
 #: ../source/userdoc/appendixB.rst:580 ../source/userdoc/appendixB.rst:582
 #: ../source/userdoc/appendixB.rst:584 ../source/userdoc/appendixB.rst:586
 msgid ":math:`i`"
-msgstr "：数学： `私は`\n"
+msgstr " :math:`私は` \n"
 
 # 198995af4d87446a8a0d64879b6d973a
 # d7127acb703d41e8a4cab861edd1e36b
@@ -1046,42 +1046,42 @@ msgstr "15ポイント、オーダー5\n"
 # 3fa353c2c27a48ef8eb80026bc457082
 #: ../source/userdoc/appendixB.rst:603
 msgid ":math:`a = \\Frac{7 + \\sqrt{15}}{34}`"
-msgstr "：数学： `a = \\ Frac {7 + \\ sqrt {15}} {34}`\n"
+msgstr " :math:`a = \\ Frac {7 + \\ sqrt {15}} {34}` \n"
 
 # 5075d504b6674255b376d75aefbb9725
 #: ../source/userdoc/appendixB.rst:605
 msgid ":math:`b = \\Frac{7 - \\sqrt{15}}{34}`"
-msgstr "：数学： `b = \\ Frac {7  -  \\ sqrt {15}} {34}`\n"
+msgstr " :math:`b = \\ Frac {7  -  \\ sqrt {15}} {34}` \n"
 
 # 93459ac0a15242ad815f427287645d5d
 #: ../source/userdoc/appendixB.rst:607
 msgid ":math:`c = \\Frac{13 + 3\\sqrt{15}}{34}`"
-msgstr "：数学： `c = \\ Frac {13 + 3 \\ sqrt {15}} {34}`\n"
+msgstr " :math:`c = \\ Frac {13 + 3 \\ sqrt {15}} {34}` \n"
 
 # b6ce3219b1b0421990c887a7e0e29b76
 #: ../source/userdoc/appendixB.rst:609
 msgid ":math:`d = \\Frac{13 - 3\\sqrt{15}}{34}`"
-msgstr "：数学： `d = \\ Frac {13-3 \\ sqrt {15}} {34}`\n"
+msgstr " :math:`d = \\ Frac {13-3 \\ sqrt {15}} {34}` \n"
 
 # fef6677eae4045ce8ac6d6278f9b5ffd
 #: ../source/userdoc/appendixB.rst:611
 msgid ":math:`e = \\Frac{5 - \\sqrt{15}}{20}`"
-msgstr "：数学： `e = \\ Frac {5  -  \\ sqrt {15}} {20}`\n"
+msgstr " :math:`e = \\ Frac {5  -  \\ sqrt {15}} {20}` \n"
 
 # cd33f4346bcc4696a0726f9d9ba04f15
 #: ../source/userdoc/appendixB.rst:613
 msgid ":math:`f = \\Frac{5 + \\sqrt{15}}{20}`"
-msgstr "：数学： `f = \\ Frac {5 + \\ sqrt {15}} {20}`\n"
+msgstr " :math:`f = \\ Frac {5 + \\ sqrt {15}} {20}` \n"
 
 # 142cd794cb87478caba07a8d425d4b35
 #: ../source/userdoc/appendixB.rst:615
 msgid ":math:`h = \\Frac{2665 - 14\\sqrt{15}}{226800}`"
-msgstr "：数学： `h = \\ Frac {2665-14 \\ sqrt {15}} {226800}`\n"
+msgstr " :math:`h = \\ Frac {2665-14 \\ sqrt {15}} {226800}` \n"
 
 # 78236372aacf4141bd2ac7cf4de0fe1e
 #: ../source/userdoc/appendixB.rst:617
 msgid ":math:`i = \\Frac{2665 + 14\\sqrt{15}}{226800}`"
-msgstr "：数学： `i = \\ Frac {2665 + 14 \\ sqrt {15}} {226800}`\n"
+msgstr " :math:`i = \\ Frac {2665 + 14 \\ sqrt {15}} {226800}` \n"
 
 # 481c78e04950467285acded6c66a3f98
 #: ../source/userdoc/appendixB.rst:619

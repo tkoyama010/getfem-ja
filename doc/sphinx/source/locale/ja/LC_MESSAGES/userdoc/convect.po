@@ -57,7 +57,7 @@ msgstr "この方法は、偏微分方程式\n"
 # 73538b83ac5a46ff8c96f92bb75b13ae
 #: ../source/userdoc/convect.rst:28
 msgid "on the time intervall :math:`[0, dt]`."
-msgstr "時間間隔：数学： `[0dt]`。\n"
+msgstr "時間間隔 :math:`[0dt]` 。\n"
 
 # 6c64ea9f450c453785e07a7a5cb84397
 #: ../source/userdoc/convect.rst:30
@@ -92,7 +92,7 @@ msgstr "各節点に対応する初期条件を有する。この対流は `` nt
 msgid ""
 "In order to make the extrapolation not too expensive, the product "
 ":math:`dt\\times V` should not be too large."
-msgstr "外挿をそれほど高価にしないためには、製品：数学： `dt \\ times V`は大きすぎてはいけません。\n"
+msgstr "外挿をそれほど高価にしないためには、製品 :math:`dt \\ times V` は大きすぎてはいけません。\n"
 
 # d87f2b4cfd28420ab3848611c85d7a0f
 #: ../source/userdoc/convect.rst:47
