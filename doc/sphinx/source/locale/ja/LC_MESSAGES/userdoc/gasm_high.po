@@ -1484,7 +1484,7 @@ msgstr "`` pi``：定数Pi。\n"
 msgid ""
 "``meshdim``: the dimension of the current mesh (i.e. size of geometrical "
 "nodes)"
-msgstr "`` meshdim``：現在のメッシュの次元（すなわち、幾何学的ノードのサイズ）\n"
+msgstr "`` meshdim``：現在のメッシュの次元（すなわち、幾何学的節点のサイズ）\n"
 
 # 22d9a83c765346648c1a5f0995463b54
 #: ../source/userdoc/gasm_high.rst:537

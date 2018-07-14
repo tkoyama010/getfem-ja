@@ -1190,7 +1190,7 @@ msgid ""
 "assembly. Its specificity which could be interesting for testing is that the"
 " flow rule is integrated on  finite element nodes (not on Gauss points)."
 msgstr ""
-"これは、等方性完全塑性に制限され、低レベルの一般的なアセンブリに基づいている弾塑性レンガの以前のバージョンです。テストのために興味深い特異性は、フロールールが有限要素ノード（ガウス点ではない）に統合されていることです。\n"
+"これは、等方性完全塑性に制限され、低レベルの一般的なアセンブリに基づいている弾塑性レンガの以前のバージョンです。テストのために興味深い特異性は、フロールールが有限要素節点（ガウス点ではない）に統合されていることです。\n"
 
 # 1a1ec60a03d84048a2f379c2f81200ba
 #: ../source/userdoc/model_plasticity_small_strain.rst:599

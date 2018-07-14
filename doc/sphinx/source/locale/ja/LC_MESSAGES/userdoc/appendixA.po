@@ -30,7 +30,7 @@ msgstr "自由度の種類を表す記号\n"
 # bcbb0db7c6b2400e9619f9e8922c014d
 #: ../source/userdoc/appendixA.rst:28
 msgid "Value of the function at the node."
-msgstr "ノードでの関数の値。\n"
+msgstr "節点での関数の値。\n"
 
 # 55cc9826af124e7ebc8abe4e38598e33
 #: ../source/userdoc/appendixA.rst:29
@@ -50,7 +50,7 @@ msgstr "3D要素の3番目の座標に沿った勾配の値。\n"
 # da0250f773e24ad0a67cc9645273fd99
 #: ../source/userdoc/appendixA.rst:41
 msgid "Value of the whole gradient at the node."
-msgstr "ノードでの勾配全体の値。\n"
+msgstr "節点での勾配全体の値。\n"
 
 # f47f000a4d25408b870c85421b960889
 #: ../source/userdoc/appendixA.rst:42
@@ -77,7 +77,7 @@ msgstr "3Dで3番目の座標（2倍）に沿った2Dまたは2次導関数の2�
 # fcf1851fe5054c2497c1873cc66a12ca
 #: ../source/userdoc/appendixA.rst:65
 msgid "Value of the whole second derivative (hessian) at the node."
-msgstr "ノードでの二次導関数（ヘッセ行列）全体の値。\n"
+msgstr "節点での二次導関数（ヘッセ行列）全体の値。\n"
 
 # 9a168505f030482cb253a898f600d1e4
 #: ../source/userdoc/appendixA.rst:66
@@ -99,7 +99,7 @@ msgstr "指定する要素または面のバブル関数。\n"
 # a0bb68da651942e28acf718eeee3c45c
 #: ../source/userdoc/appendixA.rst:77
 msgid "Lagrange hierarchical d.o.f. value at the node in a space of details."
-msgstr "ラグランジュ階層d.o.f.詳細の空間内のノードでの値。\n"
+msgstr "ラグランジュ階層d.o.f.詳細の空間内の節点での値。\n"
 
 # 961e24251a054e17badf2ef747681475
 #: ../source/userdoc/appendixA.rst:80
@@ -136,7 +136,7 @@ msgid ""
 "segmentpk`."
 msgstr ""
 "任意の次元と任意の次数の古典的な：数学： "
-"`P_K`ラグランジュ要素を定義することは可能です。このような要素の各自由度は、対応するノード上の関数の値に対応します。ノードのグリッドは、いわゆるラグランジェグリッドです。図：ref："
+"`P_K`ラグランジュ要素を定義することは可能です。このような要素の各自由度は、対応する節点上の関数の値に対応します。節点のグリッドは、いわゆるラグランジェグリッドです。図：ref："
 " `ud-fig-segmentpk`。\n"
 
 # 8d3198591b9d42048d3d3173f4b9ba52
@@ -204,7 +204,7 @@ msgid ""
 "figures :ref:`segment<ud-fig-segmentpk>`, :ref:`triangle<ud-fig-trianglepk>`"
 " and :ref:`tetrahedron<ud-fig-tetrahedronpk>`. Using another numeration, let"
 msgstr ""
-"| gf |で使われる特定の方法ノードを数値化するためには、ref： `segment <ud-fig-segmentpk>`、：ref： "
+"| gf |で使われる特定の方法節点を数値化するためには、ref： `segment <ud-fig-segmentpk>`、：ref： "
 "`triangle <ud-fig-trianglepk>`と：ref： `tetrahedron <ud-fig-tetrahedronpk> "
 "。別の数字を使ってlet\n"
 
@@ -216,7 +216,7 @@ msgstr "ソムメ指数\n"
 # bdaa5ecf9a4849fbac8fa13f2137da65
 #: ../source/userdoc/appendixA.rst:168
 msgid "Then, the coordinate of a node can be computed as"
-msgstr "次に、ノードの座標は次のように計算されます。\n"
+msgstr "次に、節点の座標は次のように計算されます。\n"
 
 # ba7d19d320da4f0b8bf29f1f6ad1f594
 #: ../source/userdoc/appendixA.rst:174
@@ -228,7 +228,7 @@ msgid ""
 msgstr ""
 "ここで、Math： `S_0、S_1、... S_N`は、シンプレックスの頂点です（数学：` K = 0`の特定の選択：数学： `a_ {0、0、..."
 " 0} = \\ ds \\ sum_ {n = 0} ^ {P} \\ Frac {1} {P + 1} "
-"S_n`が選択されている）。次に、各ノード：math： `a_ {i_0、i_1、... i_P} 'に対応する各基底関数は\n"
+"S_n`が選択されている）。次に、各節点：math： `a_ {i_0、i_1、... i_P} 'に対応する各基底関数は\n"
 
 # 9849bdbfc1c34027937c2f5520ab192c
 #: ../source/userdoc/appendixA.rst:183
@@ -1507,7 +1507,7 @@ msgid ""
 "corresponding quadrature to perform mass-lumping (on segments or "
 "parallelepipeds)."
 msgstr ""
-"1D GaussLobatto：math： `P_K`要素は、セグメント上の古典的な：math：` P_K` femに似ていますが、ノードはGauss-"
+"1D GaussLobatto：math： `P_K`要素は、セグメント上の古典的な：math：` P_K` femに似ていますが、節点はGauss-"
 "Lobatto-Legendre直交次数の規則で与えられます：数学： `2K-1` "
 "。このFEMは、より良好な調整された線形システムにつながることが知られており、対応する直角位相で使用して質量（セグメントまたは平行六面体に）を行うことができます。\n"
 

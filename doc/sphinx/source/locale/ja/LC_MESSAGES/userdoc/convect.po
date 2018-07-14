@@ -85,7 +85,7 @@ msgid ""
 "with an initial condition corresponding to each node. This convection is "
 "made with ``nt`` steps. Then the solution is interploated on the convected "
 "nodes."
-msgstr "各ノードに対応する初期条件を有する。この対流は `` nt``ステップで行われます。次に、対流ノード上で解を補間する。\n"
+msgstr "各節点に対応する初期条件を有する。この対流は `` nt``ステップで行われます。次に、対流節点上で解を補間する。\n"
 
 # af4523168f464277b09b643fac20f5a1
 #: ../source/userdoc/convect.rst:44

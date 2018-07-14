@@ -88,7 +88,7 @@ msgid ""
 ":math:`a_i`, :math:`i=1..N_c` on which a contact with (or without) friction "
 "condition is applied. The contact condition reads"
 msgstr ""
-"ノード接触条件は、摩擦条件との接触（または摩擦条件なし）が適用されるいくつかの接触ノード数学：a_i、：math：i = "
+"節点接触条件は、摩擦条件との接触（または摩擦条件なし）が適用されるいくつかの接触節点数学：a_i、：math：i = "
 "1..N_cで構成される。接触条件は\n"
 
 # d249dae00eaf47f2a7bd487207e3f866
@@ -225,7 +225,7 @@ msgid ""
 "contact condition corresponds more or less to a multiplier described on the "
 "same finite element method than the displacement)."
 msgstr ""
-"直接ノード条件にはいくつかの欠点があります：ロック現象、過度の制約。実際には、変位と比較して減少した次数の乗数を使用することは、しばしばより安定しており、同じ精度である（直接節点接触条件は、変位と同じ有限要素法で記述された乗数にほぼ相当する）。\n"
+"直接節点条件にはいくつかの欠点があります：ロック現象、過度の制約。実際には、変位と比較して減少した次数の乗数を使用することは、しばしばより安定しており、同じ精度である（直接節点接触条件は、変位と同じ有限要素法で記述された乗数にほぼ相当する）。\n"
 
 # b9add3b80afe4bf8a53a4994967048dc
 #: ../source/userdoc/model_contact_friction.rst:95
@@ -247,7 +247,7 @@ msgid ""
 "expressed in a weak form by"
 msgstr ""
 "ここで、math： `a_i`、：math：` ~~ i = "
-"1..N_c`は、乗数に対応する有限要素ノードです。離散接触条件は、次のように弱い形で表されます。\n"
+"1..N_c`は、乗数に対応する有限要素節点です。離散接触条件は、次のように弱い形で表されます。\n"
 
 # e1840d5153814485a51ea34f0e0241c5
 #: ../source/userdoc/model_contact_friction.rst:107
@@ -655,7 +655,7 @@ msgstr "基本的な接触行列：math： `B_N`と：：math：` B_T`を次の�
 # b2970532e8984f089a6f7e1658cfe0f2
 #: ../source/userdoc/model_contact_friction.rst:359
 msgid "Frictionless nodal contact with a rigid obstacle brick"
-msgstr "頑丈な障害物レンガとの摩擦のないノード接触\n"
+msgstr "頑丈な障害物レンガとの摩擦のない節点接触\n"
 
 # 4fed78610d0d4c838cc7bf641775033b
 # a2575eb9b3fd4f48b12a5b0c349ca8fc
@@ -737,7 +737,7 @@ msgstr ""
 "region``の自由度の数である固定サイズの変数でなければなりません。接触等価節力を表す。 `` multname_t``は、サイズが境界 `` "
 "region``の自由度の倍数である固定サイズの変数でなければなりません：math： `d-1`ここで、math：` "
 "d`はドメイン次元です。摩擦等価節力を表す。増強パラメータ「r」は許容可能な値の範囲で選択する必要があります（弾性体のヤング率に近いです、Getfemのユーザーマニュアルを参照）。"
-" `` dataname_friction_coeff``は摩擦係数です。それは、各接点ノード上の摩擦係数を表す値のスカラまたはベクトルであり得る。\n"
+" `` dataname_friction_coeff``は摩擦係数です。それは、各接点節点上の摩擦係数を表す値のスカラまたはベクトルであり得る。\n"
 
 # 8365867a70174f4bbbc0c6089f88d897
 #: ../source/userdoc/model_contact_friction.rst:414
@@ -862,7 +862,7 @@ msgstr ""
 " `rg1`と` rg2`は通常の整数として与えられます。単一変位変数の場合、 `rg1`と` rg2`の両方で定義された領域は変数 "
 "`varname_u`を参照します。 2つの変位変数の場合、 `rg1`は` varname_u1`を、 `rg2`は` "
 "varname_u2`を参照します。 `multname_n`は、サイズが` rg1`と "
-"`rg2`で定義されたもののうち、スレーブとして特徴づけられるもののうち、それらの領域の自由度の数である固定サイズの変数でなければなりません。接触等価ノード法線力を表す。"
+"`rg2`で定義されたもののうち、スレーブとして特徴づけられるもののうち、それらの領域の自由度の数である固定サイズの変数でなければなりません。接触等価節点法線力を表す。"
 " `multname_t`は、` multname_n`のサイズにqdim  -  "
 "1を掛けたサイズに対応する固定サイズの変数でなければなりません。これは接触等価ノーダルタンジェント（摩擦）力を表す。増大パラメータ「r」は、受容可能な値の範囲で選択されるべきである（弾性体のヤング率に近く、Getfemのユーザ文書を参照）。"
 " `friction_coeff`パラメータに格納された摩擦係数は、単一値または` multname_n "

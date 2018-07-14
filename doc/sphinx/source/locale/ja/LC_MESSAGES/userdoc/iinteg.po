@@ -47,12 +47,12 @@ msgid ""
 msgstr ""
 "ここで、 `` NAME``は、| gf |のメソッド名です。 （定数整数パラメータが許される）、 `` N``は次元、 `` GEOTRANS``は|"
 " gf |の有効な幾何変換を記述します。この幾何学変換は、積分法が記述されている基準要素を定義するだけです。 `` "
-"NBPT``は、統合ノード定義の数です。統合ノード定義には、統合ノードの総数が「NBPT」より大きい対称定義が含まれています。\n"
+"NBPT``は、統合節点定義の数です。統合節点定義には、統合節点の総数が「NBPT」より大きい対称定義が含まれています。\n"
 
 # 1bd16fff8a35486093e3208102aac381
 #: ../source/userdoc/iinteg.rst:38
 msgid "Composition of the integration node definition:"
-msgstr "統合ノード定義の構成：\n"
+msgstr "統合節点定義の構成：\n"
 
 # d344b456b41347e0a2a6ee9874878509
 #: ../source/userdoc/iinteg.rst:40
@@ -64,7 +64,7 @@ msgstr "整数：0 =対称性なし、1 =完全対称（三角形の場合はx6�
 # a1a8f729e2b44f0ba24da876d69c9cae
 #: ../source/userdoc/iinteg.rst:43
 msgid "the ``N`` coordinates of the integration node,"
-msgstr "統合ノードの「N」座標、\n"
+msgstr "統合節点の「N」座標、\n"
 
 # fa658819f0f74bc6bcd83c1a88b8c363
 #: ../source/userdoc/iinteg.rst:45
