@@ -118,8 +118,8 @@ msgid ""
 "is independant of :math:`t` and will serve as the new reference "
 "configuration. This is illustrated in the following figure:"
 msgstr ""
-"参照構成の回転対称性のおかげで :math:`\\オメガ^ 0：` 、私たちは次のように気付きます：\\ bar {\\オメガ} ^ 0 = "
-"r（t、\\オメガ^ 0）数学的には「t」であり、新しい参照構成として機能する。これを次の図に示します。\n"
+"参照構成の回転対称性のおかげで :math:`\\Omega^ 0：` 、私たちは次のように気付きます：\\ bar {\\Omega} ^ 0 = "
+"r（t、\\Omega^ 0）数学的には「t」であり、新しい参照構成として機能する。これを次の図に示します。\n"
 
 # 4e25abaa2cdd433eb3ce0dc8190f96af
 #: ../source/userdoc/model_ALE_rotating.rst:85

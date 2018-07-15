@@ -369,7 +369,7 @@ msgstr "いくつかの基本的な例\n"
 # 3480d26f0d7348c7b414f1ad230d5626
 #: ../source/userdoc/gasm_high.rst:80
 msgid "The weak formulation for the Poisson problem on a domain :math:`\\Omega`"
-msgstr "ドメイン上のポアソン問題の弱い定式化：数学： `\\オメガ\n"
+msgstr "ドメイン上のポアソン問題の弱定式化：数学： `\\Omega\n"
 
 # 8dea79671e844e0b9089546ffd46e113
 #: ../source/userdoc/gasm_high.rst:86
@@ -383,7 +383,9 @@ msgstr "ディリクレの境界条件 :math:`u = 0`  on :math:` \\ partial \\ O
 msgid ""
 "for all test functions :math:`v` vanishing on  :math:`\\partial\\Omega`. The"
 " corresponding expression on the assembly string is::"
-msgstr "すべての形状関数について :math:`v` が消える :math:` \\ partial \\ Omega` 。アセンブリ文字列の対応する式は::\n"
+msgstr ""
+"すべての形状関数について :math:`v` が消える :math:` \\ partial \\ Omega` "
+"。アセンブリ文字列の対応する式は::\n"
 
 # f9639661532948dd90f925dbe117ea70
 #: ../source/userdoc/gasm_high.rst:98
@@ -794,7 +796,7 @@ msgid ""
 "configuration :math:`\\Omega`:"
 msgstr ""
 "別の例として、単純な非線形弾性問題を説明します。サン・ヴェナント・キルヒホッフの構成則を考えると、次のような弾性エネルギーを基準構成体とみなすことを意味します。数学："
-" `\\オメガ：\n"
+" `\\Omega：\n"
 
 # 272da6eedaf145f0bfcbfc044e11f083
 #: ../source/userdoc/gasm_high.rst:320
