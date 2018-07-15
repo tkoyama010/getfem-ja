@@ -127,7 +127,7 @@ msgstr ""
 " varepsilon ^ e）：\\ varepsilon ^ e` ：math： `{\\ cal "
 "A}`は4次の弾性テンソルです。等方性線形弾性の場合、この式は次のようになります。math： `\\ psi ^ e（\\ varepsilon ^ "
 "e）= \\ mu \\ mbox {dev}（\\ varepsilon ^ e） math： `\\ mu`はせん断弾性率であり、mathは` K "
-"= \\ lambda + 2 \\ mu / s 'であり、 3はバルク弾性率である。\n"
+"= \\lambda + 2 \\ mu / s 'であり、 3はバルク弾性率である。\n"
 
 # 97eef9968c4d4d09b09e2a25216d2241
 #: ../source/userdoc/model_plasticity_small_strain.rst:67
@@ -528,7 +528,7 @@ msgid ""
 "For an isotropic linearized elastic response, one has :math:`\\sigma = "
 "\\lambda \\mbox{tr}(\\varepsilon^e) + 2\\mu\\varepsilon^e` such that"
 msgstr ""
-"等方性の線形弾性応答の場合、次のようになります。数学：\\ sigma = \\ lambda \\ mbox {tr}（\\ varepsilon ^"
+"等方性の線形弾性応答の場合、次のようになります。数学：\\ sigma = \\lambda \\ mbox {tr}（\\ varepsilon ^"
 " e）+ 2 \\ mu \\ varepsilon ^ e`\n"
 
 # 5961226731e14576affceea0cb5a8b24

@@ -238,7 +238,7 @@ msgid ""
 "and whose value is :math:`0` on other vertices. On the reference element, "
 "one has"
 msgstr ""
-"ここで、math： `\\ lambda_n`は重心座標です。つまり次のような次数1の多項式です：頂点でのmath：` 1`：math： "
+"ここで、math： `\\lambda_n`は重心座標です。つまり次のような次数1の多項式です：頂点でのmath：` 1`：math： "
 "`S_n`そしてその値は他の頂点でのmath：` 0`です。 。参照要素には、\n"
 
 # 8c8bf5838a854d0e90bb0c9137ca8ab6

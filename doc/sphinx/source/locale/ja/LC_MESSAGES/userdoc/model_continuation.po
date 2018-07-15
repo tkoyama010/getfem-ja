@@ -284,7 +284,7 @@ msgstr "| gf |では、モデル化の2つの方法のために継続が実装�
 msgid ""
 "The parameter :math:`\\lambda` is directly a scalar datum, which the model "
 "depends on."
-msgstr "パラメータ：math： `\\ lambda`は、モデルが依存するスカラーデータです。\n"
+msgstr "パラメータ：math： `\\lambda`は、モデルが依存するスカラーデータです。\n"
 
 # f3251762845f44579417bdaebccd9535
 #: ../source/userdoc/model_continuation.rst:178
@@ -293,7 +293,7 @@ msgid ""
 "vector datum :math:`P`, which the model depends on. In this case, one takes "
 "the linear path"
 msgstr ""
-"このモデルはスカラーパラメータによってパラメータ化されます。ベクトルデータを使ったmath： `\\ lambda` *：モデルが依存している数学：` "
+"このモデルはスカラーパラメータによってパラメータ化されます。ベクトルデータを使ったmath： `\\lambda` *：モデルが依存している数学：` "
 "P`です。この場合、1つは線形経路\n"
 
 # 91a551c1d5a34cf2b03508dce257ed1a
@@ -674,7 +674,7 @@ msgid ""
 ":math:`\\tau_{\\mathrm{fac}}`, and the integers ``ndir`` and ``nspan`` stand"
 " for :math:`n_{\\mathrm{dir}}` and :math:`n_{\\mathrm{span}}`, respectively."
 msgstr ""
-"ここで `` parameter_name``はモデルデータの名前です：math： `\\ lambda`、` "
+"ここで `` parameter_name``はモデルデータの名前です：math： `\\lambda`、` "
 "`sfac``は倍率を表します：math：` \\ kappa`、 `` ls``は（例えば、 `` getfem :: "
 "default_linear_solver <getfem :: model_real_sparse_matrix、getfem :: "
 "model_real_plain_vector（model） ``など）に使用されるソルバを指定します。実数は `` h_init``、 `` "

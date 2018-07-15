@@ -298,8 +298,8 @@ msgid ""
 ":math:`\\max(0,\\frac{\\mu}{2}-\\frac{\\lambda}{4})<a<\\frac{\\mu}{2}` (see "
 "[ciarlet1988]_)."
 msgstr ""
-"次のようになります。数学： `\\ lambda、\\ mu`のラメ係数と数学：` \\ max（0、\\ frac {\\ mu {2}  -  \\"
-" frac {\\ lambda} {4} \\ mu} {2} `（[ciarlet1988] _を参照してください）。\n"
+"次のようになります。数学： `\\lambda、\\ mu`のラメ係数と数学：` \\ max（0、\\ frac {\\ mu {2}  -  \\"
+" frac {\\lambda} {4} \\ mu} {2} `（[ciarlet1988] _を参照してください）。\n"
 
 # 8c536799b4804b59a9872d6377b5d88a
 #: ../source/userdoc/model_nonlinear_elasticity.rst:257
@@ -380,7 +380,7 @@ msgid ""
 "coefficients and an additional coefficient (:math:`\\lambda, \\mu, a`)."
 msgstr ""
 "Saint-Venant Kirchhoffの法則は、2つのラメ係数で定義された線形化された法則であり、Ciarlet "
-"Geymonatの法則は2つのラメ係数と追加の係数（：math： `\\ lambda、\\ mu、a`）で定義されます。\n"
+"Geymonatの法則は2つのラメ係数と追加の係数（：math： `\\lambda、\\ mu、a`）で定義されます。\n"
 
 # a3db7cfce003474a98d7030c3177d972
 #: ../source/userdoc/model_nonlinear_elasticity.rst:304

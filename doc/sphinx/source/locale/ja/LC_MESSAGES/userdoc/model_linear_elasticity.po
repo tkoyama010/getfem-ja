@@ -41,7 +41,7 @@ msgid ""
 " It can also be used with :math:`\\lambda=0` together with the linear "
 "incompressible brick to build the Stokes problem."
 msgstr ""
-"：\\ varepsilon（u）は小さなひずみテンソルです。：\\ sigmaは応力テンソルです。：math： `\\ lambda`と：math：`"
+"：\\ varepsilon（u）は小さなひずみテンソルです。：\\ sigmaは応力テンソルです。：math： `\\lambda`と：math：`"
 " \\ mu`は| Lame |係数。これは線形等方性弾性の系を表す。ストークス問題を構築するために線形非圧縮要素と一緒に：math： `\\ "
 "lambda = 0`と一緒に使うこともできます。\n"
 
@@ -171,7 +171,7 @@ msgid ""
 ":math:`\\varepsilon = 1 / \\lambda` where :math:`\\lambda` is one of the "
 "Lamé coefficient and :math:`\\varepsilon` the penalization coefficient."
 msgstr ""
-"ほぼ非圧縮性の均質線形弾性では、次のようになります。math： `\\ varepsilon = 1 / \\ lambda`ここで、math：` \\"
+"ほぼ非圧縮性の均質線形弾性では、次のようになります。math： `\\ varepsilon = 1 / \\lambda`ここで、math：` \\"
 " lambda`はLamé係数の1つであり、math： `\\ varepsilon`はペナルティ係数です。\n"
 
 # 509fb8b6993f4a518863345b4ec4f23a
