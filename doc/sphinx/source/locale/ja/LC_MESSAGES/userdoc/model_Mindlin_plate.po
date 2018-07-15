@@ -49,7 +49,7 @@ msgid ""
 ":math:`\\theta` the rotation of fibers normal to the mid-plane:"
 msgstr ""
 "等方性材料のMindlin-"
-"Reissnerモデルの弱い定式化は、以下のように書くことができる。数学的には、横方向の変位である「u_3」と、中間の平面に垂直な繊維の回転「数学」：\n"
+"Reissnerモデルの弱定式化は、以下のように書くことができる。数学的には、横方向の変位である「u_3」と、中間の平面に垂直な繊維の回転「数学」：\n"
 
 # dcd10505c74a4659af84db164cde9df5
 #: ../source/userdoc/model_Mindlin_plate.rst:28
