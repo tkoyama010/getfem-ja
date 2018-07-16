@@ -2,8 +2,7 @@
 host = https://www.transifex.com
 
 [getfem-53-1.sphinx-pot]
-file_filter = source/locale/<lang>/LC_MESSAGES
-minimum_perc = 0
+file_filter = source/locale/<lang>/LC_MESSAGES/sphinx.po
 source_file = locale/sphinx.pot
 source_lang = en
 type = PO
