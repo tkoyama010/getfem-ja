@@ -60,7 +60,7 @@ msgstr ""
 "これは変数 `varname`とメッシュ領域` region`にビラプラシアン要素を追加します。これは次のような用語を表します：math： `\\ "
 "Delta（D \\ Delta u）`ここで、math： `D（x）`は "
 "`dataname1`によって決定される屈曲率です。この用語は、ポアソン比「dataname2」を有するKirchhoff-"
-"Loveプレートモデルに続く部分によって統合される。\n"
+"Loveプレートモデルに続く部分によって積分される。\n"
 
 # 3eadb7b44cf848b9b35a1475ebd37db4
 #: ../source/userdoc/model_bilaplacian.rst:34

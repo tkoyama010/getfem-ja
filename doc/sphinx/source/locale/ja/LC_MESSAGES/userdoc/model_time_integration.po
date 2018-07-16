@@ -20,7 +20,7 @@ msgstr ""
 # e67dc6f7705349d1bff89e218000df25
 #: ../source/userdoc/model_time_integration.rst:14
 msgid "The model tools for the integration of transient problems"
-msgstr "一時的な問題の統合のためのモデルツール\n"
+msgstr "一時的な問題の積分のためのモデルツール\n"
 
 # 7058d506e34c4bd597a6b9b1039648f4
 #: ../source/userdoc/model_time_integration.rst:16

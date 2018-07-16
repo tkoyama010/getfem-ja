@@ -205,7 +205,7 @@ msgstr "次のように仮定すると、回転対称性を有する参照構成
 #: ../source/userdoc/model_ALE_rotating.rst:129
 msgid ""
 "The third term in the right hand side can be integrated by part as follows:"
-msgstr "右側の第3項は、以下のように部分的に統合することができます。\n"
+msgstr "右側の第3項は、以下のように部分的に積分することができます。\n"
 
 # b1d86b80cb9b47469a513740964b9b8f
 #: ../source/userdoc/model_ALE_rotating.rst:137
@@ -340,7 +340,7 @@ msgid ""
 "function and after integration by part):"
 msgstr ""
 "次のように仮定します。math： `\\ rho ^ 0`参照の密度は、考慮された変換で不変であり、弱定式化における加速に対応する項は、（v "
-"'バー{X}） `形状関数と部品による統合後）：\n"
+"'バー{X}） `形状関数と部品による積分後）：\n"
 
 # cf81e82c1b0a4ee8b7ed34dec49bff0e
 #: ../source/userdoc/model_ALE_rotating.rst:228

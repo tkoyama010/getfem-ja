@@ -198,7 +198,7 @@ msgstr "別の方法は、静的平衡を考慮することであり、これは
 # c940dbe15d3744148246d63a35456728
 #: ../source/userdoc/model_nonlinear_elasticity.rst:145
 msgid "Integrating by parts, one obtains:"
-msgstr "部品の統合により、\n"
+msgstr "部品の積分により、\n"
 
 # 9a21c9f66f064d0a8ac5c0cceb6fd5bd
 #: ../source/userdoc/model_nonlinear_elasticity.rst:153

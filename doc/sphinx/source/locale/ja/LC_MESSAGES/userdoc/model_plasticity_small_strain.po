@@ -225,13 +225,13 @@ msgstr ""
 "与えられた時間ステップ：時間 :math:`t_n` から数学：` t_ {n + 1} `までの数学：` \\ Delta t = t_ {n + 1} "
 "-t_n`を続けると、 math： `u_n、\\ varepsilon ^ p_n \\ mbox {and} \\ "
 "alpha_n`時刻の近似：math：` u_（t_n）、\\ varepsilon ^ p_n（t_n）\\ mbox {アルファ（t_n） "
-"`と呼ぶ。これらの近似は、フロールールの統合に使用される時間積分スキームとは異なることができる、選択された時間積分スキーム（例えば、提案されたスキームの1つ：ref："
+"`と呼ぶ。これらの近似は、フロールールの積分に使用される時間積分スキームとは異なることができる、選択された時間積分スキーム（例えば、提案されたスキームの1つ：ref："
 " `ud-model-time-integration '）に対応する以下）。\n"
 
 # f140f753e4984e9a92af05f42f3dcff9
 #: ../source/userdoc/model_plasticity_small_strain.rst:106
 msgid "Flow rule integration"
-msgstr "フロールールの統合\n"
+msgstr "フロールールの積分\n"
 
 # 46ec18cf12b64dde81319d7cb00717b3
 #: ../source/userdoc/model_plasticity_small_strain.rst:108
@@ -243,7 +243,7 @@ msgid ""
 "the choice of the :math:`\\theta`-scheme (:math:`\\theta = 1` corresponds to"
 " the backward Euler scheme as a special case)."
 msgstr ""
-"プラスチックフロールールは、独自の時間統合スキームと統合する必要があります。標準スキームの中で、後方オイラースキームでは、：math： `\\ "
+"プラスチックフロールールは、独自の時間積分スキームと積分する必要があります。標準スキームの中で、後方オイラースキームでは、：math： `\\ "
 "theta`スキーム（または一般化された台形ルール）と一般化された中間ポイントスキームが、このコンテキストで最も一般的に使用されます。ここでは、数学： "
 "`\\ theta`-scheme（：math：` \\ theta = 1`は特殊なケースとして後方オイラースキームに対応します）の選択をします。\n"
 
@@ -259,7 +259,7 @@ msgstr "let：math： `u_ {n + 1}`は、考慮する時間ステップの変位�
 msgid ""
 "The :math:`\\theta`-scheme for the integration of the plastic flow rules "
 "reads as"
-msgstr "：塑性流れ規則の統合のための数学： `\\ theta`-計画は\n"
+msgstr "：塑性流れ規則の積分のための数学： `\\ theta`-計画は\n"
 
 # cd3616c06ce34313a3ccc0449acef807
 #: ../source/userdoc/model_plasticity_small_strain.rst:121
@@ -280,7 +280,7 @@ msgid ""
 "are supposed to be already determined)."
 msgstr ""
 "ここで、math： `0 <\\ theta \\ le 1`は：math：` \\ theta`-schemeのパラメータです。数学： `\\ "
-"theta = 0`は、可塑性の明示的な統合を考慮しないため除外します。数学： `\\ theta = 1`は後方オイラースキームに対応し、数学：` "
+"theta = 0`は、可塑性の明示的な積分を考慮しないため除外します。数学： `\\ theta = 1`は後方オイラースキームに対応し、数学：` "
 "\\ theta = 1 / 2`を2次整合スキームであるクランク - "
 "ニコルソンスキーム（または台形ルール）に対応させます。時間ステップ：数学：「n」における量の相補性条件は、前の時間ステップ（数学： '\\ sigma_"
 " {n}、\\ alpha_n、\\ mbox {および} \\ gamma_n]は、すでに決定されている）。\n"
@@ -363,7 +363,7 @@ msgid ""
 "\\xi_{n+1}`. The discretized plastic flow rule integration now reads:"
 msgstr ""
 "私たちの2つの主要な未知数は次のようになりました：数学： `u _ {n + 1} \\ mbox {and} \\ x_ {n + "
-"1}`。離散化されたプラスチックフロールールの統合は、次のようになります。\n"
+"1}`。離散化されたプラスチックフロールールの積分は、次のようになります。\n"
 
 # 32483b91f79b40058d50050171eb8d7a
 #: ../source/userdoc/model_plasticity_small_strain.rst:163
@@ -613,7 +613,7 @@ msgstr ""
 msgid ""
 "The :math:`\\theta`-scheme for the integration of the plastic flow rule "
 "reads:"
-msgstr "：プラスチック流規則の統合のための :math:`\\ theta`   - スキーム：\n"
+msgstr "：プラスチック流規則の積分のための :math:`\\ theta`   - スキーム：\n"
 
 # eda3cb7996ec43f09155b7130046087f
 #: ../source/userdoc/model_plasticity_small_strain.rst:288
@@ -1190,7 +1190,7 @@ msgid ""
 "assembly. Its specificity which could be interesting for testing is that the"
 " flow rule is integrated on  finite element nodes (not on Gauss points)."
 msgstr ""
-"これは、等方性完全塑性に制限され、低レベルの一般的なアセンブリに基づいている弾塑性要素の以前のバージョンです。テストのために興味深い特異性は、フロールールが有限要素節点（ガウス点ではない）に統合されていることです。\n"
+"これは、等方性完全塑性に制限され、低レベルの一般的なアセンブリに基づいている弾塑性要素の以前のバージョンです。テストのために興味深い特異性は、フロールールが有限要素節点（ガウス点ではない）に積分されていることです。\n"
 
 # 1a1ec60a03d84048a2f379c2f81200ba
 #: ../source/userdoc/model_plasticity_small_strain.rst:599

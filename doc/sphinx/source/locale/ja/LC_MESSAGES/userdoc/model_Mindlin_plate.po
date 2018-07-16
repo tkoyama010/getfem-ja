@@ -121,7 +121,7 @@ msgstr "横断せん断項の積分の減少\n"
 msgid ""
 "This strategy consists simply to use a lower order integration method to "
 "numerically compute the term"
-msgstr "この戦略は、単に下位の統合方法を使用して数値的に数値を計算することから成ります\n"
+msgstr "この戦略は、単に下位の積分方法を使用して数値的に数値を計算することから成ります\n"
 
 # 12612759693a48d7bef1c9c4ea3e241f
 #: ../source/userdoc/model_Mindlin_plate.rst:61

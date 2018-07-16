@@ -30,12 +30,12 @@ msgid ""
 " integration can only be used if all the elements are polynomial and if the "
 "geometric transformation is linear."
 msgstr ""
-"統合方法は2種類あります。任意の関数の多項式と近似された積分（立方体式）の正確な積分。正確な積分は、すべての要素が多項式であり、幾何変換が線形である場合にのみ使用できます。\n"
+"積分方法は2種類あります。任意の関数の多項式と近似された積分（立方体式）の正確な積分。正確な積分は、すべての要素が多項式であり、幾何変換が線形である場合にのみ使用できます。\n"
 
 # 19ef606e9cdc4a31a3ebd129edb10aaf
 #: ../source/userdoc/appendixB.rst:17
 msgid "A descriptor on an integration method is given by the function::"
-msgstr "統合メソッドの記述子は、関数::\n"
+msgstr "積分メソッドの記述子は、関数::\n"
 
 # 867aa43d68924d88a075340053bd9c14
 #: ../source/userdoc/appendixB.rst:21
@@ -49,12 +49,12 @@ msgstr "``メソッド名 `` `は既存のメソッドの中から選択され�
 msgid ""
 "The program ``integration`` located in the ``tests`` directory lists and "
 "checks the degree of each integration method."
-msgstr "`` tests``ディレクトリにある `` integration``プログラムは、それぞれの統合方法の度合いを列挙して確認します。\n"
+msgstr "`` tests``ディレクトリにある `` integration``プログラムは、それぞれの積分方法の度合いを列挙して確認します。\n"
 
 # 8ed80d7439624629ab224acdf319af70
 #: ../source/userdoc/appendixB.rst:28
 msgid "Exact Integration methods"
-msgstr "完全な統合メソッド\n"
+msgstr "完全な積分メソッド\n"
 
 # e0ec2f4a12144173acc3d6f8c14dcf0e
 #: ../source/userdoc/appendixB.rst:30
@@ -67,18 +67,18 @@ msgid ""
 "them in the high-level generic assembly."
 msgstr ""
 "| gf "
-"|正確な統合方法のセットを提供する。これは、多項式が正確に統合されていることを意味します。しかし、その使用は（非常に）制限されており、推奨されていません。正確な積分方法の使用は、多項式のための低レベル総称アセンブリに限定されています：線形変換を伴うmath："
+"|正確な積分方法のセットを提供する。これは、多項式が正確に積分されていることを意味します。しかし、その使用は（非常に）制限されており、推奨されていません。正確な積分方法の使用は、多項式のための低レベル総称アセンブリに限定されています：線形変換を伴うmath："
 " `\\ tau`等価要素と線形項。高水準の汎用アセンブリでこれらを使用することはできません。\n"
 
 # 7b9ead21cb6741e587dc5cd193456f7b
 #: ../source/userdoc/appendixB.rst:32
 msgid "The list of available exact integration methods is the following"
-msgstr "利用可能な正確な統合方法のリストは以下の通りです\n"
+msgstr "利用可能な正確な積分方法のリストは以下の通りです\n"
 
 # 5dbc4382e6e6449b96fb62e385ae5f86
 #: ../source/userdoc/appendixB.rst
 msgid "Exact Integration Methods"
-msgstr "完全な統合メソッド\n"
+msgstr "完全な積分メソッド\n"
 
 # 72732c9ba61449d8992f51714da9465a
 #: ../source/userdoc/appendixB.rst:38
@@ -150,7 +150,7 @@ msgstr ""
 # b9f8b0b5f3b3476c80c39901013f63a9
 #: ../source/userdoc/appendixB.rst:61
 msgid "Newton cotes Integration methods"
-msgstr "ニュートン・コーツ統合方法\n"
+msgstr "ニュートン・コーツ積分方法\n"
 
 # b71078bfda3f42829c3121854979823c
 #: ../source/userdoc/appendixB.rst:63
@@ -159,13 +159,13 @@ msgid ""
 "prisms are denoted by ``\"IM_NC(N,K)\"``, ``\"IM_NC_PARALLELEPIPED(N,K)\"`` "
 "and ``\"IM_NC_PRISM(N,K)\"`` respectively."
 msgstr ""
-"シンプル、平行六面体、およびプリズムの順番「K」のニュートン・コーツ統合は、「IM_NC（N、K）」、「IM_NC_PARALLELEPIPED（N、K）」、「IM_NC_PRISM（"
+"シンプル、平行六面体、およびプリズムの順番「K」のニュートン・コーツ積分は、「IM_NC（N、K）」、「IM_NC_PARALLELEPIPED（N、K）」、「IM_NC_PRISM（"
 " N、K） \"\"とする。\n"
 
 # 4c63cb8cec724b7495e087324f5965f0
 #: ../source/userdoc/appendixB.rst:70
 msgid "Gauss Integration methods on dimension 1"
-msgstr "Gauss次元1の統合方法\n"
+msgstr "Gauss次元1の積分方法\n"
 
 # 2b6aea8dc9d6413b958afb2dd324dc46
 #: ../source/userdoc/appendixB.rst:72
@@ -178,8 +178,8 @@ msgid ""
 "with ``\"FEM_PK_GAUSSLOBATTO1D(K/2)\"`` to perform mass-lumping."
 msgstr ""
 "Gauss-Legendreの「K」（K / 2 + 1点）の部分には、「IM_GAUSS1D（K）」「 ``」と表示されます。 Gauss-"
-"Lobatto-Legendreの統合は、 `` K / 2 + 1``点を持つ `` K``の部分に、 `` IM_GAUSSLOBATTO1D（K）"
-" '``と表示されます。これは `` K``の奇数値に対してのみ利用可能です。 Gauss-Lobattoの統合方法は、 \"\" "
+"Lobatto-Legendreの積分は、 `` K / 2 + 1``点を持つ `` K``の部分に、 `` IM_GAUSSLOBATTO1D（K）"
+" '``と表示されます。これは `` K``の奇数値に対してのみ利用可能です。 Gauss-Lobattoの積分方法は、 \"\" "
 "\"FEM_PK_GAUSSLOBATTO1D（K / 2）\" ``と一緒に使用して一括処理を実行できます。\n"
 
 # 52f43dda3f29473abf0f32665493287d
@@ -193,7 +193,7 @@ msgstr "ガウスの次元2の積分方法\n"
 # dad43628c36243bdb3e788db10200e58
 #: ../source/userdoc/appendixB.rst
 msgid "Integration methods on dimension 2"
-msgstr "次元2の統合メソッド\n"
+msgstr "次元2の積分メソッド\n"
 
 # a870a2771dd541a78c2a2cab0b3fcc38
 # 6fc948edbe2a43c792326ae8b3b07ecd
@@ -805,18 +805,18 @@ msgstr ""
 "**重要な注記：** `` IM_QUAD（k） ``は多項式の次数：math： `k`に対して厳密であり、a：math：` "
 "Q_k`多項式の次数を持つことを忘れないでください：math： `2 * k`。例えば、 `` IM_QUAD（7） ``は、2つの積：math： "
 "`Q_ {2}`多項式を正確に積分することはできません。一方、 `` IM_GAUSS_PARALLELEPIPED（2,4） "
-"``は、その製品を正確に統合することができます...\n"
+"``は、その製品を正確に積分することができます...\n"
 
 # b74f6dbab9a043378f377dca5e683ede
 #: ../source/userdoc/appendixB.rst:463
 msgid "Gauss Integration methods on dimension 3"
-msgstr "Gauss次元3の統合方法\n"
+msgstr "Gauss次元3の積分方法\n"
 
 # 73fd952c30084d08ba3df3427aff6a2f
 # 5cc5e54dc90342ce96e5737b5e6f2259
 #: ../source/userdoc/appendixB.rst
 msgid "Integration methods on dimension 3"
-msgstr "次元3の統合メソッド\n"
+msgstr "次元3の積分メソッド\n"
 
 # a4f7069c386d4d998b977f8e16da40fc
 # 57cc2da4b17b4ac3a0680884cdb95b83
@@ -1207,7 +1207,7 @@ msgstr "145\n"
 # c36bad715bc74a17bb5ee5f4120348f3
 #: ../source/userdoc/appendixB.rst:663
 msgid "Direct product of integration methods"
-msgstr "統合方法の直接的な製品\n"
+msgstr "積分方法の直接的な製品\n"
 
 # 0a0d2ed89fc748dea964bf5654e004ce
 #: ../source/userdoc/appendixB.rst:665
@@ -1219,14 +1219,14 @@ msgid ""
 "of the ``\"IM_QUAD\"`` integrations."
 msgstr ""
 "`` IM_PRODUCT（IM1、IM2） `` "
-"`を使って、四辺形やプリズムの積分方法を作ることができます。これは、2つの統合方法の直接的な積を与えます。 "
+"`を使って、四辺形やプリズムの積分方法を作ることができます。これは、2つの積分方法の直接的な積を与えます。 "
 "IM_GAUSS1D（2、k）、IM_GAUSS1D（2、k）） \"` `の別名であり、` `` `の代わりに使用することができます。例えば、` "
-"`IM_GAUSS_PARALLELEPIPED（2、k） IM_QUAD \"\"の統合。\n"
+"`IM_GAUSS_PARALLELEPIPED（2、k） IM_QUAD \"\"の積分。\n"
 
 # cc0540036c74429db4f60860c5c43946
 #: ../source/userdoc/appendixB.rst:672
 msgid "Specific integration methods"
-msgstr "具体的な統合方法\n"
+msgstr "具体的な積分方法\n"
 
 # 2f23e9d50dc84384a844f0f0f3880111
 #: ../source/userdoc/appendixB.rst:674
@@ -1244,7 +1244,7 @@ msgstr ""
 # 361c048d5fb74fff92ebb86addf1f64c
 #: ../source/userdoc/appendixB.rst:677
 msgid "Composite integration methods"
-msgstr "コンポジット統合メソッド\n"
+msgstr "コンポジット積分メソッド\n"
 
 # 8101324450d848e8843bfac6941e5afb
 #: ../source/userdoc/appendixB.rst:684
@@ -1275,7 +1275,7 @@ msgid ""
 "triangles)."
 msgstr ""
 "HCT要素については、 \"IM_HCT_COMPOSITE（im）\" "
-"\"複合統合（元の三角形を3つの三角形に分割する）を使用することをお勧めします。\n"
+"\"複合積分（元の三角形を3つの三角形に分割する）を使用することをお勧めします。\n"
 
 # de21664d59ad464e914ea6cb00a00a4b
 #: ../source/userdoc/appendixB.rst:697

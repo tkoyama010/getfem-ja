@@ -201,7 +201,7 @@ msgstr ""
 msgid ""
 "Interpolation on an im_data object (on the Gauss points of an integration "
 "method)::"
-msgstr "im_dataオブジェクトの補間（統合メソッドのGauss点で）::\n"
+msgstr "im_dataオブジェクトの補間（積分メソッドのGauss点で）::\n"
 
 # 9ca56a4e7a9942b894cef118782223b3
 #: ../source/userdoc/interMM.rst:86
@@ -213,6 +213,6 @@ msgid ""
 "the interpolation is stored and ``rg`` is the optional mesh region."
 msgstr ""
 "ここで `` md``は `` getfem :: model``オブジェクト（変数とデータを含んでいます）、 `` expr``（std :: "
-"stringオブジェクト）は補間される式、 `` imd``は統合メソッド（file： `getfem / "
+"stringオブジェクト）は補間される式、 `` imd``は積分メソッド（file： `getfem / "
 "getfem_im_data.h`参照）を参照する` `getfem :: im_data``オブジェクト、` "
 "`result``は補間が格納されているベクトル、` `rg``オプションのメッシュ領域です。\n"

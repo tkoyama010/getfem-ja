@@ -993,7 +993,7 @@ msgstr ""
 msgid ""
 "``mim`` represents of course the integration method. Note that it should be "
 "accurate enough to integrate efficiently the nonlinear terms involved."
-msgstr "「ミム」はもちろん統合方法を表します。それは、関係する非線形項を効率的に統合するのに十分正確でなければならないことに注意してください。\n"
+msgstr "「ミム」はもちろん積分方法を表します。それは、関係する非線形項を効率的に積分するのに十分正確でなければならないことに注意してください。\n"
 
 # fdba9434d16a4865b852e354181e0986
 #: ../source/userdoc/model_contact_friction.rst:545
@@ -1062,7 +1062,7 @@ msgid ""
 msgstr ""
 "`` dataname_alpha``と `` dataname_wt``は、進化的摩擦の問題を解決するためのオプションのパラメータです。 `` "
 "dataname_gamma``と `` dataname_vt``は、摩擦条件にパラメータ依存滑り速度を加えるためのオプションのデータを示します。 "
-"「ミム」はもちろん統合方法を表します。それは、関係する非線形項を効率的に統合するのに十分正確でなければならないことに注意してください。\n"
+"「ミム」はもちろん積分方法を表します。それは、関係する非線形項を効率的に積分するのに十分正確でなければならないことに注意してください。\n"
 
 # 642fb33721474130aa952649c7b7db49
 #: ../source/userdoc/model_contact_friction.rst:592
@@ -1146,7 +1146,7 @@ msgstr ""
 "Curnier法の場合は3、新しい非対称法の場合は4である。デフォルト値は1です。 `` dataname_alpha``、 `` "
 "dataname_wt1``、 `` dataname_wt2``は、進化的摩擦の問題を解決するためのオプションのパラメータです。 `` mim``は "
 "`` "
-"varname_u1``と同じメッシュ上での積分方法を表します。それは、関係する非線形項を効率的に統合するのに十分正確でなければならないことに注意してください。\n"
+"varname_u1``と同じメッシュ上での積分方法を表します。それは、関係する非線形項を効率的に積分するのに十分正確でなければならないことに注意してください。\n"
 
 # 85759e809c944e6d8d0c590519c3a509
 #: ../source/userdoc/model_contact_friction.rst:667
@@ -1286,7 +1286,7 @@ msgstr ""
 "lambda``だけシフトします（対応する拡張ラグランジアン式に対するUzawaアルゴリズムの使用が可能になります） `` "
 "dataname_alpha``、 `` dataname_wt1``、 `` "
 "dataname_wt2``は、進化的摩擦の問題を解決するためのオプションのパラメータです。 `` mim``は `` "
-"varname_u1``と同じメッシュ上での積分方法を表します。それは、関係する非線形項を効率的に統合するのに十分正確でなければならないことに注意してください。\n"
+"varname_u1``と同じメッシュ上での積分方法を表します。それは、関係する非線形項を効率的に積分するのに十分正確でなければならないことに注意してください。\n"
 
 # 56b90f857f324c2f88c3daf3194d8800
 #: ../source/userdoc/model_contact_friction.rst:7

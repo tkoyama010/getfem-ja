@@ -59,7 +59,7 @@ msgid ""
 "use: a |mim| object which holds the integration methods, two |mf| objects, "
 "the input data ``F``, and the destination vector ``B``."
 msgstr ""
-"最初の命令はオブジェクトを宣言し、使用するデータを設定します：a | mim |統合メソッドを保持するオブジェクト、2つの| mf "
+"最初の命令はオブジェクトを宣言し、使用するデータを設定します：a | mim |積分メソッドを保持するオブジェクト、2つの| mf "
 "|オブジェクト、入力データ「F」、および宛先ベクトル「B」を含む。\n"
 
 # fc736824d6c64ee0b5054346126642ff
@@ -123,8 +123,8 @@ msgid ""
 "``comp(\\%2, Base(#1).Grad(#2))`` will use the second |mim| object (New in "
 "getfem++-2.0)."
 msgstr ""
-"`` comp（Base（＃1）.Base（＃2）） ``の内部で使用される統合方法は `` mim``からとられています。別の| mim "
-"|から統合メソッドを使用する必要がある場合は、例えば、 `` comp（\\％2、Base（＃1）.Grad（＃2）） ``のように `` "
+"`` comp（Base（＃1）.Base（＃2）） ``の内部で使用される積分方法は `` mim``からとられています。別の| mim "
+"|から積分メソッドを使用する必要がある場合は、例えば、 `` comp（\\％2、Base（＃1）.Grad（＃2）） ``のように `` "
 "comp``の最初の引数として指定することができます。オブジェクト（getfem ++  -  2.0の新機能）。\n"
 
 # a0314a1793b3428fb6dddfc142c9dab5

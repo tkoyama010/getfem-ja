@@ -322,7 +322,7 @@ msgid ""
 "friction reads as:"
 msgstr ""
 "これを使って、摺動速度を次のように近似することを考えてみましょう：math： `\\ alpha`と：math：` w_ {_ T} "
-"`使用されている時間統合スキーム（ref：` "
+"`使用されている時間積分スキーム（ref：` "
 "weak_integral_contact_section`参照）に依存して、Nitscheの摩擦接触の用語は以下のようになります：\n"
 
 # cd26f39901164ce281efdfaac88a6e64

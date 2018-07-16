@@ -29,7 +29,7 @@ msgid ""
 "Explicit means that no integration is done. if :math:`U` is a variable then "
 "a constraint of the type"
 msgstr ""
-"制約ブリックでは、変数に明示的な制約を追加できます。明示的とは、統合が行われていないことを意味します。 if：math： "
+"制約ブリックでは、変数に明示的な制約を追加できます。明示的とは、積分が行われていないことを意味します。 if：math： "
 "`U`は変数で、型の制約です\n"
 
 # 29e07fb37b5c4637b52567e201c9e8aa

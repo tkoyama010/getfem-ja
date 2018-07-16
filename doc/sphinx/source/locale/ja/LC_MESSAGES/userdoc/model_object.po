@@ -418,7 +418,7 @@ msgstr ""
 "asm_real_tangent_terms``メソッドは、タンジェントシステムのアセンブリのためのモデルオブジェクトによって呼び出されます。モデルオブジェクトは、ブリックにフレームワーク全体を渡して、その用語を構築します。"
 " `` asm_real_tangent_terms``メソッドのパラメータ `` md``は、要素を呼び出すモデルであり、 `` "
 "ib``はモデルの要素数です。パラメータ `` varl``は、このモデルで定義され、要素で必要とされる変数/データ名の配列です。 `` "
-"mims``は| mim |の配列です。ポインタ。これは、用語を組み立てるために必要な統合方法に対応します。 `` "
+"mims``は| mim |の配列です。ポインタ。これは、用語を組み立てるために必要な積分方法に対応します。 `` "
 "matl``は、計算される行列の配列です。 `` vecl``は、計算されるベクトルの配列です（rhsまたは残余ベクトル）。 `` "
 "vecl_sym``は、対称項に対してのみ計算され、第2の変数のrhsに対応するベクトルの配列です。要素は任意の数の用語を持つことができます。それぞれの用語について、少なくとも対応する行列または対応するベクトルは満たされなければならない（または2つの両方であるが、非線形の場合のみ、以下の用語の説明、次のセクションを参照）。"
 " `` region``は、特定の地域に用語を組み立てなければならないことを示すメッシュ領域番号です。 `` "
@@ -438,7 +438,7 @@ msgid ""
 "integration methods (1), variables(1), data(0) are passed to the "
 "``asm_real_tangent_terms`` method."
 msgstr ""
-"（1）、統合メソッド（1）、変数（1）、データ（0）が `` "
+"（1）、積分メソッド（1）、変数（1）、データ（0）が `` "
 "asm_real_tangent_terms``メソッドに渡されることを確認するだけです。\n"
 
 # 64c0b7fdeeee4f209825eb3aa4f612c2
@@ -456,7 +456,7 @@ msgid ""
 "takes the |mf| object from the variable on which the Laplacian term will be "
 "added and the |mim| object in the list of integrations methods. Finally, the"
 " lines::"
-msgstr "| mf |ラプラシアン項が追加される変数のオブジェクトと| mim |統合メソッドのリストのオブジェクト最後に、行::\n"
+msgstr "| mf |ラプラシアン項が追加される変数のオブジェクトと| mim |積分メソッドのリストのオブジェクト最後に、行::\n"
 
 # 41d747124b6f48c485a07f754e40dc67
 #: ../source/userdoc/model_object.rst:305
@@ -479,7 +479,7 @@ msgid ""
 "filled but not both the two. Depending on the declaration of the term. See "
 "below the integration of the brick to the model."
 msgstr ""
-"この単純な要素は項が1つしかなく、線形であることに注意してください。線形バークの場合、行列または右辺のベクトルのどちらか一方を埋める必要がありますが、両方を埋める必要はありません。用語の宣言に応じて。モデルにブリックを統合する方法は以下を参照してください。\n"
+"この単純な要素は項が1つしかなく、線形であることに注意してください。線形バークの場合、行列または右辺のベクトルのどちらか一方を埋める必要がありますが、両方を埋める必要はありません。用語の宣言に応じて。モデルにブリックを積分する方法は以下を参照してください。\n"
 
 # 705f4f67e9e64a38a4aee7605c23b919
 #: ../source/userdoc/model_object.rst:315
@@ -597,7 +597,7 @@ msgstr "用語の説明の説明。\n"
 # 0a1d5239a9d4405e81bafe266abeef41
 #: ../source/userdoc/model_object.rst:426
 msgid "A list of integration methods."
-msgstr "統合方法のリスト。\n"
+msgstr "積分方法のリスト。\n"
 
 # a0247726e37f4c29b43c5ac82ee140e1
 #: ../source/userdoc/model_object.rst:427
@@ -642,7 +642,7 @@ msgstr ""
 "この関数はあなたの要素のユーザーによって呼び出されます。 `` getfem :: model :: varnamelist``型は `` std "
 ":: vector <std :: string> ``であり、変数名の配列を表します。 `` getfem :: model :: "
 "mimlist``型は `` std :: vector <const getfem :: mesh_im *> "
-"``であり、統合メソッドへのポインタの配列を表します。タイプ `` getfem :: model :: "
+"``であり、積分メソッドへのポインタの配列を表します。タイプ `` getfem :: model :: "
 "termlist``は、用語の記述の配列です。用語には2種類あります。リニア（接線）システムに右辺のみを追加するという用語は、次のようにリストに追加する必要があります。\n"
 
 # 57ce0d84952c43819b532d4002f00b90

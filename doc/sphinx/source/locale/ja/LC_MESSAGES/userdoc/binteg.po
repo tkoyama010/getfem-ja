@@ -66,7 +66,7 @@ msgstr "特定の要素に対して特定の積分法を選択するには、以
 msgid ""
 "where ``i`` is the index of the element and ``ppi`` is the descriptor of the"
 " integration method. Alternative forms of this member function are::"
-msgstr "ここで、 ``i`` は要素のインデックスであり ``ppi`` は統合方法の記述子です。 このメンバ関数の代わりの形式は ::"
+msgstr "ここで、 ``i`` は要素のインデックスであり ``ppi`` は積分方法の記述子です。 このメンバ関数の代わりの形式は ::"
 
 # 3abec7780a1e4a798d0f4f1b597cacc3
 #: ../source/userdoc/binteg.rst:37
@@ -83,7 +83,7 @@ msgid ""
 " available thanks to the following function::"
 msgstr ""
 "積分法のすべての利用可能な記述子のリストはファイル ：file：`getfem/getfem_integration.h` にあります。 "
-"統合メソッドの記述子は次の関数によって利用可能です::"
+"積分メソッドの記述子は次の関数によって利用可能です::"
 
 # 3b71c697741e4beca73d15bb5897557e
 #: ../source/userdoc/binteg.rst:46

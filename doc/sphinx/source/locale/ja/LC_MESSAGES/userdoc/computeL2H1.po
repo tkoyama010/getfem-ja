@@ -41,7 +41,7 @@ msgid ""
 "``mf`` and ``region`` is an optional parameter which specify the mesh region"
 " on which the norm is computed. The size of ``U`` should be ``mf.nb_dof()``."
 msgstr ""
-"ここで `` mim``は| gf_mim |統合のために使われ、 `` mf``は| gf_mf "
+"ここで `` mim``は| gf_mim |積分のために使われ、 `` mf``は| gf_mf "
 "|です。解が定義される有限要素法を記述する。「U」は解の各自由度「mf」上の値のベクトルであり、「region」は任意のパラメータである。ノルムが計算されるメッシュ領域。"
 " `` U``のサイズは `` mf.nb_dof（） ``でなければなりません。\n"
 

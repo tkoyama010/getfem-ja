@@ -1294,7 +1294,7 @@ msgstr "区分的\n"
 # 5f3a30be87a141209234e3a8a8df3051
 #: ../source/userdoc/appendixA.rst:561 ../source/userdoc/appendixA.rst:621
 msgid "It is important to use a corresponding composite integration method."
-msgstr "対応する複合統合方法を使用することが重要です。\n"
+msgstr "対応する複合積分方法を使用することが重要です。\n"
 
 # 930717edb5a141e6a4761d18b11f2812
 #: ../source/userdoc/appendixA.rst:565
@@ -1932,7 +1932,7 @@ msgid ""
 msgstr ""
 "この要素は：math： `\\ tau`と等価ではありません。これは複合要素です。 3つのサブ三角形のそれぞれについて度3の多項式（図：ref： "
 "`ud-fig-HCT_tr`と[ciarlet1978] _を参照）。この有限要素との `` IM_HCT_COMPOSITE `` "
-"`統合メソッドを使うことを強くお勧めします。 "
+"`積分メソッドを使うことを強くお勧めします。 "
 "dofの数値は次のとおりです。最初の2番目と3番目の頂点のラグランジュdofは0,3,6です。第1の変数に対する導関数の第1、第4、第7、第2の変数に対する導関数は2,5,8であり、面0,1,2のそれぞれの正規導関数については9,10,11である。\n"
 
 # 23c24c8daec14e2c96b0d8e9f2ba3b0a
@@ -1997,7 +1997,7 @@ msgstr ""
 "この要素は：math： `\\ tau`と等価ではありません。これは複合要素です。 4つのサブ三角形のそれぞれについて度3の多項式（図：ref： "
 "`ud-fig-QC1_tr`を参照）。少なくとも参照要素では、Fraeijs de Veubeke-"
 "Sander要素に対応します（[ciarlet1978] _を参照）。この有限要素で `` IM_QUADC1_COMPOSITE `` "
-"`の統合メソッドを使うことを強く勧めます。\n"
+"`の積分メソッドを使うことを強く勧めます。\n"
 
 # 88553e008ef447acaf835e7cc3482542
 #: ../source/userdoc/appendixA.rst

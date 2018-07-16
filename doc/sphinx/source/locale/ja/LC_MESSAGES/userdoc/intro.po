@@ -45,7 +45,7 @@ msgid ""
 " element code of technical difficulties of elementary computations."
 msgstr ""
 "このライブラリでは、積分法（厳密または近似）、幾何変換（線形または非線形）、および任意の次元の有限要素法が完全に分離されています。 "
-"それにより、基本な計算が技術的に困難なより統合された有限要素法コーディングを楽にすることができます。"
+"それにより、基本な計算が技術的に困難なより積分された有限要素法コーディングを楽にすることができます。"
 
 # 023c3d27727c42d1903a2b9eb7b5f0ed
 #: ../source/userdoc/intro.rst:25

@@ -85,7 +85,7 @@ msgstr "`` SM``は、正しい次元（つまり、 `` mfu.nb_dof（） ``を持
 #: ../source/userdoc/asm.rst:46
 msgid ""
 "``mim`` is a variable of type |gf_mim| defining the integration method used,"
-msgstr "`` mim``はタイプの変数です| gf_mim |使用される統合方法を定義し、\n"
+msgstr "`` mim``はタイプの変数です| gf_mim |使用される積分方法を定義し、\n"
 
 # a08c6ba7aaed40148a36b04b624b913f
 #: ../source/userdoc/asm.rst:48
@@ -159,7 +159,7 @@ msgid ""
 "degree of freedom of ``mfd``."
 msgstr ""
 "`` B``は正しい次元（まだ `` mfu.nb_dof（） ``）を持つ型のベクトルで、 `` mim``は型の変数です| gf_mim "
-"|使用される統合方法を定義する、 `` mfd``はタイプの変数です| gf_mf | math： `f（x）`が定義され、 `` "
+"|使用される積分方法を定義する、 `` mfd``はタイプの変数です| gf_mf | math： `f（x）`が定義され、 `` "
 "V``が以下の値のベクトルである有限要素法を記述する（おそらく `` mfu``に等しい） `` mfd``のそれぞれの自由度に基づいています。\n"
 
 # 60b3346d36c04562b996890f2c27dd4a
@@ -323,7 +323,7 @@ msgid ""
 "``mfd``."
 msgstr ""
 "`` SM``は、適切な次元を持つ任意の型の行列です（ここでは `` mfu.nb_dof（） ``）、 `` mim``は型の変数です| gf_mim"
-" |使用される統合方法を定義する、 `` mfu``はタイプの変数です| gf_mf |解の有限要素法を定義する必要があります。 `` "
+" |使用される積分方法を定義する、 `` mfu``はタイプの変数です| gf_mf |解の有限要素法を定義する必要があります。 `` "
 "mfd``はタイプの変数です| gf_mf | Lamé係数が定義されている有限要素法を記述する（おそらくは `` mfu``に等しい）、 `` "
 "LAMBDA``と `` MU``はそれぞれ ``の自由度に関するLamé係数の値のベクトルです。 mfd``。\n"
 
