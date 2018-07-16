@@ -107,7 +107,7 @@ msgid ""
 "Let us recall that all finite element methods defined in |gf| are declared "
 "in the file ``getfem_fem.h`` and that a descriptor on a finite element "
 "method is obtained thanks to the function::"
-msgstr "| gf |で定義されているすべての有限要素法は、 `` getfem_fem.h``ファイルで宣言され、有限要素法の記述子は関数::\n"
+msgstr "|gf| で定義されているすべての有限要素法は、 `` getfem_fem.h``ファイルで宣言され、有限要素法の記述子は関数::\n"
 
 # 03b11f18255a43c6ab947a04e7c4721c
 #: ../source/userdoc/appendixA.rst:86
@@ -204,7 +204,7 @@ msgid ""
 "figures :ref:`segment<ud-fig-segmentpk>`, :ref:`triangle<ud-fig-trianglepk>`"
 " and :ref:`tetrahedron<ud-fig-tetrahedronpk>`. Using another numeration, let"
 msgstr ""
-"| gf |で使われる特定の方法節点を数値化するためには、ref： `segment <ud-fig-segmentpk>`、：ref： "
+"|gf| で使われる特定の方法節点を数値化するためには、ref： `segment <ud-fig-segmentpk>`、：ref： "
 "`triangle <ud-fig-trianglepk>`と：ref： `tetrahedron <ud-fig-tetrahedronpk> "
 "。別の数字を使ってlet\n"
 
@@ -2054,7 +2054,7 @@ msgid ""
 " Lagrange fem on the triangular faces and to a standard :math:`Q_1` or "
 ":math:`Q_2` Lagrange fem on the quatrilateral face."
 msgstr ""
-"| gf | [GR-GH1999] _および[BE-CO-DU2010] "
+"|gf|  [GR-GH1999] _および[BE-CO-DU2010] "
 "_に基づいて、度0,1および2のいくつかのラグランジュピラミッド要素を提案する。詳細については、これらの参考文献を参照してください。提案された要素は、三角形面の標準：数学："
 " `P_1`または :math:` P_2` ラグランジェフェムトと標準 :math:`Q_1` または：四則：Q_2`四角形面上のラグランジュfem 。\n"
 

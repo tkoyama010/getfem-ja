@@ -60,7 +60,7 @@ msgid ""
 "when calculating tangents, for example, we shall use the following weighted "
 "scalar product and norm:"
 msgstr ""
-"| gf |には、piecewise：math： `C ^ {1}`（：math： `PC ^ "
+"|gf| には、piecewise：math： `C ^ {1}`（：math： `PC ^ "
 "{1}`）の解曲線の継承手法が実装されています（詳細は[Li-Re2014]を参照）。状態変数：math： `U`とパラメータ：math：` \\ "
 "lambda`との間に明示的な違いがないので、簡潔にするため、math： `Y：=（U、\\ "
 "lambda）`と表記します。それにもかかわらず、例えば、接線を計算する際のスケーリングが悪くなるのを避けるために、以下の加重スカラ積とノルムを使用します。\n"
@@ -277,7 +277,7 @@ msgstr "この近似を使って、予測子を次のように再始動します
 msgid ""
 "In |gf|, the continuation is implemented for two ways of parametrisation of "
 "the model:"
-msgstr "| gf |では、モデル化の2つの方法のために継続が実装されています。\n"
+msgstr "|gf| では、モデル化の2つの方法のために継続が実装されています。\n"
 
 # d2441b95a0d1430db590501e9c39d3b8
 #: ../source/userdoc/model_continuation.rst:175
@@ -444,7 +444,7 @@ msgid ""
 " in |gf|. Let :math:`J` be a matrix function of a real parameter now defined"
 " by"
 msgstr ""
-"最近では、数学： `PC ^ {1}`分岐のためのツールが| gf |で開発されました。 let：math： "
+"最近では、数学： `PC ^ {1}`分岐のためのツールが |gf| で開発されました。 let：math： "
 "`J`は、で定義された実パラメータの行列関数となります。\n"
 
 # cf544686614d471f8f0ee04550ba1244

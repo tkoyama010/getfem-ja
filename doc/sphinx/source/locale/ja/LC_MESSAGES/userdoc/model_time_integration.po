@@ -472,7 +472,7 @@ msgstr "::\n"
 msgid ""
 "Similarly, every existing model brick of |gf| can be applied to \"Dot_u\". "
 "This is the case for instance with::"
-msgstr "同様に、| gf | \"Dot_u\"に適用できます。たとえば、次のような場合です。::\n"
+msgstr "同様に、 |gf|  \"Dot_u\"に適用できます。たとえば、次のような場合です。::\n"
 
 # 2ed9ce54e7e94ca78be7c3583e2cbee5
 #: ../source/userdoc/model_time_integration.rst:246

@@ -20,7 +20,7 @@ msgstr ""
 # 660072ae5a6c4c559d1fae03dfe32c75
 #: ../source/userdoc/iinteg.rst:10
 msgid "Incorporate new approximated integration methods in |gf|"
-msgstr "| gf |に新しい近似積分法を組み込む\n"
+msgstr "|gf| に新しい近似積分法を組み込む\n"
 
 # 6c6fdb37d1844e87a3e5c0cafdeaff10
 #: ../source/userdoc/iinteg.rst:12
@@ -45,7 +45,7 @@ msgid ""
 "definitions include a symmetry definition such that the total number of "
 "integration nodes would be greater than ``NBPT``."
 msgstr ""
-"ここで、 `` NAME``は、| gf |のメソッド名です。 （定数整数パラメータが許される）、 `` N``は次元、 `` GEOTRANS``は|"
+"ここで、 `` NAME``は、 |gf| のメソッド名です。 （定数整数パラメータが許される）、 `` N``は次元、 `` GEOTRANS``は|"
 " gf |の有効な幾何変換を記述します。この幾何学変換は、積分法が記述されている基準要素を定義するだけです。 `` "
 "NBPT``は、統合節点定義の数です。統合節点定義には、統合節点の総数が「NBPT」より大きい対称定義が含まれています。\n"
 

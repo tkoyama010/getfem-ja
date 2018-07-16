@@ -509,7 +509,7 @@ msgid ""
 "supports a more generic friction law description:"
 msgstr ""
 "純粋なクーロン摩擦とは別に、次のようになります。数学： `\\ rho = {\\ mathscr F} \\ left | \\ sigma_n \\"
-" right | `、弱い積分連絡先フレームワーク| gf |より一般的な摩擦法の記述もサポートしています。\n"
+" right | `、弱い積分連絡先フレームワーク |gf| より一般的な摩擦法の記述もサポートしています。\n"
 
 # cf3d19e2f14c4ce79eb1c719fd704769
 #: ../source/userdoc/model_contact_friction.rst:288

@@ -264,7 +264,7 @@ msgid ""
 "``Reshape(t, i, j, ...)``: Reshape a vector/matrix/tensor. Note that all "
 "tensors in |gf| are stored in the Fortran order."
 msgstr ""
-"`` Reshape（t、i、j、...） ``：ベクトル/行列/テンソルを変形します。 | gf |のすべてのテンソルは、 "
+"`` Reshape（t、i、j、...） ``：ベクトル/行列/テンソルを変形します。  |gf| のすべてのテンソルは、 "
 "Fortranの順序で格納されます。\n"
 
 # 88834a48b3294a0789a4c5927618b2d1
@@ -1956,7 +1956,7 @@ msgid ""
 "nonlinear operators are supposed to provide only first and second order "
 "derivatives."
 msgstr ""
-"それは可能な限り計算されます。制限は、| gf |形状関数の2次微分に限定され、非線形演算子は1次微分と2次微分のみを提供すると考えられている。\n"
+"それは可能な限り計算されます。制限は、 |gf| 形状関数の2次微分に限定され、非線形演算子は1次微分と2次微分のみを提供すると考えられている。\n"
 
 # 6cf623aa60da4573adb6dea0653db6e2
 #: ../source/userdoc/gasm_high.rst:700
@@ -2327,7 +2327,7 @@ msgid ""
 msgstr ""
 "`` model``または `` workspace``はセカンダリドメインを宣言しなければならないモデルまたはワークスペースで、 `` "
 "domain_name``はメッシュ領域と統合メソッドとともにこのドメインを識別する文字列です。積分法を「ミム（mim）」、メッシュ領域を「領域（region）」と呼ぶ。これらの標準的なセカンダリドメインでは、プライマリドメインの各要素について領域全体で統合が行われることに注意してください。プライマリドメインの要素に関して必要な要素への統合を制限する特定のセカンダリドメインを実装することは興味深いことです。"
-" | gf |の中で構造体はこれ専用です。\n"
+"  |gf| の中で構造体はこれ専用です。\n"
 
 # e4721341dba844fea2a567f0038208fe
 #: ../source/userdoc/gasm_high.rst:873

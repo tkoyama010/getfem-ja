@@ -184,7 +184,7 @@ msgstr ""
 msgid ""
 "|gf| bricks for structural mecanics are mainly considering the displacement "
 "as the amin unknown. The expression for the displacement is the following:"
-msgstr "| gf |構造的なメカニックスのための要素は、主に、未知のアミンとしての変位を考慮している。変位の式は次のとおりです。\n"
+msgstr "|gf| 構造的なメカニックスのための要素は、主に、未知のアミンとしての変位を考慮している。変位の式は次のとおりです。\n"
 
 # 591263c2bc754eefa6cafaed6851cb67
 # a73e084d4aa64bb99e433f26660bde55
