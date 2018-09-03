@@ -229,6 +229,11 @@ source_file = locale/userdoc/model_object.pot
 source_lang = en
 type = PO
 
+[getfem-53-1.userdoc--model_continuation]
+file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_continuation.po
+source_file = locale/userdoc/model_continuation.pot
+source_lang = en
+type = PO
 
 [getfem-53-1.userdoc--install]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/install.po
