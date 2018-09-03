@@ -112,6 +112,10 @@ type = PO
 [getfem-53-1.userdoc--model_contact_friction]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_contact_friction.po
 source_file = locale/userdoc/model_contact_friction.pot
+
+[getfem-53-1.userdoc--model_plasticity_small_strain]
+file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_plasticity_small_strain.po
+source_file = locale/userdoc/model_plasticity_small_strain.pot
 source_lang = en
 type = PO
 
