@@ -25,6 +25,12 @@ source_file = locale/userdoc/model_Mindlin_plate.pot
 source_lang = en
 type = PO
 
+[getfem-53-1.userdoc--model_nonlinear_elasticity]
+file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_nonlinear_elasticity.po
+source_file = locale/userdoc/model_nonlinear_elasticity.pot
+source_lang = en
+type = PO
+
 [getfem-53-1.userdoc--model_bilaplacian]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_bilaplacian.po
 source_file = locale/userdoc/model_bilaplacian.pot
