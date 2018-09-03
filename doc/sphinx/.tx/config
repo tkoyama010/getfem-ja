@@ -55,6 +55,12 @@ source_file = locale/userdoc/interMM.pot
 source_lang = en
 type = PO
 
+[getfem-53-1.userdoc--model_ALE_rotating]
+file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_ALE_rotating.po
+source_file = locale/userdoc/model_ALE_rotating.pot
+source_lang = en
+type = PO
+
 [getfem-53-1.userdoc--model_linear_elasticity]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_linear_elasticity.po
 source_file = locale/userdoc/model_linear_elasticity.pot
