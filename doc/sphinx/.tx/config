@@ -19,6 +19,12 @@ source_file = locale/userdoc/model_contact_friction_large_sliding.pot
 source_lang = en
 type = PO
 
+[getfem-53-1.userdoc--appendixB]
+file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/appendixB.po
+source_file = locale/userdoc/appendixB.pot
+source_lang = en
+type = PO
+
 [getfem-53-1.userdoc--model_Mindlin_plate]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_Mindlin_plate.po
 source_file = locale/userdoc/model_Mindlin_plate.pot
