@@ -209,6 +209,12 @@ source_file = locale/userdoc/model_constraint.pot
 source_lang = en
 type = PO
 
+[getfem-53-1.userdoc--appendixA]
+file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/appendixA.po
+source_file = locale/userdoc/appendixA.pot
+source_lang = en
+type = PO
+
 [getfem-53-1.userdoc--model_generic_elliptic]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_generic_elliptic.po
 source_file = locale/userdoc/model_generic_elliptic.pot
