@@ -114,7 +114,7 @@ htmlhelp: build
 latex: BUILDER = latex
 latex: build
 	perl -p -i -e 's/User Documentation/ユーザーマニュアル/g' ./build/latex/*.tex
-	perl -p -i -e 's/Tetsuo Koyama/著\\\\ Tetsuo Koyama訳/g' ./build/latex/*.tex
+	perl -p -i -e 's/Tetsuo Koyama/(著者)\\\\ Tetsuo Koyama(翻訳者)/g' ./build/latex/*.tex
 	@echo "Build finished; the LaTeX files are in build/latex."
 	@echo "Run \`make all-pdf-ja' in that directory to" \
 	      "run these through (pdf)latex."
