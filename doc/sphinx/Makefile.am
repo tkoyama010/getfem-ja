@@ -121,7 +121,7 @@ latex: build
 
 pdf: BUILDER = latex
 pdf: build
-	(cd build/latex && make all-pdf)
+	(cd build/latex && perl -p -i -e 's/User Documentation/ユーザーマニュアル/g' *.tex && perl -p -i -e 's/Tetsuo Koyama/著\\\\ Tetsuo Koyama訳/g' *.tex && make all-pdf-ja)
 	@echo "Build finished; the pdfLaTeX files are in build/latex."
 
 linkcheck: BUILDER = linkcheck
