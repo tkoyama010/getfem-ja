@@ -3476,7 +3476,7 @@
              sodipodi:role="line"
              x="19.425545"
              y="-70.07972"
-             id="tspan4937-8">Dynamic array library</tspan></text>
+             id="tspan4937-8">動的配列ライブラリ</tspan></text>
       </g>
     </g>
     <g
@@ -3516,11 +3516,11 @@
              sodipodi:role="line"
              id="tspan4935"
              x="19.689045"
-             y="-69.225227">Generic interface for</tspan><tspan
+             y="-69.225227">線形代数の</tspan><tspan
              sodipodi:role="line"
              x="19.689045"
              y="-47.968399"
-             id="tspan4937"> linear algebra methods</tspan></text>
+             id="tspan4937">汎用インターフェース</tspan></text>
       </g>
     </g>
     <g
@@ -3557,11 +3557,11 @@
            id="tspan4937-7"
            y="-73.557632"
            x="508.27124"
-           sodipodi:role="line">Miscellaneous basic</tspan><tspan
+           sodipodi:role="line">その他の基本的な</tspan><tspan
            y="-52.038418"
            x="508.27124"
            sodipodi:role="line"
-           id="tspan5023">algorithms</tspan></text>
+           id="tspan5023">アルゴリズム</tspan></text>
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:5.86499977;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2Mend)"
@@ -3637,7 +3637,7 @@
              sodipodi:role="line"
              id="tspan4923-2-1"
              x="-113.04992"
-             y="-251.24875">Interface with script languages :</tspan><tspan
+             y="-251.24875">スクリプト言語のインターフェース:</tspan><tspan
              id="tspan6758"
              sodipodi:role="line"
              x="-113.04992"
@@ -3653,7 +3653,7 @@
              id="tspan6758-4"
              sodipodi:role="line"
              x="-104.70822"
-             y="-238.45644">Python, Scilab and Matlab and post-treatment facilities</tspan></text>
+             y="-238.45644">Python、Scilab、Matlabおよび後処理機能</tspan></text>
         <rect
            style="fill:none;stroke:#373737;stroke-width:3.72443628;stroke-linejoin:miter;stroke-miterlimit:1.5;stroke-opacity:1;stroke-dasharray:3.72443628, 11.17330884;stroke-dashoffset:0"
            id="rect6848"
@@ -3728,11 +3728,11 @@
            y="-69.225227"
            x="19.689045"
            id="tspan4935-4"
-           sodipodi:role="line">Event management</tspan><tspan
+           sodipodi:role="line">イベント管理</tspan><tspan
            id="tspan4937-2"
            y="-47.968399"
            x="19.689045"
-           sodipodi:role="line">(changes in meshes ...)</tspan></text>
+           sodipodi:role="line">(メッシュの変更 ...)</tspan></text>
     </g>
     <g
        transform="translate(-153.41152,623.44121)"
@@ -3772,15 +3772,15 @@
              y="-80.902344"
              x="1.5129082"
              id="tspan6254"
-             sodipodi:role="line">Continuation</tspan><tspan
+             sodipodi:role="line">数値継続</tspan><tspan
              id="tspan6272"
              y="-59.645515"
              x="1.5129082"
-             sodipodi:role="line">Detect and follow</tspan><tspan
+             sodipodi:role="line">検出して追跡する</tspan><tspan
              id="tspan6274"
              y="-38.388687"
              x="1.5129082"
-             sodipodi:role="line">bifurcations</tspan><tspan
+             sodipodi:role="line">分岐</tspan><tspan
              id="tspan6256"
              y="-17.131859"
              x="1.5129082"
@@ -3848,11 +3848,11 @@
              y="-80.902344"
              x="1.5129082"
              id="tspan6254-1"
-             sodipodi:role="line">Definition,</tspan><tspan
+             sodipodi:role="line">定義,</tspan><tspan
              id="tspan6272-2"
              y="-59.645515"
              x="1.5129082"
-             sodipodi:role="line">cut methods</tspan><tspan
+             sodipodi:role="line">切断法</tspan><tspan
              id="tspan6274-0"
              y="-38.388687"
              x="1.5129082"
