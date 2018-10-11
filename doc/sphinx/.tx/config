@@ -408,3 +408,39 @@ file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/model_explicit.po
 source_file = locale/userdoc/model_explicit.pot
 source_lang = en
 type = PO
+
+[getfem-53-1.tutorial--wheel]
+file_filter = source/locale/<lang>/LC_MESSAGES/tutorial/wheel.po
+source_file = locale/tutorial/wheel.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.tutorial--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/tutorial/index.po
+source_file = locale/tutorial/index.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.tutorial--thermo_coupling]
+file_filter = source/locale/<lang>/LC_MESSAGES/tutorial/thermo_coupling.po
+source_file = locale/tutorial/thermo_coupling.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.tutorial--basic_usage]
+file_filter = source/locale/<lang>/LC_MESSAGES/tutorial/basic_usage.po
+source_file = locale/tutorial/basic_usage.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.tutorial--intro]
+file_filter = source/locale/<lang>/LC_MESSAGES/tutorial/intro.po
+source_file = locale/tutorial/intro.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.tutorial--install]
+file_filter = source/locale/<lang>/LC_MESSAGES/tutorial/install.po
+source_file = locale/tutorial/install.pot
+source_lang = en
+type = PO
