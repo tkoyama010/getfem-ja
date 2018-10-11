@@ -1,6 +1,132 @@
 [main]
 host = https://www.transifex.com
 
+[getfem-53-1.project--libdesc_mesh]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_mesh.po
+source_file = locale/project/libdesc_mesh.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_misc]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_misc.po
+source_file = locale/project/libdesc_misc.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_low_gen_assemb]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_low_gen_assemb.po
+source_file = locale/project/libdesc_low_gen_assemb.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_interface]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_interface.po
+source_file = locale/project/libdesc_interface.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_cont]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_cont.po
+source_file = locale/project/libdesc_cont.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_model]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_model.po
+source_file = locale/project/libdesc_model.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--index]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/index.po
+source_file = locale/project/index.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_event]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_event.po
+source_file = locale/project/libdesc_event.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_dal]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_dal.po
+source_file = locale/project/libdesc_dal.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--femdesc]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/femdesc.po
+source_file = locale/project/femdesc.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_meshfem]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_meshfem.po
+source_file = locale/project/libdesc_meshfem.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_fem]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_fem.po
+source_file = locale/project/libdesc_fem.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--contribute]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/contribute.po
+source_file = locale/project/contribute.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_levelset]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_levelset.po
+source_file = locale/project/libdesc_levelset.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--intro]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/intro.po
+source_file = locale/project/intro.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_gmm]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_gmm.po
+source_file = locale/project/libdesc_gmm.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc.po
+source_file = locale/project/libdesc.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--appendixA]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/appendixA.po
+source_file = locale/project/appendixA.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_im]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_im.po
+source_file = locale/project/libdesc_im.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_high_gen_assemb]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_high_gen_assemb.po
+source_file = locale/project/libdesc_high_gen_assemb.pot
+source_lang = en
+type = PO
+
+[getfem-53-1.project--libdesc_mim]
+file_filter = source/locale/<lang>/LC_MESSAGES/project/libdesc_mim.po
+source_file = locale/project/libdesc_mim.pot
+source_lang = en
+type = PO
+
 [getfem-53-1.userdoc--gasm_high]
 file_filter = source/locale/<lang>/LC_MESSAGES/userdoc/gasm_high.po
 source_file = locale/userdoc/gasm_high.pot
