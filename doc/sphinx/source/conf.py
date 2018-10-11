@@ -266,6 +266,8 @@ latex_documents = [
      'Description of the Project', _stdauthor, 'manual', False),
     ('gmm/index', 'gmm_userdoc.tex',
      'Gmm++ user documentation', 'Yves Renard', 'manual', False),
+    ('tutorial/index', 'getfem_tutorial.tex',
+     'Tutorial', _stdauthor, 'manual', False)
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
